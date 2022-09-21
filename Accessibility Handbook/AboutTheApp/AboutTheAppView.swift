@@ -52,7 +52,7 @@ struct AboutTheAppView: View {
       Comment("And I have sure learned a lot while developing this very own app!")
       Text("It may have some mistakes or misconceptions, so please, consider reporting if you find any of those.")
       Text("I want it to be a reliable tool that can be cosulted during everyday development.")
-      InternalLink(page: CollaborationView().toAny(), title: "Check the Collaboration page to see more ways to report issuees and to help the development!")
+      InternalLink(page: CollaborationView().toAny(), title: "Check the Collaboration page to see more ways to report issues and to help the app's development!")
     }
   }
 }
