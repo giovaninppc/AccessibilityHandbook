@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  Accessibility Handbook
+
+  Created by Giovani Nascimento Pereira on 20/09/22.
+  
+*/
+"title" = "Accessibility Handbook";
+"handbook" = "Handbook";
+
+// How to use
+
+// Element Reading Order
+
+"ElementReadingOrder.title" = "Element reading order";
+
+// Navigation
+
+"Navigation.title" = "Navigation";
+"Navigation.text1" = "The Voice-Over navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.";
+"Navigation.text2" = "Once enabled, the Voice-Over will display a frame on top of the current view that is being read. This frame is called 'Cursor'.";
+"Navigation.text3" = "To navigate basically means changing the cursor's position, so it will read another element.";
+"Navigation.text4" = "The basic navigation can be done swiping horizontally on the screen to move to cursor to the next or previous element.";
+"Navigation.comment" = "This entire app was built to be used with the Voice-Over enabled, the conceptd described on the pages will always be followed by an example so you can try them by yourself!";
+
+// Accessibility Properties
+
+"AccElements.title" = "Accessibility Properties";
+
+// Accessibility Element
+
+"AccElem.title" = "Accessibility Element";
+"AccElem.text1" = "When using the Voice-Over, the cursor will focus on 'accessibile' elements. These elements are identified by having the property accessibility element as 'True'.";
+"AccElem.text2" = "Every element marked with this property 'True' can be focused by the Voice-Over, and the elments with the property 'False' will be ignored.";
+"AccElem.text3" = "Turn the Voice-Over on and navigate through the next elements. Some will not be focused by it.";
+"AccElem.comment" = "It's important to set elements that should not be focused, such as separators or other elements without accessibility labels, to not be focused.";
+"AccElem.comment2" = "This way we prevent empty content, that could confuse the user, to be focused";
+
+"AccElem.example.isAccessibilityElement" = "This is an accessibility element.";
+
+// Accessibility Label
+
+"AccLabel.title" = "Accessibility Label";
+"AccLabel.text1" = "Accessibility labels are the content that is going to be read by the Voice-over when the item is focused.";
+"AccLabel.text2" = "Every element that is focused by the Voice-Over should have an accessibility label.";
+"AccLabel.text3" = "Turn on the Voice-Over and focus on the following element. The content read is it's accessibility label.";
+"AccLabel.image" = "Starry Night, by Vincent Van Gogh. This is an accessibility label!";
+"AccLabel.text4" = "Some components automatically set their accesibility label when created, such as Texts or Buttons, but you can manually set it if necessary.";
+
+// AccessibilityHint
+
+"AccHint.title" = "Accessibility Hint";
+"AccHint.text1" = "Accessibility hints are additional content read at the end. They are always the last content to be read.";
+"AccHint.text2" = "They are used to provide additional information about a focused item so the user can help better understand how it works.";
+"AccHint.text3" = "For instance: You have a cell with a long press gesture (triple tap with a single finger), you may add a hint to tell the user about this additional action.";
+"AccHint.comment" = "Hints should be optional to read. They are left as the last element so they can be skiped if the user already knows what to do.";
+
+"AccHint.example.hint" = "Tap three times to copy the order code.";
+"AccHint.example.title" = "Your order";
+"AccHint.example.message" = "French fries with cheese";
+"AccHint.example.footer" = "#123456";
+"AccHint.example.notification" = "Order code copied to clipboard";
+
+// Actions
+
+"doubleTapToCopy" = "Tap twice to copy";
+"appleDoc" = " See more on Apple's documentation for \"%@\"";
+"nextPage" = "Next page %@";
+"backToIndex" = "Back to Index";

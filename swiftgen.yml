@@ -1,0 +1,12 @@
+strings:
+  inputs: Accessibility Handbook/Strings/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Accessibility Handbook/Strings/Strings.swift
+
+xcassets:
+  inputs:
+    - Accessibility Handbook/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: Accessibility Handbook/UI/Images.swift

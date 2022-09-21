@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Accessibility_HandbookApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        HomeView()
+      }
     }
+  }
 }
