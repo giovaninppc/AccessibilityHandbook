@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct IndexView: View {
+  let sections: SectionProvider
+
   var body: some View {
     ScrollView {
       VStack(alignment: .leading) {
-        ForEach(VoiceOverGuideSections.sections, id: \.id) { section in
+        ForEach(sections.sections, id: \.id) { section in
           Text(section.title)
             .font(.headline)
             .padding(.top, 30.0)
@@ -27,7 +29,7 @@ struct IndexView: View {
         }
       }
     }
-    .navigationTitle("Voice-Over Guide")
+    .navigationTitle(sections.title)
     .toolbar {
       NavigationLink {
         //

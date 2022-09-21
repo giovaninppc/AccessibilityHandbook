@@ -18,25 +18,22 @@ struct HomeView: View {
           homeElement(
             icon: .init(systemName: "text.book.closed.fill"),
             title: "Voice-Over Guide",
-            destination: IndexView().toAny()
+            destination: IndexView(sections: VoiceOverGuideSections()).toAny()
           )
           homeElement(
             icon: .init(systemName: "circle"),
-            title: "Colors",
-            destination: IndexView().toAny()
+            title: "Colors Guide",
+            destination: IndexView(sections: ColorsSection()).toAny()
           )
         }
         HStack {
+          Spacer()
           homeElement(
             icon: .init(systemName: "textformat"),
             title: "Dynamic Fonts",
-            destination: IndexView().toAny()
+            destination: IndexView(sections: DynamicFontSections()).toAny()
           )
-          homeElement(
-            icon: .init(systemName: "circle"),
-            title: "Colors",
-            destination: IndexView().toAny()
-          )
+          Spacer()
         }
         Title("About the app")
         HStack {

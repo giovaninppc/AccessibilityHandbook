@@ -13,7 +13,9 @@ struct GameSuccessView: View {
   var body: some View {
     ZStack(alignment: .center) {
       Rectangle()
+        .foregroundColor(.clear)
         .background(.thinMaterial)
+        .opacity(0.7)
       VStack(spacing: .regular) {
         Text("Success!")
           .font(.title.bold())

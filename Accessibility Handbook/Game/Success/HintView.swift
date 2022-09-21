@@ -15,8 +15,9 @@ struct HintView: View {
   var body: some View {
     ZStack {
       Rectangle()
+        .foregroundColor(.clear)
         .background(.thinMaterial)
-        .opacity(0.5)
+        .opacity(0.7)
       VStack(alignment: .center, spacing: .regular) {
         HStack {
           Button {

@@ -56,6 +56,16 @@
 		3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05B828DB487900DA5BF5 /* AboutTheAppView.swift */; };
 		3FBF05BB28DB48E500DA5BF5 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05BA28DB48E500DA5BF5 /* Title.swift */; };
 		3FBF05BD28DB4A8A00DA5BF5 /* CollaborationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05BC28DB4A8A00DA5BF5 /* CollaborationView.swift */; };
+		3FBF05C128DB4E8B00DA5BF5 /* SectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05C028DB4E8B00DA5BF5 /* SectionProvider.swift */; };
+		3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05C228DB4F2200DA5BF5 /* DynamicFontSections.swift */; };
+		3FBF05C528DB4F3D00DA5BF5 /* ColorsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05C428DB4F3D00DA5BF5 /* ColorsSections.swift */; };
+		3FBF05C928DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05C828DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift */; };
+		3FBF05CC28DB510A00DA5BF5 /* ReduceTransparencyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */; };
+		3FBF05CF28DB513C00DA5BF5 /* ColorsIntroSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05CE28DB513C00DA5BF5 /* ColorsIntroSection.swift */; };
+		3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D128DB516400DA5BF5 /* AboutColorsPage.swift */; };
+		3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift */; };
+		3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D528DB537F00DA5BF5 /* ColorBlindnessPage.swift */; };
+		3FBF05D828DB545700DA5BF5 /* ContrastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D728DB545700DA5BF5 /* ContrastPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +119,16 @@
 		3FBF05B828DB487900DA5BF5 /* AboutTheAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheAppView.swift; sourceTree = "<group>"; };
 		3FBF05BA28DB48E500DA5BF5 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		3FBF05BC28DB4A8A00DA5BF5 /* CollaborationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationView.swift; sourceTree = "<group>"; };
+		3FBF05C028DB4E8B00DA5BF5 /* SectionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionProvider.swift; sourceTree = "<group>"; };
+		3FBF05C228DB4F2200DA5BF5 /* DynamicFontSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFontSections.swift; sourceTree = "<group>"; };
+		3FBF05C428DB4F3D00DA5BF5 /* ColorsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsSections.swift; sourceTree = "<group>"; };
+		3FBF05C828DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAccessibilityFeaturesSection.swift; sourceTree = "<group>"; };
+		3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceTransparencyPage.swift; sourceTree = "<group>"; };
+		3FBF05CE28DB513C00DA5BF5 /* ColorsIntroSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsIntroSection.swift; sourceTree = "<group>"; };
+		3FBF05D128DB516400DA5BF5 /* AboutColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutColorsPage.swift; sourceTree = "<group>"; };
+		3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentiateWithColorsPage.swift; sourceTree = "<group>"; };
+		3FBF05D528DB537F00DA5BF5 /* ColorBlindnessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlindnessPage.swift; sourceTree = "<group>"; };
+		3FBF05D728DB545700DA5BF5 /* ContrastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +217,7 @@
 				3FBF05A828DABABF00DA5BF5 /* GamePage.swift */,
 				3FBF055C28DA69F800DA5BF5 /* Page.swift */,
 				3FBF055E28DA6A0300DA5BF5 /* Section.swift */,
-				3FBF056028DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift */,
+				3FBF05C028DB4E8B00DA5BF5 /* SectionProvider.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,33 +226,31 @@
 			isa = PBXGroup;
 			children = (
 				3FBF059628DAB0D600DA5BF5 /* Index */,
-				3FBF056328DA6A3700DA5BF5 /* AccessibilityElements */,
-				3FBF056F28DA6EF500DA5BF5 /* Gestures */,
-				3FBF058928DA9C4500DA5BF5 /* Interaction */,
+				3FBF05BE28DB4DA500DA5BF5 /* Colors */,
+				3FBF05BF28DB4DB200DA5BF5 /* DynamicFonts */,
+				3FBF056328DA6A3700DA5BF5 /* VoiceOverGuide */,
 			);
 			path = Book;
 			sourceTree = "<group>";
 		};
-		3FBF056328DA6A3700DA5BF5 /* AccessibilityElements */ = {
+		3FBF056328DA6A3700DA5BF5 /* VoiceOverGuide */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF056028DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift */,
+				3FBF056F28DA6EF500DA5BF5 /* Gestures */,
+				3FBF058928DA9C4500DA5BF5 /* Interaction */,
+				3FBF056928DA6E1D00DA5BF5 /* AccessibilityProperties */,
+			);
+			path = VoiceOverGuide;
+			sourceTree = "<group>";
+		};
+		3FBF056928DA6E1D00DA5BF5 /* AccessibilityProperties */ = {
 			isa = PBXGroup;
 			children = (
 				3FBF056428DA6A4400DA5BF5 /* AccessibilityPropertiesSection.swift */,
-				3FBF056928DA6E1D00DA5BF5 /* Pages */,
+				3FBF05C628DB507300DA5BF5 /* Pages */,
 			);
-			path = AccessibilityElements;
-			sourceTree = "<group>";
-		};
-		3FBF056928DA6E1D00DA5BF5 /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				3FBF058128DA855900DA5BF5 /* AccessibilityElementPage.swift */,
-				3FBF056728DA6A9800DA5BF5 /* AccessibilityLabelPage.swift */,
-				3FBF056A28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift */,
-				3FBF058528DA994400DA5BF5 /* AccessibilityTraitPage.swift */,
-				3FBF058728DA9C1B00DA5BF5 /* AccessibilityValuePage.swift */,
-				3FBF05B328DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift */,
-			);
-			path = Pages;
+			path = AccessibilityProperties;
 			sourceTree = "<group>";
 		};
 		3FBF056C28DA6ECA00DA5BF5 /* UI */ = {
@@ -346,6 +364,74 @@
 			path = AboutTheApp;
 			sourceTree = "<group>";
 		};
+		3FBF05BE28DB4DA500DA5BF5 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05C428DB4F3D00DA5BF5 /* ColorsSections.swift */,
+				3FBF05CD28DB512F00DA5BF5 /* Intro */,
+				3FBF05C728DB508D00DA5BF5 /* ColorAccessibility */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		3FBF05BF28DB4DB200DA5BF5 /* DynamicFonts */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05C228DB4F2200DA5BF5 /* DynamicFontSections.swift */,
+			);
+			path = DynamicFonts;
+			sourceTree = "<group>";
+		};
+		3FBF05C628DB507300DA5BF5 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF058128DA855900DA5BF5 /* AccessibilityElementPage.swift */,
+				3FBF056728DA6A9800DA5BF5 /* AccessibilityLabelPage.swift */,
+				3FBF056A28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift */,
+				3FBF058528DA994400DA5BF5 /* AccessibilityTraitPage.swift */,
+				3FBF058728DA9C1B00DA5BF5 /* AccessibilityValuePage.swift */,
+				3FBF05B328DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3FBF05C728DB508D00DA5BF5 /* ColorAccessibility */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05C828DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift */,
+				3FBF05CA28DB50BE00DA5BF5 /* Pages */,
+			);
+			path = ColorAccessibility;
+			sourceTree = "<group>";
+		};
+		3FBF05CA28DB50BE00DA5BF5 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */,
+				3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3FBF05CD28DB512F00DA5BF5 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05CE28DB513C00DA5BF5 /* ColorsIntroSection.swift */,
+				3FBF05D028DB515600DA5BF5 /* Pages */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		3FBF05D028DB515600DA5BF5 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05D128DB516400DA5BF5 /* AboutColorsPage.swift */,
+				3FBF05D528DB537F00DA5BF5 /* ColorBlindnessPage.swift */,
+				3FBF05D728DB545700DA5BF5 /* ContrastPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -417,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBF05D828DB545700DA5BF5 /* ContrastPage.swift in Sources */,
 				3FBF056528DA6A4400DA5BF5 /* AccessibilityPropertiesSection.swift in Sources */,
 				3FBF05A528DAB9C700DA5BF5 /* Storage.swift in Sources */,
 				3FBF057828DA712C00DA5BF5 /* ToAny.swift in Sources */,
@@ -432,7 +519,9 @@
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
 				3FBF059128DA9E4600DA5BF5 /* LongPressPage.swift in Sources */,
 				3FBF059E28DAB87700DA5BF5 /* WhereIsMyContent.swift in Sources */,
+				3FBF05CC28DB510A00DA5BF5 /* ReduceTransparencyPage.swift in Sources */,
 				3FBF056B28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift in Sources */,
+				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift in Sources */,
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
@@ -440,12 +529,16 @@
 				3FBF055028DA648700DA5BF5 /* Strings.swift in Sources */,
 				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,
 				3FBF059828DAB0DE00DA5BF5 /* IndexView.swift in Sources */,
+				3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */,
 				3FBF057128DA6F0200DA5BF5 /* GesturesSection.swift in Sources */,
+				3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */,
+				3FBF05C528DB4F3D00DA5BF5 /* ColorsSections.swift in Sources */,
 				3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */,
 				3FBF05BD28DB4A8A00DA5BF5 /* CollaborationView.swift in Sources */,
 				3FBF055D28DA69F800DA5BF5 /* Page.swift in Sources */,
 				3FBF059328DA9E4E00DA5BF5 /* AdjustablePage.swift in Sources */,
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
+				3FBF05C128DB4E8B00DA5BF5 /* SectionProvider.swift in Sources */,
 				3FBF057428DA6FA000DA5BF5 /* NavigationPage.swift in Sources */,
 				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF058628DA994400DA5BF5 /* AccessibilityTraitPage.swift in Sources */,
@@ -453,7 +546,9 @@
 				3FBF058828DA9C1B00DA5BF5 /* AccessibilityValuePage.swift in Sources */,
 				3FBF056E28DA6ED800DA5BF5 /* DocButton.swift in Sources */,
 				3FBF058B28DA9C6300DA5BF5 /* InteractionSection.swift in Sources */,
+				3FBF05C928DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift in Sources */,
 				3FBF05B028DAC27C00DA5BF5 /* HintView.swift in Sources */,
+				3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */,
 				3FBF056128DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift in Sources */,
 				3FBF058028DA7DDC00DA5BF5 /* Images.swift in Sources */,
 				3FBF05A728DABA6100DA5BF5 /* GameStorage.swift in Sources */,
@@ -462,6 +557,7 @@
 				3FBF058228DA855900DA5BF5 /* AccessibilityElementPage.swift in Sources */,
 				3FBF059B28DAB59000DA5BF5 /* GameView.swift in Sources */,
 				3FBF05B628DB3F7C00DA5BF5 /* Space.swift in Sources */,
+				3FBF05CF28DB513C00DA5BF5 /* ColorsIntroSection.swift in Sources */,
 				3FBF055A28DA693200DA5BF5 /* Spacing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

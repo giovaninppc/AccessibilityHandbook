@@ -7,8 +7,9 @@
 
 import Foundation
 
-enum VoiceOverGuideSections {
-  static let sections: [Section] = [
+struct VoiceOverGuideSections: SectionProvider {
+  let title: String = "Voice-Over Guide"
+  let sections: [Section] = [
     GesturesSection(),
     AccessibilityPropertiesSection(),
     InteractionSection()
