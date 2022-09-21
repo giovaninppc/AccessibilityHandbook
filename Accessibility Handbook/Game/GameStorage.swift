@@ -10,6 +10,7 @@ import Foundation
 enum GameKeys: String, StorageKey {
   case whereIsMyContent
   case findThePassword
+  case bePatient
 }
 
 enum GameStates {
@@ -18,4 +19,7 @@ enum GameStates {
 
   @Stored(key: GameKeys.findThePassword, default: false)
   static var findThePasswordCompleted: Bool
+
+  @Stored(key: GameKeys.bePatient, default: false)
+  static var bePatientCompleted: Bool
 }

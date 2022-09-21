@@ -10,6 +10,7 @@ import Foundation
 enum Games {
   static let pages: [GamePage] = [
     WhereIsMyContent(),
-    FindThePassword()
+    FindThePassword(),
+    BePatient()
   ]
 }

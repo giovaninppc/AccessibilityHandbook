@@ -16,7 +16,14 @@ struct GameContent: View {
 
   var body: some View {
     ZStack {
-      content()
+      ScrollView {
+        VStack(alignment: .leading, spacing: .regular) {
+          VerticalSpace(.large)
+          content()
+          Spacer()
+        }
+        .padding()
+      }
 
       if success {
         GameSuccessView()

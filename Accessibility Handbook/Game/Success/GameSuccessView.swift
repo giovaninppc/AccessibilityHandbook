@@ -34,5 +34,8 @@ struct GameSuccessView: View {
     }
     .accessibilityAddTraits(.isModal)
     .ignoresSafeArea()
+    .onAppear {
+      haptic(.success)
+    }
   }
 }

@@ -25,9 +25,7 @@ struct FindThePassword: GamePage, View {
 
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
-      VStack(alignment: .leading, spacing: .regular) {
-        Spacer()
-          .frame(height: .large)
+      Group {
         Text("You need to type in the correct password!")
           .accessibilitySortPriority(20)
         Text("It's as simple as that")
@@ -65,7 +63,6 @@ struct FindThePassword: GamePage, View {
           .focused($fieldIsFocused)
           .padding()
           .background(Color.secondaryBackground)
-        Spacer()
       }
       .toAny()
     } link: {

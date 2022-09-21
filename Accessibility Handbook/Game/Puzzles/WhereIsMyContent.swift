@@ -18,9 +18,7 @@ struct WhereIsMyContent: GamePage, View {
 
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
-      VStack(alignment: .leading, spacing: .regular) {
-        Spacer()
-          .frame(height: .large)
+      Group {
         Text("Come on, this one is pretty easy!")
         Text("You need to find the correct button to finish the puzzle by using the Voice-Over!")
           .foregroundColor(.background)
@@ -41,7 +39,6 @@ struct WhereIsMyContent: GamePage, View {
           .foregroundColor(.background)
         Text("Flag")
           .foregroundColor(.background)
-        Spacer()
       }
       .toAny()
     } link: {
