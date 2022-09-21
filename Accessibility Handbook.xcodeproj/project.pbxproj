@@ -51,6 +51,11 @@
 		3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05AD28DAC03A00DA5BF5 /* FindThePassword.swift */; };
 		3FBF05B028DAC27C00DA5BF5 /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05AF28DAC27C00DA5BF5 /* HintView.swift */; };
 		3FBF05B228DAC4EB00DA5BF5 /* GameContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */; };
+		3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05B328DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift */; };
+		3FBF05B628DB3F7C00DA5BF5 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05B528DB3F7C00DA5BF5 /* Space.swift */; };
+		3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05B828DB487900DA5BF5 /* AboutTheAppView.swift */; };
+		3FBF05BB28DB48E500DA5BF5 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05BA28DB48E500DA5BF5 /* Title.swift */; };
+		3FBF05BD28DB4A8A00DA5BF5 /* CollaborationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05BC28DB4A8A00DA5BF5 /* CollaborationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +104,11 @@
 		3FBF05AD28DAC03A00DA5BF5 /* FindThePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindThePassword.swift; sourceTree = "<group>"; };
 		3FBF05AF28DAC27C00DA5BF5 /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
 		3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContent.swift; sourceTree = "<group>"; };
+		3FBF05B328DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPriorityPage.swift; sourceTree = "<group>"; };
+		3FBF05B528DB3F7C00DA5BF5 /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		3FBF05B828DB487900DA5BF5 /* AboutTheAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheAppView.swift; sourceTree = "<group>"; };
+		3FBF05BA28DB48E500DA5BF5 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		3FBF05BC28DB4A8A00DA5BF5 /* CollaborationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */,
+				3FBF05B728DB486D00DA5BF5 /* AboutTheApp */,
 				3FBF056228DA6A2E00DA5BF5 /* Book */,
 				3FBF059928DAB58600DA5BF5 /* Game */,
 				3FBF055128DA64C600DA5BF5 /* Home */,
@@ -219,6 +230,7 @@
 				3FBF056A28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift */,
 				3FBF058528DA994400DA5BF5 /* AccessibilityTraitPage.swift */,
 				3FBF058728DA9C1B00DA5BF5 /* AccessibilityValuePage.swift */,
+				3FBF05B328DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -233,6 +245,8 @@
 				3FBF057F28DA7DDC00DA5BF5 /* Images.swift */,
 				3FBF057528DA701B00DA5BF5 /* PageContent.swift */,
 				3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */,
+				3FBF05B528DB3F7C00DA5BF5 /* Space.swift */,
+				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -323,6 +337,15 @@
 			path = Success;
 			sourceTree = "<group>";
 		};
+		3FBF05B728DB486D00DA5BF5 /* AboutTheApp */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05B828DB487900DA5BF5 /* AboutTheAppView.swift */,
+				3FBF05BC28DB4A8A00DA5BF5 /* CollaborationView.swift */,
+			);
+			path = AboutTheApp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -404,6 +427,7 @@
 				3FBF05A028DAB8DF00DA5BF5 /* Games.swift in Sources */,
 				3FBF05B228DAC4EB00DA5BF5 /* GameContent.swift in Sources */,
 				3FBF057628DA701B00DA5BF5 /* PageContent.swift in Sources */,
+				3FBF05BB28DB48E500DA5BF5 /* Title.swift in Sources */,
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
 				3FBF059128DA9E4600DA5BF5 /* LongPressPage.swift in Sources */,
@@ -414,13 +438,16 @@
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,
 				3FBF055028DA648700DA5BF5 /* Strings.swift in Sources */,
+				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,
 				3FBF059828DAB0DE00DA5BF5 /* IndexView.swift in Sources */,
 				3FBF057128DA6F0200DA5BF5 /* GesturesSection.swift in Sources */,
 				3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */,
+				3FBF05BD28DB4A8A00DA5BF5 /* CollaborationView.swift in Sources */,
 				3FBF055D28DA69F800DA5BF5 /* Page.swift in Sources */,
 				3FBF059328DA9E4E00DA5BF5 /* AdjustablePage.swift in Sources */,
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
 				3FBF057428DA6FA000DA5BF5 /* NavigationPage.swift in Sources */,
+				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF058628DA994400DA5BF5 /* AccessibilityTraitPage.swift in Sources */,
 				3FBF055728DA661400DA5BF5 /* IndexCell.swift in Sources */,
 				3FBF058828DA9C1B00DA5BF5 /* AccessibilityValuePage.swift in Sources */,
@@ -434,6 +461,7 @@
 				3FBF05A928DABABF00DA5BF5 /* GamePage.swift in Sources */,
 				3FBF058228DA855900DA5BF5 /* AccessibilityElementPage.swift in Sources */,
 				3FBF059B28DAB59000DA5BF5 /* GameView.swift in Sources */,
+				3FBF05B628DB3F7C00DA5BF5 /* Space.swift in Sources */,
 				3FBF055A28DA693200DA5BF5 /* Spacing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

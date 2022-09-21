@@ -33,11 +33,13 @@ struct HintView: View {
           .aspectRatio(contentMode: .fit)
           .frame(width: 50.0, height: 50.0)
           .foregroundColor(.accentColor)
-        Text("Having Trouble? 🤔")
+        Text("🤔 Having Trouble?")
           .font(.title.bold())
           .multilineTextAlignment(.center)
         .accessibilityHidden(true)
-        Text("Maybe this documentation page can help you...")
+        Text("The Handbook puzzles were made to be solved using some kind of accessibility tool.")
+          .multilineTextAlignment(.center)
+        Text("If you can't figure it out, maybe this page will help you...")
           .multilineTextAlignment(.center)
         NavigationLink {
           link

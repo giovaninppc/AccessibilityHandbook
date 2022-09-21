@@ -10,25 +10,49 @@ import SwiftUI
 struct HomeView: View {
   var body: some View {
     ScrollView {
-      VStack(alignment: .center, spacing: .large) {
-        Spacer()
-          .frame(height: .large)
-        homeElement(
-          icon: .init(systemName: "gamecontroller.fill"),
-          title: "The Handbook Game",
-          destination: GameView().toAny()
-        )
-        homeElement(
-          icon: .init(systemName: "text.book.closed.fill"),
-          title: "Voice-Over Guide",
-          destination: IndexView().toAny()
-        )
-        homeElement(
-          icon: .init(systemName: "circle"),
-          title: "Colors",
-          destination: IndexView().toAny()
-        )
+      VStack(alignment: .leading, spacing: .large) {
+        VerticalSpace(.regular)
+        game
+        Title("Development Guides")
+        HStack {
+          homeElement(
+            icon: .init(systemName: "text.book.closed.fill"),
+            title: "Voice-Over Guide",
+            destination: IndexView().toAny()
+          )
+          homeElement(
+            icon: .init(systemName: "circle"),
+            title: "Colors",
+            destination: IndexView().toAny()
+          )
+        }
+        HStack {
+          homeElement(
+            icon: .init(systemName: "textformat"),
+            title: "Dynamic Fonts",
+            destination: IndexView().toAny()
+          )
+          homeElement(
+            icon: .init(systemName: "circle"),
+            title: "Colors",
+            destination: IndexView().toAny()
+          )
+        }
+        Title("About the app")
+        HStack {
+          homeElement(
+            icon: .init(systemName: "questionmark.app.dashed"),
+            title: "About the app",
+            destination: AboutTheAppView().toAny()
+          )
+          homeElement(
+            icon: .init(systemName: "text.redaction"),
+            title: "Collaborate",
+            destination: CollaborationView().toAny()
+          )
+        }
       }
+      .padding()
     }
     .navigationTitle(L10n.handbook)
     .toolbar {
@@ -36,6 +60,33 @@ struct HomeView: View {
         //
       } label: {
         Image(systemName: "arrow.up.and.down.and.arrow.left.and.right")
+      }
+    }
+  }
+
+  var game: some View {
+    NavigationLink {
+      GameView()
+    } label: {
+      VStack(spacing: .regular) {
+        Spacer()
+        HStack {
+          Spacer()
+          Image(systemName: "gamecontroller.fill")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 80.0, height: 80.0)
+          Spacer()
+        }
+        Text("The Handbook Game")
+          .font(.title3.bold())
+        Comment("Test your accessibility knowledge in a series of puzzles!")
+      }
+      .accessibilityElement(children: .combine)
+      .padding()
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
       }
     }
   }
@@ -50,10 +101,10 @@ struct HomeView: View {
         icon
           .resizable()
           .aspectRatio(contentMode: .fit)
-          .frame(width: 50.0, height: 50.0)
+          .frame(width: 30.0, height: 30.0)
         Spacer()
         Text(title)
-          .font(.title3)
+          .font(.title3.bold())
         Spacer()
       }
       .accessibilityElement(children: .combine)

@@ -15,6 +15,7 @@ struct AccessibilityPropertiesSection: Section {
     AccessibilityLabelPage(),
     AccessibilityHintPage(),
     AccessibilityTraitPage(),
-    AccessibilityValuePage()
+    AccessibilityValuePage(),
+    AccessibilityPriorityPage()
   ]
 }

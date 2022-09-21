@@ -17,6 +17,6 @@ struct Comment: View {
   var body: some View {
     Text(text)
       .font(.subheadline)
-      .foregroundColor(.gray)
+      .foregroundColor(.secondaryLabel)
   }
 }

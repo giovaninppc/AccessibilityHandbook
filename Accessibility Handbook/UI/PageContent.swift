@@ -29,6 +29,8 @@ struct PageContent: View {
           } label: {
             NextPageButton(title: next.title)
           }
+          .accessibilityElement(children: .combine)
+          .accessibilityLabel(L10n.nextPage(next.title))
         }
       }
       .padding()
@@ -45,8 +47,6 @@ struct NextPageButton: View {
         Text(title)
         Image(systemName: "arrow.right")
       }
-      .accessibilityElement(children: .combine)
-      .accessibilityLabel(L10n.nextPage(title))
     }
   }
 }

@@ -30,10 +30,13 @@ struct GameContent: View {
       Button {
         withAnimation {
           hinting = !hinting
+          UIAccessibility.post(notification: .screenChanged, argument: nil)
         }
       } label: {
         Image(systemName: "lightbulb.fill")
       }
+      .accessibilityLabel(Text("Hint"))
+      .accessibilityHint(Text("Activate to get a hint on how to solve this puzzle."))
     }
   }
 }

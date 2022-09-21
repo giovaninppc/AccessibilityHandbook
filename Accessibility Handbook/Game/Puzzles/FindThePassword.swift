@@ -11,7 +11,7 @@ struct FindThePassword: GamePage, View {
   var title: String = "Find the Password"
   var completed: Bool = GameStates.findThePasswordCompleted
 
-  let hintPage: AnyView = AccessibilityLabelPage().page
+  let hintPage: AnyView = AccessibilityPriorityPage().page
 
   @State var success: Bool = false
   @State var hinting: Bool = false

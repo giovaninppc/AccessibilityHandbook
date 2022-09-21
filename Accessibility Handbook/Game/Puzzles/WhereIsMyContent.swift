@@ -31,6 +31,7 @@ struct WhereIsMyContent: GamePage, View {
         Text("Ice cream")
           .foregroundColor(.background)
           .accessibilityAddTraits(.isButton)
+          .accessibilityHint(Text("Tap twice to win the game"))
           .accessibilityAction {
             UIAccessibility.post(notification: .screenChanged, argument: nil)
             GameStates.whereIsMyContentCompleted = true
