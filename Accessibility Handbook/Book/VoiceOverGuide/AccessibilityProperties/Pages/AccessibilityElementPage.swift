@@ -81,8 +81,7 @@ struct AccessibilityElementPage: View, Page {
       Rectangle()
         .foregroundColor(.secondaryBackground)
         .frame(height: .single)
-        .accessibilityHidden(false)
-        .accessibilityLabel(Text(""))
+        .accessibilityHidden(true)
     }
   }
 }

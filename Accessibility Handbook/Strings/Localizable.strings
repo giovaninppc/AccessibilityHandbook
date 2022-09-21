@@ -30,7 +30,7 @@
 // Accessibility Element
 
 "AccElem.title" = "Accessibility Element";
-"AccElem.text1" = "When using the Voice-Over, the cursor will focus on 'accessibile' elements. These elements are identified by having the property accessibility element as 'True'.";
+"AccElem.text1" = "When using the Voice-Over, the cursor will focus on 'accessible' elements. These elements are identified by having the property accessibility element as 'True'.";
 "AccElem.text2" = "Every element marked with this property 'True' can be focused by the Voice-Over, and the elments with the property 'False' will be ignored.";
 "AccElem.text3" = "Turn the Voice-Over on and navigate through the next elements. Some will not be focused by it.";
 "AccElem.comment" = "It's important to set elements that should not be focused, such as separators or other elements without accessibility labels, to not be focused.";
