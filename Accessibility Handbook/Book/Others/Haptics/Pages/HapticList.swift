@@ -15,7 +15,7 @@ struct HapticsListPage: View, Page {
   """
 
   let hapticLink: String = """
-  https://developer.apple.com/design/human-interface-guidelines/patterns/playing-haptics/
+  https://github.com/giovaninppc/AccessibilityHandbook/blob/main/Accessibility%20Handbook/UI/Haptic.swift
   """
 
   var body: some View {

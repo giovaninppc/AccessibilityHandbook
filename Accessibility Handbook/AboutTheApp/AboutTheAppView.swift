@@ -14,6 +14,8 @@ struct AboutTheAppView: View {
         history
         VerticalSpace(.regular)
         game
+        VerticalSpace(.regular)
+        disclaimer
       }
       .padding()
     }
@@ -36,7 +38,19 @@ struct AboutTheAppView: View {
       Text("The Handbook was pretty nice and all... but it was a little boring.")
       Text("So I tryied to make something that would be nicer to use and to learn,")
       Text("And what best way to do that than with a game?")
-      Comment("The puzzles are not supposed to be hard, thay are justa  nice way to practice your accessibility knowledge!")
+      Comment("The puzzles are not supposed to be hard, thay are just a nice way to practice your accessibility knowledge!")
+    }
+  }
+
+  private var disclaimer: some View {
+    Group {
+      Title("Disclaimer")
+      Text("This app and it's content is supposed to be a helpful guide, based on real development experiences.")
+      Text("I do not know EVERYTHING about accessibility, and I'm learning a little bit more every day.")
+      Comment("And I have sure learned a lot while developing this very own app!")
+      Text("It may have some mistakes or misconceptions, so please, consider reporting if you find any of those.")
+      Text("I want it to be a reliable tool that can be cosulted during everyday development.")
+      InternalLink(page: CollaborationView().toAny(), title: "Check the Collaboration page to see more ways to report issuees and to help the development!")
     }
   }
 }
