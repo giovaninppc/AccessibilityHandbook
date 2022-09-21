@@ -64,7 +64,7 @@ struct Impostor2: GamePage, View {
   @ViewBuilder
   func gameItem(name: String, isImpostor: Bool) -> some View {
     Button {
-      isImpostor ? haptic(.success) : selection()
+      isImpostor ? haptic(.error) : selection()
     } label: {
       Image(systemName: "person.fill")
         .resizable()

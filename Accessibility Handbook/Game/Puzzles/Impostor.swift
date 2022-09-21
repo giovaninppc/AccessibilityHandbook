@@ -64,11 +64,12 @@ struct Impostor: GamePage, View {
   @ViewBuilder
   func gameItem(name: String, isImpostor: Bool) -> some View {
     Button {
-      selection()
-      UIAccessibility.post(
-        notification: .announcement,
-        argument: isImpostor ? "Yes, I'm the impostor" : "I'm not the impostor"
-      )
+      DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+        UIAccessibility.post(
+          notification: .announcement,
+          argument: isImpostor ? "Yes, I'm the impostor" : "I'm not the impostor"
+        )
+      }
     } label: {
       Image(systemName: "person.fill")
         .resizable()

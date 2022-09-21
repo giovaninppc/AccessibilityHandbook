@@ -20,15 +20,19 @@ struct TheMagicPuzzle: GamePage, View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
         Text("This puzzle is Magic!")
+          .accessibilityAction(.magicTap) {
+            success = true
+            GameStates.theMagicPuzzleCompleted = true
+          }
         Comment("I don't know what else to tell you...")
+          .accessibilityAction(.magicTap) {
+            success = true
+            GameStates.theMagicPuzzleCompleted = true
+          }
       }
       .toAny()
     } link: {
       hintPage
-    }
-    .accessibilityAction(.magicTap) {
-      success = true
-      GameStates.theMagicPuzzleCompleted = true
     }
   }
 }
