@@ -11,6 +11,7 @@ enum Games {
   static let pages: [GamePage] = [
     WhereIsMyContent(),
     FindThePassword(),
-    BePatient()
+    BePatient(),
+    Impostor()
   ]
 }

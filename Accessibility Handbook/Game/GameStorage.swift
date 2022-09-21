@@ -11,6 +11,7 @@ enum GameKeys: String, StorageKey {
   case whereIsMyContent
   case findThePassword
   case bePatient
+  case impostor
 }
 
 enum GameStates {
@@ -22,4 +23,7 @@ enum GameStates {
 
   @Stored(key: GameKeys.bePatient, default: false)
   static var bePatientCompleted: Bool
+
+  @Stored(key: GameKeys.impostor, default: false)
+  static var impostorCompleted: Bool
 }

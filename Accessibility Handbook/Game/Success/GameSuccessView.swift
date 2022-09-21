@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct GameSuccessView: View {
+  let page: AnyView
+
   @Environment(\.dismiss) var dismiss
 
   var body: some View {
@@ -17,13 +19,20 @@ struct GameSuccessView: View {
         .background(.thinMaterial)
         .opacity(0.7)
       VStack(spacing: .regular) {
-        Text("Success!")
+        Text("Congratulations!")
           .font(.title.bold())
         Text("You solved the puzzle!")
+        VerticalSpace(.regular)
+        Text("If you want to learn more about this puzzle check our documentation")
+          .multilineTextAlignment(.center)
+        NavigationLink("Suggested reading") {
+          page
+        }
         Button {
           dismiss()
         } label: {
           Text("Go back")
+            .font(.body.bold())
         }
       }
       .padding()

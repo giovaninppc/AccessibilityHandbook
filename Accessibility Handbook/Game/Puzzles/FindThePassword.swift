@@ -68,6 +68,9 @@ struct FindThePassword: GamePage, View {
     } link: {
       hintPage.toAny()
     }
+    .onTapGesture {
+      fieldIsFocused = false
+    }
     .onChange(of: hasSucceeded) { newValue in
       success = hasSucceeded
       fieldIsFocused = false

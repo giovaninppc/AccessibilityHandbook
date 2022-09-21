@@ -12,6 +12,7 @@ struct VoiceOverGuideSections: SectionProvider {
   let sections: [Section] = [
     GesturesSection(),
     AccessibilityPropertiesSection(),
-    InteractionSection()
+    InteractionSection(),
+    NotificationsSection()
   ]
 }

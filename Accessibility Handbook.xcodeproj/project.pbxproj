@@ -68,6 +68,9 @@
 		3FBF05D828DB545700DA5BF5 /* ContrastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D728DB545700DA5BF5 /* ContrastPage.swift */; };
 		3FBF05DA28DB56D000DA5BF5 /* BePatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D928DB56D000DA5BF5 /* BePatient.swift */; };
 		3FBF05DC28DB5CB800DA5BF5 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */; };
+		3FBF05DE28DB5DC100DA5BF5 /* Impostor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */; };
+		3FBF05E128DB5FF600DA5BF5 /* NotificationsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E028DB5FF600DA5BF5 /* NotificationsSection.swift */; };
+		3FBF05E428DB602000DA5BF5 /* AnnouncementPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E328DB602000DA5BF5 /* AnnouncementPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +136,9 @@
 		3FBF05D728DB545700DA5BF5 /* ContrastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastPage.swift; sourceTree = "<group>"; };
 		3FBF05D928DB56D000DA5BF5 /* BePatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BePatient.swift; sourceTree = "<group>"; };
 		3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impostor.swift; sourceTree = "<group>"; };
+		3FBF05E028DB5FF600DA5BF5 /* NotificationsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsSection.swift; sourceTree = "<group>"; };
+		3FBF05E328DB602000DA5BF5 /* AnnouncementPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,8 +248,9 @@
 			children = (
 				3FBF056028DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift */,
 				3FBF056F28DA6EF500DA5BF5 /* Gestures */,
-				3FBF058928DA9C4500DA5BF5 /* Interaction */,
 				3FBF056928DA6E1D00DA5BF5 /* AccessibilityProperties */,
+				3FBF058928DA9C4500DA5BF5 /* Interaction */,
+				3FBF05DF28DB5FD600DA5BF5 /* Notifications */,
 			);
 			path = VoiceOverGuide;
 			sourceTree = "<group>";
@@ -340,6 +347,7 @@
 				3FBF059D28DAB87700DA5BF5 /* WhereIsMyContent.swift */,
 				3FBF05AD28DAC03A00DA5BF5 /* FindThePassword.swift */,
 				3FBF05D928DB56D000DA5BF5 /* BePatient.swift */,
+				3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -438,6 +446,23 @@
 			path = Pages;
 			sourceTree = "<group>";
 		};
+		3FBF05DF28DB5FD600DA5BF5 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05E028DB5FF600DA5BF5 /* NotificationsSection.swift */,
+				3FBF05E228DB600F00DA5BF5 /* Pages */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		3FBF05E228DB600F00DA5BF5 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF05E328DB602000DA5BF5 /* AnnouncementPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -530,9 +555,11 @@
 				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift in Sources */,
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
+				3FBF05E428DB602000DA5BF5 /* AnnouncementPage.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,
 				3FBF055028DA648700DA5BF5 /* Strings.swift in Sources */,
+				3FBF05E128DB5FF600DA5BF5 /* NotificationsSection.swift in Sources */,
 				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,
 				3FBF059828DAB0DE00DA5BF5 /* IndexView.swift in Sources */,
 				3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */,
@@ -562,6 +589,7 @@
 				3FBF05DC28DB5CB800DA5BF5 /* Haptic.swift in Sources */,
 				3FBF057C28DA763400DA5BF5 /* Code.swift in Sources */,
 				3FBF05A928DABABF00DA5BF5 /* GamePage.swift in Sources */,
+				3FBF05DE28DB5DC100DA5BF5 /* Impostor.swift in Sources */,
 				3FBF058228DA855900DA5BF5 /* AccessibilityElementPage.swift in Sources */,
 				3FBF059B28DAB59000DA5BF5 /* GameView.swift in Sources */,
 				3FBF05B628DB3F7C00DA5BF5 /* Space.swift in Sources */,

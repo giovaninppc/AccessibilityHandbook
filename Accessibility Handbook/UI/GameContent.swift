@@ -26,7 +26,7 @@ struct GameContent: View {
       }
 
       if success {
-        GameSuccessView()
+        GameSuccessView(page: link())
       }
 
       if hinting {
