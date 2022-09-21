@@ -27,13 +27,16 @@ struct HomeView: View {
           )
         }
         HStack {
-          Spacer()
           homeElement(
             icon: .init(systemName: "textformat"),
             title: "Dynamic Fonts",
             destination: IndexView(sections: DynamicFontSections()).toAny()
           )
-          Spacer()
+          homeElement(
+            icon: .init(systemName: "swift"),
+            title: "Other features",
+            destination: IndexView(sections: OthersSections()).toAny()
+          )
         }
         Title("About the app")
         HStack {

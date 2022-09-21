@@ -17,12 +17,15 @@ struct GameContent: View {
   var body: some View {
     ZStack {
       ScrollView {
-        VStack(alignment: .leading, spacing: .regular) {
-          VerticalSpace(.large)
-          content()
+        HStack {
+          VStack(alignment: .leading, spacing: .regular) {
+            VerticalSpace(.large)
+            content()
+            Spacer()
+          }
+          .padding()
           Spacer()
         }
-        .padding()
       }
 
       if success {

@@ -11,7 +11,7 @@ struct Impostor2: GamePage, View {
   var title: String = "Impostor 2.0"
   var completed: Bool { GameStates.impostor2Completed }
 
-  let hintPage: AnyView = AnnouncementPage().page
+  let hintPage: AnyView = HapticsPage().page
 
   @State var success: Bool = false
   @State var hinting: Bool = false

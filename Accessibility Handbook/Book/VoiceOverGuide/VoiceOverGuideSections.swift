@@ -13,6 +13,7 @@ struct VoiceOverGuideSections: SectionProvider {
     GesturesSection(),
     AccessibilityPropertiesSection(),
     InteractionSection(),
+    AccessibilityTraitsSection(),
     NotificationsSection()
   ]
 }

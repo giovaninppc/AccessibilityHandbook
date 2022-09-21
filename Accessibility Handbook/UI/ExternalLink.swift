@@ -13,10 +13,9 @@ struct ExternalLink: View {
 
   var body: some View {
     HStack(alignment: .center) {
-      Spacer()
       Link(title, destination: URL(string: link)!)
-        .font(.callout)
-        .foregroundColor(.green)
+        .font(.callout.bold())
+        .foregroundColor(.pink)
         .multilineTextAlignment(.center)
       Spacer()
     }
