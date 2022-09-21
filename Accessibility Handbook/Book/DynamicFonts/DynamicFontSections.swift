@@ -10,5 +10,6 @@ import Foundation
 struct DynamicFontSections: SectionProvider {
   let title: String = "Dynamic Fonts"
   let sections: [Section] = [
+    WipSection()
   ]
 }

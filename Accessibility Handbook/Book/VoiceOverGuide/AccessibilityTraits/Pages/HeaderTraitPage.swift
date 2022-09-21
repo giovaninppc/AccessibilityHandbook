@@ -28,7 +28,8 @@ struct HeaderTraitPage: View, Page {
         Text("The Header trait is used to describe headers (obviously), which indicates the beggining of a new content section.")
         Comment("So... that's all?")
         Text("The fun part, is that you can navigate only on headers by using the rotor function.")
-        Text("This way, you can skip every content that is not a header, and find easily the content you are looking for.")
+        InternalLink(page: RotorAndHeadersPage().page, title: "Check the Rotor and Header page!")
+        Text("This way, you can skip every content that is not a header, and easily find the section you are looking for.")
         Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
         DocButton(link: link, title: title)
       }

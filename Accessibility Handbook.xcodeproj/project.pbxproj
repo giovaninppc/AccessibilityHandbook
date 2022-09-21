@@ -89,6 +89,7 @@
 		3FBF060928DB8C4C00DA5BF5 /* HeaderTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */; };
 		3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060A28DB998300DA5BF5 /* RotorPage.swift */; };
 		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
+		3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -175,6 +176,7 @@
 		3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTraitPage.swift; sourceTree = "<group>"; };
 		3FBF060A28DB998300DA5BF5 /* RotorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorPage.swift; sourceTree = "<group>"; };
 		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
+		3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +440,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBF05C228DB4F2200DA5BF5 /* DynamicFontSections.swift */,
+				3FBF060E28DBAB8000DA5BF5 /* WIP */,
 			);
 			path = DynamicFonts;
 			sourceTree = "<group>";
@@ -555,6 +558,14 @@
 				3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		3FBF060E28DBAB8000DA5BF5 /* WIP */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */,
+			);
+			path = WIP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -692,6 +703,7 @@
 				3FBF05B028DAC27C00DA5BF5 /* HintView.swift in Sources */,
 				3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */,
 				3FBF056128DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift in Sources */,
+				3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */,
 				3FBF058028DA7DDC00DA5BF5 /* Images.swift in Sources */,
 				3FBF05A728DABA6100DA5BF5 /* GameStorage.swift in Sources */,
 				3FBF05DC28DB5CB800DA5BF5 /* Haptic.swift in Sources */,

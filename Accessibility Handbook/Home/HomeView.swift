@@ -11,7 +11,6 @@ struct HomeView: View {
   var body: some View {
     ScrollView {
       VStack(alignment: .leading, spacing: .large) {
-        VerticalSpace(.regular)
         game
         Title("Development Guides")
         HStack {
