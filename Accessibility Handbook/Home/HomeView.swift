@@ -55,13 +55,6 @@ struct HomeView: View {
       .padding()
     }
     .navigationTitle(L10n.handbook)
-    .toolbar {
-      NavigationLink {
-        //
-      } label: {
-        Image(systemName: "arrow.up.and.down.and.arrow.left.and.right")
-      }
-    }
   }
 
   var game: some View {

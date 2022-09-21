@@ -30,12 +30,5 @@ struct IndexView: View {
       }
     }
     .navigationTitle(sections.title)
-    .toolbar {
-      NavigationLink {
-        //
-      } label: {
-        Image(systemName: "arrow.up.and.down.and.arrow.left.and.right")
-      }
-    }
   }
 }

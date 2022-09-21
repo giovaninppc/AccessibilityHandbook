@@ -11,7 +11,7 @@ struct CustomActionsPage: View, Page {
   var title: String = "Custom Actions"
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: MagicTapPage()) {
       Group {
 
       }

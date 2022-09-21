@@ -97,7 +97,7 @@ internal enum L10n {
   }
 
   internal enum Navigation {
-    /// This entire app was built to be used with the Voice-Over enabled, the conceptd described on the pages will always be followed by an example so you can try them by yourself!
+    /// This entire app was built to be used with the Voice-Over enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!
     internal static let comment = L10n.tr("Localizable", "Navigation.comment")
     /// The Voice-Over navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.
     internal static let text1 = L10n.tr("Localizable", "Navigation.text1")

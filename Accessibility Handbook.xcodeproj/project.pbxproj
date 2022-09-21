@@ -87,6 +87,8 @@
 		3FBF060528DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060428DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift */; };
 		3FBF060728DB890900DA5BF5 /* HapticList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060628DB890900DA5BF5 /* HapticList.swift */; };
 		3FBF060928DB8C4C00DA5BF5 /* HeaderTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */; };
+		3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060A28DB998300DA5BF5 /* RotorPage.swift */; };
+		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +173,8 @@
 		3FBF060428DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAccessibilityTraitsPage.swift; sourceTree = "<group>"; };
 		3FBF060628DB890900DA5BF5 /* HapticList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticList.swift; sourceTree = "<group>"; };
 		3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTraitPage.swift; sourceTree = "<group>"; };
+		3FBF060A28DB998300DA5BF5 /* RotorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorPage.swift; sourceTree = "<group>"; };
+		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +335,8 @@
 			children = (
 				3FBF057328DA6FA000DA5BF5 /* NavigationPage.swift */,
 				3FBF058328DA93FB00DA5BF5 /* ElementReadingOrderPage.swift */,
+				3FBF060A28DB998300DA5BF5 /* RotorPage.swift */,
+				3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -640,9 +646,11 @@
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
 				3FBF059128DA9E4600DA5BF5 /* LongPressPage.swift in Sources */,
+				3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */,
 				3FBF05F228DB6D6900DA5BF5 /* TheMagicPuzzle.swift in Sources */,
 				3FBF059E28DAB87700DA5BF5 /* WhereIsMyContent.swift in Sources */,
 				3FBF05CC28DB510A00DA5BF5 /* ReduceTransparencyPage.swift in Sources */,
+				3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */,
 				3FBF056B28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift in Sources */,
 				3FBF05EE28DB6BE100DA5BF5 /* ExternalLink.swift in Sources */,
 				3FBF05EC28DB6B0C00DA5BF5 /* Impostor2.swift in Sources */,

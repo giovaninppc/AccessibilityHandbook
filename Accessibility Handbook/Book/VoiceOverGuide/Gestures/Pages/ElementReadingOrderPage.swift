@@ -13,7 +13,7 @@ struct ElementReadingOrderPage: View, Page {
   var title: String = strings.title
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: RotorPage()) {
       Group {
         Text("The Voice-Over will read the content on the screen trying to follow the 'Natural reading direction of the Language'")
         Comment("What does it mean?")

@@ -11,6 +11,8 @@ struct GesturesSection: Section {
   let title: String = "Using the Voice-Over"
   let pages: [Page] = [
     NavigationPage(),
-    ElementReadingOrderPage()
+    ElementReadingOrderPage(),
+    RotorPage(),
+    RotorAndHeadersPage()
   ]
 }
