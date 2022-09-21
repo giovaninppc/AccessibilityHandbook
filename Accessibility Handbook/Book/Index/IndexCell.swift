@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeCell: View {
+struct IndexCell: View {
   let title: String
 
   var body: some View {
@@ -15,9 +15,10 @@ struct HomeCell: View {
       HStack {
         Text(title)
           .font(.callout)
-          .padding()
+          .padding(.horizontal, .regular)
+          .padding(.vertical, .regular)
         Spacer()
-        Image(systemName: "arrow.right")
+        Image(systemName: "chevron.forward")
           .padding()
       }
       Rectangle()
@@ -33,6 +34,6 @@ struct HomeCell: View {
 
 struct HomeCell_Previews: PreviewProvider {
   static var previews: some View {
-    HomeCell(title: "Some item")
+    IndexCell(title: "Some item")
   }
 }

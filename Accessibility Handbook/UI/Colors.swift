@@ -8,6 +8,10 @@
 import SwiftUI
 
 extension Color {
+  static var background: Color {
+    Color(uiColor: .systemBackground)
+  }
+
   static var secondaryBackground: Color {
     Color(uiColor: .secondarySystemBackground)
   }

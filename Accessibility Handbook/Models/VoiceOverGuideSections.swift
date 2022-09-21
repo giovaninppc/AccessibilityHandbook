@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum HomeSections {
+enum VoiceOverGuideSections {
   static let sections: [Section] = [
     GesturesSection(),
     AccessibilityPropertiesSection(),
