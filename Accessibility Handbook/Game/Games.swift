@@ -13,6 +13,8 @@ enum Games {
     FindThePassword(),
     BePatient(),
     Impostor(),
-    Invisibility()
+    Invisibility(),
+    Impostor2(),
+    TheMagicPuzzle()
   ]
 }

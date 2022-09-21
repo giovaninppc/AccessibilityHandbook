@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct GameView: View {
+  @State var count: Int = 0
+
   var body: some View {
     ScrollView {
       VStack(alignment: .leading) {
+        Text("Try solving these puzzles to learn more about accessibility features!")
         ForEach(Games.pages, id: \.id) { page in
           NavigationLink {
             page.page
@@ -19,7 +22,11 @@ struct GameView: View {
           }
         }
       }
+      .padding()
     }
-    .navigationTitle("Game!")
+    .navigationTitle("Puzzles")
+    .onAppear {
+      count += 1
+    }
   }
 }

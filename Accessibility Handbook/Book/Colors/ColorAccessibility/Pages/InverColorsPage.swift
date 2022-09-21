@@ -11,7 +11,7 @@ struct InvertColorsPage: View, Page {
   var title: String = "Invert colors"
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: IncreaseContrastPage()) {
       Group {
 
       }

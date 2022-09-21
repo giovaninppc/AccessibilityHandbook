@@ -21,7 +21,7 @@
 "Navigation.text2" = "Once enabled, the Voice-Over will display a frame on top of the current view that is being read. This frame is called 'Cursor'.";
 "Navigation.text3" = "To navigate basically means changing the cursor's position, so it will read another element.";
 "Navigation.text4" = "The basic navigation can be done swiping horizontally on the screen to move to cursor to the next or previous element.";
-"Navigation.comment" = "This entire app was built to be used with the Voice-Over enabled, the conceptd described on the pages will always be followed by an example so you can try them by yourself!";
+"Navigation.comment" = "This entire app was built to be used with the Voice-Over enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!";
 
 // Accessibility Properties
 

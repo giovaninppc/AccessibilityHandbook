@@ -13,6 +13,7 @@ struct InteractionSection: Section {
     ActivatePage(),
     LongPressPage(),
     AdjustablePage(),
-    CustomActionsPage()
+    CustomActionsPage(),
+    MagicTapPage()
   ]
 }

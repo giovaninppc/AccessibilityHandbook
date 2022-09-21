@@ -1,5 +1,5 @@
 //
-//  ReduceTransparencyPage.swift
+//  MagicTap.swift
 //  Accessibility Handbook
 //
 //  Created by Giovani Nascimento Pereira on 21/09/22.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct ReduceTransparencyPage: View, Page {
-  var title: String = "Reduce Transparency"
+struct MagicTapPage: View, Page {
+  var title: String = "Magic Tap"
 
   var body: some View {
-    PageContent(next: DifferentiateWithColorsPage()) {
+    PageContent(next: nil) {
       Group {
 
       }

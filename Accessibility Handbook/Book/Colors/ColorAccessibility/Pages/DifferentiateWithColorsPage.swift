@@ -11,7 +11,7 @@ struct DifferentiateWithColorsPage: View, Page {
   var title: String = "Differentiate with colors"
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: InvertColorsPage()) {
       Group {
 
       }

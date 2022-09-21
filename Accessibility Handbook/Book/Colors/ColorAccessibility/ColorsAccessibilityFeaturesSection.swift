@@ -12,6 +12,7 @@ struct ColorsAccessibilityFeaturesSection: Section {
   let pages: [Page] = [
     ReduceTransparencyPage(),
     DifferentiateWithColorsPage(),
-    InvertColorsPage()
+    InvertColorsPage(),
+    IncreaseContrastPage()
   ]
 }
