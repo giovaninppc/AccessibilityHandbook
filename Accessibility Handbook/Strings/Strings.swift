@@ -32,7 +32,7 @@ internal enum L10n {
     internal static let comment = L10n.tr("Localizable", "AccElem.comment")
     /// This way we prevent empty content, that could confuse the user, to be focused
     internal static let comment2 = L10n.tr("Localizable", "AccElem.comment2")
-    /// When using the Voice-Over, the cursor will focus on 'accessibile' elements. These elements are identified by having the property accessibility element as 'True'.
+    /// When using the Voice-Over, the cursor will focus on 'accessible' elements. These elements are identified by having the property accessibility element as 'True'.
     internal static let text1 = L10n.tr("Localizable", "AccElem.text1")
     /// Every element marked with this property 'True' can be focused by the Voice-Over, and the elments with the property 'False' will be ignored.
     internal static let text2 = L10n.tr("Localizable", "AccElem.text2")

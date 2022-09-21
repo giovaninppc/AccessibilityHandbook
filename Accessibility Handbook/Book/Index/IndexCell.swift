@@ -14,7 +14,7 @@ struct IndexCell: View {
     VStack(alignment: .leading, spacing: .zero) {
       HStack {
         Text(title)
-          .font(.callout)
+          .font(.body)
           .padding(.horizontal, .regular)
           .padding(.vertical, .regular)
         Spacer()

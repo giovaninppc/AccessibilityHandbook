@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F25390D28DBC75700B089EA /* Centered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390C28DBC75700B089EA /* Centered.swift */; };
+		3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390E28DBCF1200B089EA /* SecretActions.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -95,6 +96,7 @@
 
 /* Begin PBXFileReference section */
 		3F25390C28DBC75700B089EA /* Centered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centered.swift; sourceTree = "<group>"; };
+		3F25390E28DBCF1200B089EA /* SecretActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretActions.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 				3FBF05E728DB641D00DA5BF5 /* Invisibility.swift */,
 				3FBF05EB28DB6B0C00DA5BF5 /* Impostor2.swift */,
 				3FBF05F128DB6D6900DA5BF5 /* TheMagicPuzzle.swift */,
+				3F25390E28DBCF1200B089EA /* SecretActions.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -659,6 +662,7 @@
 				3FBF05BB28DB48E500DA5BF5 /* Title.swift in Sources */,
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
+				3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */,
 				3FBF059128DA9E4600DA5BF5 /* LongPressPage.swift in Sources */,
 				3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */,
 				3FBF05F228DB6D6900DA5BF5 /* TheMagicPuzzle.swift in Sources */,

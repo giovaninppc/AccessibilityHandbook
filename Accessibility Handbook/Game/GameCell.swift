@@ -15,7 +15,7 @@ struct GameCell: View {
     VStack(alignment: .leading, spacing: .zero) {
       HStack {
         Text(title)
-          .font(.callout)
+          .font(.body)
           .padding(.horizontal, .regular)
           .padding(.vertical, .regular)
         Spacer()
@@ -27,7 +27,7 @@ struct GameCell: View {
         .foregroundColor(.secondaryBackground)
     }
     .accessibilityElement(children: .combine)
-    .accessibilityHint(Text(completed ? "You have already succeeded in this puzzle!" : "You haven't finished this one yet..."))
+    .accessibilityHint(Text(completed ? "You have already succeeded in this puzzle!" : "You haven't finished this puzzle yet"))
     .accessibilityAddTraits(.isButton)
   }
 }
