@@ -40,5 +40,19 @@ struct Code: View {
       RoundedRectangle(cornerRadius: 10.0)
         .foregroundColor(.secondaryBackground)
     }
+    .accessibilityElement(children: .combine)
+    .accessibilityLabel(Text("\(title) code example."))
+    .accessibilityHint(Text("Tap twice to copy it."))
+    .onTapGesture {
+      copy(code: code)
+    }
+    .accessibilityAction {
+      copy(code: code)
+    }
+  }
+
+  private func copy(code: String) {
+    UIPasteboard.general.string = code
+    UIAccessibility.post(notification: .announcement, argument: "Code copied!")
   }
 }

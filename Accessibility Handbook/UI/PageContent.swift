@@ -16,10 +16,13 @@ struct PageContent: View {
   var body: some View {
     VStack {
       ScrollView {
-        VStack(alignment: .leading, spacing: .regular) {
-          content()
+        HStack {
+          VStack(alignment: .leading, spacing: .regular) {
+            content()
+          }
+          .padding()
+          Spacer()
         }
-        .padding()
       }
       HStack {
         Spacer()

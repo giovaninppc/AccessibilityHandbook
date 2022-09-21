@@ -86,6 +86,7 @@
 		3FBF060328DB710300DA5BF5 /* ButtonTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060228DB710300DA5BF5 /* ButtonTraitPage.swift */; };
 		3FBF060528DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060428DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift */; };
 		3FBF060728DB890900DA5BF5 /* HapticList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060628DB890900DA5BF5 /* HapticList.swift */; };
+		3FBF060928DB8C4C00DA5BF5 /* HeaderTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +170,7 @@
 		3FBF060228DB710300DA5BF5 /* ButtonTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTraitPage.swift; sourceTree = "<group>"; };
 		3FBF060428DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAccessibilityTraitsPage.swift; sourceTree = "<group>"; };
 		3FBF060628DB890900DA5BF5 /* HapticList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticList.swift; sourceTree = "<group>"; };
+		3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTraitPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,6 +546,7 @@
 			children = (
 				3FBF060428DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift */,
 				3FBF060228DB710300DA5BF5 /* ButtonTraitPage.swift */,
+				3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -692,6 +695,7 @@
 				3FBF059B28DAB59000DA5BF5 /* GameView.swift in Sources */,
 				3FBF05B628DB3F7C00DA5BF5 /* Space.swift in Sources */,
 				3FBF060328DB710300DA5BF5 /* ButtonTraitPage.swift in Sources */,
+				3FBF060928DB8C4C00DA5BF5 /* HeaderTraitPage.swift in Sources */,
 				3FBF05F028DB6D4800DA5BF5 /* MagicTapPage.swift in Sources */,
 				3FBF05CF28DB513C00DA5BF5 /* ColorsIntroSection.swift in Sources */,
 				3FBF055A28DA693200DA5BF5 /* Spacing.swift in Sources */,

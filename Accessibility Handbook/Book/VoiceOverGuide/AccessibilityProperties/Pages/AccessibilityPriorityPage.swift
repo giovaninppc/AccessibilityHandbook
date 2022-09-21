@@ -97,7 +97,6 @@ private struct PriorityExampleView: View {
             .accessibilitySortPriority(3)
         }
       }
-      VerticalSpace(.large)
     }
     .padding()
   }

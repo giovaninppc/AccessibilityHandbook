@@ -36,6 +36,7 @@ struct AboutTheAppView: View {
       Text("The Handbook was pretty nice and all... but it was a little boring.")
       Text("So I tryied to make something that would be nicer to use and to learn,")
       Text("And what best way to do that than with a game?")
+      Comment("The puzzles are not supposed to be hard, thay are justa  nice way to practice your accessibility knowledge!")
     }
   }
 }

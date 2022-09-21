@@ -11,6 +11,7 @@ struct AccessibilityTraitsSection: Section {
   let title: String = "Accessibility Traits"
   let pages: [Page] = [
     ListOfAccessibilityTraitsPage(),
-    ButtonTraitPage()
+    ButtonTraitPage(),
+    HeaderTraitPage()
   ]
 }
