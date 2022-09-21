@@ -12,6 +12,9 @@ struct HintView: View {
 
   @Binding var hinting: Bool
 
+  @AccessibilityFocusState
+  private var isHintFocused: Bool
+
   var body: some View {
     ZStack {
       Rectangle()
@@ -37,6 +40,7 @@ struct HintView: View {
         Text("🤔 Having Trouble?")
           .font(.title.bold())
           .multilineTextAlignment(.center)
+          .accessibilityFocused($isHintFocused)
         .accessibilityHidden(true)
         Text("The Handbook puzzles were made to be solved using some kind of accessibility tool.")
           .multilineTextAlignment(.center)
@@ -56,5 +60,8 @@ struct HintView: View {
     }
     .accessibilityAddTraits(.isModal)
     .ignoresSafeArea()
+    .onAppear {
+      isHintFocused = true
+    }
   }
 }

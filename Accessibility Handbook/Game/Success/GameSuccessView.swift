@@ -12,6 +12,9 @@ struct GameSuccessView: View {
 
   @Environment(\.dismiss) var dismiss
 
+  @AccessibilityFocusState
+  private var isSuccessFocused: Bool
+
   var body: some View {
     ZStack(alignment: .center) {
       Rectangle()
@@ -21,6 +24,7 @@ struct GameSuccessView: View {
       VStack(spacing: .regular) {
         Text("Congratulations!")
           .font(.title.bold())
+          .accessibilityFocused($isSuccessFocused)
         Text("You solved the puzzle!")
         VerticalSpace(.regular)
         Text("If you want to learn more about this puzzle check our documentation")
@@ -45,6 +49,7 @@ struct GameSuccessView: View {
     .ignoresSafeArea()
     .onAppear {
       haptic(.success)
+      isSuccessFocused = true
     }
   }
 }
