@@ -27,7 +27,9 @@ struct CollaborationView: View {
     Group {
       Title("Open source")
       Text("Yep, the Handbook is an Open Source project!")
-      Text("Fell free to suggest changes, fix some bugs, identify issues on our GitHub project!")
+      Text("The idea is that the app's code can be used as examples. Take a look into the code,")
+      Comment("It's not perfect, and it's a little weird in some places... I know that, ok?")
+      Text("But fell free to suggest changes, fix some bugs and identify issues on our GitHub project!")
       ExternalLink(link: "https://github.com/giovaninppc/AccessibilityHandbook", title: "Check our GitHub page!")
       ExternalLink(link: "https://github.com/giovaninppc/AccessibilityHandbook/blob/main/LICENSE", title: "License")
     }
@@ -36,7 +38,7 @@ struct CollaborationView: View {
   private var foundAnIssue: some View {
     Group {
       Title("Found an issue?")
-      Text("Report to us on our GitHub project any issues you find!")
+      Text("Report to us on our GitHub project!")
       Text("It could be some translation problem, some accessibility issue (nobody's perfect, okay?), or anything at all!")
       ExternalLink(link: "https://github.com/giovaninppc/AccessibilityHandbook/issues/new", title: "Submit an issue report!")
     }
@@ -56,7 +58,8 @@ struct CollaborationView: View {
     Group {
       Title("Want to see something specific?")
       Text("Maybe you have something that you wanted to know that is not present on the app")
-      Text("Or you'd like to suggest a new puzzle to add to the games")
+      Text("Or you'd like to suggest a new puzzle to add to the games.")
+      Text("Fell free to tell us ay idea you have!")
       ExternalLink(link: "https://github.com/giovaninppc/AccessibilityHandbook/issues/new", title: "Submit a feature request!")
     }
   }

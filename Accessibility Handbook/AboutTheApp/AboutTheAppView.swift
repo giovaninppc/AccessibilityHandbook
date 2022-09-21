@@ -25,10 +25,11 @@ struct AboutTheAppView: View {
   private var history: some View {
     Group {
       Title("History")
-      Text("The Accessibility Handbook started as a personal project, aiming to be an easy way to learn more about iOS accessibility features.")
+      Text("The Accessibility Handbook started as an idea with some colleagues and friends, aiming to be an easy way to learn more about iOS accessibility features.")
+      Text("At the time we started working on it, but we never got to finish or publish the Handbook. So, a while later, I took what I learned and decided to bring it into the world! Rewriting the contents, adding UIKit and SwiftUI versions to make something really fresh and nice.")
       Text("I always thought the information about accessibility was always there, but you had to know what to look for.")
-      Text("So, I decided to make a guide, something that could be collaborative, easy to use, and fast to find!")
-      Text("Its based in my experiences as a developer, with real-life examples that (I hope) will help you understand more about Accessibility and also help you use in your own projects!")
+      Text("That's where this handbook comes, it's something that can be collaborative, easy to use, and fast to find! It's an app! You can carry it around with you and read anytime.")
+      Text("It's mostly based on my experiences as a developer, with real-life examples that (I hope) will help you understand more about Accessibility and also help you use in your own projects!")
     }
   }
 
@@ -39,6 +40,7 @@ struct AboutTheAppView: View {
       Text("So I tryied to make something that would be nicer to use and to learn,")
       Text("And what best way to do that than with a game?")
       Comment("The puzzles are not supposed to be hard, thay are just a nice way to practice your accessibility knowledge!")
+      InternalLink(page: GameView().toAny(), title: "Go play it!")
     }
   }
 
