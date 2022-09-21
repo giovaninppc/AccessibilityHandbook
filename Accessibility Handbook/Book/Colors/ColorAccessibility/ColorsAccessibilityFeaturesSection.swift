@@ -11,6 +11,7 @@ struct ColorsAccessibilityFeaturesSection: Section {
   let title: String = "Color Accessibility Features"
   let pages: [Page] = [
     ReduceTransparencyPage(),
-    DifferentiateWithColorsPage()
+    DifferentiateWithColorsPage(),
+    InvertColorsPage()
   ]
 }

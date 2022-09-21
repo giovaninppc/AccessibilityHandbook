@@ -12,6 +12,7 @@ enum Games {
     WhereIsMyContent(),
     FindThePassword(),
     BePatient(),
-    Impostor()
+    Impostor(),
+    Invisibility()
   ]
 }

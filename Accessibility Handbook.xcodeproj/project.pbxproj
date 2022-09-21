@@ -71,6 +71,8 @@
 		3FBF05DE28DB5DC100DA5BF5 /* Impostor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */; };
 		3FBF05E128DB5FF600DA5BF5 /* NotificationsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E028DB5FF600DA5BF5 /* NotificationsSection.swift */; };
 		3FBF05E428DB602000DA5BF5 /* AnnouncementPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E328DB602000DA5BF5 /* AnnouncementPage.swift */; };
+		3FBF05E628DB639300DA5BF5 /* InverColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E528DB639300DA5BF5 /* InverColorsPage.swift */; };
+		3FBF05E828DB641D00DA5BF5 /* Invisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E728DB641D00DA5BF5 /* Invisibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +141,8 @@
 		3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impostor.swift; sourceTree = "<group>"; };
 		3FBF05E028DB5FF600DA5BF5 /* NotificationsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsSection.swift; sourceTree = "<group>"; };
 		3FBF05E328DB602000DA5BF5 /* AnnouncementPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementPage.swift; sourceTree = "<group>"; };
+		3FBF05E528DB639300DA5BF5 /* InverColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverColorsPage.swift; sourceTree = "<group>"; };
+		3FBF05E728DB641D00DA5BF5 /* Invisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invisibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +352,7 @@
 				3FBF05AD28DAC03A00DA5BF5 /* FindThePassword.swift */,
 				3FBF05D928DB56D000DA5BF5 /* BePatient.swift */,
 				3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */,
+				3FBF05E728DB641D00DA5BF5 /* Invisibility.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 			children = (
 				3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */,
 				3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift */,
+				3FBF05E528DB639300DA5BF5 /* InverColorsPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -555,6 +561,7 @@
 				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift in Sources */,
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
+				3FBF05E628DB639300DA5BF5 /* InverColorsPage.swift in Sources */,
 				3FBF05E428DB602000DA5BF5 /* AnnouncementPage.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,
@@ -578,6 +585,7 @@
 				3FBF058628DA994400DA5BF5 /* AccessibilityTraitPage.swift in Sources */,
 				3FBF055728DA661400DA5BF5 /* IndexCell.swift in Sources */,
 				3FBF058828DA9C1B00DA5BF5 /* AccessibilityValuePage.swift in Sources */,
+				3FBF05E828DB641D00DA5BF5 /* Invisibility.swift in Sources */,
 				3FBF056E28DA6ED800DA5BF5 /* DocButton.swift in Sources */,
 				3FBF058B28DA9C6300DA5BF5 /* InteractionSection.swift in Sources */,
 				3FBF05C928DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift in Sources */,
