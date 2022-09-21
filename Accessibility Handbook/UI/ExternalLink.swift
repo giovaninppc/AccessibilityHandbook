@@ -16,7 +16,7 @@ struct ExternalLink: View {
       Link(title, destination: URL(string: link)!)
         .font(.callout.bold())
         .foregroundColor(.pink)
-        .multilineTextAlignment(.center)
+        .multilineTextAlignment(.leading)
       Spacer()
     }
   }

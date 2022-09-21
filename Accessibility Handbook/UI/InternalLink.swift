@@ -19,7 +19,7 @@ struct InternalLink: View {
         Text(title)
           .font(.callout.bold())
           .foregroundColor(.green)
-          .multilineTextAlignment(.center)
+          .multilineTextAlignment(.leading)
       }
       Spacer()
     }

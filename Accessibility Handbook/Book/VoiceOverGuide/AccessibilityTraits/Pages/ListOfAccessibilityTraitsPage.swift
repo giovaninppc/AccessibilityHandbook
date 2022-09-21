@@ -11,7 +11,7 @@ struct ListOfAccessibilityTraitsPage: View, Page {
   var title: String = "List of Accessibility Traits"
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: ButtonTraitPage()) {
       Group {
         Text("Here's a full list of accessibility traits. Some of them are further discussed on this app")
         Comment("Since I think they are the most important ones and I actually have something to talk about. (Or I just didn't have the time yet to write something nice about this trait)")
