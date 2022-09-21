@@ -46,7 +46,7 @@ struct BePatient: GamePage, View {
       var isOnTrack = true
       newValue.enumerated().forEach { (index, value) in
         if index != value - 1 {
-          haptic(.error)
+          selection()
           sequence = []
           isOnTrack = false
           return

@@ -264,12 +264,12 @@
 				3FBF057D28DA77E600DA5BF5 /* Colors.swift */,
 				3FBF057928DA752200DA5BF5 /* Comment.swift */,
 				3FBF056D28DA6ED800DA5BF5 /* DocButton.swift */,
+				3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */,
 				3FBF057F28DA7DDC00DA5BF5 /* Images.swift */,
 				3FBF057528DA701B00DA5BF5 /* PageContent.swift */,
 				3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */,
 				3FBF05B528DB3F7C00DA5BF5 /* Space.swift */,
 				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
-				3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
