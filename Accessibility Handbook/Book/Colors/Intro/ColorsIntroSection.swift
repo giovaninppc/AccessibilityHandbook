@@ -12,6 +12,6 @@ struct ColorsIntroSections: Section {
   let pages: [Page] = [
     AboutColorsPage(),
     ColorBlindnessPage(),
-    ConstrastPage()
+//    ConstrastPage()
   ]
 }

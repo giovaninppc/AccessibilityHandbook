@@ -17,8 +17,9 @@ struct AColorfulMessage: GamePage, View {
   @State var hinting: Bool = false
 
   @State private var word: String = ""
-  @State private var isDifferentiateWithoutColorEnabled: Bool = UIAccessibility.shouldDifferentiateWithoutColor
   @FocusState private var fieldIsFocused: Bool
+
+  @Environment(\.accessibilityDifferentiateWithoutColor) var isDifferentiateWithoutColorEnabled
 
   private var hasFigurePassword: Bool {
     word.lowercased() == "226435"
@@ -45,11 +46,6 @@ struct AColorfulMessage: GamePage, View {
       .toAny()
     } link: {
       hintPage
-    }
-    .onAppear {
-      NotificationCenter.default.addObserver(forName: UIAccessibility.differentiateWithoutColorDidChangeNotification, object: nil, queue: nil) { _ in
-        isDifferentiateWithoutColorEnabled = UIAccessibility.shouldDifferentiateWithoutColor
-      }
     }.onChange(of: hasFigurePassword) { newValue in
       success = hasFigurePassword
       guard hasFigurePassword else { return }

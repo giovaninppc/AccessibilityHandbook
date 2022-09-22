@@ -77,8 +77,8 @@ private extension ColorBlindnessPage {
       }
       Text("Here, on the first column, we are color coding red the negative items and green the positive ones. But that's exactly what we want to avoid. The second Colum has a much better 'universal' experience where identifying these items as positive or negative does not rely solely on color.")
       Comment("Using + and - may have cultural connotations, so it may not be the best example here. But it's just an example.")
-      Comment("If you do rely on colors only on some part of your app, don't want to change it, but still want to to make it usable for colorblind users, check our 'Differentiate with colors' page.")
-      InternalLink(page: DifferentiateWithoutColorsPage().page, title: "Differentiate with colors")
+      Comment("If you do rely on colors only on some part of your app, don't want to change it, but still want to to make it usable for colorblind users, check our 'Differentiate without colors' page.")
+      InternalLink(page: DifferentiateWithoutColorsPage().page, title: "Differentiate without colors")
     }
   }
 

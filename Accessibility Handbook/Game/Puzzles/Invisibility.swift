@@ -16,7 +16,7 @@ struct Invisibility: GamePage, View {
   @State var success: Bool = false
   @State var hinting: Bool = false
 
-  @State var isReduceTransparencyEnabled: Bool = UIAccessibility.isReduceTransparencyEnabled
+  @Environment(\.accessibilityReduceTransparency) var isReduceTransparencyEnabled
 
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
@@ -49,11 +49,6 @@ struct Invisibility: GamePage, View {
       .toAny()
     } link: {
       hintPage
-    }
-    .onAppear {
-      NotificationCenter.default.addObserver(forName: UIAccessibility.reduceTransparencyStatusDidChangeNotification, object: nil, queue: nil) { _ in
-        isReduceTransparencyEnabled = UIAccessibility.isReduceTransparencyEnabled
-      }
     }
   }
 }
