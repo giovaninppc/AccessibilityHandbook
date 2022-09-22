@@ -16,6 +16,7 @@ enum Games {
     Invisibility(),
     Impostor2(),
     TheMagicPuzzle(),
-    SecretActions()
+    SecretActions(),
+    FillTheCup()
   ]
 }

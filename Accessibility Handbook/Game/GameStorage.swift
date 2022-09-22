@@ -16,6 +16,7 @@ enum GameKeys: String, StorageKey {
   case impostor2
   case theMagicPuzzle
   case secretActions
+  case fillTheCup
 }
 
 enum GameStates {
@@ -42,4 +43,7 @@ enum GameStates {
 
   @Stored(key: GameKeys.secretActions, default: false)
   static var secretActionsCompleted: Bool
+
+  @Stored(key: GameKeys.fillTheCup, default: false)
+  static var fillTheCupCompleted: Bool
 }

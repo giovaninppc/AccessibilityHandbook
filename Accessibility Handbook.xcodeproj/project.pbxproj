@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3F25390D28DBC75700B089EA /* Centered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390C28DBC75700B089EA /* Centered.swift */; };
 		3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390E28DBCF1200B089EA /* SecretActions.swift */; };
+		3F25391128DBDF8200B089EA /* FillTheCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391028DBDF8200B089EA /* FillTheCup.swift */; };
+		3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391228DBE05A00B089EA /* CircularProgressionView.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -97,6 +99,8 @@
 /* Begin PBXFileReference section */
 		3F25390C28DBC75700B089EA /* Centered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centered.swift; sourceTree = "<group>"; };
 		3F25390E28DBCF1200B089EA /* SecretActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretActions.swift; sourceTree = "<group>"; };
+		3F25391028DBDF8200B089EA /* FillTheCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillTheCup.swift; sourceTree = "<group>"; };
+		3F25391228DBE05A00B089EA /* CircularProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressionView.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -324,6 +328,7 @@
 				3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */,
 				3FBF05B528DB3F7C00DA5BF5 /* Space.swift */,
 				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
+				3F25391228DBE05A00B089EA /* CircularProgressionView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				3FBF05EB28DB6B0C00DA5BF5 /* Impostor2.swift */,
 				3FBF05F128DB6D6900DA5BF5 /* TheMagicPuzzle.swift */,
 				3F25390E28DBCF1200B089EA /* SecretActions.swift */,
+				3F25391028DBDF8200B089EA /* FillTheCup.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -672,6 +678,7 @@
 				3FBF056B28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift in Sources */,
 				3FBF05EE28DB6BE100DA5BF5 /* ExternalLink.swift in Sources */,
 				3FBF05EC28DB6B0C00DA5BF5 /* Impostor2.swift in Sources */,
+				3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */,
 				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift in Sources */,
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
@@ -723,6 +730,7 @@
 				3FBF05B628DB3F7C00DA5BF5 /* Space.swift in Sources */,
 				3FBF060328DB710300DA5BF5 /* ButtonTraitPage.swift in Sources */,
 				3FBF060928DB8C4C00DA5BF5 /* HeaderTraitPage.swift in Sources */,
+				3F25391128DBDF8200B089EA /* FillTheCup.swift in Sources */,
 				3F25390D28DBC75700B089EA /* Centered.swift in Sources */,
 				3FBF05F028DB6D4800DA5BF5 /* MagicTapPage.swift in Sources */,
 				3FBF05CF28DB513C00DA5BF5 /* ColorsIntroSection.swift in Sources */,
