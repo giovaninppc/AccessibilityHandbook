@@ -21,9 +21,9 @@ Find an extensive documentation of accessibility features and how to implement t
 The **Handbook Game** is a series of short puzzles to test your accessibility knowledge.
 They are built not to be hard, but to be examples of how some accessibility settings can be used and how they impact the users.
 
-![Image with example of the app running, displaying some of the Handbook puzzle games](img/guides.png)
+![Image with example of the app running, displaying some of the Handbook puzzle games](img/puzzles.png)
 
-> Have an ideia for a new puzzle? [Submit an issue](https://github.com/giovaninppc/AccessibilityHandbook/issues/new)
+> Have an ideia for a new puzzle? [Submit an issue](https://github.com/giovaninppc/AccessibilityHandbook/issues/new).
 
 ## How to run
 
