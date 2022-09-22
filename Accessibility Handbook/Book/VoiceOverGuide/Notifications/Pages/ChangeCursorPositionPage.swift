@@ -57,7 +57,7 @@ private extension ChangeCursorPositionPage {
       Text("When triggering one of these notifications, we can pass as the argument the view we want the Voice-Over to focus on.")
       Code(
         uiKit: """
-        UIAccessibilitypost(.layoutChanged, argument: viewToFocus)
+        UIAccessibility.post(.layoutChanged, argument: viewToFocus)
         """
       )
     }
@@ -82,7 +82,7 @@ private extension ChangeCursorPositionPage {
       Text("Then, assign it to the view you want to control by using a view modifier.")
       Code(
         swiftUI: """
-        .accessibilityFocused($isGoodModalFocused)
+        .accessibilityFocused($viewIsFocused)
         """
       )
       Text("Now you can change the focus to the view by setting the property to 'True'.")

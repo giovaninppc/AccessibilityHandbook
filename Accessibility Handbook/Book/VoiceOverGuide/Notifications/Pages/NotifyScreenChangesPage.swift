@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NotifyScreenChangesPage: View, Page {
-  var title: String = "Announcement"
+  var title: String = "Notify Screen Changes"
 
   let codeUIKit: String = """
   UIAccessibility.post(.layoutChanged, argument: nil)
