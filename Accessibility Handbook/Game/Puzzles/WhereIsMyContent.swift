@@ -9,7 +9,7 @@ import SwiftUI
 
 struct WhereIsMyContent: GamePage, View {
   var title: String = "Where is my content?"
-  var completed: Bool = GameStates.whereIsMyContentCompleted
+  var completed: Bool { GameStates.whereIsMyContentCompleted }
 
   var hintPage: AnyView = AccessibilityLabelPage().page
 

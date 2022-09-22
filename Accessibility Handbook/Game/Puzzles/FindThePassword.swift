@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FindThePassword: GamePage, View {
   var title: String = "Find the Password"
-  var completed: Bool = GameStates.findThePasswordCompleted
+  var completed: Bool { GameStates.findThePasswordCompleted }
 
   let hintPage: AnyView = AccessibilityPriorityPage().page
 
