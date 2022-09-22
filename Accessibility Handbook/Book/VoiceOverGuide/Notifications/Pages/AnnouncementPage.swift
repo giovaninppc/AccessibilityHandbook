@@ -99,6 +99,8 @@ struct AnnouncementPage: View, Page {
           currentValue -= 1
         case .increment:
           currentValue += 1
+        @unknown default:
+          break
         }
       }
 
