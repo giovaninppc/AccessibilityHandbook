@@ -1,3 +1,5 @@
+![Cover image](img/cover.png)
+
 # iOS Accessibility Handbook
 
 [![License: MIT](https://img.shields.io/github/license/giovaninppc/AccessibilityHandbook)](https://opensource.org/licenses/MIT)
