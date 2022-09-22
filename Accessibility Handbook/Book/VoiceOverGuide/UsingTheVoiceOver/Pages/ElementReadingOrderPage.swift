@@ -30,10 +30,9 @@ struct ElementReadingOrderPage: View, Page {
     }
   }
 
-  // <Accessibility-Label><Accessibility-Hint><Accessibility-traits><Accessibility-Value>
   private var readingOrder: some View {
     Group {
-      Text("Accessibility Label | Accessibility Hint | Accessibility Traits (button) | Accessibility Value")
+      Text("Accessibility Label | Accessibility Value | Accessibility Traits (button) | Accessibility Hint ")
         .font(.callout.bold())
         .foregroundColor(.purple)
         .accessibilityLabel("AccessibilityLabel")
