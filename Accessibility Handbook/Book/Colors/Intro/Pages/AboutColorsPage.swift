@@ -24,6 +24,7 @@ struct AboutColorsPage: View, Page {
         Text("And when building an app, colors are usually something that come before actually programming anything, or during what I like to call 'The design step'.")
         Text("So, if you are working on a team with a Designer, I highly recommend you bring these discussion to them. Understanding more about colors, how they affect the users and what we can consider accessibility while handling colors on our app.")
         Comment("If you don't have a designer there... Well, I hope this content also helps you understand a little bit more about it!")
+        DocButton(link: "https://developer.apple.com/design/human-interface-guidelines/foundations/color/", title: "Human Interface Guidelines - Colors")
       }
       .toAny()
     }

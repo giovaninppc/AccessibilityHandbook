@@ -17,6 +17,7 @@ enum Games {
     Impostor2(),
     TheMagicPuzzle(),
     SecretActions(),
-    FillTheCup()
+    FillTheCup(),
+    AColorfulMessage()
   ]
 }

@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct DifferentiateWithColorsPage: View, Page {
-  var title: String = "Differentiate with colors"
+struct DifferentiateWithoutColorsPage: View, Page {
+  var title: String = "Differentiate without colors"
 
   var body: some View {
     PageContent(next: InvertColorsPage()) {

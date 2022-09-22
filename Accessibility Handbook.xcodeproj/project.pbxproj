@@ -18,6 +18,7 @@
 		3F4E7F9128DCA6AC00710F18 /* ChangeCursorPositionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9028DCA6AC00710F18 /* ChangeCursorPositionPage.swift */; };
 		3F4E7F9328DCB46700710F18 /* AdjustableCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */; };
 		3F4E7F9528DCBC1600710F18 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9428DCBC1600710F18 /* ImageAsset.swift */; };
+		3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -74,7 +75,7 @@
 		3FBF05CC28DB510A00DA5BF5 /* ReduceTransparencyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */; };
 		3FBF05CF28DB513C00DA5BF5 /* ColorsIntroSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05CE28DB513C00DA5BF5 /* ColorsIntroSection.swift */; };
 		3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D128DB516400DA5BF5 /* AboutColorsPage.swift */; };
-		3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift */; };
+		3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift */; };
 		3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D528DB537F00DA5BF5 /* ColorBlindnessPage.swift */; };
 		3FBF05D828DB545700DA5BF5 /* ContrastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D728DB545700DA5BF5 /* ContrastPage.swift */; };
 		3FBF05DA28DB56D000DA5BF5 /* BePatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05D928DB56D000DA5BF5 /* BePatient.swift */; };
@@ -115,6 +116,7 @@
 		3F4E7F9028DCA6AC00710F18 /* ChangeCursorPositionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCursorPositionPage.swift; sourceTree = "<group>"; };
 		3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCounter.swift; sourceTree = "<group>"; };
 		3F4E7F9428DCBC1600710F18 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
+		3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AColorfulMessage.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -172,7 +174,7 @@
 		3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceTransparencyPage.swift; sourceTree = "<group>"; };
 		3FBF05CE28DB513C00DA5BF5 /* ColorsIntroSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsIntroSection.swift; sourceTree = "<group>"; };
 		3FBF05D128DB516400DA5BF5 /* AboutColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutColorsPage.swift; sourceTree = "<group>"; };
-		3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentiateWithColorsPage.swift; sourceTree = "<group>"; };
+		3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentiateWithoutColorsPage.swift; sourceTree = "<group>"; };
 		3FBF05D528DB537F00DA5BF5 /* ColorBlindnessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlindnessPage.swift; sourceTree = "<group>"; };
 		3FBF05D728DB545700DA5BF5 /* ContrastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastPage.swift; sourceTree = "<group>"; };
 		3FBF05D928DB56D000DA5BF5 /* BePatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BePatient.swift; sourceTree = "<group>"; };
@@ -443,6 +445,7 @@
 				3FBF05F128DB6D6900DA5BF5 /* TheMagicPuzzle.swift */,
 				3F25390E28DBCF1200B089EA /* SecretActions.swift */,
 				3F25391028DBDF8200B089EA /* FillTheCup.swift */,
+				3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -518,7 +521,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */,
-				3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift */,
+				3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift */,
 				3FBF05E528DB639300DA5BF5 /* InverColorsPage.swift */,
 				3FBF05E928DB699200DA5BF5 /* IncreaseContrastPage.swift */,
 			);
@@ -693,6 +696,7 @@
 				3FBF05F828DB6F5400DA5BF5 /* HapticsSection.swift in Sources */,
 				3FBF05A528DAB9C700DA5BF5 /* Storage.swift in Sources */,
 				3FBF05FB28DB6F6200DA5BF5 /* HapticsPage.swift in Sources */,
+				3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */,
 				3FBF05F528DB6F2E00DA5BF5 /* OthersSection.swift in Sources */,
 				3FBF057828DA712C00DA5BF5 /* ToAny.swift in Sources */,
 				3FBF055328DA64D000DA5BF5 /* HomeView.swift in Sources */,
@@ -718,7 +722,7 @@
 				3FBF05EE28DB6BE100DA5BF5 /* ExternalLink.swift in Sources */,
 				3FBF05EC28DB6B0C00DA5BF5 /* Impostor2.swift in Sources */,
 				3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */,
-				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithColorsPage.swift in Sources */,
+				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift in Sources */,
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
 				3FBF05E628DB639300DA5BF5 /* InverColorsPage.swift in Sources */,

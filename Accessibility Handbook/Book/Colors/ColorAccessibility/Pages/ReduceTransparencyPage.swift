@@ -11,7 +11,7 @@ struct ReduceTransparencyPage: View, Page {
   var title: String = "Reduce Transparency"
 
   var body: some View {
-    PageContent(next: DifferentiateWithColorsPage()) {
+    PageContent(next: DifferentiateWithoutColorsPage()) {
       Group {
 
       }
