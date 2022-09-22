@@ -10,6 +10,8 @@ import Foundation
 struct NotificationsSection: Section {
   let title: String = "Accessibility Notifications"
   let pages: [Page] = [
-    AnnouncementPage()
+    AnnouncementPage(),
+    NotifyScreenChangesPage(),
+    ChangeCursorPositionPage()
   ]
 }

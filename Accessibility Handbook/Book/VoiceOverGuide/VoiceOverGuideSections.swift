@@ -10,10 +10,11 @@ import Foundation
 struct VoiceOverGuideSections: SectionProvider {
   let title: String = "Voice-Over Guide"
   let sections: [Section] = [
-    GesturesSection(),
+    UsingTheVoiceOverSection(),
     AccessibilityPropertiesSection(),
     InteractionSection(),
     AccessibilityTraitsSection(),
+    ContentHierarchySectionSection(),
     NotificationsSection()
   ]
 }

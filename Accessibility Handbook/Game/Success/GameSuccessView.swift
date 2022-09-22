@@ -15,10 +15,6 @@ struct GameSuccessView: View {
   @AccessibilityFocusState
   private var isSuccessFocused: Bool
 
-  private var pageName: String {
-    (page as? Page)?.title ?? ""
-  }
-
   var body: some View {
     ZStack(alignment: .center) {
       Rectangle()
@@ -33,7 +29,7 @@ struct GameSuccessView: View {
         VerticalSpace(.regular)
         Text("If you want to learn more about this puzzle check our documentation")
           .multilineTextAlignment(.center)
-        NavigationLink("Suggested reading: \(pageName)") {
+        NavigationLink("Suggested reading") {
           page
         }
         Button {

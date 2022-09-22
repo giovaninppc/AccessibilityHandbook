@@ -8,18 +8,22 @@
 import SwiftUI
 
 struct Code: View {
-  let uiKit: String
-  let swiftUI: String
+  let uiKit: String?
+  let swiftUI: String?
 
-  init(uiKit: String, swiftUI: String) {
+  init(uiKit: String? = nil, swiftUI: String? = nil) {
     self.uiKit = uiKit
     self.swiftUI = swiftUI
   }
 
   var body: some View {
     VStack(spacing: .regular) {
-      codeBlock(code: uiKit, icon: .init(systemName: "uiwindow.split.2x1"), title: "UIKit")
-      codeBlock(code: swiftUI, icon: .init(systemName: "swift"), title: "SwiftUI")
+      if let uiKit = uiKit {
+        codeBlock(code: uiKit, icon: .init(systemName: "uiwindow.split.2x1"), title: "UIKit")
+      }
+      if let swiftUI = swiftUI {
+        codeBlock(code: swiftUI, icon: .init(systemName: "swift"), title: "SwiftUI")
+      }
     }
   }
 
