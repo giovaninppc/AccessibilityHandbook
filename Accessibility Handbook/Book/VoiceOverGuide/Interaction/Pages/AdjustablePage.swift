@@ -53,47 +53,7 @@ struct AdjustablePage: View, Page {
   private var example: some View {
     Group {
       VerticalSpace(.regular)
-      HStack {
-        Spacer()
-        Button {
-          currentValue -= 1
-        } label: {
-          Image(systemName: "minus.circle.fill")
-            .resizable()
-            .frame(width: 30.0, height: 30.0)
-        }
-        .accessibilityHidden(true)
-
-        HorizontalSpace(.regular)
-
-        Text("\(currentValue)")
-          .font(.title.bold())
-
-        HorizontalSpace(.regular)
-
-        Button {
-          currentValue += 1
-        } label: {
-          Image(systemName: "plus.circle.fill")
-            .resizable()
-            .frame(width: 30.0, height: 30.0)
-        }
-        .accessibilityHidden(true)
-        Spacer()
-      }
-      .accessibilityElement(children: .combine)
-      .accessibilityValue("\(currentValue)")
-      .accessibilityAdjustableAction { direction in
-        switch direction {
-        case .decrement:
-          currentValue -= 1
-        case .increment:
-          currentValue += 1
-        @unknown default:
-          break
-        }
-      }
-
+      AdjustableCounter(value: $currentValue)
       VerticalSpace(.regular)
     }
   }

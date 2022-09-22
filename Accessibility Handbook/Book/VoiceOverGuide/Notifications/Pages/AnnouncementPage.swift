@@ -42,7 +42,7 @@ struct AnnouncementPage: View, Page {
   }
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: NotifyScreenChangesPage()) {
       Group {
         Text("An announcement notification is a way to make the Voice-Over read something that is not currently focused.")
         Text("Sometimes, some information changes on the screen and we show to the user using some animation to grab their attention.")

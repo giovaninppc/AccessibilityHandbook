@@ -33,18 +33,13 @@ struct ElementReadingOrderPage: View, Page {
   // <Accessibility-Label><Accessibility-Hint><Accessibility-traits><Accessibility-Value>
   private var readingOrder: some View {
     Group {
-      Text("Accessibility Label")
+      Text("Accessibility Label | Accessibility Hint | Accessibility Traits (button) | Accessibility Value")
         .font(.callout.bold())
         .foregroundColor(.purple)
-      Text("Accessibility Hint")
-        .font(.callout.bold())
-        .foregroundColor(.mint)
-      Text("Accessibility Traits")
-        .font(.callout.bold())
-        .foregroundColor(.orange)
-      Text("Accessibility Value")
-        .font(.callout.bold())
-        .foregroundColor(.cyan)
+        .accessibilityLabel("AccessibilityLabel")
+        .accessibilityHint("Accessibility Hint")
+        .accessibilityAddTraits(.isButton)
+        .accessibilityValue("Accessibility Value")
     }
     .accessibilityElement(children: .combine)
   }

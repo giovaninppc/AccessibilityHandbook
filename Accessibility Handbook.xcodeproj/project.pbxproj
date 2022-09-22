@@ -16,6 +16,7 @@
 		3F4E7F8D28DC981700710F18 /* GroupingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8C28DC981700710F18 /* GroupingPage.swift */; };
 		3F4E7F8F28DCA52700710F18 /* AnnouncementPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8E28DCA52700710F18 /* AnnouncementPage.swift */; };
 		3F4E7F9128DCA6AC00710F18 /* ChangeCursorPositionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9028DCA6AC00710F18 /* ChangeCursorPositionPage.swift */; };
+		3F4E7F9328DCB46700710F18 /* AdjustableCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -111,6 +112,7 @@
 		3F4E7F8C28DC981700710F18 /* GroupingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupingPage.swift; sourceTree = "<group>"; };
 		3F4E7F8E28DCA52700710F18 /* AnnouncementPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementPage.swift; sourceTree = "<group>"; };
 		3F4E7F9028DCA6AC00710F18 /* ChangeCursorPositionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCursorPositionPage.swift; sourceTree = "<group>"; };
+		3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCounter.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 				3FBF05B528DB3F7C00DA5BF5 /* Space.swift */,
 				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
 				3F25391228DBE05A00B089EA /* CircularProgressionView.swift */,
+				3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -749,6 +752,7 @@
 				3FBF058B28DA9C6300DA5BF5 /* InteractionSection.swift in Sources */,
 				3FBF05C928DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift in Sources */,
 				3FBF05B028DAC27C00DA5BF5 /* HintView.swift in Sources */,
+				3F4E7F9328DCB46700710F18 /* AdjustableCounter.swift in Sources */,
 				3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */,
 				3FBF056128DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift in Sources */,
 				3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */,

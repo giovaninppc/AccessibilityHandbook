@@ -20,7 +20,7 @@ struct HomeView: View {
             destination: IndexView(sections: VoiceOverGuideSections()).toAny()
           )
           homeElement(
-            icon: .init(systemName: "circle"),
+            icon: .init(systemName: "paintpalette.fill"),
             title: "Colors Guide",
             destination: IndexView(sections: ColorsSection()).toAny()
           )
@@ -32,7 +32,7 @@ struct HomeView: View {
             destination: IndexView(sections: DynamicFontSections()).toAny()
           )
           homeElement(
-            icon: .init(systemName: "swift"),
+            icon: .init(systemName: "circle.hexagonpath.fill"),
             title: "Other features",
             destination: IndexView(sections: OthersSections()).toAny()
           )
@@ -67,7 +67,7 @@ struct HomeView: View {
           Image(systemName: "gamecontroller.fill")
             .resizable()
             .aspectRatio(contentMode: .fit)
-            .frame(width: 80.0, height: 80.0)
+            .frame(width: 100.0, height: 100.0)
           Spacer()
         }
         Text("The Handbook Game")
@@ -93,7 +93,7 @@ struct HomeView: View {
         icon
           .resizable()
           .aspectRatio(contentMode: .fit)
-          .frame(width: 30.0, height: 30.0)
+          .frame(width: 50.0, height: 50.0)
         Spacer()
         Text(title)
           .font(.title3.bold())
