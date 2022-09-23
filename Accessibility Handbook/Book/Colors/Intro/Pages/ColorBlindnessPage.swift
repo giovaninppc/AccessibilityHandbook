@@ -27,12 +27,15 @@ private extension ColorBlindnessPage {
     Group {
       Text("Color blindness is a decreased ability to see color differences.")
       ExternalLink(link: "https://en.wikipedia.org/wiki/Color_blindness", title: "More on Wikipedia")
-      Text("What you may not know is that there are 'levels' of color blindness. A person with green color deficiency may not see the green color at all, or may see it a little bit less that a non-color-blind person.")
+      Text("What you may not know is that there are 'levels' of color blindness. A person with green color deficiency, for example, may not see the green color at all, or may see it a little bit less that a non-color-blind person.")
       Text("You may take an Ishihara test to check if you are color blind. I have a friend who discovered she was color blind when we were in college! And before that, I'd expect you to identify this condition much earlier in life.")
-      Asset.ishihara.swiftUIImage
-        .resizable()
-        .aspectRatio(contentMode: .fit)
-        .accessibilityLabel("Example of ishihara color identifying test.")
+      Centered {
+        Asset.ishihara.swiftUIImage
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .accessibilityLabel("Example of ishihara color identifying test.")
+          .toAny()
+      }
       Comment("These above are examples of an Ishihara test. For a 'normal' vision person, it's expected to see '12', '6' and '74' respectively.")
       ExternalLink(link: "https://en.wikipedia.org/wiki/Ishihara_test", title: "Ishihara Test")
       Text("But how does this affect our work when we are building an app?")

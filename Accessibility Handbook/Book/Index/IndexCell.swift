@@ -9,11 +9,17 @@ import SwiftUI
 
 struct IndexCell: View {
   let title: String
+  let icon: String?
+
+  init(title: String, icon: String? = nil) {
+    self.title = title
+    self.icon = icon
+  }
 
   var body: some View {
     VStack(alignment: .leading, spacing: .zero) {
       HStack {
-        Text(title)
+        displayTitle
           .font(.body)
           .padding(.horizontal, .regular)
           .padding(.vertical, .regular)
@@ -27,6 +33,18 @@ struct IndexCell: View {
     }
     .accessibilityElement(children: .combine)
     .accessibilityAddTraits(.isButton)
+  }
+
+  private var displayTitle: some View {
+    Group {
+      if let icon = icon {
+        (Text(Image(systemName: icon)) + Text(" ") + Text(title))
+      } else {
+        Text(title)
+      }
+    }
+    .accessibilityElement(children: .combine)
+    .accessibilityLabel(title)
   }
 }
 

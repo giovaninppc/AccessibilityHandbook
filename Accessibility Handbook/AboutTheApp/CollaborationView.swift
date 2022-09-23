@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct CollaborationView: View {
+struct CollaborationView: View, Page {
+  var title: String { "Collaboration" }
+
   var body: some View {
     ScrollView {
       VStack(alignment: .leading, spacing: .regular) {

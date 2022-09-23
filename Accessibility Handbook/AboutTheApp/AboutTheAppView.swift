@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct AboutTheAppView: View {
+struct AboutTheAppView: View, Page {
+  var title: String { "About the App"}
+
   var body: some View {
     ScrollView {
       VStack(alignment: .leading, spacing: .regular) {
