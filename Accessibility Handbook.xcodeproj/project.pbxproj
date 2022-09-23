@@ -102,6 +102,7 @@
 		3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060A28DB998300DA5BF5 /* RotorPage.swift */; };
 		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
 		3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */; };
+		3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73EC928DD278900D89F64 /* DeviceRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -201,6 +202,7 @@
 		3FBF060A28DB998300DA5BF5 /* RotorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorPage.swift; sourceTree = "<group>"; };
 		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
 		3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipSection.swift; sourceTree = "<group>"; };
+		3FC73EC928DD278900D89F64 /* DeviceRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,7 +258,6 @@
 				3FBF056228DA6A2E00DA5BF5 /* Book */,
 				3FBF059928DAB58600DA5BF5 /* Game */,
 				3FBF055128DA64C600DA5BF5 /* Home */,
-				3FBF055828DA692800DA5BF5 /* Layout */,
 				3FBF055B28DA69EE00DA5BF5 /* Models */,
 				3FBF054C28DA638800DA5BF5 /* Strings */,
 				3FBF056C28DA6ECA00DA5BF5 /* UI */,
@@ -290,15 +291,6 @@
 				3FBF055228DA64D000DA5BF5 /* HomeView.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		3FBF055828DA692800DA5BF5 /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				3FBF055928DA693200DA5BF5 /* Spacing.swift */,
-				3FBF057728DA712C00DA5BF5 /* ToAny.swift */,
-			);
-			path = Layout;
 			sourceTree = "<group>";
 		};
 		3FBF055B28DA69EE00DA5BF5 /* Models */ = {
@@ -350,22 +342,25 @@
 		3FBF056C28DA6ECA00DA5BF5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */,
 				3F25390C28DBC75700B089EA /* Centered.swift */,
+				3F25391228DBE05A00B089EA /* CircularProgressionView.swift */,
 				3FBF057B28DA763400DA5BF5 /* Code.swift */,
 				3FBF057D28DA77E600DA5BF5 /* Colors.swift */,
 				3FBF057928DA752200DA5BF5 /* Comment.swift */,
+				3FC73EC928DD278900D89F64 /* DeviceRotation.swift */,
 				3FBF056D28DA6ED800DA5BF5 /* DocButton.swift */,
 				3FBF05ED28DB6BE100DA5BF5 /* ExternalLink.swift */,
-				3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */,
-				3FBF060028DB704600DA5BF5 /* InternalLink.swift */,
-				3FBF057F28DA7DDC00DA5BF5 /* Images.swift */,
-				3FBF057528DA701B00DA5BF5 /* PageContent.swift */,
 				3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */,
-				3FBF05B528DB3F7C00DA5BF5 /* Space.swift */,
-				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
-				3F25391228DBE05A00B089EA /* CircularProgressionView.swift */,
-				3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */,
+				3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */,
+				3FBF057F28DA7DDC00DA5BF5 /* Images.swift */,
 				3F4E7F9428DCBC1600710F18 /* ImageAsset.swift */,
+				3FBF060028DB704600DA5BF5 /* InternalLink.swift */,
+				3FBF057528DA701B00DA5BF5 /* PageContent.swift */,
+				3FBF05B528DB3F7C00DA5BF5 /* Space.swift */,
+				3FBF055928DA693200DA5BF5 /* Spacing.swift */,
+				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
+				3FBF057728DA712C00DA5BF5 /* ToAny.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -719,6 +714,7 @@
 				3FBF05CC28DB510A00DA5BF5 /* ReduceTransparencyPage.swift in Sources */,
 				3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */,
 				3FBF056B28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift in Sources */,
+				3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */,
 				3FBF05EE28DB6BE100DA5BF5 /* ExternalLink.swift in Sources */,
 				3FBF05EC28DB6B0C00DA5BF5 /* Impostor2.swift in Sources */,
 				3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */,

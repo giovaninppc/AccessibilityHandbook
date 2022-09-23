@@ -14,6 +14,7 @@ struct Accessibility_HandbookApp: App {
       NavigationView {
         HomeView()
       }
+      .navigationViewStyle(.stack)
     }
   }
 }
