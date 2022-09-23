@@ -8,7 +8,7 @@
 import Foundation
 
 struct ColorsIntroSections: Section {
-  let title: String = "Introduction"
+  let title: String = L10n.ColorsGuide.introduction
   let pages: [Page] = [
     AboutColorsPage(),
     ColorBlindnessPage(),

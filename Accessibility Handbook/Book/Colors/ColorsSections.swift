@@ -8,7 +8,7 @@
 import Foundation
 
 struct ColorsSection: SectionProvider {
-  let title: String = "Colors Guide"
+  let title: String = L10n.ColorsGuide.title
   let sections: [Section] = [
     ColorsIntroSections(),
     ColorsAccessibilityFeaturesSection()

@@ -27,6 +27,29 @@ internal enum L10n {
   /// Accessibility Handbook
   internal static let title = L10n.tr("Localizable", "title")
 
+  internal enum AboutColors {
+    /// Some people don't experience them at all!
+    internal static let comment1 = L10n.tr("Localizable", "AboutColors.comment1")
+    /// I'm over extending myself into physics and biology, but bear with me.
+    internal static let comment2 = L10n.tr("Localizable", "AboutColors.comment2")
+    /// If you don't have a designer there... Well, I hope this content also helps you understand a little bit more about it!
+    internal static let comment3 = L10n.tr("Localizable", "AboutColors.comment3")
+    /// Human Interface Guidelines - Colors
+    internal static let higColors = L10n.tr("Localizable", "AboutColors.higColors")
+    /// Image of pretty colors
+    internal static let image = L10n.tr("Localizable", "AboutColors.image")
+    /// I like colors.\nBut not everybody experience them in the same way.
+    internal static let text1 = L10n.tr("Localizable", "AboutColors.text1")
+    /// Colors are how our brains make sense of the light that reach our eyes. We have cells that will interact with different frequencies of light, and their combination will produce what we see.
+    internal static let text2 = L10n.tr("Localizable", "AboutColors.text2")
+    /// And when building an app, colors are usually something that come before actually programming anything, or during what I like to call 'The design step'.
+    internal static let text3 = L10n.tr("Localizable", "AboutColors.text3")
+    /// So, if you are working on a team with a Designer, I highly recommend you bring these discussion to them. Understanding more about colors, how they affect the users and what we can consider accessibility while handling colors on our app.
+    internal static let text4 = L10n.tr("Localizable", "AboutColors.text4")
+    /// About Colors
+    internal static let title = L10n.tr("Localizable", "AboutColors.title")
+  }
+
   internal enum AccElem {
     /// It's important to set elements that should not be focused, such as separators or other elements without accessibility labels, to not be focused.
     internal static let comment = L10n.tr("Localizable", "AccElem.comment")
@@ -95,6 +118,13 @@ internal enum L10n {
     internal static let text4 = L10n.tr("Localizable", "AccLabel.text4")
     /// Accessibility Label
     internal static let title = L10n.tr("Localizable", "AccLabel.title")
+  }
+
+  internal enum ColorsGuide {
+    /// Introduction
+    internal static let introduction = L10n.tr("Localizable", "ColorsGuide.introduction")
+    /// Colors Guide
+    internal static let title = L10n.tr("Localizable", "ColorsGuide.title")
   }
 
   internal enum ElementReadingOrder {
