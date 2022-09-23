@@ -21,7 +21,7 @@ struct Invisibility: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("I can't see anything...")
+        Text("Just because you can't see, doens't mean it's not there.")
         Comment("Wait... Is this content TRANSPARENT?")
           .accessibilityLabel(Text(isReduceTransparencyEnabled ? "Wait... Is this content TRANSPARENT?" : ""))
           .opacity(isReduceTransparencyEnabled ? 1.0 : 0.0)

@@ -19,7 +19,7 @@ struct WhereIsMyContent: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Come on, this one is pretty easy!")
+        Text("This puzzle is pretty easy.")
         Text("You need to find the correct button to finish the puzzle by using the Voice-Over!")
           .foregroundColor(.background)
         Text("Pumpkin")

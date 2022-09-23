@@ -18,6 +18,8 @@ enum GameKeys: String, StorageKey {
   case secretActions
   case fillTheCup
   case aColorfulMessage
+  case theUpsideDown
+  case superFriend
 }
 
 enum GameStates {
@@ -50,4 +52,10 @@ enum GameStates {
 
   @Stored(key: GameKeys.aColorfulMessage, default: false)
   static var aColorfulMessageCompleted: Bool
+
+  @Stored(key: GameKeys.theUpsideDown, default: false)
+  static var theUpsideDownCompleted: Bool
+
+  @Stored(key: GameKeys.superFriend, default: false)
+  static var superFriendCompleted: Bool
 }

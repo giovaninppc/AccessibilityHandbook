@@ -18,6 +18,8 @@ enum Games {
     TheMagicPuzzle(),
     SecretActions(),
     FillTheCup(),
-    AColorfulMessage()
+    AColorfulMessage(),
+    TheUpsideDown(),
+    SuperFriend()
   ]
 }

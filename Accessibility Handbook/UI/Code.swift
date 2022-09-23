@@ -78,7 +78,9 @@ struct Code: View {
 
   private func copy(code: String) {
     UIPasteboard.general.string = code
-    UIAccessibility.post(notification: .announcement, argument: "Code copied!")
+    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+      UIAccessibility.post(notification: .announcement, argument: "Code copied!")
+    }
   }
 
   private func animateSelection(_ binded: Binding<Bool>) {

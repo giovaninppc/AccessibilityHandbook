@@ -11,7 +11,7 @@ struct ColorBlindnessPage: View, Page {
   var title: String = "Color Blindness"
 
   var body: some View {
-    PageContent(next: ConstrastPage()) {
+    PageContent(next: nil) {
       Group {
         intro
         handlingColorblindColors

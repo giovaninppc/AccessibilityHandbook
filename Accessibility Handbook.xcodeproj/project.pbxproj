@@ -103,6 +103,8 @@
 		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
 		3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */; };
 		3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73EC928DD278900D89F64 /* DeviceRotation.swift */; };
+		3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */; };
+		3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,6 +205,8 @@
 		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
 		3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipSection.swift; sourceTree = "<group>"; };
 		3FC73EC928DD278900D89F64 /* DeviceRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotation.swift; sourceTree = "<group>"; };
+		3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUpsideDown.swift; sourceTree = "<group>"; };
+		3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFriend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,6 +445,8 @@
 				3F25390E28DBCF1200B089EA /* SecretActions.swift */,
 				3F25391028DBDF8200B089EA /* FillTheCup.swift */,
 				3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */,
+				3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */,
+				3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -705,6 +711,7 @@
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
 				3F4E7F9128DCA6AC00710F18 /* ChangeCursorPositionPage.swift in Sources */,
+				3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */,
 				3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */,
 				3FBF059128DA9E4600DA5BF5 /* LongPressPage.swift in Sources */,
 				3F4E7F8B28DC980700710F18 /* ModalViewPage.swift in Sources */,
@@ -726,6 +733,7 @@
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,
 				3FBF055028DA648700DA5BF5 /* Strings.swift in Sources */,
+				3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */,
 				3FBF05E128DB5FF600DA5BF5 /* NotificationsSection.swift in Sources */,
 				3F4E7F8F28DCA52700710F18 /* AnnouncementPage.swift in Sources */,
 				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,

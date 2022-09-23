@@ -32,32 +32,37 @@ struct FindThePassword: GamePage, View {
           .accessibilitySortPriority(19)
         Comment("You just need to find out what the password is...")
           .accessibilitySortPriority(18)
-        HStack {
-          item("1")
-            .accessibilitySortPriority(8)
-          item("2")
-            .accessibilityHidden(true)
-          item("3")
-            .accessibilityHidden(true)
-          item("4")
-            .accessibilitySortPriority(10)
-          item("5")
-            .accessibilityHidden(true)
+        VerticalSpace(.regular)
+        Centered {
+          VStack {
+            HStack {
+              item("1")
+                .accessibilitySortPriority(8)
+              item("2")
+                .accessibilityHidden(true)
+              item("3")
+                .accessibilityHidden(true)
+              item("4")
+                .accessibilitySortPriority(10)
+              item("5")
+                .accessibilityHidden(true)
+            }
+            HStack {
+              item("6")
+                .accessibilitySortPriority(9)
+              item("7")
+                .accessibilitySortPriority(6)
+              item("8")
+                .accessibilityHidden(true)
+              item("9")
+                .accessibilitySortPriority(7)
+              item("0")
+                .accessibilityHidden(true)
+            }
+          }
+          .toAny()
         }
-        HStack {
-          item("6")
-            .accessibilitySortPriority(9)
-          item("7")
-            .accessibilitySortPriority(6)
-          item("8")
-            .accessibilityHidden(true)
-          item("9")
-            .accessibilitySortPriority(7)
-          item("0")
-            .accessibilityHidden(true)
-        }
-        Spacer()
-          .frame(height: .regular)
+        VerticalSpace(.regular)
         TextField("Password", text: $word)
           .keyboardType(.numberPad)
           .focused($fieldIsFocused)

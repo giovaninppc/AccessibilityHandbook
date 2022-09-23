@@ -27,6 +27,7 @@ struct GameCell: View {
         .foregroundColor(.secondaryBackground)
     }
     .accessibilityElement(children: .combine)
+    .accessibilityLabel(title)
     .accessibilityHint(Text(completed ? "You have already succeeded in this puzzle!" : "You haven't finished this puzzle yet"))
     .accessibilityAddTraits(.isButton)
   }

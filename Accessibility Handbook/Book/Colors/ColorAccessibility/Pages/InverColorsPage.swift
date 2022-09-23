@@ -15,6 +15,7 @@ struct InvertColorsPage: View, Page {
       Group {
         intro
         whatToDo
+        example
       }
       .toAny()
     }
@@ -49,6 +50,30 @@ private extension InvertColorsPage {
         .accessibilityIgnoresInvertColors()
         """
       )
+    }
+  }
+
+  var example: some View {
+    Group {
+      VerticalSpace(.regular)
+      Text("Change the display appearance from light/dark mode and the color inversion setting and check the images below.")
+      Centered {
+        HStack(spacing: .regular) {
+          Asset.starryNight.swiftUIImage
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .accessibilityLabel("Starry night, by Van Gogh")
+
+          Asset.starryNight.swiftUIImage
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .accessibilityIgnoresInvertColors()
+            .accessibilityLabel("Starry night, by Van Gogh")
+        }
+        .toAny()
+      }
+      Comment("Only the second image is set to not invert colors.")
+      DocButton(link: "https://developer.apple.com/documentation/uikit/uiview/2865843-accessibilityignoresinvertcolors", title: title)
     }
   }
 }
