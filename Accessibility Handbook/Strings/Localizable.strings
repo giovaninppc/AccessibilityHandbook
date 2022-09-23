@@ -45,7 +45,10 @@
 "AccLabel.text2" = "Every element that is focused by the Voice-Over should have an accessibility label.";
 "AccLabel.text3" = "Turn on the Voice-Over and focus on the following element. The content read is it's accessibility label.";
 "AccLabel.image" = "Starry Night, by Vincent Van Gogh. This is an accessibility label!";
-"AccLabel.text4" = "Some components automatically set their accesibility label when created, such as Texts or Buttons, but you can manually set it if necessary.";
+"AccLabel.comment" = "Some components automatically set their accesibility label when created, such as Texts or Buttons, but you can manually set it if necessary.";
+"AccLabel.text4" = "And, sometimes, you can set a different accessibility label to a view, so its easier to understand its content, like describing measurement units or abreviations.";
+"AccLabel.example" = "10Kg";
+"AccLabel.accessibilityLabelExample" = "10 Kilograms";
 
 // AccessibilityHint
 

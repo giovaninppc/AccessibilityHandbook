@@ -12,14 +12,6 @@ struct AccessibilityLabelPage: View, Page {
 
   let title: String = strings.title
 
-  let codeUIKit: String = """
-  myView.accessibilityLabel = "<content>"
-  """
-
-  let codeSwiftUI: String = """
-  .accessibilityLabel(Text("<content>"))
-  """
-
   let docLink: String = """
   https://developer.apple.com/documentation/objectivec/nsobject/1615181-accessibilitylabel
   """
@@ -31,8 +23,23 @@ struct AccessibilityLabelPage: View, Page {
         Text(Self.strings.text2)
         Text(Self.strings.text3)
         exampleImage
+        Comment(Self.strings.comment)
+        Code(
+          uiKit: """
+          myView.accessibilityLabel = "<content>"
+          """,
+          swiftUI: """
+          .accessibilityLabel("<content>")
+          """
+        )
+        VerticalSpace(.regular)
         Text(Self.strings.text4)
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Centered {
+          Text(Self.strings.example)
+            .font(.title2)
+            .accessibilityLabel(Self.strings.accessibilityLabelExample)
+            .toAny()
+        }
         DocButton(link: docLink, title: title)
       }
       .toAny()

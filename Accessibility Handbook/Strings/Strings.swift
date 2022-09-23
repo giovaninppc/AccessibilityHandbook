@@ -77,6 +77,12 @@ internal enum L10n {
   }
 
   internal enum AccLabel {
+    /// 10 Kilograms
+    internal static let accessibilityLabelExample = L10n.tr("Localizable", "AccLabel.accessibilityLabelExample")
+    /// Some components automatically set their accesibility label when created, such as Texts or Buttons, but you can manually set it if necessary.
+    internal static let comment = L10n.tr("Localizable", "AccLabel.comment")
+    /// 10Kg
+    internal static let example = L10n.tr("Localizable", "AccLabel.example")
     /// Starry Night, by Vincent Van Gogh. This is an accessibility label!
     internal static let image = L10n.tr("Localizable", "AccLabel.image")
     /// Accessibility labels are the content that is going to be read by the Voice-over when the item is focused.
@@ -85,7 +91,7 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "AccLabel.text2")
     /// Turn on the Voice-Over and focus on the following element. The content read is it's accessibility label.
     internal static let text3 = L10n.tr("Localizable", "AccLabel.text3")
-    /// Some components automatically set their accesibility label when created, such as Texts or Buttons, but you can manually set it if necessary.
+    /// And, sometimes, you can set a different accessibility label to a view, so its easier to understand its content, like describing measurement units or abreviations.
     internal static let text4 = L10n.tr("Localizable", "AccLabel.text4")
     /// Accessibility Label
     internal static let title = L10n.tr("Localizable", "AccLabel.title")
