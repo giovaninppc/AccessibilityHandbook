@@ -59,12 +59,12 @@ struct AColorfulMessage: GamePage, View {
 private extension AColorfulMessage {
   var leftColumn: some View {
     VStack(alignment: .leading, spacing: .regular) {
-      leftItem(title: "1º ", icon: "triangle.fill")
-      leftItem(title: "2º ", icon: "triangle.fill")
-      leftItem(title: "3º ", icon: "pentagon.fill")
-      leftItem(title: "4º ", icon: "rhombus.fill")
-      leftItem(title: "5º ", icon: "seal.fill")
-      leftItem(title: "6º ", icon: "rectangle.roundedbottom.fill")
+      leftItem(title: "1 ", icon: "triangle.fill")
+      leftItem(title: "2 ", icon: "triangle.fill")
+      leftItem(title: "3 ", icon: "pentagon.fill")
+      leftItem(title: "4 ", icon: "rhombus.fill")
+      leftItem(title: "5 ", icon: "seal.fill")
+      leftItem(title: "6 ", icon: "rectangle.roundedbottom.fill")
     }
     .foregroundColor(.purple)
     .font(.body.bold())
