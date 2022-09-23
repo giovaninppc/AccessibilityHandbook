@@ -135,6 +135,10 @@ internal enum L10n {
   internal enum Navigation {
     /// This entire app was built to be used with the Voice-Over enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!
     internal static let comment = L10n.tr("Localizable", "Navigation.comment")
+    /// On top is an example of the cursor. The title 'Handbook' is currently focused on the image.
+    internal static let image = L10n.tr("Localizable", "Navigation.image")
+    /// Example image of the Voice-Over running on an iOS device.
+    internal static let imageSubtitle = L10n.tr("Localizable", "Navigation.imageSubtitle")
     /// The Voice-Over navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.
     internal static let text1 = L10n.tr("Localizable", "Navigation.text1")
     /// Once enabled, the Voice-Over will display a frame on top of the current view that is being read. This frame is called 'Cursor'.

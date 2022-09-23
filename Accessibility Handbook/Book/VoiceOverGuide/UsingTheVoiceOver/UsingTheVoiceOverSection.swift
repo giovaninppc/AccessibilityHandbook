@@ -10,6 +10,7 @@ import Foundation
 struct UsingTheVoiceOverSection: Section {
   let title: String = "Using the Voice-Over"
   let pages: [Page] = [
+    EnableVoiceOverPage(),
     NavigationPage(),
     ElementReadingOrderPage(),
     RotorPage(),

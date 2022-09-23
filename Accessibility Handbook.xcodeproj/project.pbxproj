@@ -105,6 +105,7 @@
 		3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73EC928DD278900D89F64 /* DeviceRotation.swift */; };
 		3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */; };
 		3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */; };
+		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -207,6 +208,7 @@
 		3FC73EC928DD278900D89F64 /* DeviceRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotation.swift; sourceTree = "<group>"; };
 		3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUpsideDown.swift; sourceTree = "<group>"; };
 		3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFriend.swift; sourceTree = "<group>"; };
+		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,6 +383,7 @@
 		3FBF057228DA6F9200DA5BF5 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */,
 				3FBF057328DA6FA000DA5BF5 /* NavigationPage.swift */,
 				3FBF058328DA93FB00DA5BF5 /* ElementReadingOrderPage.swift */,
 				3FBF060A28DB998300DA5BF5 /* RotorPage.swift */,
@@ -766,6 +769,7 @@
 				3FBF05B028DAC27C00DA5BF5 /* HintView.swift in Sources */,
 				3F4E7F9328DCB46700710F18 /* AdjustableCounter.swift in Sources */,
 				3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */,
+				3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */,
 				3FBF056128DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift in Sources */,
 				3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */,
 				3FBF058028DA7DDC00DA5BF5 /* Images.swift in Sources */,
@@ -913,7 +917,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Accessibility Handbook/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -942,7 +946,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Accessibility Handbook/Preview Content\"";
 				DEVELOPMENT_TEAM = 4292ZLJ5UT;
 				ENABLE_PREVIEWS = YES;
