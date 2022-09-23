@@ -42,33 +42,48 @@ struct SuperFriend: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("There is an outsider")
+        Text("Everyone here is so friendly,")
         Comment("Find the person with the biggest amount of friends!")
         VerticalSpace(.large)
         HStack {
           Spacer()
           VStack(spacing: .regular) {
             Button("Jane") { bianca = true }
+              .accessibilityFocused($jane)
             Button("Michael") { ana = true }
+              .accessibilityFocused($michael)
             Button("Doug") { pedro = true }
+              .accessibilityFocused($doug)
             Button("Felipe") { filipe = true }
+              .accessibilityFocused($felipe)
             Button("Bianca") { ana = true }
+              .accessibilityFocused($bianca)
           }
           Spacer()
           VStack(spacing: .regular) {
             Button("Ana") { felipe = true }
+              .accessibilityFocused($ana)
             Button("Mario") { luigi = true }
+              .accessibilityFocused($mario)
             Button("Pedro") { bob = true }
+              .accessibilityFocused($pedro)
             Button("Bob") { patrick = true }
+              .accessibilityFocused($bob)
             Button("Thiago") { ana = true }
+              .accessibilityFocused($thiago)
           }
           Spacer()
           VStack(spacing: .regular) {
             Button("Bruno") { jane = true }
+              .accessibilityFocused($bruno)
             Button("Dave") { thiago = true }
+              .accessibilityFocused($dave)
             Button("Luigi") { mario = true }
+              .accessibilityFocused($luigi)
             Button("Filipe") { ana = true }
+              .accessibilityFocused($filipe)
             Button("Patrick") { bob = true }
+              .accessibilityFocused($patrick)
           }
           Spacer()
         }
