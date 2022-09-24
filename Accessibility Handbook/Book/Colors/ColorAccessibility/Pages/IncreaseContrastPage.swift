@@ -44,8 +44,9 @@ private extension IncreaseContrastPage {
       Text("Or you can use the 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' boolen to check the current contrast state, and act accordingly.")
       Code(
         uiKit: """
-        if UIAccessibility
-          .accessibilityDisplayShouldIncreaseContrast { ... }
+        if UIAccessibility.accessibilityDisplayShouldIncreaseContrast {
+          // Handle
+        }
         """
       )
       DocButton(link: link, title: title)
@@ -60,6 +61,7 @@ private extension IncreaseContrastPage {
       example
       VerticalSpace(.regular)
       Code(swiftUI: """
+      View()
       .contrast(<Double>)
       """)
       Comment("Not that I have really used this contrast tool in any real project.")

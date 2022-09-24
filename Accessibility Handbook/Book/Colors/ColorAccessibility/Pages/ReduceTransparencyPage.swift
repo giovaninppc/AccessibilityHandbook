@@ -60,8 +60,9 @@ private extension ReduceTransparencyPage {
       Text("On UIKit, you need to check a boolean on UIAccessibility to check if the feature is enabled.")
       Code(
         uiKit: """
-        if UIAccessibility
-            .isReduceTransparencyEnabled { ... }
+        if UIAccessibility.isReduceTransparencyEnabled {
+          // Handle transparency
+        }
         """
       )
       Text("And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.")
@@ -73,7 +74,9 @@ private extension ReduceTransparencyPage {
             forName: UIAccessibility.reduceTransparencyStatusDidChangeNotification,
             object: nil,
             queue: nil
-        ) { ... }
+        ) {
+          // Handle notification
+        }
         """
       )
     }

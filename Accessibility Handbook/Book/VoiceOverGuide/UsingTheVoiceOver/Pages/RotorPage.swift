@@ -11,14 +11,14 @@ struct RotorPage: View, Page {
   var title: String = "Rotor"
 
   let codeUIKit: String = """
-  accessibilityCustomRotors = UIAccessibilityCustomRotor(...)
+  accessibilityCustomRotors = UIAccessibilityCustomRotor()
   """
 
   let codeSwiftUI: String = """
-  .accessibilityRotorEntry(...)
+  .accessibilityRotorEntry()
 
   .accessibilityRotor("<Rotor item name>") {
-      AccessibilityRotorEntry(...)
+      AccessibilityRotorEntry()
   }
   """
 
