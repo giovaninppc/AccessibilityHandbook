@@ -356,6 +356,7 @@
 				3F25390C28DBC75700B089EA /* Centered.swift */,
 				3F25391228DBE05A00B089EA /* CircularProgressionView.swift */,
 				3FBF057B28DA763400DA5BF5 /* Code.swift */,
+				3FF4A29228DF6D12005D291A /* CodePreview.swift */,
 				3FBF057D28DA77E600DA5BF5 /* Colors.swift */,
 				3FBF057928DA752200DA5BF5 /* Comment.swift */,
 				3FC73EC928DD278900D89F64 /* DeviceRotation.swift */,
@@ -372,7 +373,6 @@
 				3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */,
 				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
 				3FBF057728DA712C00DA5BF5 /* ToAny.swift */,
-				3FF4A29228DF6D12005D291A /* CodePreview.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";

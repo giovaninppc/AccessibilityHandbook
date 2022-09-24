@@ -60,7 +60,7 @@ struct Code: View {
       HStack {
         icon
         Text(title)
-          .font(.subheadline)
+          .font(.subheadline.bold())
         Spacer()
       }
       ScrollView(.horizontal, showsIndicators: false) {

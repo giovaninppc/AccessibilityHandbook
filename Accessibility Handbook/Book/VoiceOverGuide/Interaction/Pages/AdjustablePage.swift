@@ -13,18 +13,23 @@ struct AdjustablePage: View, Page {
   let codeUIKit: String = """
   accessibilityTraits = [.adjustable]
 
-  override func accessibilityIncrement() { ... }
-  override func accessibilityDecrement() { ... }
+  override func accessibilityIncrement() {
+    // Handle increment
+  }
+  override func accessibilityDecrement() {
+    // Handle decrement
+  }
   """
 
   let codeSwiftUI: String = """
+  View()
   .accessibilityAdjustableAction { direction in
-      switch direction {
-      case .decrement:
-          currentValue -= 1
-      case .increment:
-          currentValue += 1
-      }
+    switch direction {
+    case .decrement:
+      // Handle decrement
+    case .increment:
+      // Handle increment
+    }
   }
   """
 

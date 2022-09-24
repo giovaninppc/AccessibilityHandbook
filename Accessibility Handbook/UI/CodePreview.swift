@@ -53,7 +53,7 @@ private extension CodePreview {
       HorizontalSpace(.regular)
       Image(systemName: icon)
       Text(title)
-        .font(.subheadline)
+        .font(.subheadline.bold())
       Spacer()
     }
     .padding()

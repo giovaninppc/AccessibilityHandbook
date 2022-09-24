@@ -29,6 +29,7 @@ struct AccessibilityLabelPage: View, Page {
           myView.accessibilityLabel = "<content>"
           """,
           swiftUI: """
+          View()
           .accessibilityLabel("<content>")
           """
         )
