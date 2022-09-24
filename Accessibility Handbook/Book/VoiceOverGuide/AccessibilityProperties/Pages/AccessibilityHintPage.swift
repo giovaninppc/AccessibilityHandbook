@@ -13,11 +13,11 @@ struct AccessibilityHintPage: View, Page {
   let title: String = strings.title
 
   let codeUIKit: String = """
-  myView.accessibilityHint = "<content>"
+  myView.accessibilityHint = "content"
   """
 
   let codeSwiftUI: String = """
-  .accessibilityHint(Text("<content>"))
+  .accessibilityHint("content")
   """
 
   let docLink: String = """

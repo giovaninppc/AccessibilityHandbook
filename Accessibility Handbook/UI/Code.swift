@@ -43,9 +43,12 @@ struct Code: View {
           .font(.subheadline)
         Spacer()
       }
-      Text(code)
-        .font(.callout)
-        .fixedSize(horizontal: false, vertical: true)
+      ScrollView(.horizontal, showsIndicators: false) {
+        Text(SyntaxHighlight().highlight(code: code))
+          .font(.callout.monospaced())
+          .frame(maxWidth: .infinity)
+          .fixedSize(horizontal: false, vertical: true)
+      }
     }
     .padding()
     .background {

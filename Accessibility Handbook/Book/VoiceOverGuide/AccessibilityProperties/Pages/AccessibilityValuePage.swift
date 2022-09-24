@@ -17,7 +17,7 @@ struct AccessibilityValuePage: View, Page {
   @State private var currentValue: Int = 0
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: AccessibilityPriorityPage()) {
       Group {
         Text("Accessibility Values represent the value (most of the times numeric) associated with your view.")
         Text("It's mostly used in components that represents quantities, like counters, sliders or quick-adds.")
@@ -26,6 +26,14 @@ struct AccessibilityValuePage: View, Page {
         AdjustableCounter(value: $currentValue)
         Comment("This example was built using the 'Adjustable Trait'.")
         InternalLink(page: AdjustablePage().page, title: "Adjustable Trait")
+        Code(
+          uiKit: """
+          myView.accessibilityValue = "value"
+          """,
+          swiftUI: """
+          View()
+          .accessibilityValue("value")
+          """)
         DocButton(link: link, title: title)
       }
       .toAny()

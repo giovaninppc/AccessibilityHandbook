@@ -18,14 +18,14 @@ struct MagicTapPage: View, Page {
 
   let codeUIKit: String = """
   override func accessibilityPerformMagicTap() -> Bool {
-      /* Handle action */
-      return true
+    /* Handle action */
+    return true
   }
   """
 
   let codeSwiftUI: String = """
   .accessibilityAction(.magicTap) {
-      /* Handle action */
+    /* Handle action */
   }
   """
 

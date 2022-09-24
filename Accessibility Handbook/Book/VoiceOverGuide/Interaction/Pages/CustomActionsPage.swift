@@ -11,24 +11,24 @@ struct CustomActionsPage: View, Page {
   var title: String = "Custom Actions"
 
   let codeUIKit: String = """
-  let editAction = UIAccessibilityCustomAction(...)
-  let selectAction = UIAccessibilityCustomAction(...)
-  let deleteAction = UIAccessibilityCustomAction(...)
+  let editAction = UIAccessibilityCustomAction()
+  let selectAction = UIAccessibilityCustomAction()
+  let deleteAction = UIAccessibilityCustomAction()
 
   accessibilityCustomActions = [
-      editAction, selectAction, deleteAction
+    editAction, selectAction, deleteAction
   ]
   """
 
   let codeSwiftUI: String = """
   .accessibilityAction(named: Text("Select")) {
-      // Handle Select
+    // Handle Select
   }
   .accessibilityAction(named: Text("Edit")) {
-      // Handle Edit
+    // Handle Edit
   }
   .accessibilityAction(named: Text("Delete")) {
-      // Handle Delete
+    // Handle Delete
   }
   """
 

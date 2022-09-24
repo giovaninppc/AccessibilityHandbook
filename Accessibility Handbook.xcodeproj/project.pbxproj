@@ -106,6 +106,7 @@
 		3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */; };
 		3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
+		3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -209,6 +210,7 @@
 		3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUpsideDown.swift; sourceTree = "<group>"; };
 		3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFriend.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
+		3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +367,7 @@
 				3FBF057528DA701B00DA5BF5 /* PageContent.swift */,
 				3FBF05B528DB3F7C00DA5BF5 /* Space.swift */,
 				3FBF055928DA693200DA5BF5 /* Spacing.swift */,
+				3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */,
 				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
 				3FBF057728DA712C00DA5BF5 /* ToAny.swift */,
 			);
@@ -712,6 +715,7 @@
 				3FBF057628DA701B00DA5BF5 /* PageContent.swift in Sources */,
 				3FBF05BB28DB48E500DA5BF5 /* Title.swift in Sources */,
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
+				3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */,
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
 				3F4E7F9128DCA6AC00710F18 /* ChangeCursorPositionPage.swift in Sources */,
 				3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */,
