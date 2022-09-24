@@ -10,17 +10,18 @@ import SwiftUI
 struct GameSuccessView: View {
   let page: AnyView
 
-  @Environment(\.dismiss) var dismiss
+  @Environment(\.dismiss)
+  var dismiss
+
+  @Environment(\.accessibilityReduceTransparency)
+  var isReduceTransparencyEnabled
 
   @AccessibilityFocusState
   private var isSuccessFocused: Bool
 
   var body: some View {
     ZStack(alignment: .center) {
-      Rectangle()
-        .foregroundColor(.clear)
-        .background(.thinMaterial)
-        .opacity(0.7)
+      background
       VStack(spacing: .regular) {
         Text("Congratulations!")
           .font(.title.bold())
@@ -50,6 +51,22 @@ struct GameSuccessView: View {
     .onAppear {
       haptic(.success)
       isSuccessFocused = true
+    }
+  }
+}
+
+private extension GameSuccessView {
+  var background: some View {
+    Group {
+      if isReduceTransparencyEnabled {
+        Rectangle()
+          .foregroundColor(.background)
+      } else {
+        Rectangle()
+          .foregroundColor(.clear)
+          .background(.thinMaterial)
+          .opacity(0.7)
+      }
     }
   }
 }

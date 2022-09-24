@@ -15,12 +15,12 @@ struct HintView: View {
   @AccessibilityFocusState
   private var isHintFocused: Bool
 
+  @Environment(\.accessibilityReduceTransparency)
+  var isReduceTransparencyEnabled
+
   var body: some View {
     ZStack {
-      Rectangle()
-        .foregroundColor(.clear)
-        .background(.thinMaterial)
-        .opacity(0.7)
+      background
       VStack(alignment: .center, spacing: .regular) {
         HStack {
           Button {
@@ -62,6 +62,22 @@ struct HintView: View {
     .ignoresSafeArea()
     .onAppear {
       isHintFocused = true
+    }
+  }
+}
+
+private extension HintView {
+  var background: some View {
+    Group {
+      if isReduceTransparencyEnabled {
+        Rectangle()
+          .foregroundColor(.background)
+      } else {
+        Rectangle()
+          .foregroundColor(.clear)
+          .background(.thinMaterial)
+          .opacity(0.7)
+      }
     }
   }
 }
