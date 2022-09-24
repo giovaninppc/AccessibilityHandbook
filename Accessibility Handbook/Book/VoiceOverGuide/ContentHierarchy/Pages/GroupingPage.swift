@@ -132,7 +132,9 @@ private extension GroupingPage {
       Text("SwiftUI has a better wrapper to combine all children into a single accessible element.")
       Code(
         swiftUI: """
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(
+          children: .combine
+        )
         """
       )
     }

@@ -16,7 +16,9 @@ struct CustomActionsPage: View, Page {
   let deleteAction = UIAccessibilityCustomAction()
 
   accessibilityCustomActions = [
-    editAction, selectAction, deleteAction
+    editAction,
+    selectAction,
+    deleteAction
   ]
   """
 

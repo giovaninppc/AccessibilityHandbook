@@ -107,6 +107,7 @@
 		3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
 		3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */; };
+		3FF4A29328DF6D12005D291A /* CodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29228DF6D12005D291A /* CodePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -211,6 +212,7 @@
 		3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFriend.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
 		3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlight.swift; sourceTree = "<group>"; };
+		3FF4A29228DF6D12005D291A /* CodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +372,7 @@
 				3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */,
 				3FBF05BA28DB48E500DA5BF5 /* Title.swift */,
 				3FBF057728DA712C00DA5BF5 /* ToAny.swift */,
+				3FF4A29228DF6D12005D291A /* CodePreview.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -795,6 +798,7 @@
 				3FBF055A28DA693200DA5BF5 /* Spacing.swift in Sources */,
 				3F4E7F8828DC97E100710F18 /* ContentHierarchySection.swift in Sources */,
 				3F4E7F8D28DC981700710F18 /* GroupingPage.swift in Sources */,
+				3FF4A29328DF6D12005D291A /* CodePreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -43,6 +43,8 @@ private extension SyntaxHighlight {
     highlight(match: "case ", color: .systemPink, bolded: true)
     highlight(match: "true", color: .systemPurple, bolded: true)
     highlight(match: "false", color: .systemPurple, bolded: true)
+    highlight(match: "if ", color: .systemPurple, bolded: true)
+    highlight(match: "else ", color: .systemPurple, bolded: true)
     highlight(match: "@[A-Za-z]*", color: .systemPink, bolded: true)
   }
 
@@ -64,8 +66,8 @@ private extension SyntaxHighlight {
   }
 
   func comments() {
-    highlight(match: "//.*", color: .systemGreen)
-    highlight(match: "/\\*.*\\*/", color: .systemGreen)
+    highlight(match: "//.*", color: .systemGray)
+    highlight(match: "/\\*.*\\*/", color: .systemGray)
   }
 
   func strings() {

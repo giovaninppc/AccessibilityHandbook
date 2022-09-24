@@ -14,6 +14,9 @@ struct Code: View {
   @State private var copiedUIKit: Bool = false
   @State private var copiedSwiftUI: Bool = false
 
+  @State private var uiKitSheet = false
+  @State private var swiftUISheet = false
+
   init(uiKit: String? = nil, swiftUI: String? = nil) {
     self.uiKit = uiKit
     self.swiftUI = swiftUI
@@ -23,19 +26,36 @@ struct Code: View {
     VStack(spacing: .regular) {
       if let uiKit = uiKit {
         codeBlock(code: uiKit, icon: .init(systemName: "uiwindow.split.2x1"), title: "UIKit", copied: $copiedUIKit) {
+          uiKitSheet = true
+        } onCopy: {
           animateSelection($copiedUIKit)
         }
       }
       if let swiftUI = swiftUI {
         codeBlock(code: swiftUI, icon: .init(systemName: "swift"), title: "SwiftUI", copied: $copiedSwiftUI) {
+          swiftUISheet = true
+        } onCopy: {
           animateSelection($copiedSwiftUI)
         }
       }
     }
+    .sheet(isPresented: $uiKitSheet) {
+      CodePreview(code: uiKit ?? "", title: "UIKit", icon: "uiwindow.split.2x1")
+    }
+    .sheet(isPresented: $swiftUISheet) {
+      CodePreview(code: swiftUI ?? "", title: "SwiftUI", icon: "swift")
+    }
   }
 
   @ViewBuilder
-  private func codeBlock(code: String, icon: Image, title: String, copied: Binding<Bool>, onCopy: @escaping () -> Void) -> some View {
+  private func codeBlock(
+    code: String,
+    icon: Image,
+    title: String,
+    copied: Binding<Bool>,
+    onSelection: @escaping () -> Void,
+    onCopy: @escaping () -> Void
+  ) -> some View {
     VStack(alignment: .leading, spacing: .regular) {
       HStack {
         icon
@@ -68,12 +88,14 @@ struct Code: View {
     }
     .accessibilityElement(children: .combine)
     .accessibilityLabel(Text("\(title) code example."))
-    .accessibilityHint(Text("Tap twice to copy it."))
+    .accessibilityHint(Text("Tap twice to open code in full screen, and tap three times to copy."))
     .onTapGesture {
-      copy(code: code)
-      onCopy()
+      onSelection()
     }
     .accessibilityAction {
+      onSelection()
+    }
+    .onLongPressGesture {
       copy(code: code)
       onCopy()
     }
