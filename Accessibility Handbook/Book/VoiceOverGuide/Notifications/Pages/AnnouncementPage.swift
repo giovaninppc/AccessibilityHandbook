@@ -11,11 +11,10 @@ struct AnnouncementPage: View, Page {
   var title: String = "Announcement"
 
   let codeUIKit: String = """
-  UIAccessibility.post(.announcement, argument: "Text to be read")
-  """
-
-  let codeSwiftUI: String = """
-  UIAccessibility.post(.announcement, argument: "Text to be read")
+  UIAccessibility.post(
+    .announcement,
+    argument: "Text to be read"
+  )
   """
 
   let link: String = """
@@ -50,7 +49,7 @@ struct AnnouncementPage: View, Page {
         Comment("To me, that's where the announcements shine!")
         example
         Comment("The code cells bellow are another example of announcements when you copy the code!")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code(uiKit: codeUIKit)
         DocButton(link: link, title: title)
       }
       .toAny()

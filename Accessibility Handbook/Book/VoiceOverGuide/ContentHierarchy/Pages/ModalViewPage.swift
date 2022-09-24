@@ -72,10 +72,10 @@ struct ModalViewPage: View, Page {
       Code(
         uiKit: """
         class MyView: UIView {
-            var isBeingDisplayed: Bool = true
-            override var accessibilityViewIsModal: Bool {
-                isBeingDisplayed
-            }
+          var isBeingDisplayed: Bool = true
+          override var accessibilityViewIsModal: Bool {
+            isBeingDisplayed
+          }
         }
         """
       )

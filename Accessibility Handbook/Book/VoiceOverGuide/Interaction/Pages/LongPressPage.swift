@@ -13,15 +13,13 @@ struct LongPressPage: View, Page {
   let codeUIKit: String = """
   let gesture = UILongPressGestureRecognizer()
   myView.addGestureRecognizer(
-      UILongPressGestureRecognizer(
-          target: <Target>,
-          action: <Selector>
-      ))
+    gesture
+  )
   """
 
   let codeSwiftUI: String = """
   .onLongPressGesture {
-      /* Handle Gesture */
+    /* Handle Gesture */
   }
   """
 

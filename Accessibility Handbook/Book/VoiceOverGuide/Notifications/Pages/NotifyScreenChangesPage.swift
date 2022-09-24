@@ -11,8 +11,11 @@ struct NotifyScreenChangesPage: View, Page {
   var title: String = "Notify Screen Changes"
 
   let codeUIKit: String = """
-  UIAccessibility.post(.layoutChanged, argument: nil)
-  UIAccessibility.post(.screenChanged, argument: nil)
+  UIAccessibility
+    .post(
+      .layoutChanged, //.screenChanged
+      argument: nil
+    )
   """
 
   let link: String = """
