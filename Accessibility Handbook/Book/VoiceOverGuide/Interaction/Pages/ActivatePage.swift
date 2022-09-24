@@ -12,14 +12,14 @@ struct ActivatePage: View, Page {
 
   let codeUIKit: String = """
   override func accessibilityActivate() -> Bool {
-      /*Handle action*/
-      return true
+    /*Handle action*/
+    return true
   }
   """
 
   let codeSwiftUI: String = """
   .accessibilityAction {
-      /*HandleAction*/
+    /*HandleAction*/
   }
   """
 
