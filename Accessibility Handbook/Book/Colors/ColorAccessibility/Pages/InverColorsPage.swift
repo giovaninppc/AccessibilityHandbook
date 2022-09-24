@@ -47,6 +47,7 @@ private extension InvertColorsPage {
         myView.accessibilityIgnoresInvertColors = true
         """,
         swiftUI:  """
+        View()
         .accessibilityIgnoresInvertColors()
         """
       )

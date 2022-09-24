@@ -26,7 +26,6 @@ struct AboutTheAppView: View, Page {
 
   private var history: some View {
     Group {
-      Title("History")
       Text("The Accessibility Handbook started as an idea with some colleagues and friends, aiming to be an easy way to learn more about iOS accessibility features.")
       Text("At the time we started working on it, but we never got to finish or publish the Handbook. So, a while later, I took what I learned and decided to bring it into the world! Rewriting the contents, adding UIKit and SwiftUI versions to make something really fresh and nice.")
       Text("I always thought the information about accessibility was always there, but you had to know what to look for.")

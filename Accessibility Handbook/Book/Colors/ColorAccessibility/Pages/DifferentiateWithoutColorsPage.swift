@@ -44,8 +44,9 @@ private extension DifferentiateWithoutColorsPage {
       Text("To check if the feature is enabled, you can check 'UIAccessibility.shouldDifferentiateWithoutColor'")
       Code(
         uiKit: """
-        if UIAccessibility
-            .shouldDifferentiateWithoutColor { ... }
+        if UIAccessibility.shouldDifferentiateWithoutColor {
+          // Handle differentiate without color
+        }
         """
       )
       Text("And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.")
@@ -57,7 +58,9 @@ private extension DifferentiateWithoutColorsPage {
             forName: UIAccessibility.differentiateWithoutColorDidChangeNotification,
             object: nil,
             queue: nil
-        ) { ... }
+        ) {
+          // Handle notification
+        }
         """
       )
       Text("And you can use an Environment property in SwiftUI for the same purpose.")
