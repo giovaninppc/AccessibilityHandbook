@@ -8,99 +8,104 @@
 import SwiftUI
 
 struct Code: View {
-  let uiKit: String?
-  let swiftUI: String?
+  let code: String?
+  let icon: String?
+  let title: String?
 
-  @State private var copiedUIKit: Bool = false
-  @State private var copiedSwiftUI: Bool = false
+  @State private var copied: Bool = false
+  @State private var sheet = false
 
-  @State private var uiKitSheet = false
-  @State private var swiftUISheet = false
+  static func uikit(_ code: String) -> Code {
+    .init(code: code, icon: "uiwindow.split.2x1", title: "UIKit")
+  }
 
-  init(uiKit: String? = nil, swiftUI: String? = nil) {
-    self.uiKit = uiKit
-    self.swiftUI = swiftUI
+  static func swiftUI(_ code: String) -> Code {
+    .init(code: code, icon: "swift", title: "SwiftUI")
   }
 
   var body: some View {
     VStack(spacing: .regular) {
-      if let uiKit = uiKit {
-        codeBlock(code: uiKit, icon: .init(systemName: "uiwindow.split.2x1"), title: "UIKit", copied: $copiedUIKit) {
-          uiKitSheet = true
-        } onCopy: {
-          animateSelection($copiedUIKit)
-        }
-      }
-      if let swiftUI = swiftUI {
-        codeBlock(code: swiftUI, icon: .init(systemName: "swift"), title: "SwiftUI", copied: $copiedSwiftUI) {
-          swiftUISheet = true
-        } onCopy: {
-          animateSelection($copiedSwiftUI)
-        }
+      if code != nil {
+        codeView
+        VerticalSpace(.small)
       }
     }
-    .sheet(isPresented: $uiKitSheet) {
-      CodePreview(code: uiKit ?? "", title: "UIKit", icon: "uiwindow.split.2x1")
-    }
-    .sheet(isPresented: $swiftUISheet) {
-      CodePreview(code: swiftUI ?? "", title: "SwiftUI", icon: "swift")
+    .sheet(isPresented: $sheet) {
+      CodePreview(code: code ?? "", title: title, icon: icon)
     }
   }
 
-  @ViewBuilder
-  private func codeBlock(
-    code: String,
-    icon: Image,
-    title: String,
-    copied: Binding<Bool>,
-    onSelection: @escaping () -> Void,
-    onCopy: @escaping () -> Void
-  ) -> some View {
+}
+
+// MARK: - Subviews
+
+private extension Code {
+  var codeView: some View {
     VStack(alignment: .leading, spacing: .regular) {
-      HStack {
-        icon
-        Text(title)
-          .font(.subheadline.bold())
-        Spacer()
-      }
+      heading
       ScrollView(.horizontal, showsIndicators: false) {
-        Text(SyntaxHighlight().highlight(code: code))
-          .font(.callout.monospaced())
-          .frame(maxWidth: .infinity)
-          .fixedSize(horizontal: false, vertical: true)
+        codeContent
       }
     }
     .padding()
-    .background {
-      RoundedRectangle(cornerRadius: 10.0)
-        .foregroundColor(.secondaryBackground)
-    }
-    .overlay {
-      ZStack {
-        RoundedRectangle(cornerRadius: 10.0)
-          .background(Color.tertiaryBackground)
-          .foregroundColor(.clear)
-          .opacity(0.9)
-        Text("Code copied!")
-          .font(.body.bold())
-      }
-      .opacity(copied.wrappedValue ? 1.0 : 0.0)
-    }
+    .background { background }
+    .overlay { overlay }
     .accessibilityElement(children: .combine)
-    .accessibilityLabel(Text("\(title) code example."))
+    .accessibilityLabel(Text("\(title ?? "") code example."))
     .accessibilityHint(Text("Tap twice to open code in full screen, and tap three times to copy."))
     .onTapGesture {
-      onSelection()
+      sheet = true
     }
     .accessibilityAction {
-      onSelection()
+      sheet = true
     }
     .onLongPressGesture {
-      copy(code: code)
-      onCopy()
+      copy(code: code ?? "")
+      animateSelection($copied)
     }
   }
 
+  var heading: some View {
+    HStack {
+      if let icon = icon {
+        Image(systemName: icon)
+      }
+      if let title = title {
+        Text(title)
+          .font(.subheadline.bold())
+      }
+      Spacer()
+    }
+  }
+
+  var codeContent: some View {
+    Text(SyntaxHighlight().highlight(code: code ?? ""))
+      .font(.callout.monospaced())
+      .frame(maxWidth: .infinity)
+      .fixedSize(horizontal: false, vertical: true)
+  }
+
+  var overlay: some View {
+    ZStack {
+      RoundedRectangle(cornerRadius: 10.0)
+        .background(Color.tertiaryBackground)
+        .foregroundColor(.clear)
+        .opacity(0.9)
+      Text("Code copied!")
+        .font(.body.bold())
+    }
+    .opacity(copied ? 1.0 : 0.0)
+  }
+
+  var background: some View {
+    RoundedRectangle(cornerRadius: 10.0)
+      .foregroundColor(.secondaryBackground)
+  }
+}
+
+// MARK: - Actions
+
+private extension Code {
   private func copy(code: String) {
     UIPasteboard.general.string = code
     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {

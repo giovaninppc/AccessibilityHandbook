@@ -50,8 +50,8 @@ private extension ChangeCursorPositionPage {
       Text("To change the cursor position on UIKit, we are going to use the screen chnage notifications.")
       InternalLink(page: NotifyScreenChangesPage().page, title: "More on Screen Change notifications.")
       Text("When triggering one of these notifications, we can pass as the argument the view we want the Voice-Over to focus on.")
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         UIAccessibility.post(
           .layoutChanged,
           argument: viewToFocus
@@ -71,15 +71,15 @@ private extension ChangeCursorPositionPage {
       Text("On SwiftUI, we are not going to use the Accessibility Notifications, instead, we are using the @AccessibilityFocusState")
       Text("It allow to control if the cursor is focused on a view, and move the navigation to it.")
       Text("First, create a new Boolean property using this wrapper")
-      Code(
-        swiftUI: """
+      Code.swiftUI(
+        """
         @AccessibilityFocusState
         var viewIsFocused: Bool
         """
       )
       Text("Then, assign it to the view you want to control by using a view modifier.")
-      Code(
-        swiftUI: """
+      Code.swiftUI(
+        """
         View()
         .accessibilityFocused(
             $viewIsFocused

@@ -48,7 +48,8 @@ struct AdjustablePage: View, Page {
         Text("It's very powerful, and, when focused, an adjustable view will gain the swipe up and down gestures")
         Text("That can be implemented to handle it's respective actions, without the need to directly tap into the buttons.")
         example
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
       }
       .toAny()

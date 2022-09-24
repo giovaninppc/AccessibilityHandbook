@@ -33,7 +33,8 @@ struct AccessibilityElementPage: View, Page {
         example
         Text(Self.strings.comment)
         Text(Self.strings.comment2)
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: docLink, title: title)
       }
       .toAny()

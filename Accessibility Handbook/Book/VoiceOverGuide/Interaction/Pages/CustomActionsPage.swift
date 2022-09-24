@@ -48,7 +48,8 @@ struct CustomActionsPage: View, Page {
         Text("Usually you'd have multiple buttons for each action, but focusing on each individual button would not be a very good Voice-Over experience.")
         example
         Comment("I find custom actions to be also very useful when some of the actions are hidden behind an animation, like when you need to tap an icon, something changes, and other icons appears.")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
       }
       .toAny()

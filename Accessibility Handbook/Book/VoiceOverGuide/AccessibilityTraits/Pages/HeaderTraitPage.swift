@@ -30,7 +30,8 @@ struct HeaderTraitPage: View, Page {
         Text("The fun part, is that you can navigate only on headers by using the rotor function.")
         InternalLink(page: RotorAndHeadersPage().page, title: "Check the Rotor and Header page!")
         Text("This way, you can skip every content that is not a header, and easily find the section you are looking for.")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
       }
       .toAny()

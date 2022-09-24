@@ -26,14 +26,17 @@ struct AccessibilityValuePage: View, Page {
         AdjustableCounter(value: $currentValue)
         Comment("This example was built using the 'Adjustable Trait'.")
         InternalLink(page: AdjustablePage().page, title: "Adjustable Trait")
-        Code(
-          uiKit: """
+        Code.uikit(
+          """
           myView.accessibilityValue = "value"
-          """,
-          swiftUI: """
+          """
+        )
+        Code.swiftUI(
+          """
           View()
           .accessibilityValue("value")
-          """)
+          """
+        )
         DocButton(link: link, title: title)
       }
       .toAny()

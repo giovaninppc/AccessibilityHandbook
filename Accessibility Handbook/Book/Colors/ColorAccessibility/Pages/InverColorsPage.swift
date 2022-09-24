@@ -42,11 +42,13 @@ private extension InvertColorsPage {
       Title("What to do as a developer?")
       Text("You basically need to mark what you don't want to be inverted. Like, images, a photo of your dog, a nice hamburguer that would look gross when inverted...")
       Text("And to do so, you simply need to set a boolean telling you dont want this view to be inverted.")
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         myView.accessibilityIgnoresInvertColors = true
-        """,
-        swiftUI:  """
+        """
+      )
+      Code.swiftUI(
+        """
         View()
         .accessibilityIgnoresInvertColors()
         """

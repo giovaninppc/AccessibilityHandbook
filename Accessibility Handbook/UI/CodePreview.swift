@@ -9,8 +9,8 @@ import SwiftUI
 
 struct CodePreview: View {
   let code: String
-  let title: String
-  let icon: String
+  let title: String?
+  let icon: String?
 
   @Environment(\.dismiss) var dismiss
 
@@ -51,9 +51,15 @@ private extension CodePreview {
   var titleView: some View {
     HStack {
       HorizontalSpace(.regular)
-      Image(systemName: icon)
-      Text(title)
-        .font(.subheadline.bold())
+      if let icon = icon {
+        Image(systemName: icon)
+      }
+
+      if let title = title {
+        Text(title)
+          .font(.subheadline.bold())
+      }
+
       Spacer()
     }
     .padding()
@@ -65,15 +71,6 @@ private extension CodePreview {
       .accessibilityHidden(true)
       .frame(height: .single)
       .padding(.horizontal)
-  }
-
-  var buttonsStack: some View {
-    HStack {
-      Image(systemName: icon)
-      Text(title)
-        .font(.subheadline)
-      Spacer()
-    }
   }
 
   var copyButon: some View {

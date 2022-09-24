@@ -34,7 +34,8 @@ struct ActivatePage: View, Page {
         Comment("Tap a button, click on a cell...")
         Text("Most of the time, this action will hapen automatically when your cell has a tap gesture our is a button.")
         Text("But you can customize or add a specific action for the activation gesture")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: docLink, title: title)
       }
       .toAny()

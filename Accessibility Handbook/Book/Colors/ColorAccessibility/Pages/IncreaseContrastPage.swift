@@ -42,8 +42,8 @@ private extension IncreaseContrastPage {
       Text("An easy way to support this is by using 'System Colors'. They will automatically adapt to the increase contrast.")
       Comment("This app was built using system colors! Change the contrast options on your device's settings and check the differences!")
       Text("Or you can use the 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' boolen to check the current contrast state, and act accordingly.")
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         if UIAccessibility.accessibilityDisplayShouldIncreaseContrast {
           // Handle
         }
@@ -60,10 +60,12 @@ private extension IncreaseContrastPage {
       VerticalSpace(.regular)
       example
       VerticalSpace(.regular)
-      Code(swiftUI: """
-      View()
-      .contrast(<Double>)
-      """)
+      Code.swiftUI(
+        """
+        View()
+        .contrast(<Double>)
+        """
+      )
       Comment("Not that I have really used this contrast tool in any real project.")
       DocButton(link: "https://developer.apple.com/documentation/swiftui/view/contrast(_:)/", title: "Contrast")
     }

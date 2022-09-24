@@ -32,7 +32,8 @@ struct ButtonTraitPage: View, Page {
         VerticalSpace(.regular)
         example
         VerticalSpace(.regular)
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
       }
       .toAny()

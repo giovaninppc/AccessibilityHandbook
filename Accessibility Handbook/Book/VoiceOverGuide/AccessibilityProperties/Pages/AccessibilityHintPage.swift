@@ -32,7 +32,8 @@ struct AccessibilityHintPage: View, Page {
         Text(Self.strings.text3)
         exampleCell
         Comment(Self.strings.comment)
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: docLink, title: title)
       }
       .toAny()

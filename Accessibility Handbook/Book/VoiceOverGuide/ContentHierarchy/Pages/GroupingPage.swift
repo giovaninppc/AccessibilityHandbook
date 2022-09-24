@@ -107,8 +107,8 @@ private extension GroupingPage {
     Group {
       Title("UIKit")
       Text("On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.")
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         myView.isAccessibilityElement = true
         myView.subviews.forEach {
             $0.isAccessibilityElement = false
@@ -130,8 +130,8 @@ private extension GroupingPage {
     Group {
       Title("SwiftUI")
       Text("SwiftUI has a better wrapper to combine all children into a single accessible element.")
-      Code(
-        swiftUI: """
+      Code.swiftUI(
+        """
         .accessibilityElement(
           children: .combine
         )

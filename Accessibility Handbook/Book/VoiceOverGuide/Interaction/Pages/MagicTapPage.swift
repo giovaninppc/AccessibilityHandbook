@@ -42,7 +42,8 @@ struct MagicTapPage: View, Page {
         Text("Test the Magic tap on the view below!")
         example
         Comment("When implementing the 'Magic Tap', make sure it's enabled on the focused view, otherwise, it competes with the devices media player, because it's the same gesture to play/pause on the device.")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
       }
       .toAny()

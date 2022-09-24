@@ -58,16 +58,16 @@ private extension ReduceTransparencyPage {
   var uikit: some View {
     Group {
       Text("On UIKit, you need to check a boolean on UIAccessibility to check if the feature is enabled.")
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         if UIAccessibility.isReduceTransparencyEnabled {
           // Handle transparency
         }
         """
       )
       Text("And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.")
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         NotificationCenter
         .default
         .addObserver(
@@ -85,8 +85,8 @@ private extension ReduceTransparencyPage {
   var swiftUI: some View {
     Group {
       Text("And on SwiftUI you can use an Environment variable!")
-      Code(
-        swiftUI: """
+      Code.swiftUI(
+        """
         @Environment(\\.accessibilityReduceTransparency)
         var accessibilityReduceTransparency
         """

@@ -49,7 +49,7 @@ struct AnnouncementPage: View, Page {
         Comment("To me, that's where the announcements shine!")
         example
         Comment("The code cells bellow are another example of announcements when you copy the code!")
-        Code(uiKit: codeUIKit)
+        Code.uikit(codeUIKit)
         DocButton(link: link, title: title)
       }
       .toAny()

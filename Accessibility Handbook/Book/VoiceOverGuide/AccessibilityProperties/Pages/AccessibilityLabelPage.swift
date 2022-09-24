@@ -19,18 +19,18 @@ struct AccessibilityLabelPage: View, Page {
   var body: some View {
     PageContent(next: AccessibilityHintPage()) {
       Group {
-        Text(Self.strings.text1)
-        Text(Self.strings.text2)
-        Text(Self.strings.text3)
+        heading
         exampleImage
         Comment(Self.strings.comment)
-        Code(
-          uiKit: """
-          myView.accessibilityLabel = "<content>"
-          """,
-          swiftUI: """
+        Code.uikit(
+          """
+          myView.accessibilityLabel = "content"
+          """
+        )
+        Code.swiftUI(
+          """
           View()
-          .accessibilityLabel("<content>")
+          .accessibilityLabel("content")
           """
         )
         VerticalSpace(.regular)
@@ -53,5 +53,15 @@ struct AccessibilityLabelPage: View, Page {
       .padding()
       .aspectRatio(contentMode: .fit)
       .accessibilityLabel(Text(Self.strings.image))
+  }
+}
+
+extension AccessibilityLabelPage {
+  var heading: some View {
+    Group {
+      Text(Self.strings.text1)
+      Text(Self.strings.text2)
+      Text(Self.strings.text3)
+    }
   }
 }

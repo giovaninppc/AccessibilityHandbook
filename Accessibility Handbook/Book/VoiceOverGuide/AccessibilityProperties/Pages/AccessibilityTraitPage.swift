@@ -32,7 +32,8 @@ struct AccessibilityTraitPage: View, Page {
         InternalLink(page: ListOfAccessibilityTraitsPage().page, title: "List of Accessibility Traits")
         Comment("Make sure to check that section to learn more about each trait.")
         Text("And adding a trait to a view is very simple.")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: docLink, title: title)
       }
       .toAny()

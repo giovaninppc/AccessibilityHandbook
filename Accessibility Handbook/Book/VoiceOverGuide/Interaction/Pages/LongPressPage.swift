@@ -39,7 +39,8 @@ struct LongPressPage: View, Page {
 
         Comment("If you are using a long press gesture, I suggest always adding an accessibility hint to tell your user about it!")
         Text("The long press is specially useful on 'Back buttons', which on newer iOS will display the navigation hierarchy, allowing you to easily navigate back to the page you want.")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
       }
       .toAny()

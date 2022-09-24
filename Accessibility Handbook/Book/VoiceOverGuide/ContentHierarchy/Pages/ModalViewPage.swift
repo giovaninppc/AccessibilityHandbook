@@ -61,16 +61,16 @@ struct ModalViewPage: View, Page {
       Text("On UIKit, every UIView has the property 'accessibilityViewIsModal'. And we need to set it to 'True' if we want to mark a view as being a modal.")
       Text("But, on my experience, I find that simply setting it to 'True' sometimes does not have the expected behavior.")
 
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         myView.accessibilityViewIsModal = true
         """
       )
 
       Text("I suggest overriding this property omn the Modal View's class, and set it to the correct value.")
 
-      Code(
-        uiKit: """
+      Code.uikit(
+        """
         class MyView: UIView {
           var isBeingDisplayed: Bool = true
           override var accessibilityViewIsModal: Bool {
@@ -88,8 +88,8 @@ struct ModalViewPage: View, Page {
       Title("SwiftUI")
       Text("On SwiftUI the 'Modal' can be set as it was an accessibility trait.")
 
-      Code(
-        swiftUI: """
+      Code.swiftUI(
+        """
         .accessibilityAddTraits(.isModal)
         """
       )

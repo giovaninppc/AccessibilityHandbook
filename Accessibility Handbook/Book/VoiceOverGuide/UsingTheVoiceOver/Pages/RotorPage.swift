@@ -15,10 +15,23 @@ struct RotorPage: View, Page {
   """
 
   let codeSwiftUI: String = """
-  .accessibilityRotorEntry()
+  @Namespace private var customRotorNamespace
 
-  .accessibilityRotor("<Rotor item name>") {
-      AccessibilityRotorEntry()
+  var body: some View {
+      Stack {
+        View()
+          .accessibilityRotorEntry(
+            id: id,
+            in: customRotorNamespace
+          )
+      }
+      .accessibilityRotor("Rotor item name") {
+        AccessibilityRotorEntry(
+          "message",
+          id: id,
+          in: customRotorNamespace
+        )
+      }
   }
   """
 
@@ -35,7 +48,8 @@ struct RotorPage: View, Page {
         example
         Text("The rotor has some default actions to it like changing the speaking rate or the Voice-Over's language.")
         Text("You can also create custom actions to the rotor. The idea is to use it to help users find specific content, like filtering for links, or any other similar elements.")
-        Code(uiKit: codeUIKit, swiftUI: codeSwiftUI)
+        Code.uikit(codeUIKit)
+        Code.swiftUI(codeSwiftUI)
         Comment("I need to say that I have personally never used a custom rotor action, but it is a powerful tool to have on your accessibility arsenal!")
         DocButton(link: docLink, title: title)
       }

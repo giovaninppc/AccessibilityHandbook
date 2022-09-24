@@ -41,7 +41,7 @@ struct HapticsPage: View, Page {
         Text("Haptics are a type of feedback. When you select something, when something suceeds...")
         Text("It's an additional layer of feedback. Imagine most actions have some kind of visual feedback, like when you tap a button and it changes it's color slightly so you know the button is pressed.")
         Text("Since sometimes we cannot rely on visual cues, the Haptics can be a very interesting and powerful way to improve accessibility.")
-        Code(uiKit: code)
+        Code.uikit(code)
         DocButton(link: link, title: title)
       }
       .toAny()
