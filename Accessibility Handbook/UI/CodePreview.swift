@@ -62,6 +62,7 @@ private extension CodePreview {
 
       Spacer()
     }
+    .accessibilityElement(children: .combine)
     .padding()
   }
 
