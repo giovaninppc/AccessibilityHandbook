@@ -43,7 +43,7 @@ struct GameContent: View {
           UIAccessibility.post(notification: .screenChanged, argument: nil)
         }
       } label: {
-        Image(systemName: "lightbulb.fill")
+        Icon.lightbulb
       }
       .accessibilityLabel(Text("Hint"))
       .accessibilityHint(Text("Activate to get a hint on how to solve this puzzle."))

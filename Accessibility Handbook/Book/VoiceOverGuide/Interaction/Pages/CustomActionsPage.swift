@@ -61,23 +61,23 @@ struct CustomActionsPage: View, Page {
       VerticalSpace(.regular)
       Centered {
         VStack(spacing: .regular) {
-          Title("Available Card")
+          Title("Credit Card")
           Text("**** **** **** 1234")
           HStack(spacing: .regular) {
             Button {
               //
             } label: {
-              (Text(Image(systemName: "pencil")) + Text(" ") + Text("Edit"))
+              (Text(Icon.pencil) + Text(String.space) + Text("Edit"))
             }
             Button {
               //
             } label: {
-              (Text(Image(systemName: "checkmark.circle.fill")) + Text(" ") + Text("Select"))
+              (Text(Icon.checkmark) + Text(String.space) + Text("Select"))
             }
             Button {
               //
             } label: {
-              (Text(Image(systemName: "trash.fill")) + Text(" ") + Text("Delete"))
+              (Text(Icon.trash) + Text(String.space) + Text("Delete"))
             }
           }
         }

@@ -16,7 +16,7 @@ struct AdjustableCounter: View {
       Button {
         value -= 1
       } label: {
-        Image(systemName: "minus.circle.fill")
+        Icon.minus
           .resizable()
           .frame(width: 30.0, height: 30.0)
       }
@@ -32,7 +32,7 @@ struct AdjustableCounter: View {
       Button {
         value += 1
       } label: {
-        Image(systemName: "plus.circle.fill")
+        Icon.plus
           .resizable()
           .frame(width: 30.0, height: 30.0)
       }

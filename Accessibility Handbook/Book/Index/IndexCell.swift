@@ -9,9 +9,9 @@ import SwiftUI
 
 struct IndexCell: View {
   let title: String
-  let icon: String?
+  let icon: Image?
 
-  init(title: String, icon: String? = nil) {
+  init(title: String, icon: Image? = nil) {
     self.title = title
     self.icon = icon
   }
@@ -24,7 +24,7 @@ struct IndexCell: View {
           .padding(.horizontal, .regular)
           .padding(.vertical, .regular)
         Spacer()
-        Image(systemName: "chevron.forward")
+        Icon.chevronForward
           .padding()
       }
       Rectangle()
@@ -38,7 +38,7 @@ struct IndexCell: View {
   private var displayTitle: some View {
     Group {
       if let icon = icon {
-        (Text(Image(systemName: icon)) + Text(" ") + Text(title))
+        (Text(icon) + Text(String.space) + Text(title))
       } else {
         Text(title)
       }

@@ -41,7 +41,7 @@ private extension CodePreview {
       Button {
         dismiss()
       } label: {
-        Image(systemName: "xmark")
+        Icon.close
       }
       .accessibilityLabel("Close code view")
     }
@@ -79,7 +79,7 @@ private extension CodePreview {
         copy(code: code)
       } label: {
         HStack {
-          Image(systemName: "doc.on.doc.fill")
+          Icon.copy
           Text("Copy code")
         }
       }

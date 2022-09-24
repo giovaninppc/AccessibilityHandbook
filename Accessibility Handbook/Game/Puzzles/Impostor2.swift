@@ -66,7 +66,7 @@ struct Impostor2: GamePage, View {
     Button {
       isImpostor ? haptic(.error) : selection()
     } label: {
-      Image(systemName: "person.fill")
+      Icon.person
         .resizable()
         .aspectRatio(contentMode: .fit)
         .frame(width: 30.0, height: 30.0)

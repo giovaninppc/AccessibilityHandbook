@@ -26,13 +26,13 @@ struct HintView: View {
           Button {
             hinting = false
           } label: {
-            Image(systemName: "xmark")
+            Icon.close
           }
           .accessibilityLabel(Text("Close Hint"))
           Spacer()
             .frame(maxWidth: 250.0)
         }
-        Image(systemName: "lightbulb.fill")
+        Icon.lightbulb
           .resizable()
           .aspectRatio(contentMode: .fit)
           .frame(width: 50.0, height: 50.0)

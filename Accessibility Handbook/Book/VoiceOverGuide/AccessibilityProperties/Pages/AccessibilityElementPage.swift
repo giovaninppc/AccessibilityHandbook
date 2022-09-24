@@ -48,31 +48,31 @@ struct AccessibilityElementPage: View, Page {
         .frame(height: .single)
         .accessibilityHidden(true)
       HStack {
-        Image(systemName: "circle.fill")
+        Icon.filledCircle
           .resizable()
           .frame(width: 30.0, height: 30.0)
           .accessibilityHidden(false)
           .accessibilityLabel(Text(Self.strings.Example.isAccessibilityElement))
 
-        Image(systemName: "circle.fill")
+        Icon.filledCircle
           .resizable()
           .frame(width: 30.0, height: 30.0)
           .accessibilityHidden(true)
           .opacity(0.5)
 
-        Image(systemName: "circle.fill")
+        Icon.filledCircle
           .resizable()
           .frame(width: 30.0, height: 30.0)
           .accessibilityHidden(false)
           .accessibilityLabel(Text(Self.strings.Example.isAccessibilityElement))
 
-        Image(systemName: "circle.fill")
+        Icon.filledCircle
           .resizable()
           .frame(width: 30.0, height: 30.0)
           .accessibilityHidden(true)
           .opacity(0.5)
 
-        Image(systemName: "circle.fill")
+        Icon.filledCircle
           .resizable()
           .frame(width: 30.0, height: 30.0)
           .accessibilityHidden(false)

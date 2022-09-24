@@ -75,10 +75,10 @@ private extension HomeView {
         NavigationLink {
           page.page
         } label: {
-          let icon: String? = {
+          let icon: Image? = {
             switch page {
             case is GamePage:
-              return "gamecontroller.fill"
+              return Icon.gameController
             default:
               return nil
             }
@@ -101,7 +101,7 @@ private extension HomeView {
         Spacer()
         HStack {
           Spacer()
-          Image(systemName: "gamecontroller.fill")
+          Icon.gameController
             .resizable()
             .aspectRatio(contentMode: .fit)
             .frame(width: 100.0, height: 100.0)
@@ -127,7 +127,7 @@ private extension HomeView {
 private extension HomeView {
   private var voiceOverGuide: some View {
     homeElement(
-      icon: .init(systemName: "text.book.closed.fill"),
+      icon: Icon.book,
       title: "Voice-Over Guide",
       destination: IndexView(sections: VoiceOverGuideSections()).toAny()
     )
@@ -135,7 +135,7 @@ private extension HomeView {
 
   private var colorsGuide: some View {
     homeElement(
-      icon: .init(systemName: "paintpalette.fill"),
+      icon: Icon.paintpalete,
       title: "Colors Guide",
       destination: IndexView(sections: ColorsSection()).toAny()
     )
@@ -143,7 +143,7 @@ private extension HomeView {
 
   private var dynamicFontsGuide: some View {
     homeElement(
-      icon: .init(systemName: "textformat"),
+      icon: Icon.textformat,
       title: "Dynamic Fonts",
       destination: IndexView(sections: DynamicFontSections()).toAny()
     )
@@ -151,7 +151,7 @@ private extension HomeView {
 
   private var otherGuide: some View {
     homeElement(
-      icon: .init(systemName: "circle.hexagonpath.fill"),
+      icon: Icon.circleHexagonpath,
       title: "Other features",
       destination: IndexView(sections: OthersSections()).toAny()
     )
@@ -163,7 +163,7 @@ private extension HomeView {
 private extension HomeView {
   private var aboutCell: some View {
     homeElement(
-      icon: .init(systemName: "questionmark.app.dashed"),
+      icon: Icon.questionMarkDsahed,
       title: "About the app",
       destination: AboutTheAppView().toAny()
     )
@@ -171,7 +171,7 @@ private extension HomeView {
 
   private var collaborationCell: some View {
     homeElement(
-      icon: .init(systemName: "text.redaction"),
+      icon: Icon.textRedaction,
       title: "Collaborate",
       destination: CollaborationView().toAny()
     )

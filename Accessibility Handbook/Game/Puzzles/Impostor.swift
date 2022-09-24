@@ -71,7 +71,7 @@ struct Impostor: GamePage, View {
         )
       }
     } label: {
-      Image(systemName: "person.fill")
+      Icon.person
         .resizable()
         .aspectRatio(contentMode: .fit)
         .frame(width: 30.0, height: 30.0)

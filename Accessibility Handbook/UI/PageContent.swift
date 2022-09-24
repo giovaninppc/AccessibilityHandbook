@@ -48,7 +48,7 @@ struct NextPageButton: View {
     if let title = title {
       HStack {
         Text(title)
-        Image(systemName: "arrow.right")
+        Icon.arrowRight
       }
     }
   }

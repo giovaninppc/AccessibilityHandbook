@@ -66,13 +66,13 @@ private extension ColorBlindnessPage {
             .foregroundColor(.secondaryBackground)
           HorizontalSpace(.regular)
           VStack(alignment: .leading, spacing: .regular) {
-            (Text(Image(systemName: "plus.circle.fill")) + Text(" Free shipping"))
+            (Text(Icon.plus) + Text(" Free shipping"))
               .foregroundColor(.green)
-            (Text(Image(systemName: "minus.circle.fill")) + Text(" Additional cost"))
+            (Text(Icon.minus) + Text(" Additional cost"))
               .foregroundColor(.red)
-            (Text(Image(systemName: "plus.circle.fill")) + Text(" Early access"))
+            (Text(Icon.plus) + Text(" Early access"))
               .foregroundColor(.green)
-            (Text(Image(systemName: "minus.circle.fill")) + Text(" Extra bureaucracy"))
+            (Text(Icon.minus) + Text(" Extra bureaucracy"))
               .foregroundColor(.red)
           }
         }

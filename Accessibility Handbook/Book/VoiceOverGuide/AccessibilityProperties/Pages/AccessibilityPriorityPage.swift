@@ -72,25 +72,25 @@ struct AccessibilityPriorityPage: View, Page {
         .accessibilitySortPriority(-1)
       }
       HStack(spacing: .large) {
-        Image(systemName: "moon.fill")
+        Icon.moon
           .accessibilityLabel(Text("Moon"))
           .accessibilitySortPriority(9)
-        Image(systemName: "cloud.fill")
+        Icon.cloud
           .accessibilityLabel(Text("Cloud"))
           .accessibilitySortPriority(8)
-        Image(systemName: "sun.max.fill")
+        Icon.sun
           .accessibilityLabel(Text("Sun"))
           .accessibilitySortPriority(7)
-        Image(systemName: "sunrise.fill")
+        Icon.sunrise
           .accessibilityLabel(Text("Sunrise"))
           .accessibilitySortPriority(6)
-        Image(systemName: "cloud.snow.fill")
+        Icon.cloudSnow
           .accessibilityLabel(Text("Snow"))
           .accessibilitySortPriority(5)
-        Image(systemName: "cloud.bolt.rain.fill")
+        Icon.rainBolt
           .accessibilityLabel(Text("Rain"))
           .accessibilitySortPriority(4)
-        Image(systemName: "cloud.fog.fill")
+        Icon.cloudFog
           .accessibilityLabel(Text("Fog"))
           .accessibilitySortPriority(3)
       }

@@ -19,7 +19,7 @@ struct GameCell: View {
           .padding(.horizontal, .regular)
           .padding(.vertical, .regular)
         Spacer()
-        Image(systemName: completed ? "checkmark.circle.fill" : "circle")
+        (completed ? Icon.checkmark : Icon.circle)
           .padding()
       }
       Rectangle()
