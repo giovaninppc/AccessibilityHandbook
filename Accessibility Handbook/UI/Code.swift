@@ -31,7 +31,7 @@ struct Code: View {
       }
     }
     .sheet(isPresented: $sheet) {
-      CodePreview(code: code ?? "", title: title, icon: icon)
+      CodePreview(code: code ?? "Code example", title: title, icon: icon)
     }
   }
 

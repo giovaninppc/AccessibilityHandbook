@@ -47,7 +47,7 @@ private extension NotifyScreenChangesPage {
 
   var footer: some View {
     Group {
-      Code.uikit(codeUIKit)
+      Code(code: codeUIKit, icon: nil, title: nil)
       Comment("But what is the argument that is 'nil' on the code?")
       Comment("Find out more about it on the following page!")
       DocButton(link: link, title: title)
