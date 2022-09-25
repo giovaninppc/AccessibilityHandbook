@@ -64,6 +64,8 @@ internal enum L10n {
   internal static let fog = L10n.tr("Localizable", "fog")
   /// Free shipping
   internal static let freeShipping = L10n.tr("Localizable", "freeShipping")
+  /// Go Back
+  internal static let goBack = L10n.tr("Localizable", "goBack")
   /// Go play it!
   internal static let goPlay = L10n.tr("Localizable", "goPlay")
   /// Handbook
@@ -120,7 +122,7 @@ internal enum L10n {
   internal static let usingTheVoiceOver = L10n.tr("Localizable", "UsingTheVoiceOver")
   /// Voice-Over
   internal static let voiceOver = L10n.tr("Localizable", "VoiceOver")
-  /// Voice-Over guide
+  /// Voice-Over Guide
   internal static let voiceOverGuide = L10n.tr("Localizable", "VoiceOverGuide")
   /// Weather Icons
   internal static let weatherIcons = L10n.tr("Localizable", "weatherIcons")
@@ -677,6 +679,17 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "EnableVoiceOver.title")
   }
 
+  internal enum GameSuccess {
+    /// You solved the puzzle!
+    internal static let subtitle = L10n.tr("Localizable", "GameSuccess.subtitle")
+    /// Suggested reading
+    internal static let suggestedReading = L10n.tr("Localizable", "GameSuccess.suggestedReading")
+    /// If you want to learn more about this puzzle check our documentation
+    internal static let text = L10n.tr("Localizable", "GameSuccess.text")
+    /// Congratulations!
+    internal static let title = L10n.tr("Localizable", "GameSuccess.title")
+  }
+
   internal enum Grouping {
     /// Bad Carousel
     internal static let badCarousel = L10n.tr("Localizable", "Grouping.badCarousel")
@@ -764,6 +777,19 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "HeaderTrait.text3")
     /// Header Trait
     internal static let title = L10n.tr("Localizable", "HeaderTrait.title")
+  }
+
+  internal enum Hint {
+    /// Close hint
+    internal static let close = L10n.tr("Localizable", "Hint.close")
+    /// Open hint
+    internal static let `open` = L10n.tr("Localizable", "Hint.open")
+    /// The Handbook puzzles were made to be solved using some kind of accessibility tool.
+    internal static let text1 = L10n.tr("Localizable", "Hint.text1")
+    /// If you can't figure it out, maybe this page will help you...
+    internal static let text2 = L10n.tr("Localizable", "Hint.text2")
+    /// 🤔 Having Trouble?
+    internal static let title = L10n.tr("Localizable", "Hint.title")
   }
 
   internal enum Home {

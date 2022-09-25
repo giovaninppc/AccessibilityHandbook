@@ -23,20 +23,24 @@ struct GameSuccessView: View {
     ZStack(alignment: .center) {
       background
       VStack(spacing: .regular) {
-        Text("Congratulations!")
-          .font(.title.bold())
-          .accessibilityFocused($isSuccessFocused)
-        Text("You solved the puzzle!")
+        Group {
+          Text(L10n.GameSuccess.title)
+            .font(.title.bold())
+          Text(L10n.GameSuccess.subtitle)
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityFocused($isSuccessFocused)
+
         VerticalSpace(.regular)
-        Text("If you want to learn more about this puzzle check our documentation")
+        Text(L10n.GameSuccess.text)
           .multilineTextAlignment(.center)
-        NavigationLink("Suggested reading") {
+        NavigationLink(L10n.GameSuccess.suggestedReading) {
           page
         }
         Button {
           dismiss()
         } label: {
-          Text("Go back")
+          Text(L10n.goBack)
             .font(.body.bold())
         }
       }

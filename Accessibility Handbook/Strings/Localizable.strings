@@ -596,6 +596,21 @@
 "Grouping.uikit.text" = "On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.";
 "Grouping.swiftui.text" = "SwiftUI has a better wrapper to combine all children into a single accessible element.";
 
+// Game Success
+
+"GameSuccess.title" = "Congratulations!";
+"GameSuccess.subtitle" = "You solved the puzzle!";
+"GameSuccess.text" = "If you want to learn more about this puzzle check our documentation";
+"GameSuccess.suggestedReading" = "Suggested reading";
+
+// Hint View
+
+"Hint.close" = "Close hint";
+"Hint.open" = "Open hint";
+"Hint.title" = "🤔 Having Trouble?";
+"Hint.text1" = "The Handbook puzzles were made to be solved using some kind of accessibility tool.";
+"Hint.text2" = "If you can't figure it out, maybe this page will help you...";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -614,8 +629,8 @@
 "deleted" = "Deleted";
 "edited" = "Edited";
 "handleAction" = "Handle Action";
-"example" = "Example";
-"examples" = "Examples";
+"dismiss" = "Dismiss";
+"goBack" = "Go Back";
 
 // Code
 
@@ -648,4 +663,5 @@
 "uikit" = "UIKit";
 "swiftUI" = "SwiftUI";
 "modal" = "Modal";
-"dismiss" = "Dismiss";
+"example" = "Example";
+"examples" = "Examples";

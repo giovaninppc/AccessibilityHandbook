@@ -28,7 +28,7 @@ struct HintView: View {
           } label: {
             Icon.close
           }
-          .accessibilityLabel(Text("Close Hint"))
+          .accessibilityLabel(L10n.Hint.close)
           Spacer()
             .frame(maxWidth: 250.0)
         }
@@ -37,19 +37,19 @@ struct HintView: View {
           .aspectRatio(contentMode: .fit)
           .frame(width: 50.0, height: 50.0)
           .foregroundColor(.accentColor)
-        Text("🤔 Having Trouble?")
+        Text(L10n.Hint.title)
           .font(.title.bold())
           .multilineTextAlignment(.center)
           .accessibilityFocused($isHintFocused)
         .accessibilityHidden(true)
-        Text("The Handbook puzzles were made to be solved using some kind of accessibility tool.")
+        Text(L10n.Hint.text1)
           .multilineTextAlignment(.center)
-        Text("If you can't figure it out, maybe this page will help you...")
+        Text(L10n.Hint.text2)
           .multilineTextAlignment(.center)
         NavigationLink {
           link
         } label: {
-          Text("Open Hint")
+          Text(L10n.Hint.open)
         }
       }
       .padding()
