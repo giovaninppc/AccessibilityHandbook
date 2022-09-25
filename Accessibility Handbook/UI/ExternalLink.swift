@@ -12,11 +12,15 @@ struct ExternalLink: View {
   let title: String
 
   var body: some View {
-    HStack(alignment: .center) {
-      Link(title, destination: URL(string: link)!)
-        .font(.callout.bold())
-        .foregroundColor(.pink)
-        .multilineTextAlignment(.leading)
+    HStack() {
+      if let url = URL(string: link) {
+        Link(destination: url) {
+          Text(title)
+            .font(.callout.bold())
+            .foregroundColor(.pink)
+            .multilineTextAlignment(.leading)
+        }
+      }
       Spacer()
     }
   }

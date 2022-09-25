@@ -109,6 +109,71 @@
 "Collaboration.Suggestion.text3" = "Fell free to tell us ay idea you have!";
 "Collaboration.submitFeatureRequest" = "Submit a feature request!";
 
+// About the app
+
+"AboutTheApp.title" = "About the app";
+
+"AboutTheApp.History.text1" = "The Accessibility Handbook started as an idea with some colleagues and friends, aiming to be an easy way to learn more about iOS accessibility features.";
+"AboutTheApp.History.text2" = "At the time we started working on it, but we never got to finish or publish the Handbook. So, a while later, I took what I learned and decided to bring it into the world! Rewriting the contents, adding UIKit and SwiftUI versions to make something really fresh and nice.";
+"AboutTheApp.History.text3" = "I always thought the information about accessibility was always there, but you had to know what to look for.";
+"AboutTheApp.History.text4" = "That's where this handbook comes, it's something that can be collaborative, easy to use, and fast to find! It's an app! You can carry it around with you and read anytime.";
+"AboutTheApp.History.text5" = "It's mostly based on my experiences as a developer, with real-life examples that (I hope) will help you understand more about Accessibility and also help you use in your own projects!";
+
+"AboutTheApp.Game.title" = "What about the Game?";
+"AboutTheApp.Game.text1" = "The Handbook was pretty nice and all... but it was a little boring.";
+"AboutTheApp.Game.text2" = "So I tryied to make something that would be nicer to use and to learn,";
+"AboutTheApp.Game.text3" = "And what best way to do that than with a game?";
+"AboutTheApp.Game.comment" = "The puzzles are not supposed to be hard, thay are just a nice way to practice your accessibility knowledge!";
+
+"AboutTheApp.Disclaimer.title" = "Disclaimer";
+"AboutTheApp.Disclaimer.text1" = "This app and it's content is supposed to be a helpful guide, based on real development experiences.";
+"AboutTheApp.Disclaimer.text2" = "I do not know EVERYTHING about accessibility, and I'm learning a little bit more every day.";
+"AboutTheApp.Disclaimer.comment1" = "And I have sure learned a lot while developing this very own app!";
+"AboutTheApp.Disclaimer.text3" = "It may have some mistakes or misconceptions, so please, consider reporting if you find any of those.";
+"AboutTheApp.Disclaimer.text4" = "I want it to be a reliable tool that can be cosulted during everyday development.";
+"AboutTheApp.Disclaimer.openCollaborationPage" = "Check the Collaboration page to see more ways to report issues and to help the app's development!";
+
+// Color blindness
+
+"ColorBlind.title" = "Color Blindness";
+"ColorBlind.About.text1" = "Color blindness is a decreased ability to see color differences.";
+"ColorBlind.About.text2" = "What you may not know is that there are 'levels' of color blindness. A person with green color deficiency, for example, may not see the green color at all, or may see it a little bit less that a non-color-blind person.";
+"ColorBlind.About.text3" = "You may take an Ishihara test to check if you are color blind. I have a friend who discovered she was color blind when we were in college! And before that, I'd expect you to identify this condition much earlier in life.";
+"ColorBlind.About.ishihara" = "Example of ishihara color identifying test.";
+"ColorBlind.About.comment" = "These above are examples of an Ishihara test. For a 'normal' vision person, it's expected to see '12', '6' and '74' respectively.";
+"ColorBlind.About.text4" = "But how does this affect our work when we are building an app?";
+"ColorBlind.About.ishiharaTest" = "Ishihara Test";
+
+"ColorBlind.Handle.title" = "Handling content considering colorblindness";
+"ColorBlind.Handle.text1" = "First, make sure your content does not rely on colors only to take any actions or to identify informations. Take the example below.";
+"ColorBlind.Handle.text2" = "Here, on the first column, we are color coding red the negative items and green the positive ones. But that's exactly what we want to avoid. The second Colum has a much better 'universal' experience where identifying these items as positive or negative does not rely solely on color.";
+"ColorBlind.Handle.comment1" = "Using + and - may have cultural connotations, so it may not be the best example here. But it's just an example.";
+"ColorBlind.Handle.comment2" = "If you do rely on colors only on some part of your app, don't want to change it, but still want to to make it usable for colorblind users, check our 'Differentiate without colors' page.";
+
+"ColorBlind.Images.title" = "Careful with images";
+"ColorBlind.Images.text1" = "Sometimes we render content with images. Banners loaded from Backend, some promotional stuff, or just something that looks nicer on the image render.";
+"ColorBlind.Images.comment" = "First, make sure to add an accessibility label to this image!";
+"ColorBlind.Images.text2" = "You also need to be careful to not have content ot be read on conflicting colors for color blindness.";
+
+// Contrast
+
+"Contrast.title" = "Contrast";
+"Contrast.text1" = "Contrast is the difference in luminance or colour that makes an object (or its representation in an image or display) distinguishable.";
+"Contrast.comment1" = "But why talk about contrast on an accessibility context?";
+"Contrast.text2" = "Contrast is important when taking colors on your applications. Everything that should be visible should be well... Visible.";
+"Contrast.text3" = "By that I mean you should be areful when adding colored text on top of colored backgrounds. The base good contrast is black-on-white (or white-on-black) text.";
+"Contrast.comment2" = "But is also depends on the font itself, the font's weight...";
+
+"Contrast.Example.text1" = "A nice way to test for contrast is using the WCAG contrast guide";
+"Contrast.Example.comment1" = "WCAG stands for 'Web Content Accessibility Guidelines', and I know it's more directed to web, not mobile environments, but that's also nice to take a look into, specially if you are interested in learning more about contarst in accessibility.";
+"Contrast.Example.example1" = "This example above fails the WCAG test for contrast.";
+"Contrast.Example.example2" = "This one does kida ok, so you can use this color combination with larger fonts.";
+"Contrast.Example.example3" = "And this one is pretty good! The classics.";
+"Contrast.Example.link" = "You can try for yourself on this contrast-check tool!";
+
+// Differentiate without colors
+
+"Differentiate.title" = "Differentiate without colors";
 
 // Actions
 
@@ -116,3 +181,14 @@
 "appleDoc" = " See more on Apple's documentation for \"%@\"";
 "nextPage" = "Next page %@";
 "backToIndex" = "Back to Index";
+"goPlay" = "Go play it!";
+"moreOnWikipedia" = "More on Wikipedia";
+
+// Some nouns
+
+"freeShipping" = "Free shipping";
+"additionalCost" = "Additional cost";
+"earlyAccess" = "Early access";
+"extraBureaucracy" = "Extra bureaucracy";
+"regularText" = "Regular text";
+"boldText" = "Bold text";
