@@ -84,6 +84,8 @@ private extension IncreaseContrastPage {
       }
       .toAny()
     }
+    .accessibilityElement(children: .combine)
+    .accessibilityLabel("Example of using the contrast tool. There are 6 images with increasing contrast.")
   }
 
   var circle: some View {
