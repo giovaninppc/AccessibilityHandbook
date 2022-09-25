@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct AnnouncementPage: View, Page {
-  var title: String = "Announcement"
+  let title: String = L10n.Announcement.title
 
-  let codeUIKit: String = """
+  private let codeUIKit: String = """
   UIAccessibility.post(
     .announcement,
-    argument: "Text to be read"
+    argument: "\(L10n.Announcement.textToBeRead)"
   )
   """
 
-  let link: String = """
+  private let link: String = """
   https://developer.apple.com/documentation/uikit/uiaccessibility/notification/1620176-announcement
   """
 
@@ -26,29 +26,29 @@ struct AnnouncementPage: View, Page {
   private var secretDescriptions: String {
     switch currentValue {
     case let value where value < 0:
-      return "Going negative, aren't we?"
+      return L10n.Announcement.Notifications.negative
     case 0:
-      return ""
+      return L10n.Announcement.Notifications.small
     case 1...5:
-      return "Oh the values are increasing!"
+      return L10n.Announcement.Notifications.medium
     case 6...10:
-      return "You like to increase, don't you?"
+      return L10n.Announcement.Notifications.large
     case 11...20:
-      return "Yep, keep increasing..."
+      return L10n.Announcement.Notifications.huge
     default:
-      return "This is the final message"
+      return L10n.Announcement.Notifications.final
     }
   }
 
   var body: some View {
     PageContent(next: NotifyScreenChangesPage()) {
       Group {
-        Text("An announcement notification is a way to make the Voice-Over read something that is not currently focused.")
-        Text("Sometimes, some information changes on the screen and we show to the user using some animation to grab their attention.")
-        Text("But, we cannot rely on visual cues to show information when talking about visual accessibility.")
-        Comment("To me, that's where the announcements shine!")
+        Text(L10n.Announcement.text1)
+        Text(L10n.Announcement.text2)
+        Text(L10n.Announcement.text3)
+        Comment(L10n.Announcement.comment1)
         example
-        Comment("The code cells bellow are another example of announcements when you copy the code!")
+        Comment(L10n.Announcement.comment2)
         Code.uikit(codeUIKit)
         DocButton(link: link, title: title)
       }

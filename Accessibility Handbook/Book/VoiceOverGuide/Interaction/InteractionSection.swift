@@ -8,7 +8,7 @@
 import Foundation
 
 struct InteractionSection: Section {
-  let title: String = "Interaction"
+  let title: String = L10n.interactrion
   let pages: [Page] = [
     ActivatePage(),
     LongPressPage(),

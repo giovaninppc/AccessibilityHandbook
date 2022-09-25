@@ -375,6 +375,61 @@
 "MagicTap.Example.thisContentIsMagic" = "This content has a Magic Tap!";
 "MagicTap.Example.magicPerformed" = "Magic tap perfomed";
 
+"VoiceOverGuide" = "Voice-Over guide";
+
+// Accessibility Notifications
+
+"AccNotifications.title" = "Accessibility Notifications";
+
+// Announcement
+
+"Announcement.title" = "Announcement";
+"Announcement.textToBeRead" = "Text to be read";
+
+"Announcement.text1" = "An announcement notification is a way to make the Voice-Over read something that is not currently focused.";
+"Announcement.text2" = "Sometimes, some information changes on the screen and we show to the user using some animation to grab their attention.";
+"Announcement.text3" = "But, we cannot rely on visual cues to show information when talking about visual accessibility.";
+"Announcement.comment1" = "To me, that's where the announcements shine!";
+"Announcement.comment2" = "The code cells bellow are another example of announcements when you copy the code!";
+
+"Announcement.Notifications.negative" = "Going negative, aren't we?";
+"Announcement.Notifications.small" = "Oh the values are increasing!";
+"Announcement.Notifications.medium" = "You like to increase, don't you?";
+"Announcement.Notifications.large" = "Yep, keep increasing...";
+"Announcement.Notifications.huge" = "Getting close to the end";
+"Announcement.Notifications.final" = "This is the final message";
+
+// Notify Screen changes
+
+"NotifyChanges.title" = "Notify Screen changes";
+"NotifyChanges.text1" = "When something changes on the screen, we need to remember a Voice-Over user will not be able to see it.";
+"NotifyChanges.text2" = "This is also valid to when the screen itself changes.";
+"NotifyChanges.text3" = "But, we have some Accessibility Notifications that behave like audio cues to tell the user something has happened.";
+"NotifyChanges.comment1" = "But what is the argument that is 'nil' on the code?";
+"NotifyChanges.comment2" = "Find out more about it on the following page!";
+
+"NotifyChanges.screenChange" = "Screen change notification";
+"NotifyChanges.layoutChange" = "Layout change notification";
+
+// Change cursor position
+
+"ChangeCursor.title" = "Change cursor position";
+
+"ChangeCursor.Intro.text1" = "Most of the time, we want the user to be in control to where the Voice-Over cursor should move to.";
+"ChangeCursor.Intro.text2" = "Sometimes, when we change something on the screen, like presenting a modal on top of everything, we want to redirect the user directly to the new content.";
+"ChangeCursor.Intro.comment" = "But, to do that, it works different in UIKit and SwiftUI, so we are going to have a section for each in this page";
+
+"ChangeCursor.uikit.text1" = "To change the cursor position on UIKit, we are going to use the screen chnage notifications.";
+"ChangeCursor.uikit.text2" = "When triggering one of these notifications, we can pass as the argument the view we want the Voice-Over to focus on.";
+"ChangeCursor.uikit.link" = "More on Screen Change notifications.";
+
+"ChangeCursor.swiftui.text1" = "On SwiftUI, we are not going to use the Accessibility Notifications, instead, we are using the @AccessibilityFocusState";
+"ChangeCursor.swiftui.text2" = "It allow to control if the cursor is focused on a view, and move the navigation to it.";
+"ChangeCursor.swiftui.text3" = "First, create a new Boolean property using this wrapper";
+"ChangeCursor.swiftui.text4" = "Then, assign it to the view you want to control by using a view modifier.";
+"ChangeCursor.swiftui.text5" = "Now you can change the focus to the view by setting the property to 'True'.";
+"ChangeCursor.swiftui.comment" = "You can even observe this property to handle something when it focus/unfocus on it.";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -413,3 +468,6 @@
 "rain" = "Rain";
 "fog" = "Fog";
 "weatherIcons" = "Weather Icons";
+"interactrion" = "Interaction";
+"uikit" = "UIKit";
+"swiftUI" = "SwiftUI";

@@ -54,6 +54,8 @@ internal enum L10n {
   internal static let haptic = L10n.tr("Localizable", "haptic")
   /// Haptics
   internal static let haptics = L10n.tr("Localizable", "haptics")
+  /// Interaction
+  internal static let interactrion = L10n.tr("Localizable", "interactrion")
   /// Moon
   internal static let moon = L10n.tr("Localizable", "moon")
   /// More
@@ -82,10 +84,16 @@ internal enum L10n {
   internal static let sun = L10n.tr("Localizable", "sun")
   /// Sunrise
   internal static let sunrise = L10n.tr("Localizable", "sunrise")
+  /// SwiftUI
+  internal static let swiftUI = L10n.tr("Localizable", "swiftUI")
   /// Accessibility Handbook
   internal static let title = L10n.tr("Localizable", "title")
+  /// UIKit
+  internal static let uikit = L10n.tr("Localizable", "uikit")
   /// Voice-Over guide
   internal static let vocieOverGuide = L10n.tr("Localizable", "VocieOverGuide")
+  /// Voice-Over guide
+  internal static let voiceOverGuide = L10n.tr("Localizable", "VoiceOverGuide")
   /// Weather Icons
   internal static let weatherIcons = L10n.tr("Localizable", "weatherIcons")
 
@@ -227,6 +235,11 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AccLabel.title")
   }
 
+  internal enum AccNotifications {
+    /// Accessibility Notifications
+    internal static let title = L10n.tr("Localizable", "AccNotifications.title")
+  }
+
   internal enum AccPriority {
     /// Yes, you can change the reading order of your elements, but most of the time you dont want to do that.
     internal static let comment1 = L10n.tr("Localizable", "AccPriority.comment1")
@@ -320,6 +333,72 @@ internal enum L10n {
       internal static let decrement = L10n.tr("Localizable", "Adjustable.Code.decrement")
       /// Handle increment
       internal static let increment = L10n.tr("Localizable", "Adjustable.Code.increment")
+    }
+  }
+
+  internal enum Announcement {
+    /// To me, that's where the announcements shine!
+    internal static let comment1 = L10n.tr("Localizable", "Announcement.comment1")
+    /// The code cells bellow are another example of announcements when you copy the code!
+    internal static let comment2 = L10n.tr("Localizable", "Announcement.comment2")
+    /// An announcement notification is a way to make the Voice-Over read something that is not currently focused.
+    internal static let text1 = L10n.tr("Localizable", "Announcement.text1")
+    /// Sometimes, some information changes on the screen and we show to the user using some animation to grab their attention.
+    internal static let text2 = L10n.tr("Localizable", "Announcement.text2")
+    /// But, we cannot rely on visual cues to show information when talking about visual accessibility.
+    internal static let text3 = L10n.tr("Localizable", "Announcement.text3")
+    /// Text to be read
+    internal static let textToBeRead = L10n.tr("Localizable", "Announcement.textToBeRead")
+    /// Announcement
+    internal static let title = L10n.tr("Localizable", "Announcement.title")
+    internal enum Notifications {
+      /// This is the final message
+      internal static let `final` = L10n.tr("Localizable", "Announcement.Notifications.final")
+      /// Getting close to the end
+      internal static let huge = L10n.tr("Localizable", "Announcement.Notifications.huge")
+      /// Yep, keep increasing...
+      internal static let large = L10n.tr("Localizable", "Announcement.Notifications.large")
+      /// You like to increase, don't you?
+      internal static let medium = L10n.tr("Localizable", "Announcement.Notifications.medium")
+      /// Going negative, aren't we?
+      internal static let negative = L10n.tr("Localizable", "Announcement.Notifications.negative")
+      /// Oh the values are increasing!
+      internal static let small = L10n.tr("Localizable", "Announcement.Notifications.small")
+    }
+  }
+
+  internal enum ChangeCursor {
+    /// Change cursor position
+    internal static let title = L10n.tr("Localizable", "ChangeCursor.title")
+    internal enum Intro {
+      /// But, to do that, it works different in UIKit and SwiftUI, so we are going to have a section for each in this page
+      internal static let comment = L10n.tr("Localizable", "ChangeCursor.Intro.comment")
+      /// Most of the time, we want the user to be in control to where the Voice-Over cursor should move to.
+      internal static let text1 = L10n.tr("Localizable", "ChangeCursor.Intro.text1")
+      /// Sometimes, when we change something on the screen, like presenting a modal on top of everything, we want to redirect the user directly to the new content.
+      internal static let text2 = L10n.tr("Localizable", "ChangeCursor.Intro.text2")
+    }
+    internal enum Swiftui {
+      /// You can even observe this property to handle something when it focus/unfocus on it.
+      internal static let comment = L10n.tr("Localizable", "ChangeCursor.swiftui.comment")
+      /// On SwiftUI, we are not going to use the Accessibility Notifications, instead, we are using the @AccessibilityFocusState
+      internal static let text1 = L10n.tr("Localizable", "ChangeCursor.swiftui.text1")
+      /// It allow to control if the cursor is focused on a view, and move the navigation to it.
+      internal static let text2 = L10n.tr("Localizable", "ChangeCursor.swiftui.text2")
+      /// First, create a new Boolean property using this wrapper
+      internal static let text3 = L10n.tr("Localizable", "ChangeCursor.swiftui.text3")
+      /// Then, assign it to the view you want to control by using a view modifier.
+      internal static let text4 = L10n.tr("Localizable", "ChangeCursor.swiftui.text4")
+      /// Now you can change the focus to the view by setting the property to 'True'.
+      internal static let text5 = L10n.tr("Localizable", "ChangeCursor.swiftui.text5")
+    }
+    internal enum Uikit {
+      /// More on Screen Change notifications.
+      internal static let link = L10n.tr("Localizable", "ChangeCursor.uikit.link")
+      /// To change the cursor position on UIKit, we are going to use the screen chnage notifications.
+      internal static let text1 = L10n.tr("Localizable", "ChangeCursor.uikit.text1")
+      /// When triggering one of these notifications, we can pass as the argument the view we want the Voice-Over to focus on.
+      internal static let text2 = L10n.tr("Localizable", "ChangeCursor.uikit.text2")
     }
   }
 
@@ -697,6 +776,25 @@ internal enum L10n {
     internal static let text4 = L10n.tr("Localizable", "Navigation.text4")
     /// Navigation
     internal static let title = L10n.tr("Localizable", "Navigation.title")
+  }
+
+  internal enum NotifyChanges {
+    /// But what is the argument that is 'nil' on the code?
+    internal static let comment1 = L10n.tr("Localizable", "NotifyChanges.comment1")
+    /// Find out more about it on the following page!
+    internal static let comment2 = L10n.tr("Localizable", "NotifyChanges.comment2")
+    /// Layout change notification
+    internal static let layoutChange = L10n.tr("Localizable", "NotifyChanges.layoutChange")
+    /// Screen change notification
+    internal static let screenChange = L10n.tr("Localizable", "NotifyChanges.screenChange")
+    /// When something changes on the screen, we need to remember a Voice-Over user will not be able to see it.
+    internal static let text1 = L10n.tr("Localizable", "NotifyChanges.text1")
+    /// This is also valid to when the screen itself changes.
+    internal static let text2 = L10n.tr("Localizable", "NotifyChanges.text2")
+    /// But, we have some Accessibility Notifications that behave like audio cues to tell the user something has happened.
+    internal static let text3 = L10n.tr("Localizable", "NotifyChanges.text3")
+    /// Notify Screen changes
+    internal static let title = L10n.tr("Localizable", "NotifyChanges.title")
   }
 
   internal enum ReduceTransparency {

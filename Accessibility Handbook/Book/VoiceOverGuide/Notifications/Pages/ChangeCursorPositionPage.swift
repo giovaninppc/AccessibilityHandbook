@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ChangeCursorPositionPage: View, Page {
-  var title: String = "Change Cursor Position"
+  let title: String = L10n.ChangeCursor.title
 
   let link: String = """
   https://developer.apple.com/documentation/uikit/uiaccessibility/notification/1620176-announcement
@@ -34,9 +34,9 @@ struct ChangeCursorPositionPage: View, Page {
 private extension ChangeCursorPositionPage {
   var content: some View {
     Group {
-      Text("Most of the time, we want the user to be in control to where the Voice-Over cursor should move to.")
-      Text("Sometimes, when we change something on the screen, like presenting a modal on top of everything, we want to redirect the user directly to the new content.")
-      Comment("But, to do that, it works different in UIKit and SwiftUI, so we are going to have a section for each in this page")
+      Text(L10n.ChangeCursor.Intro.text1)
+      Text(L10n.ChangeCursor.Intro.text2)
+      Comment(L10n.ChangeCursor.Intro.comment)
     }
   }
 }
@@ -46,10 +46,10 @@ private extension ChangeCursorPositionPage {
 private extension ChangeCursorPositionPage {
   var uiKit: some View {
     Group {
-      Title("UIKit")
-      Text("To change the cursor position on UIKit, we are going to use the screen chnage notifications.")
-      InternalLink(page: NotifyScreenChangesPage().page, title: "More on Screen Change notifications.")
-      Text("When triggering one of these notifications, we can pass as the argument the view we want the Voice-Over to focus on.")
+      Title(L10n.uikit)
+      Text(L10n.ChangeCursor.Uikit.text1)
+      InternalLink(page: NotifyScreenChangesPage().page, title: L10n.ChangeCursor.Uikit.link)
+      Text(L10n.ChangeCursor.Uikit.text2)
       Code.uikit(
         """
         UIAccessibility.post(
@@ -67,17 +67,17 @@ private extension ChangeCursorPositionPage {
 private extension ChangeCursorPositionPage {
   var swiftUI: some View {
     Group {
-      Title("SwiftUI")
-      Text("On SwiftUI, we are not going to use the Accessibility Notifications, instead, we are using the @AccessibilityFocusState")
-      Text("It allow to control if the cursor is focused on a view, and move the navigation to it.")
-      Text("First, create a new Boolean property using this wrapper")
+      Title(L10n.swiftUI)
+      Text(L10n.ChangeCursor.Swiftui.text1)
+      Text(L10n.ChangeCursor.Swiftui.text2)
+      Text(L10n.ChangeCursor.Swiftui.text3)
       Code.swiftUI(
         """
         @AccessibilityFocusState
         var viewIsFocused: Bool
         """
       )
-      Text("Then, assign it to the view you want to control by using a view modifier.")
+      Text(L10n.ChangeCursor.Swiftui.text4)
       Code.swiftUI(
         """
         View()
@@ -86,8 +86,8 @@ private extension ChangeCursorPositionPage {
         )
         """
       )
-      Text("Now you can change the focus to the view by setting the property to 'True'.")
-      Comment("You can even observe this property to handle something when it focus/unfocus on it.")
+      Text(L10n.ChangeCursor.Swiftui.text5)
+      Comment(L10n.ChangeCursor.Swiftui.comment)
     }
   }
 }

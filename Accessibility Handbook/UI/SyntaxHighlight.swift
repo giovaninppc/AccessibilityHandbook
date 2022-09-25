@@ -9,7 +9,7 @@ import SwiftUI
 
 // This is a syntax highlighter based in Regexes.
 // And... probably it's not great,
-// But we can discuss evolutions on the syntax highlight at.
+// But we can discuss evolutions on the syntax highlighter tho.
 final class SyntaxHighlight {
   private var text: String = ""
   private var highlighted: NSMutableAttributedString = .init()

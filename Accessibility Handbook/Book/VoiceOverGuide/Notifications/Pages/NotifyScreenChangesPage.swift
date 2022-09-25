@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NotifyScreenChangesPage: View, Page {
-  var title: String = "Notify Screen Changes"
+  let title: String = L10n.NotifyChanges.title
 
   let codeUIKit: String = """
   UIAccessibility
@@ -39,17 +39,17 @@ struct NotifyScreenChangesPage: View, Page {
 private extension NotifyScreenChangesPage {
   var header: some View {
     Group {
-      Text("When something changes on the screen, we need to remember a Voice-Over user will not be able to see it.")
-      Text("This is also valid to when the screen itself changes.")
-      Text("But, we have some Accessibility Notifications that behave like audio cues to tell the user something has happened.")
+      Text(L10n.NotifyChanges.text1)
+      Text(L10n.NotifyChanges.text2)
+      Text(L10n.NotifyChanges.text3)
     }
   }
 
   var footer: some View {
     Group {
       Code(code: codeUIKit, icon: nil, title: nil)
-      Comment("But what is the argument that is 'nil' on the code?")
-      Comment("Find out more about it on the following page!")
+      Comment(L10n.NotifyChanges.comment1)
+      Comment(L10n.NotifyChanges.comment2)
       DocButton(link: link, title: title)
     }
   }
@@ -64,14 +64,14 @@ private extension NotifyScreenChangesPage {
       Button {
         UIAccessibility.post(notification: .screenChanged, argument: nil)
       } label: {
-        Text("Screen changed notification")
+        Text(L10n.NotifyChanges.screenChange)
           .font(.callout.bold())
       }
 
       Button {
         UIAccessibility.post(notification: .layoutChanged, argument: nil)
       } label: {
-        Text("Layout changed notification")
+        Text(L10n.NotifyChanges.layoutChange)
           .font(.callout.bold())
       }
 

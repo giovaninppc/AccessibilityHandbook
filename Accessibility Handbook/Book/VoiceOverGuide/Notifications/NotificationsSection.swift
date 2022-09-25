@@ -8,7 +8,7 @@
 import Foundation
 
 struct NotificationsSection: Section {
-  let title: String = "Accessibility Notifications"
+  let title: String = L10n.AccNotifications.title
   let pages: [Page] = [
     AnnouncementPage(),
     NotifyScreenChangesPage(),

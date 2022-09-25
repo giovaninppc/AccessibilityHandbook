@@ -43,7 +43,7 @@ private extension HomeView {
         dynamicFontsGuide
         otherGuide
       }
-      Title("About the app")
+      Title(L10n.AboutTheApp.title)
       HStack {
         aboutCell
         collaborationCell
@@ -164,7 +164,7 @@ private extension HomeView {
   private var aboutCell: some View {
     homeElement(
       icon: Icon.questionMarkDsahed,
-      title: "About the app",
+      title: L10n.AboutTheApp.title,
       destination: AboutTheAppView().toAny()
     )
   }
