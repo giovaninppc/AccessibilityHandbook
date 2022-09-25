@@ -34,7 +34,7 @@ private extension HomeView {
   var homeContent: some View {
     VStack(alignment: .center, spacing: .large) {
       gameCell
-      Title("Development Guides")
+      Title(L10n.Home.developmentGuides)
       HStack {
         voiceOverGuide
         colorsGuide
@@ -107,9 +107,9 @@ private extension HomeView {
             .frame(width: 100.0, height: 100.0)
           Spacer()
         }
-        Text("The Handbook Game")
+        Text(L10n.Home.handbookGame)
           .font(.title3.bold())
-        Comment("Test your accessibility knowledge in a series of puzzles!")
+        Comment(L10n.Home.handbookGameDescription)
       }
       .frame(maxWidth: 350.0)
       .accessibilityElement(children: .combine)
@@ -128,7 +128,7 @@ private extension HomeView {
   private var voiceOverGuide: some View {
     homeElement(
       icon: Icon.book,
-      title: "Voice-Over Guide",
+      title: L10n.voiceOverGuide,
       destination: IndexView(sections: VoiceOverGuideSections()).toAny()
     )
   }
@@ -136,7 +136,7 @@ private extension HomeView {
   private var colorsGuide: some View {
     homeElement(
       icon: Icon.paintpalete,
-      title: "Colors Guide",
+      title: L10n.ColorsGuide.title,
       destination: IndexView(sections: ColorsSection()).toAny()
     )
   }
@@ -144,7 +144,7 @@ private extension HomeView {
   private var dynamicFontsGuide: some View {
     homeElement(
       icon: Icon.textformat,
-      title: "Dynamic Fonts",
+      title: L10n.Home.dynamicFonts,
       destination: IndexView(sections: DynamicFontSections()).toAny()
     )
   }
@@ -152,7 +152,7 @@ private extension HomeView {
   private var otherGuide: some View {
     homeElement(
       icon: Icon.circleHexagonpath,
-      title: "Other features",
+      title: L10n.Home.otherFeatures,
       destination: IndexView(sections: OthersSections()).toAny()
     )
   }
@@ -172,7 +172,7 @@ private extension HomeView {
   private var collaborationCell: some View {
     homeElement(
       icon: Icon.textRedaction,
-      title: "Collaborate",
+      title: L10n.Home.collaborate,
       destination: CollaborationView().toAny()
     )
   }

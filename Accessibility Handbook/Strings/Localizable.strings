@@ -9,6 +9,15 @@
 "handbook" = "Handbook";
 "VoiceOver" = "Voice-Over";
 
+// Home
+
+"Home.developmentGuides" = "Development Guides";
+"Home.handbookGame" = "The Handbook Game";
+"Home.handbookGameDescription" = "Test your accessibility knowledge in a series of puzzles!";
+"Home.dynamicFonts" = "Dynamic Fonts";
+"Home.otherFeatures" = "Other Features";
+"Home.collaborate" = "Collaborate";
+
 // Using
 
 "UsingTheVoiceOver" = "Using the Voice-Over";
@@ -487,7 +496,7 @@
 "MagicTap.Example.thisContentIsMagic" = "This content has a Magic Tap!";
 "MagicTap.Example.magicPerformed" = "Magic tap perfomed";
 
-"VoiceOverGuide" = "Voice-Over guide";
+"VoiceOverGuide" = "Voice-Over Guide";
 
 // Accessibility Notifications
 

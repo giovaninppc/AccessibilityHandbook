@@ -766,6 +766,21 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "HeaderTrait.title")
   }
 
+  internal enum Home {
+    /// Collaborate
+    internal static let collaborate = L10n.tr("Localizable", "Home.collaborate")
+    /// Development Guides
+    internal static let developmentGuides = L10n.tr("Localizable", "Home.developmentGuides")
+    /// Dynamic Fonts
+    internal static let dynamicFonts = L10n.tr("Localizable", "Home.dynamicFonts")
+    /// The Handbook Game
+    internal static let handbookGame = L10n.tr("Localizable", "Home.handbookGame")
+    /// Test your accessibility knowledge in a series of puzzles!
+    internal static let handbookGameDescription = L10n.tr("Localizable", "Home.handbookGameDescription")
+    /// Other Features
+    internal static let otherFeatures = L10n.tr("Localizable", "Home.otherFeatures")
+  }
+
   internal enum IncreaseContrast {
     /// Example of using the contrast tool. There are 6 images with increasing contrast. 
     internal static let example = L10n.tr("Localizable", "IncreaseContrast.example")
