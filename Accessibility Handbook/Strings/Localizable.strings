@@ -175,6 +175,26 @@
 
 "Differentiate.title" = "Differentiate without colors";
 
+// Color acc feature
+
+"ColorAccessibilityFeatures" = "Color Accessibility Features";
+
+// Reduce Transparency
+
+"ReduceTransparency.title" = "Reduce Transparency";
+
+"ReduceTransparency.Intro.text1" = "This is an accessibility option that needs to be enabled on the Device's settings.";
+"ReduceTransparency.Intro.text2" = "When enabled, the user want's to tell you they want to reduce the amount of blur and translucency on the app.";
+"ReduceTransparency.Intro.comment" = "Some poeple may have a hard time looking into translucent elements!";
+
+"ReduceTransparency.Example.text1" = "Try enabling and disabling this option and check the content below.";
+"ReduceTransparency.Example.example" = "Transparent content to be read\non top of a blured background";
+
+"ReduceTransparency.Code.text1" = "And, it's pretty easy to handle!";
+"ReduceTransparency.Code.text2" = "On UIKit, you need to check a boolean on UIAccessibility to check if the feature is enabled.";
+"ReduceTransparency.Code.text3" = "And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.";
+"ReduceTransparency.Code.text4" = "And on SwiftUI you can use an Environment variable!";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -192,3 +212,4 @@
 "extraBureaucracy" = "Extra bureaucracy";
 "regularText" = "Regular text";
 "boldText" = "Bold text";
+"openSettings" = "Open Settings";

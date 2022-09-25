@@ -8,21 +8,16 @@
 import SwiftUI
 
 struct ReduceTransparencyPage: View, Page {
-  var title: String = "Reduce Transparency"
+  let title: String = L10n.ReduceTransparency.title
 
   @Environment(\.accessibilityReduceTransparency) var isReduceTransparencyEnabled
 
   var body: some View {
     PageContent(next: DifferentiateWithoutColorsPage()) {
       Group {
-        Text("This is an accessibility option that needs to be enabled on the Device's settings.")
-        ExternalLink(link: UIApplication.openSettingsURLString, title: "Open settings")
-        Text("When enabled, the user want's to tell you they want to reduce the amount of blur and translucency on the app.")
-        Comment("Some poeple may have a hard time looking into translucent elements!")
+        intro
         example
-        Text("And, it's pretty easy to handle!")
-        uikit
-        swiftUI
+        codeExample
       }
       .toAny()
     }
@@ -30,11 +25,20 @@ struct ReduceTransparencyPage: View, Page {
 }
 
 private extension ReduceTransparencyPage {
+  var intro: some View {
+    Group {
+      Text(L10n.ReduceTransparency.Intro.text1)
+      ExternalLink(link: UIApplication.openSettingsURLString, title: L10n.openSettings)
+      Text(L10n.ReduceTransparency.Intro.text2)
+      Comment(L10n.ReduceTransparency.Intro.comment)
+    }
+  }
+
   var example: some View {
     Group {
-      Text("Try enabling and disabling this option and check the content below.")
+      Text(L10n.ReduceTransparency.Example.text1)
       Centered {
-        Text("Transparent content to be read\non top of a blured background")
+        Text(L10n.ReduceTransparency.Example.example)
           .foregroundColor(.white.opacity(isReduceTransparencyEnabled ? 1.0 : 0.5))
           .fixedSize(horizontal: false, vertical: true)
           .padding()
@@ -55,9 +59,17 @@ private extension ReduceTransparencyPage {
     }
   }
 
+  var codeExample: some View {
+    Group {
+      Text(L10n.ReduceTransparency.Code.text1)
+      uikit
+      swiftUI
+    }
+  }
+
   var uikit: some View {
     Group {
-      Text("On UIKit, you need to check a boolean on UIAccessibility to check if the feature is enabled.")
+      Text(L10n.ReduceTransparency.Code.text2)
       Code.uikit(
         """
         if UIAccessibility.isReduceTransparencyEnabled {
@@ -65,7 +77,7 @@ private extension ReduceTransparencyPage {
         }
         """
       )
-      Text("And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.")
+      Text(L10n.ReduceTransparency.Code.text3)
       Code.uikit(
         """
         NotificationCenter
@@ -84,7 +96,7 @@ private extension ReduceTransparencyPage {
 
   var swiftUI: some View {
     Group {
-      Text("And on SwiftUI you can use an Environment variable!")
+      Text(L10n.ReduceTransparency.Code.text4)
       Code.swiftUI(
         """
         @Environment(\\.accessibilityReduceTransparency)

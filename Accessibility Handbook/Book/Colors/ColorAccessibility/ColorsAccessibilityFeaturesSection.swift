@@ -8,7 +8,8 @@
 import Foundation
 
 struct ColorsAccessibilityFeaturesSection: Section {
-  let title: String = "Color Accessibility Features"
+  let title: String = L10n.colorAccessibilityFeatures
+
   let pages: [Page] = [
     ReduceTransparencyPage(),
     DifferentiateWithoutColorsPage(),

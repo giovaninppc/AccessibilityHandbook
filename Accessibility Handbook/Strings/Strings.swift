@@ -20,6 +20,8 @@ internal enum L10n {
   internal static let backToIndex = L10n.tr("Localizable", "backToIndex")
   /// Bold text
   internal static let boldText = L10n.tr("Localizable", "boldText")
+  /// Color Accessibility Features
+  internal static let colorAccessibilityFeatures = L10n.tr("Localizable", "ColorAccessibilityFeatures")
   /// Tap twice to copy
   internal static let doubleTapToCopy = L10n.tr("Localizable", "doubleTapToCopy")
   /// Early access
@@ -38,6 +40,8 @@ internal enum L10n {
   internal static func nextPage(_ p1: Any) -> String {
     return L10n.tr("Localizable", "nextPage", String(describing: p1))
   }
+  /// Open Settings
+  internal static let openSettings = L10n.tr("Localizable", "openSettings")
   /// Regular text
   internal static let regularText = L10n.tr("Localizable", "regularText")
   /// Accessibility Handbook
@@ -308,7 +312,7 @@ internal enum L10n {
       internal static let example2 = L10n.tr("Localizable", "Contrast.Example.example2")
       /// And this one is pretty good! The classics.
       internal static let example3 = L10n.tr("Localizable", "Contrast.Example.example3")
-      /// You can try for yourself on this contrast check tool!
+      /// You can try for yourself on this contrast-check tool!
       internal static let link = L10n.tr("Localizable", "Contrast.Example.link")
       /// A nice way to test for contrast is using the WCAG contrast guide
       internal static let text1 = L10n.tr("Localizable", "Contrast.Example.text1")
@@ -342,6 +346,35 @@ internal enum L10n {
     internal static let text4 = L10n.tr("Localizable", "Navigation.text4")
     /// Navigation
     internal static let title = L10n.tr("Localizable", "Navigation.title")
+  }
+
+  internal enum ReduceTransparency {
+    /// Reduce Transparency
+    internal static let title = L10n.tr("Localizable", "ReduceTransparency.title")
+    internal enum Code {
+      /// And, it's pretty easy to handle!
+      internal static let text1 = L10n.tr("Localizable", "ReduceTransparency.Code.text1")
+      /// On UIKit, you need to check a boolean on UIAccessibility to check if the feature is enabled.
+      internal static let text2 = L10n.tr("Localizable", "ReduceTransparency.Code.text2")
+      /// And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.
+      internal static let text3 = L10n.tr("Localizable", "ReduceTransparency.Code.text3")
+      /// And on SwiftUI you can use an Environment variable!
+      internal static let text4 = L10n.tr("Localizable", "ReduceTransparency.Code.text4")
+    }
+    internal enum Example {
+      /// Transparent content to be read\non top of a blured background
+      internal static let example = L10n.tr("Localizable", "ReduceTransparency.Example.example")
+      /// Try enabling and disabling this option and check the content below.
+      internal static let text1 = L10n.tr("Localizable", "ReduceTransparency.Example.text1")
+    }
+    internal enum Intro {
+      /// Some poeple may have a hard time looking into translucent elements!
+      internal static let comment = L10n.tr("Localizable", "ReduceTransparency.Intro.comment")
+      /// This is an accessibility option that needs to be enabled on the Device's settings.
+      internal static let text1 = L10n.tr("Localizable", "ReduceTransparency.Intro.text1")
+      /// When enabled, the user want's to tell you they want to reduce the amount of blur and translucency on the app.
+      internal static let text2 = L10n.tr("Localizable", "ReduceTransparency.Intro.text2")
+    }
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
