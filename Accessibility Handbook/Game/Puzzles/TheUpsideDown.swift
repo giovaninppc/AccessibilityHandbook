@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TheUpsideDown: GamePage, View {
-  var title: String = "The Upside Down"
+  let title: String = L10n.TheUpsideDown.title
   var completed: Bool { GameStates.theUpsideDownCompleted }
 
   let hintPage: AnyView = InvertColorsPage().page
@@ -19,8 +19,8 @@ struct TheUpsideDown: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Maybe there is a way to see it.")
-        Text("I feel so inverted")
+        Text(L10n.TheUpsideDown.text1)
+        Text(L10n.TheUpsideDown.text2)
           .foregroundColor(.background)
           .accessibilityIgnoresInvertColors()
         VerticalSpace(.large)
@@ -29,7 +29,7 @@ struct TheUpsideDown: GamePage, View {
           success = true
           GameStates.theUpsideDownCompleted = true
         } label: {
-          Text("Tap here to win!")
+          Text(L10n.tapToWin)
             .font(.body.bold())
             .foregroundColor(.background)
             .accessibilityIgnoresInvertColors()

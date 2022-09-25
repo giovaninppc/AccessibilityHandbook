@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AColorfulMessage: GamePage, View {
-  var title: String = "A 'Colorful' Message"
+  let title: String = L10n.AColorfulMessage.title
   var completed: Bool { GameStates.aColorfulMessageCompleted }
 
   let hintPage: AnyView = DifferentiateWithoutColorsPage().page
@@ -28,8 +28,8 @@ struct AColorfulMessage: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Type in the correct password!")
-        Comment("It is a 6 digit password")
+        Text(L10n.AColorfulMessage.text)
+        Comment(L10n.AColorfulMessage.comment)
         VerticalSpace(.large)
         HStack {
           leftColumn
@@ -37,7 +37,7 @@ struct AColorfulMessage: GamePage, View {
           rightColumn
         }
         VerticalSpace(.large)
-        TextField("Password", text: $word)
+        TextField(L10n.password, text: $word)
           .keyboardType(.numberPad)
           .focused($fieldIsFocused)
           .padding()

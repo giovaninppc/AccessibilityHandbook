@@ -18,8 +18,12 @@ internal enum L10n {
   }
   /// Back to Index
   internal static let backToIndex = L10n.tr("Localizable", "backToIndex")
+  /// Bell
+  internal static let bell = L10n.tr("Localizable", "bell")
   /// Bold text
   internal static let boldText = L10n.tr("Localizable", "boldText")
+  /// Book
+  internal static let book = L10n.tr("Localizable", "book")
   /// Close code view
   internal static let closeCodeView = L10n.tr("Localizable", "closeCodeView")
   /// Cloud
@@ -34,6 +38,8 @@ internal enum L10n {
   internal static let codeHint = L10n.tr("Localizable", "codeHint")
   /// Color Accessibility Features
   internal static let colorAccessibilityFeatures = L10n.tr("Localizable", "ColorAccessibilityFeatures")
+  /// Completed Puzzles
+  internal static let completedPuzzles = L10n.tr("Localizable", "completedPuzzles")
   /// Content Hierarchy
   internal static let contentHiererachy = L10n.tr("Localizable", "ContentHiererachy")
   /// Copy Code
@@ -78,6 +84,8 @@ internal enum L10n {
   internal static let haptic = L10n.tr("Localizable", "haptic")
   /// Haptics
   internal static let haptics = L10n.tr("Localizable", "haptics")
+  /// Hint
+  internal static let hint = L10n.tr("Localizable", "Hint")
   /// Ice cream
   internal static let iceCream = L10n.tr("Localizable", "iceCream")
   /// Interaction
@@ -102,12 +110,20 @@ internal enum L10n {
   }
   /// Open Settings
   internal static let openSettings = L10n.tr("Localizable", "openSettings")
+  /// Paper
+  internal static let paper = L10n.tr("Localizable", "paper")
+  /// Paper plane
+  internal static let paperPlane = L10n.tr("Localizable", "paperPlane")
   /// Password
   internal static let password = L10n.tr("Localizable", "password")
+  /// Pencil
+  internal static let pencil = L10n.tr("Localizable", "pencil")
   /// Potato
   internal static let potato = L10n.tr("Localizable", "potato")
   /// Pumpkin
   internal static let pumpkin = L10n.tr("Localizable", "pumpkin")
+  /// Puzzles
+  internal static let puzzles = L10n.tr("Localizable", "puzzles")
   /// Rain
   internal static let rain = L10n.tr("Localizable", "rain")
   /// Regular text
@@ -126,10 +142,14 @@ internal enum L10n {
   internal static let sunrise = L10n.tr("Localizable", "sunrise")
   /// SwiftUI
   internal static let swiftUI = L10n.tr("Localizable", "swiftUI")
+  /// Tap to win
+  internal static let tapToWin = L10n.tr("Localizable", "tapToWin")
   /// Accessibility Handbook
   internal static let title = L10n.tr("Localizable", "title")
   /// UIKit
   internal static let uikit = L10n.tr("Localizable", "uikit")
+  /// Unfinished Puzzles
+  internal static let unfinishedPuzzles = L10n.tr("Localizable", "unfinishedPuzzles")
   /// Using the Voice-Over
   internal static let usingTheVoiceOver = L10n.tr("Localizable", "UsingTheVoiceOver")
   /// Voice-Over
@@ -138,6 +158,15 @@ internal enum L10n {
   internal static let voiceOverGuide = L10n.tr("Localizable", "VoiceOverGuide")
   /// Weather Icons
   internal static let weatherIcons = L10n.tr("Localizable", "weatherIcons")
+
+  internal enum AColorfulMessage {
+    /// It is a 6 digit password
+    internal static let comment = L10n.tr("Localizable", "AColorfulMessage.comment")
+    /// Type in the correct password!
+    internal static let text = L10n.tr("Localizable", "AColorfulMessage.text")
+    /// A 'Colorful' Message
+    internal static let title = L10n.tr("Localizable", "AColorfulMessage.title")
+  }
 
   internal enum AboutColors {
     /// Some people don't experience them at all!
@@ -407,6 +436,15 @@ internal enum L10n {
       /// Oh the values are increasing!
       internal static let small = L10n.tr("Localizable", "Announcement.Notifications.small")
     }
+  }
+
+  internal enum BePatient {
+    /// Pacience is the key...
+    internal static let comment = L10n.tr("Localizable", "BePatient.comment")
+    /// Tap the elements in the correct order!
+    internal static let text = L10n.tr("Localizable", "BePatient.text")
+    /// Be Patient
+    internal static let title = L10n.tr("Localizable", "BePatient.title")
   }
 
   internal enum ButtonTrait {
@@ -691,6 +729,15 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "EnableVoiceOver.title")
   }
 
+  internal enum FillTheCup {
+    /// You just need to find a way to do it
+    internal static let comment = L10n.tr("Localizable", "FillTheCup.comment")
+    /// Fill the circles all the way up!
+    internal static let text = L10n.tr("Localizable", "FillTheCup.text")
+    /// Fill the Cup
+    internal static let title = L10n.tr("Localizable", "FillTheCup.title")
+  }
+
   internal enum FindThePassword {
     /// You just need to find out what the password is...
     internal static let comment = L10n.tr("Localizable", "FindThePassword.comment")
@@ -702,6 +749,13 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "FindThePassword.title")
   }
 
+  internal enum GameCell {
+    /// You have already succeeded in this puzzle!
+    internal static let finishedHint = L10n.tr("Localizable", "GameCell.finishedHint")
+    /// You haven't finished this puzzle yet
+    internal static let unfinishedHint = L10n.tr("Localizable", "GameCell.unfinishedHint")
+  }
+
   internal enum GameSuccess {
     /// You solved the puzzle!
     internal static let subtitle = L10n.tr("Localizable", "GameSuccess.subtitle")
@@ -711,6 +765,11 @@ internal enum L10n {
     internal static let text = L10n.tr("Localizable", "GameSuccess.text")
     /// Congratulations!
     internal static let title = L10n.tr("Localizable", "GameSuccess.title")
+  }
+
+  internal enum GameView {
+    /// Try solving these puzzles to learn more about accessibility features!
+    internal static let comment = L10n.tr("Localizable", "GameView.comment")
   }
 
   internal enum Grouping {
@@ -805,6 +864,8 @@ internal enum L10n {
   internal enum Hint {
     /// Close hint
     internal static let close = L10n.tr("Localizable", "Hint.close")
+    /// Activate to get a hint on how to solve this puzzle.
+    internal static let hint = L10n.tr("Localizable", "Hint.hint")
     /// Open hint
     internal static let `open` = L10n.tr("Localizable", "Hint.open")
     /// The Handbook puzzles were made to be solved using some kind of accessibility tool.
@@ -828,6 +889,32 @@ internal enum L10n {
     internal static let handbookGameDescription = L10n.tr("Localizable", "Home.handbookGameDescription")
     /// Other Features
     internal static let otherFeatures = L10n.tr("Localizable", "Home.otherFeatures")
+  }
+
+  internal enum Impostor {
+    /// Ask them, maybe they'll tell you.
+    internal static let comment = L10n.tr("Localizable", "Impostor.comment")
+    /// Type the impostor's name
+    internal static let field = L10n.tr("Localizable", "Impostor.field")
+    /// I'm not the impostor
+    internal static let hint = L10n.tr("Localizable", "Impostor.hint")
+    /// Yes, I'm the impostor
+    internal static let impostor = L10n.tr("Localizable", "Impostor.impostor")
+    /// Find the impostor, and type it's name!
+    internal static let text = L10n.tr("Localizable", "Impostor.text")
+    /// Impostor
+    internal static let title = L10n.tr("Localizable", "Impostor.title")
+  }
+
+  internal enum Impostor2 {
+    /// Ask them, maybe they'll tell you.
+    internal static let comment = L10n.tr("Localizable", "Impostor2.comment")
+    /// Type the impostor's name
+    internal static let field = L10n.tr("Localizable", "Impostor2.field")
+    /// Find the impostor, and type it's name!
+    internal static let text = L10n.tr("Localizable", "Impostor2.text")
+    /// Impostor 2.0
+    internal static let title = L10n.tr("Localizable", "Impostor2.title")
   }
 
   internal enum IncreaseContrast {
@@ -896,6 +983,17 @@ internal enum L10n {
       /// What to do as a developer?
       internal static let title = L10n.tr("Localizable", "InvertColors.WhatToDo.title")
     }
+  }
+
+  internal enum Invisibility {
+    /// Wait... Is this content TRANSPARENT?
+    internal static let comment = L10n.tr("Localizable", "Invisibility.comment")
+    /// Just because you can't see, doens't mean it's not there.
+    internal static let text = L10n.tr("Localizable", "Invisibility.text")
+    /// Invisibility
+    internal static let title = L10n.tr("Localizable", "Invisibility.title")
+    /// Wait... Is this content TRANSPARENT?
+    internal static let transparent = L10n.tr("Localizable", "Invisibility.transparent")
   }
 
   internal enum ListOfTraits {
@@ -1181,6 +1279,54 @@ internal enum L10n {
       /// What about them together?
       internal static let title = L10n.tr("Localizable", "RotorAndHeaders.Together.title")
     }
+  }
+
+  internal enum SecretActions {
+    /// Don't worry, they'll tell you what they like.
+    internal static let comment = L10n.tr("Localizable", "SecretActions.comment")
+    /// Feed each animal the correct food!
+    internal static let text = L10n.tr("Localizable", "SecretActions.text")
+    /// Secret Actions
+    internal static let title = L10n.tr("Localizable", "SecretActions.title")
+    internal enum Action {
+      /// Give Apples
+      internal static let apples = L10n.tr("Localizable", "SecretActions.Action.apples")
+      /// Give Bubbles
+      internal static let bubbles = L10n.tr("Localizable", "SecretActions.Action.bubbles")
+      /// Give Grass
+      internal static let grass = L10n.tr("Localizable", "SecretActions.Action.grass")
+      /// Give Nectar
+      internal static let nectar = L10n.tr("Localizable", "SecretActions.Action.nectar")
+    }
+  }
+
+  internal enum SuperFriend {
+    /// Find the person with the biggest amount of friends!
+    internal static let comment = L10n.tr("Localizable", "SuperFriend.comment")
+    /// Super Friend name
+    internal static let field = L10n.tr("Localizable", "SuperFriend.field")
+    /// Everyone here is so friendly,
+    internal static let text = L10n.tr("Localizable", "SuperFriend.text")
+    /// Super Friend
+    internal static let title = L10n.tr("Localizable", "SuperFriend.title")
+  }
+
+  internal enum TheMagicPuzzle {
+    /// I don't know what else to tell you...
+    internal static let comment = L10n.tr("Localizable", "TheMagicPuzzle.comment")
+    /// This puzzle is Magic!
+    internal static let text = L10n.tr("Localizable", "TheMagicPuzzle.text")
+    /// The 'Magic' Puzzle
+    internal static let title = L10n.tr("Localizable", "TheMagicPuzzle.title")
+  }
+
+  internal enum TheUpsideDown {
+    /// Maybe there is a way to see it.
+    internal static let text1 = L10n.tr("Localizable", "TheUpsideDown.text1")
+    /// I feel so inverted
+    internal static let text2 = L10n.tr("Localizable", "TheUpsideDown.text2")
+    /// The Upside Down
+    internal static let title = L10n.tr("Localizable", "TheUpsideDown.title")
   }
 
   internal enum WhereIsMyContent {

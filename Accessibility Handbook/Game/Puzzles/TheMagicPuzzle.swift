@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TheMagicPuzzle: GamePage, View {
-  var title: String = "The 'Magic' Puzzle"
+  let title: String = L10n.TheMagicPuzzle.title
   var completed: Bool { GameStates.theMagicPuzzleCompleted }
 
   let hintPage: AnyView = MagicTapPage().page
@@ -19,12 +19,12 @@ struct TheMagicPuzzle: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("This puzzle is Magic!")
+        Text(L10n.TheMagicPuzzle.text)
           .accessibilityAction(.magicTap) {
             success = true
             GameStates.theMagicPuzzleCompleted = true
           }
-        Comment("I don't know what else to tell you...")
+        Comment(L10n.TheMagicPuzzle.comment)
           .accessibilityAction(.magicTap) {
             success = true
             GameStates.theMagicPuzzleCompleted = true

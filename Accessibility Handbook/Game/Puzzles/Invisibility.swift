@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Invisibility: GamePage, View {
-  var title: String = "Invisibility"
+  let title: String = L10n.Invisibility.title
   var completed: Bool { GameStates.invisibilityCompleted }
 
   let hintPage: AnyView = ReduceTransparencyPage().page
@@ -21,9 +21,9 @@ struct Invisibility: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Just because you can't see, doens't mean it's not there.")
-        Comment("Wait... Is this content TRANSPARENT?")
-          .accessibilityLabel(Text(isReduceTransparencyEnabled ? "Wait... Is this content TRANSPARENT?" : ""))
+        Text(L10n.Invisibility.text)
+        Comment(L10n.Invisibility.comment)
+          .accessibilityLabel(Text(isReduceTransparencyEnabled ? L10n.Invisibility.transparent : ""))
           .opacity(isReduceTransparencyEnabled ? 1.0 : 0.0)
         VerticalSpace(.large)
         HStack(spacing: .large) {
@@ -33,7 +33,7 @@ struct Invisibility: GamePage, View {
             success = true
             GameStates.invisibilityCompleted = true
           } label: {
-            Text("Tap to win!")
+            Text(L10n.tapToWin)
               .font(.body.bold())
               .foregroundColor(.primary)
               .padding()
@@ -43,7 +43,7 @@ struct Invisibility: GamePage, View {
               }
           }
         }
-        .accessibilityLabel(Text(isReduceTransparencyEnabled ? "Tap to win!" : ""))
+        .accessibilityLabel(Text(isReduceTransparencyEnabled ? L10n.tapToWin : ""))
         .opacity(isReduceTransparencyEnabled ? 1.0 : 0.0)
       }
       .toAny()

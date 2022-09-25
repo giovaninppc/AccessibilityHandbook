@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Impostor2: GamePage, View {
-  var title: String = "Impostor 2.0"
+  let title: String = L10n.Impostor2.title
   var completed: Bool { GameStates.impostor2Completed }
 
   let hintPage: AnyView = HapticsPage().page
@@ -26,8 +26,8 @@ struct Impostor2: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Find the impostor, and type it's name!")
-        Comment("Ask them, maybe they'll tell you.")
+        Text(L10n.Impostor2.text)
+        Comment(L10n.Impostor2.comment)
         VerticalSpace(.large)
         HStack(spacing: .large) {
           Spacer()
@@ -40,7 +40,7 @@ struct Impostor2: GamePage, View {
           Spacer()
         }
         VerticalSpace(.large)
-        TextField("Type the impostor's name", text: $word)
+        TextField(L10n.Impostor2.field, text: $word)
           .focused($fieldIsFocused)
           .padding()
           .background(Color.secondaryBackground)

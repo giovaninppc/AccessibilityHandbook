@@ -605,6 +605,8 @@
 
 // Hint View
 
+"Hint" = "Hint";
+"Hint.hint" = "Activate to get a hint on how to solve this puzzle.";
 "Hint.close" = "Close hint";
 "Hint.open" = "Open hint";
 "Hint.title" = "🤔 Having Trouble?";
@@ -612,6 +614,11 @@
 "Hint.text2" = "If you can't figure it out, maybe this page will help you...";
 
 // Games
+
+"GameView.comment" = "Try solving these puzzles to learn more about accessibility features!";
+
+"GameCell.finishedHint" = "You have already succeeded in this puzzle!";
+"GameCell.unfinishedHint" = "You haven't finished this puzzle yet";
 
 "WhereIsMyContent.title" = "Where is my content?";
 "WhereIsMyContent.text1" = "This puzzle is pretty easy.";
@@ -622,6 +629,56 @@
 "FindThePassword.text1" = "You need to type in the correct password!";
 "FindThePassword.text2" = "It's as simple as that";
 "FindThePassword.comment" = "You just need to find out what the password is...";
+
+"BePatient.title" = "Be Patient";
+"BePatient.text" = "Tap the elements in the correct order!";
+"BePatient.comment" = "Pacience is the key...";
+
+"Impostor.title" = "Impostor";
+"Impostor.text" = "Find the impostor, and type it's name!";
+"Impostor.comment" = "Ask them, maybe they'll tell you.";
+"Impostor.field" = "Type the impostor's name";
+"Impostor.hint" = "I'm not the impostor";
+"Impostor.impostor" = "Yes, I'm the impostor";
+
+"Invisibility.title" = "Invisibility";
+"Invisibility.text" = "Just because you can't see, doens't mean it's not there.";
+"Invisibility.comment" = "Wait... Is this content TRANSPARENT?";
+"Invisibility.transparent" = "Wait... Is this content TRANSPARENT?";
+
+"Impostor2.title" = "Impostor 2.0";
+"Impostor2.text" = "Find the impostor, and type it's name!";
+"Impostor2.comment" = "Ask them, maybe they'll tell you.";
+"Impostor2.field" = "Type the impostor's name";
+
+"TheMagicPuzzle.title" = "The 'Magic' Puzzle";
+"TheMagicPuzzle.text" = "This puzzle is Magic!";
+"TheMagicPuzzle.comment" = "I don't know what else to tell you...";
+
+"SecretActions.title" = "Secret Actions";
+"SecretActions.text" = "Feed each animal the correct food!";
+"SecretActions.comment" = "Don't worry, they'll tell you what they like.";
+"SecretActions.Action.apples" = "Give Apples";
+"SecretActions.Action.grass" = "Give Grass";
+"SecretActions.Action.bubbles" = "Give Bubbles";
+"SecretActions.Action.nectar" = "Give Nectar";
+
+"FillTheCup.title" = "Fill the Cup";
+"FillTheCup.text" = "Fill the circles all the way up!";
+"FillTheCup.comment" = "You just need to find a way to do it";
+
+"AColorfulMessage.title" = "A 'Colorful' Message";
+"AColorfulMessage.text" = "Type in the correct password!";
+"AColorfulMessage.comment" = "It is a 6 digit password";
+
+"TheUpsideDown.title" = "The Upside Down";
+"TheUpsideDown.text1" = "Maybe there is a way to see it.";
+"TheUpsideDown.text2" = "I feel so inverted";
+
+"SuperFriend.title" = "Super Friend";
+"SuperFriend.text" = "Everyone here is so friendly,";
+"SuperFriend.comment" = "Find the person with the biggest amount of friends!";
+"SuperFriend.field" = "Super Friend name";
 
 // Actions
 
@@ -643,6 +700,7 @@
 "handleAction" = "Handle Action";
 "dismiss" = "Dismiss";
 "goBack" = "Go Back";
+"tapToWin" = "Tap to win";
 
 // Code
 
@@ -683,3 +741,11 @@
 "flag" = "Flag";
 "potato" = "Potato";
 "password" = "Password";
+"puzzles" = "Puzzles";
+"unfinishedPuzzles" = "Unfinished Puzzles";
+"completedPuzzles" = "Completed Puzzles";
+"pencil" = "Pencil";
+"paper" = "Paper";
+"paperPlane" = "Paper plane";
+"book" = "Book";
+"bell" = "Bell";

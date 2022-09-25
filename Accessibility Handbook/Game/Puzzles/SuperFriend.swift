@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SuperFriend: GamePage, View {
-  var title: String = "Super friend"
+  let title: String = L10n.SuperFriend.title
   var completed: Bool { GameStates.superFriendCompleted }
 
   let hintPage: AnyView = ChangeCursorPositionPage().page
@@ -42,8 +42,8 @@ struct SuperFriend: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Everyone here is so friendly,")
-        Comment("Find the person with the biggest amount of friends!")
+        Text(L10n.SuperFriend.text)
+        Comment(L10n.SuperFriend.comment)
         VerticalSpace(.large)
         HStack {
           Spacer()
@@ -88,7 +88,7 @@ struct SuperFriend: GamePage, View {
           Spacer()
         }
         VerticalSpace(.large)
-        TextField("Super friend name", text: $word)
+        TextField(L10n.SuperFriend.field, text: $word)
           .focused($fieldIsFocused)
           .padding()
           .background(Color.secondaryBackground)

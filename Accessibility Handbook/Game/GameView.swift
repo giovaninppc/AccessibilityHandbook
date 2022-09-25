@@ -21,13 +21,13 @@ struct GameView: View {
   var body: some View {
     ScrollView {
       VStack(alignment: .leading) {
-        Comment("Try solving these puzzles to learn more about accessibility features!")
+        Comment(L10n.GameView.comment)
         uncompletedPuzzlesView
         completedPuzzlesView
       }
       .padding()
     }
-    .navigationTitle("Puzzles")
+    .navigationTitle(L10n.puzzles)
     .onAppear {
       count += 1
     }
@@ -37,7 +37,7 @@ struct GameView: View {
     Group {
       if !uncompletedPuzzles.isEmpty {
         VerticalSpace(.large)
-        Title("Unfinished Puzzles")
+        Title(L10n.unfinishedPuzzles)
         ForEach(uncompletedPuzzles, id: \.id) { page in
           NavigationLink {
             page.page
@@ -53,7 +53,7 @@ struct GameView: View {
     Group {
       if !completedPuzzles.isEmpty {
         VerticalSpace(.regular)
-        Title("Completed Puzzles")
+        Title(L10n.completedPuzzles)
         ForEach(completedPuzzles, id: \.id) { page in
           NavigationLink {
             page.page

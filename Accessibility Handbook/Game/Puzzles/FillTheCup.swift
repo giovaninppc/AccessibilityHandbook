@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FillTheCup: GamePage, View {
-  var title: String = "Fill the Cup"
+  let title: String = L10n.FillTheCup.title
   var completed: Bool { GameStates.fillTheCupCompleted }
 
   let hintPage: AnyView = AdjustablePage().page
@@ -27,8 +27,8 @@ struct FillTheCup: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Fill the circles all the way up!")
-        Comment("You just need to find a way to do it")
+        Text(L10n.FillTheCup.text)
+        Comment(L10n.FillTheCup.comment)
         VerticalSpace(.large)
 
         item(progress: $progress1)

@@ -45,8 +45,8 @@ struct GameContent: View {
       } label: {
         Icon.lightbulb
       }
-      .accessibilityLabel(Text("Hint"))
-      .accessibilityHint(Text("Activate to get a hint on how to solve this puzzle."))
+      .accessibilityLabel(L10n.hint)
+      .accessibilityHint(L10n.Hint.hint)
     }
   }
 }

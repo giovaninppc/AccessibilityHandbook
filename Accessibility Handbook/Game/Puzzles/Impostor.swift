@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Impostor: GamePage, View {
-  var title: String = "Impostor"
+  let title: String = L10n.Impostor.title
   var completed: Bool { GameStates.impostorCompleted }
 
   let hintPage: AnyView = AnnouncementPage().page
@@ -26,8 +26,8 @@ struct Impostor: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Find the impostor, and type it's name!")
-        Comment("Ask them, maybe they'll tell you.")
+        Text(L10n.Impostor.text)
+        Comment(L10n.Impostor.comment)
         VerticalSpace(.large)
         HStack(spacing: .large) {
           Spacer()
@@ -40,7 +40,7 @@ struct Impostor: GamePage, View {
           Spacer()
         }
         VerticalSpace(.large)
-        TextField("Type the impostor's name", text: $word)
+        TextField(L10n.Impostor.field, text: $word)
           .focused($fieldIsFocused)
           .padding()
           .background(Color.secondaryBackground)
@@ -67,7 +67,7 @@ struct Impostor: GamePage, View {
       DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
         UIAccessibility.post(
           notification: .announcement,
-          argument: isImpostor ? "Yes, I'm the impostor" : "I'm not the impostor"
+          argument: isImpostor ? L10n.Impostor.impostor : L10n.Impostor.hint
         )
       }
     } label: {

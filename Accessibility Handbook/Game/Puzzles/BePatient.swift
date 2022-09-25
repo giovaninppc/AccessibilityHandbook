@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BePatient: GamePage, View {
-  var title: String = "Be Patient"
+  let title: String = L10n.BePatient.title
   var completed: Bool { GameStates.bePatientCompleted }
 
   let hintPage: AnyView = AccessibilityHintPage().page
@@ -21,17 +21,17 @@ struct BePatient: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("Tap the elements in the correct order!")
-        Comment("Pacience is the key...")
+        Text(L10n.BePatient.text)
+        Comment(L10n.BePatient.comment)
         VerticalSpace(.large)
         HStack(spacing: .large) {
           Spacer()
 
-          gameItem(name: "Pencil", icon: "pencil", value: 3)
-          gameItem(name: "Paper", icon: "doc.fill", value: 1)
-          gameItem(name: "Paper plane", icon: "paperplane.fill", value: 4)
-          gameItem(name: "Book", icon: "book.fill", value: 2)
-          gameItem(name: "Bell", icon: "bell.fill", value: 5)
+          gameItem(name: L10n.pencil, icon: "pencil", value: 3)
+          gameItem(name: L10n.paper, icon: "doc.fill", value: 1)
+          gameItem(name: L10n.paperPlane, icon: "paperplane.fill", value: 4)
+          gameItem(name: L10n.book, icon: "book.fill", value: 2)
+          gameItem(name: L10n.bell, icon: "bell.fill", value: 5)
 
           Spacer()
         }
@@ -69,7 +69,7 @@ struct BePatient: GamePage, View {
         .aspectRatio(contentMode: .fit)
         .frame(width: 30.0, height: 30.0)
     }
-    .accessibilityLabel(Text(name))
-    .accessibilityHint(Text("\(value)"))
+    .accessibilityLabel(name)
+    .accessibilityHint("\(value)")
   }
 }

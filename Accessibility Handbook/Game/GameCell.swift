@@ -28,7 +28,7 @@ struct GameCell: View {
     }
     .accessibilityElement(children: .combine)
     .accessibilityLabel(title)
-    .accessibilityHint(Text(completed ? "You have already succeeded in this puzzle!" : "You haven't finished this puzzle yet"))
+    .accessibilityHint(completed ? L10n.GameCell.finishedHint : L10n.GameCell.unfinishedHint)
     .accessibilityAddTraits(.isButton)
   }
 }
