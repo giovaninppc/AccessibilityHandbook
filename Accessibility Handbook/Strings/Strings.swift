@@ -64,6 +64,8 @@ internal enum L10n {
   internal static let haptics = L10n.tr("Localizable", "haptics")
   /// Interaction
   internal static let interactrion = L10n.tr("Localizable", "interactrion")
+  /// The accessibility element allows direct touch interaction for VoiceOver users.
+  internal static let listOfTraits = L10n.tr("Localizable", "ListOfTraits.")
   /// Modal
   internal static let modal = L10n.tr("Localizable", "modal")
   /// Moon
@@ -377,6 +379,27 @@ internal enum L10n {
     }
   }
 
+  internal enum ButtonTrait {
+    /// Additional information
+    internal static let additionalInformation = L10n.tr("Localizable", "ButtonTrait.additionalInformation")
+    /// cell description
+    internal static let cellDescription = L10n.tr("Localizable", "ButtonTrait.cellDescription")
+    /// This cell was tapped
+    internal static let cellTapped = L10n.tr("Localizable", "ButtonTrait.cellTapped")
+    /// My Cell
+    internal static let myCell = L10n.tr("Localizable", "ButtonTrait.myCell")
+    /// The button trait is, to me, THE most important trait.
+    internal static let text1 = L10n.tr("Localizable", "ButtonTrait.text1")
+    /// It basically tells the user that they can activate the element (with a double tap) and that something will happen
+    internal static let text2 = L10n.tr("Localizable", "ButtonTrait.text2")
+    /// If you are using a Button or a UIButton it will automatically have the 'button' trait
+    internal static let text3 = L10n.tr("Localizable", "ButtonTrait.text3")
+    /// But sometimes we need to add it manually to our view, like when making a cell that can be tapped, or some other content with a tap gesture.
+    internal static let text4 = L10n.tr("Localizable", "ButtonTrait.text4")
+    /// Button Trait
+    internal static let title = L10n.tr("Localizable", "ButtonTrait.title")
+  }
+
   internal enum ChangeCursor {
     /// Change cursor position
     internal static let title = L10n.tr("Localizable", "ChangeCursor.title")
@@ -677,6 +700,21 @@ internal enum L10n {
     internal static let warning = L10n.tr("Localizable", "Haptics.warning")
   }
 
+  internal enum HeaderTrait {
+    /// So... that's all?
+    internal static let comment1 = L10n.tr("Localizable", "HeaderTrait.comment1")
+    /// Check the Rotor and Header page!
+    internal static let link = L10n.tr("Localizable", "HeaderTrait.link")
+    /// The Header trait is used to describe headers (obviously), which indicates the beggining of a new content section.
+    internal static let text1 = L10n.tr("Localizable", "HeaderTrait.text1")
+    /// The fun part, is that you can navigate only on headers by using the rotor function.
+    internal static let text2 = L10n.tr("Localizable", "HeaderTrait.text2")
+    /// This way, you can skip every content that is not a header, and easily find the section you are looking for.
+    internal static let text3 = L10n.tr("Localizable", "HeaderTrait.text3")
+    /// Header Trait
+    internal static let title = L10n.tr("Localizable", "HeaderTrait.title")
+  }
+
   internal enum IncreaseContrast {
     /// Example of using the contrast tool. There are 6 images with increasing contrast. 
     internal static let example = L10n.tr("Localizable", "IncreaseContrast.example")
@@ -746,8 +784,50 @@ internal enum L10n {
   }
 
   internal enum ListOfTraits {
+    /// Allows gestures to update quantities. This is quite useful in some situations like quick-adds, sliders or counters!
+    internal static let adjustable = L10n.tr("Localizable", "ListOfTraits.adjustable")
+    /// 
+    internal static let allowsDirectInteraction = L10n.tr("Localizable", "ListOfTraits.allowsDirectInteraction")
+    /// Tells that the item is a button - can be activated with a double tap.
+    internal static let button = L10n.tr("Localizable", "ListOfTraits.button")
+    /// Makes an automatic page turn when it finished reading the element.
+    internal static let causesPageTurn = L10n.tr("Localizable", "ListOfTraits.causesPageTurn")
+    /// Since I think they are the most important ones and I actually have something to talk about. (Or I just didn't have the time yet to write something nice about this trait)
+    internal static let comment1 = L10n.tr("Localizable", "ListOfTraits.comment1")
+    /// But make sure to check all of their documentations!
+    internal static let comment2 = L10n.tr("Localizable", "ListOfTraits.comment2")
+    /// A header that can be focused with rotor function. Indicates the begining of a new section.
+    internal static let header = L10n.tr("Localizable", "ListOfTraits.header")
+    /// An image. It may not seem, but its important to use when actually focusing on an image. The user may want to share the image with someone, or print screen it to ask more later...
+    internal static let image = L10n.tr("Localizable", "ListOfTraits.image")
+    /// 
+    internal static let keyboardKey = L10n.tr("Localizable", "ListOfTraits.keyboardKey")
+    /// A link to a web page
+    internal static let link = L10n.tr("Localizable", "ListOfTraits.link")
+    /// 
+    internal static let notEnabled = L10n.tr("Localizable", "ListOfTraits.notEnabled")
+    /// Plays sound when activated
+    internal static let playsSound = L10n.tr("Localizable", "ListOfTraits.playsSound")
+    /// 
+    internal static let searchField = L10n.tr("Localizable", "ListOfTraits.searchField")
+    /// A selected item - used when there are more items on a list that can be selected as well (segmented controllers, radio buttons…)
+    internal static let selected = L10n.tr("Localizable", "ListOfTraits.selected")
+    /// Starts playing from a media session.
+    internal static let startsMediaSession = L10n.tr("Localizable", "ListOfTraits.startsMediaSession")
+    /// A text that does not change
+    internal static let staticText = L10n.tr("Localizable", "ListOfTraits.staticText")
+    /// "The accessibility element provides summary information when the app starts."
+    internal static let summaryElement = L10n.tr("Localizable", "ListOfTraits.summaryElement")
+    /// A tabbar item, actually very important if you have a custom tabbar!
+    internal static let tabbar = L10n.tr("Localizable", "ListOfTraits.tabbar")
+    /// Here's a full list of accessibility traits. Some of them are further discussed on this app
+    internal static let text1 = L10n.tr("Localizable", "ListOfTraits.text1")
+    /// Others are more obvious about how they should work, and where they should be used.
+    internal static let text2 = L10n.tr("Localizable", "ListOfTraits.text2")
     /// List of Accessibility Traits
     internal static let title = L10n.tr("Localizable", "ListOfTraits.title")
+    /// The value or label frequently changes.
+    internal static let updatesFrequently = L10n.tr("Localizable", "ListOfTraits.updatesFrequently")
   }
 
   internal enum LongPress {

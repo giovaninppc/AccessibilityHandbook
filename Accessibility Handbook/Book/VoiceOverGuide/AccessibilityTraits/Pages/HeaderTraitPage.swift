@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HeaderTraitPage: View, Page {
-  var title: String = "Header Trait"
+  let title: String = L10n.HeaderTrait.title
 
   let codeUIKit: String = """
   myView.accessibilityTraits = [.header]
@@ -25,11 +25,11 @@ struct HeaderTraitPage: View, Page {
   var body: some View {
     PageContent(next: nil) {
       Group {
-        Text("The Header trait is used to describe headers (obviously), which indicates the beggining of a new content section.")
-        Comment("So... that's all?")
-        Text("The fun part, is that you can navigate only on headers by using the rotor function.")
-        InternalLink(page: RotorAndHeadersPage().page, title: "Check the Rotor and Header page!")
-        Text("This way, you can skip every content that is not a header, and easily find the section you are looking for.")
+        Text(L10n.HeaderTrait.text1)
+        Comment(L10n.HeaderTrait.comment1)
+        Text(L10n.HeaderTrait.text2)
+        InternalLink(page: RotorAndHeadersPage().page, title: L10n.HeaderTrait.link)
+        Text(L10n.HeaderTrait.text3)
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)

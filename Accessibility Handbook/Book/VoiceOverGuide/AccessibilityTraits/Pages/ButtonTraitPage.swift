@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ButtonTraitPage: View, Page {
-  var title: String = "Button Trait"
+  let title: String = L10n.ButtonTrait.title
 
   let codeUIKit: String = """
   myView.accessibilityTraits = [.button]
@@ -25,10 +25,10 @@ struct ButtonTraitPage: View, Page {
   var body: some View {
     PageContent(next: HeaderTraitPage()) {
       Group {
-        Text("The button trait is, to me, THE most important trait.")
-        Text("It basically tells the user that they can activate the element (with a double tap) and that something will happen")
-        Text("If you are using a Button or a UIButton it will automatically have the 'button' trait")
-        Text("But sometimes we need to add it manually to our view, like when making a cell that can be tapped, or some other content with a tap gesture.")
+        Text(L10n.ButtonTrait.text1)
+        Text(L10n.ButtonTrait.text2)
+        Text(L10n.ButtonTrait.text3)
+        Text(L10n.ButtonTrait.text4)
         VerticalSpace(.regular)
         example
         VerticalSpace(.regular)
@@ -44,10 +44,10 @@ struct ButtonTraitPage: View, Page {
     HStack {
       Spacer()
       VStack(spacing: .regular) {
-        Text("My cell")
+        Text(L10n.ButtonTrait.myCell)
           .font(.title3.bold())
-        Text("Cell description")
-        Comment("Additional information")
+        Text(L10n.ButtonTrait.cellDescription)
+        Comment(L10n.ButtonTrait.additionalInformation)
       }
       .padding()
       .accessibilityAddTraits([.isButton])
@@ -57,10 +57,10 @@ struct ButtonTraitPage: View, Page {
           .foregroundColor(.secondaryBackground)
       }
       .onTapGesture {
-        UIAccessibility.post(notification: .announcement, argument: "The cell was tapped!")
+        UIAccessibility.post(notification: .announcement, argument: L10n.ButtonTrait.cellTapped)
       }
       .accessibilityAction {
-        UIAccessibility.post(notification: .announcement, argument: "The cell was tapped!")
+        UIAccessibility.post(notification: .announcement, argument: L10n.ButtonTrait.cellTapped)
       }
       Spacer()
     }

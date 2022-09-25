@@ -109,6 +109,47 @@
 
 "ListOfTraits.title" = "List of Accessibility Traits";
 
+"ListOfTraits.text1" = "Here's a full list of accessibility traits. Some of them are further discussed on this app";
+"ListOfTraits.comment1" = "Since I think they are the most important ones and I actually have something to talk about. (Or I just didn't have the time yet to write something nice about this trait)";
+"ListOfTraits.text2" = "Others are more obvious about how they should work, and where they should be used.";
+"ListOfTraits.comment2" = "But make sure to check all of their documentations!";
+
+"ListOfTraits.button" = "Tells that the item is a button - can be activated with a double tap.";
+"ListOfTraits.adjustable" = "Allows gestures to update quantities. This is quite useful in some situations like quick-adds, sliders or counters!";
+"ListOfTraits.header" = "A header that can be focused with rotor function. Indicates the begining of a new section.";
+"ListOfTraits.link" = "A link to a web page";
+"ListOfTraits.image" = "An image. It may not seem, but its important to use when actually focusing on an image. The user may want to share the image with someone, or print screen it to ask more later...";
+"ListOfTraits.searchField" = "";
+"ListOfTraits." = "Allows typing and when finished will search for something.";
+"ListOfTraits.keyboardKey" = "";
+"ListOfTraits." = "A keyboard key. (Probably not very relevant if you are not creating a custom keyboard)";
+"ListOfTraits.staticText" = "A text that does not change";
+"ListOfTraits.tabbar" = "A tabbar item, actually very important if you have a custom tabbar!";
+"ListOfTraits.summaryElement" = "\"The accessibility element provides summary information when the app starts.\"";
+"ListOfTraits.selected" = "A selected item - used when there are more items on a list that can be selected as well (segmented controllers, radio buttons…)";
+"ListOfTraits.notEnabled" = "";
+"ListOfTraits." = "The content interaction is disabled - eg: a disabled button";
+"ListOfTraits.allowsDirectInteraction" = "";
+"ListOfTraits." = "The accessibility element allows direct touch interaction for VoiceOver users.";
+"ListOfTraits.updatesFrequently" = "The value or label frequently changes.";
+"ListOfTraits.causesPageTurn" = "Makes an automatic page turn when it finished reading the element.";
+"ListOfTraits.playsSound" = "Plays sound when activated";
+"ListOfTraits.startsMediaSession" = "Starts playing from a media session.";
+
+// Button trait
+
+"ButtonTrait.title" = "Button Trait";
+
+"ButtonTrait.text1" = "The button trait is, to me, THE most important trait.";
+"ButtonTrait.text2" = "It basically tells the user that they can activate the element (with a double tap) and that something will happen";
+"ButtonTrait.text3" = "If you are using a Button or a UIButton it will automatically have the 'button' trait";
+"ButtonTrait.text4" = "But sometimes we need to add it manually to our view, like when making a cell that can be tapped, or some other content with a tap gesture.";
+
+"ButtonTrait.myCell" = "My Cell";
+"ButtonTrait.cellDescription" = "cell description";
+"ButtonTrait.additionalInformation" = "Additional information";
+"ButtonTrait.cellTapped" = "This cell was tapped";
+
 // Adjustable
 
 "Adjustable.title" = "Adjustable trait";
@@ -285,6 +326,15 @@
 "InvertColors.Example.image1" = "Starry night, by Van Gogh";
 "InvertColors.Example.image2" = "Starry night, by Van Gogh. Image does not invert.";
 "InvertColors.Example.comment" = "Only the second image is set to not invert colors.";
+
+// Header Trait
+
+"HeaderTrait.title" = "Header Trait";
+"HeaderTrait.text1" = "The Header trait is used to describe headers (obviously), which indicates the beggining of a new content section.";
+"HeaderTrait.comment1" = "So... that's all?";
+"HeaderTrait.text2" = "The fun part, is that you can navigate only on headers by using the rotor function.";
+"HeaderTrait.link" = "Check the Rotor and Header page!";
+"HeaderTrait.text3" = "This way, you can skip every content that is not a header, and easily find the section you are looking for.";
 
 // Increase Contrast
 
