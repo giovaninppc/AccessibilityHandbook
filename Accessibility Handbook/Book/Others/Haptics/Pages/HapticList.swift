@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HapticsListPage: View, Page {
-  var title: String = "List of Haptics"
+  var title: String = L10n.HapticList.title
 
   let link: String = """
   https://developer.apple.com/design/human-interface-guidelines/patterns/playing-haptics/
@@ -21,15 +21,15 @@ struct HapticsListPage: View, Page {
   var body: some View {
     PageContent(next: nil) {
       Group {
-        Text("Here's a list of the Haptics available:")
+        Text(L10n.HapticList.text1)
 
-        item(title: "Selection") { haptic(.selection) }
-        item(title: "Success") { haptic(.success) }
-        item(title: "Error") { haptic(.error) }
-        item(title: "Warning") { haptic(.warning) }
-        item(title: "light Impact") { haptic(.lightImpact) }
-        item(title: "Medium Impact") { haptic(.mediumImpact) }
-        item(title: "Heavy Impact") { haptic(.heavyImpact) }
+        item(title: L10n.Haptics.selection) { haptic(.selection) }
+        item(title: L10n.Haptics.success) { haptic(.success) }
+        item(title: L10n.Haptics.error) { haptic(.error) }
+        item(title: L10n.Haptics.warning) { haptic(.warning) }
+        item(title: L10n.Haptics.lighImpact) { haptic(.lightImpact) }
+        item(title: L10n.Haptics.mediumImpact) { haptic(.mediumImpact) }
+        item(title: L10n.Haptics.heavyImpact) { haptic(.heavyImpact) }
 
         extra
       }
@@ -39,9 +39,9 @@ struct HapticsListPage: View, Page {
 
   private var extra: some View {
     Group {
-      Comment("I also suggest you check the source code of this project. It has a nive Haptic wrapper to be used on UIKit or SwiftUI!")
-      ExternalLink(link: hapticLink, title: "Haptic Source code")
-      DocButton(link: link, title: "Haptics")
+      Comment(L10n.HapticList.comment)
+      ExternalLink(link: hapticLink, title: L10n.HapticList.sourceCode)
+      DocButton(link: link, title: L10n.haptics)
     }
   }
 

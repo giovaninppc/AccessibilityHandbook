@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HapticsPage: View, Page {
-  var title: String = "Haptics"
+  let title: String = L10n.haptics
 
   let link: String = """
   https://developer.apple.com/design/human-interface-guidelines/patterns/playing-haptics/
@@ -35,13 +35,17 @@ struct HapticsPage: View, Page {
   var body: some View {
     PageContent(next: HapticsListPage()) {
       Group {
-        Text("Haptics are little vibrations the device can make")
-        Text("There are several types of Haptics, and each one is used to represent something different.")
-        Comment("But... why are we talking about haptics in an accessibility guide?")
-        Text("Haptics are a type of feedback. When you select something, when something suceeds...")
-        Text("It's an additional layer of feedback. Imagine most actions have some kind of visual feedback, like when you tap a button and it changes it's color slightly so you know the button is pressed.")
-        Text("Since sometimes we cannot rely on visual cues, the Haptics can be a very interesting and powerful way to improve accessibility.")
-        Code(code: code, icon: "dot.radiowaves.left.and.right", title: "Haptic")
+        Text(L10n.Haptic.text1)
+        Text(L10n.Haptic.text2)
+        Comment(L10n.Haptic.comment1)
+        Text(L10n.Haptic.text3)
+        Text(L10n.Haptic.text4)
+        Text(L10n.Haptic.text5)
+        Code(
+          code: code,
+          icon: "dot.radiowaves.left.and.right",
+          title: L10n.haptics
+        )
         DocButton(link: link, title: title)
       }
       .toAny()

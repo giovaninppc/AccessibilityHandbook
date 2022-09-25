@@ -8,7 +8,7 @@
 import Foundation
 
 struct HapticsSection: Section {
-  let title: String = "Haptics"
+  let title: String = L10n.haptic
   let pages: [Page] = [
     HapticsPage(),
     HapticsListPage()

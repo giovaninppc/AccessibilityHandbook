@@ -34,6 +34,10 @@ internal enum L10n {
   internal static let goPlay = L10n.tr("Localizable", "goPlay")
   /// Handbook
   internal static let handbook = L10n.tr("Localizable", "handbook")
+  /// Haptic
+  internal static let haptic = L10n.tr("Localizable", "haptic")
+  /// Haptics
+  internal static let haptics = L10n.tr("Localizable", "haptics")
   /// More on Wikipedia
   internal static let moreOnWikipedia = L10n.tr("Localizable", "moreOnWikipedia")
   /// Next page %@
@@ -353,6 +357,49 @@ internal enum L10n {
   internal enum ElementReadingOrder {
     /// Element reading order
     internal static let title = L10n.tr("Localizable", "ElementReadingOrder.title")
+  }
+
+  internal enum Haptic {
+    /// But... why are we talking about haptics in an accessibility guide?
+    internal static let comment1 = L10n.tr("Localizable", "Haptic.comment1")
+    /// Haptics are little vibrations the device can make
+    internal static let text1 = L10n.tr("Localizable", "Haptic.text1")
+    /// There are several types of Haptics, and each one is used to represent something different.
+    internal static let text2 = L10n.tr("Localizable", "Haptic.text2")
+    /// Haptics are a type of feedback. When you select something, when something suceeds...
+    internal static let text3 = L10n.tr("Localizable", "Haptic.text3")
+    /// It's an additional layer of feedback. Imagine most actions have some kind of visual feedback, like when you tap a button and it changes it's color slightly so you know the button is pressed.
+    internal static let text4 = L10n.tr("Localizable", "Haptic.text4")
+    /// Since sometimes we cannot rely on visual cues, the Haptics can be a very interesting and powerful way to improve accessibility.
+    internal static let text5 = L10n.tr("Localizable", "Haptic.text5")
+  }
+
+  internal enum HapticList {
+    /// I also suggest you check the source code of this project. It has a nive Haptic wrapper to be used on UIKit or SwiftUI!
+    internal static let comment = L10n.tr("Localizable", "HapticList.comment")
+    /// Haptic source code
+    internal static let sourceCode = L10n.tr("Localizable", "HapticList.sourceCode")
+    /// Here's a list of the Haptics available:
+    internal static let text1 = L10n.tr("Localizable", "HapticList.text1")
+    /// List of Haptics
+    internal static let title = L10n.tr("Localizable", "HapticList.title")
+  }
+
+  internal enum Haptics {
+    /// Error
+    internal static let error = L10n.tr("Localizable", "Haptics.error")
+    /// Heavy Impact
+    internal static let heavyImpact = L10n.tr("Localizable", "Haptics.heavyImpact")
+    /// Light Impact
+    internal static let lighImpact = L10n.tr("Localizable", "Haptics.lighImpact")
+    /// Medium Impact
+    internal static let mediumImpact = L10n.tr("Localizable", "Haptics.mediumImpact")
+    /// Selection
+    internal static let selection = L10n.tr("Localizable", "Haptics.selection")
+    /// Success
+    internal static let success = L10n.tr("Localizable", "Haptics.success")
+    /// Warning
+    internal static let warning = L10n.tr("Localizable", "Haptics.warning")
   }
 
   internal enum IncreaseContrast {

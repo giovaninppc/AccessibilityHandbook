@@ -246,6 +246,28 @@
 
 "IncreaseContrast.example" = "Example of using the contrast tool. There are 6 images with increasing contrast. ";
 
+// Haptics
+
+"Haptic.text1" = "Haptics are little vibrations the device can make";
+"Haptic.text2" = "There are several types of Haptics, and each one is used to represent something different.";
+"Haptic.comment1" = "But... why are we talking about haptics in an accessibility guide?";
+"Haptic.text3" = "Haptics are a type of feedback. When you select something, when something suceeds...";
+"Haptic.text4" = "It's an additional layer of feedback. Imagine most actions have some kind of visual feedback, like when you tap a button and it changes it's color slightly so you know the button is pressed.";
+"Haptic.text5" = "Since sometimes we cannot rely on visual cues, the Haptics can be a very interesting and powerful way to improve accessibility.";
+
+"HapticList.title" = "List of Haptics";
+"HapticList.text1" = "Here's a list of the Haptics available:";
+"HapticList.comment" = "I also suggest you check the source code of this project. It has a nive Haptic wrapper to be used on UIKit or SwiftUI!";
+"HapticList.sourceCode" = "Haptic source code";
+
+"Haptics.selection" = "Selection";
+"Haptics.success" = "Success";
+"Haptics.error" = "Error";
+"Haptics.warning" = "Warning";
+"Haptics.lighImpact" = "Light Impact";
+"Haptics.mediumImpact" = "Medium Impact";
+"Haptics.heavyImpact" = "Heavy Impact";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -264,3 +286,5 @@
 "regularText" = "Regular text";
 "boldText" = "Bold text";
 "openSettings" = "Open Settings";
+"haptic" = "Haptic";
+"haptics" = "Haptics";
