@@ -24,6 +24,8 @@ internal enum L10n {
   internal static let cloud = L10n.tr("Localizable", "cloud")
   /// Color Accessibility Features
   internal static let colorAccessibilityFeatures = L10n.tr("Localizable", "ColorAccessibilityFeatures")
+  /// Dedicated page
+  internal static let dedicatedPage = L10n.tr("Localizable", "dedicatedPage")
   /// Tap twice to copy
   internal static let doubleTapToCopy = L10n.tr("Localizable", "doubleTapToCopy")
   /// Early access
@@ -46,6 +48,8 @@ internal enum L10n {
   internal static let moon = L10n.tr("Localizable", "moon")
   /// More
   internal static let more = L10n.tr("Localizable", "more")
+  /// More on the Web
+  internal static let moreOnTheWeb = L10n.tr("Localizable", "moreOnTheWeb")
   /// More on Wikipedia
   internal static let moreOnWikipedia = L10n.tr("Localizable", "moreOnWikipedia")
   /// Next page %@
@@ -247,6 +251,11 @@ internal enum L10n {
     internal static let text4 = L10n.tr("Localizable", "AccTrait.text4")
     /// Accessibility Trait
     internal static let title = L10n.tr("Localizable", "AccTrait.title")
+  }
+
+  internal enum AccTraits {
+    /// Accessibility Traits
+    internal static let title = L10n.tr("Localizable", "AccTraits.title")
   }
 
   internal enum AccValue {

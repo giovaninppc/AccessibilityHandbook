@@ -8,7 +8,7 @@
 import Foundation
 
 struct AccessibilityTraitsSection: Section {
-  let title: String = "Accessibility Traits"
+  let title: String = L10n.AccTraits.title
   let pages: [Page] = [
     ListOfAccessibilityTraitsPage(),
     ButtonTraitPage(),

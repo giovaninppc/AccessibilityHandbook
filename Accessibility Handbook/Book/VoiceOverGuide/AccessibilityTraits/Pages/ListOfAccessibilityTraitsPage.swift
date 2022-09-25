@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ListOfAccessibilityTraitsPage: View, Page {
-  var title: String = "List of Accessibility Traits"
+  var title: String = L10n.ListOfTraits.title
 
   var body: some View {
     PageContent(next: ButtonTraitPage()) {
@@ -167,10 +167,10 @@ struct ListOfAccessibilityTraitsPage: View, Page {
       Comment(description)
       HStack(spacing: .large) {
         if let externalLink = externalLink {
-          ExternalLink(link: externalLink, title: "More on the web")
+          ExternalLink(link: externalLink, title: L10n.moreOnTheWeb)
         }
         if let internalLink = internalLink {
-          InternalLink(page: internalLink, title: "Dedicated page")
+          InternalLink(page: internalLink, title: L10n.dedicatedPage)
         }
       }
       Rectangle()
