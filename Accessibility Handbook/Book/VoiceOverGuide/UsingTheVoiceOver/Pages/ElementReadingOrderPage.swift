@@ -8,21 +8,19 @@
 import SwiftUI
 
 struct ElementReadingOrderPage: View, Page {
-  static let strings = L10n.ElementReadingOrder.self
-
-  var title: String = strings.title
+  let title: String = L10n.ElementReadingOrder.title
 
   var body: some View {
     PageContent(next: RotorPage()) {
       Group {
-        Text("The Voice-Over will read the content on the screen trying to follow the 'Natural reading direction of the Language'")
-        Comment("What does it mean?")
-        Text("For instance, English, the natural reading directions is left-to-right then up-to-down")
-        Text("So the Voice Over will follow this same order when reading the content.")
-        Comment("You can change the reading order of your elements... if you want...")
-        InternalLink(page: AccessibilityPriorityPage().page, title: "Check the 'Accessibility Priority' page for more informations")
-        Text("But when we are talking about a single focused element (the element the cursor is currently at)")
-        Text("The content will be read in the following order:")
+        Text(L10n.ElementReadingOrder.text1)
+        Comment(L10n.ElementReadingOrder.comment1)
+        Text(L10n.ElementReadingOrder.text2)
+        Text(L10n.ElementReadingOrder.text3)
+        Comment(L10n.ElementReadingOrder.comment2)
+        InternalLink(page: AccessibilityPriorityPage().page, title: L10n.ElementReadingOrder.link)
+        Text(L10n.ElementReadingOrder.text4)
+        Text(L10n.ElementReadingOrder.text5)
         VerticalSpace(.regular)
         readingOrder
       }
@@ -35,7 +33,7 @@ struct ElementReadingOrderPage: View, Page {
       Text("Accessibility Label | Accessibility Value | Accessibility Traits (button) | Accessibility Hint ")
         .font(.callout.bold())
         .foregroundColor(.purple)
-        .accessibilityLabel("AccessibilityLabel")
+        .accessibilityLabel("Accessibility Label")
         .accessibilityHint("Accessibility Hint")
         .accessibilityAddTraits(.isButton)
         .accessibilityValue("Accessibility Value")

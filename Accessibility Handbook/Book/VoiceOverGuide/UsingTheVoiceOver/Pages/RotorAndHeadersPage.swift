@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RotorAndHeadersPage: View, Page {
-  var title: String = "Rotor and Headers"
+  let title: String = L10n.RotorAndHeaders.title
 
   var body: some View {
     PageContent(next: nil) {
@@ -24,35 +24,35 @@ struct RotorAndHeadersPage: View, Page {
 
   private var rotor: some View {
     Group {
-      Title("Rotor")
-      Text("If you haven't seen it yet, check our Rotor page to learn more about this component!")
-      InternalLink(page: RotorPage().page, title: "Rotor")
+      Title(L10n.rotor)
+      Text(L10n.RotorAndHeaders.Rotor.text)
+      InternalLink(page: RotorPage().page, title: L10n.rotor)
     }
   }
 
   private var header: some View {
     Group {
-      Title("Header Trait")
-      Text("The accessibility trait 'header' is important to mark the beggining of a new content section, but also its important to notice how it affects the user's navigation with the Rotor.")
-      Text("If you haven't seen the 'Header Trait page', take a look to leanr more about it!")
-      InternalLink(page: HeaderTraitPage().page, title: "Header Trait")
+      Title(L10n.HeaderTrait.title)
+      Text(L10n.RotorAndHeaders.Header.text1)
+      Text(L10n.RotorAndHeaders.Header.text2)
+      InternalLink(page: HeaderTraitPage().page, title: L10n.HeaderTrait.title)
     }
   }
 
   private var together: some View {
     Group {
-      Title("What about them together?")
-      Text("If you enable the rotor, you may notice it has the 'Header' options")
-      Text("When selected, this option will allow you to navigate only on headers by swiping up and down on your device.")
-      Text("This is extremely useful to find specific content among many other things.")
+      Title(L10n.RotorAndHeaders.Together.title)
+      Text(L10n.RotorAndHeaders.Together.text2)
+      Text(L10n.RotorAndHeaders.Together.text2)
+      Text(L10n.RotorAndHeaders.Together.text3)
     }
   }
 
   private var example: some View {
     Group {
-      Title("Example")
-      Text("If you haven't noticed, this page was built using some headers!")
-      Text("Turn on the Voice-Over and try to navigate only on them!")
+      Title(L10n.example)
+      Text(L10n.RotorAndHeaders.Example.text1)
+      Text(L10n.RotorAndHeaders.Example.text2)
     }
   }
 }

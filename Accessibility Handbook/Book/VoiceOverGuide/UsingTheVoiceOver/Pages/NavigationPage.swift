@@ -44,28 +44,28 @@ private extension NavigationPage {
 
   var moveAround: some View {
     Group {
-      Title("Move around")
-      Text("When the Voice-Over is enabled, swipe horizontally from left to right to move the cursor to focus on the next element.")
-      Text("And swipe from right to left to focus on the previous element.")
+      Title(L10n.Navigation.MoveAround.title)
+      Text(L10n.Navigation.MoveAround.text1)
+      Text(L10n.Navigation.MoveAround.text2)
     }
   }
 
   var activate: some View {
     Group {
-      Title("Activate an element")
-      Text("Activate, is the Voice-Over version of tapping an item. Double tap with a single finger to activate an element.")
-      Comment("You can learn more about ways to interact with elements on the 'Interaction' section")
-      InternalLink(page: ActivatePage().page, title: "Interaction")
+      Title(L10n.Navigation.Activate.title)
+      Text(L10n.Navigation.Activate.text)
+      Comment(L10n.Navigation.Activate.comment)
+      InternalLink(page: ActivatePage().page, title: L10n.interactrion)
     }
   }
 
   var footer: some View {
     Group {
-      Title("Learn more gestures")
-      Text("If you tap with 4 fingers twice with the Voice-Over enabled, you will activate the 'Gesture Helper'.")
-      Text("Now, every gesture you make will be announced by the Voice-Over, followed by it's function.")
-      Text("And to disable the helper, tap twice with 4 fiongers again!")
-      Comment("These are just a few of the gestures available. We plan on adding a full gesture section in the future, but for now, I suggest you try it for yourself, turn the Voice-Over on and test the gestures using the 'Gesture Help'.")
+      Title(L10n.Navigation.Footer.title)
+      Text(L10n.Navigation.Footer.text1)
+      Text(L10n.Navigation.Footer.text2)
+      Text(L10n.Navigation.Footer.text3)
+      Comment(L10n.Navigation.Footer.comment)
     }
   }
 }

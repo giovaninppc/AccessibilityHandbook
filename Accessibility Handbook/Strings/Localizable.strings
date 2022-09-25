@@ -7,14 +7,62 @@
 */
 "title" = "Accessibility Handbook";
 "handbook" = "Handbook";
+"VoiceOver" = "Voice-Over";
 
-// How to use
+// Using
 
-"VocieOverGuide" = "Voice-Over guide";
+"UsingTheVoiceOver" = "Using the Voice-Over";
+
+// Enable Voice-Over
+
+"EnableVoiceOver.title" = "Enable Voice-Over";
+"EnableVoiceOver.text1" = "The Voice-Over is the name of the iOS's native screen reader solution. Used to provide visual impairment accessibility.";
+"EnableVoiceOver.text2" = "To enable the Voice-Over, go to the device's settings, on the 'Accessibility section'.";
+"EnableVoiceOver.text3" = "Then, navigate to Voice-Over and turn the toggle on.";
+"EnableVoiceOver.text4" = "As an alternative to doing this every time you want to enable the Voice-Over, you may navigate to the Accessibility section again, and change the 'Accessibility shortcut' section.";
+"EnableVoiceOver.text5" = "There, select the features you want to have quick-access to (make sure to select the Voice-Over)";
+"EnableVoiceOver.text6" = "And now, you can access any of those features by triple-pressing the side button on your device (the one that locks the screen).";
+"EnableVoiceOver.comment" = "Beyond providing faster access to turning the Voice-Over on, it also helps to turn it off if you get stuck while using the it.";
 
 // Element Reading Order
 
 "ElementReadingOrder.title" = "Element reading order";
+"ElementReadingOrder.text1" = "The Voice-Over will read the content on the screen trying to follow the 'Natural reading direction of the Language'";
+"ElementReadingOrder.comment1" = "What does it mean?";
+"ElementReadingOrder.text2" = "For instance, English, the natural reading directions is left-to-right then up-to-down";
+"ElementReadingOrder.text3" = "So the Voice Over will follow this same order when reading the content.";
+"ElementReadingOrder.comment2" = "You can change the reading order of your elements... if you want...";
+"ElementReadingOrder.link" = "Check the 'Accessibility Priority' page for more informations";
+"ElementReadingOrder.text4" = "But when we are talking about a single focused element (the element the cursor is currently at)";
+"ElementReadingOrder.text5" = "The content will be read in the following order:";
+
+// Rotor
+
+"Rotor" = "Rotor";
+"Rotor.comment1" = "The Rotor is one of those things I think not everybody knows about.";
+"Rotor.text1" = "If you do the gesture of a circle with 2 fingers on the screen, you will enable the rotor.";
+"Rotor.comment2" = "Turn the Voice-Over on and try it for yourself!";
+"Rotor.text2" = "The rotor has some default actions to it like changing the speaking rate or the Voice-Over's language.";
+"Rotor.text3" = "You can also create custom actions to the rotor. The idea is to use it to help users find specific content, like filtering for links, or any other similar elements.";
+"Rotor.comment3" = "I need to say that I have personally never used a custom rotor action, but it is a powerful tool to have on your accessibility arsenal!";
+"Rotor.image" = "Rotor example image";
+
+// Rotor and Headers
+
+"RotorAndHeaders.title" = "Rotor and Headers";
+
+"RotorAndHeaders.Rotor.text" = "If you haven't seen it yet, check our Rotor page to learn more about this component!";
+
+"RotorAndHeaders.Header.text1" = "The accessibility trait 'header' is important to mark the beggining of a new content section, but also its important to notice how it affects the user's navigation with the Rotor.";
+"RotorAndHeaders.Header.text2" = "If you haven't seen the 'Header Trait page', take a look to leanr more about it!";
+
+"RotorAndHeaders.Together.title" = "What about them together?";
+"RotorAndHeaders.Together.text1" = "If you enable the rotor, you may notice it has the 'Header' options";
+"RotorAndHeaders.Together.text2" = "When selected, this option will allow you to navigate only on headers by swiping up and down on your device.";
+"RotorAndHeaders.Together.text3" = "This is extremely useful to find specific content among many other things.";
+
+"RotorAndHeaders.Example.text1" = "If you haven't noticed, this page was built using some headers!";
+"RotorAndHeaders.Example.text2" = "Turn on the Voice-Over and try to navigate only on them!";
 
 // Navigation
 
@@ -26,6 +74,20 @@
 "Navigation.comment" = "This entire app was built to be used with the Voice-Over enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!";
 "Navigation.image" = "On top is an example of the cursor. The title 'Handbook' is currently focused on the image.";
 "Navigation.imageSubtitle" = "Example image of the Voice-Over running on an iOS device.";
+
+"Navigation.MoveAround.title" = "Move Around";
+"Navigation.MoveAround.text1" = "When the Voice-Over is enabled, swipe horizontally from left to right to move the cursor to focus on the next element.";
+"Navigation.MoveAround.text2" = "And swipe from right to left to focus on the previous element.";
+
+"Navigation.Activate.title" = "Activate an element";
+"Navigation.Activate.text" = "Activate, is the Voice-Over version of tapping an item. Double tap with a single finger to activate an element.";
+"Navigation.Activate.comment" = "You can learn more about ways to interact with elements on the 'Interaction' section";
+
+"Navigation.Footer.title" = "Learn more gestures";
+"Navigation.Footer.text1" = "If you tap with 4 fingers twice with the Voice-Over enabled, you will activate the 'Gesture Helper'.";
+"Navigation.Footer.text2" = "Now, every gesture you make will be announced by the Voice-Over, followed by it's function.";
+"Navigation.Footer.text3" = "And to disable the helper, tap twice with 4 fiongers again!";
+"Navigation.Footer.comment" = "These are just a few of the gestures available. We plan on adding a full gesture section in the future, but for now, I suggest you try it for yourself, turn the Voice-Over on and test the gestures using the 'Gesture Help'.";
 
 // Accessibility Properties
 

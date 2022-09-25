@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RotorPage: View, Page {
-  var title: String = "Rotor"
+  let title: String = L10n.rotor
 
   let codeUIKit: String = """
   accessibilityCustomRotors = UIAccessibilityCustomRotor()
@@ -42,15 +42,15 @@ struct RotorPage: View, Page {
   var body: some View {
     PageContent(next: RotorAndHeadersPage()) {
       Group {
-        Comment("The Rotor is one of those things I think not everybody knows about.")
-        Text("If you do the gesture of a circle with 2 fingers on the screen, you will enable the rotor.")
-        Comment("Turn the Voice-Over on and try it for yourself!")
+        Comment(L10n.Rotor.comment1)
+        Text(L10n.Rotor.text1)
+        Comment(L10n.Rotor.comment2)
         example
-        Text("The rotor has some default actions to it like changing the speaking rate or the Voice-Over's language.")
-        Text("You can also create custom actions to the rotor. The idea is to use it to help users find specific content, like filtering for links, or any other similar elements.")
+        Text(L10n.Rotor.text2)
+        Text(L10n.Rotor.text3)
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
-        Comment("I need to say that I have personally never used a custom rotor action, but it is a powerful tool to have on your accessibility arsenal!")
+        Comment(L10n.Rotor.comment3)
         DocButton(link: docLink, title: title)
       }
       .toAny()
@@ -67,7 +67,7 @@ struct RotorPage: View, Page {
           .aspectRatio(contentMode: .fit)
           .frame(width: 100.0, height: 100.0)
           .accessibilityAddTraits([.isImage])
-          .accessibilityLabel(Text("Rotor example image"))
+          .accessibilityLabel(L10n.Rotor.image)
         Spacer()
       }
       VerticalSpace(.regular)
