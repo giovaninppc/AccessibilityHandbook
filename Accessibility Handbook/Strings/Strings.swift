@@ -20,6 +20,8 @@ internal enum L10n {
   internal static let backToIndex = L10n.tr("Localizable", "backToIndex")
   /// Bold text
   internal static let boldText = L10n.tr("Localizable", "boldText")
+  /// Cloud
+  internal static let cloud = L10n.tr("Localizable", "cloud")
   /// Color Accessibility Features
   internal static let colorAccessibilityFeatures = L10n.tr("Localizable", "ColorAccessibilityFeatures")
   /// Tap twice to copy
@@ -28,6 +30,8 @@ internal enum L10n {
   internal static let earlyAccess = L10n.tr("Localizable", "earlyAccess")
   /// Extra bureaucracy
   internal static let extraBureaucracy = L10n.tr("Localizable", "extraBureaucracy")
+  /// Fog
+  internal static let fog = L10n.tr("Localizable", "fog")
   /// Free shipping
   internal static let freeShipping = L10n.tr("Localizable", "freeShipping")
   /// Go play it!
@@ -38,6 +42,10 @@ internal enum L10n {
   internal static let haptic = L10n.tr("Localizable", "haptic")
   /// Haptics
   internal static let haptics = L10n.tr("Localizable", "haptics")
+  /// Moon
+  internal static let moon = L10n.tr("Localizable", "moon")
+  /// More
+  internal static let more = L10n.tr("Localizable", "more")
   /// More on Wikipedia
   internal static let moreOnWikipedia = L10n.tr("Localizable", "moreOnWikipedia")
   /// Next page %@
@@ -46,10 +54,22 @@ internal enum L10n {
   }
   /// Open Settings
   internal static let openSettings = L10n.tr("Localizable", "openSettings")
+  /// Rain
+  internal static let rain = L10n.tr("Localizable", "rain")
   /// Regular text
   internal static let regularText = L10n.tr("Localizable", "regularText")
+  /// Snow
+  internal static let snow = L10n.tr("Localizable", "snow")
+  /// Sun
+  internal static let sun = L10n.tr("Localizable", "sun")
+  /// Sunrise
+  internal static let sunrise = L10n.tr("Localizable", "sunrise")
   /// Accessibility Handbook
   internal static let title = L10n.tr("Localizable", "title")
+  /// Voice-Over guide
+  internal static let vocieOverGuide = L10n.tr("Localizable", "VocieOverGuide")
+  /// Weather Icons
+  internal static let weatherIcons = L10n.tr("Localizable", "weatherIcons")
 
   internal enum AboutColors {
     /// Some people don't experience them at all!
@@ -187,6 +207,66 @@ internal enum L10n {
     internal static let text4 = L10n.tr("Localizable", "AccLabel.text4")
     /// Accessibility Label
     internal static let title = L10n.tr("Localizable", "AccLabel.title")
+  }
+
+  internal enum AccPriority {
+    /// Yes, you can change the reading order of your elements, but most of the time you dont want to do that.
+    internal static let comment1 = L10n.tr("Localizable", "AccPriority.comment1")
+    /// As a general guideline, we keep the reading order the same as the natural reading order of the current language
+    internal static let comment2 = L10n.tr("Localizable", "AccPriority.comment2")
+    /// For instance, English reads from left-to-right then from top-to-bottom, and thats the order the Voice-Over will try to read the content.
+    internal static let comment3 = L10n.tr("Localizable", "AccPriority.comment3")
+    /// See how this button even being above the elements, was the last one being focused?.
+    internal static let notification = L10n.tr("Localizable", "AccPriority.notification")
+    /// Accessibility Sort Priority, in SwiftUI, is a way to change the order of the elements read by the Voice-Over
+    internal static let text1 = L10n.tr("Localizable", "AccPriority.text1")
+    /// It is similar to defining the order of reading the elements using UIKit, but in UIKit we define this order using an array.
+    internal static let text2 = L10n.tr("Localizable", "AccPriority.text2")
+    /// It can be useful in some situations, check the example below:
+    internal static let text3 = L10n.tr("Localizable", "AccPriority.text3")
+    /// Accessibility Priority
+    internal static let title = L10n.tr("Localizable", "AccPriority.title")
+    internal enum Code {
+      /// The highest priority is read first
+      internal static let swiftUIComment = L10n.tr("Localizable", "AccPriority.Code.swiftUIComment")
+      /// The content is read in the array's order
+      internal static let uikitComment = L10n.tr("Localizable", "AccPriority.Code.uikitComment")
+    }
+  }
+
+  internal enum AccTrait {
+    /// Make sure to check that section to learn more about each trait.
+    internal static let comment1 = L10n.tr("Localizable", "AccTrait.comment1")
+    /// Accessibility Traits are modifiers we can add to a view in order to give some additional information or add some behavior to it.
+    internal static let text1 = L10n.tr("Localizable", "AccTrait.text1")
+    /// There are several traits, some of them you may never have to use, and some other ones are really powerful and you'll be gklad to know more about them.
+    internal static let text2 = L10n.tr("Localizable", "AccTrait.text2")
+    /// Traits are so important we have a dedicated section to them!
+    internal static let text3 = L10n.tr("Localizable", "AccTrait.text3")
+    /// And adding a trait to a view is very simple.
+    internal static let text4 = L10n.tr("Localizable", "AccTrait.text4")
+    /// Accessibility Trait
+    internal static let title = L10n.tr("Localizable", "AccTrait.title")
+  }
+
+  internal enum AccValue {
+    /// Check the counter example below, change its quantity and notice the 'Accessibility Value' being read.
+    internal static let comment1 = L10n.tr("Localizable", "AccValue.comment1")
+    /// This example was built using the 'Adjustable Trait'.
+    internal static let comment2 = L10n.tr("Localizable", "AccValue.comment2")
+    /// Accessibility Values represent the value (most of the times numeric) associated with your view.
+    internal static let text1 = L10n.tr("Localizable", "AccValue.text1")
+    /// It's mostly used in components that represents quantities, like counters, sliders or quick-adds.
+    internal static let text2 = L10n.tr("Localizable", "AccValue.text2")
+    /// And when changed, if the view is focused, the new value will be announced to the user.
+    internal static let text3 = L10n.tr("Localizable", "AccValue.text3")
+    /// Accessibility Value
+    internal static let title = L10n.tr("Localizable", "AccValue.title")
+  }
+
+  internal enum Adjustable {
+    /// Adjustable trait
+    internal static let title = L10n.tr("Localizable", "Adjustable.title")
   }
 
   internal enum Collaboration {
@@ -468,6 +548,11 @@ internal enum L10n {
       /// What to do as a developer?
       internal static let title = L10n.tr("Localizable", "InvertColors.WhatToDo.title")
     }
+  }
+
+  internal enum ListOfTraits {
+    /// List of Accessibility Traits
+    internal static let title = L10n.tr("Localizable", "ListOfTraits.title")
   }
 
   internal enum Navigation {

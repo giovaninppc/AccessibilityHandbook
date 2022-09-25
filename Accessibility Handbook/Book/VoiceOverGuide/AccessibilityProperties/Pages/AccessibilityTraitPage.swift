@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AccessibilityTraitPage: View, Page {
-  var title: String = "Accessibility Trait"
+  let title: String = L10n.AccTrait.title
 
   let codeUIKit: String = """
   myView.accessibilityTraits = [<.anyTrait>]
@@ -25,13 +25,13 @@ struct AccessibilityTraitPage: View, Page {
   var body: some View {
     PageContent(next: AccessibilityValuePage()) {
       Group {
-        Text("Accessibility Traits are modifiers we can add to a view in order to give some additional information or add some behavior to it.")
-        Text("There are several traits, some of them you may never have to use, and some other ones are really powerful and you'll be gklad to know more about them.")
+        Text(L10n.AccTrait.text1)
+        Text(L10n.AccTrait.text2)
         VerticalSpace(.regular)
-        Text("Traits are so important we have a dedicated section to them!")
-        InternalLink(page: ListOfAccessibilityTraitsPage().page, title: "List of Accessibility Traits")
-        Comment("Make sure to check that section to learn more about each trait.")
-        Text("And adding a trait to a view is very simple.")
+        Text(L10n.AccTrait.text3)
+        InternalLink(page: ListOfAccessibilityTraitsPage().page, title: L10n.ListOfTraits.title)
+        Comment(L10n.AccTrait.comment1)
+        Text(L10n.AccTrait.text4)
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
         DocButton(link: docLink, title: title)

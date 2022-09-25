@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AccessibilityValuePage: View, Page {
-  var title: String = "Accessibility Value"
+  var title: String = L10n.AccValue.title
 
   let link = """
   https://developer.apple.com/documentation/uikit/uiaccessibilityelement/1619583-accessibilityvalue
@@ -19,13 +19,13 @@ struct AccessibilityValuePage: View, Page {
   var body: some View {
     PageContent(next: AccessibilityPriorityPage()) {
       Group {
-        Text("Accessibility Values represent the value (most of the times numeric) associated with your view.")
-        Text("It's mostly used in components that represents quantities, like counters, sliders or quick-adds.")
-        Text("And when changed, if the view is focused, the new value will be announced to the user.")
-        Comment("Check the counter example below, change its quantity and notice the 'Accessibility Value' being read.")
+        Text(L10n.AccValue.text1)
+        Text(L10n.AccValue.text2)
+        Text(L10n.AccValue.text3)
+        Comment(L10n.AccValue.comment1)
         AdjustableCounter(value: $currentValue)
-        Comment("This example was built using the 'Adjustable Trait'.")
-        InternalLink(page: AdjustablePage().page, title: "Adjustable Trait")
+        Comment(L10n.AccValue.comment2)
+        InternalLink(page: AdjustablePage().page, title: L10n.Adjustable.title)
         Code.uikit(
           """
           myView.accessibilityValue = "value"

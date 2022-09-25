@@ -8,7 +8,7 @@
 import Foundation
 
 struct VoiceOverGuideSections: SectionProvider {
-  let title: String = "Voice-Over Guide"
+  let title: String = L10n.voiceOverGuide
   let sections: [Section] = [
     UsingTheVoiceOverSection(),
     AccessibilityPropertiesSection(),

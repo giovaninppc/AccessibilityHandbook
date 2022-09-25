@@ -10,6 +10,8 @@
 
 // How to use
 
+"VocieOverGuide" = "Voice-Over guide";
+
 // Element Reading Order
 
 "ElementReadingOrder.title" = "Element reading order";
@@ -52,7 +54,7 @@
 "AccLabel.example" = "10Kg";
 "AccLabel.accessibilityLabelExample" = "10 Kilograms";
 
-// AccessibilityHint
+// Accessibility Hint
 
 "AccHint.title" = "Accessibility Hint";
 "AccHint.text1" = "Accessibility hints are additional content read at the end. They are always the last content to be read.";
@@ -65,6 +67,47 @@
 "AccHint.example.message" = "French fries with cheese";
 "AccHint.example.footer" = "#123456";
 "AccHint.example.notification" = "Order code copied to clipboard";
+
+// Accessibility Trait
+
+"AccTrait.title" = "Accessibility Trait";
+"AccTrait.text1" = "Accessibility Traits are modifiers we can add to a view in order to give some additional information or add some behavior to it.";
+"AccTrait.text2" = "There are several traits, some of them you may never have to use, and some other ones are really powerful and you'll be gklad to know more about them.";
+"AccTrait.text3" = "Traits are so important we have a dedicated section to them!";
+"AccTrait.comment1" = "Make sure to check that section to learn more about each trait.";
+"AccTrait.text4" = "And adding a trait to a view is very simple.";
+
+// Accessibility Value
+
+"AccValue.title" = "Accessibility Value";
+"AccValue.text1" = "Accessibility Values represent the value (most of the times numeric) associated with your view.";
+"AccValue.text2" = "It's mostly used in components that represents quantities, like counters, sliders or quick-adds.";
+"AccValue.text3" = "And when changed, if the view is focused, the new value will be announced to the user.";
+"AccValue.comment1" = "Check the counter example below, change its quantity and notice the 'Accessibility Value' being read.";
+"AccValue.comment2" = "This example was built using the 'Adjustable Trait'.";
+
+// Accessibility Priority
+
+"AccPriority.title" = "Accessibility Priority";
+
+"AccPriority.text1" = "Accessibility Sort Priority, in SwiftUI, is a way to change the order of the elements read by the Voice-Over";
+"AccPriority.text2" = "It is similar to defining the order of reading the elements using UIKit, but in UIKit we define this order using an array.";
+"AccPriority.text3" = "It can be useful in some situations, check the example below:";
+"AccPriority.comment1" = "Yes, you can change the reading order of your elements, but most of the time you dont want to do that.";
+"AccPriority.comment2" = "As a general guideline, we keep the reading order the same as the natural reading order of the current language";
+"AccPriority.comment3" = "For instance, English reads from left-to-right then from top-to-bottom, and thats the order the Voice-Over will try to read the content.";
+"AccPriority.notification" = "See how this button even being above the elements, was the last one being focused?.";
+
+"AccPriority.Code.uikitComment" = "The content is read in the array's order";
+"AccPriority.Code.swiftUIComment" = "The highest priority is read first";
+
+// List of traits
+
+"ListOfTraits.title" = "List of Accessibility Traits";
+
+// Adjustable
+
+"Adjustable.title" = "Adjustable trait";
 
 // Colors
 
@@ -276,6 +319,7 @@
 "backToIndex" = "Back to Index";
 "goPlay" = "Go play it!";
 "moreOnWikipedia" = "More on Wikipedia";
+"more" = "More";
 
 // Some nouns
 
@@ -288,3 +332,11 @@
 "openSettings" = "Open Settings";
 "haptic" = "Haptic";
 "haptics" = "Haptics";
+"moon" = "Moon";
+"cloud" = "Cloud";
+"sun" = "Sun";
+"sunrise" = "Sunrise";
+"snow" = "Snow";
+"rain" = "Rain";
+"fog" = "Fog";
+"weatherIcons" = "Weather Icons";

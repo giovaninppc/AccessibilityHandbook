@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct AccessibilityPriorityPage: View, Page {
-  var title: String = "Accessibility Priority"
+  let title: String = L10n.AccPriority.title
 
   let codeUIKit: String = """
-  // The content is read in the array's order
+  \(L10n.AccPriority.Code.uikitComment)
   myView.accessibilityElements =
     [subview1, subview2, subview3]
   """
 
   let codeSwiftUI: String = """
-  // The highest priority is read first
+    \(L10n.AccPriority.Code.swiftUIComment)
   View()
     .accessibilitySortPriority(2)
   View()
@@ -33,18 +33,18 @@ struct AccessibilityPriorityPage: View, Page {
   var body: some View {
     PageContent(next: nil) {
       Group {
-        Text("Accessibility Sort Priority, in SwiftUI, is a way to change the order of the elements read by the Voice-Over")
+        Text(L10n.AccPriority.text1)
           .accessibilitySortPriority(100)
-        Text("It is similar to defining the order of reading the elements using UIKit, but in UIKit we define this order using an array.")
+        Text(L10n.AccPriority.text2)
           .accessibilitySortPriority(100)
-        Text("It can be useful in some situations, check the example below:")
+        Text(L10n.AccPriority.text3)
           .accessibilitySortPriority(100)
         example
-        Comment("Yes, you can change the reading order of your elements, but most of the time you dont want to do that.")
+        Comment(L10n.AccPriority.comment1)
           .accessibilitySortPriority(-2)
-        Comment("As a general guideline, we keep the reading order the same as the natural reading order of the current language")
+        Comment(L10n.AccPriority.comment2)
           .accessibilitySortPriority(-2)
-        Comment("For instance, English reads from left-to-right then from top-to-bottom, and thats the order the Voice-Over will try to read the content.")
+        Comment(L10n.AccPriority.comment3)
           .accessibilitySortPriority(-2)
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
@@ -60,38 +60,38 @@ struct AccessibilityPriorityPage: View, Page {
     VStack(spacing: .regular) {
       VerticalSpace(.large)
       HStack {
-        Text("Weather icons")
+        Text(L10n.weatherIcons)
           .font(.title3)
           .accessibilitySortPriority(10)
         Spacer()
         Button {
-          UIAccessibility.post(notification: .announcement, argument: "See how this button even being above the elements, was the last one being focused?.")
+          UIAccessibility.post(notification: .announcement, argument: L10n.AccPriority.notification)
         } label: {
-          Text("more")
+          Text(L10n.more)
         }
         .accessibilitySortPriority(-1)
       }
       HStack(spacing: .large) {
         Icon.moon
-          .accessibilityLabel(Text("Moon"))
+          .accessibilityLabel(Text(L10n.moon))
           .accessibilitySortPriority(9)
         Icon.cloud
-          .accessibilityLabel(Text("Cloud"))
+          .accessibilityLabel(Text(L10n.cloud))
           .accessibilitySortPriority(8)
         Icon.sun
-          .accessibilityLabel(Text("Sun"))
+          .accessibilityLabel(Text(L10n.sun))
           .accessibilitySortPriority(7)
         Icon.sunrise
-          .accessibilityLabel(Text("Sunrise"))
+          .accessibilityLabel(Text(L10n.sunrise))
           .accessibilitySortPriority(6)
         Icon.cloudSnow
-          .accessibilityLabel(Text("Snow"))
+          .accessibilityLabel(Text(L10n.snow))
           .accessibilitySortPriority(5)
         Icon.rainBolt
-          .accessibilityLabel(Text("Rain"))
+          .accessibilityLabel(Text(L10n.rain))
           .accessibilitySortPriority(4)
         Icon.cloudFog
-          .accessibilityLabel(Text("Fog"))
+          .accessibilityLabel(Text(L10n.fog))
           .accessibilitySortPriority(3)
       }
       VerticalSpace(.large)
