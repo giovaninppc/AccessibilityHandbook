@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WhereIsMyContent: GamePage, View {
-  var title: String = "Where is my content?"
+  let title: String = L10n.WhereIsMyContent.title
   var completed: Bool { GameStates.whereIsMyContentCompleted }
 
   var hintPage: AnyView = AccessibilityLabelPage().page
@@ -19,25 +19,25 @@ struct WhereIsMyContent: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("This puzzle is pretty easy.")
-        Text("You need to find the correct button to finish the puzzle by using the Voice-Over!")
+        Text(L10n.WhereIsMyContent.text1)
+        Text(L10n.WhereIsMyContent.text2)
           .foregroundColor(.background)
-        Text("Pumpkin")
+        Text(L10n.pumpkin)
           .foregroundColor(.background)
-        Text("Potato")
+        Text(L10n.potato)
           .foregroundColor(.background)
-        Text("Ice cream")
+        Text(L10n.iceCream)
           .foregroundColor(.background)
           .accessibilityAddTraits(.isButton)
-          .accessibilityHint(Text("Tap twice to win the game"))
+          .accessibilityHint(L10n.WhereIsMyContent.hint)
           .accessibilityAction {
             UIAccessibility.post(notification: .screenChanged, argument: nil)
             GameStates.whereIsMyContentCompleted = true
             success = true
           }
-        Text("Lobster")
+        Text(L10n.lobster)
           .foregroundColor(.background)
-        Text("Flag")
+        Text(L10n.flag)
           .foregroundColor(.background)
       }
       .toAny()

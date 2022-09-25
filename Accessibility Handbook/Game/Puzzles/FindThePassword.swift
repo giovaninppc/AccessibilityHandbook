@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FindThePassword: GamePage, View {
-  var title: String = "Find the Password"
+  let title: String = L10n.FindThePassword.title
   var completed: Bool { GameStates.findThePasswordCompleted }
 
   let hintPage: AnyView = AccessibilityPriorityPage().page
@@ -26,11 +26,11 @@ struct FindThePassword: GamePage, View {
   var body: some View {
     GameContent(success: $success, hinting: $hinting) {
       Group {
-        Text("You need to type in the correct password!")
+        Text(L10n.FindThePassword.text1)
           .accessibilitySortPriority(20)
-        Text("It's as simple as that")
+        Text(L10n.FindThePassword.text2)
           .accessibilitySortPriority(19)
-        Comment("You just need to find out what the password is...")
+        Comment(L10n.FindThePassword.comment)
           .accessibilitySortPriority(18)
         VerticalSpace(.regular)
         Centered {
@@ -63,7 +63,7 @@ struct FindThePassword: GamePage, View {
           .toAny()
         }
         VerticalSpace(.regular)
-        TextField("Password", text: $word)
+        TextField(L10n.password, text: $word)
           .keyboardType(.numberPad)
           .focused($fieldIsFocused)
           .padding()

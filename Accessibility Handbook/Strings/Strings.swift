@@ -60,6 +60,8 @@ internal enum L10n {
   internal static let examples = L10n.tr("Localizable", "examples")
   /// Extra bureaucracy
   internal static let extraBureaucracy = L10n.tr("Localizable", "extraBureaucracy")
+  /// Flag
+  internal static let flag = L10n.tr("Localizable", "flag")
   /// Fog
   internal static let fog = L10n.tr("Localizable", "fog")
   /// Free shipping
@@ -76,10 +78,14 @@ internal enum L10n {
   internal static let haptic = L10n.tr("Localizable", "haptic")
   /// Haptics
   internal static let haptics = L10n.tr("Localizable", "haptics")
+  /// Ice cream
+  internal static let iceCream = L10n.tr("Localizable", "iceCream")
   /// Interaction
   internal static let interactrion = L10n.tr("Localizable", "interactrion")
   /// The accessibility element allows direct touch interaction for VoiceOver users.
   internal static let listOfTraits = L10n.tr("Localizable", "ListOfTraits.")
+  /// Lobster
+  internal static let lobster = L10n.tr("Localizable", "lobster")
   /// Modal
   internal static let modal = L10n.tr("Localizable", "modal")
   /// Moon
@@ -96,6 +102,12 @@ internal enum L10n {
   }
   /// Open Settings
   internal static let openSettings = L10n.tr("Localizable", "openSettings")
+  /// Password
+  internal static let password = L10n.tr("Localizable", "password")
+  /// Potato
+  internal static let potato = L10n.tr("Localizable", "potato")
+  /// Pumpkin
+  internal static let pumpkin = L10n.tr("Localizable", "pumpkin")
   /// Rain
   internal static let rain = L10n.tr("Localizable", "rain")
   /// Regular text
@@ -679,6 +691,17 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "EnableVoiceOver.title")
   }
 
+  internal enum FindThePassword {
+    /// You just need to find out what the password is...
+    internal static let comment = L10n.tr("Localizable", "FindThePassword.comment")
+    /// You need to type in the correct password!
+    internal static let text1 = L10n.tr("Localizable", "FindThePassword.text1")
+    /// It's as simple as that
+    internal static let text2 = L10n.tr("Localizable", "FindThePassword.text2")
+    /// Find the Password
+    internal static let title = L10n.tr("Localizable", "FindThePassword.title")
+  }
+
   internal enum GameSuccess {
     /// You solved the puzzle!
     internal static let subtitle = L10n.tr("Localizable", "GameSuccess.subtitle")
@@ -1158,6 +1181,17 @@ internal enum L10n {
       /// What about them together?
       internal static let title = L10n.tr("Localizable", "RotorAndHeaders.Together.title")
     }
+  }
+
+  internal enum WhereIsMyContent {
+    /// 
+    internal static let hint = L10n.tr("Localizable", "WhereIsMyContent.hint")
+    /// This puzzle is pretty easy.
+    internal static let text1 = L10n.tr("Localizable", "WhereIsMyContent.text1")
+    /// You need to find the correct button to finish the puzzle by using the Voice-Over!
+    internal static let text2 = L10n.tr("Localizable", "WhereIsMyContent.text2")
+    /// Where is my content?
+    internal static let title = L10n.tr("Localizable", "WhereIsMyContent.title")
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length

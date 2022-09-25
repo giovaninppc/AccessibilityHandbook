@@ -611,6 +611,18 @@
 "Hint.text1" = "The Handbook puzzles were made to be solved using some kind of accessibility tool.";
 "Hint.text2" = "If you can't figure it out, maybe this page will help you...";
 
+// Games
+
+"WhereIsMyContent.title" = "Where is my content?";
+"WhereIsMyContent.text1" = "This puzzle is pretty easy.";
+"WhereIsMyContent.text2" = "You need to find the correct button to finish the puzzle by using the Voice-Over!";
+"WhereIsMyContent.hint" = "";
+
+"FindThePassword.title" = "Find the Password";
+"FindThePassword.text1" = "You need to type in the correct password!";
+"FindThePassword.text2" = "It's as simple as that";
+"FindThePassword.comment" = "You just need to find out what the password is...";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -665,3 +677,9 @@
 "modal" = "Modal";
 "example" = "Example";
 "examples" = "Examples";
+"lobster" = "Lobster";
+"pumpkin" = "Pumpkin";
+"iceCream" = "Ice cream";
+"flag" = "Flag";
+"potato" = "Potato";
+"password" = "Password";
