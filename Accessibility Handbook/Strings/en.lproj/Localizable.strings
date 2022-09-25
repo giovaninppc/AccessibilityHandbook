@@ -623,7 +623,6 @@
 "WhereIsMyContent.title" = "Where is my content?";
 "WhereIsMyContent.text1" = "This puzzle is pretty easy.";
 "WhereIsMyContent.text2" = "You need to find the correct button to finish the puzzle by using the Voice-Over!";
-"WhereIsMyContent.hint" = "";
 
 "FindThePassword.title" = "Find the Password";
 "FindThePassword.text1" = "You need to type in the correct password!";

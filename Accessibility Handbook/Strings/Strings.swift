@@ -1330,8 +1330,6 @@ internal enum L10n {
   }
 
   internal enum WhereIsMyContent {
-    /// 
-    internal static let hint = L10n.tr("Localizable", "WhereIsMyContent.hint")
     /// This puzzle is pretty easy.
     internal static let text1 = L10n.tr("Localizable", "WhereIsMyContent.text1")
     /// You need to find the correct button to finish the puzzle by using the Voice-Over!

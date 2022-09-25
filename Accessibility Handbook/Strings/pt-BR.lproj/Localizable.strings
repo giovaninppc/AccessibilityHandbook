@@ -29,8 +29,8 @@
 "EnableVoiceOver.text2" = "Para ativar o Voice-Over, vá nas configurações do seu dispositivo na seção de Acessibilidade.";
 "EnableVoiceOver.text3" = "Então, vá até a seção de Voice-Over e ligue a chave.";
 "EnableVoiceOver.text4" = "Como alternativa em fazer isso toda vez que você quiser ativar o leitor de tela, você pode ir na seção de 'Atalhos de Acessibilidae'.";
-"EnableVoiceOver.text5" = "Lá, seleciona quais features você quer ter acesso rápido. Não se esqueça de selecionar o Voice-Over.";
-"EnableVoiceOver.text6" = "E agora, você pode acessar quaisquer uma dessas features clicando três vezes no botão lateral do seu iPhone (o botão que trava a tela).";
+"EnableVoiceOver.text5" = "Lá, selecione quais opções você quer ter acesso rápido. Não se esqueça de selecionar o Voice-Over.";
+"EnableVoiceOver.text6" = "E agora, você pode acessar quaisquer uma dessas features clicando três vezes no botão lateral do seu dispositivo (o botão que trava a tela).";
 "EnableVoiceOver.comment" = "Além de dar um acesso rápido, ele também ajuda a desligar o Voice-Over rapidamente caso você fique travado em alguma coisa enquanto ele está ativado.";
 
 // Element Reading Order
@@ -38,7 +38,7 @@
 "ElementReadingOrder.title" = "Ordem de Leitura";
 "ElementReadingOrder.text1" = "O Voice-Over lê o conteúdo na tela seguindo a 'order de leitura natural da língua do dispositivo' ";
 "ElementReadingOrder.comment1" = "O quê?";
-"ElementReadingOrder.text2" = "Por exemplo, Português, a ordem de leitura é da esquerda para a direita, e de cima para baixo.";
+"ElementReadingOrder.text2" = "Por exemplo, em Português, a ordem de leitura é da esquerda para a direita, e de cima para baixo.";
 "ElementReadingOrder.text3" = "Então, o leitor irá seguir, ou pelo menos tentar, essa mesma ordem enquanto lê o conteúdo.";
 "ElementReadingOrder.comment2" = "Você pode mudar a ordem de leitura dos elementos... se você quiser...";
 "ElementReadingOrder.link" = "Olhe a página 'Accessibility Priority' para mais informações";
@@ -75,7 +75,7 @@
 
 // Navigation
 
-"Navigation.title" = "Navigation";
+"Navigation.title" = "Navegação";
 "Navigation.text1" = "The Voice-Over navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.";
 "Navigation.text2" = "Once enabled, the Voice-Over will display a frame on top of the current view that is being read. This frame is called 'Cursor'.";
 "Navigation.text3" = "To navigate basically means changing the cursor's position, so it will read another element.";
@@ -615,100 +615,99 @@
 
 // Games
 
-"GameView.comment" = "Try solving these puzzles to learn more about accessibility features!";
+"GameView.comment" = "Jogue para aprender mais sobre acessibilidade!";
 
-"GameCell.finishedHint" = "You have already succeeded in this puzzle!";
-"GameCell.unfinishedHint" = "You haven't finished this puzzle yet";
+"GameCell.finishedHint" = "Você já terminou este daqui!";
+"GameCell.unfinishedHint" = "Você ainda não terminou este jogo.";
 
-"WhereIsMyContent.title" = "Where is my content?";
-"WhereIsMyContent.text1" = "This puzzle is pretty easy.";
-"WhereIsMyContent.text2" = "You need to find the correct button to finish the puzzle by using the Voice-Over!";
-"WhereIsMyContent.hint" = "";
+"WhereIsMyContent.title" = "Cadê o texto?";
+"WhereIsMyContent.text1" = "Esse jogo é fácil.";
+"WhereIsMyContent.text2" = "Você precisa encontrar o botão correto usando o Voice-Over!";
 
-"FindThePassword.title" = "Find the Password";
-"FindThePassword.text1" = "You need to type in the correct password!";
-"FindThePassword.text2" = "It's as simple as that";
-"FindThePassword.comment" = "You just need to find out what the password is...";
+"FindThePassword.title" = "Encontre a senha";
+"FindThePassword.text1" = "Digite a senha correta!";
+"FindThePassword.text2" = "É só isso";
+"FindThePassword.comment" = "Você só tem que descobrir qual a senha...";
 
-"BePatient.title" = "Be Patient";
-"BePatient.text" = "Tap the elements in the correct order!";
-"BePatient.comment" = "Pacience is the key...";
+"BePatient.title" = "Paciência";
+"BePatient.text" = "Toque nos elementos na ordem correta!";
+"BePatient.comment" = "Paciência é a chave.";
 
 "Impostor.title" = "Impostor";
-"Impostor.text" = "Find the impostor, and type it's name!";
-"Impostor.comment" = "Ask them, maybe they'll tell you.";
-"Impostor.field" = "Type the impostor's name";
-"Impostor.hint" = "I'm not the impostor";
-"Impostor.impostor" = "Yes, I'm the impostor";
+"Impostor.text" = "Encontre o impostor e digite o nome dele!";
+"Impostor.comment" = "Pergunta lá, talvez eles digam alguma coisa.";
+"Impostor.field" = "Digite o nome do impostor";
+"Impostor.hint" = "Eu não sou o impostor.";
+"Impostor.impostor" = "Sim, eu sou o impostor.";
 
-"Invisibility.title" = "Invisibility";
-"Invisibility.text" = "Just because you can't see, doens't mean it's not there.";
-"Invisibility.comment" = "Wait... Is this content TRANSPARENT?";
-"Invisibility.transparent" = "Wait... Is this content TRANSPARENT?";
+"Invisibility.title" = "Invisibilidade";
+"Invisibility.text" = "Só porque VOCÊ não consegue ver, não significa que não está lá.";
+"Invisibility.comment" = "Espera... Esse conteúdo é TRANSPARENTE?";
+"Invisibility.transparent" = "Espera... Esse conteúdo é TRANSPARENTE?";
 
 "Impostor2.title" = "Impostor 2.0";
-"Impostor2.text" = "Find the impostor, and type it's name!";
-"Impostor2.comment" = "Ask them, maybe they'll tell you.";
-"Impostor2.field" = "Type the impostor's name";
+"Impostor2.text" = "Encontre o impostor e digite o nome dele!";
+"Impostor2.comment" = "Pergunta lá, talvez eles digam alguma coisa.";
+"Impostor2.field" = "Digite o nome do impostor";
 
-"TheMagicPuzzle.title" = "The 'Magic' Puzzle";
-"TheMagicPuzzle.text" = "This puzzle is Magic!";
-"TheMagicPuzzle.comment" = "I don't know what else to tell you...";
+"TheMagicPuzzle.title" = "Quebra cabeça 'Mágico'";
+"TheMagicPuzzle.text" = "Esse jogo é mágico!";
+"TheMagicPuzzle.comment" = "Eu não sei o que mais te dizer...";
 
-"SecretActions.title" = "Secret Actions";
-"SecretActions.text" = "Feed each animal the correct food!";
-"SecretActions.comment" = "Don't worry, they'll tell you what they like.";
-"SecretActions.Action.apples" = "Give Apples";
-"SecretActions.Action.grass" = "Give Grass";
-"SecretActions.Action.bubbles" = "Give Bubbles";
-"SecretActions.Action.nectar" = "Give Nectar";
+"SecretActions.title" = "Ações secretas";
+"SecretActions.text" = "Alimente cada animal com a comida correta!";
+"SecretActions.comment" = "Não se preocupe, eles vão dizer do que gostam.";
+"SecretActions.Action.apples" = "Dar maçãs";
+"SecretActions.Action.grass" = "Dar grama";
+"SecretActions.Action.bubbles" = "Dar bolhas";
+"SecretActions.Action.nectar" = "Dar Néctar";
 
-"FillTheCup.title" = "Fill the Cup";
-"FillTheCup.text" = "Fill the circles all the way up!";
-"FillTheCup.comment" = "You just need to find a way to do it";
+"FillTheCup.title" = "Copo cheio";
+"FillTheCup.text" = "Encha os cículos até o final!";
+"FillTheCup.comment" = "Você só tem que encontrar uma forma de fazer isso";
 
-"AColorfulMessage.title" = "A 'Colorful' Message";
-"AColorfulMessage.text" = "Type in the correct password!";
-"AColorfulMessage.comment" = "It is a 6 digit password";
+"AColorfulMessage.title" = "Uma mensagem 'Colorida'";
+"AColorfulMessage.text" = "Digite a senha correta!";
+"AColorfulMessage.comment" = "É uma senha de 6 dígitos";
 
-"TheUpsideDown.title" = "The Upside Down";
-"TheUpsideDown.text1" = "Maybe there is a way to see it.";
-"TheUpsideDown.text2" = "I feel so inverted";
+"TheUpsideDown.title" = "O mundo invertido";
+"TheUpsideDown.text1" = "Talvez haja uma maneira de ver...";
+"TheUpsideDown.text2" = "Ai, eu to tão invertida!";
 
-"SuperFriend.title" = "Super Friend";
-"SuperFriend.text" = "Everyone here is so friendly,";
-"SuperFriend.comment" = "Find the person with the biggest amount of friends!";
-"SuperFriend.field" = "Super Friend name";
+"SuperFriend.title" = "Super amigo";
+"SuperFriend.text" = "Todos aqui são muito amigáveis,";
+"SuperFriend.comment" = "Encontre a pessoa com o maior número de amigos!";
+"SuperFriend.field" = "Nome do super amigo";
 
 // Actions
 
-"doubleTapToCopy" = "Tap twice to copy";
-"appleDoc" = " See more on Apple's documentation for \"%@\"";
-"nextPage" = "Next page %@";
-"backToIndex" = "Back to Index";
-"goPlay" = "Go play it!";
-"moreOnWikipedia" = "More on Wikipedia";
-"more" = "More";
-"moreOnTheWeb" = "More on the Web";
-"dedicatedPage" = "Dedicated page";
-"select" = "Select";
-"delete" = "Delete";
-"edit" = "Edit";
-"selected" = "Selected";
-"deleted" = "Deleted";
-"edited" = "Edited";
-"handleAction" = "Handle Action";
-"dismiss" = "Dismiss";
-"goBack" = "Go Back";
-"tapToWin" = "Tap to win";
+"doubleTapToCopy" = "Toque duas vezes para copiar";
+"appleDoc" = " Veja mais na documentação da Apple para \"%@\"";
+"nextPage" = "Próxima página %@";
+"backToIndex" = "Voltar ao índice";
+"goPlay" = "Vá jogar!";
+"moreOnWikipedia" = "Mais na Wikipedia";
+"more" = "Mais";
+"moreOnTheWeb" = "Veja mais na internet";
+"dedicatedPage" = "Página dedicada";
+"select" = "Selecionar";
+"delete" = "Deletar";
+"edit" = "Editar";
+"selected" = "Selecionado";
+"deleted" = "Deletado";
+"edited" = "Editado";
+"handleAction" = "Tratar ação";
+"dismiss" = "Fechar";
+"goBack" = "Voltar";
+"tapToWin" = "Toque para vencer";
 
 // Code
 
-"codeCopied" = "Code copied!";
-"copyCode" = "Copy Code";
-"closeCodeView" = "Close code view";
-"codeExample" = "%@ code example.";
-"codeHint" = "Tap twice to open code in full screen, and tap three times to copy.";
+"codeCopied" = "Código copiado!";
+"copyCode" = "Copiar código";
+"closeCodeView" = "Fechar código";
+"codeExample" = "exemplo de código %@";
+"codeHint" = "Toque duas vezes para ver o código em tela cheia, ou toque três vezes parta copiar.";
 
 // Some nouns
 
