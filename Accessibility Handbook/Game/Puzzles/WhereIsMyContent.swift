@@ -29,7 +29,7 @@ struct WhereIsMyContent: GamePage, View {
         Text(L10n.iceCream)
           .foregroundColor(.background)
           .accessibilityAddTraits(.isButton)
-          .accessibilityHint(L10n.WhereIsMyContent.hint)
+          .accessibilityHint(L10n.tapToWin)
           .accessibilityAction {
             UIAccessibility.post(notification: .screenChanged, argument: nil)
             GameStates.whereIsMyContentCompleted = true
