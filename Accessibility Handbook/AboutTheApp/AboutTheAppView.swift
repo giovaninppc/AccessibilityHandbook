@@ -21,7 +21,7 @@ struct AboutTheAppView: View, Page {
       }
       .padding()
     }
-    .navigationTitle("About the app")
+    .navigationTitle(title)
   }
 
   private var history: some View {

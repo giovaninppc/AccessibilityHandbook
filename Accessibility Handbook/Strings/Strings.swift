@@ -120,6 +120,61 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AccLabel.title")
   }
 
+  internal enum Collaboration {
+    /// Check our GitHub project!
+    internal static let githubPreoject = L10n.tr("Localizable", "Collaboration.githubPreoject")
+    /// License
+    internal static let license = L10n.tr("Localizable", "Collaboration.license")
+    /// Submit a feature request!
+    internal static let submitFeatureRequest = L10n.tr("Localizable", "Collaboration.submitFeatureRequest")
+    /// Submit an issue report!
+    internal static let submitIssue = L10n.tr("Localizable", "Collaboration.submitIssue")
+    /// Submit a Pull Request with the changes!
+    internal static let submitPR = L10n.tr("Localizable", "Collaboration.submitPR")
+    /// Collaboration
+    internal static let title = L10n.tr("Localizable", "Collaboration.title")
+    internal enum Issue {
+      /// 
+      internal static let text1 = L10n.tr("Localizable", "Collaboration.Issue.text1")
+      /// 
+      internal static let text2 = L10n.tr("Localizable", "Collaboration.Issue.text2")
+      /// Foudn an issue?
+      internal static let title = L10n.tr("Localizable", "Collaboration.Issue.title")
+    }
+    internal enum OpenSource {
+      /// 
+      internal static let comment1 = L10n.tr("Localizable", "Collaboration.OpenSource.comment1")
+      /// 
+      internal static let text1 = L10n.tr("Localizable", "Collaboration.OpenSource.text1")
+      /// 
+      internal static let text2 = L10n.tr("Localizable", "Collaboration.OpenSource.text2")
+      /// 
+      internal static let text3 = L10n.tr("Localizable", "Collaboration.OpenSource.text3")
+      /// OpenSource
+      internal static let title = L10n.tr("Localizable", "Collaboration.OpenSource.title")
+    }
+    internal enum Suggestion {
+      /// 
+      internal static let text1 = L10n.tr("Localizable", "Collaboration.Suggestion.text1")
+      /// 
+      internal static let text2 = L10n.tr("Localizable", "Collaboration.Suggestion.text2")
+      /// 
+      internal static let text3 = L10n.tr("Localizable", "Collaboration.Suggestion.text3")
+      /// Want to see something specific?
+      internal static let title = L10n.tr("Localizable", "Collaboration.Suggestion.title")
+    }
+    internal enum Translate {
+      /// 
+      internal static let comment = L10n.tr("Localizable", "Collaboration.Translate.comment")
+      /// 
+      internal static let text1 = L10n.tr("Localizable", "Collaboration.Translate.text1")
+      /// 
+      internal static let text2 = L10n.tr("Localizable", "Collaboration.Translate.text2")
+      /// Help us translate
+      internal static let title = L10n.tr("Localizable", "Collaboration.Translate.title")
+    }
+  }
+
   internal enum ColorsGuide {
     /// Introduction
     internal static let introduction = L10n.tr("Localizable", "ColorsGuide.introduction")

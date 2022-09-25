@@ -84,6 +84,32 @@
 "AboutColors.higColors" = "Human Interface Guidelines - Colors";
 "AboutColors.image" = "Image of pretty colors";
 
+// Collaboration
+
+"Collaboration.title" = "Collaboration";
+"Collaboration.OpenSource.title" = "OpenSource";
+"Collaboration.OpenSource.text1" = "Yep, the Handbook is an Open Source project!";
+"Collaboration.OpenSource.text2" = "The idea is that the app's code can be used as examples. Take a look into the code,";
+"Collaboration.OpenSource.comment1" = "It's not perfect, and it's a little weird in some places... I know that, ok?";
+"Collaboration.OpenSource.text3" = "But fell free to suggest changes, fix some bugs and identify issues on our GitHub project!";
+"Collaboration.githubPreoject" = "Check our GitHub project!";
+"Collaboration.license" = "License";
+"Collaboration.Issue.title" = "Found an issue?";
+"Collaboration.Issue.text1" = "Report to us on our GitHub project!";
+"Collaboration.Issue.text2" = "It could be some translation problem, some accessibility issue (nobody's perfect, okay?), or anything at all!";
+"Collaboration.submitIssue" = "Submit an issue report!";
+"Collaboration.Translate.title" = "Help us translate";
+"Collaboration.Translate.text1" = "If you are a developer and would like to bring the handbook closer to your community and your peers, consider helping us translating the app to other languages!";
+"Collaboration.Translate.text2" = "You can get the project on GitHub and open a Pull Requets translating the content!";
+"Collaboration.Translate.comment" = "It's a lot of stuff... I know, but the more the merrier!";
+"Collaboration.submitPR" = "Submit a Pull Request with the changes!";
+"Collaboration.Suggestion.title" = "Want to see something specific?";
+"Collaboration.Suggestion.text1" = "Maybe you have something that you wanted to know that is not present on the app";
+"Collaboration.Suggestion.text2" = "Or you'd like to suggest a new puzzle to add to the games.";
+"Collaboration.Suggestion.text3" = "Fell free to tell us ay idea you have!";
+"Collaboration.submitFeatureRequest" = "Submit a feature request!";
+
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
