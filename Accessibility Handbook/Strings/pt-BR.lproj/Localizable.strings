@@ -13,7 +13,7 @@
 
 "Home.developmentGuides" = "Guia de Desenvolvimento";
 "Home.handbookGame" = "Jogos do Handbook";
-"Home.handbookGameDescription" = "Teste seu conhecimebnto de acessibilidade com uma série de jogos!";
+"Home.handbookGameDescription" = "Teste seu conhecimento de acessibilidade com uma série de jogos!";
 "Home.dynamicFonts" = "Fontes dinâmicas";
 "Home.otherFeatures" = "Outras features";
 "Home.collaborate" = "Colabore";
@@ -28,7 +28,7 @@
 "EnableVoiceOver.text1" = "Voice-Over é o nome do leitor de tela nativo do iOS. Usado para prover acessibilidade para deficientes visuais.";
 "EnableVoiceOver.text2" = "Para ativar o Voice-Over, vá nas configurações do seu dispositivo na seção de Acessibilidade.";
 "EnableVoiceOver.text3" = "Então, vá até a seção de Voice-Over e ligue a chave.";
-"EnableVoiceOver.text4" = "Como alternativa em fazer isso toda vez que você quiser ativar o leitor de tela, você pode ir na seção de 'Atalhos de Acessibilidae'.";
+"EnableVoiceOver.text4" = "Como alternativa a fazer isso toda vez que você quiser ativar o leitor de tela, você pode ir na seção de 'Atalhos de Acessibilidade'.";
 "EnableVoiceOver.text5" = "Lá, selecione quais opções você quer ter acesso rápido. Não se esqueça de selecionar o Voice-Over.";
 "EnableVoiceOver.text6" = "E agora, você pode acessar quaisquer uma dessas features clicando três vezes no botão lateral do seu dispositivo (o botão que trava a tela).";
 "EnableVoiceOver.comment" = "Além de dar um acesso rápido, ele também ajuda a desligar o Voice-Over rapidamente caso você fique travado em alguma coisa enquanto ele está ativado.";
@@ -36,11 +36,11 @@
 // Element Reading Order
 
 "ElementReadingOrder.title" = "Ordem de Leitura";
-"ElementReadingOrder.text1" = "O Voice-Over lê o conteúdo na tela seguindo a 'order de leitura natural da língua do dispositivo' ";
+"ElementReadingOrder.text1" = "O Voice-Over lê o conteúdo na tela seguindo a 'ordem de leitura natural da língua do dispositivo' ";
 "ElementReadingOrder.comment1" = "O quê?";
-"ElementReadingOrder.text2" = "Por exemplo, em Português, a ordem de leitura é da esquerda para a direita, e de cima para baixo.";
+"ElementReadingOrder.text2" = "Por exemplo, em Português, a ordem de leitura é da esquerda para a direita, e de cima para baixo. Já em japonês é da direita para a esquerda e de cima para baixo.";
 "ElementReadingOrder.text3" = "Então, o leitor irá seguir, ou pelo menos tentar, essa mesma ordem enquanto lê o conteúdo.";
-"ElementReadingOrder.comment2" = "Você pode mudar a ordem de leitura dos elementos... se você quiser...";
+"ElementReadingOrder.comment2" = "Você pode mudar a ordem de leitura dos elementos, se você quiser.";
 "ElementReadingOrder.link" = "Olhe a página 'Accessibility Priority' para mais informações";
 "ElementReadingOrder.text4" = "E quando estamos falando de apenas um elemento focado (Onde o cursor está focado no momento)";
 "ElementReadingOrder.text5" = "O conteúdo desse elemento será lido na seguinte ordem:";
