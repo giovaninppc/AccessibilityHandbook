@@ -16,11 +16,11 @@ struct Code: View {
   @State private var sheet = false
 
   static func uikit(_ code: String) -> Code {
-    .init(code: code, icon: "uiwindow.split.2x1", title: "UIKit")
+    .init(code: code, icon: "uiwindow.split.2x1", title: L10n.uikit)
   }
 
   static func swiftUI(_ code: String) -> Code {
-    .init(code: code, icon: "swift", title: "SwiftUI")
+    .init(code: code, icon: "swift", title: L10n.swiftUI)
   }
 
   var body: some View {
@@ -31,7 +31,7 @@ struct Code: View {
       }
     }
     .sheet(isPresented: $sheet) {
-      CodePreview(code: code ?? "Code example", title: title, icon: icon)
+      CodePreview(code: code ?? L10n.codeExample(""), title: title, icon: icon)
     }
   }
 
@@ -51,8 +51,8 @@ private extension Code {
     .background { background }
     .overlay { overlay }
     .accessibilityElement(children: .combine)
-    .accessibilityLabel(Text("\(title ?? "") code example."))
-    .accessibilityHint(Text("Tap twice to open code in full screen, and tap three times to copy."))
+    .accessibilityLabel(L10n.codeExample(title ?? ""))
+    .accessibilityHint(L10n.codeHint)
     .onTapGesture {
       sheet = true
     }
@@ -91,7 +91,7 @@ private extension Code {
         .background(Color.tertiaryBackground)
         .foregroundColor(.clear)
         .opacity(0.9)
-      Text("Code copied!")
+      Text(L10n.codeCopied)
         .font(.body.bold())
     }
     .opacity(copied ? 1.0 : 0.0)
@@ -109,7 +109,7 @@ private extension Code {
   private func copy(code: String) {
     UIPasteboard.general.string = code
     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-      UIAccessibility.post(notification: .announcement, argument: "Code copied!")
+      UIAccessibility.post(notification: .announcement, argument: L10n.codeCopied)
     }
   }
 

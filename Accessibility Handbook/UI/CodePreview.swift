@@ -43,7 +43,7 @@ private extension CodePreview {
       } label: {
         Icon.close
       }
-      .accessibilityLabel("Close code view")
+      .accessibilityLabel(L10n.closeCodeView)
     }
     .padding()
   }
@@ -81,7 +81,7 @@ private extension CodePreview {
       } label: {
         HStack {
           Icon.copy
-          Text("Copy code")
+          Text(L10n.copyCode)
         }
       }
       .toAny()
@@ -91,7 +91,7 @@ private extension CodePreview {
   func copy(code: String) {
     UIPasteboard.general.string = code
     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-      UIAccessibility.post(notification: .announcement, argument: "Code copied!")
+      UIAccessibility.post(notification: .announcement, argument: L10n.codeCopied)
     }
   }
 }

@@ -608,6 +608,14 @@
 "example" = "Example";
 "examples" = "Examples";
 
+// Code
+
+"codeCopied" = "Code copied!";
+"copyCode" = "Copy Code";
+"closeCodeView" = "Close code view";
+"codeExample" = "%@ code example.";
+"codeHint" = "Tap twice to open code in full screen, and tap three times to copy.";
+
 // Some nouns
 
 "freeShipping" = "Free shipping";

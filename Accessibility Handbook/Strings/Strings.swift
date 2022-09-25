@@ -20,12 +20,24 @@ internal enum L10n {
   internal static let backToIndex = L10n.tr("Localizable", "backToIndex")
   /// Bold text
   internal static let boldText = L10n.tr("Localizable", "boldText")
+  /// Close code view
+  internal static let closeCodeView = L10n.tr("Localizable", "closeCodeView")
   /// Cloud
   internal static let cloud = L10n.tr("Localizable", "cloud")
+  /// Code copied!
+  internal static let codeCopied = L10n.tr("Localizable", "codeCopied")
+  /// %@ code example.
+  internal static func codeExample(_ p1: Any) -> String {
+    return L10n.tr("Localizable", "codeExample", String(describing: p1))
+  }
+  /// Tap twice to open code in full screen, and tap three times to copy.
+  internal static let codeHint = L10n.tr("Localizable", "codeHint")
   /// Color Accessibility Features
   internal static let colorAccessibilityFeatures = L10n.tr("Localizable", "ColorAccessibilityFeatures")
   /// Content Hierarchy
   internal static let contentHiererachy = L10n.tr("Localizable", "ContentHiererachy")
+  /// Copy Code
+  internal static let copyCode = L10n.tr("Localizable", "copyCode")
   /// Dedicated page
   internal static let dedicatedPage = L10n.tr("Localizable", "dedicatedPage")
   /// Delete
@@ -1086,9 +1098,9 @@ internal enum L10n {
       internal static let text2 = L10n.tr("Localizable", "RotorAndHeaders.Example.text2")
     }
     internal enum Header {
-      /// 
+      /// The accessibility trait 'header' is important to mark the beggining of a new content section, but also its important to notice how it affects the user's navigation with the Rotor.
       internal static let text1 = L10n.tr("Localizable", "RotorAndHeaders.Header.text1")
-      /// 
+      /// If you haven't seen the 'Header Trait page', take a look to leanr more about it!
       internal static let text2 = L10n.tr("Localizable", "RotorAndHeaders.Header.text2")
     }
     internal enum Rotor {
@@ -1096,13 +1108,13 @@ internal enum L10n {
       internal static let text = L10n.tr("Localizable", "RotorAndHeaders.Rotor.text")
     }
     internal enum Together {
-      /// 
+      /// If you enable the rotor, you may notice it has the 'Header' options
       internal static let text1 = L10n.tr("Localizable", "RotorAndHeaders.Together.text1")
-      /// 
+      /// When selected, this option will allow you to navigate only on headers by swiping up and down on your device.
       internal static let text2 = L10n.tr("Localizable", "RotorAndHeaders.Together.text2")
-      /// 
+      /// This is extremely useful to find specific content among many other things.
       internal static let text3 = L10n.tr("Localizable", "RotorAndHeaders.Together.text3")
-      /// 
+      /// What about them together?
       internal static let title = L10n.tr("Localizable", "RotorAndHeaders.Together.title")
     }
   }
