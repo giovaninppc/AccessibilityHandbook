@@ -83,7 +83,7 @@
 		3FBF05DE28DB5DC100DA5BF5 /* Impostor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */; };
 		3FBF05E128DB5FF600DA5BF5 /* NotificationsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E028DB5FF600DA5BF5 /* NotificationsSection.swift */; };
 		3FBF05E428DB602000DA5BF5 /* NotifyScreenChangesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E328DB602000DA5BF5 /* NotifyScreenChangesPage.swift */; };
-		3FBF05E628DB639300DA5BF5 /* InverColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E528DB639300DA5BF5 /* InverColorsPage.swift */; };
+		3FBF05E628DB639300DA5BF5 /* InvertColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E528DB639300DA5BF5 /* InvertColorsPage.swift */; };
 		3FBF05E828DB641D00DA5BF5 /* Invisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E728DB641D00DA5BF5 /* Invisibility.swift */; };
 		3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05E928DB699200DA5BF5 /* IncreaseContrastPage.swift */; };
 		3FBF05EC28DB6B0C00DA5BF5 /* Impostor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF05EB28DB6B0C00DA5BF5 /* Impostor2.swift */; };
@@ -190,7 +190,7 @@
 		3FBF05DD28DB5DC100DA5BF5 /* Impostor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impostor.swift; sourceTree = "<group>"; };
 		3FBF05E028DB5FF600DA5BF5 /* NotificationsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsSection.swift; sourceTree = "<group>"; };
 		3FBF05E328DB602000DA5BF5 /* NotifyScreenChangesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyScreenChangesPage.swift; sourceTree = "<group>"; };
-		3FBF05E528DB639300DA5BF5 /* InverColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverColorsPage.swift; sourceTree = "<group>"; };
+		3FBF05E528DB639300DA5BF5 /* InvertColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertColorsPage.swift; sourceTree = "<group>"; };
 		3FBF05E728DB641D00DA5BF5 /* Invisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invisibility.swift; sourceTree = "<group>"; };
 		3FBF05E928DB699200DA5BF5 /* IncreaseContrastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseContrastPage.swift; sourceTree = "<group>"; };
 		3FBF05EB28DB6B0C00DA5BF5 /* Impostor2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impostor2.swift; sourceTree = "<group>"; };
@@ -538,7 +538,7 @@
 			children = (
 				3FBF05CB28DB510A00DA5BF5 /* ReduceTransparencyPage.swift */,
 				3FBF05D328DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift */,
-				3FBF05E528DB639300DA5BF5 /* InverColorsPage.swift */,
+				3FBF05E528DB639300DA5BF5 /* InvertColorsPage.swift */,
 				3FBF05E928DB699200DA5BF5 /* IncreaseContrastPage.swift */,
 			);
 			path = Pages;
@@ -745,7 +745,7 @@
 				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift in Sources */,
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
-				3FBF05E628DB639300DA5BF5 /* InverColorsPage.swift in Sources */,
+				3FBF05E628DB639300DA5BF5 /* InvertColorsPage.swift in Sources */,
 				3FBF05E428DB602000DA5BF5 /* NotifyScreenChangesPage.swift in Sources */,
 				3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,

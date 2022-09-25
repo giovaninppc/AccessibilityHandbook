@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct IncreaseContrastPage: View, Page {
-  var title: String = "Increase Contrast"
+  var title: String = L10n.IncreaseContrast.title
 
   let link = """
   https://developer.apple.com/documentation/uikit/uiaccessibilitycontrast
@@ -30,18 +30,18 @@ struct IncreaseContrastPage: View, Page {
 private extension IncreaseContrastPage {
   var intro: some View {
     Group {
-      Text("Another accessibility option the user can enable on the device's settings.")
-      ExternalLink(link: UIApplication.openSettingsURLString, title: "Open settings")
-      Text("This one is also kinda obvious, the user is requesting to enhance contrast between foreground and background colors, so it gets easier to distinguish between them.")
+      Text(L10n.IncreaseContrast.Intro.text1)
+      ExternalLink(link: UIApplication.openSettingsURLString, title: L10n.openSettings)
+      Text(L10n.IncreaseContrast.Intro.text2)
     }
   }
 
   var property: some View {
     Group {
-      Title("Handling contrast changes")
-      Text("An easy way to support this is by using 'System Colors'. They will automatically adapt to the increase contrast.")
-      Comment("This app was built using system colors! Change the contrast options on your device's settings and check the differences!")
-      Text("Or you can use the 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' boolen to check the current contrast state, and act accordingly.")
+      Title(L10n.IncreaseContrast.Property.title)
+      Text(L10n.IncreaseContrast.Property.text1)
+      Comment(L10n.IncreaseContrast.Property.comment1)
+      Text(L10n.IncreaseContrast.Property.text2)
       Code.uikit(
         """
         if UIAccessibility.accessibilityDisplayShouldIncreaseContrast {
@@ -56,7 +56,7 @@ private extension IncreaseContrastPage {
 
   var swiftUI: some View {
     Group {
-      Text("And in SwiftUI, there is a neat contrast tool you can use to change the contrast on your views")
+      Text(L10n.IncreaseContrast.SwiftUI.text1)
       VerticalSpace(.regular)
       example
       VerticalSpace(.regular)
@@ -66,8 +66,8 @@ private extension IncreaseContrastPage {
         .contrast(<Double>)
         """
       )
-      Comment("Not that I have really used this contrast tool in any real project.")
-      DocButton(link: "https://developer.apple.com/documentation/swiftui/view/contrast(_:)/", title: "Contrast")
+      Comment(L10n.IncreaseContrast.SwiftUI.comment1)
+      DocButton(link: "https://developer.apple.com/documentation/swiftui/view/contrast(_:)/", title: title)
     }
   }
 
@@ -85,7 +85,7 @@ private extension IncreaseContrastPage {
       .toAny()
     }
     .accessibilityElement(children: .combine)
-    .accessibilityLabel("Example of using the contrast tool. There are 6 images with increasing contrast.")
+    .accessibilityLabel(L10n.IncreaseContrast.example)
   }
 
   var circle: some View {

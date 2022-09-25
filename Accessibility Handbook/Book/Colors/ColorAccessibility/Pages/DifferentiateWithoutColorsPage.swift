@@ -24,24 +24,24 @@ struct DifferentiateWithoutColorsPage: View, Page {
 private extension DifferentiateWithoutColorsPage {
   var intro: some View {
     Group {
-      Text("The Differentiate Without Colors, is the way the user can ask to, well, do not use only colors to differentiate content.")
-      Text("On code, it's basically going to be a boolean you can check if the user enabled this feature or not.")
-      Comment("Although, most of the time, it is a good practice to not use only colors to differentiate content. This is the kind of issue that can be prevented on the 'design step', while planning your app or your feature, and before implementing it.")
-      Text("This feature can be enabled on the device's settings at the Accessibility section.")
-      ExternalLink(link: UIApplication.openSettingsURLString, title: "Open settings")
-      Text("Here's a classic example, the wire game! Where you need to connect the wires with the same color on both sides of the screen.")
-      Text("By adding icons next to the wires, you make sure the game does not rely only on color coding to be played.")
+      Text(L10n.Differentiate.Intro.text1)
+      Text(L10n.Differentiate.Intro.text2)
+      Comment(L10n.Differentiate.Intro.comment1)
+      Text(L10n.Differentiate.Intro.text3)
+      ExternalLink(link: UIApplication.openSettingsURLString, title: L10n.openSettings)
+      Text(L10n.Differentiate.Intro.text4)
+      Text(L10n.Differentiate.Intro.text5)
       Asset.coloblindWireGame.swiftUIImage
         .resizable()
         .aspectRatio(contentMode: .fit)
-        .accessibilityLabel("Image of the Among Us game wire game with multiple color blindness filters applyed.")
-      Comment("A nice example is the game 'Among Us'. On the image above, from left-to-right then top-to-bottom: no filter, deuteranopia filter, protanopia filter, tritanopia filter. These weird names are the names of some color blindness types.")
+        .accessibilityLabel(L10n.Differentiate.Intro.image)
+      Comment(L10n.Differentiate.Intro.comment2)
     }
   }
 
   var handling: some View {
     Group {
-      Text("To check if the feature is enabled, you can check 'UIAccessibility.shouldDifferentiateWithoutColor'")
+      Text(L10n.Differentiate.Handle.text1)
       Code.uikit(
         """
         if UIAccessibility.shouldDifferentiateWithoutColor {
@@ -49,7 +49,7 @@ private extension DifferentiateWithoutColorsPage {
         }
         """
       )
-      Text("And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.")
+      Text(L10n.Differentiate.Handle.text2)
       Code.uikit(
         """
         NotificationCenter
@@ -63,7 +63,7 @@ private extension DifferentiateWithoutColorsPage {
         }
         """
       )
-      Text("And you can use an Environment property in SwiftUI for the same purpose.")
+      Text(L10n.Differentiate.Handle.text3)
       Code.swiftUI(
         """
         @Environment(\\.accessibilityDifferentiateWithoutColor)

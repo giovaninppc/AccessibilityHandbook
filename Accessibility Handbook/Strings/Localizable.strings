@@ -175,6 +175,19 @@
 
 "Differentiate.title" = "Differentiate without colors";
 
+"Differentiate.Intro.text1" = "The Differentiate Without Colors, is the way the user can ask to, well, do not use only colors to differentiate content.";
+"Differentiate.Intro.text2" = "On code, it's basically going to be a boolean you can check if the user enabled this feature or not.";
+"Differentiate.Intro.comment1" = "Although, most of the time, it is a good practice to not use only colors to differentiate content. This is the kind of issue that can be prevented on the 'design step', while planning your app or your feature, and before implementing it.";
+"Differentiate.Intro.text3" = "This feature can be enabled on the device's settings at the Accessibility section.";
+"Differentiate.Intro.text4" = "Here's a classic example, the wire game! Where you need to connect the wires with the same color on both sides of the screen.";
+"Differentiate.Intro.text5" = "By adding icons next to the wires, you make sure the game does not rely only on color coding to be played.";
+"Differentiate.Intro.image" = "Image of the Among Us game wire game with multiple color blindness filters applyed.";
+"Differentiate.Intro.comment2" = "A nice example is the game 'Among Us'. On the image above, from left-to-right then top-to-bottom: no filter, deuteranopia filter, protanopia filter, tritanopia filter. These weird names are the names of some color blindness types.";
+
+"Differentiate.Handle.text1" = "To check if the feature is enabled, you can check 'UIAccessibility.shouldDifferentiateWithoutColor'";
+"Differentiate.Handle.text2" = "And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.";
+"Differentiate.Handle.text3" = "And you can use an Environment property in SwiftUI for the same purpose.";
+
 // Color acc feature
 
 "ColorAccessibilityFeatures" = "Color Accessibility Features";
@@ -194,6 +207,44 @@
 "ReduceTransparency.Code.text2" = "On UIKit, you need to check a boolean on UIAccessibility to check if the feature is enabled.";
 "ReduceTransparency.Code.text3" = "And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.";
 "ReduceTransparency.Code.text4" = "And on SwiftUI you can use an Environment variable!";
+
+// Invert Colors
+
+"InvertColors.title" = "Invert Colors";
+
+"InvertColors.Intro.text1" = "Color Inversion is another accessibility option a user can enable on the device's settings.";
+"InvertColors.Intro.text2" = "There are 2 types of color inversion:";
+"InvertColors.Intro.text3" = "Classic - where everything will be inverted;";
+"InvertColors.Intro.text4" = "Smart - where (almost) everything in light mode will be inverted, and you (the developer) can choose not to.";
+"InvertColors.Intro.comment1" = "But why would anyone use this?";
+"InvertColors.Intro.text5" = "I believe it comes down to difficulties in reading dark text on top of a white background. I myself, when I'm not using glasses, I find it pretty difficult to read content like this, so I preffer the dark mode, with white text on top of a dark background.";
+"InvertColors.Intro.text6" = "The color inversion comes as an alternative to help you in this scenario.";
+
+"InvertColors.WhatToDo.title" = "What to do as a developer?";
+"InvertColors.WhatToDo.text1" = "You basically need to mark what you don't want to be inverted. Like, images, a photo of your dog, a nice hamburguer that would look gross when inverted...";
+"InvertColors.WhatToDo.text2" = "And to do so, you simply need to set a boolean telling you dont want this view to be inverted.";
+
+"InvertColors.Example.text1" = "Change the display appearance from light/dark mode and the color inversion setting and check the images below.";
+"InvertColors.Example.image1" = "Starry night, by Van Gogh";
+"InvertColors.Example.image2" = "Starry night, by Van Gogh. Image does not invert.";
+"InvertColors.Example.comment" = "Only the second image is set to not invert colors.";
+
+// Increase Contrast
+
+"IncreaseContrast.title" = "Increase Contrast";
+
+"IncreaseContrast.Intro.text1" = "Another accessibility option the user can enable on the device's settings.";
+"IncreaseContrast.Intro.text2" = "This one is also kinda obvious, the user is requesting to enhance contrast between foreground and background colors, so it gets easier to distinguish between them.";
+
+"IncreaseContrast.Property.title" = "Handling contrast changes";
+"IncreaseContrast.Property.text1" = "An easy way to support this is by using 'System Colors'. They will automatically adapt to the increase contrast.";
+"IncreaseContrast.Property.comment1" = "This app was built using system colors! Change the contrast options on your device's settings and check the differences!";
+"IncreaseContrast.Property.text2" = "Or you can use the 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' boolen to check the current contrast state, and act accordingly.";
+
+"IncreaseContrast.swiftUI.text1" = "And in SwiftUI, there is a neat contrast tool you can use to change the contrast on your views";
+"IncreaseContrast.swiftUI.comment1" = "Not that I have really used this contrast tool in any real project.";
+
+"IncreaseContrast.example" = "Example of using the contrast tool. There are 6 images with increasing contrast. ";
 
 // Actions
 

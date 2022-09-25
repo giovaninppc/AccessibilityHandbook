@@ -322,11 +322,105 @@ internal enum L10n {
   internal enum Differentiate {
     /// Differentiate without colors
     internal static let title = L10n.tr("Localizable", "Differentiate.title")
+    internal enum Handle {
+      /// To check if the feature is enabled, you can check 'UIAccessibility.shouldDifferentiateWithoutColor'
+      internal static let text1 = L10n.tr("Localizable", "Differentiate.Handle.text1")
+      /// And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.
+      internal static let text2 = L10n.tr("Localizable", "Differentiate.Handle.text2")
+      /// And you can use an Environment property in SwiftUI for the same purpose.
+      internal static let text3 = L10n.tr("Localizable", "Differentiate.Handle.text3")
+    }
+    internal enum Intro {
+      /// Although, most of the time, it is a good practice to not use only colors to differentiate content. This is the kind of issue that can be prevented on the 'design step', while planning your app or your feature, and before implementing it.
+      internal static let comment1 = L10n.tr("Localizable", "Differentiate.Intro.comment1")
+      /// A nice example is the game 'Among Us'. On the image above, from left-to-right then top-to-bottom: no filter, deuteranopia filter, protanopia filter, tritanopia filter. These weird names are the names of some color blindness types.
+      internal static let comment2 = L10n.tr("Localizable", "Differentiate.Intro.comment2")
+      /// Image of the Among Us game wire game with multiple color blindness filters applyed.
+      internal static let image = L10n.tr("Localizable", "Differentiate.Intro.image")
+      /// The Differentiate Without Colors, is the way the user can ask to, well, do not use only colors to differentiate content.
+      internal static let text1 = L10n.tr("Localizable", "Differentiate.Intro.text1")
+      /// On code, it's basically going to be a boolean you can check if the user enabled this feature or not.
+      internal static let text2 = L10n.tr("Localizable", "Differentiate.Intro.text2")
+      /// This feature can be enabled on the device's settings at the Accessibility section.
+      internal static let text3 = L10n.tr("Localizable", "Differentiate.Intro.text3")
+      /// Here's a classic example, the wire game! Where you need to connect the wires with the same color on both sides of the screen.
+      internal static let text4 = L10n.tr("Localizable", "Differentiate.Intro.text4")
+      /// By adding icons next to the wires, you make sure the game does not rely only on color coding to be played.
+      internal static let text5 = L10n.tr("Localizable", "Differentiate.Intro.text5")
+    }
   }
 
   internal enum ElementReadingOrder {
     /// Element reading order
     internal static let title = L10n.tr("Localizable", "ElementReadingOrder.title")
+  }
+
+  internal enum IncreaseContrast {
+    /// Example of using the contrast tool. There are 6 images with increasing contrast. 
+    internal static let example = L10n.tr("Localizable", "IncreaseContrast.example")
+    /// Increase Contrast
+    internal static let title = L10n.tr("Localizable", "IncreaseContrast.title")
+    internal enum Intro {
+      /// Another accessibility option the user can enable on the device's settings.
+      internal static let text1 = L10n.tr("Localizable", "IncreaseContrast.Intro.text1")
+      /// This one is also kinda obvious, the user is requesting to enhance contrast between foreground and background colors, so it gets easier to distinguish between them.
+      internal static let text2 = L10n.tr("Localizable", "IncreaseContrast.Intro.text2")
+    }
+    internal enum Property {
+      /// This app was built using system colors! Change the contrast options on your device's settings and check the differences!
+      internal static let comment1 = L10n.tr("Localizable", "IncreaseContrast.Property.comment1")
+      /// An easy way to support this is by using 'System Colors'. They will automatically adapt to the increase contrast.
+      internal static let text1 = L10n.tr("Localizable", "IncreaseContrast.Property.text1")
+      /// Or you can use the 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' boolen to check the current contrast state, and act accordingly.
+      internal static let text2 = L10n.tr("Localizable", "IncreaseContrast.Property.text2")
+      /// Handling contrast changes
+      internal static let title = L10n.tr("Localizable", "IncreaseContrast.Property.title")
+    }
+    internal enum SwiftUI {
+      /// Not that I have really used this contrast tool in any real project.
+      internal static let comment1 = L10n.tr("Localizable", "IncreaseContrast.swiftUI.comment1")
+      /// And in SwiftUI, there is a neat contrast tool you can use to change the contrast on your views
+      internal static let text1 = L10n.tr("Localizable", "IncreaseContrast.swiftUI.text1")
+    }
+  }
+
+  internal enum InvertColors {
+    /// Invert Colors
+    internal static let title = L10n.tr("Localizable", "InvertColors.title")
+    internal enum Example {
+      /// Only the second image is set to not invert colors.
+      internal static let comment = L10n.tr("Localizable", "InvertColors.Example.comment")
+      /// Starry night, by Van Gogh
+      internal static let image1 = L10n.tr("Localizable", "InvertColors.Example.image1")
+      /// Starry night, by Van Gogh. Image does not invert.
+      internal static let image2 = L10n.tr("Localizable", "InvertColors.Example.image2")
+      /// Change the display appearance from light/dark mode and the color inversion setting and check the images below.
+      internal static let text1 = L10n.tr("Localizable", "InvertColors.Example.text1")
+    }
+    internal enum Intro {
+      /// But why would anyone use this?
+      internal static let comment1 = L10n.tr("Localizable", "InvertColors.Intro.comment1")
+      /// Color Inversion is another accessibility option a user can enable on the device's settings.
+      internal static let text1 = L10n.tr("Localizable", "InvertColors.Intro.text1")
+      /// There are 2 types of color inversion:
+      internal static let text2 = L10n.tr("Localizable", "InvertColors.Intro.text2")
+      /// Classic - where everything will be inverted;
+      internal static let text3 = L10n.tr("Localizable", "InvertColors.Intro.text3")
+      /// Smart - where (almost) everything in light mode will be inverted, and you (the developer) can choose not to.
+      internal static let text4 = L10n.tr("Localizable", "InvertColors.Intro.text4")
+      /// I believe it comes down to difficulties in reading dark text on top of a white background. I myself, when I'm not using glasses, I find it pretty difficult to read content like this, so I preffer the dark mode, with white text on top of a dark background.
+      internal static let text5 = L10n.tr("Localizable", "InvertColors.Intro.text5")
+      /// The color inversion comes as an alternative to help you in this scenario.
+      internal static let text6 = L10n.tr("Localizable", "InvertColors.Intro.text6")
+    }
+    internal enum WhatToDo {
+      /// You basically need to mark what you don't want to be inverted. Like, images, a photo of your dog, a nice hamburguer that would look gross when inverted...
+      internal static let text1 = L10n.tr("Localizable", "InvertColors.WhatToDo.text1")
+      /// And to do so, you simply need to set a boolean telling you dont want this view to be inverted.
+      internal static let text2 = L10n.tr("Localizable", "InvertColors.WhatToDo.text2")
+      /// What to do as a developer?
+      internal static let title = L10n.tr("Localizable", "InvertColors.WhatToDo.title")
+    }
   }
 
   internal enum Navigation {
