@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GroupingPage: View, Page {
-  var title: String = "Grouping Elements"
+  let title: String = L10n.Grouping.title
 
   var body: some View {
     PageContent(next: nil) {
@@ -33,10 +33,10 @@ struct GroupingPage: View, Page {
 private extension GroupingPage {
   var content: some View {
     Group {
-      Text("To me, Grouping elements correctly is one of the most important parts of building a good accessible view.")
-      Text("Imagine a carousel with a bunch of cells, when using the Voice-Over, we want the cursor to focus on each individual cell, not on the cells content.")
-      Comment("This may seem obvious, but can be easily forgotten on development.")
-      Text("Turn the Voice-Over on ans check both carousels below, one has the content correctly grouped, and the other don't.")
+      Text(L10n.Grouping.text1)
+      Text(L10n.Grouping.text2)
+      Comment(L10n.Grouping.comment)
+      Text(L10n.Grouping.text3)
     }
   }
 }
@@ -46,7 +46,7 @@ private extension GroupingPage {
 private extension GroupingPage {
   var goodCarousel: some View {
     VStack(alignment: .leading, spacing: .large) {
-      Title("Good Carousel")
+      Title(L10n.Grouping.goodCarousel)
       ScrollView {
         HStack(spacing: .large) {
           goodCell
@@ -58,9 +58,9 @@ private extension GroupingPage {
 
   var goodCell: some View {
     VStack(spacing: .regular) {
-      Title("Cell Title")
-      Text("Cell content")
-      Comment("Cell comment")
+      Title(L10n.Grouping.cellTitle)
+      Text(L10n.Grouping.cellContent)
+      Comment(L10n.Grouping.cellComment)
     }
     .padding()
     .accessibilityElement(children: .combine)
@@ -76,7 +76,7 @@ private extension GroupingPage {
 private extension GroupingPage {
   var badCarousel: some View {
     VStack(alignment: .leading, spacing: .large) {
-      Title("Bad Carousel")
+      Title(L10n.Grouping.badCarousel)
       ScrollView {
         HStack(spacing: .large) {
           badCell
@@ -88,9 +88,9 @@ private extension GroupingPage {
 
   var badCell: some View {
     VStack(spacing: .regular) {
-      Title("Cell Title")
-      Text("Cell content")
-      Comment("Cell comment")
+      Title(L10n.Grouping.cellTitle)
+      Text(L10n.Grouping.cellContent)
+      Comment(L10n.Grouping.cellComment)
     }
     .padding()
     .background {
@@ -105,8 +105,8 @@ private extension GroupingPage {
 private extension GroupingPage {
   var uiKitExample: some View {
     Group {
-      Title("UIKit")
-      Text("On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.")
+      Title(L10n.uikit)
+      Text(L10n.Grouping.Uikit.text)
       Code.uikit(
         """
         myView.isAccessibilityElement = true
@@ -128,8 +128,8 @@ private extension GroupingPage {
 private extension GroupingPage {
   var swiftUIExample: some View {
     Group {
-      Title("SwiftUI")
-      Text("SwiftUI has a better wrapper to combine all children into a single accessible element.")
+      Title(L10n.swiftUI)
+      Text(L10n.Grouping.Swiftui.text)
       Code.swiftUI(
         """
         .accessibilityElement(

@@ -430,6 +430,51 @@
 "ChangeCursor.swiftui.text5" = "Now you can change the focus to the view by setting the property to 'True'.";
 "ChangeCursor.swiftui.comment" = "You can even observe this property to handle something when it focus/unfocus on it.";
 
+// Content Hierarchy
+
+"ContentHiererachy" = "Content Hierarchy";
+
+// Modal
+
+"Modal.title" = "Modal views";
+
+"Modal.Intro.text1" = "Modal Views, in this case, we are talking about any view that is displayed on top of existing content. Banners, toasts, floating buttons...";
+"Modal.Intro.text2" = "The problem is: The Voice-Over will try to use the language's Natural reading directions to read the content, and even if your view is on top of every other view, the Voice-Over will still focus on the content behind it.";
+"Modal.Intro.text3" = "To prevent this issue, we can mark a view as being a 'Modal'. This will make the Voice-Over focus only on that view while it's being presented.";
+"Modal.Intro.comment1" = "But handling Modals has some differences in UIKit and SwiftUI, so I'm splitting into a section for each one here.";
+"Modal.Intro.link" = "Read more on reading order.";
+
+"Modal.uikit.text1" = "On UIKit, every UIView has the property 'accessibilityViewIsModal'. And we need to set it to 'True' if we want to mark a view as being a modal.";
+"Modal.uikit.text2" = "But, on my experience, I find that simply setting it to 'True' sometimes does not have the expected behavior.";
+"Modal.uikit.text3" = "I suggest overriding this property on the Modal View's class, and set it to the correct value.";
+
+"Modal.swiftui.text1" = "On SwiftUI the 'Modal' can be set as it was an accessibility trait.";
+
+"Modal.example.text1" = "Turn the Voice-Over on and test the modals below.";
+"Modal.example.goodModal" = "Good modal";
+"Modal.example.thisGoodModal" = "This is a Good modal";
+"Modal.example.badModal" = "This is a Bad modal";
+"Modal.example.thisBadModal" = "Bad modal";
+"Modal.example.comment" = "Noticed that when opening the good modal, the cursor focused directly on it? It is important when displaying a modal on top of existing content that we do that.";
+"Modal.example.link" = "Learn more about it on the Notifications section.";
+
+// Grouping
+
+"Grouping.title" = "Grouping Elements";
+"Grouping.text1" = "To me, Grouping elements correctly is one of the most important parts of building a good accessible view.";
+"Grouping.text2" = "Imagine a carousel with a bunch of cells, when using the Voice-Over, we want the cursor to focus on each individual cell, not on the cells content.";
+"Grouping.comment" = "This may seem obvious, but can be easily forgotten on development.";
+"Grouping.text3" = "Turn the Voice-Over on ans check both carousels below, one has the content correctly grouped, and the other don't.";
+
+"Grouping.goodCarousel" = "Good Carousel";
+"Grouping.badCarousel" = "Bad Carousel";
+"Grouping.cellTitle" = "Cell title";
+"Grouping.cellContent" = "Cell content";
+"Grouping.cellComment" = "Cell comment";
+
+"Grouping.uikit.text" = "On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.";
+"Grouping.swiftui.text" = "SwiftUI has a better wrapper to combine all children into a single accessible element.";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -448,6 +493,8 @@
 "deleted" = "Deleted";
 "edited" = "Edited";
 "handleAction" = "Handle Action";
+"example" = "Example";
+"examples" = "Examples";
 
 // Some nouns
 
@@ -471,3 +518,5 @@
 "interactrion" = "Interaction";
 "uikit" = "UIKit";
 "swiftUI" = "SwiftUI";
+"modal" = "Modal";
+"dismiss" = "Dismiss";

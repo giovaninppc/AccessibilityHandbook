@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ModalViewPage: View, Page {
-  var title: String = "Modal Views"
+  let title: String = L10n.Modal.title
 
   let link: String = """
   https://developer.apple.com/documentation/objectivec/nsobject/1615089-accessibilityviewismodal
@@ -46,20 +46,20 @@ struct ModalViewPage: View, Page {
 
   private var intro: some View {
     Group {
-      Text("Modal Views, in this case, we are talking about any view that is displayed on top of existing content. Banners, toasts, floating buttons...")
-      Text("The problem is: The Voice-Over will try to use the language's Natural reading directions to read the content, and even if your view is on top of every other view, the Voice-Over will still focus on the content behind it.")
-      InternalLink(page: ElementReadingOrderPage().page, title: "Read more on reading order.")
-      Text("To prevent this issue, we can mark a view as being a 'Modal'. This will make the Voice-Over focus only on that view while it's being presented.")
-      Comment("But handling Modals has some differences in UIKit and SwiftUI, so I'm splitting into a section for each one here.")
+      Text(L10n.Modal.Intro.text1)
+      Text(L10n.Modal.Intro.text2)
+      InternalLink(page: ElementReadingOrderPage().page, title: L10n.Modal.Intro.link)
+      Text(L10n.Modal.Intro.text3)
+      Comment(L10n.Modal.Intro.comment1)
       VerticalSpace(.regular)
     }
   }
 
   private var uiKit: some View {
     Group {
-      Title("UIKit")
-      Text("On UIKit, every UIView has the property 'accessibilityViewIsModal'. And we need to set it to 'True' if we want to mark a view as being a modal.")
-      Text("But, on my experience, I find that simply setting it to 'True' sometimes does not have the expected behavior.")
+      Title(L10n.uikit)
+      Text(L10n.Modal.Uikit.text1)
+      Text(L10n.Modal.Uikit.text2)
 
       Code.uikit(
         """
@@ -67,7 +67,7 @@ struct ModalViewPage: View, Page {
         """
       )
 
-      Text("I suggest overriding this property omn the Modal View's class, and set it to the correct value.")
+      Text(L10n.Modal.Uikit.text3)
 
       Code.uikit(
         """
@@ -85,8 +85,8 @@ struct ModalViewPage: View, Page {
 
   private var swiftUI: some View {
     Group {
-      Title("SwiftUI")
-      Text("On SwiftUI the 'Modal' can be set as it was an accessibility trait.")
+      Title(L10n.swiftUI)
+      Text(L10n.Modal.Swiftui.text1)
 
       Code.swiftUI(
         """
@@ -99,8 +99,8 @@ struct ModalViewPage: View, Page {
 
   private var example: some View {
     Group {
-      Title("Examples")
-      Text("Turn the Voice-Over on and test the modals below.")
+      Title(L10n.examples)
+      Text(L10n.Modal.Example.text1)
 
       Centered {
         Group {
@@ -109,7 +109,7 @@ struct ModalViewPage: View, Page {
 
             UIAccessibility.post(notification: .screenChanged, argument: nil)
           } label: {
-            Text("Bad modal")
+            Text(L10n.Modal.Example.badModal)
               .font(.callout.bold())
           }
           HorizontalSpace(.large)
@@ -119,7 +119,7 @@ struct ModalViewPage: View, Page {
 
             UIAccessibility.post(notification: .screenChanged, argument: nil)
           } label: {
-            Text("Good modal")
+            Text(L10n.Modal.Example.goodModal)
               .font(.callout.bold())
           }
         }
@@ -130,8 +130,8 @@ struct ModalViewPage: View, Page {
 
   private var footNote: some View {
     Group {
-      Comment("Noticed that when opening the good modal, the cursor focused directly on it? It is important when displaying a modal on top of existing content that we do that.")
-      InternalLink(page: ChangeCursorPositionPage().page, title: "Learn more about it on the Notifications section.")
+      Comment(L10n.Modal.Example.comment)
+      InternalLink(page: ChangeCursorPositionPage().page, title: L10n.Modal.Example.link)
     }
   }
 
@@ -139,12 +139,12 @@ struct ModalViewPage: View, Page {
     ZStack {
       modalBackground
       VStack(spacing: .regular) {
-        Title("Modal")
-        Text("This is a Bad Modal")
+        Title(L10n.modal)
+        Text(L10n.Modal.Example.thisBadModal)
         Button {
           badModalExample = false
         } label: {
-          Text("Dismiss")
+          Text(L10n.dismiss)
             .font(.callout.bold())
         }
       }
@@ -160,13 +160,13 @@ struct ModalViewPage: View, Page {
     ZStack {
       modalBackground
       VStack(spacing: .regular) {
-        Title("Modal")
+        Title(L10n.modal)
           .accessibilityFocused($isGoodModalFocused)
-        Text("This is a Good Modal")
+        Text(L10n.Modal.Example.thisGoodModal)
         Button {
           goodModalExample = false
         } label: {
-          Text("Dismiss")
+          Text(L10n.dismiss)
             .font(.callout.bold())
         }
       }

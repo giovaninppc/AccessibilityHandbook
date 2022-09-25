@@ -24,12 +24,16 @@ internal enum L10n {
   internal static let cloud = L10n.tr("Localizable", "cloud")
   /// Color Accessibility Features
   internal static let colorAccessibilityFeatures = L10n.tr("Localizable", "ColorAccessibilityFeatures")
+  /// Content Hierarchy
+  internal static let contentHiererachy = L10n.tr("Localizable", "ContentHiererachy")
   /// Dedicated page
   internal static let dedicatedPage = L10n.tr("Localizable", "dedicatedPage")
   /// Delete
   internal static let delete = L10n.tr("Localizable", "delete")
   /// Deleted
   internal static let deleted = L10n.tr("Localizable", "deleted")
+  /// Dismiss
+  internal static let dismiss = L10n.tr("Localizable", "dismiss")
   /// Tap twice to copy
   internal static let doubleTapToCopy = L10n.tr("Localizable", "doubleTapToCopy")
   /// Early access
@@ -38,6 +42,10 @@ internal enum L10n {
   internal static let edit = L10n.tr("Localizable", "edit")
   /// Edited
   internal static let edited = L10n.tr("Localizable", "edited")
+  /// Example
+  internal static let example = L10n.tr("Localizable", "example")
+  /// Examples
+  internal static let examples = L10n.tr("Localizable", "examples")
   /// Extra bureaucracy
   internal static let extraBureaucracy = L10n.tr("Localizable", "extraBureaucracy")
   /// Fog
@@ -56,6 +64,8 @@ internal enum L10n {
   internal static let haptics = L10n.tr("Localizable", "haptics")
   /// Interaction
   internal static let interactrion = L10n.tr("Localizable", "interactrion")
+  /// Modal
+  internal static let modal = L10n.tr("Localizable", "modal")
   /// Moon
   internal static let moon = L10n.tr("Localizable", "moon")
   /// More
@@ -593,6 +603,37 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "ElementReadingOrder.title")
   }
 
+  internal enum Grouping {
+    /// Bad Carousel
+    internal static let badCarousel = L10n.tr("Localizable", "Grouping.badCarousel")
+    /// Cell comment
+    internal static let cellComment = L10n.tr("Localizable", "Grouping.cellComment")
+    /// Cell content
+    internal static let cellContent = L10n.tr("Localizable", "Grouping.cellContent")
+    /// Cell title
+    internal static let cellTitle = L10n.tr("Localizable", "Grouping.cellTitle")
+    /// This may seem obvious, but can be easily forgotten on development.
+    internal static let comment = L10n.tr("Localizable", "Grouping.comment")
+    /// Good Carousel
+    internal static let goodCarousel = L10n.tr("Localizable", "Grouping.goodCarousel")
+    /// To me, Grouping elements correctly is one of the most important parts of building a good accessible view.
+    internal static let text1 = L10n.tr("Localizable", "Grouping.text1")
+    /// Imagine a carousel with a bunch of cells, when using the Voice-Over, we want the cursor to focus on each individual cell, not on the cells content.
+    internal static let text2 = L10n.tr("Localizable", "Grouping.text2")
+    /// Turn the Voice-Over on ans check both carousels below, one has the content correctly grouped, and the other don't.
+    internal static let text3 = L10n.tr("Localizable", "Grouping.text3")
+    /// Grouping Elements
+    internal static let title = L10n.tr("Localizable", "Grouping.title")
+    internal enum Swiftui {
+      /// SwiftUI has a better wrapper to combine all children into a single accessible element.
+      internal static let text = L10n.tr("Localizable", "Grouping.swiftui.text")
+    }
+    internal enum Uikit {
+      /// On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.
+      internal static let text = L10n.tr("Localizable", "Grouping.uikit.text")
+    }
+  }
+
   internal enum Haptic {
     /// But... why are we talking about haptics in an accessibility guide?
     internal static let comment1 = L10n.tr("Localizable", "Haptic.comment1")
@@ -756,6 +797,51 @@ internal enum L10n {
       internal static let magicPerformed = L10n.tr("Localizable", "MagicTap.Example.magicPerformed")
       /// This content has a Magic Tap!
       internal static let thisContentIsMagic = L10n.tr("Localizable", "MagicTap.Example.thisContentIsMagic")
+    }
+  }
+
+  internal enum Modal {
+    /// Modal views
+    internal static let title = L10n.tr("Localizable", "Modal.title")
+    internal enum Intro {
+      /// But handling Modals has some differences in UIKit and SwiftUI, so I'm splitting into a section for each one here.
+      internal static let comment1 = L10n.tr("Localizable", "Modal.Intro.comment1")
+      /// Read more on reading order.
+      internal static let link = L10n.tr("Localizable", "Modal.Intro.link")
+      /// Modal Views, in this case, we are talking about any view that is displayed on top of existing content. Banners, toasts, floating buttons...
+      internal static let text1 = L10n.tr("Localizable", "Modal.Intro.text1")
+      /// The problem is: The Voice-Over will try to use the language's Natural reading directions to read the content, and even if your view is on top of every other view, the Voice-Over will still focus on the content behind it.
+      internal static let text2 = L10n.tr("Localizable", "Modal.Intro.text2")
+      /// To prevent this issue, we can mark a view as being a 'Modal'. This will make the Voice-Over focus only on that view while it's being presented.
+      internal static let text3 = L10n.tr("Localizable", "Modal.Intro.text3")
+    }
+    internal enum Example {
+      /// This is a Bad modal
+      internal static let badModal = L10n.tr("Localizable", "Modal.example.badModal")
+      /// Noticed that when opening the good modal, the cursor focused directly on it? It is important when displaying a modal on top of existing content that we do that.
+      internal static let comment = L10n.tr("Localizable", "Modal.example.comment")
+      /// Good modal
+      internal static let goodModal = L10n.tr("Localizable", "Modal.example.goodModal")
+      /// Learn more about it on the Notifications section.
+      internal static let link = L10n.tr("Localizable", "Modal.example.link")
+      /// Turn the Voice-Over on and test the modals below.
+      internal static let text1 = L10n.tr("Localizable", "Modal.example.text1")
+      /// Bad modal
+      internal static let thisBadModal = L10n.tr("Localizable", "Modal.example.thisBadModal")
+      /// This is a Good modal
+      internal static let thisGoodModal = L10n.tr("Localizable", "Modal.example.thisGoodModal")
+    }
+    internal enum Swiftui {
+      /// On SwiftUI the 'Modal' can be set as it was an accessibility trait.
+      internal static let text1 = L10n.tr("Localizable", "Modal.swiftui.text1")
+    }
+    internal enum Uikit {
+      /// On UIKit, every UIView has the property 'accessibilityViewIsModal'. And we need to set it to 'True' if we want to mark a view as being a modal.
+      internal static let text1 = L10n.tr("Localizable", "Modal.uikit.text1")
+      /// But, on my experience, I find that simply setting it to 'True' sometimes does not have the expected behavior.
+      internal static let text2 = L10n.tr("Localizable", "Modal.uikit.text2")
+      /// I suggest overriding this property on the Modal View's class, and set it to the correct value.
+      internal static let text3 = L10n.tr("Localizable", "Modal.uikit.text3")
     }
   }
 
