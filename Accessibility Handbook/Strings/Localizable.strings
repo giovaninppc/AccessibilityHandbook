@@ -113,6 +113,16 @@
 
 "Adjustable.title" = "Adjustable trait";
 
+"Adjustable.text1" = "Adjustable components are actually using an accessibility trait.";
+"Adjustable.text2" = "It's used on components that have some kind of quantity change or selection, like sliders, counters or quick-adds.";
+"Adjustable.text3" = "It's very powerful, and, when focused, an adjustable view will gain the swipe up and down gestures";
+"Adjustable.text4" = "That can be implemented to handle it's respective actions, without the need to directly tap into the buttons.";
+
+"Adjustable.seeMore" = "See more on accessibility traits!";
+
+"Adjustable.Code.increment" = "Handle increment";
+"Adjustable.Code.decrement" = "Handle decrement";
+
 // Colors
 
 "ColorsGuide.title" = "Colors Guide";
@@ -315,6 +325,56 @@
 "Haptics.mediumImpact" = "Medium Impact";
 "Haptics.heavyImpact" = "Heavy Impact";
 
+// Activate
+
+"Activate.title" = "Activate element";
+"Activate.text1" = "Activating an element (double tapping it with the Voice-Over enabled) is the same as a single tap when not using the voice over.";
+"Activate.comment1" = "Tap a button, click on a cell...";
+"Activate.text2" = "Most of the time, this action will hapen automatically when your cell has a tap gesture our is a button.";
+"Activate.text3" = "But you can customize or add a specific action for the activation gesture";
+"Activate.codeComment" = "Handle Action";
+
+// Long Press
+
+"LongPress.title" = "Long Press";
+"LongPress.comment1" = "Long press?";
+"LongPress.text1" = "Long press is not an accessibility specific gesture, but I like to add it here because it has a specific gesture to be handled when using the Voice-Over.";
+"LongPress.text2" = "To simulate a Long Press you do a triple tap when focused on the item.";
+"LongPress.text3" = "Turn the Voice-Over on and focus on the next element. It has a long press gesture.";
+"LongPress.comment2" = "If you are using a long press gesture, I suggest always adding an accessibility hint to tell your user about it!";
+"LongPress.text4" = "The long press is specially useful on 'Back buttons', which on newer iOS will display the navigation hierarchy, allowing you to easily navigate back to the page you want.";
+
+"LongPress.Example.text" = "Some generic view in here";
+"LongPress.Example.hint" = "Tap three times to copy the text";
+"LongPress.Example.notification" = "Text copied to the clipboard";
+
+"LongPress.Code.comment" = "Handle gesture";
+
+// Custom Actions
+
+"CustomActions.title" = "Custom Actions";
+"CustomActions.text1" = "'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, the Voice-Over will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.";
+"CustomActions.comment1" = "But, when would I even use that?";
+"CustomActions.text2" = "It's a goos tool to improve the accessibility on elements that can perform multiple actions.";
+"CustomActions.text3" = "Like a Card cell, which can select the card, delete, edit";
+"CustomActions.text4" = "Usually you'd have multiple buttons for each action, but focusing on each individual button would not be a very good Voice-Over experience.";
+"CustomActions.comment2" = "I find custom actions to be also very useful when some of the actions are hidden behind an animation, like when you need to tap an icon, something changes, and other icons appears.";
+
+"CustomActions.creditCard" = "Credit Card";
+"CustomActions.accessible" = "Credit Card, ending in 1234";
+
+// Magic Tap
+
+"MagicTap.title" = "Magic Tap";
+"MagicTap.text1" = "'Magic Tap' is a double tap with two fingers gesture.";
+"MagicTap.text2" = "You can configure the 'Magic Tap' to do basically anything.";
+"MagicTap.text3" = "Apple's documentation suggests you use it to be a shortcut to 'your main action', such as a music player, it would be suited to play and pause actions, or on a camera app, it would be suited to take a photo.";
+"MagicTap.text4" = "Test the Magic tap on the view below!";
+"MagicTap.comment1" = "When implementing the 'Magic Tap', make sure it's enabled on the focused view, otherwise, it competes with the devices media player, because it's the same gesture to play/pause on the device.";
+
+"MagicTap.Example.thisContentIsMagic" = "This content has a Magic Tap!";
+"MagicTap.Example.magicPerformed" = "Magic tap perfomed";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -326,6 +386,13 @@
 "more" = "More";
 "moreOnTheWeb" = "More on the Web";
 "dedicatedPage" = "Dedicated page";
+"select" = "Select";
+"delete" = "Delete";
+"edit" = "Edit";
+"selected" = "Selected";
+"deleted" = "Deleted";
+"edited" = "Edited";
+"handleAction" = "Handle Action";
 
 // Some nouns
 

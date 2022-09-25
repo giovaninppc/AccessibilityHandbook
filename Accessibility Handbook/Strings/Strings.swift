@@ -26,10 +26,18 @@ internal enum L10n {
   internal static let colorAccessibilityFeatures = L10n.tr("Localizable", "ColorAccessibilityFeatures")
   /// Dedicated page
   internal static let dedicatedPage = L10n.tr("Localizable", "dedicatedPage")
+  /// Delete
+  internal static let delete = L10n.tr("Localizable", "delete")
+  /// Deleted
+  internal static let deleted = L10n.tr("Localizable", "deleted")
   /// Tap twice to copy
   internal static let doubleTapToCopy = L10n.tr("Localizable", "doubleTapToCopy")
   /// Early access
   internal static let earlyAccess = L10n.tr("Localizable", "earlyAccess")
+  /// Edit
+  internal static let edit = L10n.tr("Localizable", "edit")
+  /// Edited
+  internal static let edited = L10n.tr("Localizable", "edited")
   /// Extra bureaucracy
   internal static let extraBureaucracy = L10n.tr("Localizable", "extraBureaucracy")
   /// Fog
@@ -40,6 +48,8 @@ internal enum L10n {
   internal static let goPlay = L10n.tr("Localizable", "goPlay")
   /// Handbook
   internal static let handbook = L10n.tr("Localizable", "handbook")
+  /// Handle Action
+  internal static let handleAction = L10n.tr("Localizable", "handleAction")
   /// Haptic
   internal static let haptic = L10n.tr("Localizable", "haptic")
   /// Haptics
@@ -62,6 +72,10 @@ internal enum L10n {
   internal static let rain = L10n.tr("Localizable", "rain")
   /// Regular text
   internal static let regularText = L10n.tr("Localizable", "regularText")
+  /// Select
+  internal static let select = L10n.tr("Localizable", "select")
+  /// Selected
+  internal static let selected = L10n.tr("Localizable", "selected")
   /// Snow
   internal static let snow = L10n.tr("Localizable", "snow")
   /// Sun
@@ -273,9 +287,40 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AccValue.title")
   }
 
+  internal enum Activate {
+    /// Handle Action
+    internal static let codeComment = L10n.tr("Localizable", "Activate.codeComment")
+    /// Tap a button, click on a cell...
+    internal static let comment1 = L10n.tr("Localizable", "Activate.comment1")
+    /// Activating an element (double tapping it with the Voice-Over enabled) is the same as a single tap when not using the voice over.
+    internal static let text1 = L10n.tr("Localizable", "Activate.text1")
+    /// Most of the time, this action will hapen automatically when your cell has a tap gesture our is a button.
+    internal static let text2 = L10n.tr("Localizable", "Activate.text2")
+    /// But you can customize or add a specific action for the activation gesture
+    internal static let text3 = L10n.tr("Localizable", "Activate.text3")
+    /// Activate element
+    internal static let title = L10n.tr("Localizable", "Activate.title")
+  }
+
   internal enum Adjustable {
+    /// See more on accessibility traits!
+    internal static let seeMore = L10n.tr("Localizable", "Adjustable.seeMore")
+    /// Adjustable components are actually using an accessibility trait.
+    internal static let text1 = L10n.tr("Localizable", "Adjustable.text1")
+    /// It's used on components that have some kind of quantity change or selection, like sliders, counters or quick-adds.
+    internal static let text2 = L10n.tr("Localizable", "Adjustable.text2")
+    /// It's very powerful, and, when focused, an adjustable view will gain the swipe up and down gestures
+    internal static let text3 = L10n.tr("Localizable", "Adjustable.text3")
+    /// That can be implemented to handle it's respective actions, without the need to directly tap into the buttons.
+    internal static let text4 = L10n.tr("Localizable", "Adjustable.text4")
     /// Adjustable trait
     internal static let title = L10n.tr("Localizable", "Adjustable.title")
+    internal enum Code {
+      /// Handle decrement
+      internal static let decrement = L10n.tr("Localizable", "Adjustable.Code.decrement")
+      /// Handle increment
+      internal static let increment = L10n.tr("Localizable", "Adjustable.Code.increment")
+    }
   }
 
   internal enum Collaboration {
@@ -410,6 +455,27 @@ internal enum L10n {
       /// A nice way to test for contrast is using the WCAG contrast guide
       internal static let text1 = L10n.tr("Localizable", "Contrast.Example.text1")
     }
+  }
+
+  internal enum CustomActions {
+    /// Credit Card, ending in 1234
+    internal static let accessible = L10n.tr("Localizable", "CustomActions.accessible")
+    /// But, when would I even use that?
+    internal static let comment1 = L10n.tr("Localizable", "CustomActions.comment1")
+    /// I find custom actions to be also very useful when some of the actions are hidden behind an animation, like when you need to tap an icon, something changes, and other icons appears.
+    internal static let comment2 = L10n.tr("Localizable", "CustomActions.comment2")
+    /// Credit Card
+    internal static let creditCard = L10n.tr("Localizable", "CustomActions.creditCard")
+    /// 'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, the Voice-Over will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.
+    internal static let text1 = L10n.tr("Localizable", "CustomActions.text1")
+    /// It's a goos tool to improve the accessibility on elements that can perform multiple actions.
+    internal static let text2 = L10n.tr("Localizable", "CustomActions.text2")
+    /// Like a Card cell, which can select the card, delete, edit
+    internal static let text3 = L10n.tr("Localizable", "CustomActions.text3")
+    /// Usually you'd have multiple buttons for each action, but focusing on each individual button would not be a very good Voice-Over experience.
+    internal static let text4 = L10n.tr("Localizable", "CustomActions.text4")
+    /// Custom Actions
+    internal static let title = L10n.tr("Localizable", "CustomActions.title")
   }
 
   internal enum Differentiate {
@@ -562,6 +628,56 @@ internal enum L10n {
   internal enum ListOfTraits {
     /// List of Accessibility Traits
     internal static let title = L10n.tr("Localizable", "ListOfTraits.title")
+  }
+
+  internal enum LongPress {
+    /// Long press?
+    internal static let comment1 = L10n.tr("Localizable", "LongPress.comment1")
+    /// If you are using a long press gesture, I suggest always adding an accessibility hint to tell your user about it!
+    internal static let comment2 = L10n.tr("Localizable", "LongPress.comment2")
+    /// Long press is not an accessibility specific gesture, but I like to add it here because it has a specific gesture to be handled when using the Voice-Over.
+    internal static let text1 = L10n.tr("Localizable", "LongPress.text1")
+    /// To simulate a Long Press you do a triple tap when focused on the item.
+    internal static let text2 = L10n.tr("Localizable", "LongPress.text2")
+    /// Turn the Voice-Over on and focus on the next element. It has a long press gesture.
+    internal static let text3 = L10n.tr("Localizable", "LongPress.text3")
+    /// The long press is specially useful on 'Back buttons', which on newer iOS will display the navigation hierarchy, allowing you to easily navigate back to the page you want.
+    internal static let text4 = L10n.tr("Localizable", "LongPress.text4")
+    /// Long Press
+    internal static let title = L10n.tr("Localizable", "LongPress.title")
+    internal enum Code {
+      /// Handle gesture
+      internal static let comment = L10n.tr("Localizable", "LongPress.Code.comment")
+    }
+    internal enum Example {
+      /// Tap three times to copy the text
+      internal static let hint = L10n.tr("Localizable", "LongPress.Example.hint")
+      /// Text copied to the clipboard
+      internal static let notification = L10n.tr("Localizable", "LongPress.Example.notification")
+      /// Some generic view in here
+      internal static let text = L10n.tr("Localizable", "LongPress.Example.text")
+    }
+  }
+
+  internal enum MagicTap {
+    /// When implementing the 'Magic Tap', make sure it's enabled on the focused view, otherwise, it competes with the devices media player, because it's the same gesture to play/pause on the device.
+    internal static let comment1 = L10n.tr("Localizable", "MagicTap.comment1")
+    /// 'Magic Tap' is a double tap with two fingers gesture.
+    internal static let text1 = L10n.tr("Localizable", "MagicTap.text1")
+    /// You can configure the 'Magic Tap' to do basically anything.
+    internal static let text2 = L10n.tr("Localizable", "MagicTap.text2")
+    /// Apple's documentation suggests you use it to be a shortcut to 'your main action', such as a music player, it would be suited to play and pause actions, or on a camera app, it would be suited to take a photo.
+    internal static let text3 = L10n.tr("Localizable", "MagicTap.text3")
+    /// Test the Magic tap on the view below!
+    internal static let text4 = L10n.tr("Localizable", "MagicTap.text4")
+    /// Magic Tap
+    internal static let title = L10n.tr("Localizable", "MagicTap.title")
+    internal enum Example {
+      /// Magic tap perfomed
+      internal static let magicPerformed = L10n.tr("Localizable", "MagicTap.Example.magicPerformed")
+      /// This content has a Magic Tap!
+      internal static let thisContentIsMagic = L10n.tr("Localizable", "MagicTap.Example.thisContentIsMagic")
+    }
   }
 
   internal enum Navigation {

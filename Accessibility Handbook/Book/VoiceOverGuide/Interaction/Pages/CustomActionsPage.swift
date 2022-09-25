@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomActionsPage: View, Page {
-  var title: String = "Custom Actions"
+  var title: String = L10n.CustomActions.title
 
   let codeUIKit: String = """
   let editAction = UIAccessibilityCustomAction()
@@ -23,13 +23,13 @@ struct CustomActionsPage: View, Page {
   """
 
   let codeSwiftUI: String = """
-  .accessibilityAction(named: Text("Select")) {
+  .accessibilityAction(named: Text("\(L10n.select)")) {
     // Handle Select
   }
-  .accessibilityAction(named: Text("Edit")) {
+  .accessibilityAction(named: Text("\(L10n.edit)")) {
     // Handle Edit
   }
-  .accessibilityAction(named: Text("Delete")) {
+  .accessibilityAction(named: Text("\(L10n.delete)")) {
     // Handle Delete
   }
   """
@@ -41,13 +41,13 @@ struct CustomActionsPage: View, Page {
   var body: some View {
     PageContent(next: MagicTapPage()) {
       Group {
-        Text("'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, the Voice-Over will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.")
-        Comment("But, when would I even use that?")
-        Text("It's a goos tool to improve the accessibility on elements that can perform multiple actions.")
-        Text("Like a Card cell, which can select the card, delete, edit")
-        Text("Usually you'd have multiple buttons for each action, but focusing on each individual button would not be a very good Voice-Over experience.")
+        Text(L10n.CustomActions.text1)
+        Comment(L10n.CustomActions.comment1)
+        Text(L10n.CustomActions.text4)
+        Text(L10n.CustomActions.text3)
+        Text(L10n.CustomActions.text4)
         example
-        Comment("I find custom actions to be also very useful when some of the actions are hidden behind an animation, like when you need to tap an icon, something changes, and other icons appears.")
+        Comment(L10n.CustomActions.comment2)
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
@@ -61,37 +61,37 @@ struct CustomActionsPage: View, Page {
       VerticalSpace(.regular)
       Centered {
         VStack(spacing: .regular) {
-          Title("Credit Card")
+          Title(L10n.CustomActions.creditCard)
           Text("**** **** **** 1234")
           HStack(spacing: .regular) {
             Button {
               //
             } label: {
-              (Text(Icon.pencil) + Text(String.space) + Text("Edit"))
+              (Text(Icon.pencil) + Text(String.space) + Text(L10n.select))
             }
             Button {
               //
             } label: {
-              (Text(Icon.checkmark) + Text(String.space) + Text("Select"))
+              (Text(Icon.checkmark) + Text(String.space) + Text(L10n.select))
             }
             Button {
               //
             } label: {
-              (Text(Icon.trash) + Text(String.space) + Text("Delete"))
+              (Text(Icon.trash) + Text(String.space) + Text(L10n.delete))
             }
           }
         }
         .padding()
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("Available Card, final 1234")
-        .accessibilityAction(named: Text("Select")) {
-          UIAccessibility.post(notification: .announcement, argument: "Selected")
+        .accessibilityLabel(L10n.CustomActions.accessible)
+        .accessibilityAction(named: Text(L10n.select)) {
+          UIAccessibility.post(notification: .announcement, argument: L10n.selected)
         }
-        .accessibilityAction(named: Text("Edit")) {
-          UIAccessibility.post(notification: .announcement, argument: "Edited")
+        .accessibilityAction(named: Text(L10n.edit)) {
+          UIAccessibility.post(notification: .announcement, argument: L10n.edited)
         }
-        .accessibilityAction(named: Text("Delete")) {
-          UIAccessibility.post(notification: .announcement, argument: "Deleted")
+        .accessibilityAction(named: Text(L10n.delete)) {
+          UIAccessibility.post(notification: .announcement, argument: L10n.deleted)
         }
         .background {
           RoundedRectangle(cornerRadius: 8.0)

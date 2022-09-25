@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct ActivatePage: View, Page {
-  var title: String = "Activate Element"
+  var title: String = L10n.Activate.title
 
   let codeUIKit: String = """
   override func accessibilityActivate() -> Bool {
-    /*Handle action*/
+    // \(L10n.Activate.codeComment)
     return true
   }
   """
 
   let codeSwiftUI: String = """
   .accessibilityAction {
-    /*HandleAction*/
+    // \(L10n.Activate.codeComment)
   }
   """
 
@@ -30,10 +30,10 @@ struct ActivatePage: View, Page {
   var body: some View {
     PageContent(next: LongPressPage()) {
       Group {
-        Text("Activating an element (double tapping it with the Voice-Over enabled) is the same as a single tap when not using the voice over.")
-        Comment("Tap a button, click on a cell...")
-        Text("Most of the time, this action will hapen automatically when your cell has a tap gesture our is a button.")
-        Text("But you can customize or add a specific action for the activation gesture")
+        Text(L10n.Activate.text1)
+        Comment(L10n.Activate.comment1)
+        Text(L10n.Activate.text2)
+        Text(L10n.Activate.text3)
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
         DocButton(link: docLink, title: title)

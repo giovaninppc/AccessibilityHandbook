@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MagicTapPage: View, Page {
-  var title: String = "Magic Tap"
+  let title: String = L10n.MagicTap.title
 
   @State var magicColor: Color = .white
 
@@ -18,14 +18,14 @@ struct MagicTapPage: View, Page {
 
   let codeUIKit: String = """
   override func accessibilityPerformMagicTap() -> Bool {
-    /* Handle action */
+    // \(L10n.handleAction)
     return true
   }
   """
 
   let codeSwiftUI: String = """
   .accessibilityAction(.magicTap) {
-    /* Handle action */
+    // \(L10n.handleAction)
   }
   """
 
@@ -36,12 +36,12 @@ struct MagicTapPage: View, Page {
   var body: some View {
     PageContent(next: nil) {
       Group {
-        Text("'Magic Tap' is a double tap with two fingers gesture.")
-        Text("You can configure the 'Magic Tap' to do basically anything.")
-        Text("Apple's documentation suggests you use it to be a shortcut to 'your main action', such as a music player, it would be suited to play and pause actions, or on a camera app, it would be suited to take a photo.")
-        Text("Test the Magic tap on the view below!")
+        Text(L10n.MagicTap.text1)
+        Text(L10n.MagicTap.text2)
+        Text(L10n.MagicTap.text3)
+        Text(L10n.MagicTap.text4)
         example
-        Comment("When implementing the 'Magic Tap', make sure it's enabled on the focused view, otherwise, it competes with the devices media player, because it's the same gesture to play/pause on the device.")
+        Comment(L10n.MagicTap.comment1)
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
         DocButton(link: link, title: title)
@@ -54,7 +54,7 @@ struct MagicTapPage: View, Page {
     Group {
       VerticalSpace(.regular)
       Centered {
-        Text("This content has a Magic Tap!")
+        Text(L10n.MagicTap.Example.thisContentIsMagic)
           .font(.body.bold())
           .foregroundColor(magicColor)
           .padding()
@@ -63,7 +63,7 @@ struct MagicTapPage: View, Page {
               .foregroundColor(.secondaryBackground)
           }
           .accessibilityAction(.magicTap) {
-            UIAccessibility.post(notification: .announcement, argument: "Magic tap performed")
+            UIAccessibility.post(notification: .announcement, argument: L10n.MagicTap.Example.magicPerformed)
             magicColor = colors.randomElement() ?? .white
           }
           .toAny()

@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct AdjustablePage: View, Page {
-  var title: String = "Adjustable content"
+  let title: String = L10n.Adjustable.title
 
   let codeUIKit: String = """
   accessibilityTraits = [.adjustable]
 
   override func accessibilityIncrement() {
-    // Handle increment
+    // \(L10n.Adjustable.Code.increment)
   }
   override func accessibilityDecrement() {
-    // Handle decrement
+    //\(L10n.Adjustable.Code.decrement)
   }
   """
 
@@ -26,9 +26,9 @@ struct AdjustablePage: View, Page {
   .accessibilityAdjustableAction { direction in
     switch direction {
     case .decrement:
-      // Handle decrement
+      // \(L10n.Adjustable.Code.decrement)
     case .increment:
-      // Handle increment
+      // \(L10n.Adjustable.Code.increment)
     }
   }
   """
@@ -42,11 +42,11 @@ struct AdjustablePage: View, Page {
   var body: some View {
     PageContent(next: CustomActionsPage()) {
       Group {
-        Text("Adjustable components are actually using an accessibility trait.")
-        InternalLink(page: ListOfAccessibilityTraitsPage().page, title: "See more on accessibility traits!")
-        Text("It's used on components that have some kind of quantity change or selection, like sliders, counters or quick-adds.")
-        Text("It's very powerful, and, when focused, an adjustable view will gain the swipe up and down gestures")
-        Text("That can be implemented to handle it's respective actions, without the need to directly tap into the buttons.")
+        Text(L10n.Adjustable.text1)
+        InternalLink(page: ListOfAccessibilityTraitsPage().page, title: L10n.Adjustable.seeMore)
+        Text(L10n.Adjustable.text1)
+        Text(L10n.Adjustable.text2)
+        Text(L10n.Adjustable.text3)
         example
         Code.uikit(codeUIKit)
         Code.swiftUI(codeSwiftUI)
