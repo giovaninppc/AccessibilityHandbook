@@ -14,9 +14,14 @@ The Accessibility Handbook started as an idea with some colleagues and friends, 
 
 ### Guides
 
-Find an extensive documentation of accessibility features and how to implement them with real-life examples.
+Find an extensive documentation of accessibility features and options with real examples so you can try them for yourself while using the app.
 
 ![Image with example of the app running, displaying some of the Voice-Over guide pages](img/guides.png)
+
+Also, code examples of how to implement each of them directly on the app!
+You don't need to open the source code to take a quick look on the syntaxes, or just to just remind how to implement something.
+
+![Image with example of source codes example on the app](img/codes.png)
 
 ### The Handbook Game
 
