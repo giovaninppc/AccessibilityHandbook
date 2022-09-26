@@ -28,12 +28,14 @@ struct AnnouncementPage: View, Page {
     case let value where value < 0:
       return L10n.Announcement.Notifications.negative
     case 0:
-      return L10n.Announcement.Notifications.small
+      return .empty
     case 1...5:
-      return L10n.Announcement.Notifications.medium
+      return L10n.Announcement.Notifications.small
     case 6...10:
-      return L10n.Announcement.Notifications.large
+      return L10n.Announcement.Notifications.medium
     case 11...20:
+      return L10n.Announcement.Notifications.large
+    case 21...25:
       return L10n.Announcement.Notifications.huge
     default:
       return L10n.Announcement.Notifications.final

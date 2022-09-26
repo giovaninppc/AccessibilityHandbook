@@ -143,7 +143,7 @@
 
 "AccTrait.title" = "Accessibility Trait";
 "AccTrait.text1" = "Accessibility Traits are modifiers we can add to a view in order to give some additional information or add some behavior to it.";
-"AccTrait.text2" = "There are several traits, some of them you may never have to use, and some other ones are really powerful and you'll be gklad to know more about them.";
+"AccTrait.text2" = "There are several traits, some of them you may never have to use, and some other ones are really powerful and you'll be glad to know more about them.";
 "AccTrait.text3" = "Traits are so important we have a dedicated section to them!";
 "AccTrait.comment1" = "Make sure to check that section to learn more about each trait.";
 "AccTrait.text4" = "And adding a trait to a view is very simple.";
@@ -190,18 +190,14 @@
 "ListOfTraits.header" = "A header that can be focused with rotor function. Indicates the begining of a new section.";
 "ListOfTraits.link" = "A link to a web page";
 "ListOfTraits.image" = "An image. It may not seem, but its important to use when actually focusing on an image. The user may want to share the image with someone, or print screen it to ask more later...";
-"ListOfTraits.searchField" = "";
-"ListOfTraits." = "Allows typing and when finished will search for something.";
-"ListOfTraits.keyboardKey" = "";
-"ListOfTraits." = "A keyboard key. (Probably not very relevant if you are not creating a custom keyboard)";
+"ListOfTraits.searchField" = "Allows typing and when finished will search for something.";
+"ListOfTraits.keyboardKey" = "A keyboard key. (Probably not very relevant if you are not creating a custom keyboard)";
 "ListOfTraits.staticText" = "A text that does not change";
 "ListOfTraits.tabbar" = "A tabbar item, actually very important if you have a custom tabbar!";
 "ListOfTraits.summaryElement" = "\"The accessibility element provides summary information when the app starts.\"";
 "ListOfTraits.selected" = "A selected item - used when there are more items on a list that can be selected as well (segmented controllers, radio buttons…)";
-"ListOfTraits.notEnabled" = "";
-"ListOfTraits." = "The content interaction is disabled - eg: a disabled button";
-"ListOfTraits.allowsDirectInteraction" = "";
-"ListOfTraits." = "The accessibility element allows direct touch interaction for VoiceOver users.";
+"ListOfTraits.notEnabled" = "The content interaction is disabled - eg: a disabled button";
+"ListOfTraits.allowsDirectInteraction" = "The accessibility element allows direct touch interaction for VoiceOver users.";
 "ListOfTraits.updatesFrequently" = "The value or label frequently changes.";
 "ListOfTraits.causesPageTurn" = "Makes an automatic page turn when it finished reading the element.";
 "ListOfTraits.playsSound" = "Plays sound when activated";
@@ -258,7 +254,7 @@
 "Collaboration.title" = "Collaboration";
 "Collaboration.OpenSource.title" = "OpenSource";
 "Collaboration.OpenSource.text1" = "Yep, the Handbook is an Open Source project!";
-"Collaboration.OpenSource.text2" = "The idea is that the app's code can be used as examples. Take a look into the code,";
+"Collaboration.OpenSource.text2" = "The idea is that the app's code can be used as examples. Take a look into the code, see for yourself how the feature actually works when running on an app.";
 "Collaboration.OpenSource.comment1" = "It's not perfect, and it's a little weird in some places... I know that, ok?";
 "Collaboration.OpenSource.text3" = "But fell free to suggest changes, fix some bugs and identify issues on our GitHub project!";
 "Collaboration.githubPreoject" = "Check our GitHub project!";
@@ -330,11 +326,11 @@
 "Contrast.text1" = "Contrast is the difference in luminance or colour that makes an object (or its representation in an image or display) distinguishable.";
 "Contrast.comment1" = "But why talk about contrast on an accessibility context?";
 "Contrast.text2" = "Contrast is important when taking colors on your applications. Everything that should be visible should be well... Visible.";
-"Contrast.text3" = "By that I mean you should be areful when adding colored text on top of colored backgrounds. The base good contrast is black-on-white (or white-on-black) text.";
+"Contrast.text3" = "By that I mean you should be careful when adding colored text on top of colored backgrounds. The base good contrast is black-on-white (or white-on-black) text.";
 "Contrast.comment2" = "But is also depends on the font itself, the font's weight...";
 
 "Contrast.Example.text1" = "A nice way to test for contrast is using the WCAG contrast guide";
-"Contrast.Example.comment1" = "WCAG stands for 'Web Content Accessibility Guidelines', and I know it's more directed to web, not mobile environments, but that's also nice to take a look into, specially if you are interested in learning more about contarst in accessibility.";
+"Contrast.Example.comment1" = "WCAG stands for 'Web Content Accessibility Guidelines', and I know it's more directed to web, not mobile environments, but that's also nice to take a look into, specially if you are interested in learning more about contrast in accessibility.";
 "Contrast.Example.example1" = "This example above fails the WCAG test for contrast.";
 "Contrast.Example.example2" = "This one does kida ok, so you can use this color combination with larger fonts.";
 "Contrast.Example.example3" = "And this one is pretty good! The classics.";
@@ -354,7 +350,7 @@
 "Differentiate.Intro.comment2" = "A nice example is the game 'Among Us'. On the image above, from left-to-right then top-to-bottom: no filter, deuteranopia filter, protanopia filter, tritanopia filter. These weird names are the names of some color blindness types.";
 
 "Differentiate.Handle.text1" = "To check if the feature is enabled, you can check 'UIAccessibility.shouldDifferentiateWithoutColor'";
-"Differentiate.Handle.text2" = "And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.";
+"Differentiate.Handle.text2" = "And you can alo subscribe to listen to changes in this property using the Notification Center.";
 "Differentiate.Handle.text3" = "And you can use an Environment property in SwiftUI for the same purpose.";
 
 // Color acc feature
@@ -374,7 +370,7 @@
 
 "ReduceTransparency.Code.text1" = "And, it's pretty easy to handle!";
 "ReduceTransparency.Code.text2" = "On UIKit, you need to check a boolean on UIAccessibility to check if the feature is enabled.";
-"ReduceTransparency.Code.text3" = "And you can alo subscribe to listen to changes in this prtoperty using the Notification Center.";
+"ReduceTransparency.Code.text3" = "And you can alo subscribe to listen to changes in this property using the Notification Center.";
 "ReduceTransparency.Code.text4" = "And on SwiftUI you can use an Environment variable!";
 
 // Invert Colors
@@ -417,7 +413,7 @@
 "IncreaseContrast.Property.title" = "Handling contrast changes";
 "IncreaseContrast.Property.text1" = "An easy way to support this is by using 'System Colors'. They will automatically adapt to the increase contrast.";
 "IncreaseContrast.Property.comment1" = "This app was built using system colors! Change the contrast options on your device's settings and check the differences!";
-"IncreaseContrast.Property.text2" = "Or you can use the 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' boolen to check the current contrast state, and act accordingly.";
+"IncreaseContrast.Property.text2" = "Or you can use the 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' boolean to check the current contrast state, and act accordingly.";
 
 "IncreaseContrast.swiftUI.text1" = "And in SwiftUI, there is a neat contrast tool you can use to change the contrast on your views";
 "IncreaseContrast.swiftUI.comment1" = "Not that I have really used this contrast tool in any real project.";
@@ -435,7 +431,7 @@
 
 "HapticList.title" = "List of Haptics";
 "HapticList.text1" = "Here's a list of the Haptics available:";
-"HapticList.comment" = "I also suggest you check the source code of this project. It has a nive Haptic wrapper to be used on UIKit or SwiftUI!";
+"HapticList.comment" = "I also suggest you check the source code of this project. It has a nice Haptic wrapper to be used on UIKit or SwiftUI!";
 "HapticList.sourceCode" = "Haptic source code";
 
 "Haptics.selection" = "Selection";
@@ -476,7 +472,7 @@
 "CustomActions.title" = "Custom Actions";
 "CustomActions.text1" = "'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, the Voice-Over will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.";
 "CustomActions.comment1" = "But, when would I even use that?";
-"CustomActions.text2" = "It's a goos tool to improve the accessibility on elements that can perform multiple actions.";
+"CustomActions.text2" = "It's a good tool to improve the accessibility on elements that can perform multiple actions.";
 "CustomActions.text3" = "Like a Card cell, which can select the card, delete, edit";
 "CustomActions.text4" = "Usually you'd have multiple buttons for each action, but focusing on each individual button would not be a very good Voice-Over experience.";
 "CustomActions.comment2" = "I find custom actions to be also very useful when some of the actions are hidden behind an animation, like when you need to tap an icon, something changes, and other icons appears.";
@@ -574,8 +570,8 @@
 "Modal.example.text1" = "Turn the Voice-Over on and test the modals below.";
 "Modal.example.goodModal" = "Good modal";
 "Modal.example.thisGoodModal" = "This is a Good modal";
-"Modal.example.badModal" = "This is a Bad modal";
-"Modal.example.thisBadModal" = "Bad modal";
+"Modal.example.badModal" = "Bad Modal";
+"Modal.example.thisBadModal" = "This is a Bad modal";
 "Modal.example.comment" = "Noticed that when opening the good modal, the cursor focused directly on it? It is important when displaying a modal on top of existing content that we do that.";
 "Modal.example.link" = "Learn more about it on the Notifications section.";
 
