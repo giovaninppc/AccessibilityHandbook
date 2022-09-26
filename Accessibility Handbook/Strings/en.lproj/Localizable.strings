@@ -585,7 +585,7 @@
 "Grouping.text1" = "To me, Grouping elements correctly is one of the most important parts of building a good accessible view.";
 "Grouping.text2" = "Imagine a carousel with a bunch of cells, when using the Voice-Over, we want the cursor to focus on each individual cell, not on the cells content.";
 "Grouping.comment" = "This may seem obvious, but can be easily forgotten on development.";
-"Grouping.text3" = "Turn the Voice-Over on ans check both carousels below, one has the content correctly grouped, and the other don't.";
+"Grouping.text3" = "Turn the Voice-Over on and check both carousels below, one has the content correctly grouped, and the other don't.";
 
 "Grouping.goodCarousel" = "Good Carousel";
 "Grouping.badCarousel" = "Bad Carousel";
@@ -610,7 +610,7 @@
 "Hint.close" = "Close hint";
 "Hint.open" = "Open hint";
 "Hint.title" = "🤔 Having Trouble?";
-"Hint.text1" = "The Handbook puzzles were made to be solved using some kind of accessibility tool.";
+"Hint.text1" = "The Handbook puzzles were made to be solved using some kind of accessibility tool (or a combination of them).";
 "Hint.text2" = "If you can't figure it out, maybe this page will help you...";
 
 // Games

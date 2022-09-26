@@ -76,27 +76,27 @@
 // Navigation
 
 "Navigation.title" = "Navegação";
-"Navigation.text1" = "The Voice-Over navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.";
-"Navigation.text2" = "Once enabled, the Voice-Over will display a frame on top of the current view that is being read. This frame is called 'Cursor'.";
-"Navigation.text3" = "To navigate basically means changing the cursor's position, so it will read another element.";
-"Navigation.text4" = "The basic navigation can be done swiping horizontally on the screen to move to cursor to the next or previous element.";
-"Navigation.comment" = "This entire app was built to be used with the Voice-Over enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!";
-"Navigation.image" = "On top is an example of the cursor. The title 'Handbook' is currently focused on the image.";
-"Navigation.imageSubtitle" = "Example image of the Voice-Over running on an iOS device.";
+"Navigation.text1" = "A navegação do Voice-Over é baseada em gestos. Cada gesto pode ser feito em qualquer lugar da tela e vai disparar uma ação específica.";
+"Navigation.text2" = "Quando ativado, o leitor vai mostrar um marcador em cima de qual view ele está focado. Este marcador é chamado 'Cursor'.";
+"Navigation.text3" = "Navegar, basicamente significa mudar a posição do cursor, para que ele leia outro elemento.";
+"Navigation.text4" = "Para ir para o próximo elemento, basta deslizar o dedo horizontalmente na tela da esquerda para a direito, e para voltar, da direita para a esquerda.";
+"Navigation.comment" = "Este app foi contruído para suportar o Voice-Over, e o conceito abordado em cada página dos guias tem um exemplo implementado do tópico, então você pode usar o leitor para testar como cada coisa funciona!";
+"Navigation.image" = "Acima, um exemplo do Cursor. O título 'Handbook' está focado.";
+"Navigation.imageSubtitle" = "Exemplo do Voice-Over sendo utilizado.";
 
-"Navigation.MoveAround.title" = "Move Around";
-"Navigation.MoveAround.text1" = "When the Voice-Over is enabled, swipe horizontally from left to right to move the cursor to focus on the next element.";
-"Navigation.MoveAround.text2" = "And swipe from right to left to focus on the previous element.";
+"Navigation.MoveAround.title" = "Movimente-se";
+"Navigation.MoveAround.text1" = "Quando o Voice-Over estiver ativado, deslize horizontalmente para mudar o focos entre os elementos.";
+"Navigation.MoveAround.text2" = "Da esquerda para a direita para o próximo, e da direita para a esquerda para o anetrior.";
 
-"Navigation.Activate.title" = "Activate an element";
-"Navigation.Activate.text" = "Activate, is the Voice-Over version of tapping an item. Double tap with a single finger to activate an element.";
-"Navigation.Activate.comment" = "You can learn more about ways to interact with elements on the 'Interaction' section";
+"Navigation.Activate.title" = "Ativar um elemento";
+"Navigation.Activate.text" = "Ativar, no Voice-Over, é o mesmo que clicar num item quando o leitor está desativado. Clique duas vezes com um dedo para ativar o elemento focado.";
+"Navigation.Activate.comment" = "Você pode ler mais sobre outras formas de interagir na seção 'Interação'";
 
-"Navigation.Footer.title" = "Learn more gestures";
-"Navigation.Footer.text1" = "If you tap with 4 fingers twice with the Voice-Over enabled, you will activate the 'Gesture Helper'.";
-"Navigation.Footer.text2" = "Now, every gesture you make will be announced by the Voice-Over, followed by it's function.";
-"Navigation.Footer.text3" = "And to disable the helper, tap twice with 4 fiongers again!";
-"Navigation.Footer.comment" = "These are just a few of the gestures available. We plan on adding a full gesture section in the future, but for now, I suggest you try it for yourself, turn the Voice-Over on and test the gestures using the 'Gesture Help'.";
+"Navigation.Footer.title" = "Aprenda mais gestos";
+"Navigation.Footer.text1" = "Se você clicar duas vezes com 4 dedos, o Voice-Over eirá ativar o 'Guia de Gestos'.";
+"Navigation.Footer.text2" = "Agora, cada gesto executado será anunciado pelo leitor, seguido de sua função. É uma ótima forma de descobrir novas maneiras de interagir com o Voice-Over.";
+"Navigation.Footer.text3" = "E para desabilitar, clique duas vezes com 4 dedos novamente!";
+"Navigation.Footer.comment" = "Esses são apenas alguns dos gestos disponívels. Planejamos adicionar uma seção mais aprofundada com os gestos no futuro, mas por enquanto, sugerimos que você experimente usar o leitor de tela e o guia de gestos para descobiri mais!";
 
 // Accessibility Properties
 
@@ -104,7 +104,7 @@
 
 // Accessibility Element
 
-"AccElem.title" = "Accessibility Element";
+"AccElem.title" = "Elementos acessíveis";
 "AccElem.text1" = "When using the Voice-Over, the cursor will focus on 'accessible' elements. These elements are identified by having the property accessibility element as 'True'.";
 "AccElem.text2" = "Every element marked with this property 'True' can be focused by the Voice-Over, and the elments with the property 'False' will be ignored.";
 "AccElem.text3" = "Turn the Voice-Over on and navigate through the next elements. Some will not be focused by it.";
@@ -123,7 +123,7 @@
 "AccLabel.comment" = "Some components automatically set their accesibility label when created, such as Texts or Buttons, but you can manually set it if necessary.";
 "AccLabel.text4" = "And, sometimes, you can set a different accessibility label to a view, so its easier to understand its content, like describing measurement units or abreviations.";
 "AccLabel.example" = "10Kg";
-"AccLabel.accessibilityLabelExample" = "10 Kilograms";
+"AccLabel.accessibilityLabelExample" = "10 Quilos";
 
 // Accessibility Hint
 
@@ -581,37 +581,37 @@
 
 // Grouping
 
-"Grouping.title" = "Grouping Elements";
-"Grouping.text1" = "To me, Grouping elements correctly is one of the most important parts of building a good accessible view.";
-"Grouping.text2" = "Imagine a carousel with a bunch of cells, when using the Voice-Over, we want the cursor to focus on each individual cell, not on the cells content.";
-"Grouping.comment" = "This may seem obvious, but can be easily forgotten on development.";
-"Grouping.text3" = "Turn the Voice-Over on ans check both carousels below, one has the content correctly grouped, and the other don't.";
+"Grouping.title" = "Agrupar elementos";
+"Grouping.text1" = "Agrupar elementos corretamente é uma das partes mais importantes de ter uma tela acessível.";
+"Grouping.text2" = "Imagine o cenário: Um carrosel de células, quando usando o Voice-Over, queremos que cada célula seja focada individualmente e não focar em cada subview da célula, mas sim ela como um todo.";
+"Grouping.comment" = "Pode parece óbvio, mas é fácil de esquecer desse ponto durante o desenvolvimento.";
+"Grouping.text3" = "Ligue o Voice-Over e foque nos dois carrosséis abaixo, um tem o conteúdo das células corretamente agrupado e o outro não.";
 
-"Grouping.goodCarousel" = "Good Carousel";
-"Grouping.badCarousel" = "Bad Carousel";
-"Grouping.cellTitle" = "Cell title";
-"Grouping.cellContent" = "Cell content";
-"Grouping.cellComment" = "Cell comment";
+"Grouping.goodCarousel" = "Bom Carrossel";
+"Grouping.badCarousel" = "Mau Carrosel";
+"Grouping.cellTitle" = "Título";
+"Grouping.cellContent" = "Conteúdo";
+"Grouping.cellComment" = "Comentário";
 
-"Grouping.uikit.text" = "On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.";
-"Grouping.swiftui.text" = "SwiftUI has a better wrapper to combine all children into a single accessible element.";
+"Grouping.uikit.text" = "No UIKit, você precisa deixar a view pai como sendo um elemento acessível, e não as views filhas. Então, combiná-los para montar o conteúdo correto da 'accessibility label' do pai.";
+"Grouping.swiftui.text" = "SwiftUI tem um 'View Modifier' que simplifica bastante desse trabalho de agrupar as views filhas em um único 'accessible element'.";
 
 // Game Success
 
-"GameSuccess.title" = "Congratulations!";
-"GameSuccess.subtitle" = "You solved the puzzle!";
-"GameSuccess.text" = "If you want to learn more about this puzzle check our documentation";
-"GameSuccess.suggestedReading" = "Suggested reading";
+"GameSuccess.title" = "Parabéns!";
+"GameSuccess.subtitle" = "Você resolveu o desafio!";
+"GameSuccess.text" = "Se você quiser saber mais sobre como o jogo foi montado, não deixe de ver nossa documentação:";
+"GameSuccess.suggestedReading" = "Leitura sugerida";
 
 // Hint View
 
-"Hint" = "Hint";
-"Hint.hint" = "Activate to get a hint on how to solve this puzzle.";
-"Hint.close" = "Close hint";
-"Hint.open" = "Open hint";
-"Hint.title" = "🤔 Having Trouble?";
-"Hint.text1" = "The Handbook puzzles were made to be solved using some kind of accessibility tool.";
-"Hint.text2" = "If you can't figure it out, maybe this page will help you...";
+"Hint" = "Dica";
+"Hint.hint" = "Abrir uma dica sobre este jogo.";
+"Hint.close" = "Fechar dica";
+"Hint.open" = "Abrir dica";
+"Hint.title" = "🤔 Tendo dificuldades?";
+"Hint.text1" = "Os jogos do Handbook foram feitos para serem resolvidos com alguma ferramenta de acessibilidade (ou uma combinação delas).";
+"Hint.text2" = "Se você não conseguir descobrir, talvez esta página possa ajudar...";
 
 // Games
 
