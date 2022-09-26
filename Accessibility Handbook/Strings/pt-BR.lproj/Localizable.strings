@@ -1,0 +1,746 @@
+/* 
+  Localizable.strings
+  Accessibility Handbook
+
+  Created by Giovani Nascimento Pereira on 20/09/22.
+  
+*/
+"title" = "Handbook de Acessibilidade";
+"handbook" = "Handbook";
+"VoiceOver" = "VoiceOver";
+
+// Home
+
+"Home.developmentGuides" = "Guia de Desenvolvimento";
+"Home.handbookGame" = "Jogos do Handbook";
+"Home.handbookGameDescription" = "Teste seu conhecimento de acessibilidade com uma série de jogos!";
+"Home.dynamicFonts" = "Fontes dinâmicas";
+"Home.otherFeatures" = "Outras features";
+"Home.collaborate" = "Colabore";
+
+// Using
+
+"UsingTheVoiceOver" = "Usando o VoiceOver";
+
+// Enable VoiceOver
+
+"EnableVoiceOver.title" = "Ativando o VoiceOver";
+"EnableVoiceOver.text1" = "VoiceOver é o nome do leitor de tela nativo do iOS. Usado para prover acessibilidade para deficientes visuais.";
+"EnableVoiceOver.text2" = "Para ativar o VoiceOver, vá nas configurações do seu dispositivo na seção de Acessibilidade.";
+"EnableVoiceOver.text3" = "Então, vá até a seção de VoiceOver e ligue a chave.";
+"EnableVoiceOver.text4" = "Como alternativa a fazer isso toda vez que você quiser ativar o leitor de tela, você pode ir na seção de 'Atalhos de Acessibilidade'.";
+"EnableVoiceOver.text5" = "Lá, selecione quais opções você quer ter acesso rápido. Não se esqueça de selecionar o VoiceOver.";
+"EnableVoiceOver.text6" = "E agora, você pode acessar quaisquer uma dessas features clicando três vezes no botão lateral do seu dispositivo (o botão que trava a tela).";
+"EnableVoiceOver.comment" = "Além de dar um acesso rápido, ele também ajuda a desligar o VoiceOver rapidamente caso você fique travado em alguma coisa enquanto ele está ativado.";
+
+// Element Reading Order
+
+"ElementReadingOrder.title" = "Ordem de Leitura";
+"ElementReadingOrder.text1" = "O VoiceOver lê o conteúdo na tela seguindo a 'ordem de leitura natural da língua do dispositivo' ";
+"ElementReadingOrder.comment1" = "O quê?";
+"ElementReadingOrder.text2" = "Por exemplo, em Português, a ordem de leitura é da esquerda para a direita, e de cima para baixo. Já em japonês é da direita para a esquerda e de cima para baixo.";
+"ElementReadingOrder.text3" = "Então, o leitor irá seguir, ou pelo menos tentar, essa mesma ordem enquanto lê o conteúdo.";
+"ElementReadingOrder.comment2" = "Você pode mudar a ordem de leitura dos elementos, se você quiser.";
+"ElementReadingOrder.link" = "Olhe a página 'Accessibility Priority' para mais informações";
+"ElementReadingOrder.text4" = "E quando estamos falando de apenas um elemento focado (Onde o cursor está focado no momento)";
+"ElementReadingOrder.text5" = "O conteúdo desse elemento será lido na seguinte ordem:";
+
+// Rotor
+
+"Rotor" = "Rotor";
+"Rotor.comment1" = "O Rotor é esse tipo de coisa que parece que ninguém conhece direito.";
+"Rotor.text1" = "Se você fizer um gesto de um cículo com 2 dedos na tela, você vai ativar o Rotor.";
+"Rotor.comment2" = "Ligue o VoiceOver e tente ativar o rotor agora mesmo!";
+"Rotor.text2" = "O Rotor têm algumas ações padrão, como mudar a velocidade de leitura ou a língua do leitor.";
+"Rotor.text3" = "Você também pode criar açõoes customizadas para o Rotor. A ideia é que isso ajude o usuário a encontrar conteúdos específicos, como filtrando por links na sua tela, ou qualquer conteúdo semelhante, permitindo que o usuário navegue apenas nesse itens selecionados no Rotor.";
+"Rotor.comment3" = "Pessoalmente, eu tenho que dizer que nunca usei uma ação customizada no Rotor, mas é uma alternativa poderosa para fluxos complexos ou com muita informação!";
+"Rotor.image" = "Exemplo do Rotor ativado";
+
+// Rotor and Headers
+
+"RotorAndHeaders.title" = "Rotor + Títulos";
+
+"RotorAndHeaders.Rotor.text" = "Se você não viu ainda, dê uma olhada na página do Rotor para ver mais sobre esse componente!";
+
+"RotorAndHeaders.Header.text1" = "O accessibility trait 'header' é importante para marcar o começo de uma seçãod e conteúdo nova, mas, além disso, é importante notar como isso afeta a forma com que o usuário pode navegar nas páginas usando o Rotor.";
+"RotorAndHeaders.Header.text2" = "Se você não viu a página do trait 'Header', dê uma olhada para aprender mais sobre!";
+
+"RotorAndHeaders.Together.title" = "Mas o que tem esses dois juntos?";
+"RotorAndHeaders.Together.text1" = "Se você ativar o rotor, você vai notar a opção 'Headers/Títulos'";
+"RotorAndHeaders.Together.text2" = "Quando selecionada, essa opção permite o usuário navegar apenas nos componentes marcados como header, através do gesto de deslizar para cima e para baixo na tela.";
+"RotorAndHeaders.Together.text3" = "Isso é extremamente útim para encontrar seções específicas no meio de muito conteúdo.";
+
+"RotorAndHeaders.Example.text1" = "Caso você não tenha notado, essa página foi feita usando títulos.";
+"RotorAndHeaders.Example.text2" = "Ligue o VoiceOver e tente navegar neles!";
+
+// Navigation
+
+"Navigation.title" = "Navegação";
+"Navigation.text1" = "A navegação do VoiceOver é baseada em gestos. Cada gesto pode ser feito em qualquer lugar da tela e vai disparar uma ação específica.";
+"Navigation.text2" = "Quando ativado, o leitor vai mostrar um marcador em cima de qual view ele está focado. Este marcador é chamado 'Cursor'.";
+"Navigation.text3" = "Navegar, basicamente significa mudar a posição do cursor, para que ele leia outro elemento.";
+"Navigation.text4" = "Para ir para o próximo elemento, basta deslizar o dedo horizontalmente na tela da esquerda para a direito, e para voltar, da direita para a esquerda.";
+"Navigation.comment" = "Este app foi contruído para suportar o VoiceOver, e o conceito abordado em cada página dos guias tem um exemplo implementado do tópico, então você pode usar o leitor para testar como cada coisa funciona!";
+"Navigation.image" = "Acima, um exemplo do Cursor. O título 'Handbook' está focado.";
+"Navigation.imageSubtitle" = "Exemplo do VoiceOver sendo utilizado.";
+
+"Navigation.MoveAround.title" = "Movimente-se";
+"Navigation.MoveAround.text1" = "Quando o VoiceOver estiver ativado, deslize horizontalmente para mudar o focos entre os elementos.";
+"Navigation.MoveAround.text2" = "Da esquerda para a direita para o próximo, e da direita para a esquerda para o anetrior.";
+
+"Navigation.Activate.title" = "Ativar um elemento";
+"Navigation.Activate.text" = "Ativar, no VoiceOver, é o mesmo que clicar num item quando o leitor está desativado. Clique duas vezes com um dedo para ativar o elemento focado.";
+"Navigation.Activate.comment" = "Você pode ler mais sobre outras formas de interagir na seção 'Interação'";
+
+"Navigation.Footer.title" = "Aprenda mais gestos";
+"Navigation.Footer.text1" = "Se você clicar duas vezes com 4 dedos, o VoiceOver eirá ativar o 'Guia de Gestos'.";
+"Navigation.Footer.text2" = "Agora, cada gesto executado será anunciado pelo leitor, seguido de sua função. É uma ótima forma de descobrir novas maneiras de interagir com o VoiceOver.";
+"Navigation.Footer.text3" = "E para desabilitar, clique duas vezes com 4 dedos novamente!";
+"Navigation.Footer.comment" = "Esses são apenas alguns dos gestos disponívels. Planejamos adicionar uma seção mais aprofundada com os gestos no futuro, mas por enquanto, sugerimos que você experimente usar o leitor de tela e o guia de gestos para descobiri mais!";
+
+// Accessibility Properties
+
+"AccElements.title" = "Propriedades de Acessibilidade";
+
+// Accessibility Element
+
+"AccElem.title" = "Elementos acessíveis";
+"AccElem.text1" = "Quando usando VoiceOver, o cursor vai focar em 'elementos acessíveis'. Esses elementos são identificados pela propriedade 'accessibilityElement' sendo 'True'.";
+"AccElem.text2" = "Every element marked with this property 'True' can be focused by the VoiceOver, and the elments with the property 'False' will be ignored.";
+"AccElem.text3" = "Ligue o VoiceOver e navegue pelos próximos elementos. Alguns serão focados e outros não.";
+"AccElem.comment" = "É importante configurar elementos que não devem ser focados corretamente, como separadores ou elementos que não tem 'accessibility labels' como não acessíveis.";
+"AccElem.comment2" = "Assim, prevenimos conteúdos vazios, que podem confundir o usuário, de serem focados.";
+
+"AccElem.example.isAccessibilityElement" = "Este é um elemento acessível.";
+
+// Accessibility Label
+
+"AccLabel.title" = "Accessibility Label";
+"AccLabel.text1" = "'Accessibility label' é a propriedade que reflete o conteúdo que será lido pelo VoiceOver quando o item é focado.";
+"AccLabel.text2" = "Todo elemento focado pelo leitor deveria ter um 'accessibility label'.";
+"AccLabel.text3" = "Ligue o VoiceOver e foque no elemento a seguir. O conteúdo que será lido é o seu 'accessibility label'.";
+"AccLabel.image" = "Noite estrelada, por Vincent Van Gogh. Isto é um accessibility label!";
+"AccLabel.comment" = "Alguns componentes tem o 'accessibility label' configurado automaticamente, como labels e botoões, mas você pode configurá-los manuelmente se necessário.";
+"AccLabel.text4" = "E, algumas vezes, você pode configurar um 'accessibility label' diferente a uma view como forma de deixar o conteúdo mais fácil de compreender, como descrever unidades de medida ou abreviações.";
+"AccLabel.example" = "10Kg";
+"AccLabel.accessibilityLabelExample" = "10 Quilos";
+
+// Accessibility Hint
+
+"AccHint.title" = "Accessibility Hint";
+"AccHint.text1" = "'Accessibility hints', ou dicas de acessibilidade, são conteúdos adicionais lidos ao final de um elemento. São sempre o último conteúdo a ser lido quando um elemento está focado.";
+"AccHint.text2" = "São usados para prover informações adicionais sobre um elemento para que o usuário compreenda melhor o conteúdo ou como interagir com ele.";
+"AccHint.text3" = "Por exemplo: Você tem uma célula com um gesto de 'long press' (que é um toque triplo com um dedo), você pode adicionar essa informação no 'accessibility hint' desse componente para descrever essa ação adicional.";
+"AccHint.comment" = "Hints são opcionais, por isso são deixadas ao final da leitura do componente então um usuário não precisa ouvir as hints serem lidas caso ele já conheça o fluxo e sabia o que fazer.";
+
+"AccHint.example.hint" = "Toque três vezes para copiar o código do seu pedido.";
+"AccHint.example.title" = "Seu pedido";
+"AccHint.example.message" = "Batata frita com queijo";
+"AccHint.example.footer" = "#123456";
+"AccHint.example.notification" = "Código copiado para área de transferência";
+
+// Accessibility Trait
+
+"AccTrait.title" = "Accessibility Trait";
+"AccTrait.text1" = "'Accessibility Traits' são modificadores que podem ser adicionados a uma view para alterar seu comportamento ou dar informação adicionar sobre seu comportamento.";
+"AccTrait.text2" = "Existem vários traits, alguns talvez você nunca nem precise usar, e outros são muito poderosos e importantes de se conhecer.";
+"AccTrait.text3" = "Na verdade, traits são tão importantes que temos uma seção dedicada só para eles!";
+"AccTrait.comment1" = "Dê uma olhada nessa seção para ver mais sobre cada trait.";
+"AccTrait.text4" = "Adicionar um 'accessibilty trait' a uma view é muito simples.";
+
+// Accessibility Value
+
+"AccValue.title" = "Accessibility Value";
+"AccValue.text1" = "'Accessibility Values' representar o valor (geralmente numérico) associado com uma view.";
+"AccValue.text2" = "É mais comumente usado em elementos que representam quantidades, como contadores, sliders ou quick-adds.";
+"AccValue.text3" = "E quando alterado, com a view está focada, o novo valor será lido pelo leitor.";
+"AccValue.comment1" = "Dê uma olhada no exemplo abaixo, mude a quantidade e note o 'Accessibility Value' sendo lido pelo leitor.";
+"AccValue.comment2" = "Este é um exemplo montado usando o 'Adjustable Trait'.";
+
+// Accessibility Priority
+
+"AccPriority.title" = "Accessibility Priority";
+
+"AccPriority.text1" = "'Accessibility Sort Priority' (ou prioridade de acessibilidade), em SwiftUI, é uma forma de mudar a ordem de leitura dos elementos lidos pelo VoiceOver";
+"AccPriority.text2" = "No UIKit, para ter o mesmo resultado, a ordem de leitura é definida colocando os elementos na ordem correta no vetor 'accessibilityElements' da view pai.";
+"AccPriority.text3" = "Alterar a ordem de leitura pode ser útil em algumas situações, dê uma olhada no exemplo abaixo:";
+"AccPriority.comment1" = "Sim, você pode alterar a ordem de leitura de elementos, mas a maioria das vezes não é necessário.";
+"AccPriority.comment2" = "De maneira geral, a ordem de leitura recomendada é a ordem de leitura natural da língua selecionada no VoiceOver.";
+"AccPriority.comment3" = "Por exemplo, em Português, o VoiceOver lê o conteúdo da esquerda para a direita e de cima para baixo. Que já é o comportamento padrão do VoiceOver";
+"AccPriority.notification" = "Viu como esse botão foi focado depois dos outros elementos, mesmo estando acima deles?";
+
+"AccPriority.Code.uikitComment" = "O conteúdo é lido na ordem colocada no vetor.";
+"AccPriority.Code.swiftUIComment" = "A maior prioridade é lida primeiro";
+
+// Accessibility Traits
+
+"AccTraits.title" = "Accessibility Traits";
+
+// List of traits
+
+"ListOfTraits.title" = "Lista de Accessibility Traits";
+
+"ListOfTraits.text1" = "Aqui uma lista completa dos accessibility traits. Alguns tem uma página de discussão dedicada no app.";
+"ListOfTraits.comment1" = "Porque eu acho que são os mais importantes (ou os únicos que eu tive tempo / conteúdo suficiente pra fazer uma página dedicada sobre)";
+"ListOfTraits.text2" = "Outros são um pouco mais óbvios do que fazem, onde devem ser usados e como funcionam.";
+"ListOfTraits.comment2" = "Mas dê uma olhadinha sim na documentação de cada um!";
+
+"ListOfTraits.button" = "Marca um elemento como sendo um botão, o que basicamente significa que ele pode ser ativado com um duplo clique.";
+"ListOfTraits.adjustable" = "Adiciona gestos para alterar quantidades. É bem útil em elementos como sliders, contadores ou quick-adds.";
+"ListOfTraits.header" = "Um 'header' (título) pode ser focado com o Rotor, e indica o começo de uma nova seção no conteúdo.";
+"ListOfTraits.link" = "Um link para uma página na internet";
+"ListOfTraits.image" = "Uma imagem. Pode não parecer mas é importante quando focado numa imagem que ele tenha ese trait, um deficiente visual pode analisar o conteúdo da imagem com o próprio VoiceOver caso tenha algo escrito, ou até mesmo tirar um print da tela para mostrar para alguém.";
+"ListOfTraits.searchField" = "É um campo de busca. Permite digitar conteúdo e inicia uma pesquisa.";
+"ListOfTraits.keyboardKey" = "Uma tecla de teclado. Provavelmente não é muito relevante a não ser que você esteja implementando um teclado customizado";
+"ListOfTraits.staticText" = "Apenas um texto.";
+"ListOfTraits.tabbar" = "Um ícone da TabBar.";
+"ListOfTraits.summaryElement" = "\"Um elemento acessível que provê informações quando o app abre.\"";
+"ListOfTraits.selected" = "Um item selectionado - usado quando existem mais itens que podem ser selecionados (como segmneted controllers, radio buttons...)";
+"ListOfTraits.notEnabled" = "A interação com o componente está desativada - por exemplo, um botão desabilitado.";
+"ListOfTraits.allowsDirectInteraction" = "O elemento permite interação direta para usuários do VoiceOver.";
+"ListOfTraits.updatesFrequently" = "O valor da 'accessibility label' muda com frequência.";
+"ListOfTraits.causesPageTurn" = "Caus uma mudança automáica de página quando termina de ler o elemento.";
+"ListOfTraits.playsSound" = "Toca um som quando ativado.";
+"ListOfTraits.startsMediaSession" = "Começa uma sessão de mídia - tocadores de música ou de vídeo.";
+
+// Button trait
+
+"ButtonTrait.title" = "Button Trait";
+
+"ButtonTrait.text1" = "O trait de botão é, pra mim, o mais importante dos traits.";
+"ButtonTrait.text2" = "Ele basicamente diz pro usuário que ele pode ativar um elemento (com um toque duplo) e que alguma coisa vai acontecer quando ele for ativado.";
+"ButtonTrait.text3" = "Se você está usando um Button ou um UIButton, ele vai automaticamente ter o trait de botão.";
+"ButtonTrait.text4" = "Mas, algumas vzes, você precisa adicioná-lo manualmente, como uma célula que abre uma tela nova, ou qualquer conteúdo com um gesto de Tap.";
+
+"ButtonTrait.myCell" = "Minha célula";
+"ButtonTrait.cellDescription" = "Descrição";
+"ButtonTrait.additionalInformation" = "Informação adicional";
+"ButtonTrait.cellTapped" = "A célula foi clicada";
+
+// Adjustable
+
+"Adjustable.title" = "Adjustable trait";
+
+"Adjustable.text1" = "Componentes ajustáveis estão na verdade usando um 'accessibility trait'.";
+"Adjustable.text2" = "É usado em componentes que tem algum tipo de alteração de quantidade ou seleção de conteúdo, como quick-adds, sliders ou contadores.";
+"Adjustable.text3" = "É muito poderoso, e, quando focado, um elemento ajustável ganha os gestos de deslizara para cima e para baixo.";
+"Adjustable.text4" = "Que podem ser implementados para tratar suas ações respsctivamente.";
+
+"Adjustable.seeMore" = "Veja mais sobre accessibility traits!";
+
+"Adjustable.Code.increment" = "Tratar incremento";
+"Adjustable.Code.decrement" = "Tratar decremento";
+
+// Colors
+
+"ColorsGuide.title" = "Guia de cores";
+"ColorsGuide.introduction" = "Introdução";
+
+// About Colors
+
+"AboutColors.title" = "Sobre cores";
+"AboutColors.text1" = "Eu gosto de cores.\nMas nem todos as veem da mesma forma.";
+"AboutColors.comment1" = "Algumas pessoas não veem cor alguma.";
+"AboutColors.text2" = "Cores são como nossos cérebros tratam a luz que chega nos nossos olhos, que têm células que interagem com frequências diferentes de luz, e a combinação delas gera a cor que nós vemos.";
+"AboutColors.comment2" = "Eu estou entrando um pouco em física e biologia aqui, mas não desista de mim.";
+"AboutColors.text3" = "E quando construindo uma aplicação, cores são geralmente algo que tratamos antes de realmente começar a implementar alguma coisa, durante o que eu gosto de chamar de 'O período de design'.";
+"AboutColors.text4" = "Então, se você está trabalhando num time com um Designer, eu recomendo levar a discussão sobre cores para seu time! Para entender mais sobre cores, como elas afetam os usuários e como podemos considerar acessibilidade com o uso delas.";
+"AboutColors.comment3" = "E se você não tem um Designer por aí... Bom, eu espero que esse conteúdo possa te ajudar a entender um pouco mais sobre!";
+"AboutColors.higColors" = "Human Interface Guidelines - Colors";
+"AboutColors.image" = "Uma imagem de cores bonitas";
+
+// Collaboration
+
+"Collaboration.title" = "Colaboração";
+"Collaboration.OpenSource.title" = "Open Source";
+"Collaboration.OpenSource.text1" = "Sim, o Handbook é um projeto de código livre!";
+"Collaboration.OpenSource.text2" = "A ideia é que o app possa ser usado como exemplo, onde se possa ver o código, e testar a feature rodando num app de verdade.";
+"Collaboration.OpenSource.comment1" = "Não é perfeito, e talvez um pouco estranho em alguns lugares...";
+"Collaboration.OpenSource.text3" = "Mas sinta-se a vontade de sugerir edições, mudanças, corrigir alguns bugs e identificar problemas no nosso projeto do GitHub!";
+"Collaboration.githubPreoject" = "Veja o projeto no GitHub";
+"Collaboration.license" = "Licensa";
+"Collaboration.Issue.title" = "Encontrou um problema?";
+"Collaboration.Issue.text1" = "Reporte para nós no GitHub!";
+"Collaboration.Issue.text2" = "Pode ser um problema de tradução, algo errado na acessibilidade de um component (ninguém é perfeito), ou qualquer coisa!";
+"Collaboration.submitIssue" = "Submeta uma issue!";
+"Collaboration.Translate.title" = "Nos ajude a traduzir";
+"Collaboration.Translate.text1" = "Se você é um desencolvedor e gostaria de levar o Handbook mais próximo da sua comunidade local, considere nos ajudar a traduzir o conteúdo para outras línguas!";
+"Collaboration.Translate.text2" = "Você pode abrir um PR no GitHub traduzindo o conteúdo.";
+"Collaboration.Translate.comment" = "Eu sei que é bastante coisa... mas quanto mais melhor!";
+"Collaboration.submitPR" = "Submeta um Pull Request com suas mudanças!";
+"Collaboration.Suggestion.title" = "Quer ver algo específico?";
+"Collaboration.Suggestion.text1" = "Talvez você tenha algo que queria saber mas não encontrou aqui";
+"Collaboration.Suggestion.text2" = "Ou gostaria de sugerir um jogo novo?";
+"Collaboration.Suggestion.text3" = "Fique a vontade para nos trazer qualquer ideia!";
+"Collaboration.submitFeatureRequest" = "Submeta um pedido de feature!";
+
+// About the app
+
+"AboutTheApp.title" = "Sobre o app";
+
+"AboutTheApp.History.text1" = "O 'Accessibility Handbook' começou como uma ideia com alguns colegas de trabalho e amigos, para ser uma maneira fácil de aprender e testar features de acessibilidade em iOS.";
+"AboutTheApp.History.text2" = "Com o passar do tempo, trabalhamos na ideia, mas nunca chegamos a terminar de fato. Agora, puxamos de novo o projeto, reescrevendo o conteúdo em SwiftUI, mas com exemplos em UIKit e SwiftUI, tentando trazer algo realmente legal para ser usado por todo mundo.";
+"AboutTheApp.History.text3" = "Eu sempre achei que informação sobre acessibilidade sempre esteve por aí, mas você tinha que saber exatamente o que procurar.";
+"AboutTheApp.History.text4" = "Então é aí que entra o 'Handbook', é algo fácil de acessar, colaborativo e rápido de encontrar! E é um app! Algo que você carrega pra todo lado.";
+"AboutTheApp.History.text5" = "É baseado em experiências de desenvolvedores com situações de verdade, e eu espero que ajude você a compreender mais sobre o tema e aplicar nos seus próprios projetos!";
+
+"AboutTheApp.Game.title" = "E sobre os Jogos?";
+"AboutTheApp.Game.text1" = "O Guia em si é muito legal e tudo mais... mas era meio chato.";
+"AboutTheApp.Game.text2" = "Então, tentamos trazer algo que ajudasse a compreender melhor o conteúdo,";
+"AboutTheApp.Game.text3" = "E qual a melhor forma de se afzer isso do que com um jogo?";
+"AboutTheApp.Game.comment" = "O sdesafios não são feitos para serem difíceis, mas uma forma de forçar você a entender como habilitar e utilizar diversas opções de acessibilidade, e claro, praticar o seu conhecimento!";
+
+"AboutTheApp.Disclaimer.title" = "Disclaimer";
+"AboutTheApp.Disclaimer.text1" = "O app e o conteúdo foi feito para ser um guia, baseado em esperiências reais.";
+"AboutTheApp.Disclaimer.text2" = "Não sabemos TUDO sobre acessibilidade, e estamos aprendendo mais a cada dia.";
+"AboutTheApp.Disclaimer.comment1" = "E com certeza aprendemos muito enquanto desenvolvendo esta aplicação.";
+"AboutTheApp.Disclaimer.text3" = " Podem haver problemas e até soluções melhores do que as explicadas aqui. E caso você as encontre, considere reportar para a gente!";
+"AboutTheApp.Disclaimer.text4" = "Gostaríamos que o guia fosse uma ferramente confiável no dia-a-dia do seu desenvolvimento.";
+"AboutTheApp.Disclaimer.openCollaborationPage" = "Dê uma olhada na página sobre colaboração para ver outras formas de ajudar o projeto!";
+
+// Color blindness
+
+"ColorBlind.title" = "Daltonismo";
+"ColorBlind.About.text1" = "Daltonismo é o nome dado a habilidade reduzida de enxergar ou perceber diferenças em cores.";
+"ColorBlind.About.text2" = "O que você pode não saber, é que existem 'níveis de daltonismo'. Uma pessoa com deficiência de visão da cor verde pode não ver essa cor por completo ou apenas um pouco menos que as outras pessoas.";
+"ColorBlind.About.text3" = "Você pode fazer um Teste de Ishihara para verificar se você é daltônico. Eu tenho uma amiga que descobriu quando estávamos na faculdade! E antes disso, eu esperava que fosse descoberto quando você fosse mais jovem, mas foi uma maneira de mostrar que a condição pode aparecer e manifestar de maneiras diferentes na vida de cada pessoa.";
+"ColorBlind.About.ishihara" = "Exemplo de um teste de Ishihara.";
+"ColorBlind.About.comment" = "A imagem acima é de um teste de Ishihara. Para uma pessoa de visão 'normal', é esperado que se veja os número '12', '6' e '74', respectivamente.";
+"ColorBlind.About.text4" = "Mas como isso afeta quando você está fazendo um app?";
+"ColorBlind.About.ishiharaTest" = "Teste de Ishihara";
+
+"ColorBlind.Handle.title" = "Tratando conteúdo considerando Daltonismo";
+"ColorBlind.Handle.text1" = "Primeiro, garanta que o seu conteúdo não dependa apenas de cores para diferenciar informações. Observe o exemplo a seguir.";
+"ColorBlind.Handle.text2" = "Aqui, na primeira coluna, estamos usando apenas a cor vermelha para marcar itens negativos, e cor verde para os itens positivos. Mas isso é exatamente o que queremos evitar. A segunda coluna tem uma informação mais 'universal', onde identificamos itens positivos e negativos pela cor mas também pelo uso de ícones associados ao conteúdo.";
+"ColorBlind.Handle.comment1" = "Usar os ícones + e - e até mesmo cores vermelho e verde tem conotações culturais e pode variar de acordo com cada localidade. Mas aqui é só um exemplo mesmo.";
+"ColorBlind.Handle.comment2" = "Se você tem um conteúdo que depende apenas de cores para ser identificado no seu app, e não consegue ou não quer alterar a forma como ele é apresentado para o público geral, mas ainda que dar suporta para as pessoas que são daltônicas, dê uma olhada na página 'Differentiate without colors'.";
+
+"ColorBlind.Images.title" = "Cuidado com imagens";
+"ColorBlind.Images.text1" = "As vezes, apresentamos conteúdos que estão dentro de imagens. Baners que vieram do backend, informações promocionais, ou alguma coisa que foi montada para aparecer melhor na imagem.";
+"ColorBlind.Images.comment" = "Primeiro, adicione um texto alternativo 'accessibility label' à imagem!";
+"ColorBlind.Images.text2" = "Você tembém tem que tomar cuidado para que o conteúdo exibido não tenha cores conflitantes para usuários daltônicos.";
+
+// Contrast
+
+"Contrast.title" = "Contraste";
+"Contrast.text1" = "Contraste é a diferença de luminosidade or cor que faz com que um objeto (ou a sua representação em uma imagem ou tela) distinguível.";
+"Contrast.comment1" = "Mas porque falar de contraste quando estamos falando de acessibilidade?";
+"Contrast.text2" = "Contraste é importante quando considerando as cores da sua aplicação. Tudo que é apresentado deveria ser... bom, visível.";
+"Contrast.text3" = "E por isso, queremos dizer que você tem que tomar cuidado ao adicionar conteúdo que deve ser lido em cores sobre outras cores. A base do contraste é sempre o texto preto no fundo branco (ou o texto brando no fundo preto - Dark Mode).";
+"Contrast.comment2" = "Mas isso também depende da fonte que você está usando, do peso e do tamanho dela.";
+
+"Contrast.Example.text1" = "Uma forma legal de testar o contraste, é usando o guia do WCAG.";
+"Contrast.Example.comment1" = "WCAG significa 'Web Content Accessibility Guidelines' (Guia de conteúdo de acessibilidade para Web), e mesmo sendo direcionado para navegadores de internet e não diretamente para ambientes mobile, é uma ótima referência de acessibilidade de maneira geral, especialmente na parte de contraste.";
+"Contrast.Example.example1" = "O exemplo acima falha o teste de contraste do WCAG.";
+"Contrast.Example.example2" = "Este exemplo é mais ou menos, você pode usar essa combinação de cores com fontes maiores, por exemplo.";
+"Contrast.Example.example3" = "E esse contraste é muito bom! O clássico preto-no-branco.";
+"Contrast.Example.link" = "Você pode tentar você mesmo com essa ferramenta online de teste de contraste!";
+
+// Differentiate without colors
+
+"Differentiate.title" = "Diferenciar sem cores";
+
+"Differentiate.Intro.text1" = "O 'Differentiate Without Colors' (ou, diferenciar sem cores), é uma forma com que o usuário pode pedir para não usar apenas cores para diferenciar conteúdos.";
+"Differentiate.Intro.text2" = "No código, isso se resume a um Booleano que você pode checar para ver se essa opção de acessibilidade está ativada ou não.";
+"Differentiate.Intro.comment1" = "Apesar que, na maioria das vezes, é uma boa prática adotar como comportamento padrão que o seu conteúdo não dependa apenas de cores para ser identificado. Este é o tipo de problema que pode ser previnido com boas discussões equanto montando designs e layouts para suas aplicações, antes mesmo de começar a implementar.";
+"Differentiate.Intro.text3" = "Esta opção pode ser abilitada nas configurações do dispositivo, na seção de acessibilidade.";
+"Differentiate.Intro.text4" = "Aqui, um exemplo clássico, o jogo do fio! Onde você tem que conectar os fios de cores iguais nos lados opostos da tela.";
+"Differentiate.Intro.text5" = "Ao adicionar ícones nos fios, você garante que eles coneguem ser diferenciados não só pelas cores.";
+"Differentiate.Intro.image" = "Imagem do jogo Among Us usando multiplos filtros de daltonismo.";
+"Differentiate.Intro.comment2" = "Um bom exemplo é o jogo 'Among Us'. Na imagem acima, em ordem, estão aplicados os filtros de  Deuteranopia, Protanopia e Tritanopia. Esses nomes estranhos são tipos diferentes de daltonismo.";
+
+"Differentiate.Handle.text1" = "Para verificar se a opção está habilitada, você pode usar 'UIAccessibility.shouldDifferentiateWithoutColor'";
+"Differentiate.Handle.text2" = "E você pode também usar a notificação dessa propriedade com o Notification Center para pegar mudanças nesse valor.";
+"Differentiate.Handle.text3" = "E em SwiftUI, você pode usar uma 'Environment property' (variável de ambiente) com o mesmo objetivo.";
+
+// Color acc feature
+
+"ColorAccessibilityFeatures" = "Opções de acessibilidade com cores";
+
+// Reduce Transparency
+
+"ReduceTransparency.title" = "Reduzir Transparências";
+
+"ReduceTransparency.Intro.text1" = "Esta é uma opção de acessibilidade que pode ser habilitada nas configurações do dispositivo.";
+"ReduceTransparency.Intro.text2" = "Quando ligada, o usuário pede para que sua aplicação reduza a quantidade de blur e transparências usadas.";
+"ReduceTransparency.Intro.comment" = "Algumas pessoas podem ter dificuldade de enxergar ou ler conteúdos com transparências!";
+
+"ReduceTransparency.Example.text1" = "Tente ligar e desligar essa opção e obervar o conteúdo abaixo.";
+"ReduceTransparency.Example.example" = "Text transparente\nem cima de um background 'borrado'.";
+
+"ReduceTransparency.Code.text1" = "E é muito fácil de tratar!";
+"ReduceTransparency.Code.text2" = "No UIKit, você precisa checkar um booleano no UIAcessibility.";
+"ReduceTransparency.Code.text3" = "E, claro, você também pode observar a notificação dessa mesma propriedade para tratar caso ela seja alterada, usando o Notification Center.";
+"ReduceTransparency.Code.text4" = "E em SwiftUI você pode usar uma variável de ambiente!";
+
+// Invert Colors
+
+"InvertColors.title" = "Inverter cores";
+
+"InvertColors.Intro.text1" = "Inverter cores é outra opção de acessibildiade que pode ser habilitada nas configurações do seu dispositivo.";
+"InvertColors.Intro.text2" = "Existem 2 tipos de inversão no iOS:";
+"InvertColors.Intro.text3" = "Clássica - onde tudo será invertido;";
+"InvertColors.Intro.text4" = "Inteligente - onde (quase) tudo em light mode será invertido, e você (desenvolvedor) pode escolher se será invesível ou não.";
+"InvertColors.Intro.comment1" = "Mas por que alguém usaria isso?";
+"InvertColors.Intro.text5" = "Acredito que recaia na dificuldade as vezes de ler conteúdos de texto preto sobre o fundo branco. (Eu mesmo sem óculos prefiro ler texto com a fonte branca sobre o fundo preto).";
+"InvertColors.Intro.text6" = "A inversão de cores é uma alternativa para ajudar nesse cenário.";
+
+"InvertColors.WhatToDo.title" = "O que fazer enquanto desenvolvedor?";
+"InvertColors.WhatToDo.text1" = "Você basicamente precisa marcar o que você não quer que seja invertido. Como imagens, uma foto do seu cachorro, uma foto de um hambúrguer que ficaria bem esquisito quando invertido...";
+"InvertColors.WhatToDo.text2" = "E, para isso, você precisa simplesmente configurar um booleano nas propriedades da sua view, marcando que você não que que ela seja invertida.";
+
+"InvertColors.Example.text1" = "Altere o seu display entre light/dark mode e ative e desative a inversão de cores nas configurações do seu dispositivo e veja o comportamento das imagens abaixo.";
+"InvertColors.Example.image1" = "Noite estrelada, por Van Gogh";
+"InvertColors.Example.image2" = "Noite estrelada, por Van Gogh. Esta imagem está marcada para não ser invertida.";
+"InvertColors.Example.comment" = "Apenas a segunda imagem está marcada para não ser invertida.";
+
+// Header Trait
+
+"HeaderTrait.title" = "Header Trait";
+"HeaderTrait.text1" = "O trait de Header (ou título) é usado para marcar títulos, que indicam uma nova seção de conteúdo.";
+"HeaderTrait.comment1" = "Só isso?";
+"HeaderTrait.text2" = "A parte legal, é que você pode navegar apenas nos headers usando o Rotor.";
+"HeaderTrait.link" = "Mais sobre Rotores";
+"HeaderTrait.text3" = "Dessa forma, você pode passar todo o conteúdo até encontrar a seção que você procura.";
+
+// Increase Contrast
+
+"IncreaseContrast.title" = "Aumentar contraste";
+
+"IncreaseContrast.Intro.text1" = "Outra opção de acessibilidade que pode ser ativada nas configurações do seu dispositivo.";
+"IncreaseContrast.Intro.text2" = "O nome meio que já entrega, quando ativada, o usuário está pedindo que o contraste aumente entre o seu conteúdo e o plano de fundo, de forma que seja mais fácil de distinguir entre eles.";
+
+"IncreaseContrast.Property.title" = "Tratando mudanças de contraste";
+"IncreaseContrast.Property.text1" = "Uma forma simples de suportar isso é usandoa s cores do sistema. Elas vão alterar automaticament quando essa opção for alterada.";
+"IncreaseContrast.Property.comment1" = "Este app foi contruído usando cores do sistema! Mude suas opções de contraste e veja as diferenças!";
+"IncreaseContrast.Property.text2" = "Ou você pode usar o 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' booleano para verificar o estado atual dessa opção.";
+
+"IncreaseContrast.swiftUI.text1" = "E em SwiftUI, existe um modificador muito interessante que altera o contraste de suas views.";
+"IncreaseContrast.swiftUI.comment1" = "Não que eu já tenha usado ela na vida real, mas ainda assim é bem interessante.";
+
+"IncreaseContrast.example" = "Exemplo de uso do modificador de contrast. São 6 imagens onde o contraste aumente progressivamente.";
+
+// Haptics
+
+"Haptic.text1" = "Haptics é o nome chique das vibraçõs que o seu dispositivo pode fazer.";
+"Haptic.text2" = "Existem vários tipos de Haptics, e cada um representa algo diferente.";
+"Haptic.comment1" = "Mas... por que estamos falando de vibrações num guia de acessibildiade?";
+"Haptic.text3" = "Haptics são um tipo de feedback. Quando você seleciona algo, quando algo dá errado...";
+"Haptic.text4" = "É uma camada a mais de informação. Imagine que a maioria das ações podem produzir uma animação, uma mudança de cor para chamar a atenção do usuário, quando clicamos num botão ele muda ligeiramente de cor para dar a impressão que está sendo pressionado.";
+"Haptic.text5" = "Mas não podemos depender de dicas visuais com todos os usuários, então os Haptics podem ser muito úteis em acompanhar esse tipo de feedback, se tornando uma camada a mais de acessibilidade.";
+
+"HapticList.title" = "Lista de Haptics";
+"HapticList.text1" = "Aqui uma lista de todos os Haptics disponíveis:";
+"HapticList.comment" = "Eu também sugiro que você dê uma olhada no código fonte desse projeto, que tem uma solução legal para disparar os diversos tipos de Haptics.";
+"HapticList.sourceCode" = "Código fonte";
+
+"Haptics.selection" = "Seleção";
+"Haptics.success" = "Sucesso";
+"Haptics.error" = "Erro";
+"Haptics.warning" = "Alerta";
+"Haptics.lighImpact" = "Impacto leve";
+"Haptics.mediumImpact" = "Impacto médio";
+"Haptics.heavyImpact" = "Impacto forte";
+
+// Activate
+
+"Activate.title" = "Ativar elemento";
+"Activate.text1" = "Ativar um elemento (clique duplo quando o VoiceOver está ativado) é o mesmo que clicar quando não se está usando o leitor de tela.";
+"Activate.comment1" = "Clicar num botão, numa célula...";
+"Activate.text2" = "Na maioria das vezes, esta ação acontece automaticamente se o seu componente tem um gesto de Tap ou é um botão.";
+"Activate.text3" = "Mas você pode personalizar ou adicionar ações específicas para este gesto.";
+"Activate.codeComment" = "Tratar ativação";
+
+// Long Press
+
+"LongPress.title" = "Long Press";
+"LongPress.comment1" = "Long press?";
+"LongPress.text1" = "'Long press' não é um gesto de acessibilidade propriamente dito, mas eu gosto de adicionar essa parte porque ele tem um gesto próprio no VoiceOver.";
+"LongPress.text2" = "Para simular um 'Long Press' de um toque triplo com um dedo no item focado.";
+"LongPress.text3" = "Ligue o VoiceOver e foque no elemento a seguir, ele tem um gesto de long press.";
+"LongPress.comment2" = "Se você está usando um gesto de ong press, eu sugiro que adiciona um 'Accessibility Hint' para avisar o seu usuário dessa interação!";
+"LongPress.text4" = "O 'long press' é especialmente útil nos botões de voltar da barra de navegação. No iOS, ele mostra oda a hierarquia de navegação, facilitando voltar para a página que você está procurando.";
+
+"LongPress.Example.text" = "Alguma view genérica aqui";
+"LongPress.Example.hint" = "Toque três vezes para copiar o texto";
+"LongPress.Example.notification" = "Texto copiado para área de transferência";
+
+"LongPress.Code.comment" = "Tratar gesto";
+
+// Custom Actions
+
+"CustomActions.title" = "Ações Customizadas";
+"CustomActions.text1" = "Ações customizadas, ou 'Custom Actions', é o nome da habilidade de adicinar múltiplas ações em um único elemento acessível. Quando focado, o leito vai ler 'ações dispon;iveis' ao final, o que significa que você pode deslizar o dedo para cima ou para baixo na tela para escolher a ação que será executada quando o elemento for ativado.";
+"CustomActions.comment1" = "Mas, quando eu usaria isso?";
+"CustomActions.text2" = "É uma ótima ferramenta para melhorar a acessibilidade de elementos que pode fazer várias ações.";
+"CustomActions.text3" = "Como uma célula de cartão que pode selecionar, deletar ou editar o cartão salvo.";
+"CustomActions.text4" = "Geralmente, você tem múltiplos botões, um para cada ação, mas focar em cada um deles separadamente não é uma boa experiência de VoiceOver.";
+"CustomActions.comment2" = "Eu acho que as ações customizadas são uma maneira muito útil de deixar acessíveis ações que ficam escondidas atrás de animações, como quando você clica num ícone de edição e então aparecem outros ícones com mais opções.";
+
+"CustomActions.creditCard" = "Cartão de Crédito";
+"CustomActions.accessible" = "Cartão de Crédito, terminado em 1234";
+
+// Magic Tap
+
+"MagicTap.title" = "Magic Tap";
+"MagicTap.text1" = "O 'Magic Tap', ou Toque Mágico, é um gesto de clique duplo com dois dedos.";
+"MagicTap.text2" = "Você pode configurar o 'Magic Tap' para executar qualquer ação.";
+"MagicTap.text3" = "A documentação da Apple sugere que ele seja usado como um atalho para a função principal da sua aplicação, como dar play/pause em um reprodutor de música, ou tirar uma foto num app de câmera.";
+"MagicTap.text4" = "Teste o Magic Tap na view abaixo.";
+"MagicTap.comment1" = "Quando implementando o 'Magic Tap', garanta que ele está habilitado na view focada, caso contrário, ele compete com o reprodutor de mídia do dispositivo, já que o mesmo gesto é usado para dar play/pause de maneira global.";
+
+"MagicTap.Example.thisContentIsMagic" = "Este conteúdo tem um Magic Tap!";
+"MagicTap.Example.magicPerformed" = "Magic tap executado";
+
+"VoiceOverGuide" = "Guia do VoiceOver";
+
+// Accessibility Notifications
+
+"AccNotifications.title" = "Notificações de Acessibilidade";
+
+// Announcement
+
+"Announcement.title" = "Anúncio";
+"Announcement.textToBeRead" = "Texto a ser lido";
+
+"Announcement.text1" = "Uma notificação de anúncio, ou 'announcement notification', é uma forma de fazer o VoiceOver ler algo que não está focado no momento.";
+"Announcement.text2" = "As vezes, alguma informação muda na tela, e mostramos pro usuário com alguma animação para puxar a sua atenção.";
+"Announcement.text3" = "Mas, não podemos depender de dicas visuais quando estamos falando de acessibilidade de deficiênia visual.";
+"Announcement.comment1" = "É aqui que os anúncios brilham! Ler mudanças de conteúdo na tela mas que não estão focadas no momento.";
+"Announcement.comment2" = "Os exemplos de código abaixo também são exemplos de anúncios quando você copia o código usando long press com o VocieOver habilitado.";
+
+"Announcement.Notifications.negative" = "Indo negativo não é?";
+"Announcement.Notifications.small" = "Os valores estão aumentando!";
+"Announcement.Notifications.medium" = "Você gosta de aumentar, não?";
+"Announcement.Notifications.large" = "Isso, continue assim...";
+"Announcement.Notifications.huge" = "Perto do fim agora";
+"Announcement.Notifications.final" = "Esta é a mensagem final.";
+
+// Notify Screen changes
+
+"NotifyChanges.title" = "Notificar mudanças na tela";
+"NotifyChanges.text1" = "Quando algo muda na tela, precisamos lembrar que um usuário de VoiceOver não será capaz de ver essa alteração.";
+"NotifyChanges.text2" = "Isso também vale pra quando a própria tela muda.";
+"NotifyChanges.text3" = "Mas, temos notificações de acessibilidade para dizer ao usuário o que aconteceu.";
+"NotifyChanges.comment1" = "O que é o argumento 'nil' no exemplo?";
+"NotifyChanges.comment2" = "Descubra mais na página a seguir!";
+
+"NotifyChanges.screenChange" = "Notificação de mudança da tela";
+"NotifyChanges.layoutChange" = "Notificação de mudança de layout";
+
+// Change cursor position
+
+"ChangeCursor.title" = "Mudar a posição do cursor";
+
+"ChangeCursor.Intro.text1" = "Na maioria das vezes, queremos que o usuário controle por completo para onde o cursor do VoiceOver vai se mover.";
+"ChangeCursor.Intro.text2" = "Quando mudamos algo na tela, como apresentar um modal em cima de todo o conteúdo, queremos redirecionar o usuário corretamente para esse novo conteúdo.";
+"ChangeCursor.Intro.comment" = "Mas, para isso, funciona um pouco diferente em UIKit e SwiftUI, então vamos separa as duas abordagens aqui.";
+
+"ChangeCursor.uikit.text1" = "Para mudar a posição do cursor em UIKit, usamos as notificações de mudança de tela.";
+"ChangeCursor.uikit.text2" = "Quanto disparadas uma dessas notificações, podemos passar uma view como argumento, o que vai fazer com que o leitor mude o foco para essa view.";
+"ChangeCursor.uikit.link" = "Mais sobre notificações de mudança de tela.";
+
+"ChangeCursor.swiftui.text1" = "Em SwiftUI, não vamos usar notificações, mas sim o @AccessibilityFocusState";
+"ChangeCursor.swiftui.text2" = "Ele permite saber se o cursor está focado numa view específica, e mover a nevageção pra ela caso necessário.";
+"ChangeCursor.swiftui.text3" = "Primeiro, criar um novo Booleano usando esse 'property wrapper'.";
+"ChangeCursor.swiftui.text4" = "Depois, associe-o a sua view usando um 'modifier'.";
+"ChangeCursor.swiftui.text5" = "Agora, você pode mudar o foco pra essa view setando esse bolleano para 'True'.";
+"ChangeCursor.swiftui.comment" = "Você pode até observar mudanças nessa propriedade para tratar alguma quando quando sua view for focada/desfocada pelo leitor.";
+
+// Content Hierarchy
+
+"ContentHiererachy" = "Hierarquia de conteúdo";
+
+// Modal
+
+"Modal.title" = "Modais";
+
+"Modal.Intro.text1" = "Modais (Modal Views), nesse caso, estamos falando de views que são exibidas acima de outros conteúdos na tela. Baners, pop-ups, botões flutuantes...";
+"Modal.Intro.text2" = "O problema é: O VoiceOver vai tentar manter a order de leitura natural a língua atual, e mesmo se houver outra view acima das demais, ele pode focar no conteúdo que está atras dessa view, e até mesmo ignorá-la por completo!";
+"Modal.Intro.text3" = "Para previnir esse problema, podemos marcar uma view como sendo um Modal. Isso faz com que o leitor foque apenas nessa view enquanto ela estiver visível.";
+"Modal.Intro.comment1" = "Mas tratar modais também é diferente em UIKit e SwiftUI.";
+"Modal.Intro.link" = "Leia mais sobre ordem de leitura dos componentes.";
+
+"Modal.uikit.text1" = "No UIKit, toda UIView tem a propriedade 'accessibilityViewIsModal'. E só precisamos marcá-la como 'True' para dizer que é um modal.";
+"Modal.uikit.text2" = "Mas, na minha experiência, apenas setar essa propriedade as vezes não tem o comportamento esperado.";
+"Modal.uikit.text3" = "Eu sugiro dar um override nessa propriedade na sua view modal, e então retornar o valor esperado.";
+
+"Modal.swiftui.text1" = "Em SwiftUI o Modal pode ser setado da mesma forma que um 'accessibility trait'.";
+
+"Modal.example.text1" = "Ative o VoiceOver e analise os modais abaixo.";
+"Modal.example.goodModal" = "Modal bom";
+"Modal.example.thisGoodModal" = "Este é um bom exemplo de modal.";
+"Modal.example.badModal" = "Modal ruim";
+"Modal.example.thisBadModal" = "Este é um modal ruim. Não configurado como modal.";
+"Modal.example.comment" = "Percebeu que ao abrir o modal bom, o cursor focou diretamente nele? É importante mudar a navegação do seu cursor para o modal quando ele é exibido sobre o restante do conteúdo da tela.";
+"Modal.example.link" = "Veja mais sobre isso na seção sobre notificações - Mudando a posição do cursor.";
+
+// Grouping
+
+"Grouping.title" = "Agrupar elementos";
+"Grouping.text1" = "Agrupar elementos corretamente é uma das partes mais importantes de ter uma tela acessível.";
+"Grouping.text2" = "Imagine o cenário: Um carrosel de células, quando usando o VoiceOver, queremos que cada célula seja focada individualmente e não focar em cada subview da célula, mas sim ela como um todo.";
+"Grouping.comment" = "Pode parece óbvio, mas é fácil de esquecer desse ponto durante o desenvolvimento.";
+"Grouping.text3" = "Ligue o VoiceOver e foque nos dois carrosséis abaixo, um tem o conteúdo das células corretamente agrupado e o outro não.";
+
+"Grouping.goodCarousel" = "Carrossel Bom";
+"Grouping.badCarousel" = "Carrossel ruim";
+"Grouping.cellTitle" = "Título";
+"Grouping.cellContent" = "Conteúdo";
+"Grouping.cellComment" = "Comentário";
+
+"Grouping.uikit.text" = "No UIKit, você precisa deixar a view pai como sendo um elemento acessível, e não as views filhas. Então, combiná-los para montar o conteúdo correto da 'accessibility label' do pai.";
+"Grouping.swiftui.text" = "SwiftUI tem um 'View Modifier' que simplifica bastante desse trabalho de agrupar as views filhas em um único 'accessible element'.";
+
+// Game Success
+
+"GameSuccess.title" = "Parabéns!";
+"GameSuccess.subtitle" = "Você resolveu o desafio!";
+"GameSuccess.text" = "Se você quiser saber mais sobre como o jogo foi montado, não deixe de ver nossa documentação:";
+"GameSuccess.suggestedReading" = "Leitura sugerida";
+
+// Hint View
+
+"Hint" = "Dica";
+"Hint.hint" = "Abrir uma dica sobre este jogo.";
+"Hint.close" = "Fechar dica";
+"Hint.open" = "Abrir dica";
+"Hint.title" = "🤔 Tendo dificuldades?";
+"Hint.text1" = "Os jogos do Handbook foram feitos para serem resolvidos com alguma ferramenta de acessibilidade (ou uma combinação delas).";
+"Hint.text2" = "Se você não conseguir descobrir, talvez esta página possa ajudar...";
+
+// Games
+
+"GameView.comment" = "Jogue para aprender mais sobre acessibilidade!";
+
+"GameCell.finishedHint" = "Você já terminou este daqui!";
+"GameCell.unfinishedHint" = "Você ainda não terminou este jogo.";
+
+"WhereIsMyContent.title" = "Cadê o texto?";
+"WhereIsMyContent.text1" = "Esse jogo é fácil.";
+"WhereIsMyContent.text2" = "Você precisa encontrar o botão correto usando o VoiceOver!";
+
+"FindThePassword.title" = "Encontre a senha";
+"FindThePassword.text1" = "Digite a senha correta!";
+"FindThePassword.text2" = "É só isso";
+"FindThePassword.comment" = "Você só tem que descobrir qual a senha...";
+
+"BePatient.title" = "Paciência";
+"BePatient.text" = "Toque nos elementos na ordem correta!";
+"BePatient.comment" = "Paciência é a chave.";
+
+"Impostor.title" = "Impostor";
+"Impostor.text" = "Encontre o impostor e digite o nome dele!";
+"Impostor.comment" = "Pergunta lá, talvez eles digam alguma coisa.";
+"Impostor.field" = "Digite o nome do impostor";
+"Impostor.hint" = "Eu não sou o impostor.";
+"Impostor.impostor" = "Sim, eu sou o impostor.";
+
+"Invisibility.title" = "Invisibilidade";
+"Invisibility.text" = "Só porque VOCÊ não consegue ver, não significa que não está lá.";
+"Invisibility.comment" = "Espera... Esse conteúdo é TRANSPARENTE?";
+"Invisibility.transparent" = "Espera... Esse conteúdo é TRANSPARENTE?";
+
+"Impostor2.title" = "Impostor 2.0";
+"Impostor2.text" = "Encontre o impostor e digite o nome dele!";
+"Impostor2.comment" = "Pergunta lá, talvez eles digam alguma coisa.";
+"Impostor2.field" = "Digite o nome do impostor";
+
+"TheMagicPuzzle.title" = "Quebra cabeça 'Mágico'";
+"TheMagicPuzzle.text" = "Esse jogo é mágico!";
+"TheMagicPuzzle.comment" = "Eu não sei o que mais te dizer...";
+
+"SecretActions.title" = "Ações secretas";
+"SecretActions.text" = "Alimente cada animal com a comida correta!";
+"SecretActions.comment" = "Não se preocupe, eles vão dizer do que gostam.";
+"SecretActions.Action.apples" = "Dar maçãs";
+"SecretActions.Action.grass" = "Dar grama";
+"SecretActions.Action.bubbles" = "Dar bolhas";
+"SecretActions.Action.nectar" = "Dar Néctar";
+
+"FillTheCup.title" = "Copo cheio";
+"FillTheCup.text" = "Encha os cículos até o final!";
+"FillTheCup.comment" = "Você só tem que encontrar uma forma de fazer isso";
+
+"AColorfulMessage.title" = "Uma mensagem 'Colorida'";
+"AColorfulMessage.text" = "Digite a senha correta!";
+"AColorfulMessage.comment" = "É uma senha de 6 dígitos";
+
+"TheUpsideDown.title" = "O mundo invertido";
+"TheUpsideDown.text1" = "Talvez haja uma maneira de ver...";
+"TheUpsideDown.text2" = "Ai, eu to tão invertida!";
+
+"SuperFriend.title" = "Super amigo";
+"SuperFriend.text" = "Todos aqui são muito amigáveis,";
+"SuperFriend.comment" = "Encontre a pessoa com o maior número de amigos!";
+"SuperFriend.field" = "Nome do super amigo";
+
+// Actions
+
+"doubleTapToCopy" = "Toque duas vezes para copiar";
+"appleDoc" = " Veja mais na documentação da Apple para \"%@\"";
+"nextPage" = "Próxima página %@";
+"backToIndex" = "Voltar ao índice";
+"goPlay" = "Vá jogar!";
+"moreOnWikipedia" = "Mais na Wikipedia";
+"more" = "Mais";
+"moreOnTheWeb" = "Veja mais na internet";
+"dedicatedPage" = "Página dedicada";
+"select" = "Selecionar";
+"delete" = "Deletar";
+"edit" = "Editar";
+"selected" = "Selecionado";
+"deleted" = "Deletado";
+"edited" = "Editado";
+"handleAction" = "Tratar ação";
+"dismiss" = "Fechar";
+"goBack" = "Voltar";
+"tapToWin" = "Toque para vencer";
+
+// Code
+
+"codeCopied" = "Código copiado!";
+"copyCode" = "Copiar código";
+"closeCodeView" = "Fechar código";
+"codeExample" = "exemplo de código %@";
+"codeHint" = "Toque duas vezes para ver o código em tela cheia, ou toque três vezes parta copiar.";
+
+// Some nouns
+
+"freeShipping" = "Entrega grátis";
+"additionalCost" = "Custo adicional";
+"earlyAccess" = "Acesso antecipado";
+"extraBureaucracy" = "Burocracia extraß";
+"regularText" = "Texto normal";
+"boldText" = "Texto em negrito";
+"openSettings" = "Abrir configurações";
+"haptic" = "Haptic";
+"haptics" = "Haptics";
+"moon" = "Lua";
+"cloud" = "Nuvem";
+"sun" = "Sol";
+"sunrise" = "Nascer do Sol";
+"snow" = "Neve";
+"rain" = "Chuva";
+"fog" = "Neblina";
+"weatherIcons" = "Ícones de Clima";
+"interactrion" = "Interação";
+"uikit" = "UIKit";
+"swiftUI" = "SwiftUI";
+"modal" = "Modal";
+"example" = "Exemplo";
+"examples" = "Exemplos";
+"lobster" = "Lagosta";
+"pumpkin" = "Abóbora";
+"iceCream" = "Sorvete";
+"flag" = "Bandeira";
+"potato" = "Batata";
+"password" = "Senha";
+"puzzles" = "Jogos";
+"unfinishedPuzzles" = "Jogos em aberto";
+"completedPuzzles" = "Jogos terminados";
+"pencil" = "Lápis";
+"paper" = "Papel";
+"paperPlane" = "Avião de papel";
+"book" = "Livro";
+"bell" = "Sino";

@@ -1,5 +1,5 @@
 strings:
-  inputs: Accessibility Handbook/Strings/Localizable.strings
+  inputs: Accessibility Handbook/Strings/en.lproj/Localizable.strings
   outputs:
     - templateName: structured-swift5
       output: Accessibility Handbook/Strings/Strings.swift
