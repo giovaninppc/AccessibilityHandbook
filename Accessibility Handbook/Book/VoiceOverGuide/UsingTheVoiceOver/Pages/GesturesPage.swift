@@ -15,11 +15,14 @@ struct GesturesPage: View, Page {
       Group {
         Text(L10n.Gestures.text1)
 
+        VerticalSpace(.regular)
         navigate
         VerticalSpace(.regular)
         interaction
         VerticalSpace(.regular)
         reading
+        VerticalSpace(.regular)
+        helper
       }
       .toAny()
     }
@@ -30,54 +33,36 @@ private extension GesturesPage {
   var navigate: some View {
     Group {
       Title(L10n.Navigation.title)
-
-      Group {
-        Text(L10n.Gesture.swipeRight)
-        SwipeRight()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.SwipeRight.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.swipeLeft)
-        SwipeLeft()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.SwipeLeft.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.twoFingersSwipeUp)
-        TwoFingerSwipeUp()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.TwoFingersSwipeUp.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.twoFingersSwipeDown)
-        TwoFingerSwipeDown()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.TwoFingersSwipeDown.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.threeFingersSwipeUp)
-        ThreeFingerSwipeUp()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.ThreeFingersSwipeUp.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.threeFingersSwipeDown)
-        ThreeFingerSwipeDown()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.ThreeFingersSwipeDown.description)
-        divider
-      }
+      item(
+        title: L10n.Gesture.swipeRight,
+        animation: SwipeRight().toAny(),
+        description: L10n.Gestures.SwipeRight.description
+      )
+      item(
+        title: L10n.Gesture.swipeLeft,
+        animation: SwipeLeft().toAny(),
+        description: L10n.Gestures.SwipeLeft.description
+      )
+      item(
+        title: L10n.Gesture.twoFingersSwipeUp,
+        animation: TwoFingerSwipeUp().toAny(),
+        description: L10n.Gestures.TwoFingersSwipeUp.description
+      )
+      item(
+        title: L10n.Gesture.twoFingersSwipeDown,
+        animation: TwoFingerSwipeDown().toAny(),
+        description: L10n.Gestures.TwoFingersSwipeDown.description
+      )
+      item(
+        title: L10n.Gesture.threeFingersSwipeUp,
+        animation: ThreeFingerSwipeUp().toAny(),
+        description: L10n.Gestures.ThreeFingersSwipeUp.description
+      )
+      item(
+        title: L10n.Gesture.threeFingersSwipeDown,
+        animation: ThreeFingerSwipeDown().toAny(),
+        description: L10n.Gestures.ThreeFingersSwipeDown.description
+      )
     }
   }
 
@@ -85,89 +70,63 @@ private extension GesturesPage {
     Group {
       Title(L10n.interactrion)
 
-      Group {
-        Text(L10n.Gesture.singleTap)
-        SingleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.SingleTap.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.doubleTap)
-        DoubleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.DoubleTap.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.tripleTap)
-        TripleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.TripleTap.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.twoFingersDoubleTap)
-        TwoFingerDoubleTap()
-        Comment(L10n.Gestures.TwoFingersDoubleTap.description)
-        divider
-      }
+      item(
+        title: L10n.Gesture.singleTap,
+        animation: SingleTap().toAny(),
+        description: L10n.Gestures.SingleTap.description
+      )
+      item(
+        title: L10n.Gesture.doubleTap,
+        animation: DoubleTap().toAny(),
+        description: L10n.Gestures.DoubleTap.description
+      )
+      item(
+        title: L10n.Gesture.tripleTap,
+        animation: TripleTap().toAny(),
+        description: L10n.Gestures.TripleTap.description
+      )
+      item(
+        title: L10n.Gesture.twoFingersDoubleTap,
+        animation: TwoFingerDoubleTap().toAny(),
+        description: L10n.Gestures.TwoFingersDoubleTap.description
+      )
     }
   }
 
   var reading: some View {
     Group {
       Title(L10n.Gestures.reading)
-
-      Group {
-        Text(L10n.Gesture.twoFingersSingleTap)
-        TwoFingerSingleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.TwoFingersSingleTap.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.threeFingersSingleTap)
-        ThreeFingerSingleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.ThreeFingersSingleTap.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.threeFingersDoubleTap)
-        ThreeFingerDoubleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.ThreeFingersDoubleTap.description)
-        divider
-      }
-
-      Group {
-        Text(L10n.Gesture.threeFingersTripleTap)
-        ThreeFingerTripleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.ThreeFingersTripleTap.description)
-        divider
-      }
-
+      item(
+        title: L10n.Gesture.twoFingersSingleTap,
+        animation: TwoFingerSingleTap().toAny(),
+        description: L10n.Gestures.TwoFingersSingleTap.description
+      )
+      item(
+        title: L10n.Gesture.threeFingersSingleTap,
+        animation: ThreeFingerSingleTap().toAny(),
+        description: L10n.Gestures.ThreeFingersSingleTap.description
+      )
+      item(
+        title: L10n.Gesture.threeFingersDoubleTap,
+        animation: ThreeFingerDoubleTap().toAny(),
+        description: L10n.Gestures.ThreeFingersDoubleTap.description
+      )
+      item(
+        title: L10n.Gesture.threeFingersTripleTap,
+        animation: ThreeFingerTripleTap().toAny(),
+        description: L10n.Gestures.ThreeFingersTripleTap.description
+      )
     }
   }
 
   var helper: some View {
     Group {
       Title(L10n.Gestures.helper)
-
-      Group {
-        Text(L10n.Gesture.fourFingersDoubleTap)
-        FourFingerDoubleTap()
-          .frame(width: nil, height: 100.0)
-        Comment(L10n.Gestures.FourFingersDoubleTap.description)
-        divider
-      }
+      item(
+        title: L10n.Gesture.fourFingersDoubleTap,
+        animation: FourFingerDoubleTap().toAny(),
+        description: L10n.Gestures.FourFingersDoubleTap.description
+      )
     }
   }
 
@@ -177,5 +136,17 @@ private extension GesturesPage {
       .frame(height: 1.0)
       .padding(.vertical)
       .accessibilityHidden(true)
+  }
+
+  @ViewBuilder
+  private func item(title: String, animation: AnyView, description: String) -> some View {
+    Group {
+      Text(title)
+      animation
+        .frame(width: nil, height: 100.0)
+      Comment(description)
+        .fixedSize(horizontal: false, vertical: true)
+      divider
+    }
   }
 }
