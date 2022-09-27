@@ -189,6 +189,33 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AboutColors.title")
   }
 
+  internal enum AboutFonts {
+    /// About Fonts
+    internal static let title = L10n.tr("Localizable", "AboutFonts.title")
+    internal enum Intro {
+      /// Fonts are cool.
+      internal static let comment1 = L10n.tr("Localizable", "AboutFonts.Intro.comment1")
+      /// This is the iOS's system font, and it is called SF Pro.
+      internal static let comment2 = L10n.tr("Localizable", "AboutFonts.Intro.comment2")
+      /// But since we already stablished that not everyone percieves content or colors the same way.
+      internal static let comment3 = L10n.tr("Localizable", "AboutFonts.Intro.comment3")
+      /// And that's where it gets interesting.
+      internal static let comment4 = L10n.tr("Localizable", "AboutFonts.Intro.comment4")
+      /// A font is a particular size, weight and style of lettering. I like to think about ther 'design' of the characters that make the text.
+      internal static let text1 = L10n.tr("Localizable", "AboutFonts.Intro.text1")
+      /// You are currently reading a text, written in a specific font.
+      internal static let text2 = L10n.tr("Localizable", "AboutFonts.Intro.text2")
+      /// There are several fonts. Hundreds and hundreds of thousands. And we may decide to use a custom font for our app, maybe it fits better in our content, maybe it's part of our global identity with other platforms, maybe we want to evoke a specifc feeling from the font...
+      internal static let text3 = L10n.tr("Localizable", "AboutFonts.Intro.text3")
+      /// But the font is how we direclty display content to the user. Most of the time we expect the user to read the content. So, the Font used to render it is extremely important.
+      internal static let text4 = L10n.tr("Localizable", "AboutFonts.Intro.text4")
+      /// The basic is: We want the font to be readable.
+      internal static let text5 = L10n.tr("Localizable", "AboutFonts.Intro.text5")
+      /// The second part is: We want everyone, who can read, to be able to read our content.
+      internal static let text6 = L10n.tr("Localizable", "AboutFonts.Intro.text6")
+    }
+  }
+
   internal enum AboutTheApp {
     /// The Handbook is available in English US and Portuguese BR. Change your language preference for the app at the device's settings.
     internal static let language = L10n.tr("Localizable", "AboutTheApp.language")
@@ -695,6 +722,11 @@ internal enum L10n {
     }
   }
 
+  internal enum DynamicFonts {
+    /// Dynamic Fonts
+    internal static let title = L10n.tr("Localizable", "DynamicFonts.title")
+  }
+
   internal enum ElementReadingOrder {
     /// What does it mean?
     internal static let comment1 = L10n.tr("Localizable", "ElementReadingOrder.comment1")
@@ -753,6 +785,11 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "FindThePassword.text2")
     /// Find the Password
     internal static let title = L10n.tr("Localizable", "FindThePassword.title")
+  }
+
+  internal enum Fonts {
+    /// Fonts
+    internal static let title = L10n.tr("Localizable", "Fonts.title")
   }
 
   internal enum GameCell {

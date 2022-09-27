@@ -22,6 +22,7 @@
 		3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */; };
 		3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */; };
 		3F6C5ABC28E37FED00B12065 /* MultiFingerTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */; };
+		3F6C5ABF28E394D000B12065 /* AboutFontsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5ABE28E394D000B12065 /* AboutFontsPage.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -103,7 +104,7 @@
 		3FBF060928DB8C4C00DA5BF5 /* HeaderTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */; };
 		3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060A28DB998300DA5BF5 /* RotorPage.swift */; };
 		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
-		3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */; };
+		3FBF061028DBAB9100DA5BF5 /* FontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* FontsSection.swift */; };
 		3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */; };
 		3FC3E5E928E3267600B7C0D7 /* GesturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */; };
 		3FC3E5EB28E32B7300B7C0D7 /* SingleTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */; };
@@ -135,6 +136,7 @@
 		3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AColorfulMessage.swift; sourceTree = "<group>"; };
 		3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFingerSwipe.swift; sourceTree = "<group>"; };
 		3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFingerTap.swift; sourceTree = "<group>"; };
+		3F6C5ABE28E394D000B12065 /* AboutFontsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFontsPage.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -217,7 +219,7 @@
 		3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTraitPage.swift; sourceTree = "<group>"; };
 		3FBF060A28DB998300DA5BF5 /* RotorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorPage.swift; sourceTree = "<group>"; };
 		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
-		3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipSection.swift; sourceTree = "<group>"; };
+		3FBF060F28DBAB9100DA5BF5 /* FontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsSection.swift; sourceTree = "<group>"; };
 		3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSwipe.swift; sourceTree = "<group>"; };
 		3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesPage.swift; sourceTree = "<group>"; };
 		3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTap.swift; sourceTree = "<group>"; };
@@ -272,6 +274,14 @@
 			children = (
 				3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */,
 				3F4E7F8C28DC981700710F18 /* GroupingPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3F6C5ABD28E394BD00B12065 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C5ABE28E394D000B12065 /* AboutFontsPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -536,7 +546,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBF05C228DB4F2200DA5BF5 /* DynamicFontSections.swift */,
-				3FBF060E28DBAB8000DA5BF5 /* WIP */,
+				3FBF060E28DBAB8000DA5BF5 /* Fonts */,
 			);
 			path = DynamicFonts;
 			sourceTree = "<group>";
@@ -658,12 +668,13 @@
 			path = Pages;
 			sourceTree = "<group>";
 		};
-		3FBF060E28DBAB8000DA5BF5 /* WIP */ = {
+		3FBF060E28DBAB8000DA5BF5 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */,
+				3FBF060F28DBAB9100DA5BF5 /* FontsSection.swift */,
+				3F6C5ABD28E394BD00B12065 /* Pages */,
 			);
-			path = WIP;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -791,6 +802,7 @@
 				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,
 				3FBF059828DAB0DE00DA5BF5 /* IndexView.swift in Sources */,
 				3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */,
+				3F6C5ABF28E394D000B12065 /* AboutFontsPage.swift in Sources */,
 				3FBF060728DB890900DA5BF5 /* HapticList.swift in Sources */,
 				3FBF057128DA6F0200DA5BF5 /* UsingTheVoiceOverSection.swift in Sources */,
 				3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */,
@@ -823,7 +835,7 @@
 				3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */,
 				3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */,
 				3FBF056128DA6A1B00DA5BF5 /* VoiceOverGuideSections.swift in Sources */,
-				3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */,
+				3FBF061028DBAB9100DA5BF5 /* FontsSection.swift in Sources */,
 				3FBF058028DA7DDC00DA5BF5 /* Images.swift in Sources */,
 				3FBF05A728DABA6100DA5BF5 /* GameStorage.swift in Sources */,
 				3FBF05DC28DB5CB800DA5BF5 /* Haptic.swift in Sources */,

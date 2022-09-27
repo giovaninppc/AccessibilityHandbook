@@ -799,3 +799,25 @@
 "Gesture.fourFingersDoubleTap" = "Four fingers double tap.";
 
 "Gesture.accessible" = "Animation representing the gesture for %@";
+
+// Dynamic Fonts
+
+"DynamicFonts.title" = "Dynamic Fonts";
+
+// Fonts section
+
+"Fonts.title" = "Fonts";
+
+// AboutFonts
+
+"AboutFonts.title" = "About Fonts";
+"AboutFonts.Intro.comment1" = "Fonts are cool.";
+"AboutFonts.Intro.text1" = "A font is a particular size, weight and style of lettering. I like to think about the 'design' of the characters that make the text.";
+"AboutFonts.Intro.text2" = "You are currently reading a text, written in a specific font.";
+"AboutFonts.Intro.comment2" = "This is the iOS's system font, and it is called SF Pro.";
+"AboutFonts.Intro.text3" = "There are several fonts. Hundreds and hundreds of thousands. And we may decide to use a custom font for our app, maybe it fits better in our content, maybe it's part of our global identity with other platforms, maybe we want to evoke a specifc feeling from the font...";
+"AboutFonts.Intro.text4" = "But the font is how we direclty display content to the user. Most of the time we expect the user to READ the content. So, the Font used to render it is extremely important.";
+"AboutFonts.Intro.text5" = "The basic is: We want the font to be readable.";
+"AboutFonts.Intro.comment3" = "But since we already stablished that not everyone percieves content or colors the same way...";
+"AboutFonts.Intro.text6" = "The second part is: We want everyone, who can read, to be able to read our content.";
+"AboutFonts.Intro.comment4" = "And that's where accessibility comes and it gets interesting.";

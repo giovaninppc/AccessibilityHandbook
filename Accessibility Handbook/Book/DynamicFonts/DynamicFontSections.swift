@@ -8,8 +8,8 @@
 import Foundation
 
 struct DynamicFontSections: SectionProvider {
-  let title: String = "Dynamic Fonts"
+  let title: String = L10n.DynamicFonts.title
   let sections: [Section] = [
-    WipSection()
+    FontsSection()
   ]
 }
