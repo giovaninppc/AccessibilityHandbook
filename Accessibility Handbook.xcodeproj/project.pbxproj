@@ -11,6 +11,7 @@
 		3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390E28DBCF1200B089EA /* SecretActions.swift */; };
 		3F25391128DBDF8200B089EA /* FillTheCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391028DBDF8200B089EA /* FillTheCup.swift */; };
 		3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391228DBE05A00B089EA /* CircularProgressionView.swift */; };
+		3F41DB0E28E2553E00E0B056 /* HorizontalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */; };
 		3F4E7F8828DC97E100710F18 /* ContentHierarchySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8728DC97E100710F18 /* ContentHierarchySection.swift */; };
 		3F4E7F8B28DC980700710F18 /* ModalViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */; };
 		3F4E7F8D28DC981700710F18 /* GroupingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8C28DC981700710F18 /* GroupingPage.swift */; };
@@ -101,6 +102,9 @@
 		3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060A28DB998300DA5BF5 /* RotorPage.swift */; };
 		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
 		3FBF061028DBAB9100DA5BF5 /* WipSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */; };
+		3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */; };
+		3FC3E5E928E3267600B7C0D7 /* GesturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */; };
+		3FC3E5EB28E32B7300B7C0D7 /* SingleTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */; };
 		3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73EC928DD278900D89F64 /* DeviceRotation.swift */; };
 		3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */; };
 		3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */; };
@@ -117,6 +121,7 @@
 		3F25390E28DBCF1200B089EA /* SecretActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretActions.swift; sourceTree = "<group>"; };
 		3F25391028DBDF8200B089EA /* FillTheCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillTheCup.swift; sourceTree = "<group>"; };
 		3F25391228DBE05A00B089EA /* CircularProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressionView.swift; sourceTree = "<group>"; };
+		3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSwipe.swift; sourceTree = "<group>"; };
 		3F4E7F8728DC97E100710F18 /* ContentHierarchySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHierarchySection.swift; sourceTree = "<group>"; };
 		3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewPage.swift; sourceTree = "<group>"; };
 		3F4E7F8C28DC981700710F18 /* GroupingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupingPage.swift; sourceTree = "<group>"; };
@@ -208,6 +213,9 @@
 		3FBF060A28DB998300DA5BF5 /* RotorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorPage.swift; sourceTree = "<group>"; };
 		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
 		3FBF060F28DBAB9100DA5BF5 /* WipSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WipSection.swift; sourceTree = "<group>"; };
+		3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSwipe.swift; sourceTree = "<group>"; };
+		3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesPage.swift; sourceTree = "<group>"; };
+		3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTap.swift; sourceTree = "<group>"; };
 		3FC73EC928DD278900D89F64 /* DeviceRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotation.swift; sourceTree = "<group>"; };
 		3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUpsideDown.swift; sourceTree = "<group>"; };
 		3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFriend.swift; sourceTree = "<group>"; };
@@ -231,6 +239,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F41DB0C28E2553300E0B056 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */,
+				3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */,
+				3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
 		3F4E7F8628DC97C900710F18 /* ContentHierarchy */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +375,7 @@
 		3FBF056C28DA6ECA00DA5BF5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3F41DB0C28E2553300E0B056 /* Gestures */,
 				3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */,
 				3F25390C28DBC75700B089EA /* Centered.swift */,
 				3F25391228DBE05A00B089EA /* CircularProgressionView.swift */,
@@ -398,6 +417,7 @@
 			children = (
 				3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */,
 				3FBF057328DA6FA000DA5BF5 /* NavigationPage.swift */,
+				3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */,
 				3FBF058328DA93FB00DA5BF5 /* ElementReadingOrderPage.swift */,
 				3FBF060A28DB998300DA5BF5 /* RotorPage.swift */,
 				3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */,
@@ -713,6 +733,7 @@
 				3FBF056528DA6A4400DA5BF5 /* AccessibilityPropertiesSection.swift in Sources */,
 				3FBF05F828DB6F5400DA5BF5 /* HapticsSection.swift in Sources */,
 				3FBF05A528DAB9C700DA5BF5 /* Storage.swift in Sources */,
+				3F41DB0E28E2553E00E0B056 /* HorizontalSwipe.swift in Sources */,
 				3FBF05FB28DB6F6200DA5BF5 /* HapticsPage.swift in Sources */,
 				3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */,
 				3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */,
@@ -768,6 +789,7 @@
 				3FBF055D28DA69F800DA5BF5 /* Page.swift in Sources */,
 				3FBF059328DA9E4E00DA5BF5 /* AdjustablePage.swift in Sources */,
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
+				3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */,
 				3FBF05C128DB4E8B00DA5BF5 /* SectionProvider.swift in Sources */,
 				3FBF060528DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift in Sources */,
 				3FBF057428DA6FA000DA5BF5 /* NavigationPage.swift in Sources */,
@@ -780,6 +802,7 @@
 				3FBF055728DA661400DA5BF5 /* IndexCell.swift in Sources */,
 				3FBF058828DA9C1B00DA5BF5 /* AccessibilityValuePage.swift in Sources */,
 				3FBF05E828DB641D00DA5BF5 /* Invisibility.swift in Sources */,
+				3FC3E5EB28E32B7300B7C0D7 /* SingleTap.swift in Sources */,
 				3FBF056E28DA6ED800DA5BF5 /* DocButton.swift in Sources */,
 				3FBF058B28DA9C6300DA5BF5 /* InteractionSection.swift in Sources */,
 				3FBF05C928DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift in Sources */,
@@ -807,6 +830,7 @@
 				3FBF05CF28DB513C00DA5BF5 /* ColorsIntroSection.swift in Sources */,
 				3FBF055A28DA693200DA5BF5 /* Spacing.swift in Sources */,
 				3F4E7F8828DC97E100710F18 /* ContentHierarchySection.swift in Sources */,
+				3FC3E5E928E3267600B7C0D7 /* GesturesPage.swift in Sources */,
 				3F4E7F8D28DC981700710F18 /* GroupingPage.swift in Sources */,
 				3FF4A29328DF6D12005D291A /* CodePreview.swift in Sources */,
 			);

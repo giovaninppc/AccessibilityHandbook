@@ -12,6 +12,7 @@ struct UsingTheVoiceOverSection: Section {
   let pages: [Page] = [
     EnableVoiceOverPage(),
     NavigationPage(),
+    GesturesPage(),
     ElementReadingOrderPage(),
     RotorPage(),
     RotorAndHeadersPage()

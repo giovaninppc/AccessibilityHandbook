@@ -744,3 +744,26 @@
 "paperPlane" = "Paper plane";
 "book" = "Book";
 "bell" = "Bell";
+
+// Gestures
+
+"Gestures.title" = "Gestures";
+
+"Gestures.text1" = "Here's an initial guide to start using the VoiceOver gestures.";
+
+"Gestures.swipeRight.description" = "Move cursor to the next element";
+"Gestures.swipeLeft.description" = "Move cursor to the previous element";
+"Gestures.swipeUp.description" = "Change Rotor filter / Increase adjustable element / Change selected custom action";
+"Gestures.swipeDown.description" = "Change Rotor filter / Decrease adjustable element / Change selected custom action";
+"Gestures.singleTap.description" = "Read element";
+"Gestures.doubleTap.description" = "Activate element (tap)";
+"Gestures.tripleTap.description" = "Long press gesture";
+
+"Gesture.swipeRight" = "Swipe Right";
+"Gesture.swipeLeft" = "Swipe Left";
+"Gesture.swipeUp" = "Swipe Up";
+"Gesture.swipeDown" = "Swipe Down";
+"Gesture.singleTap" = "Single Tap";
+"Gesture.doubleTap" = "Double Tap";
+"Gesture.tripleTap" = "Triple Tap";
+"Gesture.accessible" = "Animation representing the geature for %@";
