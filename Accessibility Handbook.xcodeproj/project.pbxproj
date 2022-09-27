@@ -20,6 +20,8 @@
 		3F4E7F9328DCB46700710F18 /* AdjustableCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */; };
 		3F4E7F9528DCBC1600710F18 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9428DCBC1600710F18 /* ImageAsset.swift */; };
 		3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */; };
+		3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */; };
+		3F6C5ABC28E37FED00B12065 /* MultiFingerTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -131,6 +133,8 @@
 		3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCounter.swift; sourceTree = "<group>"; };
 		3F4E7F9428DCBC1600710F18 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
 		3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AColorfulMessage.swift; sourceTree = "<group>"; };
+		3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFingerSwipe.swift; sourceTree = "<group>"; };
+		3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFingerTap.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -248,6 +252,8 @@
 				3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */,
 				3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */,
 				3FC3E5EE28E3334A00B7C0D7 /* MultiTap.swift */,
+				3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */,
+				3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -773,6 +779,7 @@
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
 				3FBF05E628DB639300DA5BF5 /* InvertColorsPage.swift in Sources */,
+				3F6C5ABC28E37FED00B12065 /* MultiFingerTap.swift in Sources */,
 				3FBF05E428DB602000DA5BF5 /* NotifyScreenChangesPage.swift in Sources */,
 				3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
@@ -802,6 +809,7 @@
 				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF060128DB704600DA5BF5 /* InternalLink.swift in Sources */,
 				3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */,
+				3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */,
 				3FBF058628DA994400DA5BF5 /* AccessibilityTraitPage.swift in Sources */,
 				3FBF055728DA661400DA5BF5 /* IndexCell.swift in Sources */,
 				3FBF058828DA9C1B00DA5BF5 /* AccessibilityValuePage.swift in Sources */,

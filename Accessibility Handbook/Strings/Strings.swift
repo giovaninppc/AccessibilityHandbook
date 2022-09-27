@@ -771,12 +771,14 @@ internal enum L10n {
   }
 
   internal enum Gesture {
-    /// Animation representing the geature for %@
+    /// Animation representing the gesture for %@
     internal static func accessible(_ p1: Any) -> String {
       return L10n.tr("Localizable", "Gesture.accessible", String(describing: p1))
     }
     /// Double Tap
     internal static let doubleTap = L10n.tr("Localizable", "Gesture.doubleTap")
+    /// Four fingers double tap.
+    internal static let fourFingersDoubleTap = L10n.tr("Localizable", "Gesture.fourFingersDoubleTap")
     /// Single Tap
     internal static let singleTap = L10n.tr("Localizable", "Gesture.singleTap")
     /// Swipe Down
@@ -787,21 +789,51 @@ internal enum L10n {
     internal static let swipeRight = L10n.tr("Localizable", "Gesture.swipeRight")
     /// Swipe Up
     internal static let swipeUp = L10n.tr("Localizable", "Gesture.swipeUp")
+    /// Three fingers double tap
+    internal static let threeFingersDoubleTap = L10n.tr("Localizable", "Gesture.threeFingersDoubleTap")
+    /// Three fingers single tap
+    internal static let threeFingersSingleTap = L10n.tr("Localizable", "Gesture.threeFingersSingleTap")
+    /// Three fingers swipe down
+    internal static let threeFingersSwipeDown = L10n.tr("Localizable", "Gesture.threeFingersSwipeDown")
+    /// Three fingers swipe left
+    internal static let threeFingersSwipeLeft = L10n.tr("Localizable", "Gesture.threeFingersSwipeLeft")
+    /// Three fingers swipe right
+    internal static let threeFingersSwipeRight = L10n.tr("Localizable", "Gesture.threeFingersSwipeRight")
+    /// Three fingers swipe up
+    internal static let threeFingersSwipeUp = L10n.tr("Localizable", "Gesture.threeFingersSwipeUp")
+    /// Three fingers triple tap
+    internal static let threeFingersTripleTap = L10n.tr("Localizable", "Gesture.threeFingersTripleTap")
     /// Triple Tap
     internal static let tripleTap = L10n.tr("Localizable", "Gesture.tripleTap")
+    /// Two fingers double Tap
+    internal static let twoFingersDoubleTap = L10n.tr("Localizable", "Gesture.twoFingersDoubleTap")
+    /// Two fingers single Tap
+    internal static let twoFingersSingleTap = L10n.tr("Localizable", "Gesture.twoFingersSingleTap")
+    /// Two fingers swipe down
+    internal static let twoFingersSwipeDown = L10n.tr("Localizable", "Gesture.twoFingersSwipeDown")
+    /// Two fingers swipe up
+    internal static let twoFingersSwipeUp = L10n.tr("Localizable", "Gesture.twoFingersSwipeUp")
   }
 
   internal enum Gestures {
+    /// Gesture Helper
+    internal static let helper = L10n.tr("Localizable", "Gestures.helper")
+    /// Reading
+    internal static let reading = L10n.tr("Localizable", "Gestures.reading")
     /// Here's an initial guide to start using the VoiceOver gestures.
     internal static let text1 = L10n.tr("Localizable", "Gestures.text1")
     /// Gestures
     internal static let title = L10n.tr("Localizable", "Gestures.title")
     internal enum DoubleTap {
-      /// Activate element (tap)
+      /// Activate element, the same as tapping it when the VoicOver is disabled.
       internal static let description = L10n.tr("Localizable", "Gestures.doubleTap.description")
     }
+    internal enum FourFingersDoubleTap {
+      /// Start/Stop gesture helper. When enabled, it will tell every gesture performed and what it does.
+      internal static let description = L10n.tr("Localizable", "Gestures.fourFingersDoubleTap.description")
+    }
     internal enum SingleTap {
-      /// Read element
+      /// Read focused element
       internal static let description = L10n.tr("Localizable", "Gestures.singleTap.description")
     }
     internal enum SwipeDown {
@@ -820,9 +852,53 @@ internal enum L10n {
       /// Change Rotor filter / Increase adjustable element / Change selected custom action
       internal static let description = L10n.tr("Localizable", "Gestures.swipeUp.description")
     }
+    internal enum ThreeFingersDoubleTap {
+      /// Mute/unmute the screen reader
+      internal static let description = L10n.tr("Localizable", "Gestures.threeFingersDoubleTap.description")
+    }
+    internal enum ThreeFingersSingleTap {
+      /// Read item summary. It will also describe the cursor position on the screen.
+      internal static let description = L10n.tr("Localizable", "Gestures.threeFingersSingleTap.description")
+    }
+    internal enum ThreeFingersSwipeDown {
+      /// Scroll up.
+      internal static let description = L10n.tr("Localizable", "Gestures.threeFingersSwipeDown.description")
+    }
+    internal enum ThreeFingersSwipeLeft {
+      /// Scroll right.
+      internal static let description = L10n.tr("Localizable", "Gestures.threeFingersSwipeLeft.description")
+    }
+    internal enum ThreeFingersSwipeRight {
+      /// Scroll left.
+      internal static let description = L10n.tr("Localizable", "Gestures.threeFingersSwipeRight.description")
+    }
+    internal enum ThreeFingersSwipeUp {
+      /// Scroll down.
+      internal static let description = L10n.tr("Localizable", "Gestures.threeFingersSwipeUp.description")
+    }
+    internal enum ThreeFingersTripleTap {
+      /// Enable/disable the screen curtain. Turns the screen off but the content is still running.
+      internal static let description = L10n.tr("Localizable", "Gestures.threeFingersTripleTap.description")
+    }
     internal enum TripleTap {
       /// Long press gesture
       internal static let description = L10n.tr("Localizable", "Gestures.tripleTap.description")
+    }
+    internal enum TwoFingersDoubleTap {
+      /// Execute Magic Tap.
+      internal static let description = L10n.tr("Localizable", "Gestures.twoFingersDoubleTap.description")
+    }
+    internal enum TwoFingersSingleTap {
+      /// Pause/Play reading. You can make the VoiceOver pause the current reading, and by making the same gesture again, it will keep going from where it stoped.
+      internal static let description = L10n.tr("Localizable", "Gestures.twoFingersSingleTap.description")
+    }
+    internal enum TwoFingersSwipeDown {
+      /// Read all - will starting readin the content automatically.
+      internal static let description = L10n.tr("Localizable", "Gestures.twoFingersSwipeDown.description")
+    }
+    internal enum TwoFingersSwipeUp {
+      /// Read from top - will move the cursor to the top of the page.
+      internal static let description = L10n.tr("Localizable", "Gestures.twoFingersSwipeUp.description")
     }
   }
 

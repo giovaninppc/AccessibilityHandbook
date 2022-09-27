@@ -758,6 +758,20 @@
 "Gestures.singleTap.description" = "Read focused element";
 "Gestures.doubleTap.description" = "Activate element, the same as tapping it when the VoicOver is disabled.";
 "Gestures.tripleTap.description" = "Long press gesture";
+"Gestures.twoFingersSingleTap.description" = "Pause/Play reading. You can make the VoiceOver pause the current reading, and by making the same gesture again, it will keep going from where it stoped.";
+"Gestures.twoFingersDoubleTap.description" = "Execute Magic Tap.";
+"Gestures.twoFingersSwipeUp.description" = "Read from top - will move the cursor to the top of the page.";
+"Gestures.twoFingersSwipeDown.description" = "Read all - will starting readin the content automatically.";
+"Gestures.threeFingersSwipeUp.description" = "Scroll down.";
+"Gestures.threeFingersSwipeDown.description" = "Scroll up.";
+"Gestures.threeFingersSwipeLeft.description" = "Scroll right.";
+"Gestures.threeFingersSwipeRight.description" = "Scroll left.";
+"Gestures.threeFingersSingleTap.description" = "Read item summary. It will also describe the cursor position on the screen.";
+"Gestures.threeFingersDoubleTap.description" = "Mute/unmute the screen reader";
+"Gestures.threeFingersTripleTap.description" = "Enable/disable the screen curtain. Turns the screen off but the content is still running.";
+"Gestures.fourFingersDoubleTap.description" = "Start/Stop gesture helper. When enabled, it will tell every gesture performed and what it does.";
+"Gestures.helper" = "Gesture Helper";
+"Gestures.reading" = "Reading";
 
 "Gesture.swipeRight" = "Swipe Right";
 "Gesture.swipeLeft" = "Swipe Left";
@@ -766,4 +780,17 @@
 "Gesture.singleTap" = "Single Tap";
 "Gesture.doubleTap" = "Double Tap";
 "Gesture.tripleTap" = "Triple Tap";
-"Gesture.accessible" = "Animation representing the geature for %@";
+"Gesture.twoFingersSingleTap" = "Two fingers single Tap";
+"Gesture.twoFingersDoubleTap" = "Two fingers double Tap";
+"Gesture.twoFingersSwipeUp" = "Two fingers swipe up";
+"Gesture.twoFingersSwipeDown" = "Two fingers swipe down";
+"Gesture.threeFingersSwipeUp" = "Three fingers swipe up";
+"Gesture.threeFingersSwipeDown" = "Three fingers swipe down";
+"Gesture.threeFingersSwipeLeft" = "Three fingers swipe left";
+"Gesture.threeFingersSwipeRight" = "Three fingers swipe right";
+"Gesture.threeFingersSingleTap" = "Three fingers single tap";
+"Gesture.threeFingersDoubleTap" = "Three fingers double tap";
+"Gesture.threeFingersTripleTap" = "Three fingers triple tap";
+"Gesture.fourFingersDoubleTap" = "Four fingers double tap.";
+
+"Gesture.accessible" = "Animation representing the gesture for %@";

@@ -29,7 +29,7 @@ struct TripleTap: UIViewRepresentable {
   }
 }
 
-final private class MultiTapView: UIView {
+final class MultiTapView: UIView {
   private let taps: [SingleTapView]
 
   init(taps: [SingleTapView]) {

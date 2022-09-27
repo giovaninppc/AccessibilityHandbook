@@ -33,7 +33,7 @@ struct SwipeDown: UIViewRepresentable {
 
 // - UIKit animation
 
-final private class VerticalSwipe: UIView {
+final class VerticalSwipe: UIView {
   enum Direction: CGFloat {
     case up = 1
     case down = -1
@@ -138,7 +138,7 @@ private extension VerticalSwipe {
 
 // MARK: - Animation
 
-private extension VerticalSwipe {
+extension VerticalSwipe {
   func popUp() {
     UIView.animate(withDuration: 0.2, delay: 0.5, options: [.curveEaseIn]) {
       self.widthConstraint?.constant = Constants.initialSize
