@@ -299,6 +299,10 @@
 "AboutTheApp.Disclaimer.text4" = "Gostaríamos que o guia fosse uma ferramente confiável no dia-a-dia do seu desenvolvimento.";
 "AboutTheApp.Disclaimer.openCollaborationPage" = "Dê uma olhada na página sobre colaboração para ver outras formas de ajudar o projeto!";
 
+"AboutTheApp.Review.text" = "Avalie o Guia na AppStore!";
+"AboutTheApp.Review.button" = "Faça uma avaliação";
+"AboutTheApp.language" = "O Guia está disponível em Portugês do Brasil e Inglês dos Estados Unidos. Mude sua preferência de idioma nas configurações do dispositivo.";
+
 // Color blindness
 
 "ColorBlind.title" = "Daltonismo";

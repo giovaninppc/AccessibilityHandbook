@@ -5,6 +5,7 @@
 //  Created by Giovani Nascimento Pereira on 21/09/22.
 //
 
+import StoreKit
 import SwiftUI
 
 struct AboutTheAppView: View, Page {
@@ -18,6 +19,8 @@ struct AboutTheAppView: View, Page {
         game
         VerticalSpace(.regular)
         disclaimer
+        VerticalSpace(.regular)
+        more
       }
       .padding()
     }
@@ -54,6 +57,20 @@ struct AboutTheAppView: View, Page {
       Text(L10n.AboutTheApp.Disclaimer.text3)
       Text(L10n.AboutTheApp.Disclaimer.text4)
       InternalLink(page: CollaborationView().toAny(), title: L10n.AboutTheApp.Disclaimer.openCollaborationPage)
+    }
+  }
+
+  private var more: some View {
+    Group {
+      Button {
+        guard let windowScene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene else { return }
+        SKStoreReviewController.requestReview(in: windowScene)
+
+      } label: {
+        Text(L10n.AboutTheApp.Review.text)
+      }
+
+      Comment(L10n.AboutTheApp.language)
     }
   }
 }

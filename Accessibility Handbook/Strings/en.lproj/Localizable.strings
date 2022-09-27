@@ -299,6 +299,10 @@
 "AboutTheApp.Disclaimer.text4" = "I want it to be a reliable tool that can be cosulted during everyday development.";
 "AboutTheApp.Disclaimer.openCollaborationPage" = "Check the Collaboration page to see more ways to report issues and to help the app's development!";
 
+"AboutTheApp.Review.text" = "Review the Handbook on the AppStore!";
+"AboutTheApp.Review.button" = "Make a review";
+"AboutTheApp.language" = "The Handbook is available in English US and Portuguese BR. Change your language preference for the app at the device's settings.";
+
 // Color blindness
 
 "ColorBlind.title" = "Color Blindness";

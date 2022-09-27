@@ -190,6 +190,8 @@ internal enum L10n {
   }
 
   internal enum AboutTheApp {
+    /// The Handbook is available in English US and Portuguese BR. Change your language preference for the app at the device's settings.
+    internal static let language = L10n.tr("Localizable", "AboutTheApp.language")
     /// About the app
     internal static let title = L10n.tr("Localizable", "AboutTheApp.title")
     internal enum Disclaimer {
@@ -231,6 +233,12 @@ internal enum L10n {
       internal static let text4 = L10n.tr("Localizable", "AboutTheApp.History.text4")
       /// It's mostly based on my experiences as a developer, with real-life examples that (I hope) will help you understand more about Accessibility and also help you use in your own projects!
       internal static let text5 = L10n.tr("Localizable", "AboutTheApp.History.text5")
+    }
+    internal enum Review {
+      /// Make a review
+      internal static let button = L10n.tr("Localizable", "AboutTheApp.Review.button")
+      /// Review the Handbook on the AppStore!
+      internal static let text = L10n.tr("Localizable", "AboutTheApp.Review.text")
     }
   }
 
@@ -1271,7 +1279,7 @@ internal enum L10n {
   internal enum Navigation {
     /// This entire app was built to be used with the VoiceOver enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!
     internal static let comment = L10n.tr("Localizable", "Navigation.comment")
-    /// Check the gestures guide.
+    /// Open the gestures guide.
     internal static let gesturesLink = L10n.tr("Localizable", "Navigation.gesturesLink")
     /// On top is an example of the cursor. The title 'Handbook' is currently focused on the image.
     internal static let image = L10n.tr("Localizable", "Navigation.image")
