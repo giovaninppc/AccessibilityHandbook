@@ -18,7 +18,7 @@ struct SingleTap: UIViewRepresentable {
   }
 }
 
-private final class SingleTapView: UIView {
+final class SingleTapView: UIView {
   private enum Constants {
     static let initialOffset: CGFloat = 50
     static let finalOffset: CGFloat = -50
@@ -51,6 +51,7 @@ private extension SingleTapView {
   func setup() {
     setupHierarchy()
     setupConstraints()
+    setupAccessibility()
   }
 
   func setupHierarchy() {
@@ -67,11 +68,17 @@ private extension SingleTapView {
       gesture.centerYAnchor.constraint(equalTo: centerYAnchor)
     ].compactMap { $0 })
   }
+
+  func setupAccessibility() {
+    isAccessibilityElement = true
+    subviews.forEach { $0.isAccessibilityElement = false }
+    accessibilityLabel = L10n.Gesture.accessible(L10n.Gesture.singleTap)
+  }
 }
 
-private extension SingleTapView {
+extension SingleTapView {
   func popIn() {
-    UIView.animate(withDuration: 0.5, delay: 0.5, options: [.curveEaseIn]) {
+    UIView.animate(withDuration: 0.5, delay: 0.7, options: [.curveEaseIn]) {
       self.gesture.alpha = 1.0
       self.widthConstraint?.constant = 30.0
       self.gesture.layer.cornerRadius = 15.0

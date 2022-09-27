@@ -105,6 +105,7 @@
 		3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */; };
 		3FC3E5E928E3267600B7C0D7 /* GesturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */; };
 		3FC3E5EB28E32B7300B7C0D7 /* SingleTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */; };
+		3FC3E5EF28E3334A00B7C0D7 /* MultiTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5EE28E3334A00B7C0D7 /* MultiTap.swift */; };
 		3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73EC928DD278900D89F64 /* DeviceRotation.swift */; };
 		3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */; };
 		3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */; };
@@ -216,6 +217,7 @@
 		3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSwipe.swift; sourceTree = "<group>"; };
 		3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesPage.swift; sourceTree = "<group>"; };
 		3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTap.swift; sourceTree = "<group>"; };
+		3FC3E5EE28E3334A00B7C0D7 /* MultiTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTap.swift; sourceTree = "<group>"; };
 		3FC73EC928DD278900D89F64 /* DeviceRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotation.swift; sourceTree = "<group>"; };
 		3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUpsideDown.swift; sourceTree = "<group>"; };
 		3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFriend.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */,
 				3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */,
 				3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */,
+				3FC3E5EE28E3334A00B7C0D7 /* MultiTap.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -748,6 +751,7 @@
 				3FBF057628DA701B00DA5BF5 /* PageContent.swift in Sources */,
 				3FBF05BB28DB48E500DA5BF5 /* Title.swift in Sources */,
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
+				3FC3E5EF28E3334A00B7C0D7 /* MultiTap.swift in Sources */,
 				3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */,
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
 				3F4E7F9128DCA6AC00710F18 /* ChangeCursorPositionPage.swift in Sources */,

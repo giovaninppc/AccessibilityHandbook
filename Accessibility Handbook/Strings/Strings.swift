@@ -775,6 +775,10 @@ internal enum L10n {
     internal static func accessible(_ p1: Any) -> String {
       return L10n.tr("Localizable", "Gesture.accessible", String(describing: p1))
     }
+    /// Double Tap
+    internal static let doubleTap = L10n.tr("Localizable", "Gesture.doubleTap")
+    /// Single Tap
+    internal static let singleTap = L10n.tr("Localizable", "Gesture.singleTap")
     /// Swipe Down
     internal static let swipeDown = L10n.tr("Localizable", "Gesture.swipeDown")
     /// Swipe Left
@@ -783,13 +787,23 @@ internal enum L10n {
     internal static let swipeRight = L10n.tr("Localizable", "Gesture.swipeRight")
     /// Swipe Up
     internal static let swipeUp = L10n.tr("Localizable", "Gesture.swipeUp")
+    /// Triple Tap
+    internal static let tripleTap = L10n.tr("Localizable", "Gesture.tripleTap")
   }
 
   internal enum Gestures {
-    /// Here's an initial guide to start using the VoiceOver.
+    /// Here's an initial guide to start using the VoiceOver gestures.
     internal static let text1 = L10n.tr("Localizable", "Gestures.text1")
     /// Gestures
     internal static let title = L10n.tr("Localizable", "Gestures.title")
+    internal enum DoubleTap {
+      /// Activate element (tap)
+      internal static let description = L10n.tr("Localizable", "Gestures.doubleTap.description")
+    }
+    internal enum SingleTap {
+      /// Read element
+      internal static let description = L10n.tr("Localizable", "Gestures.singleTap.description")
+    }
     internal enum SwipeDown {
       /// Change Rotor filter / Decrease adjustable element / Change selected custom action
       internal static let description = L10n.tr("Localizable", "Gestures.swipeDown.description")
@@ -805,6 +819,10 @@ internal enum L10n {
     internal enum SwipeUp {
       /// Change Rotor filter / Increase adjustable element / Change selected custom action
       internal static let description = L10n.tr("Localizable", "Gestures.swipeUp.description")
+    }
+    internal enum TripleTap {
+      /// Long press gesture
+      internal static let description = L10n.tr("Localizable", "Gestures.tripleTap.description")
     }
   }
 

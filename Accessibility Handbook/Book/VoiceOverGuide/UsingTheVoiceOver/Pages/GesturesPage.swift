@@ -21,6 +21,8 @@ struct GesturesPage: View, Page {
         swipeDown
 
         singleTap
+        doubleTap
+        tripleTap
       }
       .toAny()
     }
@@ -66,9 +68,28 @@ private extension GesturesPage {
 
   var singleTap: some View {
     Group {
-      Title("Single Tap")
+      Title(L10n.Gesture.singleTap)
       SingleTap()
         .frame(width: nil, height: 100.0)
+      Comment(L10n.Gestures.SingleTap.description)
+    }
+  }
+
+  var doubleTap: some View {
+    Group {
+      Title(L10n.Gesture.doubleTap)
+      DoubleTap()
+        .frame(width: nil, height: 100.0)
+      Comment(L10n.Gestures.DoubleTap.description)
+    }
+  }
+
+  var tripleTap: some View {
+    Group {
+      Title(L10n.Gesture.tripleTap)
+      TripleTap()
+        .frame(width: nil, height: 100.0)
+      Comment(L10n.Gestures.TripleTap.description)
     }
   }
 }

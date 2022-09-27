@@ -755,8 +755,8 @@
 "Gestures.swipeLeft.description" = "Move cursor to the previous element";
 "Gestures.swipeUp.description" = "Change Rotor filter / Increase adjustable element / Change selected custom action";
 "Gestures.swipeDown.description" = "Change Rotor filter / Decrease adjustable element / Change selected custom action";
-"Gestures.singleTap.description" = "Read element";
-"Gestures.doubleTap.description" = "Activate element (tap)";
+"Gestures.singleTap.description" = "Read focused element";
+"Gestures.doubleTap.description" = "Activate element, the same as tapping it when the VoicOver is disabled.";
 "Gestures.tripleTap.description" = "Long press gesture";
 
 "Gesture.swipeRight" = "Swipe Right";
