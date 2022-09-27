@@ -17,12 +17,14 @@ struct CodePreview: View {
   var body: some View {
     VStack(spacing: .zero) {
       closeButton
-      titleView
-      VerticalSpace(.large)
-      codeView
-      VerticalSpace(.large)
-      copyButon
-      Spacer()
+      ScrollView(showsIndicators: false) {
+        titleView
+        VerticalSpace(.large)
+        codeView
+        VerticalSpace(.large)
+        copyButon
+        Spacer()
+      }
     }
   }
 }
