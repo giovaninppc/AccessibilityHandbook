@@ -30,6 +30,7 @@ private extension NavigationPage {
   var intro: some View {
     Group {
       Text(L10n.Navigation.text1)
+      InternalLink(page: GesturesPage().toAny(), title: L10n.Navigation.gesturesLink)
       Text(L10n.Navigation.text2)
       Asset.cursor.swiftUIImage
         .resizable()

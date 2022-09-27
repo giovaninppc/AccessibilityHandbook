@@ -129,7 +129,16 @@ private extension HomeView {
     homeElement(
       icon: Icon.book,
       title: L10n.voiceOverGuide,
-      destination: IndexView(sections: VoiceOverGuideSections()).toAny()
+      destination: IndexView(sections: VoiceOverGuideSections())
+        .toolbar {
+          NavigationLink {
+            GesturesPage()
+          } label: {
+            Icon.raisedHands
+          }
+          .accessibilityLabel(L10n.Gestures.title)
+        }
+        .toAny()
     )
   }
 

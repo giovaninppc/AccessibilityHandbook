@@ -76,6 +76,7 @@
 // Navigation
 
 "Navigation.title" = "Navegação";
+"Navigation.gesturesLink" = "Abrir guia de gestos.";
 "Navigation.text1" = "A navegação do VoiceOver é baseada em gestos. Cada gesto pode ser feito em qualquer lugar da tela e vai disparar uma ação específica.";
 "Navigation.text2" = "Quando ativado, o leitor vai mostrar um marcador em cima de qual view ele está focado. Este marcador é chamado 'Cursor'.";
 "Navigation.text3" = "Navegar, basicamente significa mudar a posição do cursor, para que ele leia outro elemento.";
@@ -744,3 +745,53 @@
 "paperPlane" = "Avião de papel";
 "book" = "Livro";
 "bell" = "Sino";
+
+// Gestures
+
+"Gestures.title" = "Guia de Gestos";
+
+"Gestures.text1" = "Aqui um guia inicial de como usar alguns dos gestos do VoiceOver.";
+
+"Gestures.swipeRight.description" = "Mover o cursor para o próximo elemento.";
+"Gestures.swipeLeft.description" = "Mover o cursor para o elemento anterior";
+"Gestures.swipeUp.description" = "Mudar filtro do Rotor / Aumentar elemento ajustável / Mudar ação customizada";
+"Gestures.swipeDown.description" = "Mudar filtro do Rotor / Diminuir elemento ajustável / Mudar ação customizada";
+"Gestures.singleTap.description" = "Ler elemento";
+"Gestures.doubleTap.description" = "Ativar elemento, o mesmo que clicar quando o VoiceOver está desativado.";
+"Gestures.tripleTap.description" = "Gesto de 'Long press'";
+"Gestures.twoFingersSingleTap.description" = "Pausar/continuar leitura. Você pode fazer o VoiceOver pausar a leitura atual e depois retomá-la, usando o mesmo gesto.";
+"Gestures.twoFingersDoubleTap.description" = "Executar o 'Magic Tap'.";
+"Gestures.twoFingersSwipeUp.description" = "Ler do topo. Move o cursor para o começo da tela.";
+"Gestures.twoFingersSwipeDown.description" = "Ler tudo. Começa a ler o conteúdo automaticamente.";
+"Gestures.threeFingersSwipeUp.description" = "Scroll para baixo.";
+"Gestures.threeFingersSwipeDown.description" = "Scroll para cima.";
+"Gestures.threeFingersSwipeLeft.description" = "Scroll para a direita.";
+"Gestures.threeFingersSwipeRight.description" = "Scroll para a esquerda.";
+"Gestures.threeFingersSingleTap.description" = "Resumo do item. Lê também a posição do cursor na tela.";
+"Gestures.threeFingersDoubleTap.description" = "Mutar/Desmutar o leitor.";
+"Gestures.threeFingersTripleTap.description" = "Ligar/Desligar cortina de fumaça. Desliga a tela do aparelho com o VoiceOver ainda executando.";
+"Gestures.fourFingersDoubleTap.description" = "Ajuda de Gestos. Quando ativo, irá descrever cada gesto performado.";
+"Gestures.helper" = "Ajuda de gestos";
+"Gestures.reading" = "Leitura";
+
+"Gesture.swipeRight" = "Swipe para direita";
+"Gesture.swipeLeft" = "Swipe para esquerda";
+"Gesture.swipeUp" = "Swipe para cima";
+"Gesture.swipeDown" = "Swipe para baixo";
+"Gesture.singleTap" = "Toque único";
+"Gesture.doubleTap" = "Toque duplo";
+"Gesture.tripleTap" = "Toque triplo";
+"Gesture.twoFingersSingleTap" = "Toque único com 2 dedos";
+"Gesture.twoFingersDoubleTap" = "Toque duplo com 2 dedos";
+"Gesture.twoFingersSwipeUp" = "Swipe para cima com 2 dedos";
+"Gesture.twoFingersSwipeDown" = "Swipe para baixo com 2 dedos";
+"Gesture.threeFingersSwipeUp" = "Swipe para cima com 3 dedos";
+"Gesture.threeFingersSwipeDown" = "Swipe para baixo com 3 dedos";
+"Gesture.threeFingersSwipeLeft" = "Swipe para esquerda com 3 dedos";
+"Gesture.threeFingersSwipeRight" = "Swipe para direita com 3 dedos";
+"Gesture.threeFingersSingleTap" = "Toque único com 3 dedos";
+"Gesture.threeFingersDoubleTap" = "Toque duplo com 3 dedos";
+"Gesture.threeFingersTripleTap" = "Toque triplo com 3 dedos";
+"Gesture.fourFingersDoubleTap" = "Toque duplo com 4 dedos";
+
+"Gesture.accessible" = "Animation representing the gesture for %@";
