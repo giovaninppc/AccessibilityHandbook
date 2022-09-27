@@ -11,21 +11,25 @@ struct GesturesPage: View, Page {
   let title: String = L10n.Gestures.title
 
   var body: some View {
-    PageContent(next: ElementReadingOrderPage()) {
-      Group {
-        Text(L10n.Gestures.text1)
+    ScrollView {
+      HStack {
+        VStack(alignment: .leading, spacing: .regular) {
+          Text(L10n.Gestures.text1)
 
-        VerticalSpace(.regular)
-        navigate
-        VerticalSpace(.regular)
-        interaction
-        VerticalSpace(.regular)
-        reading
-        VerticalSpace(.regular)
-        helper
+          VerticalSpace(.regular)
+          navigate
+          VerticalSpace(.regular)
+          interaction
+          VerticalSpace(.regular)
+          reading
+          VerticalSpace(.regular)
+          helper
+        }
+        .padding()
+        Spacer()
       }
-      .toAny()
     }
+    .navigationTitle(title)
   }
 }
 
@@ -142,6 +146,7 @@ private extension GesturesPage {
   private func item(title: String, animation: AnyView, description: String) -> some View {
     Group {
       Text(title)
+        .font(.body.bold())
       animation
         .frame(width: nil, height: 100.0)
       Comment(description)

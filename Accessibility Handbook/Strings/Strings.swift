@@ -822,7 +822,7 @@ internal enum L10n {
     internal static let reading = L10n.tr("Localizable", "Gestures.reading")
     /// Here's an initial guide to start using the VoiceOver gestures.
     internal static let text1 = L10n.tr("Localizable", "Gestures.text1")
-    /// Gestures
+    /// Gestures Guide
     internal static let title = L10n.tr("Localizable", "Gestures.title")
     internal enum DoubleTap {
       /// Activate element, the same as tapping it when the VoicOver is disabled.
@@ -1271,6 +1271,8 @@ internal enum L10n {
   internal enum Navigation {
     /// This entire app was built to be used with the VoiceOver enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!
     internal static let comment = L10n.tr("Localizable", "Navigation.comment")
+    /// Check the gestures guide.
+    internal static let gesturesLink = L10n.tr("Localizable", "Navigation.gesturesLink")
     /// On top is an example of the cursor. The title 'Handbook' is currently focused on the image.
     internal static let image = L10n.tr("Localizable", "Navigation.image")
     /// Example image of the VoiceOver running on an iOS device.

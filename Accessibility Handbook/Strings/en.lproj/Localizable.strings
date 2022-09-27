@@ -76,6 +76,7 @@
 // Navigation
 
 "Navigation.title" = "Navigation";
+"Navigation.gesturesLink" = "Open the gestures guide.";
 "Navigation.text1" = "The VoiceOver navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.";
 "Navigation.text2" = "Once enabled, the VoiceOver will display a frame on top of the current view that is being read. This frame is called 'Cursor'.";
 "Navigation.text3" = "To navigate basically means changing the cursor's position, so it will read another element.";

@@ -76,6 +76,7 @@
 // Navigation
 
 "Navigation.title" = "Navegação";
+"Navigation.gesturesLink" = "Abrir guia de gestos.";
 "Navigation.text1" = "A navegação do VoiceOver é baseada em gestos. Cada gesto pode ser feito em qualquer lugar da tela e vai disparar uma ação específica.";
 "Navigation.text2" = "Quando ativado, o leitor vai mostrar um marcador em cima de qual view ele está focado. Este marcador é chamado 'Cursor'.";
 "Navigation.text3" = "Navegar, basicamente significa mudar a posição do cursor, para que ele leia outro elemento.";
