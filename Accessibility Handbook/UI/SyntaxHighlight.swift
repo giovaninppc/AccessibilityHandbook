@@ -41,6 +41,7 @@ private extension SyntaxHighlight {
     highlight(match: "var ", color: .systemPink, bolded: true)
     highlight(match: "switch ", color: .systemPink, bolded: true)
     highlight(match: "case ", color: .systemPink, bolded: true)
+    highlight(match: "guard ", color: .systemPink, bolded: true)
     highlight(match: "true", color: .systemPurple, bolded: true)
     highlight(match: "false", color: .systemPurple, bolded: true)
     highlight(match: "if ", color: .systemPurple, bolded: true)
@@ -89,7 +90,7 @@ private extension SyntaxHighlight {
     for match in matches {
       highlighted.addAttributes([
         .foregroundColor: color,
-        .font: UIFont.monospacedSystemFont(ofSize: 16.0, weight: bolded ? .bold : .regular)
+        .font: UIFontMetrics(forTextStyle: .callout).scaledFont(for: UIFont.monospacedSystemFont(ofSize: 16.0, weight: bolded ? .bold : .regular))
       ], range: match.range)
     }
   }
