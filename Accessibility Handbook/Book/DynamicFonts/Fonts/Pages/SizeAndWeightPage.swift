@@ -14,7 +14,7 @@ struct SizeAndWeightPage: View, Page {
     PageContent(next: nil) {
       Group {
         intro
-        ExternalLink(link: "https://www.dafont.com/pt/", title: L10n.AboutFonts.link)
+        ExternalLink(link: "https://www.dafont.com", title: L10n.AboutFonts.link)
       }
       .toAny()
     }

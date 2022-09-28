@@ -8,8 +8,8 @@
 import Foundation
 
 struct ImplementingDynamicFontsSection: Section {
-  var title: String = "Implementing Dynamic Fonts"
-  var pages: [Page] = [
+  let title: String = L10n.DynamicFonts.implementing
+  let pages: [Page] = [
     ScallingFontsAutomaticallyPage(),
     UIFontMetricsPage(),
     AdjustLayoutToScaledFontPage()

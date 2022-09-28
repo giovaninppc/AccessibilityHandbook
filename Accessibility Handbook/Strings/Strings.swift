@@ -794,6 +794,8 @@ internal enum L10n {
   }
 
   internal enum DynamicFonts {
+    /// Implementing Dynamic Fonts
+    internal static let implementing = L10n.tr("Localizable", "DynamicFonts.implementing")
     /// Dynamic Fonts
     internal static let title = L10n.tr("Localizable", "DynamicFonts.title")
   }

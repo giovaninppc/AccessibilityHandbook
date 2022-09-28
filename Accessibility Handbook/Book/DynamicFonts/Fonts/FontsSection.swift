@@ -10,6 +10,6 @@ import Foundation
 struct FontsSection: Section {
   var title: String = L10n.Fonts.title
   var pages: [Page] = [
-    AboutFontsPage()
+    AboutFontsPage(),
   ]
 }

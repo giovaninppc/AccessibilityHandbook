@@ -803,6 +803,7 @@
 // Dynamic Fonts
 
 "DynamicFonts.title" = "Dynamic Fonts";
+"DynamicFonts.implementing" = "Implementing Dynamic Fonts";
 
 // Fonts section
 
