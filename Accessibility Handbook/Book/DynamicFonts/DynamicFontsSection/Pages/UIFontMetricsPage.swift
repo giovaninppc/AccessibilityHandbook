@@ -11,7 +11,7 @@ struct UIFontMetricsPage: View, Page {
   let title: String = L10n.UIFontMetrics.title
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: AdjustLayoutToScaledFontPage()) {
       Group {
         intro
       }

@@ -12,6 +12,7 @@
 		3F25391128DBDF8200B089EA /* FillTheCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391028DBDF8200B089EA /* FillTheCup.swift */; };
 		3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391228DBE05A00B089EA /* CircularProgressionView.swift */; };
 		3F41C11728E49CBB0092CF28 /* UIFontMetricsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41C11628E49CBB0092CF28 /* UIFontMetricsPage.swift */; };
+		3F41C11928E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41C11828E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift */; };
 		3F41DB0E28E2553E00E0B056 /* HorizontalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */; };
 		3F4E7F8828DC97E100710F18 /* ContentHierarchySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8728DC97E100710F18 /* ContentHierarchySection.swift */; };
 		3F4E7F8B28DC980700710F18 /* ModalViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */; };
@@ -131,6 +132,7 @@
 		3F25391028DBDF8200B089EA /* FillTheCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillTheCup.swift; sourceTree = "<group>"; };
 		3F25391228DBE05A00B089EA /* CircularProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressionView.swift; sourceTree = "<group>"; };
 		3F41C11628E49CBB0092CF28 /* UIFontMetricsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontMetricsPage.swift; sourceTree = "<group>"; };
+		3F41C11828E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustLayoutToScaledFontPage.swift; sourceTree = "<group>"; };
 		3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSwipe.swift; sourceTree = "<group>"; };
 		3F4E7F8728DC97E100710F18 /* ContentHierarchySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHierarchySection.swift; sourceTree = "<group>"; };
 		3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewPage.swift; sourceTree = "<group>"; };
@@ -704,6 +706,7 @@
 			children = (
 				3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */,
 				3F41C11628E49CBB0092CF28 /* UIFontMetricsPage.swift */,
+				3F41C11828E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -858,6 +861,7 @@
 				3FBF060128DB704600DA5BF5 /* InternalLink.swift in Sources */,
 				3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */,
 				3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */,
+				3F41C11928E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift in Sources */,
 				3FBF058628DA994400DA5BF5 /* AccessibilityTraitPage.swift in Sources */,
 				3FBF055728DA661400DA5BF5 /* IndexCell.swift in Sources */,
 				3FBF058828DA9C1B00DA5BF5 /* AccessibilityValuePage.swift in Sources */,

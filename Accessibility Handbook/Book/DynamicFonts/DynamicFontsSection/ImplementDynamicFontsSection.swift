@@ -11,6 +11,7 @@ struct ImplementingDynamicFontsSection: Section {
   var title: String = "Implementing Dynamic Fonts"
   var pages: [Page] = [
     ScallingFontsAutomaticallyPage(),
-    UIFontMetricsPage()
+    UIFontMetricsPage(),
+    AdjustLayoutToScaledFontPage()
   ]
 }
