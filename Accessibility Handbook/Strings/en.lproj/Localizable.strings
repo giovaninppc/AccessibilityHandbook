@@ -799,3 +799,94 @@
 "Gesture.fourFingersDoubleTap" = "Four fingers double tap.";
 
 "Gesture.accessible" = "Animation representing the gesture for %@";
+
+// Dynamic Fonts
+
+"DynamicFonts.title" = "Dynamic Fonts";
+"DynamicFonts.implementing" = "Implementing Dynamic Fonts";
+
+// Fonts section
+
+"Fonts.title" = "Fonts";
+
+// AboutFonts
+
+"AboutFonts.title" = "About Fonts";
+"AboutFonts.Intro.comment1" = "Fonts are cool.";
+"AboutFonts.Intro.text1" = "A font is a particular size, weight and style of lettering. I like to think about the 'drawing' of the characters that make the text.";
+"AboutFonts.Intro.text2" = "You are currently reading a text, written in a specific font.";
+"AboutFonts.Intro.comment2" = "This is the iOS's system font, and it is called SF Pro.";
+"AboutFonts.Intro.text3" = "There are several fonts. Hundreds and hundreds of thousands. And we may decide to use a custom font for our app, maybe it fits better in our content, maybe it's part of our global identity with other platforms, maybe we want to evoke a specifc feeling from the font...";
+"AboutFonts.Intro.text4" = "But the font is how we direclty display content to the user. Most of the time we expect the user to READ the content. So, the Font used to render it is extremely important.";
+"AboutFonts.Intro.text5" = "The basic is: We want the font to be readable.";
+"AboutFonts.Intro.comment3" = "But since we already stablished that not everyone percieves content or colors the same way...";
+"AboutFonts.Intro.text6" = "The second part is: We want everyone, who can read, to be able to read our content.";
+"AboutFonts.Intro.comment4" = "And that's where accessibility comes and it gets interesting.";
+"AboutFonts.link" = "Check some different fonts!";
+
+// Size And Weight
+
+"SizeAndWeight.title" = "Size and Weight";
+
+// Implementing dynamic fonts
+
+"ImplementingDynamicFonts.title" = "Scaling Fonts Automatically";
+"ImplementingDynamicFonts.Intro.text1" = "Scaling fonts automatically is the property of a label or text to automatically increase the font size according to the user's accessibility settings.";
+"ImplementingDynamicFonts.Intro.comment1" = "Thats what we call 'Dynamic fonts'.";
+"ImplementingDynamicFonts.Intro.text2" = "To support this, we stop using 'fixed' font sizes, and start working with 'text styles'.";
+"ImplementingDynamicFonts.Intro.comment2" = "In the example above, we are using a fixed font size (36), which will not cut it if we are expecting our font to scale itself automatically.";
+
+"ImplementingDynamicFonts.TextStyles.title" = "Text Styles";
+"ImplementingDynamicFonts.TextStyles.text1" = "Text styles represent a context for your font (title, body, caption...), instead of a fixed font size.";
+"ImplementingDynamicFonts.TextStyles.text2" = "The font size will be defined by what is the current configuration on the device's settings, and it will scale every text style accordingly.";
+"ImplementingDynamicFonts.TextStyles.comment1" = "So don't worry, your content will still have differences between titles and bodies and comments, and every other text-style you are using.";
+"ImplementingDynamicFonts.TextStyles.text3" = "Also, If the 'adjustsFontForContentSizeCategory' property is set to 'False', the font will initially be the right size, but it won't respond to text-size changes the user makes in Settings or Control Center.";
+
+"ImplementingDynamicFonts.SystemFonts.title" = "System Fonts";
+"ImplementingDynamicFonts.SystemFonts.text1" = "The easiest way to support scaling your fonts automatically, is using the system defined text styles and fonts.";
+"ImplementingDynamicFonts.SystemFonts.text2" = "They are going to work seemelesly with the user changes on font sizes.";
+"ImplementingDynamicFonts.SystemFonts.comment1" = "The tough part comes with custom fonts, that we'll be discussing more on the following pages.";
+
+// UIFontMetrics
+
+"UIFontMetrics.title" = "UIFontMetrics";
+
+"UIFontMetrics.Intro.text1" = "UIFontMetrics is the solution to support scaling custom fonts automatically. You create a font metrics object that specifies the font style that you want to use in your app.";
+"UIFontMetrics.Intro.text2" = "Then, you load your custom font and scale it using the UIFontMetrics.";
+"UIFontMetrics.Intro.comment1" = "Make sure your font looks good in bigger and smaller sizes! Readability is they key in every font size.";
+
+// AdjustLayoutToScaledFontPage
+
+"AdjustLayoutToScaledFontPage.title" = "Adjust Layout to Scaled Fonts";
+
+"AdjustLayoutToScaledFontPage.Intro.text1" = "The most difficult part of supporting dynamic fonts is: \"Your carefully crafted layout is probably going to break once the labels increase or decrease in size.\"";
+"AdjustLayoutToScaledFontPage.Intro.text2" = "We need to consider what we want to happen once the font increases. \nWill it break into a new line?\nWill part of the content just be cut off?\nWill the view itself increase in size?";
+"AdjustLayoutToScaledFontPage.Intro.comment1" = "Hiding content is never a good solution, so we need to check approaches to make everything work with any size of font.";
+"AdjustLayoutToScaledFontPage.Intro.comment2" = "This is also important to be discussed with your design team!";
+"AdjustLayoutToScaledFontPage.Intro.text3" = "Check the following examples by changing the settings for the font size on your device and checking how each one behaves.";
+
+"AdjustLayoutToScaledFontPage.FixedSize.title" = "Fixed size";
+"AdjustLayoutToScaledFontPage.FixedSize.text1" = "The main rule is: Avoid fixed sizes as much as possible. When enlarging the font, it will probably not break the layout itself, but the content that is being displayed.";
+
+"AdjustLayoutToScaledFontPage.LineBreak.title" = "Allow line breaking";
+"AdjustLayoutToScaledFontPage.LineBreak.text1" = "By allowing the text to line break you can support displaying the content independently of it's size. But the issue is: It will probably increase the size of your layout vertically.";
+"AdjustLayoutToScaledFontPage.LineBreak.comment1" = "Make sure you are expecting this! Sometimes we do not want our cells or groups to increase too much because it can break our entire layout.";
+
+"AdjustLayoutToScaledFontPage.ScaleSize.title" = "Scale size up to a limit";
+"AdjustLayoutToScaledFontPage.ScaleSize.text1" = "Another option, is allowing your content to scale it's size up to a limit so it doesn't break the layout (that much).";
+"AdjustLayoutToScaledFontPage.ScaleSize.comment1" = "I think it's a nice solution when paired with multiline text, but, you need to make sure to test it with different content sizes.";
+
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.title" = "Allow text to control the size of the content";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.text1" = "Sometimes, the text does not define alone out content size, but it's paired with an image or something else that controls the dimensions.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.text2" = "To better support dynamic fonts, you need to make your layout expand beyond the size of the paired content, but keep everything still cohesive.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment1" = "This is the complicated part, you need to make the layout accounting for text changes and visualize what would break and handle it correctly so it keeps working with bigger fonts.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment2" = "In this case, it would also be nice to set a minimum size for the content, in case of smaller fonts that could also break the expected layout.";
+
+"AdjustLayoutToScaledFontPage.WhatOption.title" = "Which option should I use?";
+"AdjustLayoutToScaledFontPage.WhatOption.text1" = "Well, that's the hard part. It depends. It depends on where the text is at, it depends on how we want to scale our content (can our cells get wider?\nShould we break the lines instead?)";
+"AdjustLayoutToScaledFontPage.WhatOption.comment1" = "That's why implementing Dynamic fonts after an app is ready and in production is so difficult. Literally anything can break.";
+"AdjustLayoutToScaledFontPage.WhatOption.text2" = "But, such as adjusting the content to support screen readers, implementing dynamic fonts is a group work. Talk with your designers, question them \"What should happen if this title had an enlarged font?\", and bring all these discussion points to when you are building the layout.";
+
+"AdjustLayoutToScaledFontPage.Example.title" = "Content title";
+"AdjustLayoutToScaledFontPage.Example.body" = "Content body some content";
+"AdjustLayoutToScaledFontPage.Example.description" = "Content description";

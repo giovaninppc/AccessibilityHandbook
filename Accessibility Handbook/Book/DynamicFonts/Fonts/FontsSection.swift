@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct WipSection: Section {
-  var title: String = "Coming soon!"
-  var pages: [Page] = []
+struct FontsSection: Section {
+  var title: String = L10n.Fonts.title
+  var pages: [Page] = [
+    AboutFontsPage(),
+  ]
 }

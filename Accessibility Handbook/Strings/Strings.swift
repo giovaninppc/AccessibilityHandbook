@@ -189,6 +189,35 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AboutColors.title")
   }
 
+  internal enum AboutFonts {
+    /// Check some different fonts!
+    internal static let link = L10n.tr("Localizable", "AboutFonts.link")
+    /// About Fonts
+    internal static let title = L10n.tr("Localizable", "AboutFonts.title")
+    internal enum Intro {
+      /// Fonts are cool.
+      internal static let comment1 = L10n.tr("Localizable", "AboutFonts.Intro.comment1")
+      /// This is the iOS's system font, and it is called SF Pro.
+      internal static let comment2 = L10n.tr("Localizable", "AboutFonts.Intro.comment2")
+      /// But since we already stablished that not everyone percieves content or colors the same way...
+      internal static let comment3 = L10n.tr("Localizable", "AboutFonts.Intro.comment3")
+      /// And that's where accessibility comes and it gets interesting.
+      internal static let comment4 = L10n.tr("Localizable", "AboutFonts.Intro.comment4")
+      /// A font is a particular size, weight and style of lettering. I like to think about the 'drawing' of the characters that make the text.
+      internal static let text1 = L10n.tr("Localizable", "AboutFonts.Intro.text1")
+      /// You are currently reading a text, written in a specific font.
+      internal static let text2 = L10n.tr("Localizable", "AboutFonts.Intro.text2")
+      /// There are several fonts. Hundreds and hundreds of thousands. And we may decide to use a custom font for our app, maybe it fits better in our content, maybe it's part of our global identity with other platforms, maybe we want to evoke a specifc feeling from the font...
+      internal static let text3 = L10n.tr("Localizable", "AboutFonts.Intro.text3")
+      /// But the font is how we direclty display content to the user. Most of the time we expect the user to READ the content. So, the Font used to render it is extremely important.
+      internal static let text4 = L10n.tr("Localizable", "AboutFonts.Intro.text4")
+      /// The basic is: We want the font to be readable.
+      internal static let text5 = L10n.tr("Localizable", "AboutFonts.Intro.text5")
+      /// The second part is: We want everyone, who can read, to be able to read our content.
+      internal static let text6 = L10n.tr("Localizable", "AboutFonts.Intro.text6")
+    }
+  }
+
   internal enum AboutTheApp {
     /// The Handbook is available in English US and Portuguese BR. Change your language preference for the app at the device's settings.
     internal static let language = L10n.tr("Localizable", "AboutTheApp.language")
@@ -390,6 +419,75 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "Activate.text3")
     /// Activate element
     internal static let title = L10n.tr("Localizable", "Activate.title")
+  }
+
+  internal enum AdjustLayoutToScaledFontPage {
+    /// Adjust Layout to Scaled Fonts
+    internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.title")
+    internal enum AllowTextToIncrease {
+      /// This is the complicated part, you need to make the layout accounting for text changes and visualize what would break and handle it correctly so it keeps working with bigger fonts.
+      internal static let comment1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment1")
+      /// In this case, it would also be nice to set a minimum size for the content, in case of smaller fonts that could also break the expected layout.
+      internal static let comment2 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment2")
+      /// Sometimes, the text does not define alone out content size, but it's paired with an image or something else that controls the dimensions.
+      internal static let text1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.AllowTextToIncrease.text1")
+      /// To better support dynamic fonts, you need to make your layout expand beyond the size of the paired content, but keep everything still cohesive.
+      internal static let text2 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.AllowTextToIncrease.text2")
+      /// Allow text to control the size of the content
+      internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.AllowTextToIncrease.title")
+    }
+    internal enum Example {
+      /// Content body some content
+      internal static let body = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Example.body")
+      /// Content description
+      internal static let description = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Example.description")
+      /// Content title
+      internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Example.title")
+    }
+    internal enum FixedSize {
+      /// The main rule is: Avoid fixed sizes as much as possible. When enlarging the font, it will probably not break the layout itself, but the content that is being displayed.
+      internal static let text1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.FixedSize.text1")
+      /// Fixed size
+      internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.FixedSize.title")
+    }
+    internal enum Intro {
+      /// Hiding content is never a good solution, so we need to check approaches to make everything work with any size of font.
+      internal static let comment1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Intro.comment1")
+      /// This is also important to be discussed with your design team!
+      internal static let comment2 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Intro.comment2")
+      /// The most difficult part of supporting dynamic fonts is: "Your carefully crafted layout is probably going to break once the labels increase or decrease in size."
+      internal static let text1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Intro.text1")
+      /// We need to consider what we want to happen once the font increases. \nWill it break into a new line?\nWill part of the content just be cut off?\nWill the view itself increase in size?
+      internal static let text2 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Intro.text2")
+      /// Check the following examples by changing the settings for the font size on your device and checking how each one behaves.
+      internal static let text3 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.Intro.text3")
+    }
+    internal enum LineBreak {
+      /// Make sure you are expecting this! Sometimes we do not want our cells or groups to increase too much because it can break our entire layout.
+      internal static let comment1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.LineBreak.comment1")
+      /// By allowing the text to line break you can support displaying the content independently of it's size. But the issue is: It will probably increase the size of your layout vertically.
+      internal static let text1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.LineBreak.text1")
+      /// Allow line breaking
+      internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.LineBreak.title")
+    }
+    internal enum ScaleSize {
+      /// I think it's a nice solution when paired with multiline text, but, you need to make sure to test it with different content sizes.
+      internal static let comment1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.ScaleSize.comment1")
+      /// Another option, is allowing your content to scale it's size up to a limit so it doesn't break the layout (that much).
+      internal static let text1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.ScaleSize.text1")
+      /// Scale size up to a limit
+      internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.ScaleSize.title")
+    }
+    internal enum WhatOption {
+      /// That's why implementing Dynamic fonts after an app is ready and in production is so difficult. Literally anything can break.
+      internal static let comment1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.WhatOption.comment1")
+      /// Well, that's the hard part. It depends. It depends on where the text is at, it depends on how we want to scale our content (can our cells get wider?\nShould we break the lines instead?)
+      internal static let text1 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.WhatOption.text1")
+      /// But, such as adjusting the content to support screen readers, implementing dynamic fonts is a group work. Talk with your designers, question them "What should happen if this title had an enlarged font?", and bring all these discussion points to when you are building the layout.
+      internal static let text2 = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.WhatOption.text2")
+      /// Which option should I use?
+      internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.WhatOption.title")
+    }
   }
 
   internal enum Adjustable {
@@ -695,6 +793,13 @@ internal enum L10n {
     }
   }
 
+  internal enum DynamicFonts {
+    /// Implementing Dynamic Fonts
+    internal static let implementing = L10n.tr("Localizable", "DynamicFonts.implementing")
+    /// Dynamic Fonts
+    internal static let title = L10n.tr("Localizable", "DynamicFonts.title")
+  }
+
   internal enum ElementReadingOrder {
     /// What does it mean?
     internal static let comment1 = L10n.tr("Localizable", "ElementReadingOrder.comment1")
@@ -753,6 +858,11 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "FindThePassword.text2")
     /// Find the Password
     internal static let title = L10n.tr("Localizable", "FindThePassword.title")
+  }
+
+  internal enum Fonts {
+    /// Fonts
+    internal static let title = L10n.tr("Localizable", "Fonts.title")
   }
 
   internal enum GameCell {
@@ -1027,6 +1137,43 @@ internal enum L10n {
     internal static let handbookGameDescription = L10n.tr("Localizable", "Home.handbookGameDescription")
     /// Other Features
     internal static let otherFeatures = L10n.tr("Localizable", "Home.otherFeatures")
+  }
+
+  internal enum ImplementingDynamicFonts {
+    /// Scaling Fonts Automatically
+    internal static let title = L10n.tr("Localizable", "ImplementingDynamicFonts.title")
+    internal enum Intro {
+      /// Thats what we call 'Dynamic fonts'.
+      internal static let comment1 = L10n.tr("Localizable", "ImplementingDynamicFonts.Intro.comment1")
+      /// In the example above, we are using a fixed font size (36), which will not cut it if we are expecting our font to scale itself automatically.
+      internal static let comment2 = L10n.tr("Localizable", "ImplementingDynamicFonts.Intro.comment2")
+      /// Scaling fonts automatically is the property of a label or text to automatically increase the font size according to the user's accessibility settings.
+      internal static let text1 = L10n.tr("Localizable", "ImplementingDynamicFonts.Intro.text1")
+      /// To support this, we stop using 'fixed' font sizes, and start working with 'text styles'.
+      internal static let text2 = L10n.tr("Localizable", "ImplementingDynamicFonts.Intro.text2")
+    }
+    internal enum SystemFonts {
+      /// The tough part comes with custom fonts, that we'll be discussing more on the following pages.
+      internal static let comment1 = L10n.tr("Localizable", "ImplementingDynamicFonts.SystemFonts.comment1")
+      /// The easiest way to support scaling your fonts automatically, is using the system defined text styles and fonts.
+      internal static let text1 = L10n.tr("Localizable", "ImplementingDynamicFonts.SystemFonts.text1")
+      /// They are going to work seemelesly with the user changes on font sizes.
+      internal static let text2 = L10n.tr("Localizable", "ImplementingDynamicFonts.SystemFonts.text2")
+      /// System Fonts
+      internal static let title = L10n.tr("Localizable", "ImplementingDynamicFonts.SystemFonts.title")
+    }
+    internal enum TextStyles {
+      /// So don't worry, your content will still have differences between titles and bodies and comments, and every other text-style you are using.
+      internal static let comment1 = L10n.tr("Localizable", "ImplementingDynamicFonts.TextStyles.comment1")
+      /// Text styles represent a context for your font (title, body, caption...), instead of a fixed font size.
+      internal static let text1 = L10n.tr("Localizable", "ImplementingDynamicFonts.TextStyles.text1")
+      /// The font size will be defined by what is the current configuration on the device's settings, and it will scale every text style accordingly.
+      internal static let text2 = L10n.tr("Localizable", "ImplementingDynamicFonts.TextStyles.text2")
+      /// Also, If the 'adjustsFontForContentSizeCategory' property is set to 'False', the font will initially be the right size, but it won't respond to text-size changes the user makes in Settings or Control Center.
+      internal static let text3 = L10n.tr("Localizable", "ImplementingDynamicFonts.TextStyles.text3")
+      /// Text Styles
+      internal static let title = L10n.tr("Localizable", "ImplementingDynamicFonts.TextStyles.title")
+    }
   }
 
   internal enum Impostor {
@@ -1440,6 +1587,11 @@ internal enum L10n {
     }
   }
 
+  internal enum SizeAndWeight {
+    /// Size and Weight
+    internal static let title = L10n.tr("Localizable", "SizeAndWeight.title")
+  }
+
   internal enum SuperFriend {
     /// Find the person with the biggest amount of friends!
     internal static let comment = L10n.tr("Localizable", "SuperFriend.comment")
@@ -1467,6 +1619,19 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "TheUpsideDown.text2")
     /// The Upside Down
     internal static let title = L10n.tr("Localizable", "TheUpsideDown.title")
+  }
+
+  internal enum UIFontMetrics {
+    /// UIFontMetrics
+    internal static let title = L10n.tr("Localizable", "UIFontMetrics.title")
+    internal enum Intro {
+      /// Make sure your font looks good in bigger and smaller sizes! Readability is they key in every font size.
+      internal static let comment1 = L10n.tr("Localizable", "UIFontMetrics.Intro.comment1")
+      /// UIFontMetrics is the solution to support scaling custom fonts automatically. You create a font metrics object that specifies the font style that you want to use in your app.
+      internal static let text1 = L10n.tr("Localizable", "UIFontMetrics.Intro.text1")
+      /// Then, you load your custom font and scale it using the UIFontMetrics.
+      internal static let text2 = L10n.tr("Localizable", "UIFontMetrics.Intro.text2")
+    }
   }
 
   internal enum WhereIsMyContent {

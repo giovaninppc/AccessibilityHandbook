@@ -799,3 +799,94 @@
 "Gesture.fourFingersDoubleTap" = "Toque duplo com 4 dedos";
 
 "Gesture.accessible" = "Animation representing the gesture for %@";
+
+// Dynamic Fonts
+
+"DynamicFonts.title" = "Fontes dinâmicas";
+"DynamicFonts.implementing" = "Implementando fontes dinâmicas";
+
+// Fonts section
+
+"Fonts.title" = "Fontes";
+
+// AboutFonts
+
+"AboutFonts.title" = "Sobre fontes";
+"AboutFonts.Intro.comment1" = "Fontes são legais.";
+"AboutFonts.Intro.text1" = "Uma 'fonte' é um tipo, tamanho, peso e estilo particular de um texto. Eu gosto de pensar como se fosse o 'desenho' de cada caracter.";
+"AboutFonts.Intro.text2" = "Vocês está nesse momento lendo um texto, escrito em uma fonte específica.";
+"AboutFonts.Intro.comment2" = "Esta é a fonte padrão do sistema iOS, SF Pro.";
+"AboutFonts.Intro.text3" = "Existem inúmeras fontes. Centenas de centenas de milhares. E podemos decidir usar uma fonte customizada na nossa aplicação, talvez por se encaixar melhor no nosso conteúdo, ou talvez seja parte da identidade global da sua marca.";
+"AboutFonts.Intro.text4" = "Mas a fonte é como apresentamos conteúdo diretamente pro usuário. E a maioria das vezes espeamos que os usuários sejam capazes de LER o conteúdo. Então, a maneira como a fonte é apresentada é extremamente importante.";
+"AboutFonts.Intro.text5" = "O básico é: O texto tem que ser legível.";
+"AboutFonts.Intro.comment3" = "Mas já estabelecemos que nem todo mundo percebe conteúdo ou cores da mesma forma.";
+"AboutFonts.Intro.text6" = "E em segundo: Queremos que todos, que possam ler, consigam ler nosso conteúdo.";
+"AboutFonts.Intro.comment4" = "E é aí que acessibilidade começa a ficar interessante";
+"AboutFonts.link" = "Veja mais fontes online.";
+
+// Size And Weight
+
+"SizeAndWeight.title" = "Peso e Tamanho";
+
+// Implementing dynamic fonts
+
+"ImplementingDynamicFonts.title" = "Escalando fontes automaticamente";
+"ImplementingDynamicFonts.Intro.text1" = "Escalar fontes automaticamente é a capacidade de uma Label ou Text de aumentar o tamanho da sua fonte automaticamente de aocrdo com a configuração de acessibilidade do usuário.";
+"ImplementingDynamicFonts.Intro.comment1" = "Isso é o que chamamos de 'Fontes dinâmicas'.";
+"ImplementingDynamicFonts.Intro.text2" = "Para suportar isso, temos que parar de usar tamanhos fixos de fontes, e começar a trabalhr com 'estilos de texto'.";
+"ImplementingDynamicFonts.Intro.comment2" = "No exemplo acima, estamos usando uma fonte de tamanho fixo (36), que não vai servir caso queiramos que ela escale automaticamente de tamanho.";
+
+"ImplementingDynamicFonts.TextStyles.title" = "Estilos de texto";
+"ImplementingDynamicFonts.TextStyles.text1" = "Extilos de text, ou 'Text styles', representam um contexto onde sua fonte pode ser usada (corpo do texto, título, legenda...).";
+"ImplementingDynamicFonts.TextStyles.text2" = "O tamanho da fonte será definido de acordo com a configuração do dispositivo, e será diferente para cada tamanho de fonte selecionado.";
+"ImplementingDynamicFonts.TextStyles.comment1" = "Então, não se preocupe, seu conteúdo terá diferenças de tamanho entre títulos, corpos, legendas e quaisquer outros estilos de texto que você esteja usando.";
+"ImplementingDynamicFonts.TextStyles.text3" = "Além disso, se a propriedade 'adjustsFontForContentSizeCategory' estiver configurada como `False`, a fonte vai estar do tamanho correto quando for exibida, mas não vai se ajustar automaticamente caso ocorram mudanças no tamanho do texto enquanto está sendo exibida.";
+
+"ImplementingDynamicFonts.SystemFonts.title" = "Fontes do sistema";
+"ImplementingDynamicFonts.SystemFonts.text1" = "A maneira mais fácil de suportar fontes dinâmicas é usando fontes e estilos do sistema.";
+"ImplementingDynamicFonts.SystemFonts.text2" = "Eles vão funcionar de maneira transparente com as mudanças de tamanho de fonte nas configurações do dispositivo.";
+"ImplementingDynamicFonts.SystemFonts.comment1" = "A parte mais complicada é suportar o mesmo comportamento com fontes customizadas. Iremos discutir melhor nas páginas seguintes este assunto.";
+
+// UIFontMetrics
+
+"UIFontMetrics.title" = "UIFontMetrics";
+
+"UIFontMetrics.Intro.text1" = "UIFontMetrics é a solução para suportar escalar automaticamente fontes customizadas. Você cria um objeto de 'metrics' que especifica o estilo de fonte que você quer usar.";
+"UIFontMetrics.Intro.text2" = "Depois, você carrega a sua fonte e a escala usando o UIFontMetrics.";
+"UIFontMetrics.Intro.comment1" = "Garanta que sua fonte é legível tanto em tamanhos menores como maiores! Legibilidade é a chave em todo tamanho de fonte.";
+
+// AdjustLayoutToScaledFontPage
+
+"AdjustLayoutToScaledFontPage.title" = "Ajustar o layout para fontes aumentadas";
+
+"AdjustLayoutToScaledFontPage.Intro.text1" = "A parte mais difícil de suportar fontes dinâmicas é: \"Garantir que o seu layout cuidadosamente planejado para um tamanho de texto não quebre.\"";
+"AdjustLayoutToScaledFontPage.Intro.text2" = "Precisamos considerar o que vai acontecer quando mudarmos o tamanho da fonte.\nO conteúdo vai ter uma quebra de linha?\nParte dele não ficará mais visível?\nA view que contém o texto irá aumentar de tamanho?";
+"AdjustLayoutToScaledFontPage.Intro.comment1" = "Esconder parte do conteúdo, de maneira geral, nunca é uma boa solução. Então, precisamos estudar e conhecer as abordagens para garantir que tudo funciona e continua legível com todos os tamanhos de contes.";
+"AdjustLayoutToScaledFontPage.Intro.comment2" = "Isso é muito importante de discutir com o seu time de design! 😉";
+"AdjustLayoutToScaledFontPage.Intro.text3" = "Observe os exemplos a seguir e altere o tamanho do texto nas configurações do seu dispositivo. Depois volte e veja como cada um se comporta com um tamanho de fonte diferente.";
+
+"AdjustLayoutToScaledFontPage.FixedSize.title" = "Tamanho Fixo";
+"AdjustLayoutToScaledFontPage.FixedSize.text1" = "A regra principal é: Evitar tamanhos fixos o máximo possível. Quando a fonte aumentar, o layout provavelmente não irá quebrar, mas o conteúdo escrito pode ser suprimido, e talvez não sej apossível de ser lido.";
+
+"AdjustLayoutToScaledFontPage.LineBreak.title" = "Quebra de linha";
+"AdjustLayoutToScaledFontPage.LineBreak.text1" = "Ao permitir que o texto tenha quebra de linha, você pode exibir qualquer conteúdo, independente do tamanho da fonte. O problema é: Aumentar o tamanho vertical do seu layout.";
+"AdjustLayoutToScaledFontPage.LineBreak.comment1" = "Garanta que esse é o comportamento esperado! As vezes, não queremos que as nossas células ou grupos cresçam muito de tamanho, pois isso também pode quebrar nosso layout.";
+
+"AdjustLayoutToScaledFontPage.ScaleSize.title" = "Escalar até um limite";
+"AdjustLayoutToScaledFontPage.ScaleSize.text1" = "Another option, is allowing your content to scale it's size up to a limit so it doesn't break the layout (that much).";
+"AdjustLayoutToScaledFontPage.ScaleSize.comment1" = "Eu acho que é uma boa solução, de maneira geral, pareada com o uso de quebras de linha. Mas sempre teste sua aplicação com diferentes variações de tamanho.";
+
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.title" = "Permitir que o texto controle o tamanho do conteúdo";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.text1" = "Na maioria das vezes, o texto não define o tamanho das nossas views. Quando está dentro de uma célula, ou associado a uma imagem, esses outros componentes costumam definir as dimensões exibidas.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.text2" = "Para suportar fontes dinâmicas, você pode ajustar o seu layout para escalar junto com o tamanho da fonte, de uma forma que tudo se matenha coeso.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment1" = "Essa é a parte mais cimplicada, você precisa implementar o layout já considerando as mudanças de dimensão do text (e testar com diferentes tamanhos também), e visualizar onde pode quebrar caso o texto aumente e ajustar o comportamento do layout corretamente.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment2" = "Nesse caso, também seria legal configurar um tamanho mínimo pro conteúdo, no caso de uma fonte menor que o esperado.";
+
+"AdjustLayoutToScaledFontPage.WhatOption.title" = "Qual opção eu devo usar?";
+"AdjustLayoutToScaledFontPage.WhatOption.text1" = "Bom, aí que está a questão. Depende. Depende de onde está o texto, de como ele vai mudar outros componentes na tela (nossas células podem ficar mais largas?\nDevemos usar quebras de linhas?)";
+"AdjustLayoutToScaledFontPage.WhatOption.comment1" = "Por isso é extremamente complicado suportar fontes dinâmicas com um app já pronto e em produção. Literalmente tudo pode quebrar.";
+"AdjustLayoutToScaledFontPage.WhatOption.text2" = "Mas, assim como suportar leitores de tela no seu conteúdo, implementar fontes dinâmicas é um trabalho de grupo. Converse com seus designers, com o time de produto, com outros desenvolvedores, e questione \"O que deveria acontecer caso a fonte fossse maior?\" e traga as pessoas mais próximas da discussão e já considere esses pontos enquanto você implementa novos layouts.";
+
+"AdjustLayoutToScaledFontPage.Example.title" = "Título do conteúdo";
+"AdjustLayoutToScaledFontPage.Example.body" = "Corpo do texto com mais conteúdo";
+"AdjustLayoutToScaledFontPage.Example.description" = "Descrição aqui embaixo";
