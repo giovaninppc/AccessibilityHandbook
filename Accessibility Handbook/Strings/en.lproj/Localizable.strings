@@ -892,3 +892,12 @@
 "AdjustLayoutToScaledFontPage.Example.title" = "Content title";
 "AdjustLayoutToScaledFontPage.Example.body" = "Content body some content";
 "AdjustLayoutToScaledFontPage.Example.description" = "Content description";
+
+// Dismiss
+
+"DismissPage.title" = "Escape";
+"DismissPage.text1" = "The VoiceOver has a dedicated 'dismiss gesture', the Escape, which is used to close modals or pop the current view on the navigation stack.";
+"DismissPage.comment1" = "Try it out! Enable the VoiceOver and perform a 'Z' with 2 fingers.";
+
+"DismissPage.Handle.text1" = "On UIKit, you can add a custom handling to this gesture by implementing the 'perform escape' method.";
+"DismissPage.Handle.text2" = "On SwiftUI, it's the same as adding a 'Magic Tap' action, but using the escape type.";

@@ -892,3 +892,12 @@
 "AdjustLayoutToScaledFontPage.Example.title" = "Título do conteúdo";
 "AdjustLayoutToScaledFontPage.Example.body" = "Corpo do texto com mais conteúdo";
 "AdjustLayoutToScaledFontPage.Example.description" = "Descrição aqui embaixo";
+
+// Dismiss
+
+"DismissPage.title" = "Escape";
+"DismissPage.text1" = "O VoiceOver tem um gesto dedicado para fechar Modais e outros conteúdos: O 'Ecape'.";
+"DismissPage.comment1" = "Você pode tentar executar esse gesto aqui mesmo! Faça um 'Z' com 2 dedos na tela.";
+
+"DismissPage.Handle.text1" = "No UIKit, você pode adicionar um tratamento customizado implementando o método de 'perform escape'.";
+"DismissPage.Handle.text2" = "Já em SwiftUI, é a mesma maneira de adicionar um 'Magic Tap', mas usando o tipo `escape`.";

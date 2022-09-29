@@ -793,6 +793,21 @@ internal enum L10n {
     }
   }
 
+  internal enum DismissPage {
+    /// Try it out! Enable the VoiceOver and perform a 'Z' with 2 fingers.
+    internal static let comment1 = L10n.tr("Localizable", "DismissPage.comment1")
+    /// The VoiceOver has a dedicated 'dismiss gesture', the Escape, which is used to close modals or pop the current view on the navigation stack.
+    internal static let text1 = L10n.tr("Localizable", "DismissPage.text1")
+    /// Escape
+    internal static let title = L10n.tr("Localizable", "DismissPage.title")
+    internal enum Handle {
+      /// On UIKit, you can add a custom handling to this gesture by implementing the 'perform escape' method.
+      internal static let text1 = L10n.tr("Localizable", "DismissPage.Handle.text1")
+      /// On SwiftUI, it's the same as adding a 'Magic Tap' action, but using the escape type.
+      internal static let text2 = L10n.tr("Localizable", "DismissPage.Handle.text2")
+    }
+  }
+
   internal enum DynamicFonts {
     /// Implementing Dynamic Fonts
     internal static let implementing = L10n.tr("Localizable", "DynamicFonts.implementing")
