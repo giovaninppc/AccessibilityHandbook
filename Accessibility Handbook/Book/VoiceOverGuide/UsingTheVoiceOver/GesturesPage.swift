@@ -67,6 +67,11 @@ private extension GesturesPage {
         animation: ThreeFingerSwipeDown().toAny(),
         description: L10n.Gestures.ThreeFingersSwipeDown.description
       )
+      item(
+        title: L10n.Gesture.dismiss,
+        animation: DismissGesture().toAny(),
+        description: L10n.Gestures.Dismiss.description
+      )
     }
   }
 
