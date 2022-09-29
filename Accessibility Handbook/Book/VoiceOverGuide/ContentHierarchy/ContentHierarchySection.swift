@@ -11,6 +11,7 @@ struct ContentHierarchySectionSection: Section {
   let title: String = L10n.contentHiererachy
   let pages: [Page] = [
     ModalViewPage(),
-    GroupingPage()
+    GroupingPage(),
+    DismissPage()
   ]
 }

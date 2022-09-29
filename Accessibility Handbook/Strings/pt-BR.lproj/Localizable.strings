@@ -777,6 +777,7 @@
 "Gestures.fourFingersDoubleTap.description" = "Ajuda de Gestos. Quando ativo, irá descrever cada gesto performado.";
 "Gestures.helper" = "Ajuda de gestos";
 "Gestures.reading" = "Leitura";
+"Gestures.dismiss.description" = "Gesto de fechar conteúdo. Fecha modais ou volta pra página anterior na navegação.";
 
 "Gesture.swipeRight" = "Swipe para direita";
 "Gesture.swipeLeft" = "Swipe para esquerda";
@@ -797,6 +798,7 @@
 "Gesture.threeFingersDoubleTap" = "Toque duplo com 3 dedos";
 "Gesture.threeFingersTripleTap" = "Toque triplo com 3 dedos";
 "Gesture.fourFingersDoubleTap" = "Toque duplo com 4 dedos";
+"Gesture.dismiss" = "'Z' with 2 fingers.";
 
 "Gesture.accessible" = "Animation representing the gesture for %@";
 

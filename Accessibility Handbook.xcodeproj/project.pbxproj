@@ -13,6 +13,8 @@
 		3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391228DBE05A00B089EA /* CircularProgressionView.swift */; };
 		3F41C11728E49CBB0092CF28 /* UIFontMetricsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41C11628E49CBB0092CF28 /* UIFontMetricsPage.swift */; };
 		3F41C11928E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41C11828E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift */; };
+		3F41C11B28E5F0D60092CF28 /* DismissPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41C11A28E5F0D60092CF28 /* DismissPage.swift */; };
+		3F41C11D28E5FC980092CF28 /* DismissGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41C11C28E5FC980092CF28 /* DismissGesture.swift */; };
 		3F41DB0E28E2553E00E0B056 /* HorizontalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */; };
 		3F4E7F8828DC97E100710F18 /* ContentHierarchySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8728DC97E100710F18 /* ContentHierarchySection.swift */; };
 		3F4E7F8B28DC980700710F18 /* ModalViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */; };
@@ -131,6 +133,8 @@
 		3F25391228DBE05A00B089EA /* CircularProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressionView.swift; sourceTree = "<group>"; };
 		3F41C11628E49CBB0092CF28 /* UIFontMetricsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontMetricsPage.swift; sourceTree = "<group>"; };
 		3F41C11828E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustLayoutToScaledFontPage.swift; sourceTree = "<group>"; };
+		3F41C11A28E5F0D60092CF28 /* DismissPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissPage.swift; sourceTree = "<group>"; };
+		3F41C11C28E5FC980092CF28 /* DismissGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissGesture.swift; sourceTree = "<group>"; };
 		3F41DB0D28E2553E00E0B056 /* HorizontalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSwipe.swift; sourceTree = "<group>"; };
 		3F4E7F8728DC97E100710F18 /* ContentHierarchySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHierarchySection.swift; sourceTree = "<group>"; };
 		3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewPage.swift; sourceTree = "<group>"; };
@@ -264,6 +268,7 @@
 				3FC3E5EE28E3334A00B7C0D7 /* MultiTap.swift */,
 				3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */,
 				3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */,
+				3F41C11C28E5FC980092CF28 /* DismissGesture.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			children = (
 				3F4E7F8A28DC980700710F18 /* ModalViewPage.swift */,
 				3F4E7F8C28DC981700710F18 /* GroupingPage.swift */,
+				3F41C11A28E5F0D60092CF28 /* DismissPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -801,6 +807,7 @@
 				3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */,
 				3FBF058F28DA9E3E00DA5BF5 /* ActivatePage.swift in Sources */,
 				3F4E7F9128DCA6AC00710F18 /* ChangeCursorPositionPage.swift in Sources */,
+				3F41C11B28E5F0D60092CF28 /* DismissPage.swift in Sources */,
 				3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */,
 				3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */,
 				3FBF059128DA9E4600DA5BF5 /* LongPressPage.swift in Sources */,
@@ -822,6 +829,7 @@
 				3FBF05E628DB639300DA5BF5 /* InvertColorsPage.swift in Sources */,
 				3F6C5ABC28E37FED00B12065 /* MultiFingerTap.swift in Sources */,
 				3FBF05E428DB602000DA5BF5 /* NotifyScreenChangesPage.swift in Sources */,
+				3F41C11D28E5FC980092CF28 /* DismissGesture.swift in Sources */,
 				3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,

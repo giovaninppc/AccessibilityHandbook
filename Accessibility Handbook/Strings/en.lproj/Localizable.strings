@@ -777,6 +777,7 @@
 "Gestures.fourFingersDoubleTap.description" = "Start/Stop gesture helper. When enabled, it will tell every gesture performed and what it does.";
 "Gestures.helper" = "Gesture Helper";
 "Gestures.reading" = "Reading";
+"Gestures.dismiss.description" = "Gesture to dismiss modals and pop to preview view on navigation stack.";
 
 "Gesture.swipeRight" = "Swipe Right";
 "Gesture.swipeLeft" = "Swipe Left";
@@ -797,6 +798,7 @@
 "Gesture.threeFingersDoubleTap" = "Three fingers double tap";
 "Gesture.threeFingersTripleTap" = "Three fingers triple tap";
 "Gesture.fourFingersDoubleTap" = "Four fingers double tap.";
+"Gesture.dismiss" = "'Z' with 2 fingers.";
 
 "Gesture.accessible" = "Animation representing the gesture for %@";
 

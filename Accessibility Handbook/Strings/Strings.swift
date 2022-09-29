@@ -893,6 +893,8 @@ internal enum L10n {
     internal static func accessible(_ p1: Any) -> String {
       return L10n.tr("Localizable", "Gesture.accessible", String(describing: p1))
     }
+    /// 'Z' with 2 fingers.
+    internal static let dismiss = L10n.tr("Localizable", "Gesture.dismiss")
     /// Double Tap
     internal static let doubleTap = L10n.tr("Localizable", "Gesture.doubleTap")
     /// Four fingers double tap.
@@ -942,6 +944,10 @@ internal enum L10n {
     internal static let text1 = L10n.tr("Localizable", "Gestures.text1")
     /// Gestures Guide
     internal static let title = L10n.tr("Localizable", "Gestures.title")
+    internal enum Dismiss {
+      /// Gesture to dismiss modals and pop to preview view on navigation stack.
+      internal static let description = L10n.tr("Localizable", "Gestures.dismiss.description")
+    }
     internal enum DoubleTap {
       /// Activate element, the same as tapping it when the VoicOver is disabled.
       internal static let description = L10n.tr("Localizable", "Gestures.doubleTap.description")
