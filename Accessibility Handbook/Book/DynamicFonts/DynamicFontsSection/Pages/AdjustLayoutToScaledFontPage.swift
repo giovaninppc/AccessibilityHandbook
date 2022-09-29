@@ -32,6 +32,8 @@ private extension AdjustLayoutToScaledFontPage {
       Text(L10n.AdjustLayoutToScaledFontPage.Intro.text2)
       Comment(L10n.AdjustLayoutToScaledFontPage.Intro.comment1)
       Comment(L10n.AdjustLayoutToScaledFontPage.Intro.comment2)
+      Text(L10n.AdjustLayoutToScaledFontPage.Intro.text3)
+      ExternalLink(link: UIApplication.openSettingsURLString, title: L10n.openSettings)
     }
   }
 
