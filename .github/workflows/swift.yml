@@ -16,4 +16,4 @@ jobs:
     - name: Show eligible build destinations
       run: cd Handbook; xcodebuild -showdestinations -scheme Handbook-Package
     - name: Build and test ( iOS 15.2)
-      run: cd Handbook; xcodebuild test -scheme Earendil -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 11'
+      run: cd Handbook; xcodebuild test -scheme Handbook-Package -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 11'
