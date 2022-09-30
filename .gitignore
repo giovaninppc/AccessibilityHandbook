@@ -1,4 +1,4 @@
-# Xcode
+.gitignore# Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
@@ -93,3 +93,13 @@ iOSInjectionProject/
 .ds_*
 .Ds_*
 .DS_*
+
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
