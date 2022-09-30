@@ -26,7 +26,6 @@ let package = Package(
             resources: [.process("Resources")]),
         .testTarget(
             name: "HandbookTests",
-            dependencies: ["Handbook"],
-            resources: [.process("Resources")]),
+            dependencies: ["Handbook"]),
     ]
 )
