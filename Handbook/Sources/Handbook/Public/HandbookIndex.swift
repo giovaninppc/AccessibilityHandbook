@@ -1,0 +1,104 @@
+//
+//  File.swift
+//  
+//
+//  Created by Giovani Nascimento Pereira on 30/09/22.
+//
+
+import SwiftUI
+
+public struct AccessibilityIndex: View {
+  @State private var text: String = ""
+
+  public init() {}
+
+  public var body: some View {
+    ScrollView {
+      if text.isEmpty {
+        index
+      } else {
+        SearchView(text: $text)
+      }
+    }
+    .searchable(text: $text, placement: .navigationBarDrawer)
+    .navigationTitle(L10n.title)
+    .navigationViewStyle(.stack)
+  }
+}
+
+extension AccessibilityIndex {
+  var index: some View {
+    VStack(alignment: .leading, spacing: .large) {
+      Text(L10n.indexInfo)
+      NavigationLink {
+        IndexView(sections: VoiceOverGuideSections())
+      } label: {
+        AccessibilityIndexCell(title: L10n.voiceOverGuide, icon: Icon.book)
+      }
+
+      NavigationLink {
+        IndexView(sections: VoiceOverGuideSections())
+      } label: {
+        AccessibilityIndexCell(title: L10n.ColorsGuide.title, icon: Icon.paintpalete)
+      }
+
+      NavigationLink {
+        IndexView(sections: VoiceOverGuideSections())
+      } label: {
+        AccessibilityIndexCell(title: L10n.Home.dynamicFonts, icon: Icon.textformat)
+      }
+
+      NavigationLink {
+        IndexView(sections: VoiceOverGuideSections())
+      } label: {
+        AccessibilityIndexCell(title: L10n.Home.otherFeatures, icon: Icon.circleHexagonpath)
+      }
+    }
+    .padding()
+  }
+}
+
+struct AccessibilityIndexCell: View {
+  let title: String
+  let icon: Image?
+
+  init(title: String, icon: Image? = nil) {
+    self.title = title
+    self.icon = icon
+  }
+
+  var body: some View {
+    VStack(alignment: .leading, spacing: .zero) {
+      HStack {
+        displayTitle
+          .font(.title3)
+          .padding(.horizontal, .regular)
+          .padding(.vertical, .regular)
+        Spacer()
+        Icon.chevronForward
+          .padding()
+      }
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
+      }
+      Rectangle()
+        .frame(height: 1.0)
+        .foregroundColor(.secondaryBackground)
+    }
+    .accessibilityElement(children: .combine)
+    .accessibilityAddTraits(.isButton)
+  }
+
+  private var displayTitle: some View {
+    Group {
+      if let icon = icon {
+        (Text(icon) + Text(String.space) + Text(String.space) + Text(title))
+      } else {
+        Text(title)
+      }
+    }
+    .accessibilityElement(children: .combine)
+    .accessibilityLabel(title)
+  }
+}
