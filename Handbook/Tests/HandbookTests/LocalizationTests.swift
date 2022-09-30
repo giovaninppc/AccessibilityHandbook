@@ -81,8 +81,12 @@ private extension LocalizationTests {
       ofType: "strings",
       inDirectory: nil,
       forLocalization: language.rawValue
-    ) else { throw NSError(domain: "", code: 404, userInfo: nil) }
+    ) else { throw LocalizationTestsError.unableToLoadStringFile }
 
     return try String(contentsOfFile: filepath)
   }
+}
+
+private enum LocalizationTestsError: Error {
+  case unableToLoadStringFile
 }
