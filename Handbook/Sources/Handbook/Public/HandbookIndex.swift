@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-public struct AccessibilityIndex: View {
+struct AccessibilityIndex: View {
   @State private var text: String = ""
 
-  public init() {}
+  init() {}
 
-  public var body: some View {
+  var body: some View {
     ScrollView {
       if text.isEmpty {
         index
@@ -33,23 +33,37 @@ extension AccessibilityIndex {
       NavigationLink {
         IndexView(sections: VoiceOverGuideSections())
       } label: {
-        AccessibilityIndexCell(title: L10n.voiceOverGuide, icon: Icon.book)
+        AccessibilityIndexCell(title: L10n.Gestures.title, icon: Icon.raisedHands)
       }
 
       NavigationLink {
         IndexView(sections: VoiceOverGuideSections())
+          .toolbar {
+            NavigationLink {
+              GesturesPage()
+            } label: {
+              Icon.raisedHands
+            }
+            .accessibilityLabel(L10n.Gestures.title)
+          }
+      } label: {
+        AccessibilityIndexCell(title: L10n.voiceOverGuide, icon: Icon.book)
+      }
+
+      NavigationLink {
+        IndexView(sections: ColorsSection())
       } label: {
         AccessibilityIndexCell(title: L10n.ColorsGuide.title, icon: Icon.paintpalete)
       }
 
       NavigationLink {
-        IndexView(sections: VoiceOverGuideSections())
+        IndexView(sections: DynamicFontSections())
       } label: {
         AccessibilityIndexCell(title: L10n.Home.dynamicFonts, icon: Icon.textformat)
       }
 
       NavigationLink {
-        IndexView(sections: VoiceOverGuideSections())
+        IndexView(sections: OthersSections())
       } label: {
         AccessibilityIndexCell(title: L10n.Home.otherFeatures, icon: Icon.circleHexagonpath)
       }

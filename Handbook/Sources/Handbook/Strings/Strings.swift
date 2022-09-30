@@ -88,7 +88,7 @@ internal enum L10n {
   internal static let hint = L10n.tr("Localizable", "Hint")
   /// Ice cream
   internal static let iceCream = L10n.tr("Localizable", "iceCream")
-  /// Navigate on the content or search for specific topics.
+  /// Navigate through the content or search for specific topics.
   internal static let indexInfo = L10n.tr("Localizable", "indexInfo")
   /// Interaction
   internal static let interactrion = L10n.tr("Localizable", "interactrion")
