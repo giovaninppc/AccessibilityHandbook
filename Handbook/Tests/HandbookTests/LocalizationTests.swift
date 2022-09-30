@@ -5,6 +5,17 @@ import XCTest
 private enum AvailableLanguages: String, CaseIterable {
   case en
   case pt = "pt-BR"
+
+  static func get(numericValue: Int) -> Self {
+    switch numericValue {
+    case 0:
+      return .en
+    case 1:
+      return .pt
+    default:
+      return .en
+    }
+  }
 }
 
 final class LocalizationTests: XCTestCase {
@@ -24,9 +35,14 @@ final class LocalizationTests: XCTestCase {
     }
 
     let baseKeys = try XCTUnwrap(listOfKeysForLanguage.first)
-    XCTAssertTrue(listOfKeysForLanguage.allSatisfy({ keys in
-      keys.allSatisfy { baseKeys.contains($0) }
-    }))
+    listOfKeysForLanguage.enumerated().forEach { index, listOfKeys in
+      listOfKeys.forEach { key in
+        XCTAssertTrue(
+          baseKeys.contains(key),
+          "Unmatched localized string key \(key) at \(AvailableLanguages.get(numericValue: index)) file"
+        )
+      }
+    }
   }
 }
 
