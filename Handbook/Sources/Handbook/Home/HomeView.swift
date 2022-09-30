@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct HomeView: View {
+public struct HomeView: View {
   @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
-
   @State var text: String = ""
 
-  var body: some View {
+  public init() {}
+
+  public var body: some View {
     ScrollView(showsIndicators: false) {
       if text.isEmpty {
         homeContent

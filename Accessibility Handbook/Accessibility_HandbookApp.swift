@@ -5,6 +5,7 @@
 //  Created by Giovani Nascimento Pereira on 20/09/22.
 //
 
+import Handbook
 import SwiftUI
 
 @main
