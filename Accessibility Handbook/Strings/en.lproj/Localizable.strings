@@ -909,6 +909,9 @@
 "IdentifyCurrentPreferredFontSizePage.Variations.text3" = "The thing is: The accessibility medium is larger than then regular extra extra extra large size.";
 "IdentifyCurrentPreferredFontSizePage.Variations.comment1" = "The content below is a recriation of the system's settings, and it's just an example. Slide the indicator to see how the value changes.";
 
+"IdentifyCurrentPreferredFontSizePage.Example.toggle" = "Larger Accessibility Sizes";
+"IdentifyCurrentPreferredFontSizePage.List.title" = "Example list of sizes";
+
 // Dismiss
 
 "DismissPage.title" = "Escape";

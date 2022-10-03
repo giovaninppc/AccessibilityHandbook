@@ -1167,6 +1167,10 @@ internal enum L10n {
   internal enum IdentifyCurrentPreferredFontSizePage {
     /// Identify preferred content size
     internal static let title = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.title")
+    internal enum Example {
+      /// Larger Accessibility Sizes
+      internal static let toggle = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Example.toggle")
+    }
     internal enum Intro {
       /// When selecting the preferred font size on the device's settings, multiple sizes and options are available.
       internal static let text1 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Intro.text1")
@@ -1174,6 +1178,10 @@ internal enum L10n {
       internal static let text2 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Intro.text2")
       /// You may want to identify the currently selected font size to take additional actions on your device, you can do that by checking the preferred content size category on UIApplication.
       internal static let text3 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Intro.text3")
+    }
+    internal enum List {
+      /// Example list of sizes
+      internal static let title = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.List.title")
     }
     internal enum Variations {
       /// The content below is a recriation of the system's settings, and it's just an example. Slide the indicator to see how the value changes.

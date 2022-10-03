@@ -909,6 +909,9 @@
 "IdentifyCurrentPreferredFontSizePage.Variations.text3" = "O problema é: O 'accessibility medium' é maior que o valor (sem acessibilidade), extra extra extra grande, o que pode ser muito confuso.";
 "IdentifyCurrentPreferredFontSizePage.Variations.comment1" = "O conteúdo abaixo é a recriação do seletor de tamanho de conteúdo na configuração do sispositivo. Mova o seletor e veja como as fontes mudam.";
 
+"IdentifyCurrentPreferredFontSizePage.Example.toggle" = "Tamanhos de Acessibilidade maiores";
+"IdentifyCurrentPreferredFontSizePage.List.title" = "Lista de exemplos";
+
 // Dismiss
 
 "DismissPage.title" = "Escape";

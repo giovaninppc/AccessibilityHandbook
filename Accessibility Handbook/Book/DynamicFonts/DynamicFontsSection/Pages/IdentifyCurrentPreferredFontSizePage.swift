@@ -12,6 +12,16 @@ struct IdentifyCurrentPreferredFontSizePage: View, Page {
 
   @State private var size: ContentSizes = .xs
   @State private var sliderValue: Double = 0.0
+  @State private var largerAccessibilitySizes: Bool = false
+
+  var scale: ClosedRange<Double> {
+    switch largerAccessibilitySizes {
+    case true:
+      return 0...12
+    case false:
+      return 0...6
+    }
+  }
 
   var body: some View {
     PageContent(next: nil) {
@@ -19,6 +29,8 @@ struct IdentifyCurrentPreferredFontSizePage: View, Page {
         intro
         variations
         example
+        list
+        doc
       }
       .toAny()
     }
@@ -34,6 +46,19 @@ private extension IdentifyCurrentPreferredFontSizePage {
       Code.uikit(
         """
         let preferredContentSize = UIApplication.shared.preferredContentSizeCategory
+        switch preferredContentSize {
+        case .extraSmall:
+          // Handle
+        case .small:
+          // Handle
+
+        /* ... Other cases ... */
+
+        case .accessibilityExtraExtraLarge:
+          // Handle
+        case .accessibilityExtraExtraExtraLarge:
+          // Handle
+        }
         """
       )
     }
@@ -45,17 +70,27 @@ private extension IdentifyCurrentPreferredFontSizePage {
       Text(L10n.IdentifyCurrentPreferredFontSizePage.Variations.text1)
       Text(L10n.IdentifyCurrentPreferredFontSizePage.Variations.text2)
       Text(L10n.IdentifyCurrentPreferredFontSizePage.Variations.text3)
+    }
+  }
+
+  var list: some View {
+    Group {
+      Title(L10n.IdentifyCurrentPreferredFontSizePage.List.title)
       ForEach(ContentSizes.allCases, id: \.rawValue) { size in
         Text(size.name)
           .font(.system(size: size.fontSize))
           Divider()
       }
-      Comment(L10n.IdentifyCurrentPreferredFontSizePage.Variations.comment1)
     }
   }
 
   var example: some View {
     Group {
+      Comment(L10n.IdentifyCurrentPreferredFontSizePage.Variations.comment1)
+      HStack {
+        Spacer()
+        Toggle(L10n.IdentifyCurrentPreferredFontSizePage.Example.toggle, isOn: $largerAccessibilitySizes)
+      }
       Centered {
         VStack(spacing: .regular) {
           Text("Aa")
@@ -66,7 +101,7 @@ private extension IdentifyCurrentPreferredFontSizePage {
         .toAny()
       }
 
-      Slider(value: $sliderValue, in: 0...12) {
+      Slider(value: $sliderValue, in: scale) {
         Text("Selected content size")
       } minimumValueLabel: {
         Text(L10n.minimum)
@@ -83,6 +118,15 @@ private extension IdentifyCurrentPreferredFontSizePage {
       let rounded = round(newValue)
       size = ContentSizes(rawValue: rounded) ?? .xs
     }
+    .onChange(of: largerAccessibilitySizes) { newValue in
+      guard !newValue, size.rawValue >= ContentSizes.a_m.rawValue else { return }
+      sliderValue = ContentSizes.xxxl.rawValue
+      size = .xxxl
+    }
+  }
+
+  var doc: some View {
+    DocButton(link: "https://developer.apple.com/documentation/uikit/uicontentsizecategory", title: "UIContentSizeCategory")
   }
 }
 
