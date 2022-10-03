@@ -940,3 +940,14 @@
 
 "ReduceMotion.cardFlip" = "The example above used a 3D animation to flip the card when tapped. This is a fine example of animations that should be disabled.";
 "ReduceMotion.cardFlip2" = "It's also a nice example to use Custom Actions for screen reader accessibility!";
+
+// PreferCrossFade
+
+"PreferCrossFadePage.title" = "Prefers cross-fade transitions";
+
+"PreferCrossFadePage.text1" = "This is an additional option inside the 'Reduce Motion' on the device's settings.";
+"PreferCrossFadePage.text2" = "When enabled, screen transitions should be reduced to a cross-fade animation instead of sliding-in.";
+"PreferCrossFadePage.text3" = "This will also change the default behavior for NavigationViews and NavigationStacks, without additional code necessary.";
+"PreferCrossFadePage.comment1" = "This app uses a default navigation stack. Go to settings and change this accessibility option, then come back and try opening new scenes or going back to previous ones. The default slide transition should be replaced with cross-fades.";
+"PreferCrossFadePage.text4" = "You can also check if this feature is enabled to make manual adjustments.";
+"PreferCrossFadePage.comment2" = "When enabled, this also means 'Reduce Motion' is also enabled.";

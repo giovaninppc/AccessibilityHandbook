@@ -940,3 +940,14 @@
 
 "ReduceMotion.cardFlip" = "O exemplo acima uma uma animação 3D para virar o cartão. Este ;e um bom exemplo de onde devemos desativar as animações caso esta feature esteja habilitada.";
 "ReduceMotion.cardFlip2" = "É um bom exemplo também de onde usar ações customizadas para melhorar acessibilidade de leitores de tela!";
+
+// PreferCrossFade
+
+"PreferCrossFadePage.title" = "Preferir transições cross-fade";
+
+"PreferCrossFadePage.text1" = "Esta é uma opção adicional dentro do 'Reduzir animações'.";
+"PreferCrossFadePage.text2" = "Quando ativado, transições de tela devem ser reduzidas e alteradas para um cross-fade, ao invés de animações onde a tela se move até o lugar esperado.";
+"PreferCrossFadePage.text3" = "Essa opção também altera o comportamento padrão da NavigationView ou de NavigationStacks sem precisar fazer mudanças adicionais no código.";
+"PreferCrossFadePage.comment1" = "Este app foi constru;ido uma navigation stack padrão, vá até as configurações do seu dispositivo, altere esta opção de acessibilidade e volte. Depois, navegue entre as telas do app e veja que a animação terá mudado para um cross-fade.";
+"PreferCrossFadePage.text4" = "Você também pode verificar se esta opçã está habilitada para fazer tratamentos manuais nas suas animações..";
+"PreferCrossFadePage.comment2" = "Quando ativado, tamb;em signifca que a opção 'Reduzir animações' também está ativada.";

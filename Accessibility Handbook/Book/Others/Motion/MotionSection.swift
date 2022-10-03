@@ -11,6 +11,6 @@ struct MotionSection: Section {
   let title: String = L10n.motion
   let pages: [Page] = [
     ReduceMotionPage(),
-    PrefferCrossFadePage()
+    PreferCrossFadePage()
   ]
 }

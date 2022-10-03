@@ -122,7 +122,7 @@
 		3FE7722A28EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */; };
 		3FE8656828EB24DA00E8DCC6 /* MotionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8656728EB24DA00E8DCC6 /* MotionSection.swift */; };
 		3FE8656B28EB250000E8DCC6 /* ReduceMotionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8656A28EB250000E8DCC6 /* ReduceMotionPage.swift */; };
-		3FE8656D28EB295800E8DCC6 /* PrefferCrossFadePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8656C28EB295800E8DCC6 /* PrefferCrossFadePage.swift */; };
+		3FE8656D28EB295800E8DCC6 /* PreferCrossFadePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8656C28EB295800E8DCC6 /* PreferCrossFadePage.swift */; };
 		3FE8658728EB3CB400E8DCC6 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8658628EB3CB400E8DCC6 /* Flip.swift */; };
 		3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */; };
 		3FF4A29328DF6D12005D291A /* CodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29228DF6D12005D291A /* CodePreview.swift */; };
@@ -248,7 +248,7 @@
 		3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyCurrentPreferredFontSizePage.swift; sourceTree = "<group>"; };
 		3FE8656728EB24DA00E8DCC6 /* MotionSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSection.swift; sourceTree = "<group>"; };
 		3FE8656A28EB250000E8DCC6 /* ReduceMotionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionPage.swift; sourceTree = "<group>"; };
-		3FE8656C28EB295800E8DCC6 /* PrefferCrossFadePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefferCrossFadePage.swift; sourceTree = "<group>"; };
+		3FE8656C28EB295800E8DCC6 /* PreferCrossFadePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferCrossFadePage.swift; sourceTree = "<group>"; };
 		3FE8658628EB3CB400E8DCC6 /* Flip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flip.swift; sourceTree = "<group>"; };
 		3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlight.swift; sourceTree = "<group>"; };
 		3FF4A29228DF6D12005D291A /* CodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePreview.swift; sourceTree = "<group>"; };
@@ -737,7 +737,7 @@
 			isa = PBXGroup;
 			children = (
 				3FE8656A28EB250000E8DCC6 /* ReduceMotionPage.swift */,
-				3FE8656C28EB295800E8DCC6 /* PrefferCrossFadePage.swift */,
+				3FE8656C28EB295800E8DCC6 /* PreferCrossFadePage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -884,7 +884,7 @@
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
 				3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */,
 				3FBF05C128DB4E8B00DA5BF5 /* SectionProvider.swift in Sources */,
-				3FE8656D28EB295800E8DCC6 /* PrefferCrossFadePage.swift in Sources */,
+				3FE8656D28EB295800E8DCC6 /* PreferCrossFadePage.swift in Sources */,
 				3FBF060528DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift in Sources */,
 				3FBF057428DA6FA000DA5BF5 /* NavigationPage.swift in Sources */,
 				3F41C11728E49CBB0092CF28 /* UIFontMetricsPage.swift in Sources */,

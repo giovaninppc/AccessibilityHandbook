@@ -15,7 +15,7 @@ struct ReduceMotionPage: View, Page {
   @Environment(\.accessibilityReduceMotion) var accessibilityReduceMotion
 
   var body: some View {
-    PageContent(next: PrefferCrossFadePage()) {
+    PageContent(next: PreferCrossFadePage()) {
       Group {
         intro
         code

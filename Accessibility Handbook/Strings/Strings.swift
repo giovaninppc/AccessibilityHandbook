@@ -1553,6 +1553,23 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "NotifyChanges.title")
   }
 
+  internal enum PreferCrossFadePage {
+    /// This app uses a default navigation stack. Go to settings and change this accessibility option, then come back and try opening new scenes or going back to previous ones. The default slide transition should be replaced with cross-fades.
+    internal static let comment1 = L10n.tr("Localizable", "PreferCrossFadePage.comment1")
+    /// When enabled, this also means 'Reduce Motion' is also enabled.
+    internal static let comment2 = L10n.tr("Localizable", "PreferCrossFadePage.comment2")
+    /// This is an additional option inside the 'Reduce Motion' on the device's settings.
+    internal static let text1 = L10n.tr("Localizable", "PreferCrossFadePage.text1")
+    /// When enabled, screen transitions should be reduced to a cross-fade animation instead of sliding-in.
+    internal static let text2 = L10n.tr("Localizable", "PreferCrossFadePage.text2")
+    /// This will also change the default behavior for NavigationViews and NavigationStacks, without additional code necessary.
+    internal static let text3 = L10n.tr("Localizable", "PreferCrossFadePage.text3")
+    /// You can also check if this feature is enabled to make manual adjustments.
+    internal static let text4 = L10n.tr("Localizable", "PreferCrossFadePage.text4")
+    /// Prefers cross-fade transitions
+    internal static let title = L10n.tr("Localizable", "PreferCrossFadePage.title")
+  }
+
   internal enum ReduceMotion {
     /// The example above used a 3D animation to flip the card when tapped. This is a fine example of animations that should be disabled.
     internal static let cardFlip = L10n.tr("Localizable", "ReduceMotion.cardFlip")
