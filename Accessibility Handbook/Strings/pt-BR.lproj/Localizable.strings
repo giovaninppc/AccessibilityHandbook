@@ -701,6 +701,7 @@
 "dismiss" = "Fechar";
 "goBack" = "Voltar";
 "tapToWin" = "Toque para vencer";
+"tapToChange" = "Toque para alterar";
 
 // Code
 
@@ -920,3 +921,33 @@
 
 "DismissPage.Handle.text1" = "No UIKit, você pode adicionar um tratamento customizado implementando o método de 'perform escape'.";
 "DismissPage.Handle.text2" = "Já em SwiftUI, é a mesma maneira de adicionar um 'Magic Tap', mas usando o tipo `escape`.";
+
+// Reduce Motion
+
+"motion" = "Movimento";
+"ReduceMotion.title" = "Reduzir animações";
+
+"ReduceMotion.Intro.text1" = "Às vezes, adicionamos movimento ou animações nas nossas views. É uma forma de apresentat algo de maneira mais legal, uma transição de tela, ou qualquer outra coisa.";
+"ReduceMotion.Intro.text2" = "O problema é: Algumas pessoas podem ficar desconfortáveis quando vendo animações no uso de aplicações.";
+"ReduceMotion.Intro.text3" = "É por isso que o iOS tem opções de acessibilidade para permitir os usuários pedirem aos apps que reduzam animações.";
+
+"ReduceMotion.Disclaimer.text1" = "A documentação da Apple sugere que, caso essa opção esteja ativada, elementos da interface devem evitar animações grandes, especialmente aquelas que usam efeitos 3D.";
+"ReduceMotion.Disclaimer.comment1" = "Mas de maneira geral, devemos remover todas as animações customizadas, efeitos de paralaxe ou transições de tela adicionais.";
+"ReduceMotion.Disclaimer.text2" = "Vá até as configurações do dispositivo e mude a opção de 'Reduzir animações', então, obverve os exemplos abaixo.";
+
+"ReduceMotion.simpleAppearance" = "Pequenas animações podem ser desativadas, mesmo que não seja necessário.";
+"ReduceMotion.simpleAppearance.text" = "Abrir mais opções";
+
+"ReduceMotion.cardFlip" = "O exemplo acima uma uma animação 3D para virar o cartão. Este ;e um bom exemplo de onde devemos desativar as animações caso esta feature esteja habilitada.";
+"ReduceMotion.cardFlip2" = "É um bom exemplo também de onde usar ações customizadas para melhorar acessibilidade de leitores de tela!";
+
+// PreferCrossFade
+
+"PreferCrossFadePage.title" = "Preferir transições cross-fade";
+
+"PreferCrossFadePage.text1" = "Esta é uma opção adicional dentro do 'Reduzir animações'.";
+"PreferCrossFadePage.text2" = "Quando ativado, transições de tela devem ser reduzidas e alteradas para um cross-fade, ao invés de animações onde a tela se move até o lugar esperado.";
+"PreferCrossFadePage.text3" = "Essa opção também altera o comportamento padrão da NavigationView ou de NavigationStacks sem precisar fazer mudanças adicionais no código.";
+"PreferCrossFadePage.comment1" = "Este app foi constru;ido uma navigation stack padrão, vá até as configurações do seu dispositivo, altere esta opção de acessibilidade e volte. Depois, navegue entre as telas do app e veja que a animação terá mudado para um cross-fade.";
+"PreferCrossFadePage.text4" = "Você também pode verificar se esta opçã está habilitada para fazer tratamentos manuais nas suas animações..";
+"PreferCrossFadePage.comment2" = "Quando ativado, tamb;em signifca que a opção 'Reduzir animações' também está ativada.";

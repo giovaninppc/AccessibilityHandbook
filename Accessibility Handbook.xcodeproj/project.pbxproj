@@ -120,6 +120,10 @@
 		3FD00F6928E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
 		3FE7722A28EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */; };
+		3FE8656828EB24DA00E8DCC6 /* MotionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8656728EB24DA00E8DCC6 /* MotionSection.swift */; };
+		3FE8656B28EB250000E8DCC6 /* ReduceMotionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8656A28EB250000E8DCC6 /* ReduceMotionPage.swift */; };
+		3FE8656D28EB295800E8DCC6 /* PreferCrossFadePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8656C28EB295800E8DCC6 /* PreferCrossFadePage.swift */; };
+		3FE8658728EB3CB400E8DCC6 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8658628EB3CB400E8DCC6 /* Flip.swift */; };
 		3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */; };
 		3FF4A29328DF6D12005D291A /* CodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29228DF6D12005D291A /* CodePreview.swift */; };
 		3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29A28DF93B1005D291A /* Icons.swift */; };
@@ -242,6 +246,10 @@
 		3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFontsAutomaticallyPage.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
 		3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyCurrentPreferredFontSizePage.swift; sourceTree = "<group>"; };
+		3FE8656728EB24DA00E8DCC6 /* MotionSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSection.swift; sourceTree = "<group>"; };
+		3FE8656A28EB250000E8DCC6 /* ReduceMotionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionPage.swift; sourceTree = "<group>"; };
+		3FE8656C28EB295800E8DCC6 /* PreferCrossFadePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferCrossFadePage.swift; sourceTree = "<group>"; };
+		3FE8658628EB3CB400E8DCC6 /* Flip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flip.swift; sourceTree = "<group>"; };
 		3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlight.swift; sourceTree = "<group>"; };
 		3FF4A29228DF6D12005D291A /* CodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePreview.swift; sourceTree = "<group>"; };
 		3FF4A29A28DF93B1005D291A /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
@@ -421,6 +429,7 @@
 				3FC73EC928DD278900D89F64 /* DeviceRotation.swift */,
 				3FBF056D28DA6ED800DA5BF5 /* DocButton.swift */,
 				3FBF05ED28DB6BE100DA5BF5 /* ExternalLink.swift */,
+				3FE8658628EB3CB400E8DCC6 /* Flip.swift */,
 				3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */,
 				3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */,
 				3FBF057F28DA7DDC00DA5BF5 /* Images.swift */,
@@ -644,6 +653,7 @@
 			children = (
 				3FBF05F428DB6F2E00DA5BF5 /* OthersSection.swift */,
 				3FBF05F628DB6F4900DA5BF5 /* Haptics */,
+				3FE8656628EB24CE00E8DCC6 /* Motion */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -710,6 +720,24 @@
 				3F41C11628E49CBB0092CF28 /* UIFontMetricsPage.swift */,
 				3F41C11828E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift */,
 				3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3FE8656628EB24CE00E8DCC6 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				3FE8656728EB24DA00E8DCC6 /* MotionSection.swift */,
+				3FE8656928EB24F600E8DCC6 /* Pages */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		3FE8656928EB24F600E8DCC6 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3FE8656A28EB250000E8DCC6 /* ReduceMotionPage.swift */,
+				3FE8656C28EB295800E8DCC6 /* PreferCrossFadePage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -804,6 +832,7 @@
 				3FBF05B228DAC4EB00DA5BF5 /* GameContent.swift in Sources */,
 				3FBF057628DA701B00DA5BF5 /* PageContent.swift in Sources */,
 				3FBF05BB28DB48E500DA5BF5 /* Title.swift in Sources */,
+				3FE8656B28EB250000E8DCC6 /* ReduceMotionPage.swift in Sources */,
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
 				3FD00F6228E3B61A0007D604 /* ImplementDynamicFontsSection.swift in Sources */,
 				3FC3E5EF28E3334A00B7C0D7 /* MultiTap.swift in Sources */,
@@ -855,6 +884,7 @@
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
 				3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */,
 				3FBF05C128DB4E8B00DA5BF5 /* SectionProvider.swift in Sources */,
+				3FE8656D28EB295800E8DCC6 /* PreferCrossFadePage.swift in Sources */,
 				3FBF060528DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift in Sources */,
 				3FBF057428DA6FA000DA5BF5 /* NavigationPage.swift in Sources */,
 				3F41C11728E49CBB0092CF28 /* UIFontMetricsPage.swift in Sources */,
@@ -863,6 +893,7 @@
 				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF060128DB704600DA5BF5 /* InternalLink.swift in Sources */,
 				3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */,
+				3FE8656828EB24DA00E8DCC6 /* MotionSection.swift in Sources */,
 				3FE7722A28EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift in Sources */,
 				3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */,
 				3F41C11928E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift in Sources */,
@@ -882,6 +913,7 @@
 				3FBF061028DBAB9100DA5BF5 /* FontsSection.swift in Sources */,
 				3FBF058028DA7DDC00DA5BF5 /* Images.swift in Sources */,
 				3FBF05A728DABA6100DA5BF5 /* GameStorage.swift in Sources */,
+				3FE8658728EB3CB400E8DCC6 /* Flip.swift in Sources */,
 				3FBF05DC28DB5CB800DA5BF5 /* Haptic.swift in Sources */,
 				3FBF05FE28DB6FF900DA5BF5 /* AccessibilityTraitsSection.swift in Sources */,
 				3FBF057C28DA763400DA5BF5 /* Code.swift in Sources */,

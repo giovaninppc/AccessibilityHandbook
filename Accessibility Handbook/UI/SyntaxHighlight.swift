@@ -21,8 +21,8 @@ final class SyntaxHighlight {
     keywords()
     names()
     types()
-    numbers()
     subProperties()
+    numbers()
     strings()
     comments()
 
@@ -59,6 +59,7 @@ private extension SyntaxHighlight {
 
   func numbers() {
     highlight(match: "[ ][0-9]+", color: .systemOrange)
+    highlight(match: "[\".\"][0-9]+", color: .systemOrange)
   }
 
   func names() {
@@ -76,7 +77,7 @@ private extension SyntaxHighlight {
   }
 
   func subProperties() {
-    highlight(match: "\\.[A-Za-z]+", color: .systemBlue)
+    highlight(match: "\\.[A-Za-z]+[0-9]*[A-Za-z]+", color: .systemBlue)
     highlight(match: "\\.", color: .label)
   }
 
