@@ -92,6 +92,10 @@ internal enum L10n {
   internal static let interactrion = L10n.tr("Localizable", "interactrion")
   /// Lobster
   internal static let lobster = L10n.tr("Localizable", "lobster")
+  /// Maximum
+  internal static let maximum = L10n.tr("Localizable", "maximum")
+  /// Minimum
+  internal static let minimum = L10n.tr("Localizable", "minimum")
   /// Modal
   internal static let modal = L10n.tr("Localizable", "modal")
   /// Moon
@@ -1158,6 +1162,31 @@ internal enum L10n {
     internal static let handbookGameDescription = L10n.tr("Localizable", "Home.handbookGameDescription")
     /// Other Features
     internal static let otherFeatures = L10n.tr("Localizable", "Home.otherFeatures")
+  }
+
+  internal enum IdentifyCurrentPreferredFontSizePage {
+    /// Identify preferred content size
+    internal static let title = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.title")
+    internal enum Intro {
+      /// When selecting the preferred font size on the device's settings, multiple sizes and options are available.
+      internal static let text1 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Intro.text1")
+      /// Even without enabling the accessibility option, the user can still select different font sizes.
+      internal static let text2 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Intro.text2")
+      /// You may want to identify the currently selected font size to take additional actions on your device, you can do that by checking the preferred content size category on UIApplication.
+      internal static let text3 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Intro.text3")
+    }
+    internal enum Variations {
+      /// The content below is a recriation of the system's settings, and it's just an example. Slide the indicator to see how the value changes.
+      internal static let comment1 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Variations.comment1")
+      /// When the accessibility option is disabled, the size varies from extra small to extra extra extra large.
+      internal static let text1 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Variations.text1")
+      /// And when the accessibility option is enabled, it goes from accessibility medium to accessibility extra extra extra large.
+      internal static let text2 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Variations.text2")
+      /// The thing is: The accessibility medium is larger than then regular extra extra extra large size.
+      internal static let text3 = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Variations.text3")
+      /// Variations
+      internal static let title = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Variations.title")
+    }
   }
 
   internal enum ImplementingDynamicFonts {

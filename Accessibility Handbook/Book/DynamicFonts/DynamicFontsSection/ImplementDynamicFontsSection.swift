@@ -12,6 +12,7 @@ struct ImplementingDynamicFontsSection: Section {
   let pages: [Page] = [
     ScallingFontsAutomaticallyPage(),
     UIFontMetricsPage(),
-    AdjustLayoutToScaledFontPage()
+    AdjustLayoutToScaledFontPage(),
+    IdentifyCurrentPreferredFontSizePage()
   ]
 }
