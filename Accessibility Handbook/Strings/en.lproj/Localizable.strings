@@ -749,6 +749,8 @@
 "paperPlane" = "Paper plane";
 "book" = "Book";
 "bell" = "Bell";
+"minimum" = "Minimum";
+"maximum" = "Maximum";
 
 // Gestures
 
@@ -892,6 +894,20 @@
 "AdjustLayoutToScaledFontPage.Example.title" = "Content title";
 "AdjustLayoutToScaledFontPage.Example.body" = "Content body some content";
 "AdjustLayoutToScaledFontPage.Example.description" = "Content description";
+
+// IdentifyCurrentPreferredFontSize
+
+"IdentifyCurrentPreferredFontSizePage.title" = "Identify preferred content size";
+
+"IdentifyCurrentPreferredFontSizePage.Intro.text1" = "When selecting the preferred font size on the device's settings, multiple sizes and options are available.";
+"IdentifyCurrentPreferredFontSizePage.Intro.text2" = "Even without enabling the accessibility option, the user can still select different font sizes.";
+"IdentifyCurrentPreferredFontSizePage.Intro.text3" = "You may want to identify the currently selected font size to take additional actions on your device, you can do that by checking the preferred content size category on UIApplication.";
+
+"IdentifyCurrentPreferredFontSizePage.Variations.title" = "Variations";
+"IdentifyCurrentPreferredFontSizePage.Variations.text1" = "When the accessibility option is disabled, the size varies from extra small to extra extra extra large.";
+"IdentifyCurrentPreferredFontSizePage.Variations.text2" = "And when the accessibility option is enabled, it goes from accessibility medium to accessibility extra extra extra large.";
+"IdentifyCurrentPreferredFontSizePage.Variations.text3" = "The thing is: The accessibility medium is larger than then regular extra extra extra large size.";
+"IdentifyCurrentPreferredFontSizePage.Variations.comment1" = "The content below is a recriation of the system's settings, and it's just an example. Slide the indicator to see how the value changes.";
 
 // Dismiss
 

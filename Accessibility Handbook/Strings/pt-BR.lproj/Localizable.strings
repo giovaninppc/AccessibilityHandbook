@@ -749,6 +749,8 @@
 "paperPlane" = "Avião de papel";
 "book" = "Livro";
 "bell" = "Sino";
+"minimum" = "Mínimo";
+"maximum" = "Máximo";
 
 // Gestures
 
@@ -892,6 +894,20 @@
 "AdjustLayoutToScaledFontPage.Example.title" = "Título do conteúdo";
 "AdjustLayoutToScaledFontPage.Example.body" = "Corpo do texto com mais conteúdo";
 "AdjustLayoutToScaledFontPage.Example.description" = "Descrição aqui embaixo";
+
+// IdentifyCurrentPreferredFontSize
+
+"IdentifyCurrentPreferredFontSizePage.title" = "Identificar tamanho de fonte selecionado";
+
+"IdentifyCurrentPreferredFontSizePage.Intro.text1" = "Quando selecionando um tamanho de fonte nas configurações do dispositivo, múltiplas opções estão disponíveis.";
+"IdentifyCurrentPreferredFontSizePage.Intro.text2" = "Mesmo sem habilitar as opções de acessibilidade, é possível selecionar um tamanho de fonte preferido que é diferente do padrão.";
+"IdentifyCurrentPreferredFontSizePage.Intro.text3" = "Você pode querer identificar qual o tamanho de fonte preferido selecionado no momento, e você pode fazer isso observandp 'preferredContentSizeCategory' do 'UIApplication'.";
+
+"IdentifyCurrentPreferredFontSizePage.Variations.title" = "Variações";
+"IdentifyCurrentPreferredFontSizePage.Variations.text1" = "Quando as opções de acessibilidade estão desabilitadas, os tamanhos variam de extra pequeno a extra extra extra grande.";
+"IdentifyCurrentPreferredFontSizePage.Variations.text2" = "E quando as opções de acessibilidade estão habilitadas, eles variam de 'accessibility medium' até 'accessibility large'.";
+"IdentifyCurrentPreferredFontSizePage.Variations.text3" = "O problema é: O 'accessibility medium' é maior que o valor (sem acessibilidade), extra extra extra grande, o que pode ser muito confuso.";
+"IdentifyCurrentPreferredFontSizePage.Variations.comment1" = "O conteúdo abaixo é a recriação do seletor de tamanho de conteúdo na configuração do sispositivo. Mova o seletor e veja como as fontes mudam.";
 
 // Dismiss
 

@@ -119,6 +119,7 @@
 		3FD00F6228E3B61A0007D604 /* ImplementDynamicFontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */; };
 		3FD00F6928E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
+		3FE7722A28EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */; };
 		3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */; };
 		3FF4A29328DF6D12005D291A /* CodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29228DF6D12005D291A /* CodePreview.swift */; };
 		3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29A28DF93B1005D291A /* Icons.swift */; };
@@ -240,6 +241,7 @@
 		3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementDynamicFontsSection.swift; sourceTree = "<group>"; };
 		3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFontsAutomaticallyPage.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
+		3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyCurrentPreferredFontSizePage.swift; sourceTree = "<group>"; };
 		3FF4A29028DF540D005D291A /* SyntaxHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlight.swift; sourceTree = "<group>"; };
 		3FF4A29228DF6D12005D291A /* CodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePreview.swift; sourceTree = "<group>"; };
 		3FF4A29A28DF93B1005D291A /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
@@ -707,6 +709,7 @@
 				3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */,
 				3F41C11628E49CBB0092CF28 /* UIFontMetricsPage.swift */,
 				3F41C11828E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift */,
+				3FE7722928EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -860,6 +863,7 @@
 				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF060128DB704600DA5BF5 /* InternalLink.swift in Sources */,
 				3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */,
+				3FE7722A28EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift in Sources */,
 				3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */,
 				3F41C11928E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift in Sources */,
 				3FBF058628DA994400DA5BF5 /* AccessibilityTraitPage.swift in Sources */,
