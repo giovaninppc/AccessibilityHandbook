@@ -20,23 +20,23 @@
 
 // Using
 
-"UsingTheVoiceOver" = "Using the VoiceOver";
+"UsingTheVoiceOver" = "Using VoiceOver";
 
 // Enable VoiceOver
 
 "EnableVoiceOver.title" = "Enable VoiceOver";
-"EnableVoiceOver.text1" = "The VoiceOver is the name of the iOS's native screen reader solution. Used to provide visual impairment accessibility.";
-"EnableVoiceOver.text2" = "To enable the VoiceOver, go to the device's settings, on the 'Accessibility section'.";
+"EnableVoiceOver.text1" = "VoiceOver is the name of the iOS's native screen reader solution. Used to provide visual impairment accessibility.";
+"EnableVoiceOver.text2" = "To enable VoiceOver, go to the device's settings, on the 'Accessibility section'.";
 "EnableVoiceOver.text3" = "Then, navigate to VoiceOver and turn the toggle on.";
-"EnableVoiceOver.text4" = "As an alternative to doing this every time you want to enable the VoiceOver, you may navigate to the Accessibility section again, and change the 'Accessibility shortcut' section.";
-"EnableVoiceOver.text5" = "There, select the features you want to have quick-access to (make sure to select the VoiceOver)";
+"EnableVoiceOver.text4" = "As an alternative to doing this every time you want to enable VoiceOver, you may navigate to the Accessibility section again, and change the 'Accessibility shortcut' section.";
+"EnableVoiceOver.text5" = "There, select the features you want to have quick-access to (make sure to select VoiceOver)";
 "EnableVoiceOver.text6" = "And now, you can access any of those features by triple-pressing the side button on your device (the one that locks the screen).";
-"EnableVoiceOver.comment" = "Beyond providing faster access to turning the VoiceOver on, it also helps to turn it off if you get stuck while using the it.";
+"EnableVoiceOver.comment" = "Beyond providing faster access to turning VoiceOver on, it also helps to turn it off if you get stuck while using the it.";
 
 // Element Reading Order
 
 "ElementReadingOrder.title" = "Element reading order";
-"ElementReadingOrder.text1" = "The VoiceOver will read the content on the screen trying to follow the 'Natural reading direction of the Language'";
+"ElementReadingOrder.text1" = "VoiceOver will read the content on the screen trying to follow the 'Natural reading direction of the Language'";
 "ElementReadingOrder.comment1" = "What does it mean?";
 "ElementReadingOrder.text2" = "For instance, English, the natural reading directions is left-to-right then up-to-down";
 "ElementReadingOrder.text3" = "So the Voice Over will follow this same order when reading the content.";
@@ -50,8 +50,8 @@
 "Rotor" = "Rotor";
 "Rotor.comment1" = "The Rotor is one of those things I think not everybody knows about.";
 "Rotor.text1" = "If you do the gesture of a circle with 2 fingers on the screen, you will enable the rotor.";
-"Rotor.comment2" = "Turn the VoiceOver on and try it for yourself!";
-"Rotor.text2" = "The rotor has some default actions to it like changing the speaking rate or the VoiceOver's language.";
+"Rotor.comment2" = "Turn VoiceOver on and try it for yourself!";
+"Rotor.text2" = "The rotor has some default actions to it like changing the speaking rate or VoiceOver's language.";
 "Rotor.text3" = "You can also create custom actions to the rotor. The idea is to use it to help users find specific content, like filtering for links, or any other similar elements.";
 "Rotor.comment3" = "I need to say that I have personally never used a custom rotor action, but it is a powerful tool to have on your accessibility arsenal!";
 "Rotor.image" = "Rotor example image";
@@ -71,33 +71,33 @@
 "RotorAndHeaders.Together.text3" = "This is extremely useful to find specific content among many other things.";
 
 "RotorAndHeaders.Example.text1" = "If you haven't noticed, this page was built using some headers!";
-"RotorAndHeaders.Example.text2" = "Turn on the VoiceOver and try to navigate only on them!";
+"RotorAndHeaders.Example.text2" = "Turn on VoiceOver and try to navigate only on them!";
 
 // Navigation
 
 "Navigation.title" = "Navigation";
 "Navigation.gesturesLink" = "Open the gestures guide.";
-"Navigation.text1" = "The VoiceOver navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.";
-"Navigation.text2" = "Once enabled, the VoiceOver will display a frame on top of the current view that is being read. This frame is called 'Cursor'.";
+"Navigation.text1" = "VoiceOver navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.";
+"Navigation.text2" = "Once enabled, VoiceOver will display a frame on top of the current view that is being read. This frame is called 'Cursor'.";
 "Navigation.text3" = "To navigate basically means changing the cursor's position, so it will read another element.";
 "Navigation.text4" = "The basic navigation can be done swiping horizontally on the screen to move to cursor to the next or previous element.";
-"Navigation.comment" = "This entire app was built to be used with the VoiceOver enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!";
+"Navigation.comment" = "This entire app was built to be used with VoiceOver enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!";
 "Navigation.image" = "On top is an example of the cursor. The title 'Handbook' is currently focused on the image.";
-"Navigation.imageSubtitle" = "Example image of the VoiceOver running on an iOS device.";
+"Navigation.imageSubtitle" = "Example image of VoiceOver running on an iOS device.";
 
 "Navigation.MoveAround.title" = "Move Around";
-"Navigation.MoveAround.text1" = "When the VoiceOver is enabled, swipe horizontally from left to right to move the cursor to focus on the next element.";
+"Navigation.MoveAround.text1" = "When VoiceOver is enabled, swipe horizontally from left to right to move the cursor to focus on the next element.";
 "Navigation.MoveAround.text2" = "And swipe from right to left to focus on the previous element.";
 
 "Navigation.Activate.title" = "Activate an element";
-"Navigation.Activate.text" = "Activate, is the VoiceOver version of tapping an item. Double tap with a single finger to activate an element.";
+"Navigation.Activate.text" = "Activate, is VoiceOver version of tapping an item. Double tap with a single finger to activate an element.";
 "Navigation.Activate.comment" = "You can learn more about ways to interact with elements on the 'Interaction' section";
 
 "Navigation.Footer.title" = "Learn more gestures";
-"Navigation.Footer.text1" = "If you tap with 4 fingers twice with the VoiceOver enabled, you will activate the 'Gesture Helper'.";
-"Navigation.Footer.text2" = "Now, every gesture you make will be announced by the VoiceOver, followed by it's function.";
+"Navigation.Footer.text1" = "If you tap with 4 fingers twice with VoiceOver enabled, you will activate the 'Gesture Helper'.";
+"Navigation.Footer.text2" = "Now, every gesture you make will be announced by VoiceOver, followed by it's function.";
 "Navigation.Footer.text3" = "And to disable the helper, tap twice with 4 fiongers again!";
-"Navigation.Footer.comment" = "These are just a few of the gestures available. We plan on adding a full gesture section in the future, but for now, I suggest you try it for yourself, turn the VoiceOver on and test the gestures using the 'Gesture Help'.";
+"Navigation.Footer.comment" = "These are just a few of the gestures available. We plan on adding a full gesture section in the future, but for now, I suggest you try it for yourself, turn VoiceOver on and test the gestures using the 'Gesture Help'.";
 
 // Accessibility Properties
 
@@ -106,9 +106,9 @@
 // Accessibility Element
 
 "AccElem.title" = "Accessibility Element";
-"AccElem.text1" = "When using the VoiceOver, the cursor will focus on 'accessible' elements. These elements are identified by having the property accessibility element as 'True'.";
-"AccElem.text2" = "Every element marked with this property 'True' can be focused by the VoiceOver, and the elments with the property 'False' will be ignored.";
-"AccElem.text3" = "Turn the VoiceOver on and navigate through the next elements. Some will not be focused by it.";
+"AccElem.text1" = "When using VoiceOver, the cursor will focus on 'accessible' elements. These elements are identified by having the property accessibility element as 'True'.";
+"AccElem.text2" = "Every element marked with this property 'True' can be focused by VoiceOver, and the elments with the property 'False' will be ignored.";
+"AccElem.text3" = "Turn VoiceOver on and navigate through the next elements. Some will not be focused by it.";
 "AccElem.comment" = "It's important to set elements that should not be focused, such as separators or other elements without accessibility labels, to not be focused.";
 "AccElem.comment2" = "This way we prevent empty content, that could confuse the user, to be focused";
 
@@ -117,9 +117,9 @@
 // Accessibility Label
 
 "AccLabel.title" = "Accessibility Label";
-"AccLabel.text1" = "Accessibility labels are the content that is going to be read by the VoiceOver when the item is focused.";
-"AccLabel.text2" = "Every element that is focused by the VoiceOver should have an accessibility label.";
-"AccLabel.text3" = "Turn on the VoiceOver and focus on the following element. The content read is it's accessibility label.";
+"AccLabel.text1" = "Accessibility labels are the content that is going to be read by VoiceOver when the item is focused.";
+"AccLabel.text2" = "Every element that is focused by VoiceOver should have an accessibility label.";
+"AccLabel.text3" = "Turn on VoiceOver and focus on the following element. The content read is it's accessibility label.";
 "AccLabel.image" = "Starry Night, by Vincent Van Gogh. This is an accessibility label!";
 "AccLabel.comment" = "Some components automatically set their accesibility label when created, such as Texts or Buttons, but you can manually set it if necessary.";
 "AccLabel.text4" = "And, sometimes, you can set a different accessibility label to a view, so its easier to understand its content, like describing measurement units or abreviations.";
@@ -162,12 +162,12 @@
 
 "AccPriority.title" = "Accessibility Priority";
 
-"AccPriority.text1" = "Accessibility Sort Priority, in SwiftUI, is a way to change the order of the elements read by the VoiceOver";
+"AccPriority.text1" = "Accessibility Sort Priority, in SwiftUI, is a way to change the order of the elements read by VoiceOver";
 "AccPriority.text2" = "It is similar to defining the order of reading the elements using UIKit, but in UIKit we define this order using an array.";
 "AccPriority.text3" = "It can be useful in some situations, check the example below:";
 "AccPriority.comment1" = "Yes, you can change the reading order of your elements, but most of the time you dont want to do that.";
 "AccPriority.comment2" = "As a general guideline, we keep the reading order the same as the natural reading order of the current language";
-"AccPriority.comment3" = "For instance, English reads from left-to-right then from top-to-bottom, and thats the order the VoiceOver will try to read the content.";
+"AccPriority.comment3" = "For instance, English reads from left-to-right then from top-to-bottom, and thats the order VoiceOver will try to read the content.";
 "AccPriority.notification" = "See how this button even being above the elements, was the last one being focused?.";
 
 "AccPriority.Code.uikitComment" = "The content is read in the array's order";
@@ -450,7 +450,7 @@
 // Activate
 
 "Activate.title" = "Activate element";
-"Activate.text1" = "Activating an element (double tapping it with the VoiceOver enabled) is the same as a single tap when not using the voice over.";
+"Activate.text1" = "Activating an element (double tapping it with VoiceOver enabled) is the same as a single tap when not using the voice over.";
 "Activate.comment1" = "Tap a button, click on a cell...";
 "Activate.text2" = "Most of the time, this action will hapen automatically when your cell has a tap gesture our is a button.";
 "Activate.text3" = "But you can customize or add a specific action for the activation gesture";
@@ -460,9 +460,9 @@
 
 "LongPress.title" = "Long Press";
 "LongPress.comment1" = "Long press?";
-"LongPress.text1" = "Long press is not an accessibility specific gesture, but I like to add it here because it has a specific gesture to be handled when using the VoiceOver.";
+"LongPress.text1" = "Long press is not an accessibility specific gesture, but I like to add it here because it has a specific gesture to be handled when using VoiceOver.";
 "LongPress.text2" = "To simulate a Long Press you do a triple tap when focused on the item.";
-"LongPress.text3" = "Turn the VoiceOver on and focus on the next element. It has a long press gesture.";
+"LongPress.text3" = "Turn VoiceOver on and focus on the next element. It has a long press gesture.";
 "LongPress.comment2" = "If you are using a long press gesture, I suggest always adding an accessibility hint to tell your user about it!";
 "LongPress.text4" = "The long press is specially useful on 'Back buttons', which on newer iOS will display the navigation hierarchy, allowing you to easily navigate back to the page you want.";
 
@@ -475,7 +475,7 @@
 // Custom Actions
 
 "CustomActions.title" = "Custom Actions";
-"CustomActions.text1" = "'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, the VoiceOver will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.";
+"CustomActions.text1" = "'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, VoiceOver will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.";
 "CustomActions.comment1" = "But, when would I even use that?";
 "CustomActions.text2" = "It's a good tool to improve the accessibility on elements that can perform multiple actions.";
 "CustomActions.text3" = "Like a Card cell, which can select the card, delete, edit";
@@ -508,7 +508,7 @@
 "Announcement.title" = "Announcement";
 "Announcement.textToBeRead" = "Text to be read";
 
-"Announcement.text1" = "An announcement notification is a way to make the VoiceOver read something that is not currently focused.";
+"Announcement.text1" = "An announcement notification is a way to make VoiceOver read something that is not currently focused.";
 "Announcement.text2" = "Sometimes, some information changes on the screen and we show to the user using some animation to grab their attention.";
 "Announcement.text3" = "But, we cannot rely on visual cues to show information when talking about visual accessibility.";
 "Announcement.comment1" = "To me, that's where the announcements shine!";
@@ -537,12 +537,12 @@
 
 "ChangeCursor.title" = "Change cursor position";
 
-"ChangeCursor.Intro.text1" = "Most of the time, we want the user to be in control to where the VoiceOver cursor should move to.";
+"ChangeCursor.Intro.text1" = "Most of the time, we want the user to be in control to where VoiceOver cursor should move to.";
 "ChangeCursor.Intro.text2" = "Sometimes, when we change something on the screen, like presenting a modal on top of everything, we want to redirect the user directly to the new content.";
 "ChangeCursor.Intro.comment" = "But, to do that, it works different in UIKit and SwiftUI, so we are going to have a section for each in this page";
 
 "ChangeCursor.uikit.text1" = "To change the cursor position on UIKit, we are going to use the screen change notifications.";
-"ChangeCursor.uikit.text2" = "When triggering one of these notifications, we can pass as the argument the view we want the VoiceOver to focus on.";
+"ChangeCursor.uikit.text2" = "When triggering one of these notifications, we can pass as the argument the view we want VoiceOver to focus on.";
 "ChangeCursor.uikit.link" = "More on Screen Change notifications.";
 
 "ChangeCursor.swiftui.text1" = "On SwiftUI, we are not going to use the Accessibility Notifications, instead, we are using the @AccessibilityFocusState";
@@ -561,8 +561,8 @@
 "Modal.title" = "Modal views";
 
 "Modal.Intro.text1" = "Modal Views, in this case, we are talking about any view that is displayed on top of existing content. Banners, toasts, floating buttons...";
-"Modal.Intro.text2" = "The problem is: The VoiceOver will try to use the language's Natural reading directions to read the content, and even if your view is on top of every other view, the VoiceOver will still focus on the content behind it.";
-"Modal.Intro.text3" = "To prevent this issue, we can mark a view as being a 'Modal'. This will make the VoiceOver focus only on that view while it's being presented.";
+"Modal.Intro.text2" = "The problem is: VoiceOver will try to use the language's Natural reading directions to read the content, and even if your view is on top of every other view, VoiceOver will still focus on the content behind it.";
+"Modal.Intro.text3" = "To prevent this issue, we can mark a view as being a 'Modal'. This will make VoiceOver focus only on that view while it's being presented.";
 "Modal.Intro.comment1" = "But handling Modals has some differences in UIKit and SwiftUI, so I'm splitting into a section for each one here.";
 "Modal.Intro.link" = "Read more on reading order.";
 
@@ -572,7 +572,7 @@
 
 "Modal.swiftui.text1" = "On SwiftUI the 'Modal' can be set as it was an accessibility trait.";
 
-"Modal.example.text1" = "Turn the VoiceOver on and test the modals below.";
+"Modal.example.text1" = "Turn VoiceOver on and test the modals below.";
 "Modal.example.goodModal" = "Good modal";
 "Modal.example.thisGoodModal" = "This is a Good modal";
 "Modal.example.badModal" = "Bad Modal";
@@ -584,9 +584,9 @@
 
 "Grouping.title" = "Grouping Elements";
 "Grouping.text1" = "To me, Grouping elements correctly is one of the most important parts of building a good accessible view.";
-"Grouping.text2" = "Imagine a carousel with a bunch of cells, when using the VoiceOver, we want the cursor to focus on each individual cell, not on the cells content.";
+"Grouping.text2" = "Imagine a carousel with a bunch of cells, when using VoiceOver, we want the cursor to focus on each individual cell, not on the cells content.";
 "Grouping.comment" = "This may seem obvious, but can be easily forgotten on development.";
-"Grouping.text3" = "Turn the VoiceOver on and check both carousels below, one has the content correctly grouped, and the other don't.";
+"Grouping.text3" = "Turn VoiceOver on and check both carousels below, one has the content correctly grouped, and the other don't.";
 
 "Grouping.goodCarousel" = "Good Carousel";
 "Grouping.badCarousel" = "Bad Carousel";
@@ -623,7 +623,7 @@
 
 "WhereIsMyContent.title" = "Where is my content?";
 "WhereIsMyContent.text1" = "This puzzle is pretty easy.";
-"WhereIsMyContent.text2" = "You need to find the correct button to finish the puzzle by using the VoiceOver!";
+"WhereIsMyContent.text2" = "You need to find the correct button to finish the puzzle by using VoiceOver!";
 
 "FindThePassword.title" = "Find the Password";
 "FindThePassword.text1" = "You need to type in the correct password!";
@@ -757,7 +757,7 @@
 
 "Gestures.title" = "Gestures Guide";
 
-"Gestures.text1" = "Here's an initial guide to start using the VoiceOver gestures.";
+"Gestures.text1" = "Here's an initial guide to start using VoiceOver gestures.";
 
 "Gestures.swipeRight.description" = "Move cursor to the next element";
 "Gestures.swipeLeft.description" = "Move cursor to the previous element";
@@ -766,7 +766,7 @@
 "Gestures.singleTap.description" = "Read focused element";
 "Gestures.doubleTap.description" = "Activate element, the same as tapping it when the VoicOver is disabled.";
 "Gestures.tripleTap.description" = "Long press gesture";
-"Gestures.twoFingersSingleTap.description" = "Pause/Play reading. You can make the VoiceOver pause the current reading, and by making the same gesture again, it will keep going from where it stoped.";
+"Gestures.twoFingersSingleTap.description" = "Pause/Play reading. You can make VoiceOver pause the current reading, and by making the same gesture again, it will keep going from where it stoped.";
 "Gestures.twoFingersDoubleTap.description" = "Execute Magic Tap.";
 "Gestures.twoFingersSwipeUp.description" = "Read from top - will move the cursor to the top of the page.";
 "Gestures.twoFingersSwipeDown.description" = "Read all - will starting readin the content automatically.";
@@ -916,8 +916,8 @@
 // Dismiss
 
 "DismissPage.title" = "Escape";
-"DismissPage.text1" = "The VoiceOver has a dedicated 'dismiss gesture', the Escape, which is used to close modals or pop the current view on the navigation stack.";
-"DismissPage.comment1" = "Try it out! Enable the VoiceOver and perform a 'Z' with 2 fingers.";
+"DismissPage.text1" = "VoiceOver has a dedicated 'dismiss gesture', the Escape, which is used to close modals or pop the current view on the navigation stack.";
+"DismissPage.comment1" = "Try it out! Enable VoiceOver and perform a 'Z' with 2 fingers.";
 
 "DismissPage.Handle.text1" = "On UIKit, you can add a custom handling to this gesture by implementing the 'perform escape' method.";
 "DismissPage.Handle.text2" = "On SwiftUI, it's the same as adding a 'Magic Tap' action, but using the escape type.";
