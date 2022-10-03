@@ -10,6 +10,7 @@ import Foundation
 struct OthersSections: SectionProvider {
   let title: String = "Other Features"
   let sections: [Section] = [
-    HapticsSection()
+    HapticsSection(),
+    MotionSection()
   ]
 }

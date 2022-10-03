@@ -106,6 +106,8 @@ internal enum L10n {
   internal static let moreOnTheWeb = L10n.tr("Localizable", "moreOnTheWeb")
   /// More on Wikipedia
   internal static let moreOnWikipedia = L10n.tr("Localizable", "moreOnWikipedia")
+  /// Motion
+  internal static let motion = L10n.tr("Localizable", "motion")
   /// Next page %@
   internal static func nextPage(_ p1: Any) -> String {
     return L10n.tr("Localizable", "nextPage", String(describing: p1))
@@ -144,6 +146,8 @@ internal enum L10n {
   internal static let sunrise = L10n.tr("Localizable", "sunrise")
   /// SwiftUI
   internal static let swiftUI = L10n.tr("Localizable", "swiftUI")
+  /// Tap to change
+  internal static let tapToChange = L10n.tr("Localizable", "tapToChange")
   /// Tap to win
   internal static let tapToWin = L10n.tr("Localizable", "tapToWin")
   /// Accessibility Handbook
@@ -1547,6 +1551,37 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "NotifyChanges.text3")
     /// Notify Screen changes
     internal static let title = L10n.tr("Localizable", "NotifyChanges.title")
+  }
+
+  internal enum ReduceMotion {
+    /// The example above used a 3D animation to flip the card when tapped. This is a fine example of animations that should be disabled.
+    internal static let cardFlip = L10n.tr("Localizable", "ReduceMotion.cardFlip")
+    /// It's also a nice example to use Custom Actions for screen reader accessibility!
+    internal static let cardFlip2 = L10n.tr("Localizable", "ReduceMotion.cardFlip2")
+    /// Small animations can be disabled as well, but they are not required to. As a general guide, we'd like to disable them as well.
+    internal static let simpleAppearance = L10n.tr("Localizable", "ReduceMotion.simpleAppearance")
+    /// Reduce Motion
+    internal static let title = L10n.tr("Localizable", "ReduceMotion.title")
+    internal enum Disclaimer {
+      /// But as an overall guideline, we should usually disable all custom animations on views, parallax effects, and additional screen transitions.
+      internal static let comment1 = L10n.tr("Localizable", "ReduceMotion.Disclaimer.comment1")
+      /// Apple's documentation suggests that if this property is 'True' UI should avoid large animations, especially those that simulate the third dimension.
+      internal static let text1 = L10n.tr("Localizable", "ReduceMotion.Disclaimer.text1")
+      /// Go to settings and change the reduce motion option, then, check the examples below.
+      internal static let text2 = L10n.tr("Localizable", "ReduceMotion.Disclaimer.text2")
+    }
+    internal enum Intro {
+      /// Sometimes, we add moving items to our views. They may be some cool way to visualize something, an animation to present an item, a nice screen transition, or anything else at all.
+      internal static let text1 = L10n.tr("Localizable", "ReduceMotion.Intro.text1")
+      /// The problem is: Some people may feel discomfort when observing these animations, due to motion sickness or similar issues.
+      internal static let text2 = L10n.tr("Localizable", "ReduceMotion.Intro.text2")
+      /// That's why iOS systems have a a built in feature that allows users to request for reduced animations while using applications.
+      internal static let text3 = L10n.tr("Localizable", "ReduceMotion.Intro.text3")
+    }
+    internal enum SimpleAppearance {
+      /// Open more actions
+      internal static let text = L10n.tr("Localizable", "ReduceMotion.simpleAppearance.text")
+    }
   }
 
   internal enum ReduceTransparency {
