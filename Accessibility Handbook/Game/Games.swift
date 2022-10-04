@@ -20,6 +20,7 @@ enum Games {
     FillTheCup(),
     AColorfulMessage(),
     TheUpsideDown(),
-    SuperFriend()
+    SuperFriend(),
+    IncreasingHints()
   ]
 }
