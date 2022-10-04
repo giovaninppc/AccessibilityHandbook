@@ -680,6 +680,18 @@
 "SuperFriend.comment" = "Find the person with the biggest amount of friends!";
 "SuperFriend.field" = "Super Friend name";
 
+"IncreasingHints.title" = "Increasing hints";
+"IncreasingHints.text" = "Can you read the hints? Use them to find the correct password.";
+"IncreasingHints.hint1" = "It's just so tiny... I don't remember what I had to say.";
+"IncreasingHints.hint2" = "The first hint needs to be a little bigger.";
+"IncreasingHints.hint3" = "The second number is 3, but maybe you can find another hints?";
+"IncreasingHints.hint4" = "The first number is 2 less than the second one.";
+"IncreasingHints.hint5" = "Getting big, aren't we? The last number is 4.";
+"IncreasingHints.hint6" = "The third number is the same as the first one.";
+"IncreasingHints.hint7" = "The fourth number is twice the second one.";
+"IncreasingHints.hint8" = "The missing number is the same as the last one!";
+"IncreasingHints.unspecified" = "I'm super lost... I don't know what ot say.";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";

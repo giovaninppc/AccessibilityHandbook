@@ -109,6 +109,7 @@
 		3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060A28DB998300DA5BF5 /* RotorPage.swift */; };
 		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
 		3FBF061028DBAB9100DA5BF5 /* FontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* FontsSection.swift */; };
+		3FC1C36B28EC5DD500C1E009 /* IncreasingHints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1C36A28EC5DD500C1E009 /* IncreasingHints.swift */; };
 		3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */; };
 		3FC3E5E928E3267600B7C0D7 /* GesturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */; };
 		3FC3E5EB28E32B7300B7C0D7 /* SingleTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */; };
@@ -235,6 +236,7 @@
 		3FBF060A28DB998300DA5BF5 /* RotorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorPage.swift; sourceTree = "<group>"; };
 		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
 		3FBF060F28DBAB9100DA5BF5 /* FontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsSection.swift; sourceTree = "<group>"; };
+		3FC1C36A28EC5DD500C1E009 /* IncreasingHints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingHints.swift; sourceTree = "<group>"; };
 		3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSwipe.swift; sourceTree = "<group>"; };
 		3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesPage.swift; sourceTree = "<group>"; };
 		3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTap.swift; sourceTree = "<group>"; };
@@ -527,6 +529,7 @@
 				3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */,
 				3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */,
 				3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */,
+				3FC1C36A28EC5DD500C1E009 /* IncreasingHints.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -871,6 +874,7 @@
 				3F4E7F8F28DCA52700710F18 /* AnnouncementPage.swift in Sources */,
 				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,
 				3FBF059828DAB0DE00DA5BF5 /* IndexView.swift in Sources */,
+				3FC1C36B28EC5DD500C1E009 /* IncreasingHints.swift in Sources */,
 				3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */,
 				3F6C5ABF28E394D000B12065 /* AboutFontsPage.swift in Sources */,
 				3FBF060728DB890900DA5BF5 /* HapticList.swift in Sources */,

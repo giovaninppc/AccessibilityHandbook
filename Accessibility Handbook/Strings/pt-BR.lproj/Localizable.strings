@@ -680,6 +680,18 @@
 "SuperFriend.comment" = "Encontre a pessoa com o maior número de amigos!";
 "SuperFriend.field" = "Nome do super amigo";
 
+"IncreasingHints.title" = "Aumentando dicass";
+"IncreasingHints.text" = "Você consegue ler as dicas? Use-as para encontrar a senha correta.";
+"IncreasingHints.hint1" = "Está tudo tão pequeno... Eu não lembro o que eu ia dizer.";
+"IncreasingHints.hint2" = "A primeira dica precisa ser um pouco maior...";
+"IncreasingHints.hint3" = "O segundo número é 3. E talvez você consiga encontrar outras dicas?";
+"IncreasingHints.hint4" = "O primeiro número é 2 a menos que o segundo.";
+"IncreasingHints.hint5" = "Tá ficando grande! O último número é 4.";
+"IncreasingHints.hint6" = "O terceiro número é o mesmo do primeiro.";
+"IncreasingHints.hint7" = "O quarto número é o dobro do segundo.";
+"IncreasingHints.hint8" = "O número faltante é o mesmo que o último!";
+"IncreasingHints.unspecified" = "Estou perdido... não sei o que dizer.";
+
 // Actions
 
 "doubleTapToCopy" = "Toque duas vezes para copiar";

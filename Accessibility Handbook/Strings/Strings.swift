@@ -156,7 +156,7 @@ internal enum L10n {
   internal static let uikit = L10n.tr("Localizable", "uikit")
   /// Unfinished Puzzles
   internal static let unfinishedPuzzles = L10n.tr("Localizable", "unfinishedPuzzles")
-  /// Using the VoiceOver
+  /// Using VoiceOver
   internal static let usingTheVoiceOver = L10n.tr("Localizable", "UsingTheVoiceOver")
   /// VoiceOver
   internal static let voiceOver = L10n.tr("Localizable", "VoiceOver")
@@ -284,11 +284,11 @@ internal enum L10n {
     internal static let comment = L10n.tr("Localizable", "AccElem.comment")
     /// This way we prevent empty content, that could confuse the user, to be focused
     internal static let comment2 = L10n.tr("Localizable", "AccElem.comment2")
-    /// When using the VoiceOver, the cursor will focus on 'accessible' elements. These elements are identified by having the property accessibility element as 'True'.
+    /// When using VoiceOver, the cursor will focus on 'accessible' elements. These elements are identified by having the property accessibility element as 'True'.
     internal static let text1 = L10n.tr("Localizable", "AccElem.text1")
-    /// Every element marked with this property 'True' can be focused by the VoiceOver, and the elments with the property 'False' will be ignored.
+    /// Every element marked with this property 'True' can be focused by VoiceOver, and the elments with the property 'False' will be ignored.
     internal static let text2 = L10n.tr("Localizable", "AccElem.text2")
-    /// Turn the VoiceOver on and navigate through the next elements. Some will not be focused by it.
+    /// Turn VoiceOver on and navigate through the next elements. Some will not be focused by it.
     internal static let text3 = L10n.tr("Localizable", "AccElem.text3")
     /// Accessibility Element
     internal static let title = L10n.tr("Localizable", "AccElem.title")
@@ -337,11 +337,11 @@ internal enum L10n {
     internal static let example = L10n.tr("Localizable", "AccLabel.example")
     /// Starry Night, by Vincent Van Gogh. This is an accessibility label!
     internal static let image = L10n.tr("Localizable", "AccLabel.image")
-    /// Accessibility labels are the content that is going to be read by the VoiceOver when the item is focused.
+    /// Accessibility labels are the content that is going to be read by VoiceOver when the item is focused.
     internal static let text1 = L10n.tr("Localizable", "AccLabel.text1")
-    /// Every element that is focused by the VoiceOver should have an accessibility label.
+    /// Every element that is focused by VoiceOver should have an accessibility label.
     internal static let text2 = L10n.tr("Localizable", "AccLabel.text2")
-    /// Turn on the VoiceOver and focus on the following element. The content read is it's accessibility label.
+    /// Turn on VoiceOver and focus on the following element. The content read is it's accessibility label.
     internal static let text3 = L10n.tr("Localizable", "AccLabel.text3")
     /// And, sometimes, you can set a different accessibility label to a view, so its easier to understand its content, like describing measurement units or abreviations.
     internal static let text4 = L10n.tr("Localizable", "AccLabel.text4")
@@ -359,11 +359,11 @@ internal enum L10n {
     internal static let comment1 = L10n.tr("Localizable", "AccPriority.comment1")
     /// As a general guideline, we keep the reading order the same as the natural reading order of the current language
     internal static let comment2 = L10n.tr("Localizable", "AccPriority.comment2")
-    /// For instance, English reads from left-to-right then from top-to-bottom, and thats the order the VoiceOver will try to read the content.
+    /// For instance, English reads from left-to-right then from top-to-bottom, and thats the order VoiceOver will try to read the content.
     internal static let comment3 = L10n.tr("Localizable", "AccPriority.comment3")
     /// See how this button even being above the elements, was the last one being focused?.
     internal static let notification = L10n.tr("Localizable", "AccPriority.notification")
-    /// Accessibility Sort Priority, in SwiftUI, is a way to change the order of the elements read by the VoiceOver
+    /// Accessibility Sort Priority, in SwiftUI, is a way to change the order of the elements read by VoiceOver
     internal static let text1 = L10n.tr("Localizable", "AccPriority.text1")
     /// It is similar to defining the order of reading the elements using UIKit, but in UIKit we define this order using an array.
     internal static let text2 = L10n.tr("Localizable", "AccPriority.text2")
@@ -419,7 +419,7 @@ internal enum L10n {
     internal static let codeComment = L10n.tr("Localizable", "Activate.codeComment")
     /// Tap a button, click on a cell...
     internal static let comment1 = L10n.tr("Localizable", "Activate.comment1")
-    /// Activating an element (double tapping it with the VoiceOver enabled) is the same as a single tap when not using the voice over.
+    /// Activating an element (double tapping it with VoiceOver enabled) is the same as a single tap when not using the voice over.
     internal static let text1 = L10n.tr("Localizable", "Activate.text1")
     /// Most of the time, this action will hapen automatically when your cell has a tap gesture our is a button.
     internal static let text2 = L10n.tr("Localizable", "Activate.text2")
@@ -524,7 +524,7 @@ internal enum L10n {
     internal static let comment1 = L10n.tr("Localizable", "Announcement.comment1")
     /// The code cells bellow are another example of announcements when you copy the code!
     internal static let comment2 = L10n.tr("Localizable", "Announcement.comment2")
-    /// An announcement notification is a way to make the VoiceOver read something that is not currently focused.
+    /// An announcement notification is a way to make VoiceOver read something that is not currently focused.
     internal static let text1 = L10n.tr("Localizable", "Announcement.text1")
     /// Sometimes, some information changes on the screen and we show to the user using some animation to grab their attention.
     internal static let text2 = L10n.tr("Localizable", "Announcement.text2")
@@ -586,7 +586,7 @@ internal enum L10n {
     internal enum Intro {
       /// But, to do that, it works different in UIKit and SwiftUI, so we are going to have a section for each in this page
       internal static let comment = L10n.tr("Localizable", "ChangeCursor.Intro.comment")
-      /// Most of the time, we want the user to be in control to where the VoiceOver cursor should move to.
+      /// Most of the time, we want the user to be in control to where VoiceOver cursor should move to.
       internal static let text1 = L10n.tr("Localizable", "ChangeCursor.Intro.text1")
       /// Sometimes, when we change something on the screen, like presenting a modal on top of everything, we want to redirect the user directly to the new content.
       internal static let text2 = L10n.tr("Localizable", "ChangeCursor.Intro.text2")
@@ -610,7 +610,7 @@ internal enum L10n {
       internal static let link = L10n.tr("Localizable", "ChangeCursor.uikit.link")
       /// To change the cursor position on UIKit, we are going to use the screen change notifications.
       internal static let text1 = L10n.tr("Localizable", "ChangeCursor.uikit.text1")
-      /// When triggering one of these notifications, we can pass as the argument the view we want the VoiceOver to focus on.
+      /// When triggering one of these notifications, we can pass as the argument the view we want VoiceOver to focus on.
       internal static let text2 = L10n.tr("Localizable", "ChangeCursor.uikit.text2")
     }
   }
@@ -758,7 +758,7 @@ internal enum L10n {
     internal static let comment2 = L10n.tr("Localizable", "CustomActions.comment2")
     /// Credit Card
     internal static let creditCard = L10n.tr("Localizable", "CustomActions.creditCard")
-    /// 'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, the VoiceOver will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.
+    /// 'Custom Actions' is the name of the ability to add multiple actions to be executed on the same view. When focused, VoiceOver will read 'actions available' at the end, meaning you can swipe up and down to change the action that will be executed when you activate the element.
     internal static let text1 = L10n.tr("Localizable", "CustomActions.text1")
     /// It's a good tool to improve the accessibility on elements that can perform multiple actions.
     internal static let text2 = L10n.tr("Localizable", "CustomActions.text2")
@@ -802,9 +802,9 @@ internal enum L10n {
   }
 
   internal enum DismissPage {
-    /// Try it out! Enable the VoiceOver and perform a 'Z' with 2 fingers.
+    /// Try it out! Enable VoiceOver and perform a 'Z' with 2 fingers.
     internal static let comment1 = L10n.tr("Localizable", "DismissPage.comment1")
-    /// The VoiceOver has a dedicated 'dismiss gesture', the Escape, which is used to close modals or pop the current view on the navigation stack.
+    /// VoiceOver has a dedicated 'dismiss gesture', the Escape, which is used to close modals or pop the current view on the navigation stack.
     internal static let text1 = L10n.tr("Localizable", "DismissPage.text1")
     /// Escape
     internal static let title = L10n.tr("Localizable", "DismissPage.title")
@@ -830,7 +830,7 @@ internal enum L10n {
     internal static let comment2 = L10n.tr("Localizable", "ElementReadingOrder.comment2")
     /// Check the 'Accessibility Priority' page for more informations
     internal static let link = L10n.tr("Localizable", "ElementReadingOrder.link")
-    /// The VoiceOver will read the content on the screen trying to follow the 'Natural reading direction of the Language'
+    /// VoiceOver will read the content on the screen trying to follow the 'Natural reading direction of the Language'
     internal static let text1 = L10n.tr("Localizable", "ElementReadingOrder.text1")
     /// For instance, English, the natural reading directions is left-to-right then up-to-down
     internal static let text2 = L10n.tr("Localizable", "ElementReadingOrder.text2")
@@ -845,17 +845,17 @@ internal enum L10n {
   }
 
   internal enum EnableVoiceOver {
-    /// Beyond providing faster access to turning the VoiceOver on, it also helps to turn it off if you get stuck while using the it.
+    /// Beyond providing faster access to turning VoiceOver on, it also helps to turn it off if you get stuck while using the it.
     internal static let comment = L10n.tr("Localizable", "EnableVoiceOver.comment")
-    /// The VoiceOver is the name of the iOS's native screen reader solution. Used to provide visual impairment accessibility.
+    /// VoiceOver is the name of the iOS's native screen reader solution. Used to provide visual impairment accessibility.
     internal static let text1 = L10n.tr("Localizable", "EnableVoiceOver.text1")
-    /// To enable the VoiceOver, go to the device's settings, on the 'Accessibility section'.
+    /// To enable VoiceOver, go to the device's settings, on the 'Accessibility section'.
     internal static let text2 = L10n.tr("Localizable", "EnableVoiceOver.text2")
     /// Then, navigate to VoiceOver and turn the toggle on.
     internal static let text3 = L10n.tr("Localizable", "EnableVoiceOver.text3")
-    /// As an alternative to doing this every time you want to enable the VoiceOver, you may navigate to the Accessibility section again, and change the 'Accessibility shortcut' section.
+    /// As an alternative to doing this every time you want to enable VoiceOver, you may navigate to the Accessibility section again, and change the 'Accessibility shortcut' section.
     internal static let text4 = L10n.tr("Localizable", "EnableVoiceOver.text4")
-    /// There, select the features you want to have quick-access to (make sure to select the VoiceOver)
+    /// There, select the features you want to have quick-access to (make sure to select VoiceOver)
     internal static let text5 = L10n.tr("Localizable", "EnableVoiceOver.text5")
     /// And now, you can access any of those features by triple-pressing the side button on your device (the one that locks the screen).
     internal static let text6 = L10n.tr("Localizable", "EnableVoiceOver.text6")
@@ -963,7 +963,7 @@ internal enum L10n {
     internal static let helper = L10n.tr("Localizable", "Gestures.helper")
     /// Reading
     internal static let reading = L10n.tr("Localizable", "Gestures.reading")
-    /// Here's an initial guide to start using the VoiceOver gestures.
+    /// Here's an initial guide to start using VoiceOver gestures.
     internal static let text1 = L10n.tr("Localizable", "Gestures.text1")
     /// Gestures Guide
     internal static let title = L10n.tr("Localizable", "Gestures.title")
@@ -1036,7 +1036,7 @@ internal enum L10n {
       internal static let description = L10n.tr("Localizable", "Gestures.twoFingersDoubleTap.description")
     }
     internal enum TwoFingersSingleTap {
-      /// Pause/Play reading. You can make the VoiceOver pause the current reading, and by making the same gesture again, it will keep going from where it stoped.
+      /// Pause/Play reading. You can make VoiceOver pause the current reading, and by making the same gesture again, it will keep going from where it stoped.
       internal static let description = L10n.tr("Localizable", "Gestures.twoFingersSingleTap.description")
     }
     internal enum TwoFingersSwipeDown {
@@ -1064,9 +1064,9 @@ internal enum L10n {
     internal static let goodCarousel = L10n.tr("Localizable", "Grouping.goodCarousel")
     /// To me, Grouping elements correctly is one of the most important parts of building a good accessible view.
     internal static let text1 = L10n.tr("Localizable", "Grouping.text1")
-    /// Imagine a carousel with a bunch of cells, when using the VoiceOver, we want the cursor to focus on each individual cell, not on the cells content.
+    /// Imagine a carousel with a bunch of cells, when using VoiceOver, we want the cursor to focus on each individual cell, not on the cells content.
     internal static let text2 = L10n.tr("Localizable", "Grouping.text2")
-    /// Turn the VoiceOver on and check both carousels below, one has the content correctly grouped, and the other don't.
+    /// Turn VoiceOver on and check both carousels below, one has the content correctly grouped, and the other don't.
     internal static let text3 = L10n.tr("Localizable", "Grouping.text3")
     /// Grouping Elements
     internal static let title = L10n.tr("Localizable", "Grouping.title")
@@ -1293,6 +1293,31 @@ internal enum L10n {
     }
   }
 
+  internal enum IncreasingHints {
+    /// It's just so tiny... I don't remember what I had to say.
+    internal static let hint1 = L10n.tr("Localizable", "IncreasingHints.hint1")
+    /// The first hint needs to be a little bigger.
+    internal static let hint2 = L10n.tr("Localizable", "IncreasingHints.hint2")
+    /// The second number is 3, but maybe you can find another hints?
+    internal static let hint3 = L10n.tr("Localizable", "IncreasingHints.hint3")
+    /// The first number is 2 less than the second one.
+    internal static let hint4 = L10n.tr("Localizable", "IncreasingHints.hint4")
+    /// Getting big, aren't we? The last number is 4.
+    internal static let hint5 = L10n.tr("Localizable", "IncreasingHints.hint5")
+    /// The third number is the same as the first one.
+    internal static let hint6 = L10n.tr("Localizable", "IncreasingHints.hint6")
+    /// The fourth number is twice the second one.
+    internal static let hint7 = L10n.tr("Localizable", "IncreasingHints.hint7")
+    /// The missing number is the same as the last one!
+    internal static let hint8 = L10n.tr("Localizable", "IncreasingHints.hint8")
+    /// Can you read the hints? Use them to find the correct password.
+    internal static let text = L10n.tr("Localizable", "IncreasingHints.text")
+    /// Increasing hints
+    internal static let title = L10n.tr("Localizable", "IncreasingHints.title")
+    /// I'm super lost... I don't know what ot say.
+    internal static let unspecified = L10n.tr("Localizable", "IncreasingHints.unspecified")
+  }
+
   internal enum InvertColors {
     /// Invert Colors
     internal static let title = L10n.tr("Localizable", "InvertColors.title")
@@ -1395,11 +1420,11 @@ internal enum L10n {
     internal static let comment1 = L10n.tr("Localizable", "LongPress.comment1")
     /// If you are using a long press gesture, I suggest always adding an accessibility hint to tell your user about it!
     internal static let comment2 = L10n.tr("Localizable", "LongPress.comment2")
-    /// Long press is not an accessibility specific gesture, but I like to add it here because it has a specific gesture to be handled when using the VoiceOver.
+    /// Long press is not an accessibility specific gesture, but I like to add it here because it has a specific gesture to be handled when using VoiceOver.
     internal static let text1 = L10n.tr("Localizable", "LongPress.text1")
     /// To simulate a Long Press you do a triple tap when focused on the item.
     internal static let text2 = L10n.tr("Localizable", "LongPress.text2")
-    /// Turn the VoiceOver on and focus on the next element. It has a long press gesture.
+    /// Turn VoiceOver on and focus on the next element. It has a long press gesture.
     internal static let text3 = L10n.tr("Localizable", "LongPress.text3")
     /// The long press is specially useful on 'Back buttons', which on newer iOS will display the navigation hierarchy, allowing you to easily navigate back to the page you want.
     internal static let text4 = L10n.tr("Localizable", "LongPress.text4")
@@ -1450,9 +1475,9 @@ internal enum L10n {
       internal static let link = L10n.tr("Localizable", "Modal.Intro.link")
       /// Modal Views, in this case, we are talking about any view that is displayed on top of existing content. Banners, toasts, floating buttons...
       internal static let text1 = L10n.tr("Localizable", "Modal.Intro.text1")
-      /// The problem is: The VoiceOver will try to use the language's Natural reading directions to read the content, and even if your view is on top of every other view, the VoiceOver will still focus on the content behind it.
+      /// The problem is: VoiceOver will try to use the language's Natural reading directions to read the content, and even if your view is on top of every other view, VoiceOver will still focus on the content behind it.
       internal static let text2 = L10n.tr("Localizable", "Modal.Intro.text2")
-      /// To prevent this issue, we can mark a view as being a 'Modal'. This will make the VoiceOver focus only on that view while it's being presented.
+      /// To prevent this issue, we can mark a view as being a 'Modal'. This will make VoiceOver focus only on that view while it's being presented.
       internal static let text3 = L10n.tr("Localizable", "Modal.Intro.text3")
     }
     internal enum Example {
@@ -1464,7 +1489,7 @@ internal enum L10n {
       internal static let goodModal = L10n.tr("Localizable", "Modal.example.goodModal")
       /// Learn more about it on the Notifications section.
       internal static let link = L10n.tr("Localizable", "Modal.example.link")
-      /// Turn the VoiceOver on and test the modals below.
+      /// Turn VoiceOver on and test the modals below.
       internal static let text1 = L10n.tr("Localizable", "Modal.example.text1")
       /// This is a Bad modal
       internal static let thisBadModal = L10n.tr("Localizable", "Modal.example.thisBadModal")
@@ -1486,17 +1511,17 @@ internal enum L10n {
   }
 
   internal enum Navigation {
-    /// This entire app was built to be used with the VoiceOver enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!
+    /// This entire app was built to be used with VoiceOver enabled, the concept described on the pages will always be followed by an example so you can try them by yourself!
     internal static let comment = L10n.tr("Localizable", "Navigation.comment")
     /// Open the gestures guide.
     internal static let gesturesLink = L10n.tr("Localizable", "Navigation.gesturesLink")
     /// On top is an example of the cursor. The title 'Handbook' is currently focused on the image.
     internal static let image = L10n.tr("Localizable", "Navigation.image")
-    /// Example image of the VoiceOver running on an iOS device.
+    /// Example image of VoiceOver running on an iOS device.
     internal static let imageSubtitle = L10n.tr("Localizable", "Navigation.imageSubtitle")
-    /// The VoiceOver navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.
+    /// VoiceOver navigation is based in gestures. Each gesture, can be perfomed anywhere on the screen, and will trigger a certain action.
     internal static let text1 = L10n.tr("Localizable", "Navigation.text1")
-    /// Once enabled, the VoiceOver will display a frame on top of the current view that is being read. This frame is called 'Cursor'.
+    /// Once enabled, VoiceOver will display a frame on top of the current view that is being read. This frame is called 'Cursor'.
     internal static let text2 = L10n.tr("Localizable", "Navigation.text2")
     /// To navigate basically means changing the cursor's position, so it will read another element.
     internal static let text3 = L10n.tr("Localizable", "Navigation.text3")
@@ -1507,17 +1532,17 @@ internal enum L10n {
     internal enum Activate {
       /// You can learn more about ways to interact with elements on the 'Interaction' section
       internal static let comment = L10n.tr("Localizable", "Navigation.Activate.comment")
-      /// Activate, is the VoiceOver version of tapping an item. Double tap with a single finger to activate an element.
+      /// Activate, is VoiceOver version of tapping an item. Double tap with a single finger to activate an element.
       internal static let text = L10n.tr("Localizable", "Navigation.Activate.text")
       /// Activate an element
       internal static let title = L10n.tr("Localizable", "Navigation.Activate.title")
     }
     internal enum Footer {
-      /// These are just a few of the gestures available. We plan on adding a full gesture section in the future, but for now, I suggest you try it for yourself, turn the VoiceOver on and test the gestures using the 'Gesture Help'.
+      /// These are just a few of the gestures available. We plan on adding a full gesture section in the future, but for now, I suggest you try it for yourself, turn VoiceOver on and test the gestures using the 'Gesture Help'.
       internal static let comment = L10n.tr("Localizable", "Navigation.Footer.comment")
-      /// If you tap with 4 fingers twice with the VoiceOver enabled, you will activate the 'Gesture Helper'.
+      /// If you tap with 4 fingers twice with VoiceOver enabled, you will activate the 'Gesture Helper'.
       internal static let text1 = L10n.tr("Localizable", "Navigation.Footer.text1")
-      /// Now, every gesture you make will be announced by the VoiceOver, followed by it's function.
+      /// Now, every gesture you make will be announced by VoiceOver, followed by it's function.
       internal static let text2 = L10n.tr("Localizable", "Navigation.Footer.text2")
       /// And to disable the helper, tap twice with 4 fiongers again!
       internal static let text3 = L10n.tr("Localizable", "Navigation.Footer.text3")
@@ -1525,7 +1550,7 @@ internal enum L10n {
       internal static let title = L10n.tr("Localizable", "Navigation.Footer.title")
     }
     internal enum MoveAround {
-      /// When the VoiceOver is enabled, swipe horizontally from left to right to move the cursor to focus on the next element.
+      /// When VoiceOver is enabled, swipe horizontally from left to right to move the cursor to focus on the next element.
       internal static let text1 = L10n.tr("Localizable", "Navigation.MoveAround.text1")
       /// And swipe from right to left to focus on the previous element.
       internal static let text2 = L10n.tr("Localizable", "Navigation.MoveAround.text2")
@@ -1633,7 +1658,7 @@ internal enum L10n {
   internal enum Rotor {
     /// The Rotor is one of those things I think not everybody knows about.
     internal static let comment1 = L10n.tr("Localizable", "Rotor.comment1")
-    /// Turn the VoiceOver on and try it for yourself!
+    /// Turn VoiceOver on and try it for yourself!
     internal static let comment2 = L10n.tr("Localizable", "Rotor.comment2")
     /// I need to say that I have personally never used a custom rotor action, but it is a powerful tool to have on your accessibility arsenal!
     internal static let comment3 = L10n.tr("Localizable", "Rotor.comment3")
@@ -1641,7 +1666,7 @@ internal enum L10n {
     internal static let image = L10n.tr("Localizable", "Rotor.image")
     /// If you do the gesture of a circle with 2 fingers on the screen, you will enable the rotor.
     internal static let text1 = L10n.tr("Localizable", "Rotor.text1")
-    /// The rotor has some default actions to it like changing the speaking rate or the VoiceOver's language.
+    /// The rotor has some default actions to it like changing the speaking rate or VoiceOver's language.
     internal static let text2 = L10n.tr("Localizable", "Rotor.text2")
     /// You can also create custom actions to the rotor. The idea is to use it to help users find specific content, like filtering for links, or any other similar elements.
     internal static let text3 = L10n.tr("Localizable", "Rotor.text3")
@@ -1653,7 +1678,7 @@ internal enum L10n {
     internal enum Example {
       /// If you haven't noticed, this page was built using some headers!
       internal static let text1 = L10n.tr("Localizable", "RotorAndHeaders.Example.text1")
-      /// Turn on the VoiceOver and try to navigate only on them!
+      /// Turn on VoiceOver and try to navigate only on them!
       internal static let text2 = L10n.tr("Localizable", "RotorAndHeaders.Example.text2")
     }
     internal enum Header {
@@ -1747,7 +1772,7 @@ internal enum L10n {
   internal enum WhereIsMyContent {
     /// This puzzle is pretty easy.
     internal static let text1 = L10n.tr("Localizable", "WhereIsMyContent.text1")
-    /// You need to find the correct button to finish the puzzle by using the VoiceOver!
+    /// You need to find the correct button to finish the puzzle by using VoiceOver!
     internal static let text2 = L10n.tr("Localizable", "WhereIsMyContent.text2")
     /// Where is my content?
     internal static let title = L10n.tr("Localizable", "WhereIsMyContent.title")
