@@ -841,6 +841,22 @@
 "AboutFonts.Intro.comment4" = "E é aí que acessibilidade começa a ficar interessante";
 "AboutFonts.link" = "Veja mais fontes online.";
 
+// UIContentSizeCategory
+
+"UIContentSizeCategory.title" = "UIContentSizeCategory";
+"UIContentSizeCategory.Intro.text1" = "O 'UIContentSizeCategory' é um enum do sistema que representa o tamanho preferido de fontes selecionado pelo usuário.";
+"UIContentSizeCategory.Intro.text2" = "Ele tem 12 opções diferentes de tamanho, de extra pequeno até extra extra extra grande. E então, os 'tamanhos de acessibilidade' de 'accessibility medium' até 'accessibility extra extra extra large' (Isso mesmo, 3 extras).";
+"UIContentSizeCategory.Intro.comment1" = "Os tamanhos de acessibilidade são maiores que os demais, mesmo que o nome do menos deles seja 'accessibility medium', ele ainda é maior que o tamanho 'extra extra extra grande'.";
+
+"UIContentSizeCategory.List.title" = "Lista de UIContentSizeCategory";
+"UIContentSizeCategory.List.text1" = "Aqui segue uma lista de todos os tamanhos disponíveis no sistems. Você pode ver a página 'Identificar tamanho de fonte selecionado' para mais informações.";
+"UIContentSizeCategory.List.comment1" = "Mas, no código, geralmente não devemos verificar qual o tamanho esperado da fonte, apenas deixar que ele escale nosso conteúdo corretamente, seja usando o UIFontMetric ou as fontes definidas do sistema.";
+"UIContentSizeCategory.List.current" = "Este é o seu 'content size' atual.";
+
+"UIContentSizeCategory.Code.text1" = "Você pode verificar o tamanho das fontes do sistema usando o código a seguir.";
+
+"fontSize" = "Tamanho da fonte: %@";
+
 // Size And Weight
 
 "SizeAndWeight.title" = "Peso e Tamanho";

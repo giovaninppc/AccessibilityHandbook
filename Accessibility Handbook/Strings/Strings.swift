@@ -70,6 +70,10 @@ internal enum L10n {
   internal static let flag = L10n.tr("Localizable", "flag")
   /// Fog
   internal static let fog = L10n.tr("Localizable", "fog")
+  /// Font size: %@
+  internal static func fontSize(_ p1: Any) -> String {
+    return L10n.tr("Localizable", "fontSize", String(describing: p1))
+  }
   /// Free shipping
   internal static let freeShipping = L10n.tr("Localizable", "freeShipping")
   /// Go Back
@@ -1754,6 +1758,33 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "TheUpsideDown.text2")
     /// The Upside Down
     internal static let title = L10n.tr("Localizable", "TheUpsideDown.title")
+  }
+
+  internal enum UIContentSizeCategory {
+    /// UIContentSizeCategory
+    internal static let title = L10n.tr("Localizable", "UIContentSizeCategory.title")
+    internal enum Code {
+      /// You can check the system's font size by using the following code.
+      internal static let text1 = L10n.tr("Localizable", "UIContentSizeCategory.Code.text1")
+    }
+    internal enum Intro {
+      /// The accessibility sizes are larger than the other ones, even if their name starts at 'accessibility medium' it's still larger than the regular 'extra extra extra large' size.
+      internal static let comment1 = L10n.tr("Localizable", "UIContentSizeCategory.Intro.comment1")
+      /// The 'UIContentSizeCategory' is a system enum that represents the user's selected preferred content size.
+      internal static let text1 = L10n.tr("Localizable", "UIContentSizeCategory.Intro.text1")
+      /// It has 12 different size options from extra small to extra extra extra large, then the 'accessibility sizes' from accessibility medium to accessibility extra extra extra large. (Yep, 3 extras)
+      internal static let text2 = L10n.tr("Localizable", "UIContentSizeCategory.Intro.text2")
+    }
+    internal enum List {
+      /// Although, on code, usually you should not check this information directly and just use the UIFontMetric or system fonts to scale your font to the correct size.
+      internal static let comment1 = L10n.tr("Localizable", "UIContentSizeCategory.List.comment1")
+      /// This is your current content size.
+      internal static let current = L10n.tr("Localizable", "UIContentSizeCategory.List.current")
+      /// Here's a list of all the available content size categories. You can check the 'Identify preferred content size' page to get more information on how to properly identify them.
+      internal static let text1 = L10n.tr("Localizable", "UIContentSizeCategory.List.text1")
+      /// List of UIContentSizeCategory
+      internal static let title = L10n.tr("Localizable", "UIContentSizeCategory.List.title")
+    }
   }
 
   internal enum UIFontMetrics {

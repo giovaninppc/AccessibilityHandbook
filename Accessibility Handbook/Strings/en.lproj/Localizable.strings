@@ -841,6 +841,22 @@
 "AboutFonts.Intro.comment4" = "And that's where accessibility comes and it gets interesting.";
 "AboutFonts.link" = "Check some different fonts!";
 
+// UIContentSizeCategory
+
+"UIContentSizeCategory.title" = "UIContentSizeCategory";
+"UIContentSizeCategory.Intro.text1" = "The 'UIContentSizeCategory' is a system enum that represents the user's selected preferred content size.";
+"UIContentSizeCategory.Intro.text2" = "It has 12 different size options from extra small to extra extra extra large, then the 'accessibility sizes' from accessibility medium to accessibility extra extra extra large. (Yep, 3 extras)";
+"UIContentSizeCategory.Intro.comment1" = "The accessibility sizes are larger than the other ones, even if their name starts at 'accessibility medium' it's still larger than the regular 'extra extra extra large' size.";
+
+"UIContentSizeCategory.List.title" = "List of UIContentSizeCategory";
+"UIContentSizeCategory.List.text1" = "Here's a list of all the available content size categories. You can check the 'Identify preferred content size' page to get more information on how to properly identify them.";
+"UIContentSizeCategory.List.comment1" = "Although, on code, usually you should not check this information directly and just use the UIFontMetric or system fonts to scale your font to the correct size.";
+"UIContentSizeCategory.List.current" = "This is your current content size.";
+
+"UIContentSizeCategory.Code.text1" = "You can check the system's font size by using the following code.";
+
+"fontSize" = "Font size: %@";
+
 // Size And Weight
 
 "SizeAndWeight.title" = "Size and Weight";

@@ -10,4 +10,5 @@ import Foundation
 extension String {
   static let space = " "
   static let empty = ""
+  static let commaSpace = ", "
 }

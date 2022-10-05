@@ -24,6 +24,8 @@
 		3F4E7F9328DCB46700710F18 /* AdjustableCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */; };
 		3F4E7F9528DCBC1600710F18 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9428DCBC1600710F18 /* ImageAsset.swift */; };
 		3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */; };
+		3F54B62B28EE0D3400574932 /* UIContentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54B62A28EE0D3400574932 /* UIContentSize.swift */; };
+		3F54B62D28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54B62C28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift */; };
 		3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */; };
 		3F6C5ABC28E37FED00B12065 /* MultiFingerTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */; };
 		3F6C5ABF28E394D000B12065 /* AboutFontsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C5ABE28E394D000B12065 /* AboutFontsPage.swift */; };
@@ -150,6 +152,8 @@
 		3F4E7F9228DCB46700710F18 /* AdjustableCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCounter.swift; sourceTree = "<group>"; };
 		3F4E7F9428DCBC1600710F18 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
 		3F4E7F9628DCCFE500710F18 /* AColorfulMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AColorfulMessage.swift; sourceTree = "<group>"; };
+		3F54B62A28EE0D3400574932 /* UIContentSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIContentSize.swift; sourceTree = "<group>"; };
+		3F54B62C28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Extensions.swift"; sourceTree = "<group>"; };
 		3F6C5AB928E3748A00B12065 /* MultiFingerSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFingerSwipe.swift; sourceTree = "<group>"; };
 		3F6C5ABB28E37FED00B12065 /* MultiFingerTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFingerTap.swift; sourceTree = "<group>"; };
 		3F6C5ABE28E394D000B12065 /* AboutFontsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFontsPage.swift; sourceTree = "<group>"; };
@@ -308,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				3F6C5ABE28E394D000B12065 /* AboutFontsPage.swift */,
+				3F54B62A28EE0D3400574932 /* UIContentSize.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 				3FBF057728DA712C00DA5BF5 /* ToAny.swift */,
 				3FF4A29A28DF93B1005D291A /* Icons.swift */,
 				3FF4A29C28DF93F3005D291A /* String+Extensions.swift */,
+				3F54B62C28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -819,6 +825,7 @@
 			files = (
 				3FBF05D828DB545700DA5BF5 /* ContrastPage.swift in Sources */,
 				3FBF056528DA6A4400DA5BF5 /* AccessibilityPropertiesSection.swift in Sources */,
+				3F54B62B28EE0D3400574932 /* UIContentSize.swift in Sources */,
 				3FBF05F828DB6F5400DA5BF5 /* HapticsSection.swift in Sources */,
 				3FBF05A528DAB9C700DA5BF5 /* Storage.swift in Sources */,
 				3F41DB0E28E2553E00E0B056 /* HorizontalSwipe.swift in Sources */,
@@ -882,6 +889,7 @@
 				3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */,
 				3FBF05C528DB4F3D00DA5BF5 /* ColorsSections.swift in Sources */,
 				3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */,
+				3F54B62D28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift in Sources */,
 				3FBF05BD28DB4A8A00DA5BF5 /* CollaborationView.swift in Sources */,
 				3FBF055D28DA69F800DA5BF5 /* Page.swift in Sources */,
 				3FBF059328DA9E4E00DA5BF5 /* AdjustablePage.swift in Sources */,
