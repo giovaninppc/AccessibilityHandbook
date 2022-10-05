@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build
+    runs-on: macos-12
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Install xcbeautify
+      run: |
+        brew install xcbeautify
+    - name: Build
+      run: |
+        set -o pipefail && xcodebuild clean build -project 'Accessibility Handbook.xcodeproj' -scheme 'Accessibility Handbook' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13' | xcbeautify
