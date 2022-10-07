@@ -853,6 +853,27 @@ internal enum L10n {
     }
   }
 
+  internal enum DynamicColors {
+    /// Dynamic colors
+    internal static let title = L10n.tr("Localizable", "DynamicColors.title")
+    internal enum Intro {
+      /// When talking about supporting Dark Mode, 'dynamic colors' is the capability of colors to correctly adjust themselves to the current color scheme.
+      internal static let text1 = L10n.tr("Localizable", "DynamicColors.Intro.text1")
+    }
+    internal enum SystemColors {
+      /// SwiftUI 'Color' currently does not have these system colors, but you can map the 'UIColor' object into a 'Color' on of you want.
+      internal static let comment1 = L10n.tr("Localizable", "DynamicColors.SystemColors.comment1")
+      /// When using System colors, they may automatically adjust themselves to the current color scheme.
+      internal static let text1 = L10n.tr("Localizable", "DynamicColors.SystemColors.text1")
+      /// This is true to background and label colors.
+      internal static let text2 = L10n.tr("Localizable", "DynamicColors.SystemColors.text2")
+      /// UIColors also have colors with the 'system' preffix, which means they are adaptable to color scheme as well.
+      internal static let text3 = L10n.tr("Localizable", "DynamicColors.SystemColors.text3")
+      /// System colors
+      internal static let title = L10n.tr("Localizable", "DynamicColors.SystemColors.title")
+    }
+  }
+
   internal enum DynamicContent {
     /// Dynamic Assets
     internal static let title = L10n.tr("Localizable", "DynamicContent.title")

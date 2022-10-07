@@ -1047,3 +1047,17 @@
 "TintableImages.Example.text3" = "And if you haven't set the asset as a 'template image' on the XCTAssets, you can force the template on code as well.";
 
 "TintableImages.doc" = "Providing images for different appearances";
+
+// Dynamic colors
+
+"DynamicColors.title" = "Dynamic colors";
+
+"DynamicColors.Intro.text1" = "When talking about supporting Dark Mode, 'dynamic colors' is the capability of colors to correctly adjust themselves to the current color scheme.";
+
+"DynamicColors.SystemColors.title" = "System colors";
+"DynamicColors.SystemColors.text1" = "When using System colors, they may automatically adjust themselves to the current color scheme.";
+"DynamicColors.SystemColors.text2" = "This is true to background and label colors.";
+"DynamicColors.SystemColors.text3" = "UIColors also have colors with the 'system' preffix, which means they are adaptable to color scheme as well.";
+"DynamicColors.SystemColors.comment1" = "SwiftUI 'Color' currently does not have these system colors, but you can map the 'UIColor' object into a 'Color' if you want.";
+
+"DynamicColors.CustomColors.title" = "Custom colors";
