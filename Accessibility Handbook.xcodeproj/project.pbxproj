@@ -33,6 +33,7 @@
 		3F6DBDEE28F05696001B9F88 /* WhatIsDarkModePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DBDED28F05696001B9F88 /* WhatIsDarkModePage.swift */; };
 		3F6DBDF028F05704001B9F88 /* AppearancesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DBDEF28F05704001B9F88 /* AppearancesPage.swift */; };
 		3F6DBDF228F05739001B9F88 /* DynamicColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DBDF128F05739001B9F88 /* DynamicColorsPage.swift */; };
+		3F6DBDF428F068C0001B9F88 /* DynamicContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DBDF328F068C0001B9F88 /* DynamicContentPage.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -165,6 +166,7 @@
 		3F6DBDED28F05696001B9F88 /* WhatIsDarkModePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsDarkModePage.swift; sourceTree = "<group>"; };
 		3F6DBDEF28F05704001B9F88 /* AppearancesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearancesPage.swift; sourceTree = "<group>"; };
 		3F6DBDF128F05739001B9F88 /* DynamicColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicColorsPage.swift; sourceTree = "<group>"; };
+		3F6DBDF328F068C0001B9F88 /* DynamicContentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContentPage.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 				3F6DBDED28F05696001B9F88 /* WhatIsDarkModePage.swift */,
 				3F6DBDEF28F05704001B9F88 /* AppearancesPage.swift */,
 				3F6DBDF128F05739001B9F88 /* DynamicColorsPage.swift */,
+				3F6DBDF328F068C0001B9F88 /* DynamicContentPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -859,6 +862,7 @@
 				3F6DBDF028F05704001B9F88 /* AppearancesPage.swift in Sources */,
 				3F41DB0E28E2553E00E0B056 /* HorizontalSwipe.swift in Sources */,
 				3F6DBDEB28F05639001B9F88 /* DarkModeSection.swift in Sources */,
+				3F6DBDF428F068C0001B9F88 /* DynamicContentPage.swift in Sources */,
 				3FBF05FB28DB6F6200DA5BF5 /* HapticsPage.swift in Sources */,
 				3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */,
 				3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */,

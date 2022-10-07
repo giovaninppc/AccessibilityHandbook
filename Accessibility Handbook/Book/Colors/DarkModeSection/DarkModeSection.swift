@@ -13,6 +13,7 @@ struct DarkModeSection: Section {
   let pages: [Page] = [
     WhatIsDarkModePage(),
     AppearancesPage(),
-    DynamicColorsPage()
+    DynamicColorsPage(),
+    DynamicContentPage()
   ]
 }

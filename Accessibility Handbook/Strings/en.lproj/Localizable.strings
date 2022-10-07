@@ -1009,6 +1009,15 @@
 
 // Appearances
 
-"Appearances.title" = "Appearances";
+"Appearances.title" = "Appearance changes";
 
-"Appearances.Intro.text1" = "Dark mode is the ability to change the interface to a dark appearance.";
+"Appearances.Intro.text1" = "In this content, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.";
+"Appearances.Intro.text2" = "We can identify which of these the user has currently selected and adjust our content accordingly.";
+
+"Appearances.Code.title" = "Identify current color scheme";
+"Appearances.Code.text1" = "In SwiftUI, it's as easy as an Environment variable. So it will automatically be notified whenever the user changes this setting, and your app will adjust itself automatically.";
+"Appearances.Code.text2" = "And, of course, things are a little more complicated in UIKit, you need to use the 'UITraitCollection' object.";
+"Appearances.Code.comment1" = "The main complication is the existence of the `unspecified` case in the 'UIUserInterfaceStyle' enum, (because of course it exists) but in this case, just throw your default variation of the content.";
+"Appearances.Code.text3" = "And, in order to handle dynamic changes on the user interface style, you need to listen to changes on the trait collection object in a UIView or UIViewController, and update your content whenever it changes.";
+
+"Appearances.supportingDarkMode" = "Supporting dark mode.";

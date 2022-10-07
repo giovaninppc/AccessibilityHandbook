@@ -563,11 +563,27 @@ internal enum L10n {
   }
 
   internal enum Appearances {
-    /// Appearances
+    /// Supporting dark mode.
+    internal static let supportingDarkMode = L10n.tr("Localizable", "Appearances.supportingDarkMode")
+    /// Appearance changes
     internal static let title = L10n.tr("Localizable", "Appearances.title")
+    internal enum Code {
+      /// The main complication is the existence of the `unspecified` case in the 'UIUserInterfaceStyle' enum, (because of course it exists) but in this case, just throw your default variation of the content.
+      internal static let comment1 = L10n.tr("Localizable", "Appearances.Code.comment1")
+      /// In SwiftUI, it's as easy as an Environment variable. So it will automatically be notified whenever the user changes this setting, and your app will adjust itself automatically.
+      internal static let text1 = L10n.tr("Localizable", "Appearances.Code.text1")
+      /// And, of course, things are a little more complicated in UIKit, you need to use the 'UITraitCollection' object.
+      internal static let text2 = L10n.tr("Localizable", "Appearances.Code.text2")
+      /// And, in order to handle dynamic changes on the user interface style, you need to listen to changes on the trait collection object in a UIView or UIViewController, and update your content whenever it changes.
+      internal static let text3 = L10n.tr("Localizable", "Appearances.Code.text3")
+      /// Identify current color scheme
+      internal static let title = L10n.tr("Localizable", "Appearances.Code.title")
+    }
     internal enum Intro {
-      /// Dark mode is the ability to change the interface to a dark appearance.
+      /// In this content, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.
       internal static let text1 = L10n.tr("Localizable", "Appearances.Intro.text1")
+      /// We can identify which of these the user has currently selected and adjust our content accordingly.
+      internal static let text2 = L10n.tr("Localizable", "Appearances.Intro.text2")
     }
   }
 
