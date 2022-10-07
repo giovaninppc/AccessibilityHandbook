@@ -979,3 +979,36 @@
 "PreferCrossFadePage.comment1" = "This app uses a default navigation stack. Go to settings and change this accessibility option, then come back and try opening new scenes or going back to previous ones. The default slide transition should be replaced with cross-fades.";
 "PreferCrossFadePage.text4" = "You can also check if this feature is enabled to make manual adjustments.";
 "PreferCrossFadePage.comment2" = "When enabled, this also means 'Reduce Motion' is also enabled.";
+
+// WhatIsDarkMode
+
+"darkMode" = "Dark Mode";
+"lighMode" = "Light Mode";
+"youAreCurrentlyOn" = "You are currently on: %@";
+
+"WhatIsDarkMode.title" = "What is dark mode?";
+
+"WhatIsDarkMode.Intro.text1" = "Dark mode is the ability to change the interface to a darker appearance. Where, usually, the background consists in darker colors and written content in lighter colors.";
+"WhatIsDarkMode.Intro.comment1" = "The existence of a dark mode also implies the existence of a light mode, which is the opposite use of colors - light background and dark content.";
+"WhatIsDarkMode.Intro.text2" = "It is, sometimes, an aesthetic preference for the user. In MacOS it can be even automatically set to change on specific ambient or lighting conditions.";
+"WhatIsDarkMode.Intro.text3" = "But the deal here is that supporting dark mode can be a form of accessibility. The user can prefer using it for any reason, reading light content maybe feels better on top of a dark background, specially on low-light environments, or just felling more comfortable with less light comming from the device.";
+"WhatIsDarkMode.Intro.comment2" = "You can read more on the 'Invert colors' page for more insights into different content colors.";
+
+"WhatIsDarkMode.DoINeedIt.title" = "Do I need to support dark mode?";
+"WhatIsDarkMode.DoINeedIt.text1" = "Sometimes, your interface does not need to support dark mode. Maybe it's a game and the colors have been specifically chosen for it, or the content's color take a bigger part in what your app does, so supporting dark mode is not an option.";
+"WhatIsDarkMode.DoINeedIt.text2" = "But when we are talking about apps that are mostly written content, so the user needs to read a lot of things while using the application, or use some shade of white as the default background color, these are good examples of apps that should support dark mode.";
+"WhatIsDarkMode.DoINeedIt.text3" = "Maybe to give the aesthetic choice, but also to support those who prefer the dark mode to read the content.";
+
+"WhatIsDarkMode.ThisAppSupports.title" = "This app supports dark mode!";
+"WhatIsDarkMode.ThisAppSupports.text1" = "The Accessibility Handbook fully supports dark mode. If you are using and iOS device, you can change you appearance on the system's settings.";
+"WhatIsDarkMode.ThisAppSupports.text2" = "Or use the Control center menu (the system's pull down menu) as a shortcut, by long pressing the display brightness option, and it will display a control to select between light and dark modes.";
+"WhatIsDarkMode.ThisAppSupports.text3" = "And if you are running this on an iOS simulator on a Mac, you can quickly change the appearance option with the keyboard command.";
+"WhatIsDarkMode.ThisAppSupports.command" = "Command + shift + A";
+"WhatIsDarkMode.ThisAppSupports.comment1" = "I strongly suggest reading the content on the Apple's 'Human Interface Guidelines' about Dark Mode.";
+"WhatIsDarkMode.ThisAppSupports.image" = "Example of the Control center menu after long pressing the displays brightness options.";
+
+// Appearances
+
+"Appearances.title" = "Appearances";
+
+"Appearances.Intro.text1" = "Dark mode is the ability to change the interface to a dark appearance.";

@@ -44,6 +44,8 @@ internal enum L10n {
   internal static let contentHiererachy = L10n.tr("Localizable", "ContentHiererachy")
   /// Copy Code
   internal static let copyCode = L10n.tr("Localizable", "copyCode")
+  /// Dark Mode
+  internal static let darkMode = L10n.tr("Localizable", "darkMode")
   /// Dedicated page
   internal static let dedicatedPage = L10n.tr("Localizable", "dedicatedPage")
   /// Delete
@@ -94,6 +96,8 @@ internal enum L10n {
   internal static let iceCream = L10n.tr("Localizable", "iceCream")
   /// Interaction
   internal static let interactrion = L10n.tr("Localizable", "interactrion")
+  /// Light Mode
+  internal static let lighMode = L10n.tr("Localizable", "lighMode")
   /// Lobster
   internal static let lobster = L10n.tr("Localizable", "lobster")
   /// Maximum
@@ -168,6 +172,10 @@ internal enum L10n {
   internal static let voiceOverGuide = L10n.tr("Localizable", "VoiceOverGuide")
   /// Weather Icons
   internal static let weatherIcons = L10n.tr("Localizable", "weatherIcons")
+  /// You are currently on: %@
+  internal static func youAreCurrentlyOn(_ p1: Any) -> String {
+    return L10n.tr("Localizable", "youAreCurrentlyOn", String(describing: p1))
+  }
 
   internal enum AColorfulMessage {
     /// It is a 6 digit password
@@ -551,6 +559,15 @@ internal enum L10n {
       internal static let negative = L10n.tr("Localizable", "Announcement.Notifications.negative")
       /// Oh the values are increasing!
       internal static let small = L10n.tr("Localizable", "Announcement.Notifications.small")
+    }
+  }
+
+  internal enum Appearances {
+    /// Appearances
+    internal static let title = L10n.tr("Localizable", "Appearances.title")
+    internal enum Intro {
+      /// Dark mode is the ability to change the interface to a dark appearance.
+      internal static let text1 = L10n.tr("Localizable", "Appearances.Intro.text1")
     }
   }
 
@@ -1797,6 +1814,49 @@ internal enum L10n {
       internal static let text1 = L10n.tr("Localizable", "UIFontMetrics.Intro.text1")
       /// Then, you load your custom font and scale it using the UIFontMetrics.
       internal static let text2 = L10n.tr("Localizable", "UIFontMetrics.Intro.text2")
+    }
+  }
+
+  internal enum WhatIsDarkMode {
+    /// What is dark mode?
+    internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.title")
+    internal enum DoINeedIt {
+      /// Sometimes, your interface does not need to support dark mode. Maybe it's a game and the colors have been specifically chosen for it, or the content's color take a bigger part in what your app does, so supporting dark mode is not an option.
+      internal static let text1 = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.text1")
+      /// But when we are talking about apps that are mostly written content, so the user needs to read a lot of things while using the application, or use some shade of white as the default background color, these are good examples of apps that should support dark mode.
+      internal static let text2 = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.text2")
+      /// Maybe to give the aesthetic choice, but also to support those who prefer the dark mode to read the content.
+      internal static let text3 = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.text3")
+      /// Do I need to support dark mode?
+      internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.title")
+    }
+    internal enum Intro {
+      /// The existence of a dark mode also implies the existence of a light mode, which is the opposite use of colors - light background and dark content.
+      internal static let comment1 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.comment1")
+      /// You can read more on the 'Invert colors' page for more insights into different content colors.
+      internal static let comment2 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.comment2")
+      /// Dark mode is the ability to change the interface to a darker appearance. Where, usually, the background consists in darker colors and written content in lighter colors.
+      internal static let text1 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.text1")
+      /// It is, sometimes, an aesthetic preference for the user. In MacOS it can be even automatically set to change on specific ambient or lighting conditions.
+      internal static let text2 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.text2")
+      /// But the deal here is that supporting dark mode can be a form of accessibility. The user can prefer using it for any reason, reading light content maybe feels better on top of a dark background, specially on low-light environments, or just felling more comfortable with less light comming from the device.
+      internal static let text3 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.text3")
+    }
+    internal enum ThisAppSupports {
+      /// Command + shift + A
+      internal static let command = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.command")
+      /// I strongly suggest reading the content on the Apple's 'Human Interface Guidelines' about Dark Mode.
+      internal static let comment1 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.comment1")
+      /// Example of the Control center menu after long pressing the displays brightness options.
+      internal static let image = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.image")
+      /// The Accessibility Handbook fully supports dark mode. If you are using and iOS device, you can change you appearance on the system's settings.
+      internal static let text1 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.text1")
+      /// Or use the Control center menu (the system's pull down menu) as a shortcut, by long pressing the display brightness option, and it will display a control to select between light and dark modes.
+      internal static let text2 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.text2")
+      /// And if you are running this on an iOS simulator on a Mac, you can quickly change the appearance option with the keyboard command.
+      internal static let text3 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.text3")
+      /// This app supports dark mode!
+      internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.title")
     }
   }
 

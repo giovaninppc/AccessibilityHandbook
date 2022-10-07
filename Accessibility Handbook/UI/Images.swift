@@ -29,6 +29,7 @@ internal enum Asset {
   internal static let fish = ImageAsset(name: "fish")
   internal static let hare = ImageAsset(name: "hare")
   internal static let ishihara = ImageAsset(name: "ishihara")
+  internal static let longPressBrightnessOption = ImageAsset(name: "longPressBrightnessOption")
   internal static let prettyColors = ImageAsset(name: "prettyColors")
   internal static let rotor = ImageAsset(name: "rotor")
   internal static let starryNight = ImageAsset(name: "starryNight")
