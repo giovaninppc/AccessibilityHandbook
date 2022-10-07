@@ -99,7 +99,56 @@ private extension DynamicColorsPage {
 
   var customColors: some View {
     Group {
+      Title(L10n.DynamicColors.CustomColors.title)
+      Text(L10n.DynamicColors.CustomColors.text1)
+      Comment(L10n.DynamicColors.CustomColors.comment1)
+      InternalLink(page: DynamicColoredAssetsPage().page, title: L10n.DynamicContent.title)
+      Text(L10n.DynamicColors.CustomColors.text2)
+      code
+      Text(L10n.DynamicColors.CustomColors.text5)
+      InternalLink(page: AppearancesPage().page, title: L10n.Appearances.title)
+    }
+  }
 
+  var code: some View {
+    Group {
+      Text(L10n.DynamicColors.CustomColors.text3)
+      Code.uikit(
+        """
+        extension UIColor {
+          static var myColor: UIColor {
+            UIColor { (traitCollection: UITraitCollection) -> UIColor in
+              if traitCollection.userInterfaceStyle == .dark {
+                return Colors.myColorDarkMode
+              } else {
+                return Colors.myColorLightMode
+              }
+            }
+          }
+        }
+        """
+      )
+      Text(L10n.DynamicColors.CustomColors.text4)
+      Code.swiftUI(
+        """
+        @Environment(\\.colorScheme)
+        var colorScheme
+
+        var body: some View {
+          Text("")
+            .foregroundColor(myColor)
+        }
+
+        var myColor: Color {
+          switch colorScheme {
+          case .light:
+            return Colors.myColorLightMode
+          case .dark:
+            return Colors.myColorDarkMode
+          }
+        }
+        """
+      )
     }
   }
 }

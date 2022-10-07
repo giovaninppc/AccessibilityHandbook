@@ -47,6 +47,8 @@ private extension SyntaxHighlight {
     highlight(match: "if ", color: .systemPurple, bolded: true)
     highlight(match: "else ", color: .systemPurple, bolded: true)
     highlight(match: "@[A-Za-z]*", color: .systemPink, bolded: true)
+    highlight(match: "extension ", color: .systemPink, bolded: true)
+    highlight(match: "static ", color: .systemPink, bolded: true)
   }
 
   func types() {

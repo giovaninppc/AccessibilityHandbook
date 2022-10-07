@@ -856,12 +856,28 @@ internal enum L10n {
   internal enum DynamicColors {
     /// Dynamic colors
     internal static let title = L10n.tr("Localizable", "DynamicColors.title")
+    internal enum CustomColors {
+      /// Apple's documentation suggests usign Color Assets for this, which we'll cover in the following page.
+      internal static let comment1 = L10n.tr("Localizable", "DynamicColors.CustomColors.comment1")
+      /// When using custom colors, you will need to manually select the correct color for the current appearance.
+      internal static let text1 = L10n.tr("Localizable", "DynamicColors.CustomColors.text1")
+      /// But most of the time we have a separate library for our colors or a JSON file with the hex codes, and we manually create our color objects.
+      internal static let text2 = L10n.tr("Localizable", "DynamicColors.CustomColors.text2")
+      /// We can use a specific init in the 'UIColor' object, which gives the current UITraitCollection object, to wrap our color file and help us define the correct color for the context.
+      internal static let text3 = L10n.tr("Localizable", "DynamicColors.CustomColors.text3")
+      /// And in SwiftUI we can use the color scheme Environment property to help us define the correct color.
+      internal static let text4 = L10n.tr("Localizable", "DynamicColors.CustomColors.text4")
+      /// The issue, most of the times, is supporting changes on the color scheme with the app running. Make sure to reload the colors on your UIView or ude the color scheme Environment property on your SwiftUI Views.
+      internal static let text5 = L10n.tr("Localizable", "DynamicColors.CustomColors.text5")
+      /// Custom colors
+      internal static let title = L10n.tr("Localizable", "DynamicColors.CustomColors.title")
+    }
     internal enum Intro {
       /// When talking about supporting Dark Mode, 'dynamic colors' is the capability of colors to correctly adjust themselves to the current color scheme.
       internal static let text1 = L10n.tr("Localizable", "DynamicColors.Intro.text1")
     }
     internal enum SystemColors {
-      /// SwiftUI 'Color' currently does not have these system colors, but you can map the 'UIColor' object into a 'Color' on of you want.
+      /// SwiftUI 'Color' currently does not have these system colors, but you can map the 'UIColor' object into a 'Color' if you want.
       internal static let comment1 = L10n.tr("Localizable", "DynamicColors.SystemColors.comment1")
       /// When using System colors, they may automatically adjust themselves to the current color scheme.
       internal static let text1 = L10n.tr("Localizable", "DynamicColors.SystemColors.text1")
@@ -878,20 +894,22 @@ internal enum L10n {
     /// Dynamic Assets
     internal static let title = L10n.tr("Localizable", "DynamicContent.title")
     internal enum Intro {
-      /// When takling about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other content can also be adapted to different modes.
+      /// When takling about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other contents can also be adapted to different modes.
       internal static let text1 = L10n.tr("Localizable", "DynamicContent.Intro.text1")
-      /// Here we'll be addressing assets, specially images.
+      /// Here we'll be addressing assets, specially images, but the same thing applies to color assets.
       internal static let text2 = L10n.tr("Localizable", "DynamicContent.Intro.text2")
     }
     internal enum XCTAssets {
       /// Above is an image of the Xcode's asset catalog. When selecting an image asset, the right panel will display the 'Appearance' option, which you can enable to add images for light and dark modes.
       internal static let image1 = L10n.tr("Localizable", "DynamicContent.XCTAssets.image1")
-      /// When using XCAssets on Xcode, they provide options to support different assets for different color schemes, along side multiple assets for different screen dimensions.
+      /// When using XCAssets on Xcode, they provide options to support different assets for different color schemes, along side multiple assets for different screen dimensions. This can be used in both images and color assets.
       internal static let text1 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text1")
-      /// Specially when the assets have background colors or are difficult to see on a specific color scheme, you can provide different assets for them.
+      /// Specially when the images have background colors or are difficult to see on a specific color scheme, you can provide different assets for them.
       internal static let text2 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text2")
       /// When switching from dark/light mode and if you are using the XCTAssets the images will automatically change themselves to the correct version.
       internal static let text3 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text3")
+      /// The examples below have been built using the XCTAssets and have different assets for each color scheme. Change between light and dark mode and check how they behave.
+      internal static let text4 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text4")
       /// XCAssets
       internal static let title = L10n.tr("Localizable", "DynamicContent.XCTAssets.title")
     }
