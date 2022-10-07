@@ -853,6 +853,29 @@ internal enum L10n {
     }
   }
 
+  internal enum DynamicContent {
+    /// Dynamic Assets
+    internal static let title = L10n.tr("Localizable", "DynamicContent.title")
+    internal enum Intro {
+      /// When takling about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other content can also be adapted to different modes.
+      internal static let text1 = L10n.tr("Localizable", "DynamicContent.Intro.text1")
+      /// Here we'll be addressing assets, specially images.
+      internal static let text2 = L10n.tr("Localizable", "DynamicContent.Intro.text2")
+    }
+    internal enum XCTAssets {
+      /// Above is an image of the Xcode's asset catalog. When selecting an image asset, the right panel will display the 'Appearance' option, which you can enable to add images for light and dark modes.
+      internal static let image1 = L10n.tr("Localizable", "DynamicContent.XCTAssets.image1")
+      /// When using XCAssets on Xcode, they provide options to support different assets for different color schemes, along side multiple assets for different screen dimensions.
+      internal static let text1 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text1")
+      /// Specially when the assets have background colors or are difficult to see on a specific color scheme, you can provide different assets for them.
+      internal static let text2 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text2")
+      /// When switching from dark/light mode and if you are using the XCTAssets the images will automatically change themselves to the correct version.
+      internal static let text3 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text3")
+      /// XCAssets
+      internal static let title = L10n.tr("Localizable", "DynamicContent.XCTAssets.title")
+    }
+  }
+
   internal enum DynamicFonts {
     /// Implementing Dynamic Fonts
     internal static let implementing = L10n.tr("Localizable", "DynamicFonts.implementing")
@@ -1791,6 +1814,31 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "TheUpsideDown.text2")
     /// The Upside Down
     internal static let title = L10n.tr("Localizable", "TheUpsideDown.title")
+  }
+
+  internal enum TintableImages {
+    /// Providing images for different appearances
+    internal static let doc = L10n.tr("Localizable", "TintableImages.doc")
+    /// Tintable images
+    internal static let title = L10n.tr("Localizable", "TintableImages.title")
+    internal enum Example {
+      /// The image above was built using a template image. When no tint color is provided, it's going to use the default color for the image. This is a good approach for icons you may have on your UI.
+      internal static let text1 = L10n.tr("Localizable", "TintableImages.Example.text1")
+      /// But you can specify custom tint colors. Remember to keep these colors also adapted to each color scheme available.
+      internal static let text2 = L10n.tr("Localizable", "TintableImages.Example.text2")
+      /// And if you haven't set the asset as a 'template image' on the XCTAssets, you can force the template on code as well.
+      internal static let text3 = L10n.tr("Localizable", "TintableImages.Example.text3")
+    }
+    internal enum TintableImages {
+      /// When you add a template image to a button or image view, you also specify a tint color. The view applies the tint color to every pixel that doesn’t have an alpha of 0.0, causing the image’s shape to adopt that color. To support different appearances, simply change the tint color. For example, you might apply a dark tint color in light environments and a light tint color in dark environments.
+      internal static let citation1 = L10n.tr("Localizable", "TintableImages.TintableImages.citation1")
+      /// When creating your image, use a transparent background and add black pixels wherever you want the image to appear. The pixels can be fully or partially opaque, depending on whether you want portions of your template image to blend with the background colors. When adding the image to your asset catalog, set the Render As option for the Image Set asset to Template Image in the inspector.
+      internal static let citation2 = L10n.tr("Localizable", "TintableImages.TintableImages.citation2")
+      /// You don't necessarily need to have different assets for different color schemes. One thing you can use with XCAssets are tintable images. It means adding the image as a template, and defining it's color later.
+      internal static let text1 = L10n.tr("Localizable", "TintableImages.TintableImages.text1")
+      /// From Apple's documentation:
+      internal static let text2 = L10n.tr("Localizable", "TintableImages.TintableImages.text2")
+    }
   }
 
   internal enum UIContentSizeCategory {

@@ -11,7 +11,7 @@ struct DynamicColorsPage: View, Page {
   let title: String = "Dynamic colors"
 
   var body: some View {
-    PageContent(next: DynamicContentPage()) {
+    PageContent(next: DynamicColoredAssetsPage()) {
       Group {
 
       }

@@ -14,6 +14,7 @@ struct DarkModeSection: Section {
     WhatIsDarkModePage(),
     AppearancesPage(),
     DynamicColorsPage(),
-    DynamicContentPage()
+    DynamicColoredAssetsPage(),
+    TintableImagesPage()
   ]
 }
