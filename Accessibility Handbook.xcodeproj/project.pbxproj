@@ -37,6 +37,7 @@
 		3F6DBDF628F089A6001B9F88 /* Citation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DBDF528F089A6001B9F88 /* Citation.swift */; };
 		3F6DBDF828F08DE0001B9F88 /* TintableImagesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6DBDF728F08DE0001B9F88 /* TintableImagesPage.swift */; };
 		3F79FF3328F0C871002DA8FD /* ColorAsset+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F79FF3228F0C871002DA8FD /* ColorAsset+extensions.swift */; };
+		3F79FF3528F44F8C002DA8FD /* AnAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F79FF3428F44F8C002DA8FD /* AnAlternative.swift */; };
 		3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */; };
 		3FB6C10328DA6368000A5503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10228DA6368000A5503 /* Assets.xcassets */; };
 		3FB6C10628DA6368000A5503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6C10528DA6368000A5503 /* Preview Assets.xcassets */; };
@@ -173,6 +174,7 @@
 		3F6DBDF528F089A6001B9F88 /* Citation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citation.swift; sourceTree = "<group>"; };
 		3F6DBDF728F08DE0001B9F88 /* TintableImagesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintableImagesPage.swift; sourceTree = "<group>"; };
 		3F79FF3228F0C871002DA8FD /* ColorAsset+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorAsset+extensions.swift"; sourceTree = "<group>"; };
+		3F79FF3428F44F8C002DA8FD /* AnAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnAlternative.swift; sourceTree = "<group>"; };
 		3FB6C0FB28DA6367000A5503 /* Accessibility Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB6C0FE28DA6367000A5503 /* Accessibility_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_HandbookApp.swift; sourceTree = "<group>"; };
 		3FB6C10228DA6368000A5503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -575,6 +577,7 @@
 				3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */,
 				3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */,
 				3FC1C36A28EC5DD500C1E009 /* IncreasingHints.swift */,
+				3F79FF3428F44F8C002DA8FD /* AnAlternative.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -932,6 +935,7 @@
 				3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */,
 				3F6C5ABF28E394D000B12065 /* AboutFontsPage.swift in Sources */,
 				3FBF060728DB890900DA5BF5 /* HapticList.swift in Sources */,
+				3F79FF3528F44F8C002DA8FD /* AnAlternative.swift in Sources */,
 				3FBF057128DA6F0200DA5BF5 /* UsingTheVoiceOverSection.swift in Sources */,
 				3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */,
 				3FBF05C528DB4F3D00DA5BF5 /* ColorsSections.swift in Sources */,

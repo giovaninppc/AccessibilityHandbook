@@ -692,6 +692,9 @@
 "IncreasingHints.hint8" = "O número faltante é o mesmo que o último!";
 "IncreasingHints.unspecified" = "Estou perdido... não sei o que dizer.";
 
+"AnAlternative.title" = "Uma alternativa";
+"AnAlternative.text" = "Você precisa alternar entre... alguma coisa... e ativar os elementos na ordem correta.";
+
 // Actions
 
 "doubleTapToCopy" = "Toque duas vezes para copiar";

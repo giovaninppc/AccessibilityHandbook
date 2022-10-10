@@ -692,6 +692,9 @@
 "IncreasingHints.hint8" = "The missing number is the same as the last one!";
 "IncreasingHints.unspecified" = "I'm super lost... I don't know what ot say.";
 
+"AnAlternative.title" = "An alternative";
+"AnAlternative.text" = "You should alternate between... something... and try to enable items in the correct order.";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";

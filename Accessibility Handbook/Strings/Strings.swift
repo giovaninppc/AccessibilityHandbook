@@ -531,6 +531,13 @@ internal enum L10n {
     }
   }
 
+  internal enum AnAlternative {
+    /// You should alternate between... something... and try to enable items in the correct order.
+    internal static let text = L10n.tr("Localizable", "AnAlternative.text")
+    /// An alternative
+    internal static let title = L10n.tr("Localizable", "AnAlternative.title")
+  }
+
   internal enum Announcement {
     /// To me, that's where the announcements shine!
     internal static let comment1 = L10n.tr("Localizable", "Announcement.comment1")

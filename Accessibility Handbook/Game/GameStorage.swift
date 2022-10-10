@@ -21,6 +21,7 @@ enum GameKeys: String, StorageKey {
   case theUpsideDown
   case superFriend
   case increasingHints
+  case anAlternative
 }
 
 enum GameStates {
@@ -62,4 +63,7 @@ enum GameStates {
 
   @Stored(key: GameKeys.increasingHints, default: false)
   static var increasingHintsCompleted: Bool
+
+  @Stored(key: GameKeys.anAlternative, default: false)
+  static var anAlternativeCompleted: Bool
 }
