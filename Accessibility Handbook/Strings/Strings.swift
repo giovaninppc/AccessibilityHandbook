@@ -580,7 +580,7 @@ internal enum L10n {
       internal static let title = L10n.tr("Localizable", "Appearances.Code.title")
     }
     internal enum Intro {
-      /// In this content, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.
+      /// In this context, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.
       internal static let text1 = L10n.tr("Localizable", "Appearances.Intro.text1")
       /// We can identify which of these the user has currently selected and adjust our content accordingly.
       internal static let text2 = L10n.tr("Localizable", "Appearances.Intro.text2")
@@ -894,7 +894,7 @@ internal enum L10n {
     /// Dynamic Assets
     internal static let title = L10n.tr("Localizable", "DynamicContent.title")
     internal enum Intro {
-      /// When takling about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other contents can also be adapted to different modes.
+      /// When talking about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other contents can also be adapted to different modes.
       internal static let text1 = L10n.tr("Localizable", "DynamicContent.Intro.text1")
       /// Here we'll be addressing assets, specially images, but the same thing applies to color assets.
       internal static let text2 = L10n.tr("Localizable", "DynamicContent.Intro.text2")

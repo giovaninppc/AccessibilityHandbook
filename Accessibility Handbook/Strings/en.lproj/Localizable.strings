@@ -1011,7 +1011,7 @@
 
 "Appearances.title" = "Appearance changes";
 
-"Appearances.Intro.text1" = "In this content, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.";
+"Appearances.Intro.text1" = "In this context, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.";
 "Appearances.Intro.text2" = "We can identify which of these the user has currently selected and adjust our content accordingly.";
 
 "Appearances.Code.title" = "Identify current color scheme";
@@ -1025,7 +1025,7 @@
 // Dynamic Content
 
 "DynamicContent.title" = "Dynamic Assets";
-"DynamicContent.Intro.text1" = "When takling about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other contents can also be adapted to different modes.";
+"DynamicContent.Intro.text1" = "When talking about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other contents can also be adapted to different modes.";
 "DynamicContent.Intro.text2" = "Here we'll be addressing assets, specially images, but the same thing applies to color assets.";
 
 "DynamicContent.XCTAssets.title" = "XCAssets";
