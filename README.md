@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/github/license/giovaninppc/AccessibilityHandbook)](https://opensource.org/licenses/MIT)
 ![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue)
 ![SwiftUI](https://img.shields.io/badge/-SwiftUI-orange)
+[![Build Status](https://github.com/giovaninppc/AccessibilityHandbook/actions/workflows/build.yml/badge.svg)](https://github.com/giovaninppc/AccessibilityHandbook/actions/workflows/build.yml)
 
 An iOS Accessibility guide, demonstrating several accessibility features, how to use and how to implement them with examples in UIKit and SwiftUI.
 
