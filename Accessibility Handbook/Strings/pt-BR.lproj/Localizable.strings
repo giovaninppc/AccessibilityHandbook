@@ -692,6 +692,9 @@
 "IncreasingHints.hint8" = "O número faltante é o mesmo que o último!";
 "IncreasingHints.unspecified" = "Estou perdido... não sei o que dizer.";
 
+"AnAlternative.title" = "Uma alternativa";
+"AnAlternative.text" = "Você precisa alternar entre... alguma coisa... e ativar os elementos na ordem correta.";
+
 // Actions
 
 "doubleTapToCopy" = "Toque duas vezes para copiar";
@@ -979,3 +982,93 @@
 "PreferCrossFadePage.comment1" = "Este app foi constru;ido uma navigation stack padrão, vá até as configurações do seu dispositivo, altere esta opção de acessibilidade e volte. Depois, navegue entre as telas do app e veja que a animação terá mudado para um cross-fade.";
 "PreferCrossFadePage.text4" = "Você também pode verificar se esta opçã está habilitada para fazer tratamentos manuais nas suas animações..";
 "PreferCrossFadePage.comment2" = "Quando ativado, tamb;em signifca que a opção 'Reduzir animações' também está ativada.";
+
+// WhatIsDarkMode
+
+"darkMode" = "Dark mode";
+"lighMode" = "Light mode";
+"youAreCurrentlyOn" = "Você está no: %@";
+
+"WhatIsDarkMode.title" = "O que é 'Dark Mode'?";
+
+"WhatIsDarkMode.Intro.text1" = "Modo escuro, ou 'Dark mode', é a habilidade de mudar a interface para uma aparência mais escura. Onde, geralmente, as cores de fundo consistem em cores escuras sobrepostas por conteúdo em cores mais claras.";
+"WhatIsDarkMode.Intro.comment1" = "A existência de um modo escuro implica na existência o modo claro, ou 'light mode', que é o oposto do modo escuro - cores de fundo claras com elementos escuros na frente.";
+"WhatIsDarkMode.Intro.text2" = "Às vezes, é uma preferência estética para o usuário. No MacOS pode ser configurado para alternar entre os temas de acrodo com condições do ambiente de luminosidade.";
+"WhatIsDarkMode.Intro.text3" = "Mas, além disso, suportar o Dark mode pode ser uma forma de acessibilidade. Os usuários podem preferir a leitura de conteúdo claso no fundo escuro, especialmente em ambientes de pouca luz.";
+"WhatIsDarkMode.Intro.comment2" = "Você pode ler mais na página sobre Inverter socres para mais informações.";
+
+"WhatIsDarkMode.DoINeedIt.title" = "Preciso ter um modo escuro?";
+"WhatIsDarkMode.DoINeedIt.text1" = "Às vezes, sua interface não precisa suportar o modo escure. Tallvez seja um jogo que tem a interface com cores especificamente selecionadas, ou a cor do conteúdo tem um papel maior na compreensão da sua aplicação.";
+"WhatIsDarkMode.DoINeedIt.text2" = "Mas quando estamos falando de apps que, em sua maioria, são conteúdo escrito, que o usuário precisa ler para compreender e entender, ou usam branco como a cor padrão de cundo, são bons exemplos de apps que poderiam suportar o modo escuro.";
+"WhatIsDarkMode.DoINeedIt.text3" = "Talvez para dar a escolha estética, mas também suportar aqueles que preferem o modo escuro para legibilidade do conteúdo ou melhorar a leitura em ambientes de baixa luminosidade.";
+
+"WhatIsDarkMode.ThisAppSupports.title" = "Este app suporta o dark mode!";
+"WhatIsDarkMode.ThisAppSupports.text1" = "O Handbook suporta o modo escuro. Se você está usando um dispositivo iOS, você pode mudar sua aparência nas configurações do disposiivo.";
+"WhatIsDarkMode.ThisAppSupports.text2" = "Ou usar o centro de controle (o menu que você puxa para baixo do canto superior direito) como um atalho. Dê um 'long press' nas opções de luminosidade da sua tela, e ele irá mostrar a opção de alternar entre os modos claro e escuro.";
+"WhatIsDarkMode.ThisAppSupports.text3" = "E se você está usando um simulador iOS no Mac, você pode mudar a aparência rapidamente usando um atalho no teclado.";
+"WhatIsDarkMode.ThisAppSupports.command" = "Command + shift + A";
+"WhatIsDarkMode.ThisAppSupports.comment1" = "Eu recomendo fortemente ler a documentação da Applu no 'Human Interface Guidelines' sobre Dark Mode.";
+"WhatIsDarkMode.ThisAppSupports.image" = "Exemplo do centro de controle depois de um long press nas opções de luminosidade do display.";
+
+// Appearances
+
+"Appearances.title" = "Mudanças de aparência";
+
+"Appearances.Intro.text1" = "Neste contexto, 'aparências' é o grupo de possíveis esquema de cor da interface que o usuário pode selecionar. Atualmente: Claro ou Escuro.";
+"Appearances.Intro.text2" = "Podemos identifica qual destes o usuário tem selecionado e ajustar nosso conteúdo de acordo.";
+
+"Appearances.Code.title" = "Identifica esquema de cores";
+"Appearances.Code.text1" = "Em SwiftUI, é tão fácil quanto usar uma variável de ambiente. Então, sua UI será automaticamente notificada quando um usuário mudar essa configuração e irá atualizar a sua interface automaticamente.";
+"Appearances.Code.text2" = "E, claro, em UIKit as coisas são um pouco mais complicadas. Você vai precisar usar o objeto de 'UITraitCollection'.";
+"Appearances.Code.comment1" = "A grande diferença é a existência de um caso `unspecified` no enum 'UIUserInterfaceStyle', (porque é claro que ele existe), mas nesse caso, você pode usar o 'unspecified' como o seu esquema padrão de cores.";
+"Appearances.Code.text3" = "E, para suportar mudanças dinâmicas no esquema de cores com seua aplicação aberta, você precisa ouvir as mudanças no trait collection, e atualizar sua interface quando ela mudar o esquema de cores.";
+
+"Appearances.supportingDarkMode" = "Suportando o modo escuro";
+
+// Dynamic Content
+
+"DynamicContent.title" = "Assets Dinâmicos";
+"DynamicContent.Intro.text1" = "Quando falamos sobre suportar o modo escuro, não estamos falando apenas de cores, mas outros conteúdos podem ser adaptados para esquema de cores diferentes.";
+"DynamicContent.Intro.text2" = "Aqui vamos discutir melhor assets, em especial imagens, mas o mesmo se aplica para assets de cores.";
+
+"DynamicContent.XCTAssets.title" = "XCAssets";
+"DynamicContent.XCTAssets.text1" = "Quando usando o XCAssets no Xcode, eles provém opções para adicionar assets diferentes para esquemas de cores distintos, além de múltiplos assets para dimensões diferentes de tela.";
+"DynamicContent.XCTAssets.text2" = "Especialmente quando imagens tem uma cor de fundo, ou são difíceis de serem vistas no seu esquema de cores atual, você pode adicionar variantes nessas imagens para cada esquema de cor.";
+"DynamicContent.XCTAssets.image1" = "Acima, está uma imagem do catálogo de assets do Xcode. Quando selecionando um asset de imagem, no painel direito você pode mudar as opções de 'Appearance', ou aparência, que você pode habilitar para adicionar imagens diferentes para os modos claro e escuro.";
+"DynamicContent.XCTAssets.text3" = "Quando mudando entre os modos claro/escuro, se você está suando os assets no XCTAssets, as imagens irão mudar automaticamente para a versão correta da sua interface.";
+"DynamicContent.XCTAssets.text4" = "O exemplo acima foi construído usando XCTAssets, e tem variações diferentes para cada esquema de cor. ude entre os modos claro e escuro e veja como eles se comportam.";
+
+// Tintable images
+
+"TintableImages.title" = "'Tintable images'";
+"TintableImages.TintableImages.text1" = "Você não precisa necessariamente ter 2 assets com cores diferentes para cada esquema de cor. Uma outra opção é usar 'tintable images' (numa tradução literal seria 'imagens coloríveis', mas é uma referência a propriedade 'tintColor' das 'UIImageViews'). Isso significa adicionar uma imagem como 'template', e definir a sua cor depois, programaticamente.";
+"TintableImages.TintableImages.text2" = "Da documentação da Apple:";
+"TintableImages.TintableImages.citation1" = "Quando você adicionar uma imagem como template a um botão ou image view, você também especifica um 'tint color'. A view aplica essa cor a cada pixel que não tem alpha 0.0, causando com que a forma da imagem adore a cor escolhida. Para suportar aparências distintas, você pode apenas mudar esta cor.";
+"TintableImages.TintableImages.citation2" = "Quando criando a sua imagem, use um fundo tranaparente e pixeis pretos onde você quer que a imagem apareça. Os pixels podem ser pacialmente opacos, dependendo se você quer que parte da sua imagem mescle com as cores de fundo. Quando adicionar a imagem ao seu catálogo de assets, configure para ser renderizada como uma imagem de template.";
+
+"TintableImages.Example.text1" = "A imagem acima foi adicionada como um template. Quando nenhuma 'tint color' é adicionada, ela usa as cores padrão do sistema e do seu esquema de cores atual. Esta é auma boa abordagem para ícones que você pode ter na sua interface.";
+"TintableImages.Example.text2" = "Mas você pode especificar 'tint colors' customizadas. Lembre-se de manter as cores adaptadas a cada esquema de cor disponível.";
+"TintableImages.Example.text3" = "E se você não configurou a imagem como uma 'template image' no catálogo de assets, você pode forçar essa opção em código.";
+
+"TintableImages.doc" = "Providing images for different appearances";
+
+// Dynamic colors
+
+"DynamicColors.title" = "Cores dinâmicas";
+
+"DynamicColors.Intro.text1" = "Quando falamos em suportar o modo escuro, vores dinâmicas são cores que se adaptam automaticamente ao esquema de cores selecionado no sistema.";
+
+"DynamicColors.SystemColors.title" = "Cores do sistema";
+"DynamicColors.SystemColors.text1" = "Quando usando as cores do sistema, elas podem se ajustar automaticamente ao esquema de cores atual.";
+"DynamicColors.SystemColors.text2" = "Isto é verdade, por exemplo, para as cores de texto e de fundo do sistema.";
+"DynamicColors.SystemColors.text3" = "'UIColors' também tem cores com o prefixo 'system', qu significa que elas são adaptáveis para o esquema de cores atual.";
+"DynamicColors.SystemColors.comment1" = "Em SwiftUI o 'Color' atualmente não suporta essas cores de sistema, mas você pode mapear o opbeto de 'UIColor' em um objeto de 'Color' caso seja necessário.";
+
+"DynamicColors.CustomColors.title" = "Cores customizadas";
+"DynamicColors.CustomColors.text1" = "Quando usando cores customizadas, você vai precisar selecionar manualmente a cor ideal para o seu esquema de cores.";
+"DynamicColors.CustomColors.comment1" = "A documentação da Apple sugere usar os assets de cor no XCAssets para isso, que iremos cobrir na página a seguir.";
+"DynamicColors.CustomColors.text2" = "Mas muitas vezes, temos as cores em uma biblioteca separada, ou um arquivo JSON com os códigos hexadecimais de cada cor da noss interface, e criamos os objetos de cor manualmente.";
+"DynamicColors.CustomColors.text3" = "Então, precisamos de uma forma de mudar nossas cores quando necessário.";
+"DynamicColors.CustomColors.text3" = "Podemos usar um inicializador específico no objeto de 'UIColor', que nos dá o 'UITraitCollection' atual, permitindo que retornemos a cor correta para o esquema de cores atual.";
+"DynamicColors.CustomColors.text4" = "E em SwiftUI podemos usar a variável de ambiente do esquema de cores para nos ajudar a decidir qual a core correta a usar.";
+"DynamicColors.CustomColors.text5" = "O maior problema, na maioria das vezes, é suportar a mudança dinâmica de esquema de cores, quando o usuário faz alterações com o seu app sendo executado. Garanta que as cores das suas UIViews são recarregadas quando mudanças acontecerem, ou usar a variável de ambiente correta em SwiftUI para identificar o mesmo efeito.";

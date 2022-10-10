@@ -44,6 +44,8 @@ internal enum L10n {
   internal static let contentHiererachy = L10n.tr("Localizable", "ContentHiererachy")
   /// Copy Code
   internal static let copyCode = L10n.tr("Localizable", "copyCode")
+  /// Dark Mode
+  internal static let darkMode = L10n.tr("Localizable", "darkMode")
   /// Dedicated page
   internal static let dedicatedPage = L10n.tr("Localizable", "dedicatedPage")
   /// Delete
@@ -94,6 +96,8 @@ internal enum L10n {
   internal static let iceCream = L10n.tr("Localizable", "iceCream")
   /// Interaction
   internal static let interactrion = L10n.tr("Localizable", "interactrion")
+  /// Light Mode
+  internal static let lighMode = L10n.tr("Localizable", "lighMode")
   /// Lobster
   internal static let lobster = L10n.tr("Localizable", "lobster")
   /// Maximum
@@ -168,6 +172,10 @@ internal enum L10n {
   internal static let voiceOverGuide = L10n.tr("Localizable", "VoiceOverGuide")
   /// Weather Icons
   internal static let weatherIcons = L10n.tr("Localizable", "weatherIcons")
+  /// You are currently on: %@
+  internal static func youAreCurrentlyOn(_ p1: Any) -> String {
+    return L10n.tr("Localizable", "youAreCurrentlyOn", String(describing: p1))
+  }
 
   internal enum AColorfulMessage {
     /// It is a 6 digit password
@@ -523,6 +531,13 @@ internal enum L10n {
     }
   }
 
+  internal enum AnAlternative {
+    /// You should alternate between... something... and try to enable items in the correct order.
+    internal static let text = L10n.tr("Localizable", "AnAlternative.text")
+    /// An alternative
+    internal static let title = L10n.tr("Localizable", "AnAlternative.title")
+  }
+
   internal enum Announcement {
     /// To me, that's where the announcements shine!
     internal static let comment1 = L10n.tr("Localizable", "Announcement.comment1")
@@ -551,6 +566,31 @@ internal enum L10n {
       internal static let negative = L10n.tr("Localizable", "Announcement.Notifications.negative")
       /// Oh the values are increasing!
       internal static let small = L10n.tr("Localizable", "Announcement.Notifications.small")
+    }
+  }
+
+  internal enum Appearances {
+    /// Supporting dark mode.
+    internal static let supportingDarkMode = L10n.tr("Localizable", "Appearances.supportingDarkMode")
+    /// Appearance changes
+    internal static let title = L10n.tr("Localizable", "Appearances.title")
+    internal enum Code {
+      /// The main complication is the existence of the `unspecified` case in the 'UIUserInterfaceStyle' enum, (because of course it exists) but in this case, just throw your default variation of the content.
+      internal static let comment1 = L10n.tr("Localizable", "Appearances.Code.comment1")
+      /// In SwiftUI, it's as easy as an Environment variable. So it will automatically be notified whenever the user changes this setting, and your app will adjust itself automatically.
+      internal static let text1 = L10n.tr("Localizable", "Appearances.Code.text1")
+      /// And, of course, things are a little more complicated in UIKit, you need to use the 'UITraitCollection' object.
+      internal static let text2 = L10n.tr("Localizable", "Appearances.Code.text2")
+      /// And, in order to handle dynamic changes on the user interface style, you need to listen to changes on the trait collection object in a UIView or UIViewController, and update your content whenever it changes.
+      internal static let text3 = L10n.tr("Localizable", "Appearances.Code.text3")
+      /// Identify current color scheme
+      internal static let title = L10n.tr("Localizable", "Appearances.Code.title")
+    }
+    internal enum Intro {
+      /// In this context, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.
+      internal static let text1 = L10n.tr("Localizable", "Appearances.Intro.text1")
+      /// We can identify which of these the user has currently selected and adjust our content accordingly.
+      internal static let text2 = L10n.tr("Localizable", "Appearances.Intro.text2")
     }
   }
 
@@ -817,6 +857,68 @@ internal enum L10n {
       internal static let text1 = L10n.tr("Localizable", "DismissPage.Handle.text1")
       /// On SwiftUI, it's the same as adding a 'Magic Tap' action, but using the escape type.
       internal static let text2 = L10n.tr("Localizable", "DismissPage.Handle.text2")
+    }
+  }
+
+  internal enum DynamicColors {
+    /// Dynamic colors
+    internal static let title = L10n.tr("Localizable", "DynamicColors.title")
+    internal enum CustomColors {
+      /// Apple's documentation suggests usign Color Assets for this, which we'll cover in the following page.
+      internal static let comment1 = L10n.tr("Localizable", "DynamicColors.CustomColors.comment1")
+      /// When using custom colors, you will need to manually select the correct color for the current appearance.
+      internal static let text1 = L10n.tr("Localizable", "DynamicColors.CustomColors.text1")
+      /// But most of the time we have a separate library for our colors or a JSON file with the hex codes, and we manually create our color objects.
+      internal static let text2 = L10n.tr("Localizable", "DynamicColors.CustomColors.text2")
+      /// We can use a specific init in the 'UIColor' object, which gives the current UITraitCollection object, to wrap our color file and help us define the correct color for the context.
+      internal static let text3 = L10n.tr("Localizable", "DynamicColors.CustomColors.text3")
+      /// And in SwiftUI we can use the color scheme Environment property to help us define the correct color.
+      internal static let text4 = L10n.tr("Localizable", "DynamicColors.CustomColors.text4")
+      /// The issue, most of the times, is supporting changes on the color scheme with the app running. Make sure to reload the colors on your UIView or ude the color scheme Environment property on your SwiftUI Views.
+      internal static let text5 = L10n.tr("Localizable", "DynamicColors.CustomColors.text5")
+      /// Custom colors
+      internal static let title = L10n.tr("Localizable", "DynamicColors.CustomColors.title")
+    }
+    internal enum Intro {
+      /// When talking about supporting Dark Mode, 'dynamic colors' is the capability of colors to correctly adjust themselves to the current color scheme.
+      internal static let text1 = L10n.tr("Localizable", "DynamicColors.Intro.text1")
+    }
+    internal enum SystemColors {
+      /// SwiftUI 'Color' currently does not have these system colors, but you can map the 'UIColor' object into a 'Color' if you want.
+      internal static let comment1 = L10n.tr("Localizable", "DynamicColors.SystemColors.comment1")
+      /// When using System colors, they may automatically adjust themselves to the current color scheme.
+      internal static let text1 = L10n.tr("Localizable", "DynamicColors.SystemColors.text1")
+      /// This is true to background and label colors.
+      internal static let text2 = L10n.tr("Localizable", "DynamicColors.SystemColors.text2")
+      /// UIColors also have colors with the 'system' preffix, which means they are adaptable to color scheme as well.
+      internal static let text3 = L10n.tr("Localizable", "DynamicColors.SystemColors.text3")
+      /// System colors
+      internal static let title = L10n.tr("Localizable", "DynamicColors.SystemColors.title")
+    }
+  }
+
+  internal enum DynamicContent {
+    /// Dynamic Assets
+    internal static let title = L10n.tr("Localizable", "DynamicContent.title")
+    internal enum Intro {
+      /// When talking about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other contents can also be adapted to different modes.
+      internal static let text1 = L10n.tr("Localizable", "DynamicContent.Intro.text1")
+      /// Here we'll be addressing assets, specially images, but the same thing applies to color assets.
+      internal static let text2 = L10n.tr("Localizable", "DynamicContent.Intro.text2")
+    }
+    internal enum XCTAssets {
+      /// Above is an image of the Xcode's asset catalog. When selecting an image asset, the right panel will display the 'Appearance' option, which you can enable to add images for light and dark modes.
+      internal static let image1 = L10n.tr("Localizable", "DynamicContent.XCTAssets.image1")
+      /// When using XCAssets on Xcode, they provide options to support different assets for different color schemes, along side multiple assets for different screen dimensions. This can be used in both images and color assets.
+      internal static let text1 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text1")
+      /// Specially when the images have background colors or are difficult to see on a specific color scheme, you can provide different assets for them.
+      internal static let text2 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text2")
+      /// When switching from dark/light mode and if you are using the XCTAssets the images will automatically change themselves to the correct version.
+      internal static let text3 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text3")
+      /// The examples below have been built using the XCTAssets and have different assets for each color scheme. Change between light and dark mode and check how they behave.
+      internal static let text4 = L10n.tr("Localizable", "DynamicContent.XCTAssets.text4")
+      /// XCAssets
+      internal static let title = L10n.tr("Localizable", "DynamicContent.XCTAssets.title")
     }
   }
 
@@ -1760,6 +1862,31 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "TheUpsideDown.title")
   }
 
+  internal enum TintableImages {
+    /// Providing images for different appearances
+    internal static let doc = L10n.tr("Localizable", "TintableImages.doc")
+    /// Tintable images
+    internal static let title = L10n.tr("Localizable", "TintableImages.title")
+    internal enum Example {
+      /// The image above was built using a template image. When no tint color is provided, it's going to use the default color for the image. This is a good approach for icons you may have on your UI.
+      internal static let text1 = L10n.tr("Localizable", "TintableImages.Example.text1")
+      /// But you can specify custom tint colors. Remember to keep these colors also adapted to each color scheme available.
+      internal static let text2 = L10n.tr("Localizable", "TintableImages.Example.text2")
+      /// And if you haven't set the asset as a 'template image' on the XCTAssets, you can force the template on code as well.
+      internal static let text3 = L10n.tr("Localizable", "TintableImages.Example.text3")
+    }
+    internal enum TintableImages {
+      /// When you add a template image to a button or image view, you also specify a tint color. The view applies the tint color to every pixel that doesn’t have an alpha of 0.0, causing the image’s shape to adopt that color. To support different appearances, simply change the tint color. For example, you might apply a dark tint color in light environments and a light tint color in dark environments.
+      internal static let citation1 = L10n.tr("Localizable", "TintableImages.TintableImages.citation1")
+      /// When creating your image, use a transparent background and add black pixels wherever you want the image to appear. The pixels can be fully or partially opaque, depending on whether you want portions of your template image to blend with the background colors. When adding the image to your asset catalog, set the Render As option for the Image Set asset to Template Image in the inspector.
+      internal static let citation2 = L10n.tr("Localizable", "TintableImages.TintableImages.citation2")
+      /// You don't necessarily need to have different assets for different color schemes. One thing you can use with XCAssets are tintable images. It means adding the image as a template, and defining it's color later.
+      internal static let text1 = L10n.tr("Localizable", "TintableImages.TintableImages.text1")
+      /// From Apple's documentation:
+      internal static let text2 = L10n.tr("Localizable", "TintableImages.TintableImages.text2")
+    }
+  }
+
   internal enum UIContentSizeCategory {
     /// UIContentSizeCategory
     internal static let title = L10n.tr("Localizable", "UIContentSizeCategory.title")
@@ -1797,6 +1924,49 @@ internal enum L10n {
       internal static let text1 = L10n.tr("Localizable", "UIFontMetrics.Intro.text1")
       /// Then, you load your custom font and scale it using the UIFontMetrics.
       internal static let text2 = L10n.tr("Localizable", "UIFontMetrics.Intro.text2")
+    }
+  }
+
+  internal enum WhatIsDarkMode {
+    /// What is dark mode?
+    internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.title")
+    internal enum DoINeedIt {
+      /// Sometimes, your interface does not need to support dark mode. Maybe it's a game and the colors have been specifically chosen for it, or the content's color take a bigger part in what your app does, so supporting dark mode is not an option.
+      internal static let text1 = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.text1")
+      /// But when we are talking about apps that are mostly written content, so the user needs to read a lot of things while using the application, or use some shade of white as the default background color, these are good examples of apps that should support dark mode.
+      internal static let text2 = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.text2")
+      /// Maybe to give the aesthetic choice, but also to support those who prefer the dark mode to read the content.
+      internal static let text3 = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.text3")
+      /// Do I need to support dark mode?
+      internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.DoINeedIt.title")
+    }
+    internal enum Intro {
+      /// The existence of a dark mode also implies the existence of a light mode, which is the opposite use of colors - light background and dark content.
+      internal static let comment1 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.comment1")
+      /// You can read more on the 'Invert colors' page for more insights into different content colors.
+      internal static let comment2 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.comment2")
+      /// Dark mode is the ability to change the interface to a darker appearance. Where, usually, the background consists in darker colors and written content in lighter colors.
+      internal static let text1 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.text1")
+      /// It is, sometimes, an aesthetic preference for the user. In MacOS it can be even automatically set to change on specific ambient or lighting conditions.
+      internal static let text2 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.text2")
+      /// But the deal here is that supporting dark mode can be a form of accessibility. The user can prefer using it for any reason, reading light content maybe feels better on top of a dark background, specially on low-light environments, or just felling more comfortable with less light comming from the device.
+      internal static let text3 = L10n.tr("Localizable", "WhatIsDarkMode.Intro.text3")
+    }
+    internal enum ThisAppSupports {
+      /// Command + shift + A
+      internal static let command = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.command")
+      /// I strongly suggest reading the content on the Apple's 'Human Interface Guidelines' about Dark Mode.
+      internal static let comment1 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.comment1")
+      /// Example of the Control center menu after long pressing the displays brightness options.
+      internal static let image = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.image")
+      /// The Accessibility Handbook fully supports dark mode. If you are using and iOS device, you can change you appearance on the system's settings.
+      internal static let text1 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.text1")
+      /// Or use the Control center menu (the system's pull down menu) as a shortcut, by long pressing the display brightness option, and it will display a control to select between light and dark modes.
+      internal static let text2 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.text2")
+      /// And if you are running this on an iOS simulator on a Mac, you can quickly change the appearance option with the keyboard command.
+      internal static let text3 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.text3")
+      /// This app supports dark mode!
+      internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.title")
     }
   }
 

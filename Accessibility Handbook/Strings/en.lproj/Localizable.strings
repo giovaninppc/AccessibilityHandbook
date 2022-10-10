@@ -692,6 +692,9 @@
 "IncreasingHints.hint8" = "The missing number is the same as the last one!";
 "IncreasingHints.unspecified" = "I'm super lost... I don't know what ot say.";
 
+"AnAlternative.title" = "An alternative";
+"AnAlternative.text" = "You should alternate between... something... and try to enable items in the correct order.";
+
 // Actions
 
 "doubleTapToCopy" = "Tap twice to copy";
@@ -979,3 +982,93 @@
 "PreferCrossFadePage.comment1" = "This app uses a default navigation stack. Go to settings and change this accessibility option, then come back and try opening new scenes or going back to previous ones. The default slide transition should be replaced with cross-fades.";
 "PreferCrossFadePage.text4" = "You can also check if this feature is enabled to make manual adjustments.";
 "PreferCrossFadePage.comment2" = "When enabled, this also means 'Reduce Motion' is also enabled.";
+
+// WhatIsDarkMode
+
+"darkMode" = "Dark Mode";
+"lighMode" = "Light Mode";
+"youAreCurrentlyOn" = "You are currently on: %@";
+
+"WhatIsDarkMode.title" = "What is dark mode?";
+
+"WhatIsDarkMode.Intro.text1" = "Dark mode is the ability to change the interface to a darker appearance. Where, usually, the background consists in darker colors and written content in lighter colors.";
+"WhatIsDarkMode.Intro.comment1" = "The existence of a dark mode also implies the existence of a light mode, which is the opposite use of colors - light background and dark content.";
+"WhatIsDarkMode.Intro.text2" = "It is, sometimes, an aesthetic preference for the user. In MacOS it can be even automatically set to change on specific ambient or lighting conditions.";
+"WhatIsDarkMode.Intro.text3" = "But the deal here is that supporting dark mode can be a form of accessibility. The user can prefer using it for any reason, reading light content maybe feels better on top of a dark background, specially on low-light environments, or just felling more comfortable with less light comming from the device.";
+"WhatIsDarkMode.Intro.comment2" = "You can read more on the 'Invert colors' page for more insights into different content colors.";
+
+"WhatIsDarkMode.DoINeedIt.title" = "Do I need to support dark mode?";
+"WhatIsDarkMode.DoINeedIt.text1" = "Sometimes, your interface does not need to support dark mode. Maybe it's a game and the colors have been specifically chosen for it, or the content's color take a bigger part in what your app does, so supporting dark mode is not an option.";
+"WhatIsDarkMode.DoINeedIt.text2" = "But when we are talking about apps that are mostly written content, so the user needs to read a lot of things while using the application, or use some shade of white as the default background color, these are good examples of apps that should support dark mode.";
+"WhatIsDarkMode.DoINeedIt.text3" = "Maybe to give the aesthetic choice, but also to support those who prefer the dark mode to read the content.";
+
+"WhatIsDarkMode.ThisAppSupports.title" = "This app supports dark mode!";
+"WhatIsDarkMode.ThisAppSupports.text1" = "The Accessibility Handbook fully supports dark mode. If you are using and iOS device, you can change you appearance on the system's settings.";
+"WhatIsDarkMode.ThisAppSupports.text2" = "Or use the Control center menu (the system's pull down menu) as a shortcut, by long pressing the display brightness option, and it will display a control to select between light and dark modes.";
+"WhatIsDarkMode.ThisAppSupports.text3" = "And if you are running this on an iOS simulator on a Mac, you can quickly change the appearance option with the keyboard command.";
+"WhatIsDarkMode.ThisAppSupports.command" = "Command + shift + A";
+"WhatIsDarkMode.ThisAppSupports.comment1" = "I strongly suggest reading the content on the Apple's 'Human Interface Guidelines' about Dark Mode.";
+"WhatIsDarkMode.ThisAppSupports.image" = "Example of the Control center menu after long pressing the displays brightness options.";
+
+// Appearances
+
+"Appearances.title" = "Appearance changes";
+
+"Appearances.Intro.text1" = "In this context, appearences is the group of possible interface color schemes the users can select on their iOS devices. Currently: dark or light modes.";
+"Appearances.Intro.text2" = "We can identify which of these the user has currently selected and adjust our content accordingly.";
+
+"Appearances.Code.title" = "Identify current color scheme";
+"Appearances.Code.text1" = "In SwiftUI, it's as easy as an Environment variable. So it will automatically be notified whenever the user changes this setting, and your app will adjust itself automatically.";
+"Appearances.Code.text2" = "And, of course, things are a little more complicated in UIKit, you need to use the 'UITraitCollection' object.";
+"Appearances.Code.comment1" = "The main complication is the existence of the `unspecified` case in the 'UIUserInterfaceStyle' enum, (because of course it exists) but in this case, just throw your default variation of the content.";
+"Appearances.Code.text3" = "And, in order to handle dynamic changes on the user interface style, you need to listen to changes on the trait collection object in a UIView or UIViewController, and update your content whenever it changes.";
+
+"Appearances.supportingDarkMode" = "Supporting dark mode.";
+
+// Dynamic Content
+
+"DynamicContent.title" = "Dynamic Assets";
+"DynamicContent.Intro.text1" = "When talking about supporting dark mode, we do not need to talk only about changing colors between the color schemes, but other contents can also be adapted to different modes.";
+"DynamicContent.Intro.text2" = "Here we'll be addressing assets, specially images, but the same thing applies to color assets.";
+
+"DynamicContent.XCTAssets.title" = "XCAssets";
+"DynamicContent.XCTAssets.text1" = "When using XCAssets on Xcode, they provide options to support different assets for different color schemes, along side multiple assets for different screen dimensions. This can be used in both images and color assets.";
+"DynamicContent.XCTAssets.text2" = "Specially when the images have background colors or are difficult to see on a specific color scheme, you can provide different assets for them.";
+"DynamicContent.XCTAssets.image1" = "Above is an image of the Xcode's asset catalog. When selecting an image asset, the right panel will display the 'Appearance' option, which you can enable to add images for light and dark modes.";
+"DynamicContent.XCTAssets.text3" = "When switching from dark/light mode and if you are using the XCTAssets the images will automatically change themselves to the correct version.";
+"DynamicContent.XCTAssets.text4" = "The examples below have been built using the XCTAssets and have different assets for each color scheme. Change between light and dark mode and check how they behave.";
+
+// Tintable images
+
+"TintableImages.title" = "Tintable images";
+"TintableImages.TintableImages.text1" = "You don't necessarily need to have different assets for different color schemes. One thing you can use with XCAssets are tintable images. It means adding the image as a template, and defining it's color later.";
+"TintableImages.TintableImages.text2" = "From Apple's documentation:";
+"TintableImages.TintableImages.citation1" = "When you add a template image to a button or image view, you also specify a tint color. The view applies the tint color to every pixel that doesn’t have an alpha of 0.0, causing the image’s shape to adopt that color. To support different appearances, simply change the tint color. For example, you might apply a dark tint color in light environments and a light tint color in dark environments.";
+"TintableImages.TintableImages.citation2" = "When creating your image, use a transparent background and add black pixels wherever you want the image to appear. The pixels can be fully or partially opaque, depending on whether you want portions of your template image to blend with the background colors. When adding the image to your asset catalog, set the Render As option for the Image Set asset to Template Image in the inspector.";
+
+"TintableImages.Example.text1" = "The image above was built using a template image. When no tint color is provided, it's going to use the default color for the image. This is a good approach for icons you may have on your UI.";
+"TintableImages.Example.text2" = "But you can specify custom tint colors. Remember to keep these colors also adapted to each color scheme available.";
+"TintableImages.Example.text3" = "And if you haven't set the asset as a 'template image' on the XCTAssets, you can force the template on code as well.";
+
+"TintableImages.doc" = "Providing images for different appearances";
+
+// Dynamic colors
+
+"DynamicColors.title" = "Dynamic colors";
+
+"DynamicColors.Intro.text1" = "When talking about supporting Dark Mode, 'dynamic colors' is the capability of colors to correctly adjust themselves to the current color scheme.";
+
+"DynamicColors.SystemColors.title" = "System colors";
+"DynamicColors.SystemColors.text1" = "When using System colors, they may automatically adjust themselves to the current color scheme.";
+"DynamicColors.SystemColors.text2" = "This is true to background and label colors.";
+"DynamicColors.SystemColors.text3" = "UIColors also have colors with the 'system' preffix, which means they are adaptable to color scheme as well.";
+"DynamicColors.SystemColors.comment1" = "SwiftUI 'Color' currently does not have these system colors, but you can map the 'UIColor' object into a 'Color' if you want.";
+
+"DynamicColors.CustomColors.title" = "Custom colors";
+"DynamicColors.CustomColors.text1" = "When using custom colors, you will need to manually select the correct color for the current appearance.";
+"DynamicColors.CustomColors.comment1" = "Apple's documentation suggests usign Color Assets for this, which we'll cover in the following page.";
+"DynamicColors.CustomColors.text2" = "But most of the time we have a separate library for our colors or a JSON file with the hex codes, and we manually create our color objects.";
+"DynamicColors.CustomColors.text3" = "So we need a way to handle changing our colors when necessary.";
+"DynamicColors.CustomColors.text3" = "We can use a specific init in the 'UIColor' object, which gives the current UITraitCollection object, to wrap our color file and help us define the correct color for the context.";
+"DynamicColors.CustomColors.text4" = "And in SwiftUI we can use the color scheme Environment property to help us define the correct color.";
+"DynamicColors.CustomColors.text5" = "The issue, most of the times, is supporting changes on the color scheme with the app running. Make sure to reload the colors on your UIView or ude the color scheme Environment property on your SwiftUI Views.";

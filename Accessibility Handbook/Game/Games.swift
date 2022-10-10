@@ -21,6 +21,7 @@ enum Games {
     AColorfulMessage(),
     TheUpsideDown(),
     SuperFriend(),
-    IncreasingHints()
+    IncreasingHints(),
+    AnAlternative()
   ]
 }

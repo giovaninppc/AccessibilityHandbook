@@ -22,16 +22,23 @@ internal typealias AssetImageTypeAlias = ImageAsset.Image
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
   internal static let accentColor = ColorAsset(name: "AccentColor")
+  internal static let neonHighlight = ColorAsset(name: "NeonHighlight")
+  internal static let spookyBackground = ColorAsset(name: "SpookyBackground")
+  internal static let unlimitedFire = ColorAsset(name: "UnlimitedFire")
+  internal static let xcAssetscolorScheme = ImageAsset(name: "XCAssetscolorScheme")
   internal static let bird = ImageAsset(name: "bird")
+  internal static let cards = ImageAsset(name: "cards")
   internal static let coloblindWireGame = ImageAsset(name: "coloblindWireGame")
   internal static let cursor = ImageAsset(name: "cursor")
   internal static let empty = ImageAsset(name: "empty")
   internal static let fish = ImageAsset(name: "fish")
   internal static let hare = ImageAsset(name: "hare")
   internal static let ishihara = ImageAsset(name: "ishihara")
+  internal static let longPressBrightnessOption = ImageAsset(name: "longPressBrightnessOption")
   internal static let prettyColors = ImageAsset(name: "prettyColors")
   internal static let rotor = ImageAsset(name: "rotor")
   internal static let starryNight = ImageAsset(name: "starryNight")
+  internal static let tintable = ImageAsset(name: "tintable")
   internal static let tortoise = ImageAsset(name: "tortoise")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
