@@ -205,7 +205,7 @@ private extension HomeView {
         Spacer()
       }
       .accessibilityElement(children: .combine)
-      .frame(minWidth: 150.0, minHeight: 150.0)
+      .frame(maxWidth: UIScreen.main.bounds.width / 2, minHeight: 150.0)
       .padding()
       .background {
         RoundedRectangle(cornerRadius: 8.0)
