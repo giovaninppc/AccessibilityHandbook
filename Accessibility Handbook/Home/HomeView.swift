@@ -12,6 +12,8 @@ struct HomeView: View {
 
   @State var text: String = ""
 
+  @State private var isIpad = UITraitCollection.current.userInterfaceIdiom == .pad
+
   var body: some View {
     ScrollView(showsIndicators: false) {
       if text.isEmpty {
@@ -205,7 +207,9 @@ private extension HomeView {
         Spacer()
       }
       .accessibilityElement(children: .combine)
-      .frame(minWidth: 150.0, minHeight: 150.0)
+      .frame(minWidth: isIpad ? 150.0 : nil,
+             maxWidth: isIpad ? nil : UIScreen.main.bounds.width / 2,
+             minHeight: 150.0)
       .padding()
       .background {
         RoundedRectangle(cornerRadius: 8.0)
