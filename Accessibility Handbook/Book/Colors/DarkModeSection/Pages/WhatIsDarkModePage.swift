@@ -13,7 +13,7 @@ struct WhatIsDarkModePage: View, Page {
   @Environment(\.colorScheme) var colorScheme
 
   var body: some View {
-    PageContent(next: DynamicColorsPage()) {
+    PageContent(next: AppearancesPage()) {
       Group {
         intro
         doINeedIt
