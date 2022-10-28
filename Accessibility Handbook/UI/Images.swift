@@ -30,6 +30,7 @@ internal enum Asset {
   internal static let cards = ImageAsset(name: "cards")
   internal static let coloblindWireGame = ImageAsset(name: "coloblindWireGame")
   internal static let cursor = ImageAsset(name: "cursor")
+  internal static let emptySearch = ImageAsset(name: "empty-search")
   internal static let empty = ImageAsset(name: "empty")
   internal static let fish = ImageAsset(name: "fish")
   internal static let hare = ImageAsset(name: "hare")

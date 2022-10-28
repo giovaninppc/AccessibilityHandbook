@@ -24,6 +24,8 @@ internal enum L10n {
   internal static let boldText = L10n.tr("Localizable", "boldText")
   /// Book
   internal static let book = L10n.tr("Localizable", "book")
+  /// Button
+  internal static let button = L10n.tr("Localizable", "button")
   /// Close code view
   internal static let closeCodeView = L10n.tr("Localizable", "closeCodeView")
   /// Cloud
@@ -142,6 +144,8 @@ internal enum L10n {
   internal static let regularText = L10n.tr("Localizable", "regularText")
   /// Rotor
   internal static let rotor = L10n.tr("Localizable", "Rotor")
+  /// Search
+  internal static let search = L10n.tr("Localizable", "Search")
   /// Select
   internal static let select = L10n.tr("Localizable", "select")
   /// Selected
@@ -166,6 +170,8 @@ internal enum L10n {
   internal static let unfinishedPuzzles = L10n.tr("Localizable", "unfinishedPuzzles")
   /// Using VoiceOver
   internal static let usingTheVoiceOver = L10n.tr("Localizable", "UsingTheVoiceOver")
+  /// Visual Aid
+  internal static let visualAid = L10n.tr("Localizable", "VisualAid")
   /// VoiceOver
   internal static let voiceOver = L10n.tr("Localizable", "VoiceOver")
   /// VoiceOver Guide
@@ -601,6 +607,50 @@ internal enum L10n {
     internal static let text = L10n.tr("Localizable", "BePatient.text")
     /// Be Patient
     internal static let title = L10n.tr("Localizable", "BePatient.title")
+  }
+
+  internal enum BoldedText {
+    /// Bolded Text
+    internal static let title = L10n.tr("Localizable", "BoldedText.title")
+    internal enum Code {
+      /// This app fully supports bolded fonts, change the accessibility option on the device's setting and check how the app behaves.
+      internal static let comment1 = L10n.tr("Localizable", "BoldedText.Code.comment1")
+      /// It's also important to notice that fonts that are already bold, become even 'bolder' when manually adjusting these changes.
+      internal static let text1 = L10n.tr("Localizable", "BoldedText.Code.text1")
+    }
+    internal enum Intro {
+      /// When using custom fonts, you may need to manually define it's weight when necessary.
+      internal static let comment1 = L10n.tr("Localizable", "BoldedText.Intro.comment1")
+      /// "Bolded Text" is another accessibility option that can be enabled on the system settings.
+      internal static let text1 = L10n.tr("Localizable", "BoldedText.Intro.text1")
+      /// It's mainly used by people with lower vision to help reading content on your app by enlarging the font's weight.
+      internal static let text2 = L10n.tr("Localizable", "BoldedText.Intro.text2")
+      /// When using system fonts, they will automatically adapt themselves to the user's defined setting for the weight.
+      internal static let text3 = L10n.tr("Localizable", "BoldedText.Intro.text3")
+    }
+  }
+
+  internal enum ButtonShapes {
+    /// Button Shapes
+    internal static let title = L10n.tr("Localizable", "ButtonShapes.title")
+    internal enum Code {
+      /// If you need to identify to make any manual changes on your content, you can use a static variable on UIKit or an Environment variable on SwiftUI.
+      internal static let text1 = L10n.tr("Localizable", "ButtonShapes.Code.text1")
+    }
+    internal enum Example {
+      /// It's nice to notice that not all buttons will have the same highlight. The back button in the navigation bar will be underlined, for instance.
+      internal static let comment1 = L10n.tr("Localizable", "ButtonShapes.Example.comment1")
+      /// Check the multiple examples of buttons below, then enable the 'Button Shapes' feature on the device's setting to see how they behave.
+      internal static let text1 = L10n.tr("Localizable", "ButtonShapes.Example.text1")
+    }
+    internal enum Intro {
+      /// If you are using 'UIButton' or a 'Button', this highlight will automatically be displayed whenever the feature is enabled.
+      internal static let comment1 = L10n.tr("Localizable", "ButtonShapes.Intro.comment1")
+      /// "Button Shapes" is another accessibility option that can be enabled on the system settings.
+      internal static let text1 = L10n.tr("Localizable", "ButtonShapes.Intro.text1")
+      /// The idea is to highlight buttons, by adding outlines to them, in order to help users identify which contents are interactable while using your application.
+      internal static let text2 = L10n.tr("Localizable", "ButtonShapes.Intro.text2")
+    }
   }
 
   internal enum ButtonTrait {
@@ -1318,6 +1368,19 @@ internal enum L10n {
       /// Variations
       internal static let title = L10n.tr("Localizable", "IdentifyCurrentPreferredFontSizePage.Variations.title")
     }
+  }
+
+  internal enum ImageTrait {
+    /// Image description
+    internal static let description = L10n.tr("Localizable", "ImageTrait.description")
+    /// The image trait is good for images or other visual elements that have no text or action.
+    internal static let text1 = L10n.tr("Localizable", "ImageTrait.text1")
+    /// If you are using an Image or an UIImage it will automatically have the image trait. However, you may also want to apply this trait to other elements, such as graphics or animations.
+    internal static let text2 = L10n.tr("Localizable", "ImageTrait.text2")
+    /// This will make the Voice Over to identify and read the element as an image.
+    internal static let text3 = L10n.tr("Localizable", "ImageTrait.text3")
+    /// Image Trait
+    internal static let title = L10n.tr("Localizable", "ImageTrait.title")
   }
 
   internal enum ImplementingDynamicFonts {

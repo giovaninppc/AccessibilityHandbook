@@ -41,6 +41,7 @@ enum Icon {
   static let circleHexagonpath = Image(systemName: "circle.hexagonpath.fill")
   static let textRedaction = Image(systemName: "text.redaction")
   static let raisedHands = Image(systemName: "hand.raised.fill")
+  static let search = Image(systemName: "magnifyingglass")
 
   // State
   static let checkmark = Image(systemName: "checkmark.circle.fill")

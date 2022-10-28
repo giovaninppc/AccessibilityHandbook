@@ -2,7 +2,7 @@
 
 # iOS Accessibility Handbook
 
-[![License: MIT](https://img.shields.io/github/license/giovaninppc/AccessibilityHandbook)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/license-MIT-red)](https://opensource.org/licenses/MIT)
 ![Platform iOS](https://img.shields.io/badge/Platform-iOS-blue)
 ![SwiftUI](https://img.shields.io/badge/-SwiftUI-orange)
 [![Build Status](https://github.com/giovaninppc/AccessibilityHandbook/actions/workflows/build.yml/badge.svg)](https://github.com/giovaninppc/AccessibilityHandbook/actions/workflows/build.yml)
