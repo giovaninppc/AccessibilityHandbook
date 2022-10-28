@@ -144,6 +144,8 @@ internal enum L10n {
   internal static let regularText = L10n.tr("Localizable", "regularText")
   /// Rotor
   internal static let rotor = L10n.tr("Localizable", "Rotor")
+  /// Search
+  internal static let search = L10n.tr("Localizable", "Search")
   /// Select
   internal static let select = L10n.tr("Localizable", "select")
   /// Selected
