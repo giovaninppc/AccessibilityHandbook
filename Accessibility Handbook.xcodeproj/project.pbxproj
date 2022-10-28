@@ -141,6 +141,7 @@
 		3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29A28DF93B1005D291A /* Icons.swift */; };
 		3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29C28DF93F3005D291A /* String+Extensions.swift */; };
 		3FF4A29E28E10ED1005D291A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A2A028E10ED1005D291A /* Localizable.strings */; };
+		9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4F901290B635300A00E51 /* ImageTraitPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -280,6 +281,7 @@
 		3FF4A29C28DF93F3005D291A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		3FF4A29F28E10ED1005D291A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3FF4A2A128E10EDD005D291A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9DD4F901290B635300A00E51 /* ImageTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTraitPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -743,6 +745,7 @@
 				3FBF060428DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift */,
 				3FBF060228DB710300DA5BF5 /* ButtonTraitPage.swift */,
 				3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */,
+				9DD4F901290B635300A00E51 /* ImageTraitPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -953,6 +956,7 @@
 				3F41C11728E49CBB0092CF28 /* UIFontMetricsPage.swift in Sources */,
 				3FBF05DA28DB56D000DA5BF5 /* BePatient.swift in Sources */,
 				3F4E7F9528DCBC1600710F18 /* ImageAsset+extensions.swift in Sources */,
+				9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */,
 				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF060128DB704600DA5BF5 /* InternalLink.swift in Sources */,
 				3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */,

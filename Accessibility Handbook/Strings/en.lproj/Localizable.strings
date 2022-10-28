@@ -218,6 +218,16 @@
 "ButtonTrait.additionalInformation" = "Additional information";
 "ButtonTrait.cellTapped" = "This cell was tapped";
 
+// Image trait
+
+"ImageTrait.title" = "Image Trait";
+
+"ImageTrait.text1" = "The image trait is good for images or other visual elements that have no text or action.";
+"ImageTrait.text2" = "If you are using an Image or an UIImage it will automatically have the image trait. However, you may also want to apply this trait to other elements, such as graphics or animations.";
+"ImageTrait.text3" = "This will make the Voice Over to identify and read the element as an image.";
+
+"ImageTrait.description" = "Image description";
+
 // Adjustable
 
 "Adjustable.title" = "Adjustable trait";

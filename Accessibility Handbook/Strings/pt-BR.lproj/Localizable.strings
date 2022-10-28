@@ -218,6 +218,16 @@
 "ButtonTrait.additionalInformation" = "Informação adicional";
 "ButtonTrait.cellTapped" = "A célula foi clicada";
 
+// Image trait
+
+"ImageTrait.title" = "Image Trait";
+
+"ImageTrait.text1" = "O trait de imagem serve para imagens ou outros elementos visuais que não contém nenhum texto ou ação.";
+"ImageTrait.text2" = "Se você está usando uma Image ou uma UIImage, ela vai automaticamente ter o trait de imagem. Entretanto, você pode querer aplicar esse trait também em outros elementos que façam sentido, como, por exemplo, um gráfico ou uma animação.";
+"ImageTrait.text3" = "Isso fará o Voice Over identificar e ler o elemento como uma imagem.";
+
+"ImageTrait.description" = "Descrição da imagem";
+
 // Adjustable
 
 "Adjustable.title" = "Adjustable trait";

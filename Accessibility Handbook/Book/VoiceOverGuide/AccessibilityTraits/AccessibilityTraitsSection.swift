@@ -12,6 +12,7 @@ struct AccessibilityTraitsSection: Section {
   let pages: [Page] = [
     ListOfAccessibilityTraitsPage(),
     ButtonTraitPage(),
-    HeaderTraitPage()
+    HeaderTraitPage(),
+    ImageTraitPage()
   ]
 }
