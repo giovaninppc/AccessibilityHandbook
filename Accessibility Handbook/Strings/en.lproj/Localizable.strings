@@ -1101,3 +1101,15 @@
 "ButtonShapes.Code.text1" = "If you need to identify to make any manual changes on your content, you can use a static variable on UIKit or an Environment variable on SwiftUI.";
 
 "button" = "Button";
+
+// Bolded Text
+
+"BoldedText.title" = "Bolded Text";
+
+"BoldedText.Intro.text1" = "\"Bolded Text\" is another accessibility option that can be enabled on the system settings.";
+"BoldedText.Intro.text2" = "It's mainly used by people with lower vision to help reading content on your app by enlarging the font's weight.";
+"BoldedText.Intro.text3" = "When using system fonts, they will automatically adapt themselves to the user's defined setting for the weight.";
+"BoldedText.Intro.comment1" = "When using custom fonts, you may need to manually define it's weight when necessary.";
+
+"BoldedText.Code.text1" = "It's also important to notice that fonts that are already bold, become even 'bolder' when manually adjusting these changes.";
+"BoldedText.Code.comment1" = "This app fully supports bolded fonts, change the accessibility option on the device's setting and check how the app behaves.";

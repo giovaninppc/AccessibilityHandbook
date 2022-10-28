@@ -10,6 +10,7 @@ import Foundation
 struct VisualAidSection: Section {
   let title: String = L10n.visualAid
   let pages: [Page] = [
-    ButtonShapesPage()
+    ButtonShapesPage(),
+    BoldedTextPage()
   ]
 }

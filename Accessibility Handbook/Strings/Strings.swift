@@ -607,6 +607,27 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "BePatient.title")
   }
 
+  internal enum BoldedText {
+    /// Bolded Text
+    internal static let title = L10n.tr("Localizable", "BoldedText.title")
+    internal enum Code {
+      /// This app fully supports bolded fonts, change the accessibility option on the device's setting and check how the app behaves.
+      internal static let comment1 = L10n.tr("Localizable", "BoldedText.Code.comment1")
+      /// It's also important to notice that fonts that are already bold, become even 'bolder' when manually adjusting these changes.
+      internal static let text1 = L10n.tr("Localizable", "BoldedText.Code.text1")
+    }
+    internal enum Intro {
+      /// When using custom fonts, you may need to manually define it's weight when necessary.
+      internal static let comment1 = L10n.tr("Localizable", "BoldedText.Intro.comment1")
+      /// "Bolded Text" is another accessibility option that can be enabled on the system settings.
+      internal static let text1 = L10n.tr("Localizable", "BoldedText.Intro.text1")
+      /// It's mainly used by people with lower vision to help reading content on your app by enlarging the font's weight.
+      internal static let text2 = L10n.tr("Localizable", "BoldedText.Intro.text2")
+      /// When using system fonts, they will automatically adapt themselves to the user's defined setting for the weight.
+      internal static let text3 = L10n.tr("Localizable", "BoldedText.Intro.text3")
+    }
+  }
+
   internal enum ButtonShapes {
     /// Button Shapes
     internal static let title = L10n.tr("Localizable", "ButtonShapes.title")
