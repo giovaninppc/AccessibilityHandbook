@@ -1082,3 +1082,22 @@
 "DynamicColors.CustomColors.text3" = "We can use a specific init in the 'UIColor' object, which gives the current UITraitCollection object, to wrap our color file and help us define the correct color for the context.";
 "DynamicColors.CustomColors.text4" = "And in SwiftUI we can use the color scheme Environment property to help us define the correct color.";
 "DynamicColors.CustomColors.text5" = "The issue, most of the times, is supporting changes on the color scheme with the app running. Make sure to reload the colors on your UIView or ude the color scheme Environment property on your SwiftUI Views.";
+
+// Visual Aid
+
+"VisualAid" = "Visual Aid";
+
+// Button Shapes
+
+"ButtonShapes.title" = "Button Shapes";
+
+"ButtonShapes.Intro.text1" = "\"Button Shapes\" is another accessibility option that can be enabled on the system settings.";
+"ButtonShapes.Intro.text2" = "The idea is to highlight buttons, by adding outlines to them, in order to help users identify which contents are interactable while using your application.";
+"ButtonShapes.Intro.comment1" = "If you are using 'UIButton' or a 'Button', this highlight will automatically be displayed whenever the feature is enabled.";
+
+"ButtonShapes.Example.text1" = "Check the multiple examples of buttons below, then enable the 'Button Shapes' feature on the device's setting to see how they behave.";
+"ButtonShapes.Example.comment1" = "It's nice to notice that not all buttons will have the same highlight. The back button in the navigation bar will be underlined, for instance.";
+
+"ButtonShapes.Code.text1" = "If you need to identify to make any manual changes on your content, you can use a static variable on UIKit or an Environment variable on SwiftUI.";
+
+"button" = "Button";

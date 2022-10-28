@@ -128,6 +128,8 @@
 		3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73EC928DD278900D89F64 /* DeviceRotation.swift */; };
 		3FC73ECE28DDDFB900D89F64 /* TheUpsideDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */; };
 		3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */; };
+		3FC7F92E290C09C8006C8185 /* VisualAidSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7F92D290C09C8006C8185 /* VisualAidSection.swift */; };
+		3FC7F931290C0A03006C8185 /* ButtonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7F930290C0A03006C8185 /* ButtonShapes.swift */; };
 		3FD00F6228E3B61A0007D604 /* ImplementDynamicFontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */; };
 		3FD00F6928E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
@@ -267,6 +269,8 @@
 		3FC73EC928DD278900D89F64 /* DeviceRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotation.swift; sourceTree = "<group>"; };
 		3FC73ECD28DDDFB900D89F64 /* TheUpsideDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUpsideDown.swift; sourceTree = "<group>"; };
 		3FC73ECF28DDE1FC00D89F64 /* SuperFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFriend.swift; sourceTree = "<group>"; };
+		3FC7F92D290C09C8006C8185 /* VisualAidSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualAidSection.swift; sourceTree = "<group>"; };
+		3FC7F930290C0A03006C8185 /* ButtonShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShapes.swift; sourceTree = "<group>"; };
 		3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementDynamicFontsSection.swift; sourceTree = "<group>"; };
 		3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFontsAutomaticallyPage.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
@@ -708,6 +712,7 @@
 				3FBF05F428DB6F2E00DA5BF5 /* OthersSection.swift */,
 				3FBF05F628DB6F4900DA5BF5 /* Haptics */,
 				3FE8656628EB24CE00E8DCC6 /* Motion */,
+				3FC7F92C290C09B4006C8185 /* VisualAid */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -757,6 +762,23 @@
 				3F6C5ABD28E394BD00B12065 /* Pages */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3FC7F92C290C09B4006C8185 /* VisualAid */ = {
+			isa = PBXGroup;
+			children = (
+				3FC7F92D290C09C8006C8185 /* VisualAidSection.swift */,
+				3FC7F92F290C09F8006C8185 /* Pages */,
+			);
+			path = VisualAid;
+			sourceTree = "<group>";
+		};
+		3FC7F92F290C09F8006C8185 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3FC7F930290C0A03006C8185 /* ButtonShapes.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		3FD00F6028E3B5FB0007D604 /* DynamicFontsSection */ = {
@@ -874,6 +896,7 @@
 				3F54B62B28EE0D3400574932 /* UIContentSize.swift in Sources */,
 				3FBF05F828DB6F5400DA5BF5 /* HapticsSection.swift in Sources */,
 				3FBF05A528DAB9C700DA5BF5 /* Storage.swift in Sources */,
+				3FC7F931290C0A03006C8185 /* ButtonShapes.swift in Sources */,
 				3F6DBDF028F05704001B9F88 /* AppearancesPage.swift in Sources */,
 				3F41DB0E28E2553E00E0B056 /* HorizontalSwipe.swift in Sources */,
 				3F6DBDEB28F05639001B9F88 /* DarkModeSection.swift in Sources */,
@@ -959,6 +982,7 @@
 				9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */,
 				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF060128DB704600DA5BF5 /* InternalLink.swift in Sources */,
+				3FC7F92E290C09C8006C8185 /* VisualAidSection.swift in Sources */,
 				3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */,
 				3FE8656828EB24DA00E8DCC6 /* MotionSection.swift in Sources */,
 				3FE7722A28EB0A5F00724D14 /* IdentifyCurrentPreferredFontSizePage.swift in Sources */,

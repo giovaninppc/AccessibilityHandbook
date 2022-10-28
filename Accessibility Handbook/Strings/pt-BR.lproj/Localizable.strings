@@ -1082,3 +1082,22 @@
 "DynamicColors.CustomColors.text3" = "Podemos usar um inicializador específico no objeto de 'UIColor', que nos dá o 'UITraitCollection' atual, permitindo que retornemos a cor correta para o esquema de cores atual.";
 "DynamicColors.CustomColors.text4" = "E em SwiftUI podemos usar a variável de ambiente do esquema de cores para nos ajudar a decidir qual a core correta a usar.";
 "DynamicColors.CustomColors.text5" = "O maior problema, na maioria das vezes, é suportar a mudança dinâmica de esquema de cores, quando o usuário faz alterações com o seu app sendo executado. Garanta que as cores das suas UIViews são recarregadas quando mudanças acontecerem, ou usar a variável de ambiente correta em SwiftUI para identificar o mesmo efeito.";
+
+// Visual Aid
+
+"VisualAid" = "Ajudas visuais";
+
+// Button Shapes
+
+"ButtonShapes.title" = "Figuras nos botões";
+
+"ButtonShapes.Intro.text1" = "\"Figuras nos botões\" é outra opção de acessibilidade que pode ser ativada nas configurações do sistema.";
+"ButtonShapes.Intro.text2" = "A ideia é destacar botões, adicionando formas ao contorno deles, de forma que isso ajuda o usuário a perceber quais elementos podem ser tocados quando usando a sua aplicação.";
+"ButtonShapes.Intro.comment1" = "Se você está usando um  'UIButton' ou um 'Button', esse contorno será adicionado automaticamente quando a feature estiver ativada.";
+
+"ButtonShapes.Example.text1" = "Observe os exemplos abaixo, onde todos são botões, e então ative a opção nas configurações do sistema e note novamente como eles se comportam.";
+"ButtonShapes.Example.comment1" = "Também é interessante notar que nem todos os botões tem o mesmo tipo de destaque. O botão de voltar na barra de navegação, por exeplo, fica com o texto sublinhado.";
+
+"ButtonShapes.Code.text1" = "Casso você presice identificar manualmente o estado dessa feature para atualizar seu conteúdo, você pode usar a variável estática do UIAccessibility no UIKit, ou a variável de ambiente em SwiftUI.";
+
+"button" = "Botão";
