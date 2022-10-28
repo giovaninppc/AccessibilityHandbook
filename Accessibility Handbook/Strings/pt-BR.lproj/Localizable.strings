@@ -197,7 +197,7 @@
 "ListOfTraits.staticText" = "Apenas um texto.";
 "ListOfTraits.tabbar" = "Um ícone da TabBar.";
 "ListOfTraits.summaryElement" = "\"Um elemento acessível que provê informações quando o app abre.\"";
-"ListOfTraits.selected" = "Um item selectionado - usado quando existem mais itens que podem ser selecionados (como segmneted controllers, radio buttons...)";
+"ListOfTraits.selected" = "Um item selecionado - usado quando existem mais itens que podem ser selecionados (como segmented controllers, radio buttons...)";
 "ListOfTraits.notEnabled" = "A interação com o componente está desativada - por exemplo, um botão desabilitado.";
 "ListOfTraits.allowsDirectInteraction" = "O elemento permite interação direta para usuários do VoiceOver.";
 "ListOfTraits.updatesFrequently" = "O valor da 'accessibility label' muda com frequência.";
