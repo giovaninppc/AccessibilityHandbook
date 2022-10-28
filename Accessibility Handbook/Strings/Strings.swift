@@ -623,6 +623,19 @@ internal enum L10n {
     /// Button Trait
     internal static let title = L10n.tr("Localizable", "ButtonTrait.title")
   }
+    
+    internal enum ImageTrait {
+        /// Image description
+        internal static let description = L10n.tr("Localizable", "ImageTrait.description", "Image description")
+        /// The image trait is good for images or other visual elements that have no text or action.
+        internal static let text1 = L10n.tr("Localizable", "ImageTrait.text1", "The image trait is good for images or other visual elements that have no text or action.")
+        /// If you are using an Image or an UIImage it will automatically have the image trait. However, you may also want to apply this trait to other elements, such as graphics or animations.
+        internal static let text2 = L10n.tr("Localizable", "ImageTrait.text2", "If you are using an Image or an UIImage it will automatically have the image trait. However, you may also want to apply this trait to other elements, such as graphics or animations.")
+        /// This will make the Voice Over to identify and read the element as an image.
+        internal static let text3 = L10n.tr("Localizable", "ImageTrait.text3", "This will make the Voice Over to identify and read the element as an image.")
+        /// Image Trait
+        internal static let title = L10n.tr("Localizable", "ImageTrait.title", "Image Trait")
+    }
 
   internal enum ChangeCursor {
     /// Change cursor position
