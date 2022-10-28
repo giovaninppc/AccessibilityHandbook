@@ -13,6 +13,7 @@ struct AccessibilityTraitsSection: Section {
     ListOfAccessibilityTraitsPage(),
     ButtonTraitPage(),
     HeaderTraitPage(),
-    ImageTraitPage()
+    ImageTraitPage(),
+    SearchFieldTraitPage()
   ]
 }
