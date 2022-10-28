@@ -11,6 +11,7 @@ struct OthersSections: SectionProvider {
   let title: String = L10n.Home.otherFeatures
   let sections: [Section] = [
     HapticsSection(),
-    MotionSection()
+    MotionSection(),
+    VisualAidSection()
   ]
 }
