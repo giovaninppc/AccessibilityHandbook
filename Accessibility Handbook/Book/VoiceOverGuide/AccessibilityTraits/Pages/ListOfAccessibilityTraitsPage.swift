@@ -64,7 +64,7 @@ struct ListOfAccessibilityTraitsPage: View, Page {
       listItem(
         name: "image",
         description: L10n.ListOfTraits.image,
-        internalLink: nil,
+        internalLink: ImageTraitPage().page,
         externalLink: "https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620174-image"
       )
 
