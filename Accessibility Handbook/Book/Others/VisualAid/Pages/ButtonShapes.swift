@@ -14,7 +14,7 @@ struct ButtonShapesPage: View, Page {
   var buttonShapesEnabled: Bool
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: BoldedTextPage()) {
       Group {
         intro
         example

@@ -1101,3 +1101,15 @@
 "ButtonShapes.Code.text1" = "Casso você presice identificar manualmente o estado dessa feature para atualizar seu conteúdo, você pode usar a variável estática do UIAccessibility no UIKit, ou a variável de ambiente em SwiftUI.";
 
 "button" = "Botão";
+
+// Bolded Text
+
+"BoldedText.title" = "Texto em Negrito";
+
+"BoldedText.Intro.text1" = "\"Texto em Negrito\" é outra opção de acessibilidade que pode ser ativada nas configurações do sistema.";
+"BoldedText.Intro.text2" = "É geralmente usada por pessoas que têm baixa visão com o intuito de aumentar o peso da fonte e deixar o conteúdo mais fácil de ser lido.";
+"BoldedText.Intro.text3" = "Quando usando fontes do sistema, elas irão de adaptar automaticamente ao estilo definido pelo usuário.";
+"BoldedText.Intro.comment1" = "Quando usando fontes customizadas, você pode precisar ajustar manualmente o peso da fonte considerando se esta opção está habilitada.";
+
+"BoldedText.Code.text1" = "Também é importante perceber que fontes que já estão em negrito, também aumentam seu peso quando esta opção está ativada..";
+"BoldedText.Code.comment1" = "Este app suporta a opção de texto em negrito, mude essa opção nas configurações do seu dispositivo e veja como o app se comporta.";
