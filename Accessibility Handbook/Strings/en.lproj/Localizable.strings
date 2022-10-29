@@ -245,6 +245,12 @@
 "SearchFieldTrait.button" = "Try here!";
 
 "SearchFieldTrait.description" = "Type what you are searching for.";
+"SearchFieldTrait.AnimalsArray.Bee" = "🐝 Bee";
+"SearchFieldTrait.AnimalsArray.Bird" = "🦜 Bird";
+"SearchFieldTrait.AnimalsArray.Cat" = "🐈 Cat";
+"SearchFieldTrait.AnimalsArray.Cow" = "🐄 Cow";
+"SearchFieldTrait.AnimalsArray.Dog" = "🐶 Dog";
+"SearchFieldTrait.AnimalsArray.Snake" = "🐍 Snake";
 
 // Adjustable
 

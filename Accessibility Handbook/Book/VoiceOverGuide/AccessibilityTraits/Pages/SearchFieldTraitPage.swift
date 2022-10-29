@@ -10,7 +10,6 @@ import SwiftUI
 struct SearchFieldTraitPage: View, Page {
     
     let title: String = L10n.SearchFieldTrait.title
-    let animals = ["arara", "cobra", "lagarto"]
     
     let codeUIKit: String = """
     myView.accessibilityTraits = [.searchField]
@@ -25,7 +24,7 @@ struct SearchFieldTraitPage: View, Page {
     """
     
     var body: some View {
-        PageContent(next: nil) {
+        PageContent(next: nil, deeplink: deeplink) {
             Group {
                 Text(L10n.SearchFieldTrait.text1)
                 Text(L10n.SearchFieldTrait.text2)
