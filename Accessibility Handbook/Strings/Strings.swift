@@ -673,19 +673,6 @@ internal enum L10n {
     /// Button Trait
     internal static let title = L10n.tr("Localizable", "ButtonTrait.title")
   }
-    
-    internal enum ImageTrait {
-        /// Image description
-        internal static let description = L10n.tr("Localizable", "ImageTrait.description", "Image description")
-        /// The image trait is good for images or other visual elements that have no text or action.
-        internal static let text1 = L10n.tr("Localizable", "ImageTrait.text1", "The image trait is good for images or other visual elements that have no text or action.")
-        /// If you are using an Image or an UIImage it will automatically have the image trait. However, you may also want to apply this trait to other elements, such as graphics or animations.
-        internal static let text2 = L10n.tr("Localizable", "ImageTrait.text2", "If you are using an Image or an UIImage it will automatically have the image trait. However, you may also want to apply this trait to other elements, such as graphics or animations.")
-        /// This will make the Voice Over to identify and read the element as an image.
-        internal static let text3 = L10n.tr("Localizable", "ImageTrait.text3", "This will make the Voice Over to identify and read the element as an image.")
-        /// Image Trait
-        internal static let title = L10n.tr("Localizable", "ImageTrait.title", "Image Trait")
-    }
 
   internal enum ChangeCursor {
     /// Change cursor position
@@ -1382,6 +1369,21 @@ internal enum L10n {
     /// Image Trait
     internal static let title = L10n.tr("Localizable", "ImageTrait.title")
   }
+    
+    internal enum SearchFieldTrait {
+      /// Type what you are searching for.
+        internal static let description = L10n.tr("Localizable", "SearchFieldTrait.description", "Type what you are searching for.")
+      /// The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.
+        internal static let text1 = L10n.tr("Localizable", "SearchFieldTrait.text1", "The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.")
+      /// When we search for something, normally these searches results are displayed somewhere on the screen.
+        internal static let text2 = L10n.tr("Localizable", "SearchFieldTrait.text2", "When we search for something, normally these searches results are displayed somewhere on the screen.")
+      /// This trait allows VoiceOver to warn the user that the UI will change somewhere.
+        internal static let text3 = L10n.tr("Localizable", "SearchFieldTrait.text3", "This trait allows VoiceOver to warn the user that the UI will change somewhere.")
+      /// This trait allows VoiceOver to warn the user that the UI will change somewhere.
+        internal static let button = L10n.tr("Localizable", "SearchFieldTrait.button", "Try here!")
+      /// Search Field Trait
+      internal static let title = L10n.tr("Localizable", "SearchFieldTrait.title")
+    }
 
   internal enum ImplementingDynamicFonts {
     /// Scaling Fonts Automatically
