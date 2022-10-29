@@ -88,17 +88,17 @@
 
 "Navigation.MoveAround.title" = "Movimente-se";
 "Navigation.MoveAround.text1" = "Quando o VoiceOver estiver ativado, deslize horizontalmente para mudar o focos entre os elementos.";
-"Navigation.MoveAround.text2" = "Da esquerda para a direita para o próximo, e da direita para a esquerda para o anetrior.";
+"Navigation.MoveAround.text2" = "Da esquerda para a direita para o próximo, e da direita para a esquerda para o anterior.";
 
 "Navigation.Activate.title" = "Ativar um elemento";
 "Navigation.Activate.text" = "Ativar, no VoiceOver, é o mesmo que clicar num item quando o leitor está desativado. Clique duas vezes com um dedo para ativar o elemento focado.";
 "Navigation.Activate.comment" = "Você pode ler mais sobre outras formas de interagir na seção 'Interação'";
 
 "Navigation.Footer.title" = "Aprenda mais gestos";
-"Navigation.Footer.text1" = "Se você clicar duas vezes com 4 dedos, o VoiceOver eirá ativar o 'Guia de Gestos'.";
+"Navigation.Footer.text1" = "Se você clicar duas vezes com 4 dedos, o VoiceOver irá ativar o 'Guia de Gestos'.";
 "Navigation.Footer.text2" = "Agora, cada gesto executado será anunciado pelo leitor, seguido de sua função. É uma ótima forma de descobrir novas maneiras de interagir com o VoiceOver.";
 "Navigation.Footer.text3" = "E para desabilitar, clique duas vezes com 4 dedos novamente!";
-"Navigation.Footer.comment" = "Esses são apenas alguns dos gestos disponívels. Planejamos adicionar uma seção mais aprofundada com os gestos no futuro, mas por enquanto, sugerimos que você experimente usar o leitor de tela e o guia de gestos para descobiri mais!";
+"Navigation.Footer.comment" = "Esses são apenas alguns dos gestos disponívels. Planejamos adicionar uma seção mais aprofundada com os gestos no futuro, mas por enquanto, sugerimos que você experimente usar o leitor de tela e o guia de gestos para descobrir mais!";
 
 // Accessibility Properties
 
@@ -108,7 +108,7 @@
 
 "AccElem.title" = "Elementos acessíveis";
 "AccElem.text1" = "Quando usando VoiceOver, o cursor vai focar em 'elementos acessíveis'. Esses elementos são identificados pela propriedade 'accessibilityElement' sendo 'True'.";
-"AccElem.text2" = "Every element marked with this property 'True' can be focused by the VoiceOver, and the elments with the property 'False' will be ignored.";
+"AccElem.text2" = "Todo elemento com essa propriedade marcada como true pode ser focado pelo VoiceOver. Elementos marcados como false serão ignorados.";
 "AccElem.text3" = "Ligue o VoiceOver e navegue pelos próximos elementos. Alguns serão focados e outros não.";
 "AccElem.comment" = "É importante configurar elementos que não devem ser focados corretamente, como separadores ou elementos que não tem 'accessibility labels' como não acessíveis.";
 "AccElem.comment2" = "Assim, prevenimos conteúdos vazios, que podem confundir o usuário, de serem focados.";
@@ -191,13 +191,13 @@
 "ListOfTraits.adjustable" = "Adiciona gestos para alterar quantidades. É bem útil em elementos como sliders, contadores ou quick-adds.";
 "ListOfTraits.header" = "Um 'header' (título) pode ser focado com o Rotor, e indica o começo de uma nova seção no conteúdo.";
 "ListOfTraits.link" = "Um link para uma página na internet";
-"ListOfTraits.image" = "Uma imagem. Pode não parecer mas é importante quando focado numa imagem que ele tenha ese trait, um deficiente visual pode analisar o conteúdo da imagem com o próprio VoiceOver caso tenha algo escrito, ou até mesmo tirar um print da tela para mostrar para alguém.";
+"ListOfTraits.image" = "Uma imagem. Pode não parecer, mas é importante quando focado numa imagem que ele tenha esse trait, um deficiente visual pode analisar o conteúdo da imagem com o próprio VoiceOver caso tenha algo escrito, ou até mesmo tirar um print da tela para mostrar para alguém.";
 "ListOfTraits.searchField" = "É um campo de busca. Permite digitar conteúdo e inicia uma pesquisa.";
 "ListOfTraits.keyboardKey" = "Uma tecla de teclado. Provavelmente não é muito relevante a não ser que você esteja implementando um teclado customizado";
 "ListOfTraits.staticText" = "Apenas um texto.";
 "ListOfTraits.tabbar" = "Um ícone da TabBar.";
 "ListOfTraits.summaryElement" = "\"Um elemento acessível que provê informações quando o app abre.\"";
-"ListOfTraits.selected" = "Um item selectionado - usado quando existem mais itens que podem ser selecionados (como segmneted controllers, radio buttons...)";
+"ListOfTraits.selected" = "Um item selecionado - usado quando existem mais itens que podem ser selecionados (como segmented controllers, radio buttons...)";
 "ListOfTraits.notEnabled" = "A interação com o componente está desativada - por exemplo, um botão desabilitado.";
 "ListOfTraits.allowsDirectInteraction" = "O elemento permite interação direta para usuários do VoiceOver.";
 "ListOfTraits.updatesFrequently" = "O valor da 'accessibility label' muda com frequência.";
@@ -235,8 +235,8 @@
 
 "Adjustable.text1" = "Componentes ajustáveis estão na verdade usando um 'accessibility trait'.";
 "Adjustable.text2" = "É usado em componentes que tem algum tipo de alteração de quantidade ou seleção de conteúdo, como quick-adds, sliders ou contadores.";
-"Adjustable.text3" = "É muito poderoso, e, quando focado, um elemento ajustável ganha os gestos de deslizara para cima e para baixo.";
-"Adjustable.text4" = "Que podem ser implementados para tratar suas ações respsctivamente.";
+"Adjustable.text3" = "É muito poderoso, e, quando focado, um elemento ajustável ganha os gestos de deslizar para cima e para baixo.";
+"Adjustable.text4" = "Que podem ser implementados para tratar suas ações respectivamente.";
 
 "Adjustable.seeMore" = "Veja mais sobre accessibility traits!";
 
@@ -474,7 +474,7 @@
 "LongPress.text1" = "'Long press' não é um gesto de acessibilidade propriamente dito, mas eu gosto de adicionar essa parte porque ele tem um gesto próprio no VoiceOver.";
 "LongPress.text2" = "Para simular um 'Long Press' de um toque triplo com um dedo no item focado.";
 "LongPress.text3" = "Ligue o VoiceOver e foque no elemento a seguir, ele tem um gesto de long press.";
-"LongPress.comment2" = "Se você está usando um gesto de ong press, eu sugiro que adiciona um 'Accessibility Hint' para avisar o seu usuário dessa interação!";
+"LongPress.comment2" = "Se você está usando um gesto de long press, eu sugiro que adicione um 'Accessibility Hint' para avisar o seu usuário dessa interação!";
 "LongPress.text4" = "O 'long press' é especialmente útil nos botões de voltar da barra de navegação. No iOS, ele mostra oda a hierarquia de navegação, facilitando voltar para a página que você está procurando.";
 
 "LongPress.Example.text" = "Alguma view genérica aqui";
