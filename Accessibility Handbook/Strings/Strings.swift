@@ -1874,6 +1874,15 @@ internal enum L10n {
     }
   }
 
+  internal enum Search {
+    internal enum Empty {
+      /// Try changing your search!
+      internal static let message = L10n.tr("Localizable", "Search.Empty.message")
+      /// No results could be found
+      internal static let title = L10n.tr("Localizable", "Search.Empty.title")
+    }
+  }
+
   internal enum SecretActions {
     /// Don't worry, they'll tell you what they like.
     internal static let comment = L10n.tr("Localizable", "SecretActions.comment")

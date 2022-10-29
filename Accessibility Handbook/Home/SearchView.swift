@@ -39,8 +39,8 @@ private extension SearchView {
         .aspectRatio(contentMode: .fit)
         .frame(width: 250.0)
         .accessibilityHidden(true)
-      Title("No results could be found")
-      Text("Try changing your search!")
+      Title(L10n.Search.Empty.title)
+      Text(L10n.Search.Empty.message)
       Spacer()
     }
   }

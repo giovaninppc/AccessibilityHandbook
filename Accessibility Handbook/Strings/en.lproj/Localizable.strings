@@ -11,6 +11,11 @@
 "Search" = "Search";
 "sharePage" = "Share page";
 
+// Search
+
+"Search.Empty.title" = "No results could be found";
+"Search.Empty.message" = "Try changing your search!";
+
 // Home
 
 "Home.developmentGuides" = "Development Guides";
