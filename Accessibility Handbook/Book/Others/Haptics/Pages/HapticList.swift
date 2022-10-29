@@ -19,7 +19,7 @@ struct HapticsListPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         Text(L10n.HapticList.text1)
 

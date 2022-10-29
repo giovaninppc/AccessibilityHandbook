@@ -11,7 +11,7 @@ struct ElementReadingOrderPage: View, Page {
   let title: String = L10n.ElementReadingOrder.title
 
   var body: some View {
-    PageContent(next: RotorPage()) {
+    PageContent(next: RotorPage(), deeplink: deeplink) {
       Group {
         Text(L10n.ElementReadingOrder.text1)
         Comment(L10n.ElementReadingOrder.comment1)

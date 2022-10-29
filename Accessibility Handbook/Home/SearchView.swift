@@ -16,14 +16,7 @@ struct SearchView: View {
 }
 
 private extension SearchView {
-  var allPages: [Page] {
-    let guideSections = VoiceOverGuideSections().sections + ColorsSection().sections
-      + OthersSections().sections + DynamicFontSections().sections
-    let guidePages = guideSections.map { $0.pages }.flatMap { $0 }
-    let gamePages = Games.pages
-    let aboutPages: [Page] = [AboutTheAppView(), CollaborationView()]
-    return guidePages + gamePages + aboutPages
-  }
+  var allPages: [Page] { AllPagesProvider().allPages }
 
   var filteredContent: [Page] {
     allPages.filter { $0.title.lowercased().contains(text.lowercased()) }

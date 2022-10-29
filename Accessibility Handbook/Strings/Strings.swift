@@ -150,6 +150,8 @@ internal enum L10n {
   internal static let select = L10n.tr("Localizable", "select")
   /// Selected
   internal static let selected = L10n.tr("Localizable", "selected")
+  /// Share page
+  internal static let sharePage = L10n.tr("Localizable", "sharePage")
   /// Snow
   internal static let snow = L10n.tr("Localizable", "snow")
   /// Sun

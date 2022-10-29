@@ -11,7 +11,7 @@ struct AboutFontsPage: View, Page {
   let title: String = L10n.AboutFonts.title
 
   var body: some View {
-    PageContent(next: UIContentSizePage()) {
+    PageContent(next: UIContentSizePage(), deeplink: deeplink) {
       Group {
         intro
         ExternalLink(link: "https://www.dafont.com", title: L10n.AboutFonts.link)

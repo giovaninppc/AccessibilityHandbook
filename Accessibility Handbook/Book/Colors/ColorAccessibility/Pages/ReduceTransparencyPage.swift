@@ -13,7 +13,7 @@ struct ReduceTransparencyPage: View, Page {
   @Environment(\.accessibilityReduceTransparency) var isReduceTransparencyEnabled
 
   var body: some View {
-    PageContent(next: DifferentiateWithoutColorsPage()) {
+    PageContent(next: DifferentiateWithoutColorsPage(), deeplink: deeplink) {
       Group {
         intro
         example

@@ -50,4 +50,5 @@ enum Icon {
   // Action
   static let copy = Image(systemName: "doc.on.doc.fill")
   static let arrowRight = Image(systemName: "arrow.right")
+  static let share = Image(systemName: "square.and.arrow.up")
 }

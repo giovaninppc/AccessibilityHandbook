@@ -28,7 +28,7 @@ struct ActivatePage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: LongPressPage()) {
+    PageContent(next: LongPressPage(), deeplink: deeplink) {
       Group {
         Text(L10n.Activate.text1)
         Comment(L10n.Activate.comment1)

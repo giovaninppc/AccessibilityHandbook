@@ -11,7 +11,7 @@ struct NavigationPage: View, Page {
   var title: String = L10n.Navigation.title
 
   var body: some View {
-    PageContent(next: ElementReadingOrderPage()) {
+    PageContent(next: ElementReadingOrderPage(), deeplink: deeplink) {
       Group {
         intro
         VerticalSpace(.regular)

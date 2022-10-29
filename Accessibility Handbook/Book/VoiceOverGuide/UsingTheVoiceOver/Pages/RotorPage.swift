@@ -40,7 +40,7 @@ struct RotorPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: RotorAndHeadersPage()) {
+    PageContent(next: RotorAndHeadersPage(), deeplink: deeplink) {
       Group {
         Comment(L10n.Rotor.comment1)
         Text(L10n.Rotor.text1)

@@ -14,7 +14,7 @@ struct IdentifyCurrentPreferredFontSizePage: View, Page {
   @State private var type: SystemFontType = .body
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         intro
         variations

@@ -11,7 +11,7 @@ struct DynamicColoredAssetsPage: View, Page {
   let title: String = L10n.DynamicContent.title
 
   var body: some View {
-    PageContent(next: TintableImagesPage()) {
+    PageContent(next: TintableImagesPage(), deeplink: deeplink) {
       Group {
         intro
         assets
