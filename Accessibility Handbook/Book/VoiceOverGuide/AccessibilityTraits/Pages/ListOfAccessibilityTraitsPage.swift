@@ -71,7 +71,7 @@ struct ListOfAccessibilityTraitsPage: View, Page {
       listItem(
         name: "searchField",
         description: L10n.ListOfTraits.searchField,
-        internalLink: nil,
+        internalLink: SearchFieldTraitPage().page,
         externalLink: "https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620199-searchfield"
       )
 

@@ -147,6 +147,7 @@
 		3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29A28DF93B1005D291A /* Icons.swift */; };
 		3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29C28DF93F3005D291A /* String+Extensions.swift */; };
 		3FF4A29E28E10ED1005D291A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A2A028E10ED1005D291A /* Localizable.strings */; };
+		9D7C0142290C6312004CCB40 /* SearchFieldTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */; };
 		9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4F901290B635300A00E51 /* ImageTraitPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -294,6 +295,7 @@
 		3FF4A29C28DF93F3005D291A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		3FF4A29F28E10ED1005D291A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3FF4A2A128E10EDD005D291A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldTraitPage.swift; sourceTree = "<group>"; };
 		9DD4F901290B635300A00E51 /* ImageTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTraitPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -764,6 +766,7 @@
 				3FBF060228DB710300DA5BF5 /* ButtonTraitPage.swift */,
 				3FBF060828DB8C4C00DA5BF5 /* HeaderTraitPage.swift */,
 				9DD4F901290B635300A00E51 /* ImageTraitPage.swift */,
+				9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -968,6 +971,7 @@
 				3FBF05D428DB52DA00DA5BF5 /* DifferentiateWithoutColorsPage.swift in Sources */,
 				3FBF058428DA93FB00DA5BF5 /* ElementReadingOrderPage.swift in Sources */,
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
+				9D7C0142290C6312004CCB40 /* SearchFieldTraitPage.swift in Sources */,
 				3FBF05E628DB639300DA5BF5 /* InvertColorsPage.swift in Sources */,
 				3F6C5ABC28E37FED00B12065 /* MultiFingerTap.swift in Sources */,
 				3FBF05E428DB602000DA5BF5 /* NotifyScreenChangesPage.swift in Sources */,

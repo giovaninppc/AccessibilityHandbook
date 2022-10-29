@@ -1371,6 +1371,35 @@ internal enum L10n {
     /// Image Trait
     internal static let title = L10n.tr("Localizable", "ImageTrait.title")
   }
+    
+    internal enum SearchFieldTrait {
+        /// Type what you are searching for.
+        internal static let description = L10n.tr("Localizable", "SearchFieldTrait.description", "Type what you are searching for.")
+        /// The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.
+        internal static let text1 = L10n.tr("Localizable", "SearchFieldTrait.text1", "The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.")
+        /// When we search for something, normally these searches results are displayed somewhere on the screen.
+        internal static let text2 = L10n.tr("Localizable", "SearchFieldTrait.text2", "When we search for something, normally these searches results are displayed somewhere on the screen.")
+        /// This trait allows VoiceOver to warn the user that the UI will change somewhere.
+        internal static let text3 = L10n.tr("Localizable", "SearchFieldTrait.text3", "This trait allows VoiceOver to warn the user that the UI will change somewhere.")
+        /// This trait allows VoiceOver to warn the user that the UI will change somewhere.
+        internal static let button = L10n.tr("Localizable", "SearchFieldTrait.button", "Try here!")
+        /// Search Field Trait
+        internal static let title = L10n.tr("Localizable", "SearchFieldTrait.title")
+        internal enum AnimalsArray {
+            /// 🐝 Bee
+            internal static let bee = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Bee", "🐝 Bee")
+            /// 🦜 Bird
+            internal static let bird = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Bird", "🦜 Bird")
+            /// 🐈 Cat
+            internal static let cat = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Cat", "🐈 Cat")
+            /// 🐄 Cow
+            internal static let cow = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Cow", "🐄 Cow")
+            /// 🐶 Dog
+            internal static let dog = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Dog", "🐶 Dog")
+            /// 🐍 Snake
+            internal static let snake = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Snake", "🐍 Snake")
+        }
+    }
 
   internal enum ImplementingDynamicFonts {
     /// Scaling Fonts Automatically
