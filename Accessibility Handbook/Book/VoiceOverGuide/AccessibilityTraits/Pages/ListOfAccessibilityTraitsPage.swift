@@ -99,7 +99,7 @@ struct ListOfAccessibilityTraitsPage: View, Page {
       listItem(
         name: "summaryElement",
         description: L10n.ListOfTraits.summaryElement,
-        internalLink: nil,
+        internalLink: SummaryElementTraitPage().page,
         externalLink: "https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620185-summaryelement"
       )
     }

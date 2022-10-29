@@ -14,6 +14,7 @@ struct AccessibilityTraitsSection: Section {
     ButtonTraitPage(),
     HeaderTraitPage(),
     ImageTraitPage(),
-    SearchFieldTraitPage()
+    SearchFieldTraitPage(),
+    SummaryElementTraitPage()
   ]
 }

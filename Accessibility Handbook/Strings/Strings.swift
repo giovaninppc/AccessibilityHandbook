@@ -675,6 +675,19 @@ internal enum L10n {
     /// Button Trait
     internal static let title = L10n.tr("Localizable", "ButtonTrait.title")
   }
+    
+    internal enum SummaryElementTrait {
+      /// This screen is about summary element traits.
+      internal static let description = L10n.tr("Localizable", "SummaryElementTrait.description")
+      /// The Summary Element Trait gives a summarized description of the most important info of the screen.
+      internal static let text1 = L10n.tr("Localizable", "SummaryElementTrait.text1")
+      /// An example is Apple's Weather app, in which the view that contains the city and current weather is used as a summary.
+      internal static let text2 = L10n.tr("Localizable", "SummaryElementTrait.text2")
+      /// This trait makes VoiceOver read this element as soon as the screen appears, regardless of the position of this element in the view hierarchy. The focus order is not affected.
+      internal static let text3 = L10n.tr("Localizable", "SummaryElementTrait.text3")
+      /// Summary Element Trait
+      internal static let title = L10n.tr("Localizable", "SummaryElementTrait.title")
+    }
 
   internal enum ChangeCursor {
     /// Change cursor position

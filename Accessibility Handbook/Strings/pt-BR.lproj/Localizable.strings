@@ -235,6 +235,17 @@
 
 "ImageTrait.description" = "Descrição da imagem";
 
+
+// Summary Element trait
+
+"SummaryElementTrait.title" = "Summary Element Trait";
+
+"SummaryElementTrait.text1" = "O trait de elemento de resumo fornece uma descrição resumida da informação mais relevante daquela tela.";
+"SummaryElementTrait.text2" = "Um exemplo é o app de Tempo do iPhone, onde o a view que contém a cidade e temperaturas atuais, no topo da tela, possui essa trait e é usada como sumário.";
+"SummaryElementTrait.text3" = "Esse trait faz o Voice Over ler esse elemento assim que a tela aparece, independente da posição dele na hierarquia da view.";
+
+"SummaryElementTrait.description" = "Essa tela fala sobre summary element traits.";
+
 // Search Field trait
 
 "SearchFieldTrait.title" = "Search Field Trait";
