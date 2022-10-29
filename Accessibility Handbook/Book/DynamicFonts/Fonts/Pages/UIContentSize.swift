@@ -11,7 +11,7 @@ struct UIContentSizePage: View, Page {
   let title: String = L10n.UIContentSizeCategory.title
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         intro
         list

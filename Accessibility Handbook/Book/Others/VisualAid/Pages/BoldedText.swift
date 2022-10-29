@@ -11,7 +11,7 @@ struct BoldedTextPage: View, Page {
   let title: String = L10n.BoldedText.title
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         intro
         code

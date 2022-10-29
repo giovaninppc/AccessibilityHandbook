@@ -11,7 +11,7 @@ struct DismissPage: View, Page {
   let title: String = L10n.DismissPage.title
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         intro
         handling

@@ -11,7 +11,7 @@ struct PreferCrossFadePage: View, Page {
   let title: String = L10n.PreferCrossFadePage.title
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         Text(L10n.PreferCrossFadePage.text1)
         InternalLink(page: ReduceMotionPage().page, title: L10n.ReduceMotion.title)

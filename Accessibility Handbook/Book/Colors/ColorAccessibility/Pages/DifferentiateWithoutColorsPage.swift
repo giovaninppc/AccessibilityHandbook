@@ -11,7 +11,7 @@ struct DifferentiateWithoutColorsPage: View, Page {
   var title: String = "Differentiate without colors"
 
   var body: some View {
-    PageContent(next: InvertColorsPage()) {
+    PageContent(next: InvertColorsPage(), deeplink: deeplink) {
       Group {
         intro
         handling

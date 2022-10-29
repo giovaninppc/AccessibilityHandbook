@@ -11,7 +11,7 @@ struct ListOfAccessibilityTraitsPage: View, Page {
   var title: String = L10n.ListOfTraits.title
 
   var body: some View {
-    PageContent(next: ButtonTraitPage()) {
+    PageContent(next: ButtonTraitPage(), deeplink: deeplink) {
       Group {
         Text(L10n.ListOfTraits.text1)
         Comment(L10n.ListOfTraits.comment1)
@@ -165,6 +165,7 @@ struct ListOfAccessibilityTraitsPage: View, Page {
         .font(.body.bold())
         .accessibilityLabel(Text(name))
       Comment(description)
+            .fixedSize(horizontal: false, vertical: true)
       HStack(spacing: .large) {
         if let externalLink = externalLink {
           ExternalLink(link: externalLink, title: L10n.moreOnTheWeb)

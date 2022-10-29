@@ -39,7 +39,7 @@ struct CustomActionsPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: MagicTapPage()) {
+    PageContent(next: MagicTapPage(), deeplink: deeplink) {
       Group {
         Text(L10n.CustomActions.text1)
         Comment(L10n.CustomActions.comment1)

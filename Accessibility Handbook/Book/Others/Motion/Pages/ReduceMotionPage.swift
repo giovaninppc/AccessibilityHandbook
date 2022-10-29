@@ -15,7 +15,7 @@ struct ReduceMotionPage: View, Page {
   @Environment(\.accessibilityReduceMotion) var accessibilityReduceMotion
 
   var body: some View {
-    PageContent(next: PreferCrossFadePage()) {
+    PageContent(next: PreferCrossFadePage(), deeplink: deeplink) {
       Group {
         intro
         code

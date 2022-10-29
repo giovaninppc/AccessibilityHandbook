@@ -14,7 +14,7 @@ struct ButtonShapesPage: View, Page {
   var buttonShapesEnabled: Bool
 
   var body: some View {
-    PageContent(next: BoldedTextPage()) {
+    PageContent(next: BoldedTextPage(), deeplink: deeplink) {
       Group {
         intro
         example

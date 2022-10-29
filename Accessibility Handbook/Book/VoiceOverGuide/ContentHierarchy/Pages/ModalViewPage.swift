@@ -22,7 +22,7 @@ struct ModalViewPage: View, Page {
 
   var body: some View {
     ZStack {
-      PageContent(next: GroupingPage()) {
+      PageContent(next: GroupingPage(), deeplink: deeplink) {
         Group {
           intro
           uiKit

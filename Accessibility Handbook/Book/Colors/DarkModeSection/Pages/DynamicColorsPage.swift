@@ -11,7 +11,7 @@ struct DynamicColorsPage: View, Page {
   let title: String = L10n.DynamicColors.title
 
   var body: some View {
-    PageContent(next: DynamicColoredAssetsPage()) {
+    PageContent(next: DynamicColoredAssetsPage(), deeplink: deeplink) {
       Group {
         intro
         systemColors
