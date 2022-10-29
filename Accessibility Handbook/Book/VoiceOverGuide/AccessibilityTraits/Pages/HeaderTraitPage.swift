@@ -23,7 +23,7 @@ struct HeaderTraitPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: ImageTraitPage()) {
+    PageContent(next: ImageTraitPage(), deeplink: deeplink) {
       Group {
         Text(L10n.HeaderTrait.text1)
         Comment(L10n.HeaderTrait.comment1)

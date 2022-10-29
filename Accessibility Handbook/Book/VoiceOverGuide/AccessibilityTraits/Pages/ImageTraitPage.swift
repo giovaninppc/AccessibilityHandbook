@@ -23,7 +23,7 @@ struct ImageTraitPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         Text(L10n.ImageTrait.text1)
         Text(L10n.ImageTrait.text2)

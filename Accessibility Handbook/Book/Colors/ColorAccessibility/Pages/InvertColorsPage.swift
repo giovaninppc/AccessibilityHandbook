@@ -11,7 +11,7 @@ struct InvertColorsPage: View, Page {
   let title: String = L10n.InvertColors.title
 
   var body: some View {
-    PageContent(next: IncreaseContrastPage()) {
+    PageContent(next: IncreaseContrastPage(), deeplink: deeplink) {
       Group {
         intro
         whatToDo

@@ -43,7 +43,7 @@ struct AnnouncementPage: View, Page {
   }
 
   var body: some View {
-    PageContent(next: NotifyScreenChangesPage()) {
+    PageContent(next: NotifyScreenChangesPage(), deeplink: deeplink) {
       Group {
         Text(L10n.Announcement.text1)
         Text(L10n.Announcement.text2)

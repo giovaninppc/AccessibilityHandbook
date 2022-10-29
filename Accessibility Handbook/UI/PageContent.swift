@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PageContent: View {
   let next: Page?
+  let deeplink: String
   let content: () -> AnyView
 
   @Environment(\.dismiss) var dismiss
@@ -40,11 +41,24 @@ struct PageContent: View {
     }
     .toolbar {
       Button {
-        //
+        share()
       } label: {
         Icon.share
       }
+      .accessibilityLabel(L10n.sharePage)
     }
+  }
+}
+
+private extension PageContent {
+  func share() {
+    guard let url = URL(string: deeplink) else { return }
+    let activityController = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+    let scenes = UIApplication.shared.connectedScenes
+    guard let windowScene = scenes.first as? UIWindowScene,
+          let window = windowScene.windows.first,
+          let root = window.rootViewController else { return }
+    root.present(activityController, animated: true, completion: nil)
   }
 }
 

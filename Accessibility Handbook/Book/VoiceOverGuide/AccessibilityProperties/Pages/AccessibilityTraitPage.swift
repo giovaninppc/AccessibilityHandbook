@@ -23,7 +23,7 @@ struct AccessibilityTraitPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: AccessibilityValuePage()) {
+    PageContent(next: AccessibilityValuePage(), deeplink: deeplink) {
       Group {
         Text(L10n.AccTrait.text1)
         Text(L10n.AccTrait.text2)

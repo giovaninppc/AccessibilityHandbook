@@ -11,7 +11,7 @@ struct ColorBlindnessPage: View, Page {
   let title: String = L10n.ColorBlind.title
 
   var body: some View {
-    PageContent(next: ContrastPage()) {
+    PageContent(next: ContrastPage(), deeplink: deeplink) {
       Group {
         intro
         handlingColorblindColors

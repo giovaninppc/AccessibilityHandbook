@@ -11,7 +11,7 @@ struct AboutColorsPage: View, Page {
   var title: String = L10n.AboutColors.title
 
   var body: some View {
-    PageContent(next: ColorBlindnessPage()) {
+    PageContent(next: ColorBlindnessPage(), deeplink: deeplink) {
       Group {
         Text(L10n.AboutColors.text1)
         Comment(L10n.AboutColors.comment1)

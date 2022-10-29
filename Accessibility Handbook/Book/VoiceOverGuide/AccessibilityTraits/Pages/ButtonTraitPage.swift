@@ -23,7 +23,7 @@ struct ButtonTraitPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: HeaderTraitPage()) {
+    PageContent(next: HeaderTraitPage(), deeplink: deeplink) {
       Group {
         Text(L10n.ButtonTrait.text1)
         Text(L10n.ButtonTrait.text2)

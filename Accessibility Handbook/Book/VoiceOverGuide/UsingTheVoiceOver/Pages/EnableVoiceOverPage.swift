@@ -15,7 +15,7 @@ struct EnableVoiceOverPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: NavigationPage()) {
+    PageContent(next: NavigationPage(), deeplink: deeplink) {
       Group {
         Text(L10n.EnableVoiceOver.text1)
         Text(L10n.EnableVoiceOver.text2)

@@ -23,7 +23,7 @@ struct NotifyScreenChangesPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: ChangeCursorPositionPage()) {
+    PageContent(next: ChangeCursorPositionPage(), deeplink: deeplink) {
       Group {
         header
         example

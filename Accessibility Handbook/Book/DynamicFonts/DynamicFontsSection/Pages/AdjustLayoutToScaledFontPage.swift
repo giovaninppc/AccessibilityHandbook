@@ -11,7 +11,7 @@ struct AdjustLayoutToScaledFontPage: View, Page {
   let title = L10n.AdjustLayoutToScaledFontPage.title
 
   var body: some View {
-    PageContent(next: IdentifyCurrentPreferredFontSizePage()) {
+    PageContent(next: IdentifyCurrentPreferredFontSizePage(), deeplink: deeplink) {
       Group {
         intro
         fixedSizeExample

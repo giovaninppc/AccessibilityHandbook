@@ -17,7 +17,7 @@ struct AccessibilityValuePage: View, Page {
   @State private var currentValue: Int = 0
 
   var body: some View {
-    PageContent(next: AccessibilityPriorityPage()) {
+    PageContent(next: AccessibilityPriorityPage(), deeplink: deeplink) {
       Group {
         Text(L10n.AccValue.text1)
         Text(L10n.AccValue.text2)

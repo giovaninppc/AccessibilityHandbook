@@ -13,7 +13,7 @@ struct AppearancesPage: View, Page {
   @Environment(\.colorScheme) var colorScheme
 
   var body: some View {
-    PageContent(next: DynamicColorsPage()) {
+    PageContent(next: DynamicColorsPage(), deeplink: deeplink) {
       Group {
         intro
         code
