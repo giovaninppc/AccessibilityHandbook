@@ -235,6 +235,16 @@
 
 "ImageTrait.description" = "Image description";
 
+// Summary Element trait
+
+"SummaryElementTrait.title" = "Summary Element Trait";
+
+"SummaryElementTrait.text1" = "The Summary Element Trait gives a summarized description of the most important info of the screen.";
+"SummaryElementTrait.text2" = "An example is Apple's Weather app, in which the view that contains the city and current weather is used as a summary.";
+"SummaryElementTrait.text3" = "This trait makes VoiceOver read this element as soon as the screen appears, regardless of the position of this element in the view hierarchy. The focus order is not affected.";
+
+"SummaryElementTrait.description" = "I am a very important component and I provide a summary of the screen info.";
+
 // Adjustable
 
 "Adjustable.title" = "Adjustable trait";
