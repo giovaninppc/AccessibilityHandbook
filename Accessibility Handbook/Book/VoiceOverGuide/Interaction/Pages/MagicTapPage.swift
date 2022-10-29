@@ -34,7 +34,7 @@ struct MagicTapPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         Text(L10n.MagicTap.text1)
         Text(L10n.MagicTap.text2)

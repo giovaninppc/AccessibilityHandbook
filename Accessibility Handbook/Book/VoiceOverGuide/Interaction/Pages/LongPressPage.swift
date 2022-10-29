@@ -26,7 +26,7 @@ struct LongPressPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: AdjustablePage()) {
+    PageContent(next: AdjustablePage(), deeplink: deeplink) {
       Group {
         Comment(L10n.LongPress.comment1)
         Text(L10n.LongPress.text1)

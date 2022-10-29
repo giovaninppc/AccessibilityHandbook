@@ -150,6 +150,8 @@ internal enum L10n {
   internal static let select = L10n.tr("Localizable", "select")
   /// Selected
   internal static let selected = L10n.tr("Localizable", "selected")
+  /// Share page
+  internal static let sharePage = L10n.tr("Localizable", "sharePage")
   /// Snow
   internal static let snow = L10n.tr("Localizable", "snow")
   /// Sun
@@ -1882,6 +1884,15 @@ internal enum L10n {
       internal static let text3 = L10n.tr("Localizable", "RotorAndHeaders.Together.text3")
       /// What about them together?
       internal static let title = L10n.tr("Localizable", "RotorAndHeaders.Together.title")
+    }
+  }
+
+  internal enum Search {
+    internal enum Empty {
+      /// Try changing your search!
+      internal static let message = L10n.tr("Localizable", "Search.Empty.message")
+      /// No results could be found
+      internal static let title = L10n.tr("Localizable", "Search.Empty.title")
     }
   }
 

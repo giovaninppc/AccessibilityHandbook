@@ -25,7 +25,7 @@ struct AccessibilityHintPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: AccessibilityTraitPage()) {
+    PageContent(next: AccessibilityTraitPage(), deeplink: deeplink) {
       Group {
         Text(Self.strings.text1)
         Text(Self.strings.text2)

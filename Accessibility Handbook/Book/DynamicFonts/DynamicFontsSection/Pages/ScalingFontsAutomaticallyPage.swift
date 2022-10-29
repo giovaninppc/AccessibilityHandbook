@@ -11,7 +11,7 @@ struct ScallingFontsAutomaticallyPage: View, Page {
   let title: String = L10n.ImplementingDynamicFonts.title
 
   var body: some View {
-    PageContent(next: UIFontMetricsPage()) {
+    PageContent(next: UIFontMetricsPage(), deeplink: deeplink) {
       Group {
         intro
         textStyles

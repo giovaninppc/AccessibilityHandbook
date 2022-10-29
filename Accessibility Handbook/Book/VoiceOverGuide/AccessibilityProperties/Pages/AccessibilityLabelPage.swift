@@ -17,7 +17,7 @@ struct AccessibilityLabelPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: AccessibilityHintPage()) {
+    PageContent(next: AccessibilityHintPage(), deeplink: deeplink) {
       Group {
         heading
         exampleImage

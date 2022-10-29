@@ -15,7 +15,7 @@ struct IncreaseContrastPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: nil) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
         intro
         property

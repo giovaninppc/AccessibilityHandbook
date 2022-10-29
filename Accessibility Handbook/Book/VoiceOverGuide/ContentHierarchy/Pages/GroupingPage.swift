@@ -11,7 +11,7 @@ struct GroupingPage: View, Page {
   let title: String = L10n.Grouping.title
 
   var body: some View {
-    PageContent(next: DismissPage()) {
+    PageContent(next: DismissPage(), deeplink: deeplink) {
       Group {
         content
         VerticalSpace(.large)

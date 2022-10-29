@@ -40,7 +40,7 @@ struct AdjustablePage: View, Page {
   @State private var currentValue: Int = 0
 
   var body: some View {
-    PageContent(next: CustomActionsPage()) {
+    PageContent(next: CustomActionsPage(), deeplink: deeplink) {
       Group {
         Text(L10n.Adjustable.text1)
         InternalLink(page: ListOfAccessibilityTraitsPage().page, title: L10n.Adjustable.seeMore)

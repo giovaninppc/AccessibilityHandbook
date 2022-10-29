@@ -25,7 +25,7 @@ struct AccessibilityElementPage: View, Page {
   """
 
   var body: some View {
-    PageContent(next: AccessibilityLabelPage()) {
+    PageContent(next: AccessibilityLabelPage(), deeplink: deeplink) {
       Group {
         Text(Self.strings.text1)
         Text(Self.strings.text2)
