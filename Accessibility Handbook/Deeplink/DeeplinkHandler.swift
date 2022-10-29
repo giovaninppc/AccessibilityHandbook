@@ -22,13 +22,7 @@ final class DeeplinkHandler {
 
   @ViewBuilder
   func deeplinkView() -> some View {
-    page!.page
-  }
-
-  func handle(url: URL) -> AnyView? {
-    guard url.scheme == scheme else { return nil }
-    guard let page = matchingPage(for: url) else { return nil }
-    return page.page
+    page?.page ?? EmptyView().toAny()
   }
 }
 
