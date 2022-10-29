@@ -246,7 +246,7 @@
 
 "SearchFieldTrait.description" = "Digite o que você está buscando.";
 "SearchFieldTrait.AnimalsArray.Bee" = "🐝 Abelha";
-"SearchFieldTrait.AnimalsArray.Bird" = "🦜 Passarinho";
+"SearchFieldTrait.AnimalsArray.Bird" = "🦜 Ave";
 "SearchFieldTrait.AnimalsArray.Cat" = "🐈 Gato";
 "SearchFieldTrait.AnimalsArray.Cow" = "🐄 Vaca";
 "SearchFieldTrait.AnimalsArray.Dog" = "🐶 Cachorro";

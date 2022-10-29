@@ -1197,7 +1197,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Accessibility Handbook/Preview Content\"";
-				DEVELOPMENT_TEAM = 725HB8W2V6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Accessibility-Handbook-Info.plist";
@@ -1227,7 +1227,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Accessibility Handbook/Preview Content\"";
-				DEVELOPMENT_TEAM = 725HB8W2V6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Accessibility-Handbook-Info.plist";

@@ -45,7 +45,15 @@ struct SearchFieldTraitPage: View, Page {
 }
 
 struct SearchBarView: View {
-    let animals = ["🐝 Bee", "🦜 Bird", "🐈 Cat", "🐄 Cow", "🐶 Dog", "🐍 Snake"]
+    let animals = [
+        L10n.SearchFieldTrait.AnimalsArray.bee,
+        L10n.SearchFieldTrait.AnimalsArray.bird,
+        L10n.SearchFieldTrait.AnimalsArray.cat,
+        L10n.SearchFieldTrait.AnimalsArray.cow,
+        L10n.SearchFieldTrait.AnimalsArray.dog,
+        L10n.SearchFieldTrait.AnimalsArray.snake
+    ]
+    
     @State private var searchText = ""
     
     var body: some View {
