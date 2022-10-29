@@ -19,7 +19,7 @@ struct SummaryElementTraitPage: View, Page {
     """
     
     let link: String = """
-    https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620174-image
+    https://developer.apple.com/documentation/uikit/uiaccessibilitytraits/1620185-summaryelement
     """
     
     var body: some View {
