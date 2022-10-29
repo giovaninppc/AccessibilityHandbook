@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SummaryElementTraitPage: View, Page {
-    let title: String = L10n.ImageTrait.title
+    let title: String = L10n.SummaryElementTrait.title
     
     let codeUIKit: String = """
     myView.accessibilityTraits = [.summaryElement]
@@ -25,13 +25,11 @@ struct SummaryElementTraitPage: View, Page {
     var body: some View {
         PageContent(next: nil, deeplink: deeplink) {
             Group {
-                Text(L10n.ImageTrait.text1)
-                Text(L10n.ImageTrait.text2)
-                Text(L10n.ImageTrait.text3)
-                Asset.prettyColors.swiftUIImage
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .accessibilityLabel(L10n.ImageTrait.description)
+                Text(L10n.SummaryElementTrait.text1)
+                    .accessibilityAddTraits(.isSummaryElement)
+                Text(L10n.SummaryElementTrait.text2)
+                Text(L10n.SummaryElementTrait.text3)
+                
                 Code.uikit(codeUIKit)
                 Code.swiftUI(codeSwiftUI)
                 DocButton(link: link, title: title)

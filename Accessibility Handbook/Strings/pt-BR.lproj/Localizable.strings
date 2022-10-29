@@ -243,7 +243,7 @@
 "SummaryElementTrait.text2" = "Um exemplo é o app de Tempo do iPhone, onde o a view que contém a cidade e temperaturas atuais, no topo da tela, possui essa trait e é usada como sumário.";
 "SummaryElementTrait.text3" = "Esse trait faz o Voice Over ler esse elemento assim que a tela aparece, independente da posição dele na hierarquia da view.";
 
-"SummaryElementTrait.description" = "Eu sou um componente importante e dou um resumo da tela.";
+"SummaryElementTrait.description" = "Essa tela fala sobre summary element traits.";
 
 // Adjustable
 
