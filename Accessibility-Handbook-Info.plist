@@ -13,7 +13,7 @@
 			<string>pereira.nascimento.giovani.accHandbook</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>accessibility_handbook</string>
+				<string>accessibilityHandbook</string>
 			</array>
 		</dict>
 	</array>

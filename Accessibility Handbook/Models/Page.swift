@@ -11,6 +11,7 @@ protocol Page {
   var id: String { get }
   var title: String { get }
   var page: AnyView { get }
+  var deeplink: String { get }
 }
 
 extension Page where Self: View {
@@ -20,5 +21,10 @@ extension Page where Self: View {
 
   var id: String {
     String(describing: self.self)
+  }
+
+  var deeplink: String {
+    baseDeeplinkScheme + "://" +
+    title.replacingOccurrences(of: String.space, with: String.empty).lowercased()
   }
 }

@@ -38,6 +38,13 @@ struct PageContent: View {
       }
       .padding()
     }
+    .toolbar {
+      Button {
+        //
+      } label: {
+        Icon.share
+      }
+    }
   }
 }
 
