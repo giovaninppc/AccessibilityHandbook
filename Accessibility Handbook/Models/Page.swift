@@ -20,11 +20,14 @@ extension Page where Self: View {
   }
 
   var id: String {
-    String(describing: self.self)
+    let base = String(describing: self.self)
+    let split = base.split(separator: "(").map { String($0) }
+    return (split.first ?? base)
+      .replacingOccurrences(of: String.space, with: String.empty)
+      .lowercased()
   }
 
   var deeplink: String {
-    baseDeeplinkScheme + "://" +
-    title.replacingOccurrences(of: String.space, with: String.empty).lowercased()
+    baseDeeplinkScheme + "://" + id
   }
 }
