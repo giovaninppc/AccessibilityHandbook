@@ -58,7 +58,13 @@ private extension PageContent {
     guard let windowScene = scenes.first as? UIWindowScene,
           let window = windowScene.windows.first,
           let root = window.rootViewController else { return }
-    root.present(activityController, animated: true, completion: nil)
+    if let presented = root.presentedViewController {
+      presented.dismiss(animated: true) {
+        root.present(activityController, animated: true, completion: nil)
+      }
+    } else {
+      root.present(activityController, animated: true, completion: nil)
+    }
   }
 }
 
