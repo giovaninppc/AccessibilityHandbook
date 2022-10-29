@@ -235,6 +235,23 @@
 
 "ImageTrait.description" = "Image description";
 
+// Search Field trait
+
+"SearchFieldTrait.title" = "Search Field Trait";
+
+"SearchFieldTrait.text1" = "The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.";
+"SearchFieldTrait.text2" = "When we search for something, normally these searches results are displayed somewhere on the screen.";
+"SearchFieldTrait.text3" = "This trait allows VoiceOver to warn the user that the UI will change somewhere.";
+"SearchFieldTrait.button" = "Try here!";
+
+"SearchFieldTrait.description" = "Type what you are searching for.";
+"SearchFieldTrait.AnimalsArray.Bee" = "🐝 Bee";
+"SearchFieldTrait.AnimalsArray.Bird" = "🦜 Bird";
+"SearchFieldTrait.AnimalsArray.Cat" = "🐈 Cat";
+"SearchFieldTrait.AnimalsArray.Cow" = "🐄 Cow";
+"SearchFieldTrait.AnimalsArray.Dog" = "🐶 Dog";
+"SearchFieldTrait.AnimalsArray.Snake" = "🐍 Snake";
+
 // Adjustable
 
 "Adjustable.title" = "Adjustable trait";

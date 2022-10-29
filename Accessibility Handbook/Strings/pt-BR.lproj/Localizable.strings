@@ -235,6 +235,23 @@
 
 "ImageTrait.description" = "Descrição da imagem";
 
+// Search Field trait
+
+"SearchFieldTrait.title" = "Search Field Trait";
+
+"SearchFieldTrait.text1" = "O trait de campo de busca serve para campos de texto que não são apenas entradas de dados, mas também produzem alguma alteração visual na tela quando preenchidos.";
+"SearchFieldTrait.text2" = "Quando fazemos uma busca textual, é normal que os resultados dessa busca sejam apresentados em algum lugar da tela.";
+"SearchFieldTrait.text3" = "Esse trait permite que o VoiceOver avise que a UI vai mudar em algum lugar.";
+"SearchFieldTrait.button" = "Teste esse exemplo!";
+
+"SearchFieldTrait.description" = "Digite o que você está buscando.";
+"SearchFieldTrait.AnimalsArray.Bee" = "🐝 Abelha";
+"SearchFieldTrait.AnimalsArray.Bird" = "🦜 Ave";
+"SearchFieldTrait.AnimalsArray.Cat" = "🐈 Gato";
+"SearchFieldTrait.AnimalsArray.Cow" = "🐄 Vaca";
+"SearchFieldTrait.AnimalsArray.Dog" = "🐶 Cachorro";
+"SearchFieldTrait.AnimalsArray.Snake" = "🐍 Cobra";
+
 // Adjustable
 
 "Adjustable.title" = "Adjustable trait";
