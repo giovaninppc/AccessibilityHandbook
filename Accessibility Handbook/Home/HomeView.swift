@@ -60,27 +60,6 @@ private extension HomeView {
     }
     .padding()
   }
-
-  var whatsNewCell: some View {
-    NavigationLink {
-      WhatsNewView().page
-    } label: {
-      HStack(spacing: .regular) {
-        Icon.bookmark
-          .aspectRatio(contentMode: .fit)
-        Text(L10n.WhatsNew.title)
-          .font(.title3.bold())
-        Spacer()
-      }
-      .frame(maxWidth: 350.0)
-      .accessibilityElement(children: .combine)
-      .padding()
-      .background {
-        RoundedRectangle(cornerRadius: 8.0)
-          .foregroundColor(.secondaryBackground)
-      }
-    }
-  }
 }
 
 // MARK: - GameCell
@@ -177,6 +156,27 @@ private extension HomeView {
       title: L10n.Home.collaborate,
       destination: CollaborationView().toAny()
     )
+  }
+
+  var whatsNewCell: some View {
+    NavigationLink {
+      WhatsNewView().page
+    } label: {
+      HStack(spacing: .regular) {
+        Icon.bookmark
+          .aspectRatio(contentMode: .fit)
+        Text(L10n.WhatsNew.title)
+          .font(.title3.bold())
+        Spacer()
+      }
+      .frame(maxWidth: 350.0)
+      .accessibilityElement(children: .combine)
+      .padding()
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
+      }
+    }
   }
 }
 

@@ -135,6 +135,7 @@
 		3FCA322C290D5F2E00551CD0 /* AllPagesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA322B290D5F2E00551CD0 /* AllPagesProvider.swift */; };
 		3FCA3232290D661700551CD0 /* DeeplinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3231290D661700551CD0 /* DeeplinkHandler.swift */; };
 		3FCA3234290EADFE00551CD0 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3233290EADFE00551CD0 /* WhatsNewView.swift */; };
+		3FCA3236290EBAF900551CD0 /* LastSeenVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3235290EBAF900551CD0 /* LastSeenVersion.swift */; };
 		3FD00F6228E3B61A0007D604 /* ImplementDynamicFontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */; };
 		3FD00F6928E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
@@ -284,6 +285,7 @@
 		3FCA322B290D5F2E00551CD0 /* AllPagesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPagesProvider.swift; sourceTree = "<group>"; };
 		3FCA3231290D661700551CD0 /* DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkHandler.swift; sourceTree = "<group>"; };
 		3FCA3233290EADFE00551CD0 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
+		3FCA3235290EBAF900551CD0 /* LastSeenVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSeenVersion.swift; sourceTree = "<group>"; };
 		3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementDynamicFontsSection.swift; sourceTree = "<group>"; };
 		3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFontsAutomaticallyPage.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
@@ -611,6 +613,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBF05A428DAB9C700DA5BF5 /* Storage.swift */,
+				3FCA3235290EBAF900551CD0 /* LastSeenVersion.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -989,6 +992,7 @@
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,
 				3FBF055028DA648700DA5BF5 /* Strings.swift in Sources */,
 				3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */,
+				3FCA3236290EBAF900551CD0 /* LastSeenVersion.swift in Sources */,
 				3FBF05E128DB5FF600DA5BF5 /* NotificationsSection.swift in Sources */,
 				3F4E7F8F28DCA52700710F18 /* AnnouncementPage.swift in Sources */,
 				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,
