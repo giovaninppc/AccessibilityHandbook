@@ -23,7 +23,7 @@ struct SummaryElementTraitPage: View, Page {
     """
     
     var body: some View {
-        PageContent(next: nil, deeplink: deeplink) {
+        PageContent(next: SearchFieldTraitPage(), deeplink: deeplink) {
             Group {
                 Text(L10n.SummaryElementTrait.text1)
                     .accessibilityAddTraits(.isSummaryElement)
