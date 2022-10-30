@@ -11,8 +11,10 @@ import SwiftUI
 struct Accessibility_HandbookApp: App {
   @State private var isShowingDeeplink: Bool = false
   @State private var isPresentingDeeplink: Bool = false
+  @State private var isPresentingWhatsNew: Bool = false
 
   private let deeplinkHandler = DeeplinkHandler()
+  private let lastSeenVersion = VersionStates.self
 
   var body: some Scene {
     WindowGroup {
@@ -28,6 +30,17 @@ struct Accessibility_HandbookApp: App {
       }) {
         NavigationView {
           deeplinkHandler.deeplinkView()
+        }
+        .navigationViewStyle(.stack)
+      }
+      .onAppear(perform: {
+        isPresentingWhatsNew = lastSeenVersion.shouldDisplayWhatsNew()
+      })
+      .sheet(isPresented: $isPresentingWhatsNew, onDismiss: {
+        isPresentingWhatsNew = false
+      }) {
+        NavigationView {
+          WhatsNewView().page
         }
         .navigationViewStyle(.stack)
       }
