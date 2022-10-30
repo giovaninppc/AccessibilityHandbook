@@ -43,7 +43,7 @@
 
 "WhatsNew.1_5_0.description" = "New visual aid section on the 'Others Features'\nNew image accessibility trait page.";
 
-"WhatsNew.1_6_0.description" = "New 'What's new on the app' page to help users find new content thay have not yet seen.\nSearch improvements, now the search content is alphabetically sorted with the respective section icon on each page.\nNew share and deeplinking capability on the app - now you can share every page with anyone and they can open them using the direct link!\nAnd new accessibility trait pages.";
+"WhatsNew.1_6_0.description" = "New 'What's new on the app' page to help users find new content they have not yet seen.\nSearch improvements, now the search content is alphabetically sorted with the respective section icon on each page.\nNew share and deeplinking capability on the app - now you can share every page with anyone and they can open them using the direct link!\nAnd new accessibility trait pages.";
 
 // Using
 
@@ -353,7 +353,7 @@
 "AboutTheApp.Game.text1" = "The Handbook was pretty nice and all... but it was a little boring.";
 "AboutTheApp.Game.text2" = "So I tryied to make something that would be nicer to use and to learn,";
 "AboutTheApp.Game.text3" = "And what best way to do that than with a game?";
-"AboutTheApp.Game.comment" = "The puzzles are not supposed to be hard, thay are just a nice way to practice your accessibility knowledge!";
+"AboutTheApp.Game.comment" = "The puzzles are not supposed to be hard, they are just a nice way to practice your accessibility knowledge!";
 
 "AboutTheApp.Disclaimer.title" = "Disclaimer";
 "AboutTheApp.Disclaimer.text1" = "This app and it's content is supposed to be a helpful guide, based on real development experiences.";
