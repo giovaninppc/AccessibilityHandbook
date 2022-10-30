@@ -1918,6 +1918,8 @@ internal enum L10n {
 
   internal enum Search {
     internal enum Empty {
+      /// Search all pages
+      internal static let action = L10n.tr("Localizable", "Search.Empty.action")
       /// Try changing your search!
       internal static let message = L10n.tr("Localizable", "Search.Empty.message")
       /// No results could be found

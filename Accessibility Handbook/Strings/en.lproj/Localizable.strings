@@ -15,6 +15,7 @@
 
 "Search.Empty.title" = "No results could be found";
 "Search.Empty.message" = "Try changing your search!";
+"Search.Empty.action" = "Search all pages";
 
 // Home
 

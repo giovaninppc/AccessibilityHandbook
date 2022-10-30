@@ -15,6 +15,7 @@
 
 "Search.Empty.title" = "Nenhum resultado encontrado";
 "Search.Empty.message" = "Tente mudar a sua pesquisa!";
+"Search.Empty.action" = "Pesquisar em todas as páginas";
 
 // Home
 

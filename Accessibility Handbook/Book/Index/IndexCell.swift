@@ -38,7 +38,7 @@ struct IndexCell: View {
   private var displayTitle: some View {
     Group {
       if let icon = icon {
-        (Text(icon) + Text(String.space) + Text(title))
+        (Text(icon) + Text("   ") + Text(title))
       } else {
         Text(title)
       }

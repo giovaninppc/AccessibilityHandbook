@@ -143,7 +143,7 @@ private extension HomeView {
 private extension HomeView {
   private var aboutCell: some View {
     homeElement(
-      icon: Icon.questionMarkDsahed,
+      icon: Icon.questionMarkDashed,
       title: L10n.AboutTheApp.title,
       destination: AboutTheAppView().toAny()
     )

@@ -45,7 +45,7 @@ enum Icon {
 
   // State
   static let checkmark = Image(systemName: "checkmark.circle.fill")
-  static let questionMarkDsahed = Image(systemName: "questionmark.app.dashed")
+  static let questionMarkDashed = Image(systemName: "questionmark.app.dashed")
 
   // Action
   static let copy = Image(systemName: "doc.on.doc.fill")
