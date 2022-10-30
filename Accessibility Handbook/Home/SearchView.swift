@@ -9,14 +9,19 @@ import SwiftUI
 
 struct SearchView: View {
   @Binding var text: String
+  private let allPagesProvider = AllPagesProvider()
+  @State private var isSearchingAll: Bool = false
 
   var body: some View {
     searchView
+      .onChange(of: text) { _ in
+        isSearchingAll = false
+      }
   }
 }
 
 private extension SearchView {
-  var allPages: [Page] { AllPagesProvider().allPages }
+  var allPages: [Page] { allPagesProvider.allPages }
 
   var filteredContent: [Page] {
     allPages.filter { $0.title.lowercased().contains(text.lowercased()) }
@@ -24,10 +29,10 @@ private extension SearchView {
 
   @ViewBuilder
   var searchView: some View {
-    if filteredContent.isEmpty {
-      emptyContent
-    } else {
+    if isSearchingAll || !filteredContent.isEmpty {
       searchedContent
+    } else {
+      emptyContent
     }
   }
 
@@ -41,27 +46,29 @@ private extension SearchView {
         .accessibilityHidden(true)
       Title(L10n.Search.Empty.title)
       Text(L10n.Search.Empty.message)
+      Button {
+        isSearchingAll = true
+      } label: {
+        Text(L10n.Search.Empty.action)
+          .font(.callout).bold()
+      }
       Spacer()
     }
   }
 
   var searchedContent: some View {
     VStack(alignment: .leading, spacing: .regular) {
-      ForEach(filteredContent, id: \.id) { page in
+      ForEach(isSearchingAll ? allPages : filteredContent, id: \.id) { page in
         NavigationLink {
           page.page
         } label: {
-          let icon: Image? = {
-            switch page {
-            case is GamePage:
-              return Icon.gameController
-            default:
-              return nil
-            }
-          }()
-          IndexCell(title: page.title, icon: icon)
+          IndexCell(title: page.title, icon: icon(for: page))
         }
       }
     }
+  }
+
+  func icon(for page: Page) -> Image? {
+    allPagesProvider.pageIconDict[page.id]
   }
 }
