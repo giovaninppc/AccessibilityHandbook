@@ -26,6 +26,25 @@
 "Home.otherFeatures" = "Outras features";
 "Home.collaborate" = "Colabore";
 
+// WhatsNew
+
+"WhatsNew.title" = "O que há de novo no app?";
+"WhatsNew.seeTheReleaseNotes" = "Veja o 'release notes' no GitHub %@";
+"WhatsNew.version" = "Versão %@";
+"WhatsNew.currentVersion" = "Versão autal %@";
+
+"WhatsNew.1_1_0.description" = "Agora disponível em Português do Brasil 🇧🇷!\nE novo sistema de 'syntax highlight' nos exemplos de código.";
+
+"WhatsNew.1_2_0.description" = "Novos guias de gestos e fontes dinâmicas.";
+
+"WhatsNew.1_3_0.description" = "Novo jogo!\nNovo guia de reduzir animações.\nE nova página de fontes dinâmicas.";
+
+"WhatsNew.1_4_0.description" = "Novo guia de Modo escuro!";
+
+"WhatsNew.1_5_0.description" = "Nova seção de ajudas visuais.\nNva página de imagens.";
+
+"WhatsNew.1_6_0.description" = "Novo 'O que há de novo no app?' para ajudar usuários a encontrar conteúdos que eles ainda não viram.\nA pesquisa agora é ordenada alfabeticamente, com os ícones de cada respectiva seção.\nNovo compartilhamento de página por deeplink - agora você pode compartilhar conteúdos com links que podem ser abertos por qualquer um!\nE novas páginas de traits de acessibilidade.";
+
 // Using
 
 "UsingTheVoiceOver" = "Usando o VoiceOver";

@@ -13,7 +13,7 @@ struct AllPagesProvider {
       + OthersSections().sections + DynamicFontSections().sections
     let guidePages = guideSections.map { $0.pages }.flatMap { $0 }
     let gamePages = Games.pages
-    let aboutPages: [Page] = [AboutTheAppView(), CollaborationView()]
+    let aboutPages: [Page] = [AboutTheAppView(), CollaborationView(), GesturesPage()]
     let group = guidePages + gamePages + aboutPages
     return group.sorted { $0.title < $1.title }
   }()
@@ -37,6 +37,7 @@ struct AllPagesProvider {
     }
     dict[AboutTheAppView().id] = Icon.questionMarkDashed
     dict[CollaborationView().id] = Icon.textRedaction
+    dict[GesturesPage().id] = Icon.raisedHands
 
     return dict
   }()

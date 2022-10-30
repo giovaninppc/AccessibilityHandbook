@@ -134,6 +134,7 @@
 		3FC9F62B290C3A4A002CC6C3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9F62A290C3A4A002CC6C3 /* SearchView.swift */; };
 		3FCA322C290D5F2E00551CD0 /* AllPagesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA322B290D5F2E00551CD0 /* AllPagesProvider.swift */; };
 		3FCA3232290D661700551CD0 /* DeeplinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3231290D661700551CD0 /* DeeplinkHandler.swift */; };
+		3FCA3234290EADFE00551CD0 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3233290EADFE00551CD0 /* WhatsNewView.swift */; };
 		3FD00F6228E3B61A0007D604 /* ImplementDynamicFontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */; };
 		3FD00F6928E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
@@ -147,8 +148,8 @@
 		3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29A28DF93B1005D291A /* Icons.swift */; };
 		3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29C28DF93F3005D291A /* String+Extensions.swift */; };
 		3FF4A29E28E10ED1005D291A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A2A028E10ED1005D291A /* Localizable.strings */; };
-		9DD345BC290DA03600975E48 /* SummaryElementTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */; };
 		9D7C0142290C6312004CCB40 /* SearchFieldTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */; };
+		9DD345BC290DA03600975E48 /* SummaryElementTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */; };
 		9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4F901290B635300A00E51 /* ImageTraitPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -282,6 +283,7 @@
 		3FCA322A290D5DE600551CD0 /* Accessibility-Handbook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Accessibility-Handbook-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3FCA322B290D5F2E00551CD0 /* AllPagesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPagesProvider.swift; sourceTree = "<group>"; };
 		3FCA3231290D661700551CD0 /* DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkHandler.swift; sourceTree = "<group>"; };
+		3FCA3233290EADFE00551CD0 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 		3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementDynamicFontsSection.swift; sourceTree = "<group>"; };
 		3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFontsAutomaticallyPage.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
@@ -296,8 +298,8 @@
 		3FF4A29C28DF93F3005D291A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		3FF4A29F28E10ED1005D291A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3FF4A2A128E10EDD005D291A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryElementTraitPage.swift; sourceTree = "<group>"; };
 		9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldTraitPage.swift; sourceTree = "<group>"; };
+		9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryElementTraitPage.swift; sourceTree = "<group>"; };
 		9DD4F901290B635300A00E51 /* ImageTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTraitPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -627,6 +629,7 @@
 			children = (
 				3FBF05B828DB487900DA5BF5 /* AboutTheAppView.swift */,
 				3FBF05BC28DB4A8A00DA5BF5 /* CollaborationView.swift */,
+				3FCA3233290EADFE00551CD0 /* WhatsNewView.swift */,
 			);
 			path = AboutTheApp;
 			sourceTree = "<group>";
@@ -948,6 +951,7 @@
 				3FE8656B28EB250000E8DCC6 /* ReduceMotionPage.swift in Sources */,
 				3FBF05AE28DAC03A00DA5BF5 /* FindThePassword.swift in Sources */,
 				3FD00F6228E3B61A0007D604 /* ImplementDynamicFontsSection.swift in Sources */,
+				3FCA3234290EADFE00551CD0 /* WhatsNewView.swift in Sources */,
 				3FC3E5EF28E3334A00B7C0D7 /* MultiTap.swift in Sources */,
 				3FC7F933290C117B006C8185 /* BoldedText.swift in Sources */,
 				3FF4A29128DF540D005D291A /* SyntaxHighlight.swift in Sources */,
@@ -1214,7 +1218,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Handbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1244,7 +1248,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Handbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

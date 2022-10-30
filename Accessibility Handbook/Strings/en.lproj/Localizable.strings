@@ -26,6 +26,25 @@
 "Home.otherFeatures" = "Other Features";
 "Home.collaborate" = "Collaborate";
 
+// WhatsNew
+
+"WhatsNew.title" = "What's new on the app?";
+"WhatsNew.seeTheReleaseNotes" = "See the release notes on GitHub for version %@";
+"WhatsNew.version" = "Version %@";
+"WhatsNew.currentVersion" = "Current Version %@";
+
+"WhatsNew.1_1_0.description" = "New Brazilian Protuguese translation 🇧🇷!\nAnd new syntax highlight on the code examples.";
+
+"WhatsNew.1_2_0.description" = "New Gestures and Dynamic font guides.";
+
+"WhatsNew.1_3_0.description" = "New Puzzles!\nNew reduce motion guide.\nAnd a new dynamic font page about how to identify the preferred font size.";
+
+"WhatsNew.1_4_0.description" = "New Dark mode guide!";
+
+"WhatsNew.1_5_0.description" = "New visual aid section on the 'Others Features'\nNew image accessibility trait page.";
+
+"WhatsNew.1_6_0.description" = "New 'What's new on the app' page to help users find new content thay have not yet seen.\nSearch improvements, now the search content is alphabetically sorted with the respective section icon on each page.\nNew share and deeplinking capability on the app - now you can share every page with anyone and they can open them using the direct link!\nAnd new accessibility trait pages.";
+
 // Using
 
 "UsingTheVoiceOver" = "Using VoiceOver";

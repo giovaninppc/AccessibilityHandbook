@@ -675,19 +675,6 @@ internal enum L10n {
     /// Button Trait
     internal static let title = L10n.tr("Localizable", "ButtonTrait.title")
   }
-    
-    internal enum SummaryElementTrait {
-      /// This screen is about summary element traits.
-      internal static let description = L10n.tr("Localizable", "SummaryElementTrait.description")
-      /// The Summary Element Trait gives a summarized description of the most important info of the screen.
-      internal static let text1 = L10n.tr("Localizable", "SummaryElementTrait.text1")
-      /// An example is Apple's Weather app, in which the view that contains the city and current weather is used as a summary.
-      internal static let text2 = L10n.tr("Localizable", "SummaryElementTrait.text2")
-      /// This trait makes VoiceOver read this element as soon as the screen appears, regardless of the position of this element in the view hierarchy. The focus order is not affected.
-      internal static let text3 = L10n.tr("Localizable", "SummaryElementTrait.text3")
-      /// Summary Element Trait
-      internal static let title = L10n.tr("Localizable", "SummaryElementTrait.title")
-    }
 
   internal enum ChangeCursor {
     /// Change cursor position
@@ -1384,35 +1371,6 @@ internal enum L10n {
     /// Image Trait
     internal static let title = L10n.tr("Localizable", "ImageTrait.title")
   }
-    
-    internal enum SearchFieldTrait {
-        /// Type what you are searching for.
-        internal static let description = L10n.tr("Localizable", "SearchFieldTrait.description", "Type what you are searching for.")
-        /// The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.
-        internal static let text1 = L10n.tr("Localizable", "SearchFieldTrait.text1", "The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.")
-        /// When we search for something, normally these searches results are displayed somewhere on the screen.
-        internal static let text2 = L10n.tr("Localizable", "SearchFieldTrait.text2", "When we search for something, normally these searches results are displayed somewhere on the screen.")
-        /// This trait allows VoiceOver to warn the user that the UI will change somewhere.
-        internal static let text3 = L10n.tr("Localizable", "SearchFieldTrait.text3", "This trait allows VoiceOver to warn the user that the UI will change somewhere.")
-        /// This trait allows VoiceOver to warn the user that the UI will change somewhere.
-        internal static let button = L10n.tr("Localizable", "SearchFieldTrait.button", "Try here!")
-        /// Search Field Trait
-        internal static let title = L10n.tr("Localizable", "SearchFieldTrait.title")
-        internal enum AnimalsArray {
-            /// 🐝 Bee
-            internal static let bee = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Bee", "🐝 Bee")
-            /// 🦜 Bird
-            internal static let bird = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Bird", "🦜 Bird")
-            /// 🐈 Cat
-            internal static let cat = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Cat", "🐈 Cat")
-            /// 🐄 Cow
-            internal static let cow = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Cow", "🐄 Cow")
-            /// 🐶 Dog
-            internal static let dog = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Dog", "🐶 Dog")
-            /// 🐍 Snake
-            internal static let snake = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Snake", "🐍 Snake")
-        }
-    }
 
   internal enum ImplementingDynamicFonts {
     /// Scaling Fonts Automatically
@@ -1927,6 +1885,35 @@ internal enum L10n {
     }
   }
 
+  internal enum SearchFieldTrait {
+    /// Try here!
+    internal static let button = L10n.tr("Localizable", "SearchFieldTrait.button")
+    /// Type what you are searching for.
+    internal static let description = L10n.tr("Localizable", "SearchFieldTrait.description")
+    /// The Search Field Trait is good for fields that are not just data inputs, but also performs some visual change on the screen when filled.
+    internal static let text1 = L10n.tr("Localizable", "SearchFieldTrait.text1")
+    /// When we search for something, normally these searches results are displayed somewhere on the screen.
+    internal static let text2 = L10n.tr("Localizable", "SearchFieldTrait.text2")
+    /// This trait allows VoiceOver to warn the user that the UI will change somewhere.
+    internal static let text3 = L10n.tr("Localizable", "SearchFieldTrait.text3")
+    /// Search Field Trait
+    internal static let title = L10n.tr("Localizable", "SearchFieldTrait.title")
+    internal enum AnimalsArray {
+      /// 🐝 Bee
+      internal static let bee = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Bee")
+      /// 🦜 Bird
+      internal static let bird = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Bird")
+      /// 🐈 Cat
+      internal static let cat = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Cat")
+      /// 🐄 Cow
+      internal static let cow = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Cow")
+      /// 🐶 Dog
+      internal static let dog = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Dog")
+      /// 🐍 Snake
+      internal static let snake = L10n.tr("Localizable", "SearchFieldTrait.AnimalsArray.Snake")
+    }
+  }
+
   internal enum SecretActions {
     /// Don't worry, they'll tell you what they like.
     internal static let comment = L10n.tr("Localizable", "SecretActions.comment")
@@ -1949,6 +1936,19 @@ internal enum L10n {
   internal enum SizeAndWeight {
     /// Size and Weight
     internal static let title = L10n.tr("Localizable", "SizeAndWeight.title")
+  }
+
+  internal enum SummaryElementTrait {
+    /// This screen is about summary element traits
+    internal static let description = L10n.tr("Localizable", "SummaryElementTrait.description")
+    /// The Summary Element Trait gives a summarized description of the most important info of the screen.
+    internal static let text1 = L10n.tr("Localizable", "SummaryElementTrait.text1")
+    /// An example is Apple's Weather app, in which the view that contains the city and current weather is used as a summary.
+    internal static let text2 = L10n.tr("Localizable", "SummaryElementTrait.text2")
+    /// This trait makes VoiceOver read this element as soon as the screen appears, regardless of the position of this element in the view hierarchy. The focus order is not affected.
+    internal static let text3 = L10n.tr("Localizable", "SummaryElementTrait.text3")
+    /// Summary Element Trait
+    internal static let title = L10n.tr("Localizable", "SummaryElementTrait.title")
   }
 
   internal enum SuperFriend {
@@ -2085,6 +2085,47 @@ internal enum L10n {
       internal static let text3 = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.text3")
       /// This app supports dark mode!
       internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.ThisAppSupports.title")
+    }
+  }
+
+  internal enum WhatsNew {
+    /// Current Version %@
+    internal static func currentVersion(_ p1: Any) -> String {
+      return L10n.tr("Localizable", "WhatsNew.currentVersion", String(describing: p1))
+    }
+    /// See the release notes on GitHub for version %@
+    internal static func seeTheReleaseNotes(_ p1: Any) -> String {
+      return L10n.tr("Localizable", "WhatsNew.seeTheReleaseNotes", String(describing: p1))
+    }
+    /// What's new on the app?
+    internal static let title = L10n.tr("Localizable", "WhatsNew.title")
+    /// Version %@
+    internal static func version(_ p1: Any) -> String {
+      return L10n.tr("Localizable", "WhatsNew.version", String(describing: p1))
+    }
+    internal enum _110 {
+      /// New Brazilian Protuguese translation 🇧🇷!\nAnd new syntax highlight on the code examples.
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_1_0.description")
+    }
+    internal enum _120 {
+      /// New Gestures and Dynamic font guides.
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_2_0.description")
+    }
+    internal enum _130 {
+      /// New Puzzles!\nNew reduce motion guide.\nAnd a new dynamic font page about how to identify the preferred font size.
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_3_0.description")
+    }
+    internal enum _140 {
+      /// New Dark mode guide!
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_4_0.description")
+    }
+    internal enum _150 {
+      /// New visual aid section on the 'Others Features'\nNew image accessibility trait page.
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_5_0.description")
+    }
+    internal enum _160 {
+      /// New 'What's new on the app' page to help users find new content thay have not yet seen.\nSearch improvements, now the search content is alphabetically sorted with the respective section icon on each page.\nNew share and deeplinking capability on the app - now you can share every page with anyone and they can open them using the direct link!\nAnd new accessibility trait pages.
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_6_0.description")
     }
   }
 

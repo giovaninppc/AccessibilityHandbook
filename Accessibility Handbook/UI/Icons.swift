@@ -42,6 +42,7 @@ enum Icon {
   static let textRedaction = Image(systemName: "text.redaction")
   static let raisedHands = Image(systemName: "hand.raised.fill")
   static let search = Image(systemName: "magnifyingglass")
+  static let bookmark = Image(systemName: "bookmark.fill")
 
   // State
   static let checkmark = Image(systemName: "checkmark.circle.fill")
