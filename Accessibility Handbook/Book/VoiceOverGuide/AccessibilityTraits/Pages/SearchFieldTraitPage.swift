@@ -44,7 +44,7 @@ struct SearchFieldTraitPage: View, Page {
   }
 }
 
-struct SearchBarView: View {
+fileprivate struct SearchBarView: View {
   let animals = [
     L10n.SearchFieldTrait.AnimalsArray.bee,
     L10n.SearchFieldTrait.AnimalsArray.bird,
