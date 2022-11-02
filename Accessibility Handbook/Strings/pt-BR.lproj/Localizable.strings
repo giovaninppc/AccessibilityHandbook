@@ -80,8 +80,34 @@
 "Rotor.comment2" = "Ligue o VoiceOver e tente ativar o rotor agora mesmo!";
 "Rotor.text2" = "O Rotor têm algumas ações padrão, como mudar a velocidade de leitura ou a língua do leitor.";
 "Rotor.text3" = "Você também pode criar açõoes customizadas para o Rotor. A ideia é que isso ajude o usuário a encontrar conteúdos específicos, como filtrando por links na sua tela, ou qualquer conteúdo semelhante, permitindo que o usuário navegue apenas nesse itens selecionados no Rotor.";
-"Rotor.comment3" = "Pessoalmente, eu tenho que dizer que nunca usei uma ação customizada no Rotor, mas é uma alternativa poderosa para fluxos complexos ou com muita informação!";
+"Rotor.comment3" = "Use a página abaixo para testar o Rotor com ações customizadas!";
+"Rotor.openExample" = "Abrir exemplo";
 "Rotor.image" = "Exemplo do Rotor ativado";
+
+"RotorExample.title" = "Exemplo de Rotor";
+"RotorExample.text1" = "Esta página contém ites customizados no rotor: Images, Notas, História e Links.";
+"RotorExample.text2" = "Selecione a opção desejada no rotor, então, deslize para cima e para baixo para filtrar apenas pelo conteúdo selecionado.";
+"RotorExample.text3" = "Este é um bom exemplo de como usar os rotores para filtrar conteúdo nas suas páginas, e prover maneiras mais fáceis de encontrar o que se está procurando.";
+
+"RotorExample.images" = "Imagens";
+"RotorExample.history" = "História";
+"RotorExample.notes" = "Notas";
+"RotorExample.links" = "Links";
+
+"RotorExample.vanGogh" = "Van Gogh";
+"RotorExample.history1" = "Vincent Van Gogh foi um pintor Holandês nascido em Março de 1853. Ele é considerado um dos pintores mais influentes da história, apesar de ter sido reconhecido apenas depois da sua morte.";
+"RotorExample.history2" = "Ele não começou sua carreira como pintor, e apenas começou a pintar por volta de 1880. E, quando em Paris, foi introduzido ao \"Impressionismo\".";
+"RotorExample.vanGoghImage" = "Auto retrato, por Vincent Van Gogh.";
+"RotorExample.note1" = "O impressionismo foi um movimento que surgiu na pintura francesa do século XIX, vivia-se nesse momento a chamada Belle Époque ou Bela Época em português.";
+"RotorExample.link1" = "Impressionismo";
+"RotorExample.history3" = "Uma de suas pinturas, a 'Noite estrelada', foi pintada por volta de 1889, e é hoje uma das pinturas mais famosas no mundo todo.";
+"RotorExample.starryNight" = "A noite estrelada, por Vincent Van Ghog.";
+"RotorExample.note2" = "Ela mostra a vista de uma janela virada para o leste no seu quarto do asilo, logo antes do amanhecer, com a adição de uma vila imaginária.";
+"RotorExample.link2" = "A Noite estrelada";
+"RotorExample.history4" = "E outra de suas pinturas mais famosas, faz parte de uma série 'Girassóis'. Duas coleções de pinturas mostrando girassóis, e reconhecida tanto por estilo e pelas cores do pintor.";
+"RotorExample.sunflower" = "Girassóis, por Vincent Van Gogh.";
+"RotorExample.note3" = "A primeira coleção, executada em Paris 1887, mostra as flores no chão, já a segunda parte, pintada depois em Arles, mostra um buquê de flores num vaso.";
+"RotorExample.link3" = "Girassóis";
 
 // Rotor and Headers
 

@@ -80,8 +80,34 @@
 "Rotor.comment2" = "Turn VoiceOver on and try it for yourself!";
 "Rotor.text2" = "The rotor has some default actions to it like changing the speaking rate or VoiceOver's language.";
 "Rotor.text3" = "You can also create custom actions to the rotor. The idea is to use it to help users find specific content, like filtering for links, or any other similar elements.";
-"Rotor.comment3" = "I need to say that I have personally never used a custom rotor action, but it is a powerful tool to have on your accessibility arsenal!";
+"Rotor.comment3" = "Use the page below to test using Custom rotor items!";
+"Rotor.openExample" = "Open example page with custom Rotors.";
 "Rotor.image" = "Rotor example image";
+
+"RotorExample.title" = "Rotor Example";
+"RotorExample.text1" = "This page contains custom rotor items: Images, Notes, History and Links";
+"RotorExample.text2" = "Select the desired option on the Rotor, then, swipe up and down to select only the desired content.";
+"RotorExample.text3" = "This is a nice example on how to use rotors to provide easier ways to filter and find content.";
+
+"RotorExample.images" = "Images";
+"RotorExample.history" = "History";
+"RotorExample.notes" = "Notes";
+"RotorExample.links" = "Links";
+
+"RotorExample.vanGogh" = "Van Gogh";
+"RotorExample.history1" = "Vincent Van Gogh was a Dutch painter born in March 1853. He's considered one of the most influential painters in all history, although, this recognition only came after his death.";
+"RotorExample.history2" = "He did not start his life as a painter, and only started painting around 1880. And was introduced in Paris to the \"Impressioninsm\".";
+"RotorExample.vanGoghImage" = "Self portrait, by Vincent Van Gogh.";
+"RotorExample.note1" = "Impressionism is the name of a 19th century artistic movement. In painting, characterized by relatively small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities, ordinary subject matter, unusual visual angles, and inclusion of movement as a crucial element of human perception and experience.";
+"RotorExample.link1" = "Impressionism";
+"RotorExample.history3" = "One of his paintings 'The Starry Night', was painted around 1889, is today one of the most famous paintings in the entire world.";
+"RotorExample.starryNight" = "Starry night, by Vincent Van Ghog.";
+"RotorExample.note2" = "It depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.";
+"RotorExample.link2" = "The Starry Night";
+"RotorExample.history4" = "And another famous paintings, are the series of 'Sunflowers'. Two collection of paintings depicting sunflowers, and recognized by style and bright colors.";
+"RotorExample.sunflower" = "Sunflower, by Vincent Van Gogh.";
+"RotorExample.note3" = "The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, made a year later in Arles, shows a bouquet of sunflowers in a vase.";
+"RotorExample.link3" = "Sunflowers";
 
 // Rotor and Headers
 

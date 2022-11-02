@@ -39,8 +39,10 @@ internal enum Asset {
   internal static let prettyColors = ImageAsset(name: "prettyColors")
   internal static let rotor = ImageAsset(name: "rotor")
   internal static let starryNight = ImageAsset(name: "starryNight")
+  internal static let sunflower = ImageAsset(name: "sunflower")
   internal static let tintable = ImageAsset(name: "tintable")
   internal static let tortoise = ImageAsset(name: "tortoise")
+  internal static let vanGogh = ImageAsset(name: "vanGogh")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 
