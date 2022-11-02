@@ -1909,7 +1909,7 @@ internal enum L10n {
     internal static let starryNight = L10n.tr("Localizable", "RotorExample.starryNight")
     /// Sunflower, by Vincent Van Gogh.
     internal static let sunflower = L10n.tr("Localizable", "RotorExample.sunflower")
-    /// This page contains custom rotor items: Images, Notes and History
+    /// This page contains custom rotor items: Images, Notes, History and Links
     internal static let text1 = L10n.tr("Localizable", "RotorExample.text1")
     /// Select the desired option on the Rotor, then, swipe up and down to select only the desired content.
     internal static let text2 = L10n.tr("Localizable", "RotorExample.text2")

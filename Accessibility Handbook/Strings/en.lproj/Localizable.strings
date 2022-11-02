@@ -85,7 +85,7 @@
 "Rotor.image" = "Rotor example image";
 
 "RotorExample.title" = "Rotor Example";
-"RotorExample.text1" = "This page contains custom rotor items: Images, Notes and History";
+"RotorExample.text1" = "This page contains custom rotor items: Images, Notes, History and Links";
 "RotorExample.text2" = "Select the desired option on the Rotor, then, swipe up and down to select only the desired content.";
 "RotorExample.text3" = "This is a nice example on how to use rotors to provide easier ways to filter and find content.";
 
