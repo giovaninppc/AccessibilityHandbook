@@ -268,7 +268,7 @@ internal enum L10n {
       internal static let title = L10n.tr("Localizable", "AboutTheApp.Disclaimer.title")
     }
     internal enum Game {
-      /// The puzzles are not supposed to be hard, thay are just a nice way to practice your accessibility knowledge!
+      /// The puzzles are not supposed to be hard, they are just a nice way to practice your accessibility knowledge!
       internal static let comment = L10n.tr("Localizable", "AboutTheApp.Game.comment")
       /// The Handbook was pretty nice and all... but it was a little boring.
       internal static let text1 = L10n.tr("Localizable", "AboutTheApp.Game.text1")
@@ -1831,10 +1831,12 @@ internal enum L10n {
     internal static let comment1 = L10n.tr("Localizable", "Rotor.comment1")
     /// Turn VoiceOver on and try it for yourself!
     internal static let comment2 = L10n.tr("Localizable", "Rotor.comment2")
-    /// I need to say that I have personally never used a custom rotor action, but it is a powerful tool to have on your accessibility arsenal!
+    /// Use the page below to test using Custom rotor items!
     internal static let comment3 = L10n.tr("Localizable", "Rotor.comment3")
     /// Rotor example image
     internal static let image = L10n.tr("Localizable", "Rotor.image")
+    /// Open example page with custom Rotors.
+    internal static let openExample = L10n.tr("Localizable", "Rotor.openExample")
     /// If you do the gesture of a circle with 2 fingers on the screen, you will enable the rotor.
     internal static let text1 = L10n.tr("Localizable", "Rotor.text1")
     /// The rotor has some default actions to it like changing the speaking rate or VoiceOver's language.
@@ -1872,6 +1874,53 @@ internal enum L10n {
       /// What about them together?
       internal static let title = L10n.tr("Localizable", "RotorAndHeaders.Together.title")
     }
+  }
+
+  internal enum RotorExample {
+    /// History
+    internal static let history = L10n.tr("Localizable", "RotorExample.history")
+    /// Vincent Van Gogh was a Dutch painter born in March 1853. He's considered one of the most influential painters in all history, although, this recognition only came after his death.
+    internal static let history1 = L10n.tr("Localizable", "RotorExample.history1")
+    /// He did not start his life as a painter, and only started painting around 1880. And was introduced in Paris to the "Impressioninsm".
+    internal static let history2 = L10n.tr("Localizable", "RotorExample.history2")
+    /// One of his paintings 'The Starry Night', was painted around 1889, is today one of the most famous paintings in the entire world.
+    internal static let history3 = L10n.tr("Localizable", "RotorExample.history3")
+    /// And another famous paintings, are the series of 'Sunflowers'. Two collection of paintings depicting sunflowers, and recognized by style and bright colors.
+    internal static let history4 = L10n.tr("Localizable", "RotorExample.history4")
+    /// Images
+    internal static let images = L10n.tr("Localizable", "RotorExample.images")
+    /// Impressionism
+    internal static let link1 = L10n.tr("Localizable", "RotorExample.link1")
+    /// The Starry Night
+    internal static let link2 = L10n.tr("Localizable", "RotorExample.link2")
+    /// Sunflowers
+    internal static let link3 = L10n.tr("Localizable", "RotorExample.link3")
+    /// Links
+    internal static let links = L10n.tr("Localizable", "RotorExample.links")
+    /// Impressionism is the name of a 19th century artistic movement. In painting, characterized by relatively small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities, ordinary subject matter, unusual visual angles, and inclusion of movement as a crucial element of human perception and experience.
+    internal static let note1 = L10n.tr("Localizable", "RotorExample.note1")
+    /// It depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.
+    internal static let note2 = L10n.tr("Localizable", "RotorExample.note2")
+    /// The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, made a year later in Arles, shows a bouquet of sunflowers in a vase.
+    internal static let note3 = L10n.tr("Localizable", "RotorExample.note3")
+    /// Notes
+    internal static let notes = L10n.tr("Localizable", "RotorExample.notes")
+    /// Starry night, by Vincent Van Ghog.
+    internal static let starryNight = L10n.tr("Localizable", "RotorExample.starryNight")
+    /// Sunflower, by Vincent Van Gogh.
+    internal static let sunflower = L10n.tr("Localizable", "RotorExample.sunflower")
+    /// This page contains custom rotor items: Images, Notes and History
+    internal static let text1 = L10n.tr("Localizable", "RotorExample.text1")
+    /// Select the desired option on the Rotor, then, swipe up and down to select only the desired content.
+    internal static let text2 = L10n.tr("Localizable", "RotorExample.text2")
+    /// This is a nice example on how to use rotors to provide easier ways to filter and find content.
+    internal static let text3 = L10n.tr("Localizable", "RotorExample.text3")
+    /// Rotor Example
+    internal static let title = L10n.tr("Localizable", "RotorExample.title")
+    /// Van Gogh
+    internal static let vanGogh = L10n.tr("Localizable", "RotorExample.vanGogh")
+    /// Self portrait, by Vincent Van Gogh.
+    internal static let vanGoghImage = L10n.tr("Localizable", "RotorExample.vanGoghImage")
   }
 
   internal enum Search {
@@ -2124,7 +2173,7 @@ internal enum L10n {
       internal static let description = L10n.tr("Localizable", "WhatsNew.1_5_0.description")
     }
     internal enum _160 {
-      /// New 'What's new on the app' page to help users find new content thay have not yet seen.\nSearch improvements, now the search content is alphabetically sorted with the respective section icon on each page.\nNew share and deeplinking capability on the app - now you can share every page with anyone and they can open them using the direct link!\nAnd new accessibility trait pages.
+      /// New 'What's new on the app' page to help users find new content they have not yet seen.\nSearch improvements, now the search content is alphabetically sorted with the respective section icon on each page.\nNew share and deeplinking capability on the app - now you can share every page with anyone and they can open them using the direct link!\nAnd new accessibility trait pages.
       internal static let description = L10n.tr("Localizable", "WhatsNew.1_6_0.description")
     }
   }

@@ -45,7 +45,7 @@ private extension RotorPage {
     Button {
       sheet = true
     } label: {
-      Text("Check the example")
+      Text(L10n.Rotor.openExample)
     }
 
     DocButton(
@@ -100,83 +100,5 @@ private extension RotorPage {
       Spacer()
     }
     VerticalSpace(.regular)
-  }
-}
-
-fileprivate struct RotorExampleView: View {
-  enum Value: Identifiable {
-    case icon(Image, String)
-    case text(String)
-    case notes(String)
-
-    var id: String {
-      switch self {
-      case .notes(let value), .text(let value):
-        return .init(value)
-      case .icon(_, let label):
-        return .init(label)
-      }
-    }
-  }
-
-  @Namespace
-  private var customRotorNamespace
-
-  private let content: [Value] = [
-    .text("A"),
-    .text("B"),
-    .icon(Icon.book, "Livro"),
-    .notes("C"),
-    .icon(Icon.raisedHands, "Hand"),
-    .notes("J"),
-    .text("Y")
-  ]
-
-  var body: some View {
-    ScrollView([.vertical], showsIndicators: false) {
-      VStack(alignment: .leading, spacing: .regular) {
-        Title("Rotor Example")
-        Text("Here's a page with a custom rotor example")
-        Text("Use the rotor to navigate in the icons on the page")
-        Divider()
-
-        ForEach(content) { item in
-          switch item {
-          case .text(let text):
-            Text(text)
-              .accessibilityRotorEntry(id: item.id, in: customRotorNamespace)
-          case .notes(let note):
-            Comment(note)
-              .accessibilityRotorEntry(id: item.id, in: customRotorNamespace)
-          case .icon(let image, let accLabel):
-            image
-              .resizable()
-              .accessibilityLabel(accLabel)
-              .accessibilityRotorEntry(id: item.id, in: customRotorNamespace)
-          }
-        }
-      }
-    }
-    .accessibilityRotor("Images") {
-      ForEach(content) { item in
-        if case .icon(_, let label) = item {
-          AccessibilityRotorEntry(label, item.id, in: customRotorNamespace)
-        }
-      }
-    }
-    .accessibilityRotor("Text") {
-      ForEach(content) { item in
-        if case .text(let label) = item {
-          AccessibilityRotorEntry(label, item.id, in: customRotorNamespace)
-        }
-      }
-    }
-    .accessibilityRotor("Notes") {
-      ForEach(content) { item in
-        if case .notes(let label) = item {
-          AccessibilityRotorEntry(label, item.id, in: customRotorNamespace)
-        }
-      }
-    }
   }
 }
