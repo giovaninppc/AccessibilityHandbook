@@ -48,6 +48,8 @@
 
 "WhatsNew.1_6_0.description" = "Novo 'O que há de novo no app?' para ajudar usuários a encontrar conteúdos que eles ainda não viram.\nA pesquisa agora é ordenada alfabeticamente, com os ícones de cada respectiva seção.\nNovo compartilhamento de página por deeplink - agora você pode compartilhar conteúdos com links que podem ser abertos por qualquer um!\nE novas páginas de traits de acessibilidade.";
 
+"WhatsNew.1_7_0.description" = "Novo layout da página inicial para iPads! \nE uma nova página de exemplos de Rotores! Agora você pode testar usar rotores customizados.";
+
 // Using
 
 "UsingTheVoiceOver" = "Usando o VoiceOver";
