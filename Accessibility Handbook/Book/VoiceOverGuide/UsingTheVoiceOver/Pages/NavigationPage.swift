@@ -36,6 +36,7 @@ private extension NavigationPage {
         .resizable()
         .aspectRatio(contentMode: .fit)
         .accessibilityLabel(L10n.Navigation.image)
+        .frame(maxWidth: 400.0)
       Comment(L10n.Navigation.imageSubtitle)
       Text(L10n.Navigation.text3)
       Text(L10n.Navigation.text4)

@@ -122,6 +122,8 @@
 		3FBF060D28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */; };
 		3FBF061028DBAB9100DA5BF5 /* FontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF060F28DBAB9100DA5BF5 /* FontsSection.swift */; };
 		3FC1C36B28EC5DD500C1E009 /* IncreasingHints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1C36A28EC5DD500C1E009 /* IncreasingHints.swift */; };
+		3FC3D7042919E5A1007393DE /* PhoneHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3D7032919E5A1007393DE /* PhoneHomeView.swift */; };
+		3FC3D7062919E651007393DE /* PadHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3D7052919E651007393DE /* PadHomeView.swift */; };
 		3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */; };
 		3FC3E5E928E3267600B7C0D7 /* GesturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */; };
 		3FC3E5EB28E32B7300B7C0D7 /* SingleTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */; };
@@ -272,6 +274,8 @@
 		3FBF060C28DB9CE100DA5BF5 /* RotorAndHeadersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorAndHeadersPage.swift; sourceTree = "<group>"; };
 		3FBF060F28DBAB9100DA5BF5 /* FontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsSection.swift; sourceTree = "<group>"; };
 		3FC1C36A28EC5DD500C1E009 /* IncreasingHints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingHints.swift; sourceTree = "<group>"; };
+		3FC3D7032919E5A1007393DE /* PhoneHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneHomeView.swift; sourceTree = "<group>"; };
+		3FC3D7052919E651007393DE /* PadHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadHomeView.swift; sourceTree = "<group>"; };
 		3FC3E5E628E323E900B7C0D7 /* VerticalSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSwipe.swift; sourceTree = "<group>"; };
 		3FC3E5E828E3267600B7C0D7 /* GesturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesPage.swift; sourceTree = "<group>"; };
 		3FC3E5EA28E32B7300B7C0D7 /* SingleTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTap.swift; sourceTree = "<group>"; };
@@ -440,6 +444,8 @@
 				3FBF055228DA64D000DA5BF5 /* HomeView.swift */,
 				3FC9F62A290C3A4A002CC6C3 /* SearchView.swift */,
 				3FCA322B290D5F2E00551CD0 /* AllPagesProvider.swift */,
+				3FC3D7032919E5A1007393DE /* PhoneHomeView.swift */,
+				3FC3D7052919E651007393DE /* PadHomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -1004,6 +1010,7 @@
 				3FBF05D228DB516400DA5BF5 /* AboutColorsPage.swift in Sources */,
 				3F6C5ABF28E394D000B12065 /* AboutFontsPage.swift in Sources */,
 				3FBF060728DB890900DA5BF5 /* HapticList.swift in Sources */,
+				3FC3D7042919E5A1007393DE /* PhoneHomeView.swift in Sources */,
 				3F79FF3528F44F8C002DA8FD /* AnAlternative.swift in Sources */,
 				3FBF057128DA6F0200DA5BF5 /* UsingTheVoiceOverSection.swift in Sources */,
 				3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */,
@@ -1032,6 +1039,7 @@
 				3F6C5ABA28E3748A00B12065 /* MultiFingerSwipe.swift in Sources */,
 				3F41C11928E4A4BB0092CF28 /* AdjustLayoutToScaledFontPage.swift in Sources */,
 				3FBF058628DA994400DA5BF5 /* AccessibilityTraitPage.swift in Sources */,
+				3FC3D7062919E651007393DE /* PadHomeView.swift in Sources */,
 				3FBF055728DA661400DA5BF5 /* IndexCell.swift in Sources */,
 				3FBF058828DA9C1B00DA5BF5 /* AccessibilityValuePage.swift in Sources */,
 				3FBF05E828DB641D00DA5BF5 /* Invisibility.swift in Sources */,
@@ -1220,8 +1228,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1250,8 +1257,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
