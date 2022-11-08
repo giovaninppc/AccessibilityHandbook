@@ -35,6 +35,16 @@ private extension WhatsNewView {
     }
   }
 
+  private var v1_7_0: some View {
+    release(
+      version: "1.7.0",
+      description: L10n.WhatsNew._170.description,
+      pages: [
+        RotorPage()
+      ]
+    )
+  }
+
   private var v1_6_0: some View {
     release(
       version: "1.6.0",

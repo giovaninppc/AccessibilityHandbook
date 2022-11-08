@@ -2182,6 +2182,10 @@ internal enum L10n {
       /// New 'What's new on the app' page to help users find new content they have not yet seen.\nSearch improvements, now the search content is alphabetically sorted with the respective section icon on each page.\nNew share and deeplinking capability on the app - now you can share every page with anyone and they can open them using the direct link!\nAnd new accessibility trait pages.
       internal static let description = L10n.tr("Localizable", "WhatsNew.1_6_0.description")
     }
+    internal enum _170 {
+      /// New Home Screen layout for iPads and iPhones in landscape! Now we are using better the available size on the screen for both formats.\nAnd a brand new Rotor example page where you can try using custom rotors for yourself.
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_7_0.description")
+    }
   }
 
   internal enum WhereIsMyContent {
