@@ -1324,7 +1324,7 @@ internal enum L10n {
     internal static let handbookGame = L10n.tr("Localizable", "Home.handbookGame")
     /// Test your accessibility knowledge in a series of puzzles!
     internal static let handbookGameDescription = L10n.tr("Localizable", "Home.handbookGameDescription")
-    /// Notifications
+    /// Notify
     internal static let notifications = L10n.tr("Localizable", "Home.notifications")
     /// Other Features
     internal static let otherFeatures = L10n.tr("Localizable", "Home.otherFeatures")
