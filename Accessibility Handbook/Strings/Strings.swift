@@ -1314,6 +1314,8 @@ internal enum L10n {
   internal enum Home {
     /// Collaborate
     internal static let collaborate = L10n.tr("Localizable", "Home.collaborate")
+    /// Colors
+    internal static let colors = L10n.tr("Localizable", "Home.colors")
     /// Development Guides
     internal static let developmentGuides = L10n.tr("Localizable", "Home.developmentGuides")
     /// Dynamic Fonts
@@ -1322,8 +1324,12 @@ internal enum L10n {
     internal static let handbookGame = L10n.tr("Localizable", "Home.handbookGame")
     /// Test your accessibility knowledge in a series of puzzles!
     internal static let handbookGameDescription = L10n.tr("Localizable", "Home.handbookGameDescription")
+    /// Notifications
+    internal static let notifications = L10n.tr("Localizable", "Home.notifications")
     /// Other Features
     internal static let otherFeatures = L10n.tr("Localizable", "Home.otherFeatures")
+    /// Shortcuts
+    internal static let shortcuts = L10n.tr("Localizable", "Home.shortcuts")
   }
 
   internal enum IdentifyCurrentPreferredFontSizePage {

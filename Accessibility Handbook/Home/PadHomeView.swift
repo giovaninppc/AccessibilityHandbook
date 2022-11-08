@@ -18,6 +18,16 @@ struct PadHomeView: View {
   }
 }
 
+// MARK: - Constants
+
+extension PadHomeView {
+  enum Constants {
+    static let largeIcon: CGFloat = 50.0
+    static let smallIcon: CGFloat = 30.0
+    static let maxItemWidth: CGFloat = UIScreen.main.bounds.width / 4.5
+  }
+}
+
 // MARK: - Content
 
 private extension PadHomeView {
@@ -29,11 +39,15 @@ private extension PadHomeView {
         Title(L10n.Home.developmentGuides)
         Spacer()
       }
-      HStack { guides }
+      .padding(.horizontal, .small)
       HStack {
-        Title("Shortcuts")
+        guides
+      }
+      HStack {
+        Title(L10n.Home.shortcuts)
         Spacer()
       }
+      .padding(.horizontal, .small)
       VStack {
         HStack {
           shortcuts
@@ -46,9 +60,13 @@ private extension PadHomeView {
         Title(L10n.AboutTheApp.title)
         Spacer()
       }
-      HStack { abouts }
+      .padding(.horizontal, .small)
+      HStack {
+        abouts
+      }
     }
-    .padding()
+    .padding(.vertical)
+    .padding(.horizontal, .large)
   }
 
   @ViewBuilder
@@ -117,7 +135,7 @@ private extension PadHomeView {
     )
     shortcutElement(
       icon: Icon.paintbrush,
-      title: "Colors",
+      title: L10n.Home.colors,
       destination: AboutColorsPage().page
     )
     shortcutElement(
@@ -127,7 +145,7 @@ private extension PadHomeView {
     )
     shortcutElement(
       icon: Icon.exclamation,
-      title: "Notifications",
+      title: L10n.Home.notifications,
       destination: AnnouncementPage().page
     )
   }
@@ -163,7 +181,7 @@ private extension PadHomeView {
         Icon.gameController
           .resizable()
           .aspectRatio(contentMode: .fit)
-          .frame(width: 50.0, height: 50.0)
+          .frame(width: Constants.largeIcon, height: Constants.largeIcon)
         HorizontalSpace(.regular)
         VStack(alignment: .leading, spacing: .small) {
           Text(L10n.Home.handbookGame)
@@ -192,22 +210,30 @@ private extension PadHomeView {
         icon
           .resizable()
           .aspectRatio(contentMode: .fit)
-          .frame(width: 30.0, height: 30.0)
+          .frame(
+            width: Constants.smallIcon,
+            height: Constants.smallIcon
+          )
         HorizontalSpace(.regular)
         Text(title)
           .font(.body.bold())
           .multilineTextAlignment(.leading)
+          .minimumScaleFactor(0.5)
         Spacer()
       }
       .accessibilityElement(children: .combine)
-      .frame(minWidth: 150.0,
-             minHeight: 50.0)
+      .frame(
+        minHeight: 45.0
+      )
       .padding()
       .background {
         RoundedRectangle(cornerRadius: 8.0)
           .foregroundColor(.secondaryBackground)
       }
     }
+    .frame(
+      maxWidth: Constants.maxItemWidth
+    )
   }
 
   @ViewBuilder
@@ -220,20 +246,26 @@ private extension PadHomeView {
         icon
           .resizable()
           .aspectRatio(contentMode: .fit)
-          .frame(width: 50.0, height: 50.0)
+          .frame(width: Constants.largeIcon, height: Constants.largeIcon)
         Spacer()
         Text(title)
           .font(.title3.bold())
         Spacer()
       }
       .accessibilityElement(children: .combine)
-      .frame(minWidth: 150.0,
-             minHeight: 100.0)
+      .frame(
+        minWidth: 150.0,
+        maxWidth: UIScreen.main.bounds.width / 4.7,
+        minHeight: 100.0
+      )
       .padding()
       .background {
         RoundedRectangle(cornerRadius: 8.0)
           .foregroundColor(.secondaryBackground)
       }
     }
+    .frame(
+      maxWidth: Constants.maxItemWidth
+    )
   }
 }

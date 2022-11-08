@@ -12,7 +12,6 @@ struct PageContent: View {
   let deeplink: String
   let content: () -> AnyView
 
-  @State private var isIpad = UITraitCollection.current.userInterfaceIdiom == .pad
   @Environment(\.dismiss) var dismiss
 
   var body: some View {
@@ -26,7 +25,6 @@ struct PageContent: View {
           Spacer()
         }
       }
-      .frame(width: isIpad ? UIScreen.main.bounds.width * 0.9 : nil)
       HStack {
         Spacer()
         if let next = next {
