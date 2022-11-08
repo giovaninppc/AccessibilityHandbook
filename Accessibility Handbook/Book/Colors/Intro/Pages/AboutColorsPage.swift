@@ -19,6 +19,7 @@ struct AboutColorsPage: View, Page {
           .resizable()
           .aspectRatio(contentMode: .fit)
           .accessibilityLabel(L10n.AboutColors.image)
+          .frame(maxWidth: 400.0)
         Text(L10n.AboutColors.text2)
         Comment(L10n.AboutColors.comment2)
         Text(L10n.AboutColors.text3)
