@@ -43,6 +43,13 @@ enum Icon {
   static let raisedHands = Image(systemName: "hand.raised.fill")
   static let search = Image(systemName: "magnifyingglass")
   static let bookmark = Image(systemName: "bookmark.fill")
+  static let eyeglasses = Image(systemName: "eyeglasses")
+  static let lightSwitch = Image(systemName: "lightswitch.off.square.fill")
+  static let _3d = Image(systemName: "move.3d")
+  static let tap = Image(systemName: "hand.tap.fill")
+  static let paintbrush = Image(systemName: "paintbrush.fill")
+  static let vibrations = Image(systemName: "dot.radiowaves.left.and.right")
+  static let exclamation = Image(systemName: "exclamationmark.circle.fill")
 
   // State
   static let checkmark = Image(systemName: "checkmark.circle.fill")
