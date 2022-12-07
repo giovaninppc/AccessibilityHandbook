@@ -533,6 +533,7 @@
 "HapticList.text1" = "Here's a list of the Haptics available:";
 "HapticList.comment" = "I also suggest you check the source code of this project. It has a nice Haptic wrapper to be used on UIKit or SwiftUI!";
 "HapticList.sourceCode" = "Haptic source code";
+"HapticList.iPadDisclaimer" = "Haptics are not available on iPad, the buttons below may not work on your current device.";
 
 "Haptics.selection" = "Selection";
 "Haptics.success" = "Success";

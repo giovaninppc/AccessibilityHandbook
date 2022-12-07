@@ -58,6 +58,12 @@ private extension PageContent {
     guard let windowScene = scenes.first as? UIWindowScene,
           let window = windowScene.windows.first,
           let root = window.rootViewController else { return }
+    let mainView = root.view!
+    activityController.popoverPresentationController?.sourceView = mainView
+    activityController.popoverPresentationController?.sourceRect = .init(
+      origin: .init(x: mainView.frame.maxX - 30, y: 50),
+      size: .zero
+    )
     if let presented = root.presentedViewController {
       presented.dismiss(animated: true) {
         root.present(activityController, animated: true, completion: nil)

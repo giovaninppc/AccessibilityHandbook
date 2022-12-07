@@ -1256,6 +1256,8 @@ internal enum L10n {
   internal enum HapticList {
     /// I also suggest you check the source code of this project. It has a nice Haptic wrapper to be used on UIKit or SwiftUI!
     internal static let comment = L10n.tr("Localizable", "HapticList.comment")
+    /// Haptics are not available on iPad, the buttons below may not work on your current device.
+    internal static let iPadDisclaimer = L10n.tr("Localizable", "HapticList.iPadDisclaimer")
     /// Haptic source code
     internal static let sourceCode = L10n.tr("Localizable", "HapticList.sourceCode")
     /// Here's a list of the Haptics available:
