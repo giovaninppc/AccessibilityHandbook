@@ -534,6 +534,7 @@
 "HapticList.text1" = "Aqui uma lista de todos os Haptics disponíveis:";
 "HapticList.comment" = "Eu também sugiro que você dê uma olhada no código fonte desse projeto, que tem uma solução legal para disparar os diversos tipos de Haptics.";
 "HapticList.sourceCode" = "Código fonte";
+"HapticList.iPadDisclaimer" = "Haptics não estão disponíveis em iPads. Os botões abaixo podem não funcionar no seu dispositivo atual.";
 
 "Haptics.selection" = "Seleção";
 "Haptics.success" = "Sucesso";

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HapticsListPage: View, Page {
   var title: String = L10n.HapticList.title
+  @State private var isIpad = UITraitCollection.current.userInterfaceIdiom == .pad
 
   let link: String = """
   https://developer.apple.com/design/human-interface-guidelines/patterns/playing-haptics/
@@ -21,6 +22,9 @@ struct HapticsListPage: View, Page {
   var body: some View {
     PageContent(next: nil, deeplink: deeplink) {
       Group {
+        if isIpad {
+          Disclaimer(icon: Icon.exclamation, content: L10n.HapticList.iPadDisclaimer)
+        }
         Text(L10n.HapticList.text1)
 
         item(title: L10n.Haptics.selection) { haptic(.selection) }
