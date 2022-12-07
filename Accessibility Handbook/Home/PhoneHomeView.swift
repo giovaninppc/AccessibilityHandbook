@@ -33,6 +33,7 @@ private extension PhoneHomeView {
   var portraitHomeContent: some View {
     VStack(alignment: .center, spacing: .large) {
       portraitGameCell
+      portraitClassCell
       Title(L10n.Home.developmentGuides)
       HStack {
         voiceOverGuide
@@ -55,6 +56,7 @@ private extension PhoneHomeView {
   var landscapeHomeContent: some View {
     VStack(alignment: .center, spacing: .large) {
       landscapeGameCell
+      landscapeClassCell
       HStack {
         Title(L10n.Home.developmentGuides)
         Spacer()
@@ -86,19 +88,41 @@ private extension PhoneHomeView {
     NavigationLink {
       GameView()
     } label: {
-      VStack(spacing: .regular) {
-        Spacer()
-        HStack {
-          Spacer()
-          Icon.gameController
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .frame(width: 100.0, height: 100.0)
-          Spacer()
+      HStack {
+        Icon.gameController
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: 50.0, height: 50.0)
+        VStack {
+          Text(L10n.Home.handbookGame)
+            .font(.title3.bold())
+          Comment(L10n.Home.handbookGameDescription)
         }
-        Text(L10n.Home.handbookGame)
-          .font(.title3.bold())
-        Comment(L10n.Home.handbookGameDescription)
+      }
+      .frame(maxWidth: 350.0)
+      .accessibilityElement(children: .combine)
+      .padding()
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
+      }
+    }
+  }
+
+  var portraitClassCell: some View {
+    NavigationLink {
+      IndexView(sections: ClassSections())
+    } label: {
+      HStack {
+        Icon.gameController
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: 50.0, height: 50.0)
+        VStack {
+          Text("Classes")
+            .font(.title3.bold())
+          Comment("Learn how to plan and prepare accessibility on your apps!")
+        }
       }
       .frame(maxWidth: 350.0)
       .accessibilityElement(children: .combine)
@@ -124,6 +148,32 @@ private extension PhoneHomeView {
           Text(L10n.Home.handbookGame)
             .font(.title3.bold())
           Comment(L10n.Home.handbookGameDescription)
+        }
+      }
+      .frame(maxWidth: .infinity)
+      .accessibilityElement(children: .combine)
+      .padding()
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
+      }
+    }
+  }
+
+  var landscapeClassCell: some View {
+    NavigationLink {
+      IndexView(sections: ClassSections())
+    } label: {
+      HStack(spacing: .regular) {
+        Icon.gameController
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: 50.0, height: 50.0)
+        HorizontalSpace(.regular)
+        VStack(alignment: .leading, spacing: .small) {
+          Text("Classes")
+            .font(.title3.bold())
+          Comment("Learn how to plan and prepare accessibility on your apps!")
         }
       }
       .frame(maxWidth: .infinity)
