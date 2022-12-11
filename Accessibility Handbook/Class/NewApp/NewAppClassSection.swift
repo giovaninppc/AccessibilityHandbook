@@ -8,6 +8,6 @@
 import Foundation
 
 struct NewAppClassSection: Section {
-  let title: String = "Making a new App"
+  let title: String = L10n.MakingANewApp.title
   let pages: [Page] = []
 }

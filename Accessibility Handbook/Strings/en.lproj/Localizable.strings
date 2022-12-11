@@ -1277,3 +1277,7 @@
 "TryItYourself.comment1" = "What was the last time you ran your app with the VoiceOver running? Or that you tried to increase your fonts to see how your layout behaves?";
 "TryItYourself.text7" = "The next sections, will introduce you to issues and common uses of accessibility. How to implement them, and how to plan to create more accessible apps.";
 "TryItYourself.text8" = "Don't give up! We are just starting 😉";
+
+// Making a new app section
+
+"MakingANewApp.title" = "Making a new app";

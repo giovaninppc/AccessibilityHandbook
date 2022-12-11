@@ -33,7 +33,6 @@ struct AccessibilityLabelPage: View, Page {
           .accessibilityLabel("content")
           """
         )
-        VerticalSpace(.regular)
         Text(Self.strings.text4)
         Centered {
           Text(Self.strings.example)

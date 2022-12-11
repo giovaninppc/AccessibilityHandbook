@@ -44,7 +44,6 @@ private extension ColorBlindnessPage {
 
   var handlingColorblindColors: some View {
     Group {
-      VerticalSpace(.regular)
       Title(L10n.ColorBlind.Handle.title)
       Text(L10n.ColorBlind.Handle.text1)
       Centered {

@@ -1688,6 +1688,11 @@ internal enum L10n {
     }
   }
 
+  internal enum MakingANewApp {
+    /// Making a new app
+    internal static let title = L10n.tr("Localizable", "MakingANewApp.title")
+  }
+
   internal enum Modal {
     /// Modal views
     internal static let title = L10n.tr("Localizable", "Modal.title")
@@ -2085,7 +2090,7 @@ internal enum L10n {
       internal static let text1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text1")
       /// Spreading knowledge will help more people to know about it, and give them and yourself more tools to work with in the future.
       internal static let text2 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text2")
-      /// And if you are using this app, you can even use the neat share tool on top of every page to bring people directly into an exapmle of what you are talking about!
+      /// And if you are using this app, you can even use the neat share tool on top of every page to bring people directly into an example of what you are talking about!
       internal static let text3 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text3")
       /// Share the knowledge
       internal static let title = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.title")
