@@ -15,11 +15,8 @@ struct AboutTheAppView: View, Page {
     ScrollView {
       VStack(alignment: .leading, spacing: .regular) {
         history
-        VerticalSpace(.regular)
         game
-        VerticalSpace(.regular)
         disclaimer
-        VerticalSpace(.regular)
         more
       }
       .padding()

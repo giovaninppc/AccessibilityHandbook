@@ -158,6 +158,10 @@
 		3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29A28DF93B1005D291A /* Icons.swift */; };
 		3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4A29C28DF93F3005D291A /* String+Extensions.swift */; };
 		3FF4A29E28E10ED1005D291A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4A2A028E10ED1005D291A /* Localizable.strings */; };
+		3FFB2CD42945ECCE007B879A /* ThinkingAccessibilityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD32945ECCE007B879A /* ThinkingAccessibilityPage.swift */; };
+		3FFB2CD62945F053007B879A /* TeamGamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD52945F053007B879A /* TeamGamePage.swift */; };
+		3FFB2CD82945F5B2007B879A /* LearnTheFeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD72945F5B2007B879A /* LearnTheFeaturesPage.swift */; };
+		3FFB2CDA2945FDEC007B879A /* TryItYourselfPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD92945FDEC007B879A /* TryItYourselfPage.swift */; };
 		9D7C0142290C6312004CCB40 /* SearchFieldTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */; };
 		9DD345BC290DA03600975E48 /* SummaryElementTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */; };
 		9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4F901290B635300A00E51 /* ImageTraitPage.swift */; };
@@ -318,6 +322,10 @@
 		3FF4A29C28DF93F3005D291A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		3FF4A29F28E10ED1005D291A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3FF4A2A128E10EDD005D291A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3FFB2CD32945ECCE007B879A /* ThinkingAccessibilityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingAccessibilityPage.swift; sourceTree = "<group>"; };
+		3FFB2CD52945F053007B879A /* TeamGamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamGamePage.swift; sourceTree = "<group>"; };
+		3FFB2CD72945F5B2007B879A /* LearnTheFeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTheFeaturesPage.swift; sourceTree = "<group>"; };
+		3FFB2CD92945FDEC007B879A /* TryItYourselfPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryItYourselfPage.swift; sourceTree = "<group>"; };
 		9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldTraitPage.swift; sourceTree = "<group>"; };
 		9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryElementTraitPage.swift; sourceTree = "<group>"; };
 		9DD4F901290B635300A00E51 /* ImageTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTraitPage.swift; sourceTree = "<group>"; };
@@ -401,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				3F944EA02941200D000DBF6C /* LearnTheFeaturesClassSection.swift */,
+				3FFB2CD22945ECC1007B879A /* Pages */,
 			);
 			path = LearnTheFeatures;
 			sourceTree = "<group>";
@@ -928,6 +937,17 @@
 			path = Pages;
 			sourceTree = "<group>";
 		};
+		3FFB2CD22945ECC1007B879A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB2CD32945ECCE007B879A /* ThinkingAccessibilityPage.swift */,
+				3FFB2CD52945F053007B879A /* TeamGamePage.swift */,
+				3FFB2CD72945F5B2007B879A /* LearnTheFeaturesPage.swift */,
+				3FFB2CD92945FDEC007B879A /* TryItYourselfPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1011,6 +1031,8 @@
 				3F6DBDEB28F05639001B9F88 /* DarkModeSection.swift in Sources */,
 				9DD345BC290DA03600975E48 /* SummaryElementTraitPage.swift in Sources */,
 				3F6DBDF428F068C0001B9F88 /* DynamicColoredAssetsPage.swift in Sources */,
+				3FFB2CD62945F053007B879A /* TeamGamePage.swift in Sources */,
+				3FFB2CD42945ECCE007B879A /* ThinkingAccessibilityPage.swift in Sources */,
 				3FBF05FB28DB6F6200DA5BF5 /* HapticsPage.swift in Sources */,
 				3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */,
 				3F6DBDF828F08DE0001B9F88 /* TintableImagesPage.swift in Sources */,
@@ -1024,6 +1046,7 @@
 				3FBF055F28DA6A0300DA5BF5 /* Section.swift in Sources */,
 				3FBF057A28DA752200DA5BF5 /* Comment.swift in Sources */,
 				3FBF05A028DAB8DF00DA5BF5 /* Games.swift in Sources */,
+				3FFB2CDA2945FDEC007B879A /* TryItYourselfPage.swift in Sources */,
 				3FB516682940DC42005BC9B2 /* NewSceneClassSection.swift in Sources */,
 				3FBF05B228DAC4EB00DA5BF5 /* GameContent.swift in Sources */,
 				3FBF057628DA701B00DA5BF5 /* PageContent.swift in Sources */,
@@ -1086,6 +1109,7 @@
 				3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */,
 				3FBF05C528DB4F3D00DA5BF5 /* ColorsSections.swift in Sources */,
 				3FB6C0FF28DA6367000A5503 /* Accessibility_HandbookApp.swift in Sources */,
+				3FFB2CD82945F5B2007B879A /* LearnTheFeaturesPage.swift in Sources */,
 				3F54B62D28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift in Sources */,
 				3FBF05BD28DB4A8A00DA5BF5 /* CollaborationView.swift in Sources */,
 				3FBF055D28DA69F800DA5BF5 /* Page.swift in Sources */,

@@ -1199,3 +1199,81 @@
 
 "BoldedText.Code.text1" = "It's also important to notice that fonts that are already bold, become even 'bolder' when manually adjusting these changes.";
 "BoldedText.Code.comment1" = "This app fully supports bolded fonts, change the accessibility option on the device's setting and check how the app behaves.";
+
+// Section: Learn the Features
+
+"LearnAccessibility.title" = "Learn Accessibility";
+
+// Thinking Accessibility
+
+"ThinkingAccessibility.title" = "Thinking Accessibility";
+"ThinkingAccessibility.text1" = "This section is a different type of guide, where we want to show you how to think about accessibility while developing or creating new applications.";
+"ThinkingAccessibility.text2" = "Accessibility is one of those things that if you say: \"I want to improve accessibility on our app!\", nobody is going to say no.";
+"ThinkingAccessibility.text3" = "But it can get hard to start making these improvements and see a real impact to your users.";
+"ThinkingAccessibility.text4" = "Or maybe you are starting a new app and you want to give support to accessibility features from the begining.";
+"ThinkingAccessibility.text5" = "So, we are bringing a content based on real life experiences, alongside the common guide for all the accessibility options and features, to help you not only learn what they are, but the best scenarios to use them.";
+"ThinkingAccessibility.comment1" = "The idea is to help you \"think accessibility\", understand common pitfalls and start a new project having a good idea of what you should expect when creating an iOS application.";
+"ThinkingAccessibility.text6" = "Welcome, to the Accessibility Handbook classes!";
+"ThinkingAccessibility.comment2" = "So, sit tight! If you are new on the iOS accessibility world, this is going to be a wild ride!";
+
+// Accessibility is a team game
+
+"TeamGame.title" = "Accessibility is a team game";
+"TeamGame.text1" = "While learning accessibility by yourself feels good, it feels good to be able to reach people you could not before, it fells good to provide new services and content to a whole new group of people, you are most likely not going to handle it on your own.";
+"TeamGame.comment1" = "Bear with me! 🐻";
+"TeamGame.text2" = "If you work on a company, on a startup, or you made a new app project with some friends, you know that creating a new app is not an easy task.";
+"TeamGame.text3" = "And accessibility is not a developer or designer specific job. It's easy to think\n\n\"Oh, our designer should have figured that!\"\n\nOr even,\n\n\"Accessibility? That's a job for our developers!\"";
+"TeamGame.text4" = "Think of it as part of your culture. Everybody should understand and question how accessibility should work.";
+"TeamGame.text5" = "This way, we can make sure that we have the right questions and issues being tackled on every aspect of your application, on design, development, product... everything!";
+
+"TeamGame.TalkToYourTeam.title" = "Talk to your team";
+"TeamGame.TalkToYourTeam.text1" = "What was the last time you asked your designer \"Have you thought about how to interact with this element with a screen reader?\"";
+"TeamGame.TalkToYourTeam.text2" = "Or what was the last time you asked your developer \"How can we make this component have a better interaction when using accessibility features?\"";
+"TeamGame.TalkToYourTeam.comment1" = "I know this sound a little like coaching, sorry about that, but it's important.";
+"TeamGame.TalkToYourTeam.text3" = "By asking questions, you are bringing the discussion about accessibility into your daily work.";
+"TeamGame.TalkToYourTeam.text4" = "\"This font seems small, do we have support for dynamic fonts?\"";
+"TeamGame.TalkToYourTeam.text5" = "\"The contrast does not seem good, have we checked for colorblindness? Do we have support for a increased contrast color pallet?\"";
+"TeamGame.TalkToYourTeam.text6" = "Make questions. Usually, nobody is a specialist in accessibility, maybe someone knows more about a different platform than the one you are working with, and you can try connecting this knowledge with your current work.";
+"TeamGame.TalkToYourTeam.comment2" = "I'm not a designer nor a specialist myself, I'm more of an enthusiast.";
+"TeamGame.TalkToYourTeam.text7" = "But to make good questions, and give nice suggestions, you need to understand more what are you really working with.";
+
+"TeamGame.ShareTheKnowledge.title" = "Share the knowledge";
+"TeamGame.ShareTheKnowledge.text1" = "We believe that a good knowledge is something to share. And there is no better way to create an accessibility culture without sharing it.";
+"TeamGame.ShareTheKnowledge.text1" = "Show to your peers whenever you create something nice, when you use a new feature that you have never used before.";
+"TeamGame.ShareTheKnowledge.text2" = "Spreading knowledge will help more people to know about it, and give them and yourself more tools to work with in the future.";
+"TeamGame.ShareTheKnowledge.comment1" = "And that goes for everything, not only accessibility!";
+"TeamGame.ShareTheKnowledge.text3" = "And if you are using this app, you can even use the neat share tool on top of every page to bring people directly into an example of what you are talking about!";
+
+// Learn the Features - Page
+
+"LearnTheFeatures.title" = "Learn the Features";
+"LearnTheFeatures.text1" = "In order to make good questions, give better suggestions, integrate accessibility on your development...";
+"LearnTheFeatures.text2" = "You need to learn what the accessibility features and options are, what difference they make on your app, how they impact your users, and most of all: How to use them.";
+"LearnTheFeatures.text3" = "And this is your lucky day! Because this app not only contains guides on how to implement iOS accessibility options, but you can try them for yourself!";
+
+"LearnTheFeatures.VoiceOver.title" = "VoiceOver";
+"LearnTheFeatures.VoiceOver.text1" = "Supporting VoiceOver use on your apps is usually what needs the most implementation and thought.";
+"LearnTheFeatures.VoiceOver.comment1" = "But, do you know what you can do with VoiceOver?";
+"LearnTheFeatures.VoiceOver.text2" = "It's not only setting an 'accessibility label' into everything. We have different ways to group content, different ways to interact with elements and different ways to navigate through the app.";
+"LearnTheFeatures.VoiceOver.text3" = "If you are not familiar with the VoiceOver, the concepts, the names, the gestures, take a look into our VoiceOver section on the Development Guides!";
+"LearnTheFeatures.VoiceOver.comment2" = "And make sure to try using the VoiceOver while reading the content so you can better understand what each element does.";
+"LearnTheFeatures.VoiceOver.text4" = "And if you want a \"hand\" to learn how to navigate using the VoiceOver, we have a gesture guide!";
+
+"LearnTheFeatures.BeyondTheVoiceOver.title" = "Beyond The VoiceOver";
+"LearnTheFeatures.BeyondTheVoiceOver.text1" = "Sometimes when talking about accessibility on mobile devices, we focus only on screen readers (on iOS, the VoiceOver).";
+"LearnTheFeatures.BeyondTheVoiceOver.text2" = "But that's not what accessibility is about! There is an entire world of features, options, issues, disabilities, devices... that are part of accessibility.";
+"LearnTheFeatures.BeyondTheVoiceOver.text3" = "And we also have guides on those!";
+"LearnTheFeatures.BeyondTheVoiceOver.text4" = "Learn more about colors, motion, visual aids, fonts, haptics, contrast... and much more, so you know what to think and ask about.";
+
+// Try it yourself
+
+"TryItYourself.title" = "Try it yourself";
+"TryItYourself.text1" = "Yep, thats it, try it for yourself!";
+"TryItYourself.text2" = "Try not to keep wat you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...";
+"TryItYourself.text3" = "Understand what they do, how they impact your code, and how to use them.";
+"TryItYourself.text4" = "We even have hundreds of code examples to help you get started. But they are only examples.";
+"TryItYourself.text5" = "You'll get it for yourself once you really start introducing these featuers on your code and your app.";
+"TryItYourself.text6" = "And also, try running everything on a real device. Get the feel of how things work in the real life, out of Xcode.";
+"TryItYourself.comment1" = "What was the last time you ran your app with the VoiceOver running? Or that you tried to increase your fonts to see how your layout behaves?";
+"TryItYourself.text7" = "The next sections, will introduce you to issues and common uses of accessibility. How to implement them, and how to plan to create more accessible apps.";
+"TryItYourself.text8" = "Don't give up! We are just starting 😉";

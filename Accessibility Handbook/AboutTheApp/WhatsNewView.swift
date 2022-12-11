@@ -143,6 +143,5 @@ private extension WhatsNewView {
     )
     VerticalSpace(.large)
     Divider()
-    VerticalSpace(.large)
   }
 }

@@ -18,7 +18,7 @@ struct InternalLink: View {
       } label: {
         Text(title)
           .font(.callout.bold())
-          .foregroundColor(.green)
+          .foregroundColor(.pink)
           .multilineTextAlignment(.leading)
       }
       Spacer()

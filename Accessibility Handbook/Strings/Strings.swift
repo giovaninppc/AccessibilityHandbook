@@ -1547,6 +1547,50 @@ internal enum L10n {
     internal static let transparent = L10n.tr("Localizable", "Invisibility.transparent")
   }
 
+  internal enum LearnAccessibility {
+    /// Learn Accessibility
+    internal static let title = L10n.tr("Localizable", "LearnAccessibility.title")
+  }
+
+  internal enum LearnTheFeatures {
+    /// In order to make good questions, give better suggestions, integrate accessibility on your development...
+    internal static let text1 = L10n.tr("Localizable", "LearnTheFeatures.text1")
+    /// You need to learn what the accessibility features and options are, what difference they make on your app, how they impact your users, and most of all: How to use them.
+    internal static let text2 = L10n.tr("Localizable", "LearnTheFeatures.text2")
+    /// And this is your lucky day! Because this app not only contains guides on how to implement iOS accessibility options, but you can try them for yourself!
+    internal static let text3 = L10n.tr("Localizable", "LearnTheFeatures.text3")
+    /// Learn the Features
+    internal static let title = L10n.tr("Localizable", "LearnTheFeatures.title")
+    internal enum BeyondTheVoiceOver {
+      /// Sometimes when talking about accessibility on mobile devices, we focus only on screen readers (on iOS, the VoiceOver).
+      internal static let text1 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text1")
+      /// But that's not what accessibility is about! There is an entire world of features, options, issues, disabilities, devices... that are part of accessibility.
+      internal static let text2 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text2")
+      /// And we also have guides on those!
+      internal static let text3 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text3")
+      /// Learn more about colors, motion, visual aids, fonts, haptics, contrast... and much more, so you know what to think and ask about.
+      internal static let text4 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text4")
+      /// Beyond The VoiceOver
+      internal static let title = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.title")
+    }
+    internal enum VoiceOver {
+      /// But, do you know what you can do with VoiceOver?
+      internal static let comment1 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.comment1")
+      /// And make sure to try using the VoiceOver while reading the content so you can better understand what each element does.
+      internal static let comment2 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.comment2")
+      /// Supporting VoiceOver use on your apps is usually what needs the most implementation and thought.
+      internal static let text1 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text1")
+      /// It's not only setting an 'accessibility label' into everything. We have different ways to group content, different ways to interact with elements and different ways to navigate through the app.
+      internal static let text2 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text2")
+      /// If you are not familiar with the VoiceOver, the concepts, the names, the gestures, take a look into our VoiceOver section on the Development Guides!
+      internal static let text3 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text3")
+      /// And if you want a "hand" to learn how to navigate using the VoiceOver, we have a gesture guide!
+      internal static let text4 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text4")
+      /// VoiceOver
+      internal static let title = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.title")
+    }
+  }
+
   internal enum ListOfTraits {
     /// Allows gestures to update quantities. This is quite useful in some situations like quick-adds, sliders or counters!
     internal static let adjustable = L10n.tr("Localizable", "ListOfTraits.adjustable")
@@ -2019,6 +2063,57 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "SuperFriend.title")
   }
 
+  internal enum TeamGame {
+    /// Bear with me! 🐻
+    internal static let comment1 = L10n.tr("Localizable", "TeamGame.comment1")
+    /// While learning accessibility by yourself feels good, it feels good to be able to reach people you could not before, it fells good to provide new services and content to a whole new group of people, you are most likely not going to handle it on your own.
+    internal static let text1 = L10n.tr("Localizable", "TeamGame.text1")
+    /// If you work on a company, on a startup, or you made a new app project with some friends, you know that creating a new app is not an easy task.
+    internal static let text2 = L10n.tr("Localizable", "TeamGame.text2")
+    /// And accessibility is not a developer or designer specific job. It's easy to think\n\n"Oh, our designer should have figured that!"\n\nOr even,\n\n"Accessibility? That's a job for our developers!"
+    internal static let text3 = L10n.tr("Localizable", "TeamGame.text3")
+    /// Think of it as part of your culture. Everybody should understand and question how accessibility should work.
+    internal static let text4 = L10n.tr("Localizable", "TeamGame.text4")
+    /// This way, we can make sure that we have the right questions and issues being tackled on every aspect of your application, on design, development, product... everything!
+    internal static let text5 = L10n.tr("Localizable", "TeamGame.text5")
+    /// Accessibility is a team game
+    internal static let title = L10n.tr("Localizable", "TeamGame.title")
+    internal enum ShareTheKnowledge {
+      /// And that goes for everything, not only accessibility!
+      internal static let comment1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.comment1")
+      /// Show to your peers whenever you create something nice, when you use a new feature that you have never used before.
+      internal static let text1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text1")
+      /// Spreading knowledge will help more people to know about it, and give them and yourself more tools to work with in the future.
+      internal static let text2 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text2")
+      /// And if you are using this app, you can even use the neat share tool on top of every page to bring people directly into an exapmle of what you are talking about!
+      internal static let text3 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text3")
+      /// Share the knowledge
+      internal static let title = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.title")
+    }
+    internal enum TalkToYourTeam {
+      /// I know this sound a little like coaching, sorry about that, but it's important.
+      internal static let comment1 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.comment1")
+      /// I'm not a designer nor a specialist myself, I'm more of an enthusiast.
+      internal static let comment2 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.comment2")
+      /// What was the last time you asked your designer "Have you thought about how to interact with this element with a screen reader?"
+      internal static let text1 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text1")
+      /// Or what was the last time you asked your developer "How can we make this component have a better interaction when using accessibility features?"
+      internal static let text2 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text2")
+      /// By asking questions, you are bringing the discussion about accessibility into your daily work.
+      internal static let text3 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text3")
+      /// "This font seems small, do we have support for dynamic fonts?"
+      internal static let text4 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text4")
+      /// "The contrast does not seem good, have we checked for colorblindness? Do we have support for a increased contrast color pallet?"
+      internal static let text5 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text5")
+      /// Make questions. Usually, nobody is a specialist in accessibility, maybe someone knows more about a different platform than the one you are working with, and you can try connecting this knowledge with your current work.
+      internal static let text6 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text6")
+      /// But to make good questions, and give nice suggestions, you need to understand more what are you really working with.
+      internal static let text7 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text7")
+      /// Talk to your team
+      internal static let title = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.title")
+    }
+  }
+
   internal enum TheMagicPuzzle {
     /// I don't know what else to tell you...
     internal static let comment = L10n.tr("Localizable", "TheMagicPuzzle.comment")
@@ -2035,6 +2130,27 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "TheUpsideDown.text2")
     /// The Upside Down
     internal static let title = L10n.tr("Localizable", "TheUpsideDown.title")
+  }
+
+  internal enum ThinkingAccessibility {
+    /// The idea is to help you "think accessibility", understand common pitfalls and start a new project having a good idea of what you should expect when creating an iOS application.
+    internal static let comment1 = L10n.tr("Localizable", "ThinkingAccessibility.comment1")
+    /// So, sit tight! If you are new on the iOS accessibility world, this is going to be a wild ride!
+    internal static let comment2 = L10n.tr("Localizable", "ThinkingAccessibility.comment2")
+    /// This section is a different type of guide, where we want to show you how to think about accessibility while developing or creating new applications.
+    internal static let text1 = L10n.tr("Localizable", "ThinkingAccessibility.text1")
+    /// Accessibility is one of those things that if you say: "I want to improve accessibility on our app!", nobody is going to say no.
+    internal static let text2 = L10n.tr("Localizable", "ThinkingAccessibility.text2")
+    /// But it can get hard to start making these improvements and see a real impact to your users.
+    internal static let text3 = L10n.tr("Localizable", "ThinkingAccessibility.text3")
+    /// Or maybe you are starting a new app and you want to give support to accessibility features from the begining.
+    internal static let text4 = L10n.tr("Localizable", "ThinkingAccessibility.text4")
+    /// So, we are bringing a content based on real life experiences, alongside the common guide for all the accessibility options and features, to help you not only learn what they are, but the best scenarios to use them.
+    internal static let text5 = L10n.tr("Localizable", "ThinkingAccessibility.text5")
+    /// Welcome, to the Accessibility Handbook classes!
+    internal static let text6 = L10n.tr("Localizable", "ThinkingAccessibility.text6")
+    /// Thinking Accessibility
+    internal static let title = L10n.tr("Localizable", "ThinkingAccessibility.title")
   }
 
   internal enum TintableImages {
@@ -2060,6 +2176,29 @@ internal enum L10n {
       /// From Apple's documentation:
       internal static let text2 = L10n.tr("Localizable", "TintableImages.TintableImages.text2")
     }
+  }
+
+  internal enum TryItYourself {
+    /// What was the last time you ran your app with the VoiceOver running? Or that you tried to increase your fonts to see how your layout behaves?
+    internal static let comment1 = L10n.tr("Localizable", "TryItYourself.comment1")
+    /// Yep, thats it, try it for yourself!
+    internal static let text1 = L10n.tr("Localizable", "TryItYourself.text1")
+    /// Try not to keep wat you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...
+    internal static let text2 = L10n.tr("Localizable", "TryItYourself.text2")
+    /// Understand what they do, how they impact your code, and how to use them.
+    internal static let text3 = L10n.tr("Localizable", "TryItYourself.text3")
+    /// We even have hundreds of code examples to help you get started. But they are only examples.
+    internal static let text4 = L10n.tr("Localizable", "TryItYourself.text4")
+    /// You'll get it for yourself once you really start introducing these featuers on your code and your app.
+    internal static let text5 = L10n.tr("Localizable", "TryItYourself.text5")
+    /// And also, try running everything on a real device. Get the feel of how things work in the real life, out of Xcode.
+    internal static let text6 = L10n.tr("Localizable", "TryItYourself.text6")
+    /// The next sections, will introduce you to issues and common uses of accessibility. How to implement them, and how to plan to create more accessible apps.
+    internal static let text7 = L10n.tr("Localizable", "TryItYourself.text7")
+    /// Don't give up! We are just starting 😉
+    internal static let text8 = L10n.tr("Localizable", "TryItYourself.text8")
+    /// Try it yourself
+    internal static let title = L10n.tr("Localizable", "TryItYourself.title")
   }
 
   internal enum UIContentSizeCategory {

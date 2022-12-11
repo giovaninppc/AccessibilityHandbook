@@ -114,7 +114,7 @@ private extension PhoneHomeView {
       IndexView(sections: ClassSections())
     } label: {
       HStack {
-        Icon.gameController
+        Icon.bookshelf
           .resizable()
           .aspectRatio(contentMode: .fit)
           .frame(width: 50.0, height: 50.0)
