@@ -846,8 +846,54 @@ internal enum L10n {
   }
 
   internal enum CreateAColorFile {
-    /// Create a Color file
+    /// Example of a blue color pallete.
+    internal static let colors = L10n.tr("Localizable", "CreateAColorFile.colors")
+    /// When creating a new app, you are most likely to decide with your team on a color pallet that represents your application.
+    internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.text1")
+    /// You'll put effort into it, and you'll most likely not use the iOS system colors. Which is completely fine.
+    internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.text2")
+    /// But colors are a very important part of accessibility, and you need to remember that not everybodey perceives color the same way.
+    internal static let text3 = L10n.tr("Localizable", "CreateAColorFile.text3")
+    /// So, if you prepare your colors to support accessibility options (even if you don't add support at first!), it'll be easier later to add them to your application.
+    internal static let text4 = L10n.tr("Localizable", "CreateAColorFile.text4")
+    /// Setup a Color file
     internal static let title = L10n.tr("Localizable", "CreateAColorFile.title")
+    internal enum CentralizedColor {
+      /// Here's a initial color pallete. Very simple, and a few colors to use.
+      internal static let colors = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.colors")
+      /// Maybe you should also consider having an entire UI module for it! Depending on the size of your project.
+      internal static let comment1 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.comment1")
+      /// One suggestion is not name your colors their 'color name'. Avoid things like 'company blue', or 'darkGreen'. Try using things like 'highlightColor' or 'lightDiscountColor', because the color itself may change depending on the user's context.
+      internal static let disclaimer = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.disclaimer")
+      /// First thing you should consider, is creating a color file.
+      internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text1")
+      /// But like this, you'll make sure to use your colors, and you will be able to make changes to them if necessary.
+      internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text2")
+      /// You can easily call your colors from the color file.
+      internal static let text3 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text3")
+      /// Centralized color file
+      internal static let title = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.title")
+    }
+  }
+
+  internal enum CreateAFontFile {
+    /// Setup a Font file
+    internal static let title = L10n.tr("Localizable", "CreateAFontFile.title")
+  }
+
+  internal enum CreateAccessibilityModifiers {
+    /// And please, make them accessible from the start!
+    internal static let comment1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.comment1")
+    /// We usually have a UI library with lots of components. It's a natural step on a growing project, an easy and simple way to reuse components accross your entire application.
+    internal static let text1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.text1")
+    /// But, like we can reuse components, we can also consider reusing accessibility modifiers to our views!
+    internal static let text2 = L10n.tr("Localizable", "CreateAccessibilityModifiers.text2")
+    /// Create Accessibility Modifiers
+    internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.title")
+    internal enum ReusingAccessibility {
+      /// Reusing Accessibility
+      internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.title")
+    }
   }
 
   internal enum CustomActions {

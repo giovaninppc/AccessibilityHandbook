@@ -1300,4 +1300,32 @@
 
 // Create a color file
 
-"CreateAColorFile.title" = "Create a Color file";
+"CreateAColorFile.title" = "Setup a Color file";
+
+"CreateAColorFile.text1" = "When creating a new app, you are most likely to decide with your team on a color pallet that represents your application.";
+"CreateAColorFile.text2" = "You'll put effort into it, and you'll most likely not use the iOS system colors. Which is completely fine.";
+"CreateAColorFile.text3" = "But colors are a very important part of accessibility, and you need to remember that not everybodey perceives color the same way.";
+"CreateAColorFile.text4" = "So, if you prepare your colors to support accessibility options (even if you don't add support at first!), it'll be easier later to add them to your application.";
+
+"CreateAColorFile.colors" = "Example of a blue color pallete.";
+
+"CreateAColorFile.CentralizedColor.title" = "Centralized color file";
+"CreateAColorFile.CentralizedColor.text1" = "First thing you should consider, is creating a color file.";
+"CreateAColorFile.CentralizedColor.comment1" = "Maybe you should also consider having an entire UI module for it! Depending on the size of your project.";
+"CreateAColorFile.CentralizedColor.text2" = "But like this, you'll make sure to use your colors, and you will be able to make changes to them if necessary.";
+"CreateAColorFile.CentralizedColor.colors" = "Here's a initial color pallete. Very simple, and a few colors to use.";
+"CreateAColorFile.CentralizedColor.text3" = "You can easily call your colors from the color file.";
+"CreateAColorFile.CentralizedColor.disclaimer" = "One suggestion is not name your colors their 'color name'. Avoid things like 'company blue', or 'darkGreen'. Try using things like 'highlightColor' or 'lightDiscountColor', because the color itself may change depending on the user's context.";
+
+// Create a font file
+
+"CreateAFontFile.title" = "Setup a Font file";
+
+// Create accessibility Modifiers
+
+"CreateAccessibilityModifiers.title" = "Create Accessibility Modifiers";
+"CreateAccessibilityModifiers.text1" = "We usually have a UI library with lots of components. It's a natural step on a growing project, an easy and simple way to reuse components accross your entire application.";
+"CreateAccessibilityModifiers.comment1" = "And please, make them accessible from the start!";
+"CreateAccessibilityModifiers.text2" = "But, like we can reuse components, we can also consider reusing accessibility modifiers to our views!";
+
+"CreateAccessibilityModifiers.ReusingAccessibility.title" = "Reusing Accessibility";

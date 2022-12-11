@@ -40,6 +40,7 @@ struct HomeView: View {
       } label: {
         Icon.search
       }
+      .accessibilityLabel(L10n.search)
     }
   }
 }

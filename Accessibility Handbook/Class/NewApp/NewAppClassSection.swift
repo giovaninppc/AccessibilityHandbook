@@ -11,6 +11,8 @@ struct NewAppClassSection: Section {
   let title: String = L10n.MakingANewApp.title
   let pages: [Page] = [
     PrepareTheGroundPage(),
-    CreatingAColorFilePage()
+    CreatingAColorFilePage(),
+    CreatingAFontFilePage(),
+    CreatingAccessibilityModifiersPage()
   ]
 }

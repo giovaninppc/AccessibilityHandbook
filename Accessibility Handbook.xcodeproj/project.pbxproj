@@ -164,6 +164,8 @@
 		3FFB2CDA2945FDEC007B879A /* TryItYourselfPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD92945FDEC007B879A /* TryItYourselfPage.swift */; };
 		3FFB2CDD294602C6007B879A /* PrepareTheGroundPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CDC294602C6007B879A /* PrepareTheGroundPage.swift */; };
 		3FFB2CDF2946064A007B879A /* CreatingAColorFilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CDE2946064A007B879A /* CreatingAColorFilePage.swift */; };
+		3FFB2CE129460BBC007B879A /* CreateAFontFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CE029460BBC007B879A /* CreateAFontFile.swift */; };
+		3FFB2CE329460C26007B879A /* CreateUsefulAccessibiltyModifiersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CE229460C26007B879A /* CreateUsefulAccessibiltyModifiersPage.swift */; };
 		9D7C0142290C6312004CCB40 /* SearchFieldTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */; };
 		9DD345BC290DA03600975E48 /* SummaryElementTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */; };
 		9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4F901290B635300A00E51 /* ImageTraitPage.swift */; };
@@ -330,6 +332,8 @@
 		3FFB2CD92945FDEC007B879A /* TryItYourselfPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryItYourselfPage.swift; sourceTree = "<group>"; };
 		3FFB2CDC294602C6007B879A /* PrepareTheGroundPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareTheGroundPage.swift; sourceTree = "<group>"; };
 		3FFB2CDE2946064A007B879A /* CreatingAColorFilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAColorFilePage.swift; sourceTree = "<group>"; };
+		3FFB2CE029460BBC007B879A /* CreateAFontFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAFontFile.swift; sourceTree = "<group>"; };
+		3FFB2CE229460C26007B879A /* CreateUsefulAccessibiltyModifiersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsefulAccessibiltyModifiersPage.swift; sourceTree = "<group>"; };
 		9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldTraitPage.swift; sourceTree = "<group>"; };
 		9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryElementTraitPage.swift; sourceTree = "<group>"; };
 		9DD4F901290B635300A00E51 /* ImageTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTraitPage.swift; sourceTree = "<group>"; };
@@ -958,6 +962,8 @@
 			children = (
 				3FFB2CDC294602C6007B879A /* PrepareTheGroundPage.swift */,
 				3FFB2CDE2946064A007B879A /* CreatingAColorFilePage.swift */,
+				3FFB2CE029460BBC007B879A /* CreateAFontFile.swift */,
+				3FFB2CE229460C26007B879A /* CreateUsefulAccessibiltyModifiersPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -1048,6 +1054,7 @@
 				3FFB2CD62945F053007B879A /* TeamGamePage.swift in Sources */,
 				3FFB2CD42945ECCE007B879A /* ThinkingAccessibilityPage.swift in Sources */,
 				3FBF05FB28DB6F6200DA5BF5 /* HapticsPage.swift in Sources */,
+				3FFB2CE329460C26007B879A /* CreateUsefulAccessibiltyModifiersPage.swift in Sources */,
 				3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */,
 				3F6DBDF828F08DE0001B9F88 /* TintableImagesPage.swift in Sources */,
 				3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */,
@@ -1120,6 +1127,7 @@
 				3FBF060728DB890900DA5BF5 /* HapticList.swift in Sources */,
 				3FC3D7042919E5A1007393DE /* PhoneHomeView.swift in Sources */,
 				3F79FF3528F44F8C002DA8FD /* AnAlternative.swift in Sources */,
+				3FFB2CE129460BBC007B879A /* CreateAFontFile.swift in Sources */,
 				3FBF057128DA6F0200DA5BF5 /* UsingTheVoiceOverSection.swift in Sources */,
 				3FBF05C328DB4F2200DA5BF5 /* DynamicFontSections.swift in Sources */,
 				3FBF05C528DB4F3D00DA5BF5 /* ColorsSections.swift in Sources */,
