@@ -863,7 +863,7 @@ internal enum L10n {
       internal static let colors = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.colors")
       /// Maybe you should also consider having an entire UI module for it! Depending on the size of your project.
       internal static let comment1 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.comment1")
-      /// One suggestion is not name your colors their 'color name'. Avoid things like 'company blue', or 'darkGreen'. Try using things like 'highlightColor' or 'lightDiscountColor', because the color itself may change depending on the user's context.
+      /// One suggestion is not name your colors their 'color name'.\n Avoid things like 'company blue'.\nTry using things like 'highlightColor', because the color itself may change depending on the user's context.
       internal static let disclaimer = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.disclaimer")
       /// First thing you should consider, is creating a color file.
       internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text1")
@@ -873,6 +873,28 @@ internal enum L10n {
       internal static let text3 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text3")
       /// Centralized color file
       internal static let title = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.title")
+    }
+    internal enum DarkMode {
+      /// Check our page on Dynamic Colors!
+      internal static let button1 = L10n.tr("Localizable", "CreateAColorFile.DarkMode.button1")
+      /// Adaptable color pallete
+      internal static let colors = L10n.tr("Localizable", "CreateAColorFile.DarkMode.colors")
+      /// Now that you have your color file, a nice next ste would be adding support to dark mode.
+      internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.DarkMode.text1")
+      /// Now, if you change between dark and light modes, your colors will adapt to it!
+      internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.DarkMode.text2")
+      /// Add Dark Mode support
+      internal static let title = L10n.tr("Localizable", "CreateAColorFile.DarkMode.title")
+    }
+    internal enum IncreaseContrast {
+      /// Check our increase contrast page!
+      internal static let button = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.button")
+      /// Now, with your color file, you can add support to any accessibility feature for visual aid based on colors!
+      internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.text1")
+      /// For example, increased contrast!
+      internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.text2")
+      /// Increase contrast
+      internal static let title = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.title")
     }
   }
 

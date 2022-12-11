@@ -1315,7 +1315,18 @@
 "CreateAColorFile.CentralizedColor.text2" = "But like this, you'll make sure to use your colors, and you will be able to make changes to them if necessary.";
 "CreateAColorFile.CentralizedColor.colors" = "Here's a initial color pallete. Very simple, and a few colors to use.";
 "CreateAColorFile.CentralizedColor.text3" = "You can easily call your colors from the color file.";
-"CreateAColorFile.CentralizedColor.disclaimer" = "One suggestion is not name your colors their 'color name'. Avoid things like 'company blue', or 'darkGreen'. Try using things like 'highlightColor' or 'lightDiscountColor', because the color itself may change depending on the user's context.";
+"CreateAColorFile.CentralizedColor.disclaimer" = "One suggestion is not name your colors their 'color name'.\n Avoid things like 'company blue'.\nTry using things like 'highlightColor', because the color itself may change depending on the user's context.";
+
+"CreateAColorFile.DarkMode.title" = "Add Dark Mode support";
+"CreateAColorFile.DarkMode.text1" = "Now that you have your color file, a nice next ste would be adding support to dark mode.";
+"CreateAColorFile.DarkMode.button1" = "Check our page on Dynamic Colors!";
+"CreateAColorFile.DarkMode.text2" = "Now, if you change between dark and light modes, your colors will adapt to it!";
+"CreateAColorFile.DarkMode.colors" = "Adaptable color pallete";
+
+"CreateAColorFile.IncreaseContrast.title" = "Increase contrast";
+"CreateAColorFile.IncreaseContrast.text1" = "Now, with your color file, you can add support to any accessibility feature for visual aid based on colors!";
+"CreateAColorFile.IncreaseContrast.text2" = "For example, increased contrast!";
+"CreateAColorFile.IncreaseContrast.button" = "Check our increase contrast page!";
 
 // Create a font file
 

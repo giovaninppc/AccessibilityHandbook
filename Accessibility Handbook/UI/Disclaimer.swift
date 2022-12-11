@@ -28,6 +28,7 @@ struct Disclaimer: View {
       }
       .padding()
       Text(content)
+        .font(.callout)
       Spacer()
     }
     .padding()

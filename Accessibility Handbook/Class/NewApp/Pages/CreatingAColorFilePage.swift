@@ -10,12 +10,17 @@ import SwiftUI
 struct CreatingAColorFilePage: View, Page {
   let title: String = L10n.CreateAColorFile.title
 
+  @Environment(\.colorScheme)
+  var colorScheme
+
   var body: some View {
     PageContent(next: CreatingAFontFilePage(), deeplink: deeplink) {
       Group {
         intro
         colors
         centralizedColorDocument
+        darkMode
+        increaseContrast
       }
       .toAny()
     }
@@ -81,6 +86,78 @@ private extension CreatingAColorFilePage {
     )
 
     Text(L10n.CreateAColorFile.CentralizedColor.text3)
+    Disclaimer(
+      icon: Icon.bookshelf,
+      content: L10n.CreateAColorFile.CentralizedColor.disclaimer,
+      color: .pink
+    )
+  }
+
+  @ViewBuilder
+  var darkMode: some View {
+    Title(L10n.CreateAColorFile.DarkMode.title)
+    Text(L10n.CreateAColorFile.DarkMode.text1)
+    InternalLink(
+      page: DynamicColorsPage().page,
+      title: L10n.CreateAColorFile.DarkMode.button1
+    )
+
+    Code.uikit("""
+    public static var textColor: UIColor {
+      UIColor { (tC: UITraitCollection) -> UIColor in
+        switch tC.userInterfaceStyle {
+         case .dark:
+           return .init(red: 1.0, green: 1.0, blue: 1.0)
+         default:
+           return .init(red: 0.1, green: 0.1, blue: 0.1)
+        }
+      }
+    }
+
+    public static var background: UIColor {
+      UIColor { (tC: UITraitCollection) -> UIColor in
+        switch tC.userInterfaceStyle {
+          case .dark:
+            return .init(red: 0.0, green: 0.0, blue: 0.0)
+          default:
+            return .init(red: 1.0, green: 1.0, blue: 1.0)
+        }
+      }
+    }
+    """)
+
+    colorPallete(
+      description: L10n.CreateAColorFile.DarkMode.colors,
+      colors:
+      (colorScheme == .dark ? color(red: 255, green: 255, blue: 255) : color(red: 25, green: 25, blue: 25)),
+      (colorScheme == .dark ? color(red: 0, green: 0, blue: 0) : color(red: 255, green: 255, blue: 255)),
+      (colorScheme == .dark ? color(red: 242, green: 52, blue: 48) : color(red: 200, green: 30, blue: 30)),
+      (colorScheme == .dark ? color(red: 65, green: 242, blue: 113) : color(red: 60, green: 210, blue: 90))
+    )
+  }
+
+  @ViewBuilder
+  var increaseContrast: some View {
+    Title(L10n.CreateAColorFile.IncreaseContrast.title)
+    Text(L10n.CreateAColorFile.IncreaseContrast.text1)
+    Text(L10n.CreateAColorFile.IncreaseContrast.text2)
+    Code.uikit("""
+    public static var textColor: UIColor {
+      UIColor { (tC: UITraitCollection) -> UIColor in
+        switch tC.userInterfaceStyle {
+         case .dark:
+           return UIAccessibility.accessibilityDisplayShouldIncreaseContrast
+             ? .init(red: 1.0, green: 1.0, blue: 1.0)
+             : .init(red: 1.0, green: 1.0, blue: 1.0)
+         default:
+           return UIAccessibility.accessibilityDisplayShouldIncreaseContrast
+           ? .init(red: 0.1, green: 0.1, blue: 0.1)
+           : .init(red: 0.0, green: 0.0, blue: 0.0)
+        }
+      }
+    }
+    """)
+    InternalLink(page: IncreaseContrastPage().page, title: L10n.CreateAColorFile.IncreaseContrast.button)
   }
 
   func color(red: Double, green: Double, blue: Double) -> Color {
@@ -94,6 +171,7 @@ private extension CreatingAColorFilePage {
       ForEach(colors, id: \.self) { color in
         Circle()
           .foregroundColor(color)
+          .frame(maxWidth: 50.0)
       }
       Spacer()
     }
