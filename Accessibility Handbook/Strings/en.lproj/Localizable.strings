@@ -1281,3 +1281,23 @@
 // Making a new app section
 
 "MakingANewApp.title" = "Making a new app";
+
+// Prepare the Ground
+
+"PrepareTheGround.title" = "Prepare the Ground";
+"PrepareTheGround.text1" = "So you are starting a new project? That's exciting!";
+"PrepareTheGround.xcodeLogo" = "Xcode logo";
+"PrepareTheGround.text2" = "That's the perfect time to think about what accessibility features you want to give support and prepare your project to support them.";
+"PrepareTheGround.text3" = "But it's also the best time to create standards and code that will be easy to update and modified to support your project evolution.";
+"PrepareTheGround.text4" = "And also the best part to keep accessibility in mind when creating these standards!";
+
+"PrepareTheGround.WhatToSupport.title" = "What to support?";
+"PrepareTheGround.WhatToSupport.text1" = "Well, ideally, we want to be able to support EVERYTHING!";
+"PrepareTheGround.WhatToSupport.text2" = "But sometimes that's not feasible.";
+"PrepareTheGround.WhatToSupport.text3" = "So, what we are going to discuss in this section, are ideas and tips to prepare your project to support accessibility features once you decide to support them!";
+"PrepareTheGround.WhatToSupport.comment1" = "But it's always better if you decide to support them right away!";
+"PrepareTheGround.WhatToSupport.text4" = "Things like, having a Color file, preparing a custom Font file, are key to have a better transition when adding support to dark mode or dynamic fonts, for example.";
+
+// Create a color file
+
+"CreateAColorFile.title" = "Create a Color file";

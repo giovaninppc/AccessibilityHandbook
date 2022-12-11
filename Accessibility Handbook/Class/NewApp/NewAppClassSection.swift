@@ -9,5 +9,8 @@ import Foundation
 
 struct NewAppClassSection: Section {
   let title: String = L10n.MakingANewApp.title
-  let pages: [Page] = []
+  let pages: [Page] = [
+    PrepareTheGroundPage(),
+    CreatingAColorFilePage()
+  ]
 }

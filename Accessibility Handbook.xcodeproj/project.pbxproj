@@ -162,6 +162,8 @@
 		3FFB2CD62945F053007B879A /* TeamGamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD52945F053007B879A /* TeamGamePage.swift */; };
 		3FFB2CD82945F5B2007B879A /* LearnTheFeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD72945F5B2007B879A /* LearnTheFeaturesPage.swift */; };
 		3FFB2CDA2945FDEC007B879A /* TryItYourselfPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CD92945FDEC007B879A /* TryItYourselfPage.swift */; };
+		3FFB2CDD294602C6007B879A /* PrepareTheGroundPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CDC294602C6007B879A /* PrepareTheGroundPage.swift */; };
+		3FFB2CDF2946064A007B879A /* CreatingAColorFilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB2CDE2946064A007B879A /* CreatingAColorFilePage.swift */; };
 		9D7C0142290C6312004CCB40 /* SearchFieldTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */; };
 		9DD345BC290DA03600975E48 /* SummaryElementTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */; };
 		9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD4F901290B635300A00E51 /* ImageTraitPage.swift */; };
@@ -326,6 +328,8 @@
 		3FFB2CD52945F053007B879A /* TeamGamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamGamePage.swift; sourceTree = "<group>"; };
 		3FFB2CD72945F5B2007B879A /* LearnTheFeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTheFeaturesPage.swift; sourceTree = "<group>"; };
 		3FFB2CD92945FDEC007B879A /* TryItYourselfPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryItYourselfPage.swift; sourceTree = "<group>"; };
+		3FFB2CDC294602C6007B879A /* PrepareTheGroundPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareTheGroundPage.swift; sourceTree = "<group>"; };
+		3FFB2CDE2946064A007B879A /* CreatingAColorFilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAColorFilePage.swift; sourceTree = "<group>"; };
 		9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldTraitPage.swift; sourceTree = "<group>"; };
 		9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryElementTraitPage.swift; sourceTree = "<group>"; };
 		9DD4F901290B635300A00E51 /* ImageTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTraitPage.swift; sourceTree = "<group>"; };
@@ -952,6 +956,8 @@
 		3FFB2CDB2946025D007B879A /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				3FFB2CDC294602C6007B879A /* PrepareTheGroundPage.swift */,
+				3FFB2CDE2946064A007B879A /* CreatingAColorFilePage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -1097,6 +1103,7 @@
 				3FBF05E428DB602000DA5BF5 /* NotifyScreenChangesPage.swift in Sources */,
 				3F41C11D28E5FC980092CF28 /* DismissGesture.swift in Sources */,
 				3FF4A29D28DF93F3005D291A /* String+Extensions.swift in Sources */,
+				3FFB2CDD294602C6007B879A /* PrepareTheGroundPage.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,
 				3FBF055028DA648700DA5BF5 /* Strings.swift in Sources */,
@@ -1121,6 +1128,7 @@
 				3F54B62D28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift in Sources */,
 				3FBF05BD28DB4A8A00DA5BF5 /* CollaborationView.swift in Sources */,
 				3FBF055D28DA69F800DA5BF5 /* Page.swift in Sources */,
+				3FFB2CDF2946064A007B879A /* CreatingAColorFilePage.swift in Sources */,
 				3FBF059328DA9E4E00DA5BF5 /* AdjustablePage.swift in Sources */,
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
 				3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */,

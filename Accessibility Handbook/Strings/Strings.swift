@@ -845,6 +845,11 @@ internal enum L10n {
     }
   }
 
+  internal enum CreateAColorFile {
+    /// Create a Color file
+    internal static let title = L10n.tr("Localizable", "CreateAColorFile.title")
+  }
+
   internal enum CustomActions {
     /// Credit Card, ending in 1234
     internal static let accessible = L10n.tr("Localizable", "CustomActions.accessible")
@@ -1821,6 +1826,35 @@ internal enum L10n {
     internal static let text4 = L10n.tr("Localizable", "PreferCrossFadePage.text4")
     /// Prefers cross-fade transitions
     internal static let title = L10n.tr("Localizable", "PreferCrossFadePage.title")
+  }
+
+  internal enum PrepareTheGround {
+    /// So you are starting a new project? That's exciting!
+    internal static let text1 = L10n.tr("Localizable", "PrepareTheGround.text1")
+    /// That's the perfect time to think about what accessibility features you want to give support and prepare your project to support them.
+    internal static let text2 = L10n.tr("Localizable", "PrepareTheGround.text2")
+    /// But it's also the best time to create standards and code that will be easy to update and modified to support your project evolution.
+    internal static let text3 = L10n.tr("Localizable", "PrepareTheGround.text3")
+    /// And also the best part to keep accessibility in mind when creating these standards!
+    internal static let text4 = L10n.tr("Localizable", "PrepareTheGround.text4")
+    /// Prepare the Ground
+    internal static let title = L10n.tr("Localizable", "PrepareTheGround.title")
+    /// Xcode logo
+    internal static let xcodeLogo = L10n.tr("Localizable", "PrepareTheGround.xcodeLogo")
+    internal enum WhatToSupport {
+      /// But it's always better if you decide to support them right away!
+      internal static let comment1 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.comment1")
+      /// Well, ideally, we want to be able to support EVERYTHING!
+      internal static let text1 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text1")
+      /// But sometimes that's not feasible.
+      internal static let text2 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text2")
+      /// So, what we are going to discuss in this section, are ideas and tips to prepare your project to support accessibility features once you decide to support them!
+      internal static let text3 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text3")
+      /// Things like, having a Color file, preparing a custom Font file, are key to have a better transition when adding support to dark mode or dynamic fonts, for example.
+      internal static let text4 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text4")
+      /// What to support?
+      internal static let title = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.title")
+    }
   }
 
   internal enum ReduceMotion {
