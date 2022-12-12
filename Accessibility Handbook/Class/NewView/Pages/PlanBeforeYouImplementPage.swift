@@ -137,12 +137,9 @@ private extension PlanBeforeYouImplementPage {
         .toAny()
     }
     Code.swiftUI("""
-    ZStack {
+    ZStack(alignment: .bottom) {
       Image(imageAsset)
-      VStack {
-        Spacer()
-        Text(imageDescription)
-      }
+      Text(imageDescription)
     }
     .accessibilityElement(children: .combine)
     """)
