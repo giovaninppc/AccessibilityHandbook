@@ -1921,6 +1921,59 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "NotifyChanges.title")
   }
 
+  internal enum PlanBeforeYouImplement {
+    /// Plan your view hierarchy before you implement it. Well... this is obvious, isn't it? You should always plan before you simply start implementing stuff.
+    internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.text1")
+    /// But what we want to discuss here, is planning the hierarchy of your UI components in order to simplify and implement accessibility alongside with the UI.
+    internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.text2")
+    /// As a developer, I've been asked before: "But how long does it take to add accessibility to a view?" And my reply always was: "As much as it takes to build the component."
+    internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.text3")
+    /// Accessibility really goes together with the UI, so, if you know what to look for while implementing it, things will become much easier.
+    internal static let text4 = L10n.tr("Localizable", "PlanBeforeYouImplement.text4")
+    /// Plan your hierarchy
+    internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.title")
+    internal enum Conclusion {
+      /// If you understand how you want your content to be read by the VoiceOver, and how you are building your view, you can account the accessibility in your hierarchy.
+      internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.text1")
+      /// And position the elements in the hierarchy in order to make the reader focus on them in a way that makes more sense to the user.
+      internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.text2")
+      /// And in the end our view hierarchy would look something like the following diagram, with only 2 accessibility elements.
+      internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.text3")
+      /// Concluding...
+      internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.title")
+    }
+    internal enum Group {
+      /// On the diagram above, the background colors represent the hierarchy of the views, and the border represents and accessibility group.
+      internal static let imageExplanation = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.imageExplanation")
+      /// In the example above, imagine it's a header for a product page (It's important to know the context of your view!). Always wonder: How would it make sense for this content to be read?
+      internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text1")
+      /// And after giving it some thought, we decide to group the image and it's description as a single element, since the description exaplains the image itself, and group both labels into another element so they will be read together.
+      internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text2")
+      /// Grouping the image and it's description is easy! Since they are in the same hierarchy, we can take the parent view and group the elements together.
+      internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text3")
+      /// But grouping the labels together, to be read as a single element, will take some changes to our code.
+      internal static let text4 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text4")
+      /// Even though they are in the same hierarchy, their parent view also holds the other views on this header. In order to group the labels together, we need to embed them into another view, and group them into the parent.
+      internal static let text5 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text5")
+      /// Group your elements correctly
+      internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.title")
+    }
+    internal enum Hierarchy {
+      /// Example of a view hierarchy. This represents an UI component with a few views inside it. The lighter the color of the view, represents it's inside the view's behind hierarchy.
+      internal static let example = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.example")
+      /// When building a view, we basically stack more views inside and on top of each other. We may have a base view, with a couple of labels inside it, or a complete mess of stacks with several components.
+      internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text1")
+      /// And why is it really important to understand your hierarchy? Most of it is not even visible in the final product. The user won't see if you used a single or multiple views on top of each other.
+      internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text2")
+      /// But it does matter for Accessibility.
+      internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text3")
+      /// Think beforehand how does it make sense for the screen reader to approach your component. Maybe it should be grouped into a single readable element, but maybe it has multiple buttons that should be focused individually.
+      internal static let text4 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text4")
+      /// Understading Hierarchy
+      internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.title")
+    }
+  }
+
   internal enum PreferCrossFadePage {
     /// This app uses a default navigation stack. Go to settings and change this accessibility option, then come back and try opening new scenes or going back to previous ones. The default slide transition should be replaced with cross-fades.
     internal static let comment1 = L10n.tr("Localizable", "PreferCrossFadePage.comment1")

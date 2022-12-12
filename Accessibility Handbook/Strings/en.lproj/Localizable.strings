@@ -1360,3 +1360,31 @@
 "CreateAccessibilityModifiers.ReusableModifiers.text1" = "That is a situation where you can benefit of reusing accessibility modifiers. Just like you reuse UI components!";
 "CreateAccessibilityModifiers.ReusableModifiers.text2" = "Then, by creating a View extension, you can reuse this modifier on the counter and on the cell.";
 "CreateAccessibilityModifiers.ReusableModifiers.text3" = "You can do similar things for UIKit as well, and create your own library of accessibility helpers!";
+
+// Plan before you implement
+
+"PlanBeforeYouImplement.title" = "Plan your hierarchy";
+"PlanBeforeYouImplement.text1" = "Plan your view hierarchy before you implement it. Well... this is obvious, isn't it? You should always plan before you simply start implementing stuff.";
+"PlanBeforeYouImplement.text2" = "But what we want to discuss here, is planning the hierarchy of your UI components in order to simplify and implement accessibility alongside with the UI.";
+"PlanBeforeYouImplement.text3" = "As a developer, I've been asked before: \"But how long does it take to add accessibility to a view?\" And my reply always was: \"As much as it takes to build the component.\"";
+"PlanBeforeYouImplement.text4" = "Accessibility really goes together with the UI, so, if you know what to look for while implementing it, things will become much easier.";
+
+"PlanBeforeYouImplement.Hierarchy.title" = "Understading Hierarchy";
+"PlanBeforeYouImplement.Hierarchy.text1" = "When building a view, we basically stack more views inside and on top of each other. We may have a base view, with a couple of labels inside it, or a complete mess of stacks with several components.";
+"PlanBeforeYouImplement.Hierarchy.text2" = "And why is it really important to understand your hierarchy? Most of it is not even visible in the final product. The user won't see if you used a single or multiple views on top of each other.";
+"PlanBeforeYouImplement.Hierarchy.text3" = "But it does matter for Accessibility.";
+"PlanBeforeYouImplement.Hierarchy.text4" = "Think beforehand how does it make sense for the screen reader to approach your component. Maybe it should be grouped into a single readable element, but maybe it has multiple buttons that should be focused individually.";
+"PlanBeforeYouImplement.Hierarchy.example" = "Example of a view hierarchy. This represents an UI component with a few views inside it. The lighter the color of the view, represents it's inside the view's behind hierarchy.";
+
+"PlanBeforeYouImplement.Group.title" = "Group your elements correctly";
+"PlanBeforeYouImplement.Group.text1" = "In the example above, imagine it's a header for a product page (It's important to know the context of your view!). Always wonder: How would it make sense for this content to be read?";
+"PlanBeforeYouImplement.Group.text2" = "And after giving it some thought, we decide to group the image and it's description as a single element, since the description exaplains the image itself, and group both labels into another element so they will be read together.";
+"PlanBeforeYouImplement.Group.text3" = "Grouping the image and it's description is easy! Since they are in the same hierarchy, we can take the parent view and group the elements together.";
+"PlanBeforeYouImplement.Group.text4" = "But grouping the labels together, to be read as a single element, will take some changes to our code.";
+"PlanBeforeYouImplement.Group.text5" = "Even though they are in the same hierarchy, their parent view also holds the other views on this header. In order to group the labels together, we need to embed them into another view, and group them into the parent.";
+"PlanBeforeYouImplement.Group.imageExplanation" = "On the diagram above, the background colors represent the hierarchy of the views, and the border represents and accessibility group.";
+
+"PlanBeforeYouImplement.Conclusion.title" = "Concluding...";
+"PlanBeforeYouImplement.Conclusion.text1" = "If you understand how you want your content to be read by the VoiceOver, and how you are building your view, you can account the accessibility in your hierarchy.";
+"PlanBeforeYouImplement.Conclusion.text2" = "And position the elements in the hierarchy in order to make the reader focus on them in a way that makes more sense to the user.";
+"PlanBeforeYouImplement.Conclusion.text3" = "And in the end our view hierarchy would look something like the following diagram, with only 2 accessibility elements.";
