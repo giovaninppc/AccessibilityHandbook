@@ -11,7 +11,7 @@ struct PlanBeforeYouImplementPage: View, Page {
   let title: String = L10n.PlanBeforeYouImplement.title
 
   var body: some View {
-    PageContent(next: nil, deeplink: deeplink) {
+    PageContent(next: RepeatedViewsPage(), deeplink: deeplink) {
       Group {
         intro
         understandingHierarchy
@@ -219,23 +219,5 @@ private extension PlanBeforeYouImplementPage {
       .frame(maxWidth: 350.0)
       .toAny()
     }
-  }
-}
-
-private struct HierarchyBackgroundModifier: ViewModifier {
-  func body(content: Content) -> some View {
-    content
-      .frame(maxWidth: .infinity)
-      .background {
-        RoundedRectangle(cornerRadius: 8.0)
-          .foregroundColor(.blue)
-          .opacity(0.2)
-      }
-  }
-}
-
-private extension View {
-  func hierarchyBackground() -> some View {
-    modifier(HierarchyBackgroundModifier())
   }
 }

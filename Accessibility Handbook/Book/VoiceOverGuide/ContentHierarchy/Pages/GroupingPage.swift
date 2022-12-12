@@ -14,13 +14,9 @@ struct GroupingPage: View, Page {
     PageContent(next: DismissPage(), deeplink: deeplink) {
       Group {
         content
-        VerticalSpace(.large)
         goodCarousel
-        VerticalSpace(.large)
         badCarousel
-        VerticalSpace(.large)
         uiKitExample
-        VerticalSpace(.regular)
         swiftUIExample
       }
       .toAny()
@@ -58,7 +54,8 @@ private extension GroupingPage {
 
   var goodCell: some View {
     VStack(spacing: .regular) {
-      Title(L10n.Grouping.cellTitle)
+      Text(L10n.Grouping.cellTitle)
+        .font(.title)
       Text(L10n.Grouping.cellContent)
       Comment(L10n.Grouping.cellComment)
     }
@@ -88,7 +85,8 @@ private extension GroupingPage {
 
   var badCell: some View {
     VStack(spacing: .regular) {
-      Title(L10n.Grouping.cellTitle)
+      Text(L10n.Grouping.cellTitle)
+        .font(.title)
       Text(L10n.Grouping.cellContent)
       Comment(L10n.Grouping.cellComment)
     }

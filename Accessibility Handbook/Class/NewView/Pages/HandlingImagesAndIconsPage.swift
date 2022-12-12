@@ -11,7 +11,7 @@ struct HandlingImagesAndIconsPage: View, Page {
   let title: String = "HandlingImagesAndIcons"
 
   var body: some View {
-    PageContent(next: nil, deeplink: deeplink) {
+    PageContent(next: AddTheCorrectTraitsPage(), deeplink: deeplink) {
       Group {
       }
       .toAny()

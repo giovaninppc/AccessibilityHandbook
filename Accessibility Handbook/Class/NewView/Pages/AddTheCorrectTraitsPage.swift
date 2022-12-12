@@ -11,7 +11,7 @@ struct AddTheCorrectTraitsPage: View, Page {
   let title: String = "AddTheCorrectTraits"
 
   var body: some View {
-    PageContent(next: nil, deeplink: deeplink) {
+    PageContent(next: HandleAllTheViewActionsPage(), deeplink: deeplink) {
       Group {
       }
       .toAny()

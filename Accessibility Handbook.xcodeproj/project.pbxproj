@@ -21,6 +21,7 @@
 		3F24FA692947BF1E00841628 /* TestingClassSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA682947BF1E00841628 /* TestingClassSection.swift */; };
 		3F24FA6C2947BF4D00841628 /* AccessibilityInspectorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA6B2947BF3600841628 /* AccessibilityInspectorPage.swift */; };
 		3F24FA6E2947BF5D00841628 /* RunTheAppInRealLifePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA6D2947BF5D00841628 /* RunTheAppInRealLifePage.swift */; };
+		3F24FA702947E90200841628 /* HierarchyBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA6F2947E90200841628 /* HierarchyBackgroundModifier.swift */; };
 		3F25390D28DBC75700B089EA /* Centered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390C28DBC75700B089EA /* Centered.swift */; };
 		3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390E28DBCF1200B089EA /* SecretActions.swift */; };
 		3F25391128DBDF8200B089EA /* FillTheCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391028DBDF8200B089EA /* FillTheCup.swift */; };
@@ -201,6 +202,7 @@
 		3F24FA682947BF1E00841628 /* TestingClassSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingClassSection.swift; sourceTree = "<group>"; };
 		3F24FA6B2947BF3600841628 /* AccessibilityInspectorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityInspectorPage.swift; sourceTree = "<group>"; };
 		3F24FA6D2947BF5D00841628 /* RunTheAppInRealLifePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTheAppInRealLifePage.swift; sourceTree = "<group>"; };
+		3F24FA6F2947E90200841628 /* HierarchyBackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyBackgroundModifier.swift; sourceTree = "<group>"; };
 		3F25390C28DBC75700B089EA /* Centered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centered.swift; sourceTree = "<group>"; };
 		3F25390E28DBCF1200B089EA /* SecretActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretActions.swift; sourceTree = "<group>"; };
 		3F25391028DBDF8200B089EA /* FillTheCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillTheCup.swift; sourceTree = "<group>"; };
@@ -651,6 +653,7 @@
 				3FE8658628EB3CB400E8DCC6 /* Flip.swift */,
 				3FBF05B128DAC4EB00DA5BF5 /* GameContent.swift */,
 				3FBF05DB28DB5CB800DA5BF5 /* Haptic.swift */,
+				3F24FA6F2947E90200841628 /* HierarchyBackgroundModifier.swift */,
 				3FBF057F28DA7DDC00DA5BF5 /* Images.swift */,
 				3F4E7F9428DCBC1600710F18 /* ImageAsset+extensions.swift */,
 				3FBF060028DB704600DA5BF5 /* InternalLink.swift */,
@@ -1196,6 +1199,7 @@
 				3FFB2CDD294602C6007B879A /* PrepareTheGroundPage.swift in Sources */,
 				3FBF05A228DAB94800DA5BF5 /* GameCell.swift in Sources */,
 				3FBF059528DA9E5500DA5BF5 /* CustomActionsPage.swift in Sources */,
+				3F24FA702947E90200841628 /* HierarchyBackgroundModifier.swift in Sources */,
 				3FBF055028DA648700DA5BF5 /* Strings.swift in Sources */,
 				3F944EA329412060000DBF6C /* Disclaimer.swift in Sources */,
 				3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */,

@@ -2078,6 +2078,27 @@ internal enum L10n {
     }
   }
 
+  internal enum RepeatedViews {
+    /// In the example above, no subview has been grouped, so each one of them is going to be focused by the voice over individually.
+    internal static let example1 = L10n.tr("Localizable", "RepeatedViews.example1")
+    /// In this example, the views are grouped into a single accessible element.
+    internal static let example2 = L10n.tr("Localizable", "RepeatedViews.example2")
+    /// What do we mean by Repeated Views?
+    internal static let text1 = L10n.tr("Localizable", "RepeatedViews.text1")
+    /// Basically, tables or collections, which contains groups of views that are very similar.
+    internal static let text2 = L10n.tr("Localizable", "RepeatedViews.text2")
+    /// If you consider a screen reader going through this kind of content, you'd expect each element to be focused individually.
+    internal static let text3 = L10n.tr("Localizable", "RepeatedViews.text3")
+    /// And NOT focusing on each subviews of a single cell, to than move to the next cell.
+    internal static let text4 = L10n.tr("Localizable", "RepeatedViews.text4")
+    /// Check the following example describing the hierarchy of the views in different carousels, and notice how the VoiceOver navigates through them.
+    internal static let text5 = L10n.tr("Localizable", "RepeatedViews.text5")
+    /// You can make a huge difference with a single line of code!
+    internal static let text6 = L10n.tr("Localizable", "RepeatedViews.text6")
+    /// Repeated views
+    internal static let title = L10n.tr("Localizable", "RepeatedViews.title")
+  }
+
   internal enum Rotor {
     /// The Rotor is one of those things I think not everybody knows about.
     internal static let comment1 = L10n.tr("Localizable", "Rotor.comment1")

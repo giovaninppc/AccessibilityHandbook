@@ -11,7 +11,7 @@ struct HandleAllTheViewActionsPage: View, Page {
   let title: String = "HandleAllTheViewActions"
 
   var body: some View {
-    PageContent(next: nil, deeplink: deeplink) {
+    PageContent(next: ValidateColorsPage(), deeplink: deeplink) {
       Group {
       }
       .toAny()

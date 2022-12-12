@@ -1388,3 +1388,15 @@
 "PlanBeforeYouImplement.Conclusion.text1" = "If you understand how you want your content to be read by the VoiceOver, and how you are building your view, you can account the accessibility in your hierarchy.";
 "PlanBeforeYouImplement.Conclusion.text2" = "And position the elements in the hierarchy in order to make the reader focus on them in a way that makes more sense to the user.";
 "PlanBeforeYouImplement.Conclusion.text3" = "And in the end our view hierarchy would look something like the following diagram, with only 2 accessibility elements.";
+
+// Repeated views
+
+"RepeatedViews.title" = "Repeated views";
+"RepeatedViews.text1" = "What do we mean by Repeated Views?";
+"RepeatedViews.text2" = "Basically, tables or collections, which contains groups of views that are very similar.";
+"RepeatedViews.text3" = "If you consider a screen reader going through this kind of content, you'd expect each element to be focused individually.";
+"RepeatedViews.text4" = "And NOT focusing on each subviews of a single cell, to than move to the next cell.";
+"RepeatedViews.text5" = "Check the following example describing the hierarchy of the views in different carousels, and notice how the VoiceOver navigates through them.";
+"RepeatedViews.example1" = "In the example above, no subview has been grouped, so each one of them is going to be focused by the voice over individually.";
+"RepeatedViews.example2" = "In this example, the views are grouped into a single accessible element.";
+"RepeatedViews.text6" = "You can make a huge difference with a single line of code!";
