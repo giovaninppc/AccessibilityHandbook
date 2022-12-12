@@ -9,5 +9,12 @@ import Foundation
 
 struct NewViewClassSection: Section {
   let title: String = "Making a new View"
-  let pages: [Page] = []
+  let pages: [Page] = [
+    PlanBeforeYouImplementPage(),
+    RepeatedViewsPage(),
+    HandlingImagesAndIconsPage(),
+    AddTheCorrectTraitsPage(),
+    HandleAllTheViewActionsPage(),
+    ValidateColorsPage()
+  ]
 }

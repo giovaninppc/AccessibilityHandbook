@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F24FA522947B9A800841628 /* PlanBeforeYouImplementPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA512947B9A800841628 /* PlanBeforeYouImplementPage.swift */; };
+		3F24FA542947B9C300841628 /* RepeatedViewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA532947B9C300841628 /* RepeatedViewsPage.swift */; };
+		3F24FA562947B9E400841628 /* HandlingImagesAndIconsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA552947B9E400841628 /* HandlingImagesAndIconsPage.swift */; };
+		3F24FA582947BA2F00841628 /* AddTheCorrectTraitsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA572947BA2F00841628 /* AddTheCorrectTraitsPage.swift */; };
+		3F24FA5A2947BAD100841628 /* HandleAllTheViewActionsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA592947BAD100841628 /* HandleAllTheViewActionsPage.swift */; };
+		3F24FA5C2947BB0500841628 /* UnderstandHowComponentsInteractPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA5B2947BB0500841628 /* UnderstandHowComponentsInteractPage.swift */; };
+		3F24FA5E2947BB1500841628 /* HiddenObjectsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA5D2947BB1500841628 /* HiddenObjectsPage.swift */; };
+		3F24FA602947BC5200841628 /* FigureDifferentFontScalesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA5F2947BC5200841628 /* FigureDifferentFontScalesPage.swift */; };
+		3F24FA622947BC7F00841628 /* ValidateColorsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA612947BC7F00841628 /* ValidateColorsPage.swift */; };
+		3F24FA642947BD2D00841628 /* IsItAModalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA632947BD2D00841628 /* IsItAModalPage.swift */; };
+		3F24FA662947BD6D00841628 /* HandleAnimationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA652947BD6D00841628 /* HandleAnimationsPage.swift */; };
+		3F24FA692947BF1E00841628 /* TestingClassSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA682947BF1E00841628 /* TestingClassSection.swift */; };
+		3F24FA6C2947BF4D00841628 /* AccessibilityInspectorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA6B2947BF3600841628 /* AccessibilityInspectorPage.swift */; };
+		3F24FA6E2947BF5D00841628 /* RunTheAppInRealLifePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA6D2947BF5D00841628 /* RunTheAppInRealLifePage.swift */; };
 		3F25390D28DBC75700B089EA /* Centered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390C28DBC75700B089EA /* Centered.swift */; };
 		3F25390F28DBCF1200B089EA /* SecretActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25390E28DBCF1200B089EA /* SecretActions.swift */; };
 		3F25391128DBDF8200B089EA /* FillTheCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F25391028DBDF8200B089EA /* FillTheCup.swift */; };
@@ -173,6 +187,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F24FA512947B9A800841628 /* PlanBeforeYouImplementPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBeforeYouImplementPage.swift; sourceTree = "<group>"; };
+		3F24FA532947B9C300841628 /* RepeatedViewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedViewsPage.swift; sourceTree = "<group>"; };
+		3F24FA552947B9E400841628 /* HandlingImagesAndIconsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingImagesAndIconsPage.swift; sourceTree = "<group>"; };
+		3F24FA572947BA2F00841628 /* AddTheCorrectTraitsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTheCorrectTraitsPage.swift; sourceTree = "<group>"; };
+		3F24FA592947BAD100841628 /* HandleAllTheViewActionsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleAllTheViewActionsPage.swift; sourceTree = "<group>"; };
+		3F24FA5B2947BB0500841628 /* UnderstandHowComponentsInteractPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandHowComponentsInteractPage.swift; sourceTree = "<group>"; };
+		3F24FA5D2947BB1500841628 /* HiddenObjectsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenObjectsPage.swift; sourceTree = "<group>"; };
+		3F24FA5F2947BC5200841628 /* FigureDifferentFontScalesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureDifferentFontScalesPage.swift; sourceTree = "<group>"; };
+		3F24FA612947BC7F00841628 /* ValidateColorsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateColorsPage.swift; sourceTree = "<group>"; };
+		3F24FA632947BD2D00841628 /* IsItAModalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsItAModalPage.swift; sourceTree = "<group>"; };
+		3F24FA652947BD6D00841628 /* HandleAnimationsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleAnimationsPage.swift; sourceTree = "<group>"; };
+		3F24FA682947BF1E00841628 /* TestingClassSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingClassSection.swift; sourceTree = "<group>"; };
+		3F24FA6B2947BF3600841628 /* AccessibilityInspectorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityInspectorPage.swift; sourceTree = "<group>"; };
+		3F24FA6D2947BF5D00841628 /* RunTheAppInRealLifePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTheAppInRealLifePage.swift; sourceTree = "<group>"; };
 		3F25390C28DBC75700B089EA /* Centered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centered.swift; sourceTree = "<group>"; };
 		3F25390E28DBCF1200B089EA /* SecretActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretActions.swift; sourceTree = "<group>"; };
 		3F25391028DBDF8200B089EA /* FillTheCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillTheCup.swift; sourceTree = "<group>"; };
@@ -352,6 +380,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F24FA672947BF0C00841628 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				3F24FA682947BF1E00841628 /* TestingClassSection.swift */,
+				3F24FA6A2947BF2F00841628 /* Pages */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		3F24FA6A2947BF2F00841628 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3F24FA6B2947BF3600841628 /* AccessibilityInspectorPage.swift */,
+				3F24FA6D2947BF5D00841628 /* RunTheAppInRealLifePage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		3F41DB0C28E2553300E0B056 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +478,7 @@
 				3FB5165F2940DA5E005BC9B2 /* NewApp */,
 				3FB516602940DA65005BC9B2 /* NewView */,
 				3FB516612940DA6E005BC9B2 /* NewScene */,
+				3F24FA672947BF0C00841628 /* Testing */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -976,6 +1023,12 @@
 		3FFB2CE6294760A4007B879A /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				3F24FA512947B9A800841628 /* PlanBeforeYouImplementPage.swift */,
+				3F24FA532947B9C300841628 /* RepeatedViewsPage.swift */,
+				3F24FA552947B9E400841628 /* HandlingImagesAndIconsPage.swift */,
+				3F24FA572947BA2F00841628 /* AddTheCorrectTraitsPage.swift */,
+				3F24FA592947BAD100841628 /* HandleAllTheViewActionsPage.swift */,
+				3F24FA612947BC7F00841628 /* ValidateColorsPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -983,6 +1036,11 @@
 		3FFB2CE7294760A9007B879A /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				3F24FA5B2947BB0500841628 /* UnderstandHowComponentsInteractPage.swift */,
+				3F24FA5D2947BB1500841628 /* HiddenObjectsPage.swift */,
+				3F24FA5F2947BC5200841628 /* FigureDifferentFontScalesPage.swift */,
+				3F24FA632947BD2D00841628 /* IsItAModalPage.swift */,
+				3F24FA652947BD6D00841628 /* HandleAnimationsPage.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -1079,6 +1137,7 @@
 				3F6DBDF828F08DE0001B9F88 /* TintableImagesPage.swift in Sources */,
 				3F4E7F9728DCCFE500710F18 /* AColorfulMessage.swift in Sources */,
 				3FBF05F528DB6F2E00DA5BF5 /* OthersSection.swift in Sources */,
+				3F24FA5A2947BAD100841628 /* HandleAllTheViewActionsPage.swift in Sources */,
 				3F6DBDF228F05739001B9F88 /* DynamicColorsPage.swift in Sources */,
 				3FBF057828DA712C00DA5BF5 /* ToAny.swift in Sources */,
 				3FBF055328DA64D000DA5BF5 /* HomeView.swift in Sources */,
@@ -1113,11 +1172,14 @@
 				3FBF059E28DAB87700DA5BF5 /* WhereIsMyContent.swift in Sources */,
 				3FBF05CC28DB510A00DA5BF5 /* ReduceTransparencyPage.swift in Sources */,
 				3FBF060B28DB998300DA5BF5 /* RotorPage.swift in Sources */,
+				3F24FA5E2947BB1500841628 /* HiddenObjectsPage.swift in Sources */,
 				3FBF056B28DA6E2A00DA5BF5 /* AccessibilityHintPage.swift in Sources */,
 				3FC73ECA28DD278900D89F64 /* DeviceRotation.swift in Sources */,
 				3FCA3232290D661700551CD0 /* DeeplinkHandler.swift in Sources */,
 				3FBF05EE28DB6BE100DA5BF5 /* ExternalLink.swift in Sources */,
 				3FBF05EC28DB6B0C00DA5BF5 /* Impostor2.swift in Sources */,
+				3F24FA642947BD2D00841628 /* IsItAModalPage.swift in Sources */,
+				3F24FA582947BA2F00841628 /* AddTheCorrectTraitsPage.swift in Sources */,
 				3F79FF3328F0C871002DA8FD /* ColorAsset+extensions.swift in Sources */,
 				3F25391328DBE05A00B089EA /* CircularProgressionView.swift in Sources */,
 				3FD00F6928E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift in Sources */,
@@ -1126,6 +1188,7 @@
 				3FBF05AC28DABE8300DA5BF5 /* GameSuccessView.swift in Sources */,
 				9D7C0142290C6312004CCB40 /* SearchFieldTraitPage.swift in Sources */,
 				3FBF05E628DB639300DA5BF5 /* InvertColorsPage.swift in Sources */,
+				3F24FA602947BC5200841628 /* FigureDifferentFontScalesPage.swift in Sources */,
 				3F6C5ABC28E37FED00B12065 /* MultiFingerTap.swift in Sources */,
 				3FBF05E428DB602000DA5BF5 /* NotifyScreenChangesPage.swift in Sources */,
 				3F41C11D28E5FC980092CF28 /* DismissGesture.swift in Sources */,
@@ -1137,6 +1200,7 @@
 				3F944EA329412060000DBF6C /* Disclaimer.swift in Sources */,
 				3FC73ED028DDE1FC00D89F64 /* SuperFriend.swift in Sources */,
 				3FCA3236290EBAF900551CD0 /* LastSeenVersion.swift in Sources */,
+				3F24FA522947B9A800841628 /* PlanBeforeYouImplementPage.swift in Sources */,
 				3FBF05E128DB5FF600DA5BF5 /* NotificationsSection.swift in Sources */,
 				3F4E7F8F28DCA52700710F18 /* AnnouncementPage.swift in Sources */,
 				3FBF05B928DB487900DA5BF5 /* AboutTheAppView.swift in Sources */,
@@ -1160,6 +1224,7 @@
 				3FBF059328DA9E4E00DA5BF5 /* AdjustablePage.swift in Sources */,
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
 				3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */,
+				3F24FA662947BD6D00841628 /* HandleAnimationsPage.swift in Sources */,
 				3FBF05C128DB4E8B00DA5BF5 /* SectionProvider.swift in Sources */,
 				3FE8656D28EB295800E8DCC6 /* PreferCrossFadePage.swift in Sources */,
 				3FBF060528DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift in Sources */,
@@ -1170,6 +1235,7 @@
 				9DD4F902290B635300A00E51 /* ImageTraitPage.swift in Sources */,
 				3FBF05B428DB3BDD00DA5BF5 /* AccessibilityPriorityPage.swift in Sources */,
 				3FBF060128DB704600DA5BF5 /* InternalLink.swift in Sources */,
+				3F24FA6C2947BF4D00841628 /* AccessibilityInspectorPage.swift in Sources */,
 				3FC7F92E290C09C8006C8185 /* VisualAidSection.swift in Sources */,
 				3FBF05EA28DB699200DA5BF5 /* IncreaseContrastPage.swift in Sources */,
 				3FE8656828EB24DA00E8DCC6 /* MotionSection.swift in Sources */,
@@ -1191,6 +1257,7 @@
 				3F9BC43C2912D4C4001DB32C /* RotorExampleView.swift in Sources */,
 				3FBF05C928DB50A600DA5BF5 /* ColorsAccessibilityFeaturesSection.swift in Sources */,
 				3FBF05B028DAC27C00DA5BF5 /* HintView.swift in Sources */,
+				3F24FA622947BC7F00841628 /* ValidateColorsPage.swift in Sources */,
 				3FC9F62B290C3A4A002CC6C3 /* SearchView.swift in Sources */,
 				3F4E7F9328DCB46700710F18 /* AdjustableCounter.swift in Sources */,
 				3FBF05D628DB537F00DA5BF5 /* ColorBlindnessPage.swift in Sources */,
@@ -1203,11 +1270,16 @@
 				3FBF05DC28DB5CB800DA5BF5 /* Haptic.swift in Sources */,
 				3FBF05FE28DB6FF900DA5BF5 /* AccessibilityTraitsSection.swift in Sources */,
 				3FBF057C28DA763400DA5BF5 /* Code.swift in Sources */,
+				3F24FA6E2947BF5D00841628 /* RunTheAppInRealLifePage.swift in Sources */,
+				3F24FA5C2947BB0500841628 /* UnderstandHowComponentsInteractPage.swift in Sources */,
+				3F24FA692947BF1E00841628 /* TestingClassSection.swift in Sources */,
 				3FBF05A928DABABF00DA5BF5 /* GamePage.swift in Sources */,
 				3FBF05DE28DB5DC100DA5BF5 /* Impostor.swift in Sources */,
+				3F24FA542947B9C300841628 /* RepeatedViewsPage.swift in Sources */,
 				3FBF058228DA855900DA5BF5 /* AccessibilityElementPage.swift in Sources */,
 				3FBF059B28DAB59000DA5BF5 /* GameView.swift in Sources */,
 				3FBF05B628DB3F7C00DA5BF5 /* Space.swift in Sources */,
+				3F24FA562947B9E400841628 /* HandlingImagesAndIconsPage.swift in Sources */,
 				3FBF060328DB710300DA5BF5 /* ButtonTraitPage.swift in Sources */,
 				3FBF060928DB8C4C00DA5BF5 /* HeaderTraitPage.swift in Sources */,
 				3F25391128DBDF8200B089EA /* FillTheCup.swift in Sources */,

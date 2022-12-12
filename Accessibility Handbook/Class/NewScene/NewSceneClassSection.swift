@@ -9,5 +9,11 @@ import Foundation
 
 struct NewSceneClassSection: Section {
   let title: String = "Making a new Scene"
-  let pages: [Page] = []
+  let pages: [Page] = [
+    UnderstandHowComponentsInteractPage(),
+    HiddenObjectsPage(),
+    FigureDifferentFontScalesPage(),
+    IsItAModalPage(),
+    HandleAnimationsPage()
+  ]
 }

@@ -1643,6 +1643,10 @@ internal enum L10n {
   }
 
   internal enum LearnAccessibility {
+    /// Before you continue, make sure to read more about this content on "%@"
+    internal static func beforeYouReadThis(_ p1: Any) -> String {
+      return L10n.tr("Localizable", "LearnAccessibility.beforeYouReadThis", String(describing: p1))
+    }
     /// Learn Accessibility
     internal static let title = L10n.tr("Localizable", "LearnAccessibility.title")
   }

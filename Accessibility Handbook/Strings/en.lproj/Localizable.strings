@@ -1203,6 +1203,7 @@
 // Section: Learn the Features
 
 "LearnAccessibility.title" = "Learn Accessibility";
+"LearnAccessibility.beforeYouReadThis" = "Before you continue, make sure to read more about this content on \"%@\"";
 
 // Thinking Accessibility
 

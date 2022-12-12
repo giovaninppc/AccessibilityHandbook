@@ -13,6 +13,7 @@ struct ClassSections: SectionProvider {
     LearnTheFeaturesClassSection(),
     NewAppClassSection(),
     NewViewClassSection(),
-    NewSceneClassSection()
+    NewSceneClassSection(),
+    TestingClassSection()
   ]
 }

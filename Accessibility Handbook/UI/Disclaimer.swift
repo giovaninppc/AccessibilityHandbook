@@ -39,3 +39,12 @@ struct Disclaimer: View {
     }
   }
 }
+
+extension Disclaimer {
+  static func beforeYouReadThis(check page: String, destination: AnyView) -> some View {
+    VStack(alignment: .leading, spacing: .regular) {
+      Disclaimer(icon: Icon.bookshelf, content: L10n.LearnAccessibility.beforeYouReadThis(page), color: .pink)
+      InternalLink(page: destination, title: page)
+    }
+  }
+}
