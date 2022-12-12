@@ -32,3 +32,25 @@ struct IndexView: View {
     .navigationTitle(sections.title)
   }
 }
+
+extension IndexView {
+  static func classes() -> some View {
+    IndexView(sections: ClassSections())
+  }
+
+  static func voiceOverGuide() -> some View {
+    IndexView(sections: VoiceOverGuideSections())
+  }
+
+  static func colors() -> some View {
+    IndexView(sections: ColorsSection())
+  }
+
+  static func dynamicFonts() -> some View {
+    IndexView(sections: DynamicFontSections())
+  }
+
+  static func others() -> some View {
+    IndexView(sections: OthersSections())
+  }
+}

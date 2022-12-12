@@ -16,6 +16,7 @@ struct CreatingAColorFilePage: View, Page {
   var body: some View {
     PageContent(next: CreatingAFontFilePage(), deeplink: deeplink) {
       Group {
+        disclaimer
         intro
         colors
         centralizedColorDocument
@@ -28,6 +29,10 @@ struct CreatingAColorFilePage: View, Page {
 }
 
 private extension CreatingAColorFilePage {
+  var disclaimer: some View {
+    Disclaimer.beforeYouReadThis(check: L10n.ColorsGuide.title, destination: IndexView(sections: ColorsSection()).toAny())
+  }
+
   @ViewBuilder
   var intro: some View {
     Text(L10n.CreateAColorFile.text1)
@@ -86,11 +91,7 @@ private extension CreatingAColorFilePage {
     )
 
     Text(L10n.CreateAColorFile.CentralizedColor.text3)
-    Disclaimer(
-      icon: Icon.bookshelf,
-      content: L10n.CreateAColorFile.CentralizedColor.disclaimer,
-      color: .pink
-    )
+    Comment(L10n.CreateAColorFile.CentralizedColor.disclaimer)
   }
 
   @ViewBuilder

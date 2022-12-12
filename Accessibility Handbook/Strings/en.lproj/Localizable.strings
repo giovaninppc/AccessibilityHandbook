@@ -1332,6 +1332,14 @@
 // Create a font file
 
 "CreateAFontFile.title" = "Setup a Font file";
+"CreateAFontFile.text1" = "When creating a new project, it's also common to have a custom font that represents your brand. Or maybe you are sticking with the system font, and that's also good.";
+"CreateAFontFile.text2" = "So, why should you have a Font file? Because this way, you can add support to dynamic font types to all of your fonts on a single place, and change the entire fonts of the project also from a single file!";
+"CreateAFontFile.comment1" = "Just like it is going to make your life way easier if you create a Color file, you'll also be happy later if you have a Font file.";
+
+"CreateAFontFile.FontCategories.title" = "Create your font categories";
+"CreateAFontFile.FontCategories.text1" = "When using fonts, try avoiding fixed font sizes and weights.";
+"CreateAFontFile.FontCategories.text2" = "Instead, create your own relation of fonts that make sense to your project (title, body, fancy title, subtitle...)";
+"CreateAFontFile.FontCategories.text3" = "And with that, you'll be able to make adjustments and changes to the font, the scales, and use them across all your application.";
 
 // Create accessibility Modifiers
 

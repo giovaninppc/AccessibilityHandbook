@@ -111,7 +111,7 @@ private extension PhoneHomeView {
 
   var portraitClassCell: some View {
     NavigationLink {
-      IndexView(sections: ClassSections())
+      IndexView.classes()
     } label: {
       HStack {
         Icon.bookshelf
@@ -162,7 +162,7 @@ private extension PhoneHomeView {
 
   var landscapeClassCell: some View {
     NavigationLink {
-      IndexView(sections: ClassSections())
+      IndexView.classes()
     } label: {
       HStack(spacing: .regular) {
         Icon.gameController
@@ -194,7 +194,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.book,
       title: L10n.voiceOverGuide,
-      destination: IndexView(sections: VoiceOverGuideSections())
+      destination: IndexView.voiceOverGuide()
         .toolbar {
           NavigationLink {
             GesturesPage()
@@ -211,7 +211,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.paintpalete,
       title: L10n.ColorsGuide.title,
-      destination: IndexView(sections: ColorsSection()).toAny()
+      destination: IndexView.colors().toAny()
     )
   }
 
@@ -219,7 +219,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.textformat,
       title: L10n.Home.dynamicFonts,
-      destination: IndexView(sections: DynamicFontSections()).toAny()
+      destination: IndexView.dynamicFonts().toAny()
     )
   }
 
@@ -227,7 +227,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.circleHexagonpath,
       title: L10n.Home.otherFeatures,
-      destination: IndexView(sections: OthersSections()).toAny()
+      destination: IndexView.others().toAny()
     )
   }
 }

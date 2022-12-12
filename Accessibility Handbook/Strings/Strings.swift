@@ -899,8 +899,24 @@ internal enum L10n {
   }
 
   internal enum CreateAFontFile {
+    /// Just like it is going to make your life way easier if you create a Color file, you'll also be happy later if you have a Font file.
+    internal static let comment1 = L10n.tr("Localizable", "CreateAFontFile.comment1")
+    /// When creating a new project, it's also common to have a custom font that represents your brand. Or maybe you are sticking with the system font, and that's also good.
+    internal static let text1 = L10n.tr("Localizable", "CreateAFontFile.text1")
+    /// So, why should you have a Font file? Because this way, you can add support to dynamic font types to all of your fonts on a single place, and change the entire fonts of the project also from a single file!
+    internal static let text2 = L10n.tr("Localizable", "CreateAFontFile.text2")
     /// Setup a Font file
     internal static let title = L10n.tr("Localizable", "CreateAFontFile.title")
+    internal enum FontCategories {
+      /// When using fonts, try avoiding fixed font sizes and weights.
+      internal static let text1 = L10n.tr("Localizable", "CreateAFontFile.FontCategories.text1")
+      /// Instead, create your own relation of fonts that make sense to your project (title, body, fancy title, subtitle...)
+      internal static let text2 = L10n.tr("Localizable", "CreateAFontFile.FontCategories.text2")
+      /// And with that, you'll be able to make adjustments and changes to the font, the scales, and use them across all your application.
+      internal static let text3 = L10n.tr("Localizable", "CreateAFontFile.FontCategories.text3")
+      /// Create your font categories
+      internal static let title = L10n.tr("Localizable", "CreateAFontFile.FontCategories.title")
+    }
   }
 
   internal enum CreateAccessibilityModifiers {
