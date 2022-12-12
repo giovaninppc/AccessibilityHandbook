@@ -912,7 +912,29 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "CreateAccessibilityModifiers.text2")
     /// Create Accessibility Modifiers
     internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.title")
+    internal enum ReusableModifiers {
+      /// That is a situation where you can benefit of reusing accessibility modifiers. Just like you reuse UI components!
+      internal static let text1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.text1")
+      /// Then, by creating a View extension, you can reuse this modifier on the counter and on the cell.
+      internal static let text2 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.text2")
+      /// You can do similar things for UIKit as well, and create your own library of accessibility helpers!
+      internal static let text3 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.text3")
+      /// Reusable Modifiers
+      internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.title")
+    }
     internal enum ReusingAccessibility {
+      /// Consider the following scenario: You have a UI component library, and one of the components is a neat counter with a plus and minus button.
+      internal static let text1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text1")
+      /// And you know about the VoiceOver adjustable trait, so you make this component using it, and when focused, the user can swipe up and down to change the quantities. Lovely!
+      internal static let text2 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text2")
+      /// But then, you get assigned to create a new component. A cell, that will be reused in several carousels, with an item image, title and description, but with the previously made counter inside it.
+      internal static let text3 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text3")
+      /// And now, you start to think, what would be the best option to make this cell accessible?
+      internal static let text4 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text4")
+      /// Since it will be displayed with several other cells, We would recomend each cell to be a single focusable item - so each one is an accessible element.
+      internal static let text5 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text5")
+      /// But what about the counter? Should the counter be focused individually? You have already made all the logic for the adjustable element, so you should duplicate all of it on the cell as well?
+      internal static let text6 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text6")
       /// Reusing Accessibility
       internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.title")
     }

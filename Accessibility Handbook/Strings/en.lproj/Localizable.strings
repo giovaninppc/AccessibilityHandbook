@@ -1340,3 +1340,14 @@
 "CreateAccessibilityModifiers.text2" = "But, like we can reuse components, we can also consider reusing accessibility modifiers to our views!";
 
 "CreateAccessibilityModifiers.ReusingAccessibility.title" = "Reusing Accessibility";
+"CreateAccessibilityModifiers.ReusingAccessibility.text1" = "Consider the following scenario: You have a UI component library, and one of the components is a neat counter with a plus and minus button.";
+"CreateAccessibilityModifiers.ReusingAccessibility.text2" = "And you know about the VoiceOver adjustable trait, so you make this component using it, and when focused, the user can swipe up and down to change the quantities. Lovely!";
+"CreateAccessibilityModifiers.ReusingAccessibility.text3" = "But then, you get assigned to create a new component. A cell, that will be reused in several carousels, with an item image, title and description, but with the previously made counter inside it.";
+"CreateAccessibilityModifiers.ReusingAccessibility.text4" = "And now, you start to think, what would be the best option to make this cell accessible?";
+"CreateAccessibilityModifiers.ReusingAccessibility.text5" = "Since it will be displayed with several other cells, We would recomend each cell to be a single focusable item - so each one is an accessible element.";
+"CreateAccessibilityModifiers.ReusingAccessibility.text6" = "But what about the counter? Should the counter be focused individually? You have already made all the logic for the adjustable element, so you should duplicate all of it on the cell as well?";
+
+"CreateAccessibilityModifiers.ReusableModifiers.title" = "Reusable Modifiers";
+"CreateAccessibilityModifiers.ReusableModifiers.text1" = "That is a situation where you can benefit of reusing accessibility modifiers. Just like you reuse UI components!";
+"CreateAccessibilityModifiers.ReusableModifiers.text2" = "Then, by creating a View extension, you can reuse this modifier on the counter and on the cell.";
+"CreateAccessibilityModifiers.ReusableModifiers.text3" = "You can do similar things for UIKit as well, and create your own library of accessibility helpers!";
