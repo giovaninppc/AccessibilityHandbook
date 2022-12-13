@@ -1427,3 +1427,30 @@
 "ImagesAndIcons.HideImage.text2" = "A common example, is when you have a previews of an item (maybe on a collection of items), that you can open to see it's detail.";
 "ImagesAndIcons.HideImage.text3" = "In this situation, the image can be ommited on the preview, since it's going to be combined with other elements and won't add much to the screen reader navigation, and left as an accessible element on the details page, where it stands out for itself as an element.";
 "ImagesAndIcons.HideImage.comment1" = "Example of a carousel where there are images on the cells, but they are hidden to the VoiceOver.";
+
+// Add the correct traits
+
+"AddTraits.title" = "Add the correct traits";
+"AddTraits.text1" = "Accessibility traits are useful ways to provide more information or give more action to accessible elements.";
+"AddTraits.text2" = "Some components automatically set their traits, like Buttons or Images, but you need to manually set them on some views, specially when you group several elements together.";
+"AddTraits.comment1" = "As a general rule, make sure all the components have the expected trait: image, button, title, search field...";
+"AddTraits.text3" = "And here we'll cover some common issues you may have while creating new UI components.";
+
+"AddTraits.Button.title" = "Buttons";
+"AddTraits.Button.text1" = "The button trait indicates an element can be activated with a double tap on the VoiceOver.";
+"AddTraits.Button.text2" = "So, make sure to add it to components that are tappable, like cells, and handle it's activation.";
+
+"AddTraits.Link.title" = "Links";
+"AddTraits.Link.text1" = "If you have a compnent that opens any external page, or a web URL, make sure to add the link trait to it.";
+"AddTraits.Link.comment1" = "If you are using the Link view in SwiftUI, it will automatically have the link trait.";
+
+"AddTraits.Header.title" = "Header";
+"AddTraits.Header.text1" = "This is an easy one to be overlooked, but adding the header trait will help navigate on your content using the Rotor tool.";
+"AddTraits.Header.text2" = "Make sure to add it on your headers to improve the user's navigation.";
+"AddTraits.Header.comment1" = "This page use the header trait on it's subtitles, you can enable the VoiceOver and try using it.";
+
+"AddTraits.Selected.title" = "Selected";
+"AddTraits.Selected.text1" = "This trait is also very important when a component is not only a button, but something that can be selected (like radio buttons or checkboxes).";
+"AddTraits.Selected.text2" = "It's also nice to add an accessibility hint telling the when activated, the item will be selected.";
+
+"AddTraits.Outro.text1" = "Overall, take a look on the accessibility traits list, get to know them, and you get the idea of when and where to use them properly.";

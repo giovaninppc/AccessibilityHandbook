@@ -449,6 +449,57 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "Activate.title")
   }
 
+  internal enum AddTraits {
+    /// As a general rule, make sure all the components have the expected trait: image, button, title, search field...
+    internal static let comment1 = L10n.tr("Localizable", "AddTraits.comment1")
+    /// Accessibility traits are useful ways to provide more information or give more action to accessible elements.
+    internal static let text1 = L10n.tr("Localizable", "AddTraits.text1")
+    /// Some components automatically set their traits, like Buttons or Images, but you need to manually set them on some views, specially when you group several elements together.
+    internal static let text2 = L10n.tr("Localizable", "AddTraits.text2")
+    /// And here we'll cover some common issues you may have while creating new UI components.
+    internal static let text3 = L10n.tr("Localizable", "AddTraits.text3")
+    /// Add the correct traits
+    internal static let title = L10n.tr("Localizable", "AddTraits.title")
+    internal enum Button {
+      /// The button trait indicates an element can be activated with a double tap on the VoiceOver.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Button.text1")
+      /// So, make sure to add it to components that are tappable, like cells, and handle it's activation.
+      internal static let text2 = L10n.tr("Localizable", "AddTraits.Button.text2")
+      /// Buttons
+      internal static let title = L10n.tr("Localizable", "AddTraits.Button.title")
+    }
+    internal enum Header {
+      /// This page use the header trait on it's subtitles, you can enable the VoiceOver and try using it.
+      internal static let comment1 = L10n.tr("Localizable", "AddTraits.Header.comment1")
+      /// This is an easy one to be overlooked, but adding the header trait will help navigate on your content using the Rotor tool.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Header.text1")
+      /// Make sure to add it on your headers to improve the user's navigation.
+      internal static let text2 = L10n.tr("Localizable", "AddTraits.Header.text2")
+      /// Header
+      internal static let title = L10n.tr("Localizable", "AddTraits.Header.title")
+    }
+    internal enum Link {
+      /// If you are using the Link view in SwiftUI, it will automatically have the link trait.
+      internal static let comment1 = L10n.tr("Localizable", "AddTraits.Link.comment1")
+      /// If you have a compnent that opens any external page, or a web URL, make sure to add the link trait to it.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Link.text1")
+      /// Links
+      internal static let title = L10n.tr("Localizable", "AddTraits.Link.title")
+    }
+    internal enum Outro {
+      /// Over all, take a look on the accessibility traits list, get to know them, and you get the idea of when and where to use them properly.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Outro.text1")
+    }
+    internal enum Selected {
+      /// This trait is also very important when a component is not only a button, but something that can be selected (like radio buttons or checkboxes).
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Selected.text1")
+      /// It's also nice to add an accessibility hint telling the when activated, the item will be selected.
+      internal static let text2 = L10n.tr("Localizable", "AddTraits.Selected.text2")
+      /// Selected
+      internal static let title = L10n.tr("Localizable", "AddTraits.Selected.title")
+    }
+  }
+
   internal enum AdjustLayoutToScaledFontPage {
     /// Adjust Layout to Scaled Fonts
     internal static let title = L10n.tr("Localizable", "AdjustLayoutToScaledFontPage.title")
