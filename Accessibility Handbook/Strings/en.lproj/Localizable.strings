@@ -1485,3 +1485,11 @@
 "HandleAllActions.CompetingActions.text8" = "This is a pretty challenging view to make accessible, we have to use a lot of knowledge and different ways to organize the content in order to make it all work.";
 "HandleAllActions.CompetingActions.text9" = "The view hierarchy is also very important to allow our solution, and we even have to combine the elements using the '.contain' option in SwiftUI, or 'shouldGroupAccessibilityChildren' in UIKit.";
 "HandleAllActions.CompetingActions.comment1" = "If you want to see more of this view and how it was built, you can check the source code of the project on GitHub!";
+
+// Validate Colors
+
+"ValidateColors.title" = "Validate Colors";
+"ValidateColors.text1" = "This one is easy! Every time you build a new view, you should use the correct colors for everything.";
+"ValidateColors.text2" = "And if you support multiple solor schemes (ligh, dark, increased contrast...), you should make sure all of them work as expected.";
+"ValidateColors.comment1" = "If you have a centralized color file, make sure to use it!";
+"ValidateColors.text3" = "And careful with background colors. Don't set them to white or black, have an adaptable background color. Otherwise you may enconter bugs while changing the current scheme.";

@@ -2623,6 +2623,19 @@ internal enum L10n {
     }
   }
 
+  internal enum ValidateColors {
+    /// If you have a centralized color file, make sure to use it!
+    internal static let comment1 = L10n.tr("Localizable", "ValidateColors.comment1")
+    /// This one is easy! Every time you build a new view, you should use the correct colors for everything.
+    internal static let text1 = L10n.tr("Localizable", "ValidateColors.text1")
+    /// And if you support multiple solor schemes (ligh, dark, increased contrast...), you should make sure all of them work as expected.
+    internal static let text2 = L10n.tr("Localizable", "ValidateColors.text2")
+    /// And careful with background colors. Don't set them to white or black, have an adaptable background color. Otherwise you may enconter bugs while changing the current scheme.
+    internal static let text3 = L10n.tr("Localizable", "ValidateColors.text3")
+    /// Validate Colors
+    internal static let title = L10n.tr("Localizable", "ValidateColors.title")
+  }
+
   internal enum WhatIsDarkMode {
     /// What is dark mode?
     internal static let title = L10n.tr("Localizable", "WhatIsDarkMode.title")

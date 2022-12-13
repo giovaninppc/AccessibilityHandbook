@@ -302,6 +302,7 @@ private extension HandleAllTheViewActionsPage {
               Icon.heartFill
                 .resizable()
                 .frame(width: 20.0, height: 20.0)
+                .foregroundColor(.white)
             }
             .accessibilityHidden(true)
           }
