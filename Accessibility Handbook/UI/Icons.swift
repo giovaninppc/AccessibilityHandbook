@@ -51,6 +51,8 @@ enum Icon {
   static let vibrations = Image(systemName: "dot.radiowaves.left.and.right")
   static let exclamation = Image(systemName: "exclamationmark.circle.fill")
   static let bookshelf = Image(systemName: "books.vertical.fill")
+  static let heartEmpty = Image(systemName: "heart")
+  static let heartFill = Image(systemName: "heart.fill")
 
   // State
   static let checkmark = Image(systemName: "checkmark.circle.fill")

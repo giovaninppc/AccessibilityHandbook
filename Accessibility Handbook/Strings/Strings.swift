@@ -487,7 +487,7 @@ internal enum L10n {
       internal static let title = L10n.tr("Localizable", "AddTraits.Link.title")
     }
     internal enum Outro {
-      /// Over all, take a look on the accessibility traits list, get to know them, and you get the idea of when and where to use them properly.
+      /// Overall, take a look on the accessibility traits list, get to know them, and you get the idea of when and where to use them properly.
       internal static let text1 = L10n.tr("Localizable", "AddTraits.Outro.text1")
     }
     internal enum Selected {
@@ -1397,6 +1397,65 @@ internal enum L10n {
     internal enum Uikit {
       /// On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.
       internal static let text = L10n.tr("Localizable", "Grouping.uikit.text")
+    }
+  }
+
+  internal enum HandleAllActions {
+    /// The more complex a view is, the more difficult it gets to make it accessible. And maybe if your view is too crowded, you will need to rethink how to place your actions!
+    internal static let comment1 = L10n.tr("Localizable", "HandleAllActions.comment1")
+    /// It's possible for a single view to have multiple actions inside it.
+    internal static let text1 = L10n.tr("Localizable", "HandleAllActions.text1")
+    /// Maybe it has multiple buttons, or gestures that trigger specific actions on your app.
+    internal static let text2 = L10n.tr("Localizable", "HandleAllActions.text2")
+    /// Ideally, you need to make sure that all these actions are also supported when using accesisbility options, specially screen readers.
+    internal static let text3 = L10n.tr("Localizable", "HandleAllActions.text3")
+    /// Handle all actions
+    internal static let title = L10n.tr("Localizable", "HandleAllActions.title")
+    internal enum Adjustable {
+      /// The adjustable trait and actions are a nice way to support counters and sliders on your app.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.Adjustable.text1")
+      /// This way, you can compact multiple increment and decrement buttons into a single element for the VoiceOver.
+      internal static let text2 = L10n.tr("Localizable", "HandleAllActions.Adjustable.text2")
+      /// Adjustable elements
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.Adjustable.title")
+    }
+    internal enum ButtonFocus {
+      /// If you have multiple buttons, and your view is not grouped into a single element, you must ensure that all buttons can be reached by the VoiceOver, and that they all execute the expected actions when activated.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.ButtonFocus.text1")
+      /// Multiple Button focus
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.ButtonFocus.title")
+    }
+    internal enum CompetingActions {
+      /// If you want to see more of this view and how it was built, you can check the source code of the project on GitHub!
+      internal static let comment1 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.comment1")
+      /// If your view needs multiple types of action handling on VoiceOver, like it has buttons but also an adjustable counter, you'll run into some issues.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text1")
+      /// You can't use adjustable actions with custom actions on a single element, their gestures are the same while using the VoiceOver.
+      internal static let text2 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text2")
+      /// You will need to breakdown your view hierarchy in order to support the actions you want, without compromising the usability of the component.
+      internal static let text3 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text3")
+      /// In the example above, let's consider it's going to be a reusable view that will be placed in a carousel. So we need to somehow group the element so the content won't be read multiple times while navigating.
+      internal static let text4 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text4")
+      /// But since it has multiple actions (The view can be tapped to open a new page, there is a button to favorite the item, and we have a counter to change it's quantity) we won't be able to group it all into a single element if we want to support all of it's actions.
+      internal static let text5 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text5")
+      /// So, we are breaking it into 2 accessible elements, the first will have a custom action to allow opening the item and favoriting it, and the second will be an adjustable element to handle the quantity changes.
+      internal static let text6 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text6")
+      /// And to make things even better, we'll update the accessibility label of the counter to add the title of the item, so you know which item you are changing the quantity.
+      internal static let text7 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text7")
+      /// This is a pretty challenging view to make accessible, we have to use a lot of knowledge and different ways to organize the content in order to make it all work.
+      internal static let text8 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text8")
+      /// The view hierarchy is also very important to allow our solution, and we even have to combine the elements using the '.contain' option in SwiftUI, or 'shouldGroupAccessibilityChildren' in UIKit.
+      internal static let text9 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text9")
+      /// Competing Actions
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.CompetingActions.title")
+    }
+    internal enum CustomActions {
+      /// Custom actions are a nice way to support multiple actions inside a view.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.CustomActions.text1")
+      /// It can even be used to add support to actions that usually cannot be performed while using VoiceOver, like custom gestures.
+      internal static let text2 = L10n.tr("Localizable", "HandleAllActions.CustomActions.text2")
+      /// Custom Actions
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.CustomActions.title")
     }
   }
 

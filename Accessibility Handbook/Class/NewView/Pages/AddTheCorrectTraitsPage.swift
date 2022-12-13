@@ -77,10 +77,10 @@ private extension AddTheCorrectTraitsPage {
   var links: some View {
     Title(L10n.AddTraits.Link.title)
     Text(L10n.AddTraits.Link.text1)
-    Centered {
-      ExternalLink(link: "https://github.com/giovaninppc/AccessibilityHandbook", title: L10n.Collaboration.githubPreoject)
-        .toAny()
-    }
+    ExternalLink(
+      link: "https://github.com/giovaninppc/AccessibilityHandbook",
+      title: L10n.Collaboration.githubPreoject
+    )
     Comment(L10n.AddTraits.Link.comment1)
   }
 
