@@ -26,7 +26,7 @@ private extension CreatingAFontFilePage {
   var disclaimer: some View {
     Disclaimer.beforeYouReadThis(
       check: L10n.DynamicFonts.title,
-      destination: IndexView.dynamicFonts().toAny()
+      destination: IndexView.dynamicFontsDeeplink()
     )
   }
 

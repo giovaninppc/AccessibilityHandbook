@@ -1460,7 +1460,7 @@
 "HandleAllActions.title" = "Handle all actions";
 "HandleAllActions.text1" = "It's possible for a single view to have multiple actions inside it.";
 "HandleAllActions.text2" = "Maybe it has multiple buttons, or gestures that trigger specific actions on your app.";
-"HandleAllActions.text3" = "Ideally, you need to make sure that all these actions are also supported when using accesisbility options, specially screen readers.";
+"HandleAllActions.text3" = "Ideally, you need to make sure that all these actions are also supported when using accessibility options, specially screen readers.";
 "HandleAllActions.comment1" = "The more complex a view is, the more difficult it gets to make it accessible. And maybe if your view is too crowded, you will need to rethink how to place your actions!";
 
 "HandleAllActions.ButtonFocus.title" = "Multiple Button focus";

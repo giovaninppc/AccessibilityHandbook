@@ -54,10 +54,10 @@ struct Disclaimer: View {
 }
 
 extension Disclaimer {
-  static func beforeYouReadThis(check page: String, destination: AnyView) -> some View {
+  static func beforeYouReadThis(check page: String, destination: Deeplink) -> some View {
     VStack(alignment: .leading, spacing: .regular) {
-      NavigationLink {
-        destination
+      Button {
+        open(destination)
       } label: {
         Disclaimer(icon: Icon.bookshelf, attributedContent: beforeYouReadContent(page), color: .pink)
       }
@@ -71,5 +71,10 @@ extension Disclaimer {
     button.underlineStyle = Text.LineStyle(pattern: .solid, color: .primary)
     attributedString.append(button)
     return attributedString
+  }
+
+  private static func open(_ page: Deeplink) {
+    guard let url = URL(string: page) else { return }
+    UIApplication.shared.open(url)
   }
 }

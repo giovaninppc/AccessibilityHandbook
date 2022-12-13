@@ -65,7 +65,7 @@ private extension PlanBeforeYouImplementPage {
   }
 
   var groupingDisclaimer: some View {
-    Disclaimer.beforeYouReadThis(check: L10n.Grouping.title, destination: GroupingPage().page)
+    Disclaimer.beforeYouReadThis(check: L10n.Grouping.title, destination: GroupingPage().deeplink)
   }
 }
 

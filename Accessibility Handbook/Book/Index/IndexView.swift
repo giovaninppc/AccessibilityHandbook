@@ -33,6 +33,8 @@ struct IndexView: View {
   }
 }
 
+// Helpers
+
 extension IndexView {
   static func classes() -> some View {
     IndexView(sections: ClassSections())
@@ -52,5 +54,39 @@ extension IndexView {
 
   static func others() -> some View {
     IndexView(sections: OthersSections())
+  }
+}
+
+// Deeplinks
+
+extension IndexView {
+  static var deeplinks: [Deeplink: AnyView] {
+    [
+      classesDeeplink(): classes().toAny(),
+      voiceOverGuideDeeplink(): voiceOverGuide().toAny(),
+      colorsDeeplink(): colors().toAny(),
+      dynamicFontsDeeplink(): dynamicFonts().toAny(),
+      othersDeeplink(): others().toAny()
+    ]
+  }
+
+  static func classesDeeplink() -> Deeplink {
+    baseDeeplinkScheme + "://" + "index/" + "class"
+  }
+
+  static func voiceOverGuideDeeplink() -> Deeplink {
+    baseDeeplinkScheme + "://" + "index/" + "voiceoverguide"
+  }
+
+  static func colorsDeeplink() -> Deeplink {
+    baseDeeplinkScheme + "://" + "index/" + "colors"
+  }
+
+  static func dynamicFontsDeeplink() -> Deeplink {
+    baseDeeplinkScheme + "://" + "index/" + "dynamicfonts"
+  }
+
+  static func othersDeeplink() -> Deeplink {
+    baseDeeplinkScheme + "://" + "index/" + "others"
   }
 }

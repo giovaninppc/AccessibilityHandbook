@@ -24,7 +24,7 @@ struct RepeatedViewsPage: View, Page {
 
 private extension RepeatedViewsPage {
   var disclaimer: some View {
-    Disclaimer.beforeYouReadThis(check: L10n.Grouping.title, destination: GroupingPage().page)
+    Disclaimer.beforeYouReadThis(check: L10n.Grouping.title, destination: GroupingPage().deeplink)
   }
 
   @ViewBuilder

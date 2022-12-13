@@ -53,7 +53,7 @@ private extension HandleAllTheViewActionsPage {
   @ViewBuilder
   var customActions: some View {
     Title(L10n.HandleAllActions.CustomActions.title)
-    Disclaimer.beforeYouReadThis(check: L10n.CustomActions.title, destination: CustomActionsPage().page)
+    Disclaimer.beforeYouReadThis(check: L10n.CustomActions.title, destination: CustomActionsPage().deeplink)
     Text(L10n.HandleAllActions.CustomActions.text1)
     Text(L10n.HandleAllActions.CustomActions.text2)
     customActionExample
@@ -62,7 +62,7 @@ private extension HandleAllTheViewActionsPage {
   @ViewBuilder
   var adjustableElement: some View {
     Title(L10n.HandleAllActions.Adjustable.title)
-    Disclaimer.beforeYouReadThis(check: L10n.Adjustable.title, destination: AdjustablePage().page)
+    Disclaimer.beforeYouReadThis(check: L10n.Adjustable.title, destination: AdjustablePage().deeplink)
     Text(L10n.HandleAllActions.Adjustable.text1)
     Text(L10n.HandleAllActions.Adjustable.text2)
     adjustableExample
@@ -302,7 +302,6 @@ private extension HandleAllTheViewActionsPage {
               Icon.heartFill
                 .resizable()
                 .frame(width: 20.0, height: 20.0)
-                .foregroundColor(.white)
             }
             .accessibilityHidden(true)
           }

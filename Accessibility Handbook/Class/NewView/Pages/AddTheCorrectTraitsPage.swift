@@ -32,7 +32,7 @@ struct AddTheCorrectTraitsPage: View, Page {
 
 private extension AddTheCorrectTraitsPage {
   var disclaimer: some View {
-    Disclaimer.beforeYouReadThis(check: L10n.AccTraits.title, destination: ListOfAccessibilityTraitsPage().page)
+    Disclaimer.beforeYouReadThis(check: L10n.AccTraits.title, destination: ListOfAccessibilityTraitsPage().deeplink)
   }
 
   @ViewBuilder
@@ -86,7 +86,7 @@ private extension AddTheCorrectTraitsPage {
 
   @ViewBuilder
   var headers: some View {
-    Disclaimer.beforeYouReadThis(check: L10n.RotorAndHeaders.title, destination: RotorAndHeadersPage().page)
+    Disclaimer.beforeYouReadThis(check: L10n.RotorAndHeaders.title, destination: RotorAndHeadersPage().deeplink)
     Title(L10n.AddTraits.Header.title)
     Text(L10n.AddTraits.Header.text1)
     Text(L10n.AddTraits.Header.text2)

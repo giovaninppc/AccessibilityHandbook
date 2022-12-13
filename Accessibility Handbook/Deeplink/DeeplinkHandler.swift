@@ -9,20 +9,28 @@ import SwiftUI
 
 let baseDeeplinkScheme = "accessibilityHandbook"
 
+typealias Deeplink = String
+
 final class DeeplinkHandler {
   private let scheme: String = baseDeeplinkScheme
-  private var page: Page?
+  private var page: AnyView?
 
   func canOpen(url: URL) -> Bool {
     guard url.scheme == scheme else { return false }
-    guard let page = matchingPage(for: url) else { return false }
-    self.page = page
+
+    if let page = matchingPage(for: url) {
+      self.page = page.page
+    } else if let indexPage = matchingIndexPage(for: url) {
+      self.page = indexPage
+    } else {
+      return false
+    }
     return true
   }
 
   @ViewBuilder
   func deeplinkView() -> some View {
-    page?.page ?? EmptyView().toAny()
+    page ?? EmptyView().toAny()
   }
 }
 
@@ -31,6 +39,11 @@ private extension DeeplinkHandler {
 
   func matchingPage(for url: URL) -> Page? {
     guard let match = allPages.first(where: { $0.deeplink == url.absoluteString }) else { return nil }
+    return match
+  }
+
+  func matchingIndexPage(for url: URL) -> AnyView? {
+    guard let match = IndexView.deeplinks[url.absoluteString] else { return nil }
     return match
   }
 }

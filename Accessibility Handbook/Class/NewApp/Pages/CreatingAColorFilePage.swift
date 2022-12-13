@@ -30,7 +30,7 @@ struct CreatingAColorFilePage: View, Page {
 
 private extension CreatingAColorFilePage {
   var disclaimer: some View {
-    Disclaimer.beforeYouReadThis(check: L10n.ColorsGuide.title, destination: IndexView(sections: ColorsSection()).toAny())
+    Disclaimer.beforeYouReadThis(check: L10n.ColorsGuide.title, destination: IndexView.colorsDeeplink())
   }
 
   @ViewBuilder

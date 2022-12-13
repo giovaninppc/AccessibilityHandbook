@@ -23,6 +23,6 @@ struct IsItAModalPage: View, Page {
 private extension IsItAModalPage {
   @ViewBuilder
   var disclaimer: some View {
-    Disclaimer.beforeYouReadThis(check: L10n.Modal.title, destination: ModalViewPage().page)
+    Disclaimer.beforeYouReadThis(check: L10n.Modal.title, destination: ModalViewPage().deeplink)
   }
 }
