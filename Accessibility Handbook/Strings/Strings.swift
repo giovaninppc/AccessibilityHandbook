@@ -1491,6 +1491,57 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "ImageTrait.title")
   }
 
+  internal enum ImagesAndIcons {
+    /// How to properly handle images and icons on screen reader accessibility?
+    internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.text1")
+    /// Handle Images and Icons
+    internal static let title = L10n.tr("Localizable", "ImagesAndIcons.title")
+    internal enum HideImage {
+      /// Example of a carousel where there are images on the cells, but they are hidden to the VoiceOver.
+      internal static let comment1 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.comment1")
+      /// Sometimes it does make sense to hide the image from the reader, specially if it's being grouped with other elements.
+      internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.text1")
+      /// A common example, is when you have a previews of an item (maybe on a collection of items), that you can open to see it's detail.
+      internal static let text2 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.text2")
+      /// In this situation, the image can be ommited on the preview, since it's going to be combined with other elements and won't add much to the screen reader navigation, and left as an accessible element on the details page, where it stands out for itself as an element.
+      internal static let text3 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.text3")
+      /// Hiding Images
+      internal static let title = L10n.tr("Localizable", "ImagesAndIcons.HideImage.title")
+    }
+    internal enum Icons {
+      /// These types of icons are very common on navigation bars!
+      internal static let comment1 = L10n.tr("Localizable", "ImagesAndIcons.Icons.comment1")
+      /// Hints
+      internal static let icon = L10n.tr("Localizable", "ImagesAndIcons.Icons.icon")
+      /// Double tap to open a hint
+      internal static let iconHint = L10n.tr("Localizable", "ImagesAndIcons.Icons.iconHint")
+      /// Icons are a useful way to represent content and help users find and identify actions on applications.
+      internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text1")
+      /// Ideally, most icons should not be used without an accessory text that explains better it's context. Like in a tabbar.
+      internal static let text2 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text2")
+      /// The icon itself can be ommited for the screen reader, since it does not add any new information.
+      internal static let text3 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text3")
+      /// But if you do have an icon, that is not followed by a text, you need to provide an accessibility label to it, and maybe an accessibility hint to better explain what it does.
+      internal static let text4 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text4")
+      /// Icons
+      internal static let title = L10n.tr("Localizable", "ImagesAndIcons.Icons.title")
+    }
+    internal enum Images {
+      /// The VoiceOver now can even read text inside images and give better descriptions of the content.
+      internal static let comment1 = L10n.tr("Localizable", "ImagesAndIcons.Images.comment1")
+      /// Different from the Icons, that most of the time are buttons, so they don't really need the image trait on them.
+      internal static let comment2 = L10n.tr("Localizable", "ImagesAndIcons.Images.comment2")
+      /// If we consider a screen reader, for a user that is visually impaired, we should always hide the images, right?
+      internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.Images.text1")
+      /// That may seem like the case, but it's actually wrong. The user may want to show the image to someone else, or maybe screenshot it to use it later.
+      internal static let text2 = L10n.tr("Localizable", "ImagesAndIcons.Images.text2")
+      /// So it's important that the image can be focused, ideally with an alternate text, and with the image trait!
+      internal static let text3 = L10n.tr("Localizable", "ImagesAndIcons.Images.text3")
+      /// Images
+      internal static let title = L10n.tr("Localizable", "ImagesAndIcons.Images.title")
+    }
+  }
+
   internal enum ImplementingDynamicFonts {
     /// Scaling Fonts Automatically
     internal static let title = L10n.tr("Localizable", "ImplementingDynamicFonts.title")
@@ -1957,7 +2008,7 @@ internal enum L10n {
       internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.title")
     }
     internal enum Hierarchy {
-      /// Example of a view hierarchy. This represents an UI component with a few views inside it. The lighter the color of the view, represents it's inside the view's behind hierarchy.
+      /// Example of a view hierarchy. This represents an UI component with a few views inside it. Different background colors represents a different level in the hierarchy.
       internal static let example = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.example")
       /// When building a view, we basically stack more views inside and on top of each other. We may have a base view, with a couple of labels inside it, or a complete mess of stacks with several components.
       internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text1")

@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct HandleAnimationsPage: View, Page {
-  let title: String = "HandleAnimationsPage"
+struct NavigationAndDismissPage: View, Page {
+  let title: String = "NavigationAndDismissPage"
 
   var body: some View {
-    PageContent(next: NavigationAndDismissPage(), deeplink: deeplink) {
+    PageContent(next: nil, deeplink: deeplink) {
       Group {
       }
       .toAny()

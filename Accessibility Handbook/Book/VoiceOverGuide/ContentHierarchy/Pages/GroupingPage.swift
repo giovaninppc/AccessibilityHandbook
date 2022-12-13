@@ -43,10 +43,11 @@ private extension GroupingPage {
   var goodCarousel: some View {
     VStack(alignment: .leading, spacing: .large) {
       Title(L10n.Grouping.goodCarousel)
-      ScrollView {
+      ScrollView(.horizontal, showsIndicators: false) {
         HStack(spacing: .large) {
-          goodCell
-          goodCell
+          ForEach(1...5, id: \.self) { _ in
+            goodCell
+          }
         }
       }
     }
@@ -74,10 +75,11 @@ private extension GroupingPage {
   var badCarousel: some View {
     VStack(alignment: .leading, spacing: .large) {
       Title(L10n.Grouping.badCarousel)
-      ScrollView {
+      ScrollView(.horizontal, showsIndicators: false) {
         HStack(spacing: .large) {
-          badCell
-          badCell
+          ForEach(1...5, id: \.self) { _ in
+            badCell
+          }
         }
       }
     }

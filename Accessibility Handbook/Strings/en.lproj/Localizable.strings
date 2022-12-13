@@ -1374,7 +1374,7 @@
 "PlanBeforeYouImplement.Hierarchy.text2" = "And why is it really important to understand your hierarchy? Most of it is not even visible in the final product. The user won't see if you used a single or multiple views on top of each other.";
 "PlanBeforeYouImplement.Hierarchy.text3" = "But it does matter for Accessibility.";
 "PlanBeforeYouImplement.Hierarchy.text4" = "Think beforehand how does it make sense for the screen reader to approach your component. Maybe it should be grouped into a single readable element, but maybe it has multiple buttons that should be focused individually.";
-"PlanBeforeYouImplement.Hierarchy.example" = "Example of a view hierarchy. This represents an UI component with a few views inside it. The lighter the color of the view, represents it's inside the view's behind hierarchy.";
+"PlanBeforeYouImplement.Hierarchy.example" = "Example of a view hierarchy. This represents an UI component with a few views inside it. Different background colors represents a different level in the hierarchy.";
 
 "PlanBeforeYouImplement.Group.title" = "Group your elements correctly";
 "PlanBeforeYouImplement.Group.text1" = "In the example above, imagine it's a header for a product page (It's important to know the context of your view!). Always wonder: How would it make sense for this content to be read?";
@@ -1400,3 +1400,30 @@
 "RepeatedViews.example1" = "In the example above, no subview has been grouped, so each one of them is going to be focused by the voice over individually.";
 "RepeatedViews.example2" = "In this example, the views are grouped into a single accessible element.";
 "RepeatedViews.text6" = "You can make a huge difference with a single line of code!";
+
+// Handling Images and Icons
+
+"ImagesAndIcons.title" = "Handle Images and Icons";
+"ImagesAndIcons.text1" = "How to properly handle images and icons on screen reader accessibility?";
+
+"ImagesAndIcons.Icons.title" = "Icons";
+"ImagesAndIcons.Icons.text1" = "Icons are a useful way to represent content and help users find and identify actions on applications.";
+"ImagesAndIcons.Icons.text2" = "Ideally, most icons should not be used without an accessory text that explains better it's context. Like in a tabbar.";
+"ImagesAndIcons.Icons.text3" = "The icon itself can be ommited for the screen reader, since it does not add any new information.";
+"ImagesAndIcons.Icons.text4" = "But if you do have an icon, that is not followed by a text, you need to provide an accessibility label to it, and maybe an accessibility hint to better explain what it does.";
+"ImagesAndIcons.Icons.icon" = "Hints";
+"ImagesAndIcons.Icons.iconHint" = "Double tap to open a hint";
+"ImagesAndIcons.Icons.comment1" = "These types of icons are very common on navigation bars!";
+
+"ImagesAndIcons.Images.title" = "Images";
+"ImagesAndIcons.Images.text1" = "If we consider a screen reader, for a user that is visually impaired, we should always hide the images, right?";
+"ImagesAndIcons.Images.text2" = "That may seem like the case, but it's actually wrong. The user may want to show the image to someone else, or maybe screenshot it to use it later.";
+"ImagesAndIcons.Images.comment1" = "The VoiceOver now can even read text inside images and give better descriptions of the content.";
+"ImagesAndIcons.Images.text3" = "So it's important that the image can be focused, ideally with an alternate text, and with the image trait!";
+"ImagesAndIcons.Images.comment2" = "Different from the Icons, that most of the time are buttons, so they don't really need the image trait on them.";
+
+"ImagesAndIcons.HideImage.title" = "Hiding Images";
+"ImagesAndIcons.HideImage.text1" = "Sometimes it does make sense to hide the image from the reader, specially if it's being grouped with other elements.";
+"ImagesAndIcons.HideImage.text2" = "A common example, is when you have a previews of an item (maybe on a collection of items), that you can open to see it's detail.";
+"ImagesAndIcons.HideImage.text3" = "In this situation, the image can be ommited on the preview, since it's going to be combined with other elements and won't add much to the screen reader navigation, and left as an accessible element on the details page, where it stands out for itself as an element.";
+"ImagesAndIcons.HideImage.comment1" = "Example of a carousel where there are images on the cells, but they are hidden to the VoiceOver.";

@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct HierarchyBackgroundModifier: ViewModifier {
+  let color: Color
+
   func body(content: Content) -> some View {
     content
       .frame(maxWidth: .infinity)
       .background {
         RoundedRectangle(cornerRadius: 8.0)
-          .foregroundColor(.blue)
+          .foregroundColor(color)
           .opacity(0.2)
       }
   }
 }
 
 extension View {
-  func hierarchyBackground() -> some View {
-    modifier(HierarchyBackgroundModifier())
+  func hierarchyBackground(color: Color = .blue) -> some View {
+    modifier(HierarchyBackgroundModifier(color: color))
   }
 }
