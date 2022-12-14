@@ -11,7 +11,7 @@ protocol Page {
   var id: String { get }
   var title: String { get }
   var page: AnyView { get }
-  var deeplink: String { get }
+  var deeplink: Deeplink { get }
 }
 
 extension Page where Self: View {
@@ -27,7 +27,7 @@ extension Page where Self: View {
       .lowercased()
   }
 
-  var deeplink: String {
+  var deeplink: Deeplink {
     baseDeeplinkScheme + "://" + id
   }
 }

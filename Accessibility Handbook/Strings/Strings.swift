@@ -1519,6 +1519,31 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "HeaderTrait.title")
   }
 
+  internal enum HiddenObjects {
+    /// When talking about hidden objects here, we are talking about views that are not accessible elements, views that are going to be ignored by the VoiceOver when navigating.
+    internal static let text1 = L10n.tr("Localizable", "HiddenObjects.text1")
+    /// But shouldn't all the content be read by the VoiceOver?
+    internal static let text2 = L10n.tr("Localizable", "HiddenObjects.text2")
+    /// Yes. But when building a scene, it's common to add elements as Separators, Dividers or Spacers in order to make the correct layout work.
+    internal static let text3 = L10n.tr("Localizable", "HiddenObjects.text3")
+    /// But these components don't have accessibility labels, nor add information to the page.
+    internal static let text4 = L10n.tr("Localizable", "HiddenObjects.text4")
+    /// So, they should not be focused by the screen reader.
+    internal static let text5 = L10n.tr("Localizable", "HiddenObjects.text5")
+    /// Hidden Objects
+    internal static let title = L10n.tr("Localizable", "HiddenObjects.title")
+    internal enum Hiding {
+      /// To hide an element, it's as easy as setting it not to be an accessible element.
+      internal static let text1 = L10n.tr("Localizable", "HiddenObjects.Hiding.text1")
+      /// If you are using SwiftUI, elements like Dividers and Spacers are not accessible by default.
+      internal static let text2 = L10n.tr("Localizable", "HiddenObjects.Hiding.text2")
+      /// In UIKit, we don't have the same luck. If you are using an additional view to make these kind of components, make sure to set them as non-accessible elements so the Voice-Over won't focus on them.
+      internal static let text3 = L10n.tr("Localizable", "HiddenObjects.Hiding.text3")
+      /// Hiding Elements
+      internal static let title = L10n.tr("Localizable", "HiddenObjects.Hiding.title")
+    }
+  }
+
   internal enum Hint {
     /// Close hint
     internal static let close = L10n.tr("Localizable", "Hint.close")

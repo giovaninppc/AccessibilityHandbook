@@ -1523,3 +1523,17 @@
 "UnderstandHowComponentsInteract.Scene.text2" = "On the diagram above, the new views necessary to build the scene are marked with a different background color.";
 "UnderstandHowComponentsInteract.Scene.text3" = "Notice how we need more components and auxiliar views in order to make the scene to be built.";
 "UnderstandHowComponentsInteract.Scene.text4" = "What we are going to investigate in this section, is what should we think and plan when building a new scene like this, and how it changes the accessibility of our components.";
+
+// Hidden Objects
+
+"HiddenObjects.title" = "Hidden Objects";
+"HiddenObjects.text1" = "When talking about hidden objects here, we are talking about views that are not accessible elements, views that are going to be ignored by the VoiceOver when navigating.";
+"HiddenObjects.text2" = "But shouldn't all the content be read by the VoiceOver?";
+"HiddenObjects.text3" = "Yes. But when building a scene, it's common to add elements as Separators, Dividers or Spacers in order to make the correct layout work.";
+"HiddenObjects.text4" = "But these components don't have accessibility labels, nor add information to the page.";
+"HiddenObjects.text5" = "So, they should not be focused by the screen reader.";
+
+"HiddenObjects.Hiding.title" = "Hiding Elements";
+"HiddenObjects.Hiding.text1" = "To hide an element, it's as easy as setting it not to be an accessible element.";
+"HiddenObjects.Hiding.text2" = "If you are using SwiftUI, elements like Dividers and Spacers are not accessible by default.";
+"HiddenObjects.Hiding.text3" = "In UIKit, we don't have the same luck. If you are using an additional view to make these kind of components, make sure to set them as non-accessible elements so the VoiceOver won't focus on them.";
