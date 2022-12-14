@@ -11,7 +11,7 @@ struct NavigationAndDismissPage: View, Page {
   let title: String = "NavigationAndDismissPage"
 
   var body: some View {
-    PageContent(next: nil, deeplink: deeplink) {
+    PageContent(next: AccessibilityShortcutsPage(), deeplink: deeplink) {
       Group {
       }
       .toAny()

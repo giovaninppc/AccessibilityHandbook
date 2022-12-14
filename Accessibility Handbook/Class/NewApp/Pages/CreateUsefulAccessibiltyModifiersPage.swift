@@ -105,8 +105,8 @@ private extension CreatingAccessibilityModifiersPage {
   @ViewBuilder
   var adjustableLinks: some View {
     Divider()
-    InternalLink(page: AdjustablePage().page, title: L10n.Adjustable.title)
-    InternalLink(page: AccessibilityValuePage().page, title: L10n.AccValue.title)
+    InternalLink(deeplink: AdjustablePage().deeplink, title: L10n.Adjustable.title)
+    InternalLink(deeplink: AccessibilityValuePage().deeplink, title: L10n.AccValue.title)
     Divider()
   }
 

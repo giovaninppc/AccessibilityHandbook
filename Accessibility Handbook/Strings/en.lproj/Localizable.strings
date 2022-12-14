@@ -1550,3 +1550,17 @@
 "FigureDifferentFontScales.Test.text2" = "Run the app using different font scales, and make sure it does not impact negatively the user naviagtion.";
 "FigureDifferentFontScales.Test.text3" = "All content should be readable, and your scene layout does not break.";
 "FigureDifferentFontScales.Test.comment1" = "I strongly recommend you check our page on supporting different font scales, there you'll find different approaches for your code and layout, and you can change the font size on your device to .";
+
+// Is this modal
+
+"IsThisModal.title" = "Handle modal views";
+"IsThisModal.text1" = "Here, we are considering modals any view that is presented on top of your current context.";
+"IsThisModal.text2" = "Accessibility wise, modals are tricky, because we want the user to focus on the modal whenever it appears before they focus on the rest of the page's content.";
+"IsThisModal.text3" = "So we need to make sure that it also happens when using VoiceOver.";
+
+"IsThisModal.ChangeFocus.title" = "Change focus";
+"IsThisModal.ChangeFocus.text1" = "Presenting a modal may be the best example of forced focus change on iOS VoiceOver.";
+"IsThisModal.ChangeFocus.text2" = "You can redirect the screen reader to the modal content when it's presented.";
+"IsThisModal.ChangeFocus.text3" = "But we also need to make sure that the content is being focused individually by setting the view as an accessibility modal, so the content on the back isn't focused by the VoiceOver.";
+"IsThisModal.ChangeFocus.text4" = "And, as a nice touch, add the support for the escape gesture to dismiss it.";
+"IsThisModal.ChangeFocus.comment1" = "Enable the VoiceOver and check the example below.";

@@ -55,6 +55,18 @@ extension IndexView {
   static func others() -> some View {
     IndexView(sections: OthersSections())
   }
+
+  static func motion() -> some View {
+    index(for: MotionSection())
+  }
+
+  static func voiceOverInteraction() -> some View {
+    index(for: InteractionSection())
+  }
+
+  private static func index(for section: Section) -> some View {
+    IndexView(sections: GenericSectionProvider(pages: section.pages, title: section.title))
+  }
 }
 
 // Deeplinks
@@ -66,7 +78,9 @@ extension IndexView {
       voiceOverGuideDeeplink(): voiceOverGuide().toAny(),
       colorsDeeplink(): colors().toAny(),
       dynamicFontsDeeplink(): dynamicFonts().toAny(),
-      othersDeeplink(): others().toAny()
+      othersDeeplink(): others().toAny(),
+      motionDeeplink(): motion().toAny(),
+      voiceOverInteractionDeeplink(): voiceOverInteraction().toAny()
     ]
   }
 
@@ -88,5 +102,13 @@ extension IndexView {
 
   static func othersDeeplink() -> Deeplink {
     baseDeeplinkScheme + "://" + "index/" + "others"
+  }
+
+  static func motionDeeplink() -> Deeplink {
+    othersDeeplink() + "/motion"
+  }
+
+  static func voiceOverInteractionDeeplink() -> Deeplink {
+    voiceOverGuideDeeplink() + "/interaction"
   }
 }

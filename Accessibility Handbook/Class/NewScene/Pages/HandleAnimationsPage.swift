@@ -13,8 +13,16 @@ struct HandleAnimationsPage: View, Page {
   var body: some View {
     PageContent(next: NavigationAndDismissPage(), deeplink: deeplink) {
       Group {
+        disclaimer
       }
       .toAny()
     }
+  }
+}
+
+private extension HandleAnimationsPage {
+  @ViewBuilder
+  var disclaimer: some View {
+    Disclaimer.beforeYouReadThis(check: L10n.motion, destination: IndexView.motionDeeplink())
   }
 }

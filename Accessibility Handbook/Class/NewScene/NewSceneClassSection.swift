@@ -16,6 +16,7 @@ struct NewSceneClassSection: Section {
     FigureDifferentFontScalesPage(),
     IsItAModalPage(),
     HandleAnimationsPage(),
-    NavigationAndDismissPage()
+    NavigationAndDismissPage(),
+    AccessibilityShortcutsPage()
   ]
 }

@@ -1867,6 +1867,31 @@ internal enum L10n {
     internal static let transparent = L10n.tr("Localizable", "Invisibility.transparent")
   }
 
+  internal enum IsThisModal {
+    /// Here, we are considering modals any view that is presented on top of your current context.
+    internal static let text1 = L10n.tr("Localizable", "IsThisModal.text1")
+    /// Accessibility wise, modals are tricky, because we want the user to focus on the modal whenever it appears before they focus on the rest of the page's content.
+    internal static let text2 = L10n.tr("Localizable", "IsThisModal.text2")
+    /// So we need to make sure that it also happens when using VoiceOver.
+    internal static let text3 = L10n.tr("Localizable", "IsThisModal.text3")
+    /// Handle modal views
+    internal static let title = L10n.tr("Localizable", "IsThisModal.title")
+    internal enum ChangeFocus {
+      /// Enable the VoiceOver and check the example below.
+      internal static let comment1 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.comment1")
+      /// Presenting a modal may be the best example of forced focus change on iOS VoiceOver.
+      internal static let text1 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text1")
+      /// You can redirect the screen reader to the modal content when it's presented.
+      internal static let text2 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text2")
+      /// But we also need to make sure that the content is being focused individually by setting the view as an accessibility modal, so the content on the back isn't focused by the VoiceOver.
+      internal static let text3 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text3")
+      /// And, as a nice touch, add the support for the escape gesture to dismiss it.
+      internal static let text4 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text4")
+      /// Change focus
+      internal static let title = L10n.tr("Localizable", "IsThisModal.ChangeFocus.title")
+    }
+  }
+
   internal enum LearnAccessibility {
     /// Before you continue, make sure to read more about this content on: 
     internal static let beforeYouReadThis = L10n.tr("Localizable", "LearnAccessibility.beforeYouReadThis")

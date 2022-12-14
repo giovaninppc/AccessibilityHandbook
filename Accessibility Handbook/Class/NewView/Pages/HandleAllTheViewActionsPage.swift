@@ -20,6 +20,7 @@ struct HandleAllTheViewActionsPage: View, Page {
   var body: some View {
     PageContent(next: ValidateColorsPage(), deeplink: deeplink) {
       Group {
+        disclaimer
         intro
         buttonFocus
         customActions
@@ -34,6 +35,10 @@ struct HandleAllTheViewActionsPage: View, Page {
 }
 
 private extension HandleAllTheViewActionsPage {
+  var disclaimer: some View {
+    Disclaimer.beforeYouReadThis(check: L10n.interactrion, destination: IndexView.voiceOverInteractionDeeplink())
+  }
+
   @ViewBuilder
   var intro: some View {
     Text(L10n.HandleAllActions.text1)
