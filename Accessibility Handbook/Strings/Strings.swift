@@ -1407,7 +1407,7 @@ internal enum L10n {
     internal static let text1 = L10n.tr("Localizable", "HandleAllActions.text1")
     /// Maybe it has multiple buttons, or gestures that trigger specific actions on your app.
     internal static let text2 = L10n.tr("Localizable", "HandleAllActions.text2")
-    /// Ideally, you need to make sure that all these actions are also supported when using accesisbility options, specially screen readers.
+    /// Ideally, you need to make sure that all these actions are also supported when using accessibility options, specially screen readers.
     internal static let text3 = L10n.tr("Localizable", "HandleAllActions.text3")
     /// Handle all actions
     internal static let title = L10n.tr("Localizable", "HandleAllActions.title")
@@ -2634,6 +2634,16 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "ValidateColors.text3")
     /// Validate Colors
     internal static let title = L10n.tr("Localizable", "ValidateColors.title")
+    internal enum FixedBackground {
+      /// Here are some examples of using non adaptable colors, they may seem ok on your current color scheme, but try changing between light and dark mode and see how they behave.
+      internal static let text1 = L10n.tr("Localizable", "ValidateColors.FixedBackground.text1")
+      /// This kind of issue may also happen when using a mix of system colors for some things (which are adaptable), but using your own colors for other things.
+      internal static let text2 = L10n.tr("Localizable", "ValidateColors.FixedBackground.text2")
+      /// And this can be really bad, because if some of the colors change, part of your content may disappear after the transition.
+      internal static let text3 = L10n.tr("Localizable", "ValidateColors.FixedBackground.text3")
+      /// Non adaptable colors
+      internal static let title = L10n.tr("Localizable", "ValidateColors.FixedBackground.title")
+    }
   }
 
   internal enum WhatIsDarkMode {

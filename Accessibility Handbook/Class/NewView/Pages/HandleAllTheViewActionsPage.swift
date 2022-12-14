@@ -222,13 +222,14 @@ private extension HandleAllTheViewActionsPage {
         .padding()
         .hierarchyBackground()
         VStack {
-          VerticalSpace(.small)
+          VerticalSpace(.compact)
           HStack {
             Spacer()
             Text("Favorite button")
               .padding()
               .hierarchyBackground()
               .frame(maxWidth: 200.0)
+            HorizontalSpace(.compact)
           }
           Spacer()
         }
@@ -238,14 +239,14 @@ private extension HandleAllTheViewActionsPage {
       VStack {
         HStack {
           Spacer()
-          Text("- Button")
+          Text("-\nButton")
             .padding()
             .hierarchyBackground()
             .multilineTextAlignment(.center)
           Text("Label")
             .padding()
             .hierarchyBackground()
-          Text("+ Button")
+          Text("+\nButton")
             .padding()
             .hierarchyBackground()
             .multilineTextAlignment(.center)
@@ -353,13 +354,14 @@ private extension HandleAllTheViewActionsPage {
           .padding()
           .hierarchyBackground()
           VStack(alignment: .leading) {
-            VerticalSpace(.small)
+            VerticalSpace(.compact)
             HStack {
               Spacer()
               Text("Favorite button")
                 .padding()
                 .hierarchyBackground()
                 .frame(maxWidth: 200.0)
+              HorizontalSpace(.compact)
             }
             Spacer()
           }
@@ -376,14 +378,14 @@ private extension HandleAllTheViewActionsPage {
         VStack(alignment: .leading) {
           HStack {
             Spacer()
-            Text("- Button")
+            Text("-\nButton")
               .padding()
               .hierarchyBackground()
               .multilineTextAlignment(.center)
             Text("Label")
               .padding()
               .hierarchyBackground()
-            Text("+ Button")
+            Text("+\nButton")
               .padding()
               .hierarchyBackground()
               .multilineTextAlignment(.center)
