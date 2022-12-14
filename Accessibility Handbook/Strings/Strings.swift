@@ -1482,6 +1482,17 @@ internal enum L10n {
     }
   }
 
+  internal enum HandleAnimations {
+    /// Check the examples on the Reduce Motion page, change the state of the reduce motion on your device and notice how the behavior changes.
+    internal static let comment1 = L10n.tr("Localizable", "HandleAnimations.comment1")
+    /// More than making sure your animations work, you also need to consider the reduce motion accessibility option.
+    internal static let text1 = L10n.tr("Localizable", "HandleAnimations.text1")
+    /// As a general rule, whenever we have an animation, we should check if the reduce motion option is enabled, and if so, we skip the animation directly to it's end state.
+    internal static let text2 = L10n.tr("Localizable", "HandleAnimations.text2")
+    /// Handle Animations
+    internal static let title = L10n.tr("Localizable", "HandleAnimations.title")
+  }
+
   internal enum Haptic {
     /// But... why are we talking about haptics in an accessibility guide?
     internal static let comment1 = L10n.tr("Localizable", "Haptic.comment1")

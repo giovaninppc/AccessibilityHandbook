@@ -1564,3 +1564,10 @@
 "IsThisModal.ChangeFocus.text3" = "But we also need to make sure that the content is being focused individually by setting the view as an accessibility modal, so the content on the back isn't focused by the VoiceOver.";
 "IsThisModal.ChangeFocus.text4" = "And, as a nice touch, add the support for the escape gesture to dismiss it.";
 "IsThisModal.ChangeFocus.comment1" = "Enable the VoiceOver and check the example below.";
+
+// Handle animations
+
+"HandleAnimations.title" = "Handle Animations";
+"HandleAnimations.text1" = "More than making sure your animations work, you also need to consider the reduce motion accessibility option.";
+"HandleAnimations.text2" = "As a general rule, whenever we have an animation, we should check if the reduce motion option is enabled, and if so, we skip the animation directly to it's end state.";
+"HandleAnimations.comment1" = "Check the examples on the Reduce Motion page, change the state of the reduce motion on your device and notice how the behavior changes.";
