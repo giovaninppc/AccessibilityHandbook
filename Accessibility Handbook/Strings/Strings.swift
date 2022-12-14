@@ -434,6 +434,49 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AccValue.title")
   }
 
+  internal enum AccessibilityShortcuts {
+    /// This is more of an extra when talking about accessibility, but it's always good to have on top of your mind how to make these improvements!
+    internal static let comment1 = L10n.tr("Localizable", "AccessibilityShortcuts.comment1")
+    /// Accessibility Shortcuts
+    internal static let title = L10n.tr("Localizable", "AccessibilityShortcuts.title")
+    internal enum Magic {
+      /// It can be done on the parent view! Which is easier to do specially when talking about UIKit views.
+      internal static let comment1 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.comment1")
+      /// Remember that VoiceOver navigation would normally need to go through all that content before reaching the purchase button.
+      internal static let comment2 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.comment2")
+      /// The Magic Tap is a custom gesture that can be used to perform any action on your app.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text1")
+      /// It is contextual, you the currently focused view should have the Magic Tap implemented on it in order for it to work.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text2")
+      /// But why would I use the MagicTap?
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text3")
+      /// Documentation says to perform the main action of your application, maybe playing or pausing a music, or taking a photo.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text4")
+      /// But if you look at your context, you may identify the main action for your page. For instance, if you are on a checkout (which usually presents a lot of information), and you have a 'Make Purchase' button at the bottom of your page, you may add the Magic Tap as a shortcut to perform that action.
+      internal static let text5 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text5")
+      /// I've also seen it being used in book apps to move to the next page, or games to play and pause the current match.
+      internal static let text6 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text6")
+      /// But, one important part is telling the user that this gesture exists. You may do so using accessibility hints or notifications whenever the user enters a page with a Magic Tap.
+      internal static let text7 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text7")
+      /// Magic Tap
+      internal static let title = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.title")
+    }
+    internal enum Rotor {
+      /// it already works automatically with the header trait, so thats a nice reason to use it!
+      internal static let comment1 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.comment1")
+      /// Rotor is a neat tool when using VoiceOver. And it basically works as a filter, allowing the user to navigate only on the content selected by the Rotor.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text1")
+      /// While it may be a little complex to implement at first, it's really powerful.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text2")
+      /// If your app contains lot's of content, you can use it to help the user find elements.
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text3")
+      /// And we have an example page with custom rotor entries that you can test for yourself.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text4")
+      /// Rotor
+      internal static let title = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.title")
+    }
+  }
+
   internal enum Activate {
     /// Handle Action
     internal static let codeComment = L10n.tr("Localizable", "Activate.codeComment")
@@ -2153,6 +2196,27 @@ internal enum L10n {
       /// Move Around
       internal static let title = L10n.tr("Localizable", "Navigation.MoveAround.title")
     }
+  }
+
+  internal enum NavigationAndDismiss {
+    /// And in SwiftUI you'll gain the escape gesture automatically, so the user can perform the gesture to close the current view.
+    internal static let comment1 = L10n.tr("Localizable", "NavigationAndDismiss.comment1")
+    /// And if you are using a custom navigation on your project, make sure to implement these gestures as a default on your framework. This way, you won't need to worry about it when creating a new scene!
+    internal static let comment2 = L10n.tr("Localizable", "NavigationAndDismiss.comment2")
+    /// Navigation is an important part of applications. Being able to open new scenes and come back to previous ones.
+    internal static let text1 = L10n.tr("Localizable", "NavigationAndDismiss.text1")
+    /// So, we need to make sure the navigation is working properly when using screen readers, in our case, the VoiceOver.
+    internal static let text2 = L10n.tr("Localizable", "NavigationAndDismiss.text2")
+    /// If you are using the system's Navigation Controller, most of it will already be handled by it. You'll have a back button, so there is always a button that can be focused to pop back on the navigation.
+    internal static let text3 = L10n.tr("Localizable", "NavigationAndDismiss.text3")
+    /// What does not happen automatically, is supporting the escape gesture when presenting modal views, or modals having a close button.
+    internal static let text4 = L10n.tr("Localizable", "NavigationAndDismiss.text4")
+    /// If your modal depends on "clicking outside of it" to be closed, you need to handle it as well on the VoiceOver. If that content outside is not focusable, how will the user be able to close it?
+    internal static let text5 = L10n.tr("Localizable", "NavigationAndDismiss.text5")
+    /// So, always having a close button, and supporting the escape gesture, are nice ways to keep these view more accessible.
+    internal static let text6 = L10n.tr("Localizable", "NavigationAndDismiss.text6")
+    /// Navigation and dismiss
+    internal static let title = L10n.tr("Localizable", "NavigationAndDismiss.title")
   }
 
   internal enum NotifyChanges {

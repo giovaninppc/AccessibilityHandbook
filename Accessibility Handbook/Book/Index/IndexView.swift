@@ -64,6 +64,12 @@ extension IndexView {
     index(for: InteractionSection())
   }
 
+  static func rotorAndMagicTap() -> some View {
+    IndexView(sections: GenericSectionProvider(pages: [RotorPage(), MagicTapPage()], title: L10n.rotor + .commaSpace + L10n.MagicTap.title))
+  }
+
+  // ---
+
   private static func index(for section: Section) -> some View {
     IndexView(sections: GenericSectionProvider(pages: section.pages, title: section.title))
   }
@@ -80,7 +86,8 @@ extension IndexView {
       dynamicFontsDeeplink(): dynamicFonts().toAny(),
       othersDeeplink(): others().toAny(),
       motionDeeplink(): motion().toAny(),
-      voiceOverInteractionDeeplink(): voiceOverInteraction().toAny()
+      voiceOverInteractionDeeplink(): voiceOverInteraction().toAny(),
+      rotorAndMagicTapDeeplink(): rotorAndMagicTap().toAny()
     ]
   }
 
@@ -110,5 +117,9 @@ extension IndexView {
 
   static func voiceOverInteractionDeeplink() -> Deeplink {
     voiceOverGuideDeeplink() + "/interaction"
+  }
+
+  static func rotorAndMagicTapDeeplink() -> Deeplink {
+    voiceOverGuideDeeplink() + "/rotorandmagictap"
   }
 }

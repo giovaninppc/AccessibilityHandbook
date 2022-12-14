@@ -19,8 +19,10 @@ final class DeeplinkHandler {
     guard url.scheme == scheme else { return false }
 
     if let page = matchingPage(for: url) {
-      self.page = page.page
+      self.page = page
     } else if let indexPage = matchingIndexPage(for: url) {
+      self.page = indexPage
+    } else if let indexPage = matchingCustomPage(for: url) {
       self.page = indexPage
     } else {
       return false
@@ -37,8 +39,13 @@ final class DeeplinkHandler {
 private extension DeeplinkHandler {
   var allPages: [Page] { AllPagesProvider().allPages }
 
-  func matchingPage(for url: URL) -> Page? {
+  func matchingPage(for url: URL) -> AnyView? {
     guard let match = allPages.first(where: { $0.deeplink == url.absoluteString }) else { return nil }
+    return match.page
+  }
+
+  func matchingCustomPage(for url: URL) -> AnyView? {
+    guard let match = CustomPageDeeplinks.deeplinks[url.absoluteString] else { return nil }
     return match
   }
 
