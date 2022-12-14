@@ -99,7 +99,7 @@ private extension CreatingAColorFilePage {
     Title(L10n.CreateAColorFile.DarkMode.title)
     Text(L10n.CreateAColorFile.DarkMode.text1)
     InternalLink(
-      page: DynamicColorsPage().page,
+      deeplink: DynamicColorsPage().deeplink,
       title: L10n.CreateAColorFile.DarkMode.button1
     )
 

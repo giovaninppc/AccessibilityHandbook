@@ -21,7 +21,7 @@ struct Disclaimer: View {
   }
 
   var body: some View {
-    HStack(alignment: .top) {
+    HStack(alignment: .center) {
       VStack {
         icon
           .foregroundColor(.primary)

@@ -64,6 +64,10 @@ extension IndexView {
     index(for: VisualAidSection())
   }
 
+  static func darkMode() -> some View {
+    index(for: DarkModeSection())
+  }
+
   static func voiceOverInteraction() -> some View {
     index(for: InteractionSection())
   }
@@ -92,7 +96,8 @@ extension IndexView {
       motionDeeplink(): motion().toAny(),
       voiceOverInteractionDeeplink(): voiceOverInteraction().toAny(),
       rotorAndMagicTapDeeplink(): rotorAndMagicTap().toAny(),
-      visualAidDeeplink(): visualAid().toAny()
+      visualAidDeeplink(): visualAid().toAny(),
+      darkModeDeeplink(): darkMode().toAny()
     ]
   }
 
@@ -126,6 +131,10 @@ extension IndexView {
 
   static func voiceOverInteractionDeeplink() -> Deeplink {
     voiceOverGuideDeeplink() + "/interaction"
+  }
+
+  static func darkModeDeeplink() -> Deeplink {
+    colorsDeeplink() + "/darkmode"
   }
 
   static func rotorAndMagicTapDeeplink() -> Deeplink {
