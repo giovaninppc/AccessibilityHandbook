@@ -39,7 +39,7 @@ private extension LearnTheFeaturesPage {
     Text(L10n.LearnTheFeatures.VoiceOver.text3)
     Comment(L10n.LearnTheFeatures.VoiceOver.comment2)
     InternalLink(
-      page: IndexView(sections: VoiceOverGuideSections()).toAny(),
+      deeplink: IndexView.voiceOverGuideDeeplink(),
       title: L10n.voiceOverGuide
     )
     Text(L10n.LearnTheFeatures.VoiceOver.text4)
@@ -53,23 +53,23 @@ private extension LearnTheFeaturesPage {
     Text(L10n.LearnTheFeatures.BeyondTheVoiceOver.text3)
     Text(L10n.LearnTheFeatures.BeyondTheVoiceOver.text4)
     InternalLink(
-      page: IndexView(sections: ColorsSection()).toAny(),
+      deeplink: IndexView.colorsDeeplink(),
       title: L10n.ColorsGuide.title
     )
     InternalLink(
-      page: IndexView(sections: DynamicFontSections()).toAny(),
+      deeplink: IndexView.dynamicFontsDeeplink(),
       title: L10n.DynamicFonts.title
     )
     InternalLink(
-      page: HapticsPage().page,
+      deeplink: HapticsPage().deeplink,
       title: L10n.haptics
     )
     InternalLink(
-      page: ReduceMotionPage().page,
+      deeplink: IndexView.motionDeeplink(),
       title: L10n.motion
     )
     InternalLink(
-      page: ButtonShapesPage().page,
+      deeplink: IndexView.visualAidDeeplink(),
       title: L10n.visualAid
     )
   }

@@ -18,20 +18,14 @@ struct Accessibility_HandbookApp: App {
 
   var body: some Scene {
     WindowGroup {
-      NavigationView {
-        HomeView()
-      }
-      .navigationViewStyle(.stack)
+      home
       .onOpenURL { url in
         isPresentingDeeplink = deeplinkHandler.canOpen(url: url)
       }
       .sheet(isPresented: $isPresentingDeeplink, onDismiss: {
         isPresentingDeeplink = false
       }) {
-        NavigationView {
-          deeplinkHandler.deeplinkView()
-        }
-        .navigationViewStyle(.stack)
+        deeplink
       }
       .onAppear(perform: {
         isPresentingWhatsNew = lastSeenVersion.shouldDisplayWhatsNew()
@@ -39,11 +33,29 @@ struct Accessibility_HandbookApp: App {
       .sheet(isPresented: $isPresentingWhatsNew, onDismiss: {
         isPresentingWhatsNew = false
       }) {
-        NavigationView {
-          WhatsNewView().page
-        }
-        .navigationViewStyle(.stack)
+        whatsNew
       }
     }
+  }
+
+  private var home: some View {
+    NavigationView {
+      HomeView()
+    }
+    .navigationViewStyle(.stack)
+  }
+
+  private var deeplink: some View {
+    NavigationView {
+      deeplinkHandler.deeplinkView()
+    }
+    .navigationViewStyle(.stack)
+  }
+
+  private var whatsNew: some View {
+    NavigationView {
+      WhatsNewView().page
+    }
+    .navigationViewStyle(.stack)
   }
 }

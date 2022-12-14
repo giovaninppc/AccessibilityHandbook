@@ -60,6 +60,10 @@ extension IndexView {
     index(for: MotionSection())
   }
 
+  static func visualAid() -> some View {
+    index(for: VisualAidSection())
+  }
+
   static func voiceOverInteraction() -> some View {
     index(for: InteractionSection())
   }
@@ -87,7 +91,8 @@ extension IndexView {
       othersDeeplink(): others().toAny(),
       motionDeeplink(): motion().toAny(),
       voiceOverInteractionDeeplink(): voiceOverInteraction().toAny(),
-      rotorAndMagicTapDeeplink(): rotorAndMagicTap().toAny()
+      rotorAndMagicTapDeeplink(): rotorAndMagicTap().toAny(),
+      visualAidDeeplink(): visualAid().toAny()
     ]
   }
 
@@ -113,6 +118,10 @@ extension IndexView {
 
   static func motionDeeplink() -> Deeplink {
     othersDeeplink() + "/motion"
+  }
+
+  static func visualAidDeeplink() -> Deeplink {
+    othersDeeplink() + "/visualaid"
   }
 
   static func voiceOverInteractionDeeplink() -> Deeplink {
