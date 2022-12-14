@@ -8,7 +8,8 @@
 import Foundation
 
 struct NewSceneClassSection: Section {
-  let title: String = "Making a new Scene"
+  let title: String = L10n.MakingANewScene.title
+
   let pages: [Page] = [
     UnderstandHowComponentsInteractPage(),
     HiddenObjectsPage(),

@@ -1361,6 +1361,10 @@
 "CreateAccessibilityModifiers.ReusableModifiers.text2" = "Then, by creating a View extension, you can reuse this modifier on the counter and on the cell.";
 "CreateAccessibilityModifiers.ReusableModifiers.text3" = "You can do similar things for UIKit as well, and create your own library of accessibility helpers!";
 
+// Making a new view
+
+"MakingANewView.title" = "Making a new view";
+
 // Plan before you implement
 
 "PlanBeforeYouImplement.title" = "Plan your hierarchy";
@@ -1500,3 +1504,22 @@
 "ValidateColors.FixedBackground.text3" = "And this can be really bad, because if some of the colors change, part of your content may disappear after the transition.";
 
 "ValidateColors.Design.title" = "";
+
+// Making a new scene
+
+"MakingANewScene.title" = "Making a New Scene";
+
+// Understand how components interact
+
+"UnderstandHowComponentsInteract.title" = "Understand How Components Interact";
+"UnderstandHowComponentsInteract.text1" = "Here, we'll be discussing about creating entire scenes, a composition of UI components.";
+"UnderstandHowComponentsInteract.comment1" = "On the last section, we discussed more about individual UI components, and how to handle their accessibility.";
+"UnderstandHowComponentsInteract.text2" = "When we bring more components together, the way they are placed on the screen, and more views that we may add to make the layout may change how we implement their accessibility.";
+"UnderstandHowComponentsInteract.text3" = "Here, we have examples of individual components and their view hierarchy.";
+"UnderstandHowComponentsInteract.text4" = "Individually, we should handle the accessibility for each component, but when we place them together on a veiw, we may add new components to make the correct layout, and it may change how we expect the accessibility navigation to work.";
+
+"UnderstandHowComponentsInteract.Scene.title" = "Place Components on a Scene";
+"UnderstandHowComponentsInteract.Scene.text1" = "And now, we can see how these components are used to build a whole new view.";
+"UnderstandHowComponentsInteract.Scene.text2" = "On the diagram above, the new views necessary to build the scene are marked with a different background color.";
+"UnderstandHowComponentsInteract.Scene.text3" = "Notice how we need more components and auxiliar views in order to make the scene to be built.";
+"UnderstandHowComponentsInteract.Scene.text4" = "What we are going to investigate in this section, is what should we think and plan when building a new scene like this, and how it changes the accessibility of our components.";

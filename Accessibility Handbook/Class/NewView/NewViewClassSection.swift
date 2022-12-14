@@ -8,7 +8,8 @@
 import Foundation
 
 struct NewViewClassSection: Section {
-  let title: String = "Making a new View"
+  let title: String = L10n.MakingANewView.title
+
   let pages: [Page] = [
     PlanBeforeYouImplementPage(),
     RepeatedViewsPage(),

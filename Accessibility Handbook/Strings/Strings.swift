@@ -1967,6 +1967,16 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "MakingANewApp.title")
   }
 
+  internal enum MakingANewScene {
+    /// Making a New Scene
+    internal static let title = L10n.tr("Localizable", "MakingANewScene.title")
+  }
+
+  internal enum MakingANewView {
+    /// Making a new view
+    internal static let title = L10n.tr("Localizable", "MakingANewView.title")
+  }
+
   internal enum Modal {
     /// Modal views
     internal static let title = L10n.tr("Localizable", "Modal.title")
@@ -2623,6 +2633,33 @@ internal enum L10n {
     }
   }
 
+  internal enum UnderstandHowComponentsInteract {
+    /// On the last section, we discussed more about individual UI components, and how to handle their accessibility.
+    internal static let comment1 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.comment1")
+    /// Here, we'll be discussing about creating entire scenes, a composition of UI components.
+    internal static let text1 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text1")
+    /// When we bring more components together, the way they are placed on the screen, and more views that we may add to make the layout may change how we implement their accessibility.
+    internal static let text2 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text2")
+    /// Here, we have examples of individual components and their view hierarchy.
+    internal static let text3 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text3")
+    /// Individually, we should handle the accessibility for each component, but when we place them together on a veiw, we may add new components to make the correct layout, and it may change how we expect the accessibility navigation to work.
+    internal static let text4 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text4")
+    /// Understand How Components Interact
+    internal static let title = L10n.tr("Localizable", "UnderstandHowComponentsInteract.title")
+    internal enum Scene {
+      /// And now, we can see how these components are used to build a whole new view.
+      internal static let text1 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text1")
+      /// On the diagram above, the new views necessary to build the scene are marked with a different background color.
+      internal static let text2 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text2")
+      /// Notice how we need more components and auxiliar views in order to make the scene to be built.
+      internal static let text3 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text3")
+      /// What we are going to investigate in this section, is what should we think and plan when building a new scene like this, and how it changes the accessibility of our components.
+      internal static let text4 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text4")
+      /// Place Components on a Scene
+      internal static let title = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.title")
+    }
+  }
+
   internal enum ValidateColors {
     /// If you have a centralized color file, make sure to use it!
     internal static let comment1 = L10n.tr("Localizable", "ValidateColors.comment1")
@@ -2634,6 +2671,10 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "ValidateColors.text3")
     /// Validate Colors
     internal static let title = L10n.tr("Localizable", "ValidateColors.title")
+    internal enum Design {
+      /// 
+      internal static let title = L10n.tr("Localizable", "ValidateColors.Design.title")
+    }
     internal enum FixedBackground {
       /// Here are some examples of using non adaptable colors, they may seem ok on your current color scheme, but try changing between light and dark mode and see how they behave.
       internal static let text1 = L10n.tr("Localizable", "ValidateColors.FixedBackground.text1")

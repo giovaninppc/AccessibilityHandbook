@@ -18,6 +18,7 @@ struct ValidateColorsPage: View, Page {
   var body: some View {
     PageContent(next: nil, deeplink: deeplink) {
       Group {
+        disclaimer
         intro
         fixedColors
       }
@@ -30,6 +31,11 @@ struct ValidateColorsPage: View, Page {
 }
 
 private extension ValidateColorsPage {
+  @ViewBuilder
+  var disclaimer: some View {
+    Disclaimer.beforeYouReadThis(check: L10n.ColorsGuide.title, destination: IndexView.colorsDeeplink())
+  }
+
   @ViewBuilder
   var intro: some View {
     Text(L10n.ValidateColors.text1)
