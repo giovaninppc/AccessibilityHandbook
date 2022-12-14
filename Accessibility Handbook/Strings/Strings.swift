@@ -1183,6 +1183,29 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "EnableVoiceOver.title")
   }
 
+  internal enum FigureDifferentFontScales {
+    /// This is also a very important step to talk with your design team! Different scenes and components may behave differently depending on your font size, so it's important to keep things aligned when implementing these behaviors.
+    internal static let comment1 = L10n.tr("Localizable", "FigureDifferentFontScales.comment1")
+    /// Supporting Dynamic fonts is tough. But larger text sizes is the most commonly used accessibility feature.
+    internal static let text1 = L10n.tr("Localizable", "FigureDifferentFontScales.text1")
+    /// So, when building a new view, but specially a new scene, you must check how it behaves when using different font sizes, and adjust it so no content is lost
+    internal static let text2 = L10n.tr("Localizable", "FigureDifferentFontScales.text2")
+    /// Figure different font scales
+    internal static let title = L10n.tr("Localizable", "FigureDifferentFontScales.title")
+    internal enum Test {
+      /// I strongly recommend you check our page on supporting different font scales, there you'll find different approaches for your code and layout, and you can change the font size on your device to .
+      internal static let comment1 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.comment1")
+      /// The most important part is: Test it.
+      internal static let text1 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.text1")
+      /// Run the app using different font scales, and make sure it does not impact negatively the user naviagtion.
+      internal static let text2 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.text2")
+      /// All content should be readable, and your scene layout does not break.
+      internal static let text3 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.text3")
+      /// Test it
+      internal static let title = L10n.tr("Localizable", "FigureDifferentFontScales.Test.title")
+    }
+  }
+
   internal enum FillTheCup {
     /// You just need to find a way to do it
     internal static let comment = L10n.tr("Localizable", "FillTheCup.comment")
@@ -1537,7 +1560,7 @@ internal enum L10n {
       internal static let text1 = L10n.tr("Localizable", "HiddenObjects.Hiding.text1")
       /// If you are using SwiftUI, elements like Dividers and Spacers are not accessible by default.
       internal static let text2 = L10n.tr("Localizable", "HiddenObjects.Hiding.text2")
-      /// In UIKit, we don't have the same luck. If you are using an additional view to make these kind of components, make sure to set them as non-accessible elements so the Voice-Over won't focus on them.
+      /// In UIKit, we don't have the same luck. If you are using an additional view to make these kind of components, make sure to set them as non-accessible elements so the VoiceOver won't focus on them.
       internal static let text3 = L10n.tr("Localizable", "HiddenObjects.Hiding.text3")
       /// Hiding Elements
       internal static let title = L10n.tr("Localizable", "HiddenObjects.Hiding.title")

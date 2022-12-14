@@ -1537,3 +1537,16 @@
 "HiddenObjects.Hiding.text1" = "To hide an element, it's as easy as setting it not to be an accessible element.";
 "HiddenObjects.Hiding.text2" = "If you are using SwiftUI, elements like Dividers and Spacers are not accessible by default.";
 "HiddenObjects.Hiding.text3" = "In UIKit, we don't have the same luck. If you are using an additional view to make these kind of components, make sure to set them as non-accessible elements so the VoiceOver won't focus on them.";
+
+// Figure different font scales
+
+"FigureDifferentFontScales.title" = "Figure different font scales";
+"FigureDifferentFontScales.text1" = "Supporting Dynamic fonts is tough. But larger text sizes is the most commonly used accessibility feature.";
+"FigureDifferentFontScales.text2" = "So, when building a new view, but specially a new scene, you must check how it behaves when using different font sizes, and adjust it so no content is lost";
+"FigureDifferentFontScales.comment1" = "This is also a very important step to talk with your design team! Different scenes and components may behave differently depending on your font size, so it's important to keep things aligned when implementing these behaviors.";
+
+"FigureDifferentFontScales.Test.title" = "Test it";
+"FigureDifferentFontScales.Test.text1" = "The most important part is: Test it.";
+"FigureDifferentFontScales.Test.text2" = "Run the app using different font scales, and make sure it does not impact negatively the user naviagtion.";
+"FigureDifferentFontScales.Test.text3" = "All content should be readable, and your scene layout does not break.";
+"FigureDifferentFontScales.Test.comment1" = "I strongly recommend you check our page on supporting different font scales, there you'll find different approaches for your code and layout, and you can change the font size on your device to .";

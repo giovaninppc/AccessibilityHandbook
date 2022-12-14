@@ -11,13 +11,13 @@ struct AccessibilityPriorityPage: View, Page {
   let title: String = L10n.AccPriority.title
 
   let codeUIKit: String = """
-  \(L10n.AccPriority.Code.uikitComment)
+  // \(L10n.AccPriority.Code.uikitComment)
   myView.accessibilityElements =
     [subview1, subview2, subview3]
   """
 
   let codeSwiftUI: String = """
-    \(L10n.AccPriority.Code.swiftUIComment)
+  // \(L10n.AccPriority.Code.swiftUIComment)
   View()
     .accessibilitySortPriority(2)
   View()
