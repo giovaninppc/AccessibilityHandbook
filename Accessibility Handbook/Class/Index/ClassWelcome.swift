@@ -122,7 +122,10 @@ private extension ClassWelcome {
     }
     .accessibilityElement(children: .combine)
     .accessibilityAction {
-      guard index < content.count - 1 else { return }
+      guard index < content.count - 1 else {
+        dismiss()
+        return
+      }
       index += 1
     }
     .accessibilityHint(L10n.AccessibilityWelcome.hint)
@@ -132,6 +135,8 @@ private extension ClassWelcome {
         index -= 1
       case let value where value > 0 && index < content.count - 1:
         index += 1
+      case let value where value > 0 && index < content.count:
+        dismiss()
       default:
         break
       }
