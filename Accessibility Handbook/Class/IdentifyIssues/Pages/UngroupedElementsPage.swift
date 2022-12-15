@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UngroupedElements: View, Page {
+struct UngroupedElementsPage: View, Page {
   let title: String = L10n.UngroupedElements.UngroupedElements.title
 
   var body: some View {
@@ -23,7 +23,7 @@ struct UngroupedElements: View, Page {
   }
 }
 
-private extension UngroupedElements {
+private extension UngroupedElementsPage {
   @ViewBuilder
   var intro: some View {
     Text(L10n.UngroupedElements.text1)
@@ -59,7 +59,7 @@ private extension UngroupedElements {
   }
 }
 
-private extension UngroupedElements {
+private extension UngroupedElementsPage {
   private var ungroupedSwiftUI: some View {
     Code.swiftUI("""
     VStack {

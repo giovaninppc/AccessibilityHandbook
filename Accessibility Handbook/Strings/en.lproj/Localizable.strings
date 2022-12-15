@@ -1725,3 +1725,20 @@
 "MixOfColors.CounterExample.text1" = "Sometimes it does make sense to use fixed colors.";
 "MixOfColors.CounterExample.text2" = "It usually comes when using a solid background color (that is not the default background color) to highlight a component, like a button.";
 "MixOfColors.CounterExample.text3" = "In this case, we want the text color to always be white, because it sits on top of a colorful background, even if it changes the color scheme.";
+
+// Missing Accessibility Actions
+
+"MissingAccessibilityActions.title" = "Missing Accessibility Actions";
+"MissingAccessibilityActions.text1" = "We've already discussed the importance of handling all the actions you have on regular input also on VoiceOver.";
+"MissingAccessibilityActions.text2" = "And here we'll talk a bit on how to identify this kind of issues by looking into the code.";
+
+"MissingAccessibilityActions.Gesture.title" = "Gestures";
+"MissingAccessibilityActions.Gesture.text1" = "When using custom gestures, you need to provide a way to support that gesture with screen readers.";
+"MissingAccessibilityActions.Gesture.comment1" = "The long press gesture is an exception, when using it, the accessible component will gain the triple tap gesture, which simulates the long press. But in these cases, it's important to announce it using some other content, like an accessibility hint.";
+"MissingAccessibilityActions.Gesture.text2" = "The example above uses a tap gesture (and it's even grouped!), very simple. But when using VoiceOver, and you activate the element, the gesture is not going to be triggered. SO you need to manually add it to the code.";
+
+"MissingAccessibilityActions.Group.title" = "Group elements with buttons";
+"MissingAccessibilityActions.Group.text1" = "When grouping elements, we may end up grouping a button together.";
+"MissingAccessibilityActions.Group.text2" = "When grouping elements, we may end up grouping a button together. And if we don't handle it correctly, we may end up losing the button's action.";
+"MissingAccessibilityActions.Group.text3" = "In this case, we need to make sure that the grouped element has the button trait, and it executes the same action of the button when activated.";
+"MissingAccessibilityActions.Group.comment1" = "And if you are grouping multiple buttons together, oh boy! That's a good example for a custom actions!";

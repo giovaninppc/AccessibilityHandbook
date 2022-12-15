@@ -11,7 +11,8 @@ struct IdentifyIssues: Section {
   let title: String = L10n.IdentifyIssues.title
 
   let pages: [Page] = [
-    UngroupedElements(),
-    MixOfColorsPage()
+    UngroupedElementsPage(),
+    MixOfColorsPage(),
+    MissingAccessibilityActions()
   ]
 }

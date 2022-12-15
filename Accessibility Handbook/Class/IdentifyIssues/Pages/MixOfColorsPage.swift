@@ -20,7 +20,7 @@ struct MixOfColorsPage: View, Page {
   @State private var initialColorScheme: ColorScheme = .dark
 
   var body: some View {
-    PageContent(next: nil, deeplink: deeplink) {
+    PageContent(next: MissingAccessibilityActions(), deeplink: deeplink) {
       Group {
         disclaimer
         intro

@@ -2201,6 +2201,37 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "MakingANewView.title")
   }
 
+  internal enum MissingAccessibilityActions {
+    /// We've already discussed the importance of handling all the actions you have on regular input also on VoiceOver.
+    internal static let text1 = L10n.tr("Localizable", "MissingAccessibilityActions.text1")
+    /// And here we'll talk a bit on how to identify this kind of issues by looking into the code.
+    internal static let text2 = L10n.tr("Localizable", "MissingAccessibilityActions.text2")
+    /// Missing Accessibility Actions
+    internal static let title = L10n.tr("Localizable", "MissingAccessibilityActions.title")
+    internal enum Gesture {
+      /// The long press gesture is an exception, when using it, the accessible component will gain the triple tap gesture, which simulates the long press. But in these cases, it's important to announce it using some other content, like an accessibility hint.
+      internal static let comment1 = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.comment1")
+      /// When using custom gestures, you need to provide a way to support that gesture with screen readers.
+      internal static let text1 = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.text1")
+      /// The example above uses a tap gesture (and it's even grouped!), very simple. But when using VoiceOver, and you activate the element, the gesture is not going to be triggered. SO you need to manually add it to the code.
+      internal static let text2 = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.text2")
+      /// Gestures
+      internal static let title = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.title")
+    }
+    internal enum Group {
+      /// And if you are grouping multiple buttons together, oh boy! That's a good example for a custom actions!
+      internal static let comment1 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.comment1")
+      /// When grouping elements, we may end up grouping a button together.
+      internal static let text1 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.text1")
+      /// When grouping elements, we may end up grouping a button together. And if we don't handle it correctly, we may end up losing the button's action.
+      internal static let text2 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.text2")
+      /// In this case, we need to make sure that the grouped element has the button trait, and it executes the same action of the button when activated.
+      internal static let text3 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.text3")
+      /// Group elements with buttons
+      internal static let title = L10n.tr("Localizable", "MissingAccessibilityActions.Group.title")
+    }
+  }
+
   internal enum MixOfColors {
     /// What?
     internal static let comment1 = L10n.tr("Localizable", "MixOfColors.comment1")
