@@ -555,6 +555,8 @@ internal enum L10n {
     internal static let card4 = L10n.tr("Localizable", "AccessibilityWelcome.card4")
     /// Close
     internal static let close = L10n.tr("Localizable", "AccessibilityWelcome.close")
+    /// Let's go!
+    internal static let letsgo = L10n.tr("Localizable", "AccessibilityWelcome.letsgo")
     /// Open classes onboarding
     internal static let more = L10n.tr("Localizable", "AccessibilityWelcome.more")
     /// Next

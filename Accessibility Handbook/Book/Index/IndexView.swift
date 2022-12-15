@@ -12,6 +12,8 @@ struct IndexView: View {
   let openDeeplink: Deeplink?
   let shouldOpenDeeplinkOnStart: Bool
 
+  @State private var hasDeeplinked: Bool = false
+
   init(sections: SectionProvider, openDeeplink: Deeplink? = nil, shouldOpenDeeplinkOnStart: Bool = false) {
     self.sections = sections
     self.openDeeplink = openDeeplink
@@ -39,8 +41,9 @@ struct IndexView: View {
     }
     .navigationTitle(sections.title)
     .onAppear {
-      guard let deeplink = openDeeplink, shouldOpenDeeplinkOnStart else { return }
+      guard let deeplink = openDeeplink, shouldOpenDeeplinkOnStart, !hasDeeplinked else { return }
       open(deeplink)
+      hasDeeplinked = true
     }
   }
 }

@@ -12,8 +12,8 @@ enum ClassesKeys: String, StorageKey {
 }
 
 struct ClassWelcome: View {
-//  @Stored(key: ClassesKeys.hasStartedClasses, default: false)
-  static var hasStartedClasses: Bool = false
+  @Stored(key: ClassesKeys.hasStartedClasses, default: false)
+  static var hasStartedClasses: Bool
 
   @State var index: Int = 0
   @Environment(\.dismiss)
@@ -27,10 +27,10 @@ struct ClassWelcome: View {
   ]
 
   private let images: [Image] = [
-    Asset.starryNight.swiftUIImage,
-    Asset.starryNight.swiftUIImage,
-    Asset.starryNight.swiftUIImage,
-    Asset.starryNight.swiftUIImage
+    Asset.classWelcomeApp.swiftUIImage,
+    Asset.classWelcomeThink.swiftUIImage,
+    Asset.classWelcomeCode.swiftUIImage,
+    Asset.classWelcomeLogo.swiftUIImage
   ]
 
   var body: some View {
@@ -110,11 +110,14 @@ private extension ClassWelcome {
         .resizable()
         .aspectRatio(contentMode: .fit)
         .accessibilityHidden(true)
+        .frame(maxWidth: 350.0)
       VerticalSpace(.large)
       Text(content[index])
         .font(.headline)
         .multilineTextAlignment(.center)
       Spacer()
+      goOnButton
+      VerticalSpace(.regular)
       indexMark
     }
     .accessibilityElement(children: .combine)
@@ -136,5 +139,18 @@ private extension ClassWelcome {
     .padding(.bottom)
     .accessibilityElement(children: .combine)
     .accessibilityHidden(true)
+  }
+
+  @ViewBuilder
+  var goOnButton: some View {
+    if index == content.count - 1 {
+      Button {
+        dismiss()
+      } label: {
+        Text(L10n.AccessibilityWelcome.letsgo)
+          .font(.callout)
+          .bold()
+      }
+    }
   }
 }
