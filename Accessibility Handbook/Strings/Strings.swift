@@ -1782,6 +1782,11 @@ internal enum L10n {
     }
   }
 
+  internal enum IdentifyIssues {
+    /// Identify issues
+    internal static let title = L10n.tr("Localizable", "IdentifyIssues.title")
+  }
+
   internal enum ImageTrait {
     /// Image description
     internal static let description = L10n.tr("Localizable", "ImageTrait.description")
@@ -2933,6 +2938,45 @@ internal enum L10n {
       internal static let text4 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text4")
       /// Place Components on a Scene
       internal static let title = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.title")
+    }
+  }
+
+  internal enum UngroupedElements {
+    /// VoiceOver issues are usually hard to find when looking at just the code. Ideally, youn should test it using a real device or the accessibility inspector to verify how it behaves.
+    internal static let text1 = L10n.tr("Localizable", "UngroupedElements.text1")
+    /// But we do have some tips to help you keep an eye for it!
+    internal static let text2 = L10n.tr("Localizable", "UngroupedElements.text2")
+    /// VoiceOver Issues
+    internal static let title = L10n.tr("Localizable", "UngroupedElements.title")
+    internal enum UngroupedElements {
+      /// This is the most common issue on VoiceOver, but it's also the easiest to fix!
+      internal static let text1 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text1")
+      /// But to identify it on code, you need to first check what view this code is rendering and think: How should these elements be read by the VoiceOver?
+      internal static let text2 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text2")
+      /// Most times, we can figure how contents should be grouped by looking into the view hierarchy and noticing how the screen reader navigates on it.
+      internal static let text3 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text3")
+      /// And to identify a missing group, you just need to take a look on the parent view! And check if it's being grouped or not.
+      internal static let text4 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text4")
+      /// Ungrouped elements
+      internal static let title = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.title")
+    }
+    internal enum UngroupedExamples {
+      /// And if the carousel contains mnore cells horizontally, the titles are all gonna be read before the descriptions.
+      internal static let comment1 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.comment1")
+      /// Why combine? We want it to become a single element, and that's exaclty what the combine does!
+      internal static let comment2 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.comment2")
+      /// The code above renders a cell that is being reused on a carousel.
+      internal static let text1 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text1")
+      /// If you check the parent view (the VStack), you can notice that it's not being grouped.
+      internal static let text2 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text2")
+      /// So the cells are not being read as a single element, but the title is being read separate from the content, on all cells!
+      internal static let text3 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text3")
+      /// To solve it, you just need to group the elements on the parent view using the combine strategy.
+      internal static let text4 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text4")
+      /// On UIKit it's a bit trickier. You will still need to check the parent view, but now you should verify if it is an accessible element, and if it has the correct accessibility label as a combination of it's childs.
+      internal static let text5 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text5")
+      /// If you don't notice ANY accessibility code being implemented, pay atention! I always suggest having a method that configures the accessibility of the views, so it's easy to find when reviewing.
+      internal static let text6 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text6")
     }
   }
 

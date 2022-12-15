@@ -14,6 +14,7 @@ struct ClassSections: SectionProvider {
     NewAppClassSection(),
     NewViewClassSection(),
     NewSceneClassSection(),
-    TestingClassSection()
+    TestingClassSection(),
+    IdentifyIssues()
   ]
 }
