@@ -24,6 +24,15 @@ You don't need to open the source code to take a quick look on the syntaxes, or 
 
 ![Image with example of source codes example on the app](img/codes.png)
 
+### Classes
+
+Learn how to plan and think accessibility implementation with even more examples on a series we call: **Classes**.
+Based on real-life examples with more codes, issues, pitfalls, code reviews, diagrams, and more!
+
+![Image with example of the classes section on the app](img/classes.png)
+
+> Did I mention we support iPhone AND iPad???
+
 ### The Handbook Game
 
 The **Handbook Game** is a series of short puzzles to test your accessibility knowledge.

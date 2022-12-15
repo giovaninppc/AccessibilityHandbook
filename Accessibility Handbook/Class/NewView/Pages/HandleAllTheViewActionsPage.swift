@@ -16,6 +16,8 @@ struct HandleAllTheViewActionsPage: View, Page {
   @State var counter2: Int = 0
   @State var counter3: Int = 0
   @State var counter4: Int = 0
+  @State var counter5: Int = 0
+  @State var counter6: Int = 0
 
   var body: some View {
     PageContent(next: ValidateColorsPage(), deeplink: deeplink) {
@@ -51,7 +53,10 @@ private extension HandleAllTheViewActionsPage {
   var buttonFocus: some View {
     Title(L10n.HandleAllActions.ButtonFocus.title)
     Text(L10n.HandleAllActions.ButtonFocus.text1)
-    buttonFocusHierarchyExample
+    Centered {
+      buttonFocusHierarchyExample
+        .toAny()
+    }
     Comment(L10n.PlanBeforeYouImplement.Group.imageExplanation)
   }
 
@@ -83,7 +88,10 @@ private extension HandleAllTheViewActionsPage {
 
   @ViewBuilder
   var competingActionsExample: some View {
-    competingActionsHierarchyExample
+    Centered {
+      competingActionsHierarchyExample
+        .toAny()
+    }
     Text(L10n.HandleAllActions.CompetingActions.text4)
     Text(L10n.HandleAllActions.CompetingActions.text5)
     Text(L10n.HandleAllActions.CompetingActions.text6)
@@ -95,7 +103,10 @@ private extension HandleAllTheViewActionsPage {
 
   @ViewBuilder
   var github: some View {
-    competingActionsHierarchyExampleBreakdown
+    Centered {
+      competingActionsHierarchyExampleBreakdown
+        .toAny()
+    }
     Comment(L10n.HandleAllActions.CompetingActions.comment1)
     ExternalLink(
       link: "https://github.com/giovaninppc/AccessibilityHandbook",
@@ -147,9 +158,9 @@ private extension HandleAllTheViewActionsPage {
     }
     .accessibilityElement(children: .combine)
     .accessibilityHidden(true)
-    .frame(maxWidth: 350.0)
     .padding()
     .hierarchyBackground()
+    .frame(maxWidth: 350.0)
   }
 
   var customActionExample: some View {
@@ -269,9 +280,9 @@ private extension HandleAllTheViewActionsPage {
         Text("Base view")
       }
     }
-    .frame(maxWidth: 350.0)
     .padding()
     .hierarchyBackground()
+    .frame(maxWidth: 350.0)
     .accessibilityElement(children: .combine)
     .accessibilityHidden(true)
   }
@@ -283,6 +294,8 @@ private extension HandleAllTheViewActionsPage {
         competingActionsCell(counter: $counter2, name: "Item 2")
         competingActionsCell(counter: $counter3, name: "Item 3")
         competingActionsCell(counter: $counter4, name: "Item 4")
+        competingActionsCell(counter: $counter5, name: "Item 5")
+        competingActionsCell(counter: $counter6, name: "Item 6")
       }
     }
   }
@@ -414,7 +427,6 @@ private extension HandleAllTheViewActionsPage {
           Text("Base view")
         }
       }
-      .frame(maxWidth: 350.0)
       .padding()
       .hierarchyBackground()
       .overlay {
@@ -427,6 +439,7 @@ private extension HandleAllTheViewActionsPage {
       }
       .font(.caption)
     }
+    .frame(maxWidth: 350.0)
     .accessibilityElement(children: .combine)
     .accessibilityHidden(true)
   }
