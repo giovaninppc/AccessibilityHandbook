@@ -1706,3 +1706,22 @@
 "AccessibilityWelcome.close" = "Close";
 "AccessibilityWelcome.more" = "Open classes onboarding";
 "AccessibilityWelcome.letsgo" = "Let's go!";
+
+// Mix of colors
+
+"MixOfColors.title" = "Mix of colors";
+"MixOfColors.comment1" = "What?";
+"MixOfColors.text1" = "Here, mix of colors is mixing adaptable colors with non-adaptable colors.";
+"MixOfColors.text2" = "And this may seem silly, but if you do support multiple color modes, you should be really careful to mix colors from different sources.";
+
+"MixOfColors.Example.text1" = "Take a look at the code below.";
+"MixOfColors.Example.comment1" = "It seems harmless, doesn't it?";
+"MixOfColors.Example.text2" = "By default, the text color is adaptable, so in thie example, we are placing an adaptable text on top of a solid color (that should be your background color).";
+"MixOfColors.Example.text3" = "But if you switch the color scheme, the text will disappear.";
+"MixOfColors.Example.comment2" = "The text above renders the example on the code. Try changing your color scheme and see how it behaves.";
+"MixOfColors.Example.text4" = "And this will also happen on UIKit, so you always need to test all the color schemes when implementing it, and finding fixed colors may be a flag that something may be wrong.";
+
+"MixOfColors.CounterExample.title" = "Counter Example";
+"MixOfColors.CounterExample.text1" = "Sometimes it does make sense to use fixed colors.";
+"MixOfColors.CounterExample.text2" = "It usually comes when using a solid background color (that is not the default background color) to highlight a component, like a button.";
+"MixOfColors.CounterExample.text3" = "In this case, we want the text color to always be white, because it sits on top of a colorful background, even if it changes the color scheme.";

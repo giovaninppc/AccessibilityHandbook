@@ -11,7 +11,7 @@ struct UngroupedElements: View, Page {
   let title: String = L10n.UngroupedElements.UngroupedElements.title
 
   var body: some View {
-    PageContent(next: nil, deeplink: deeplink) {
+    PageContent(next: MixOfColorsPage(), deeplink: deeplink) {
       Group {
         intro
         ungroupedElements

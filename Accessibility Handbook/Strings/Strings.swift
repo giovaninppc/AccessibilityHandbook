@@ -2201,6 +2201,41 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "MakingANewView.title")
   }
 
+  internal enum MixOfColors {
+    /// What?
+    internal static let comment1 = L10n.tr("Localizable", "MixOfColors.comment1")
+    /// Here, mix of colors is mixing adaptable colors with non-adaptable colors.
+    internal static let text1 = L10n.tr("Localizable", "MixOfColors.text1")
+    /// And this may seem silly, but if you do support multiple color modes, you should be really careful to mix colors from different sources.
+    internal static let text2 = L10n.tr("Localizable", "MixOfColors.text2")
+    /// Mix of colors
+    internal static let title = L10n.tr("Localizable", "MixOfColors.title")
+    internal enum CounterExample {
+      /// Sometimes it does make sense to use fixed colors.
+      internal static let text1 = L10n.tr("Localizable", "MixOfColors.CounterExample.text1")
+      /// It usually comes when using a solid background color (that is not the default background color) to highlight a component, like a button.
+      internal static let text2 = L10n.tr("Localizable", "MixOfColors.CounterExample.text2")
+      /// In this case, we want the text color to always be white, because it sits on top of a colorful background, even if it changes the color scheme.
+      internal static let text3 = L10n.tr("Localizable", "MixOfColors.CounterExample.text3")
+      /// Counter Example
+      internal static let title = L10n.tr("Localizable", "MixOfColors.CounterExample.title")
+    }
+    internal enum Example {
+      /// It seems harmless, doesn't it?
+      internal static let comment1 = L10n.tr("Localizable", "MixOfColors.Example.comment1")
+      /// The text above renders the example on the code. Try changing your color scheme and see how it behaves.
+      internal static let comment2 = L10n.tr("Localizable", "MixOfColors.Example.comment2")
+      /// Take a look at the code below.
+      internal static let text1 = L10n.tr("Localizable", "MixOfColors.Example.text1")
+      /// By default, the text color is adaptable, so in thie example, we are placing an adaptable text on top of a solid color (that should be your background color).
+      internal static let text2 = L10n.tr("Localizable", "MixOfColors.Example.text2")
+      /// But if you switch the color scheme, the text will disappear.
+      internal static let text3 = L10n.tr("Localizable", "MixOfColors.Example.text3")
+      /// And this will also happen on UIKit, so you always need to test all the color schemes when implementing it, and finding fixed colors may be a flag that something may be wrong.
+      internal static let text4 = L10n.tr("Localizable", "MixOfColors.Example.text4")
+    }
+  }
+
   internal enum Modal {
     /// Modal views
     internal static let title = L10n.tr("Localizable", "Modal.title")
