@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct HomeView: View {
-  @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
   @State private var text: String = ""
   @State private var searching: Bool = false
 
@@ -36,9 +35,6 @@ struct HomeView: View {
     }
     .searchable(text: $text, placement: .navigationBarDrawer(displayMode: searching ? .always : .automatic))
     .navigationTitle(L10n.handbook)
-    .onRotate { newOrientation in
-      orientation = newOrientation
-    }
     .toolbar {
       Button {
         searching.toggle()

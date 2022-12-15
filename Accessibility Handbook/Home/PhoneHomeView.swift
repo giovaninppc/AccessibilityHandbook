@@ -9,10 +9,19 @@ import SwiftUI
 
 struct PhoneHomeView: View {
   @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
+  @State var isOnScreen: Bool = true
 
   var body: some View {
     homeContent
+      .onAppear {
+        isOnScreen = true
+        orientation = UIDevice.current.orientation
+      }
+      .onDisappear {
+        isOnScreen = false
+      }
     .onRotate { newOrientation in
+      guard isOnScreen else { return }
       orientation = newOrientation
     }
   }
