@@ -1704,6 +1704,10 @@ internal enum L10n {
   }
 
   internal enum Home {
+    /// Classes
+    internal static let classes = L10n.tr("Localizable", "Home.classes")
+    /// Learn how to plan and prepare accessibility on your apps!
+    internal static let classesDescription = L10n.tr("Localizable", "Home.classesDescription")
     /// Collaborate
     internal static let collaborate = L10n.tr("Localizable", "Home.collaborate")
     /// Colors

@@ -214,9 +214,9 @@ private extension PadHomeView {
           .frame(width: Constants.largeIcon, height: Constants.largeIcon)
         HorizontalSpace(.regular)
         VStack(alignment: .leading, spacing: .small) {
-          Text("Classes")
+          Text(L10n.Home.classes)
             .font(.title3.bold())
-          Comment("Learn how to plan and prepare accessibility on your apps!")
+          Comment(L10n.Home.classesDescription)
             .multilineTextAlignment(.leading)
         }
       }
