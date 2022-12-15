@@ -52,6 +52,8 @@
 
 "WhatsNew.1_7_0.description" = "Novo layout da página inicial para iPads! \nE uma nova página de exemplos de Rotores! Agora você pode testar usar rotores customizados.";
 
+"WhatsNew.1_8_0.description" = "Introduzindo: Aulas!\nNossa nova atualização com conteúdo sobre como pensar acessivelmente. Com ferramentas, exemplos, diagramas... Estamos tentando trazer mais contexto, não apenas no que são as features e opções de acessibilidade, mas também como identificar onde usá-las e o porquê. Tá ficando bem legal, dê uma olhada!";
+
 // Using
 
 "UsingTheVoiceOver" = "Usando o VoiceOver";

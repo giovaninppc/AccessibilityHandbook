@@ -3028,6 +3028,10 @@ internal enum L10n {
       /// New Home Screen layout for iPads and iPhones in landscape! Now we are using better the available size on the screen for both formats.\nAnd a brand new Rotor example page where you can try using custom rotors for yourself.
       internal static let description = L10n.tr("Localizable", "WhatsNew.1_7_0.description")
     }
+    internal enum _180 {
+      /// Introducing: Classes!\nOur new update with content about how to think accessibility while implementing, with tools examples, code, diagrams... We're trying to give more content not only on what the accessibility features and options are, but also how to identify where to use them. It's really nice, take a look!
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_8_0.description")
+    }
   }
 
   internal enum WhereIsMyContent {
