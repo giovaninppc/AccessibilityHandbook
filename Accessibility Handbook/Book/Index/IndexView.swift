@@ -9,6 +9,14 @@ import SwiftUI
 
 struct IndexView: View {
   let sections: SectionProvider
+  let openDeeplink: Deeplink?
+  let shouldOpenDeeplinkOnStart: Bool
+
+  init(sections: SectionProvider, openDeeplink: Deeplink? = nil, shouldOpenDeeplinkOnStart: Bool = false) {
+    self.sections = sections
+    self.openDeeplink = openDeeplink
+    self.shouldOpenDeeplinkOnStart = shouldOpenDeeplinkOnStart
+  }
 
   var body: some View {
     ScrollView {
@@ -30,6 +38,10 @@ struct IndexView: View {
       }
     }
     .navigationTitle(sections.title)
+    .onAppear {
+      guard let deeplink = openDeeplink, shouldOpenDeeplinkOnStart else { return }
+      open(deeplink)
+    }
   }
 }
 
@@ -37,7 +49,19 @@ struct IndexView: View {
 
 extension IndexView {
   static func classes() -> some View {
-    IndexView(sections: ClassSections())
+    IndexView(
+      sections: ClassSections(),
+      openDeeplink: CustomPageDeeplinks.classWelcomeDeeplink(),
+      shouldOpenDeeplinkOnStart: !ClassWelcome.hasStartedClasses
+    )
+    .toolbar {
+      Button {
+        open(CustomPageDeeplinks.classWelcomeDeeplink())
+      } label: {
+        Icon.infoCircle
+      }
+      .accessibilityLabel(L10n.AccessibilityWelcome.more)
+    }
   }
 
   static func voiceOverGuide() -> some View {

@@ -54,3 +54,8 @@ private extension DeeplinkHandler {
     return match
   }
 }
+
+func open(_ deeplink: Deeplink) {
+  guard let url = URL(string: deeplink) else { return }
+  UIApplication.shared.open(url)
+}

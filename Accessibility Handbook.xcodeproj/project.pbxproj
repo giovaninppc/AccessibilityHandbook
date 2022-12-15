@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1AD688294B6E05008ED55B /* ClassWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD687294B6E05008ED55B /* ClassWelcome.swift */; };
 		3F24FA522947B9A800841628 /* PlanBeforeYouImplementPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA512947B9A800841628 /* PlanBeforeYouImplementPage.swift */; };
 		3F24FA542947B9C300841628 /* RepeatedViewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA532947B9C300841628 /* RepeatedViewsPage.swift */; };
 		3F24FA562947B9E400841628 /* HandlingImagesAndIconsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24FA552947B9E400841628 /* HandlingImagesAndIconsPage.swift */; };
@@ -191,6 +192,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1AD687294B6E05008ED55B /* ClassWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassWelcome.swift; sourceTree = "<group>"; };
 		3F24FA512947B9A800841628 /* PlanBeforeYouImplementPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBeforeYouImplementPage.swift; sourceTree = "<group>"; };
 		3F24FA532947B9C300841628 /* RepeatedViewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedViewsPage.swift; sourceTree = "<group>"; };
 		3F24FA552947B9E400841628 /* HandlingImagesAndIconsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingImagesAndIconsPage.swift; sourceTree = "<group>"; };
@@ -522,6 +524,7 @@
 			isa = PBXGroup;
 			children = (
 				3FB516692940DCDB005BC9B2 /* ClassSections.swift */,
+				3F1AD687294B6E05008ED55B /* ClassWelcome.swift */,
 			);
 			path = Index;
 			sourceTree = "<group>";
@@ -1239,6 +1242,7 @@
 				3FBF057E28DA77E600DA5BF5 /* Colors.swift in Sources */,
 				3FC3E5E728E323E900B7C0D7 /* VerticalSwipe.swift in Sources */,
 				3F24FA662947BD6D00841628 /* HandleAnimationsPage.swift in Sources */,
+				3F1AD688294B6E05008ED55B /* ClassWelcome.swift in Sources */,
 				3FBF05C128DB4E8B00DA5BF5 /* SectionProvider.swift in Sources */,
 				3FE8656D28EB295800E8DCC6 /* PreferCrossFadePage.swift in Sources */,
 				3FBF060528DB71BA00DA5BF5 /* ListOfAccessibilityTraitsPage.swift in Sources */,

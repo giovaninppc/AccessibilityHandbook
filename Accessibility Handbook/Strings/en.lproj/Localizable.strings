@@ -1667,3 +1667,15 @@
 "RunIRL.Shortcuts.text3" = "You can add shortcuts to the control center for things like dynamic fonts and dark mode.";
 "RunIRL.Shortcuts.text4" = "And there is even an accessibility shortcuts option on the Control Center!";
 "RunIRL.Shortcuts.image" = "Accessibility shortcuts on the iOS control center.";
+
+// Accessibility Welcome
+
+"AccessibilityWelcome.card1" = "Do you want to make your apps more accessible but you don't know how?";
+"AccessibilityWelcome.card2" = "Do you think sometimes: \"I know the accessibility features, but I just don't know where to use them\"?";
+"AccessibilityWelcome.card3" = "Do you want to be able to create and review code keeping accessibility in mind?";
+"AccessibilityWelcome.card4" = "Introducing: Classes!\n\nOur new content focused to help you learn just that.\nWhat to think and what to expect when considering accessibility on your apps!";
+
+"AccessibilityWelcome.next" = "Next";
+"AccessibilityWelcome.previous" = "Previous";
+"AccessibilityWelcome.close" = "Close";
+"AccessibilityWelcome.more" = "Open classes onboarding";

@@ -10,11 +10,16 @@ import SwiftUI
 enum CustomPageDeeplinks {
   static var deeplinks: [Deeplink: AnyView] {
     [
-      rotorExampleDeeplink(): RotorExampleView().toAny()
+      rotorExampleDeeplink(): RotorExampleView().toAny(),
+      classWelcomeDeeplink(): ClassWelcome().toAny()
     ]
   }
 
   static func rotorExampleDeeplink() -> Deeplink {
     baseDeeplinkScheme + "://" + "rotorExample"
+  }
+
+  static func classWelcomeDeeplink() -> Deeplink {
+    baseDeeplinkScheme + "://" + "classWelcome"
   }
 }

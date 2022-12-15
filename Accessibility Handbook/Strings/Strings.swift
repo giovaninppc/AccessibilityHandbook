@@ -544,6 +544,25 @@ internal enum L10n {
     }
   }
 
+  internal enum AccessibilityWelcome {
+    /// Do you want to make your apps more accessible but you don't know how?
+    internal static let card1 = L10n.tr("Localizable", "AccessibilityWelcome.card1")
+    /// Do you think sometimes: "I know the accessibility features, but I just don't know where to use them"?
+    internal static let card2 = L10n.tr("Localizable", "AccessibilityWelcome.card2")
+    /// Do you want to be able to create and review code keeping accessibility in mind?
+    internal static let card3 = L10n.tr("Localizable", "AccessibilityWelcome.card3")
+    /// Introducing: Classes!\n\nOur new content focused to help you learn just that.\nWhat to think and what to expect when considering accessibility on your apps!
+    internal static let card4 = L10n.tr("Localizable", "AccessibilityWelcome.card4")
+    /// Close
+    internal static let close = L10n.tr("Localizable", "AccessibilityWelcome.close")
+    /// Open classes onboarding
+    internal static let more = L10n.tr("Localizable", "AccessibilityWelcome.more")
+    /// Next
+    internal static let next = L10n.tr("Localizable", "AccessibilityWelcome.next")
+    /// Previous
+    internal static let previous = L10n.tr("Localizable", "AccessibilityWelcome.previous")
+  }
+
   internal enum Activate {
     /// Handle Action
     internal static let codeComment = L10n.tr("Localizable", "Activate.codeComment")

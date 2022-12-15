@@ -72,9 +72,4 @@ extension Disclaimer {
     attributedString.append(button)
     return attributedString
   }
-
-  private static func open(_ page: Deeplink) {
-    guard let url = URL(string: page) else { return }
-    UIApplication.shared.open(url)
-  }
 }
