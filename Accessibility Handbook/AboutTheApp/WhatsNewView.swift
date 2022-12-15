@@ -37,14 +37,18 @@ private extension WhatsNewView {
     }
   }
 
+  @ViewBuilder
   private var v1_8_0: some View {
     release(
       version: "1.8.0",
       description: L10n.WhatsNew._180.description,
-      pages: [
-        ThinkingAccessibilityPage()
-      ]
+      pages: []
     )
+    NavigationLink {
+      IndexView.classes()
+    } label: {
+      IndexCell(title: L10n.Home.classes, icon: Icon.bookshelf)
+    }
   }
 
   private var v1_7_0: some View {
