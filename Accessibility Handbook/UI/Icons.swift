@@ -53,6 +53,14 @@ enum Icon {
   static let bookshelf = Image(systemName: "books.vertical.fill")
   static let heartEmpty = Image(systemName: "heart")
   static let heartFill = Image(systemName: "heart.fill")
+  static let scope = Image(systemName: "scope")
+  static let leftChevron = Image(systemName: "chevron.left")
+  static let rightChevron = Image(systemName: "chevron.right")
+  static let play = Image(systemName: "play")
+  static let textBubble = Image(systemName: "text.bubble")
+  static let infoCircle = Image(systemName: "info.circle")
+  static let sliderSetting = Image(systemName: "slider.horizontal.3")
+  static let textWrong = Image(systemName: "text.badge.xmark")
 
   // State
   static let checkmark = Image(systemName: "checkmark.circle.fill")

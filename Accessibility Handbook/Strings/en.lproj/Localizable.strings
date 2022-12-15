@@ -1606,3 +1606,43 @@
 "AccessibilityShortcuts.Rotor.text3" = "If your app contains lot's of content, you can use it to help the user find elements.";
 "AccessibilityShortcuts.Rotor.comment1" = "it already works automatically with the header trait, so thats a nice reason to use it!";
 "AccessibilityShortcuts.Rotor.text4" = "And we have an example page with custom rotor entries that you can test for yourself.";
+
+// Testing for Accessibility
+
+"TestingForAccessibility.title" = "Testing for Accessibility";
+
+// AccessibilityInspector
+
+"AccessibilityInspector.title" = "Accessibility Inspector";
+"AccessibilityInspector.text1" = "The Accessibility Inspector is a developer tool that comes with Xcode and allows to simulate the VoiceOver by focusing on individual accessible elements and displaying it's accessibility information.";
+"AccessibilityInspector.text2" = "You can find it on the Xcode menu, on the developer tools section.";
+"AccessibilityInspector.comment1" = "It's not the best tool ever made, but it's really helpful to check your accessibility implementation on the iOS simulator while developing, specially if you don't have or cannot build on a real device.";
+
+"AccessibilityInspector.Process.title" = "Select Processes";
+"AccessibilityInspector.Process.text1" = "The inspector can be used on any program running on your Mac, but, to test your app, you'll need to select the simulator process on the top left side of the inspector.";
+"AccessibilityInspector.Process.text2" = "And on the top right side, you'll find 3 tabs.";
+"AccessibilityInspector.Process.image" = "The accessibility inspector tabs. From left to right: Inspect tool, Audit tool, Accessibility override tool.";
+
+"AccessibilityInspector.InspectTools.title" = "Inspect Tools";
+"AccessibilityInspector.InspectTools.text1" = "When inspecting an element, the Inspector will simulate the VoiceOver focus, and it will only focus on accessible elements!";
+"AccessibilityInspector.InspectTools.text2" = "You can simulate the navigation by using the chevron/arrow icons. The right will move to the next element, and the left to the previous one.";
+"AccessibilityInspector.InspectTools.text3" = "If you want, the content can be read out loud by enabling the speech option on the text baloon icon.";
+"AccessibilityInspector.InspectTools.text4" = "And by enabling the play button, it will automatically navigate on your app.";
+"AccessibilityInspector.InspectTools.image" = "The inspector navigating tools. From left to right: Enable content read, previous element, navigate automatically, next element.";
+"AccessibilityInspector.InspectTools.text4" = "There is also the focus tool.";
+"AccessibilityInspector.InspectTools.focus" = "When enabled, you can use your mouse to select which view to focus on the simulator.";
+
+"AccessibilityInspector.Inspecting.title" = "Inspecting";
+"AccessibilityInspector.Inspecting.text1" = "When focused on an element, it will display a green cursor on top of it.";
+"AccessibilityInspector.Inspecting.text2" = "And the inspector will display all of it's accessibility properties.";
+"AccessibilityInspector.Inspecting.image" = "Example of the Accessibility inspector while reading an element. On the inspector scene, the properties of the focused element are being displayed (accessibility label, value, traits, hints, identifier).";
+"AccessibilityInspector.Inspecting.text3" = "You can also use the Inspector to perform actions on the focused view, such as activate, increment, decrement... It will display all the available actions for the view, so you can also test custom actions.";
+"AccessibilityInspector.Inspecting.text4" = "I like adding screenshots of the Accessibility Inspector to my Pull Requests when fixing accessibility issues! It's a nice way to showcase the changes that were made.";
+
+"AccessibilityInspector.Auditing.title" = "Auditing";
+"AccessibilityInspector.Auditing.text1" = "The Audit tab can be used to run an automatic audit on your app.";
+"AccessibilityInspector.Auditing.text2" = "The inspector will give feedback on several informations, from missing accessibility labels, to hit area sizes.";
+
+"AccessibilityInspector.Options.title" = "Change Options";
+"AccessibilityInspector.Options.text1" = "And the last tab provides a fast access to changing accessibility options on your simulator.";
+"AccessibilityInspector.Options.text2" = "It can be really useful if you are testing more than one accessibility option at once, and can quickly move between them.";

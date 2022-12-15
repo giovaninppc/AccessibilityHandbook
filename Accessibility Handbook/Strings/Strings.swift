@@ -434,6 +434,73 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AccValue.title")
   }
 
+  internal enum AccessibilityInspector {
+    /// It's not the best tool ever made, but it's really helpful to check your accessibility implementation on the iOS simulator while developing, specially if you don't have or cannot build on a real device.
+    internal static let comment1 = L10n.tr("Localizable", "AccessibilityInspector.comment1")
+    /// The Accessibility Inspector is a developer tool that comes with Xcode and allows to simulate the VoiceOver by focusing on individual accessible elements and displaying it's accessibility information.
+    internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.text1")
+    /// You can find it on the Xcode menu, on the developer tools section.
+    internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.text2")
+    /// Accessibility Inspector
+    internal static let title = L10n.tr("Localizable", "AccessibilityInspector.title")
+    internal enum Auditing {
+      /// The Audit tab can be used to run an automatic audit on your app.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Auditing.text1")
+      /// The inspector will give feedback on several informations, from missing accessibility labels, to hit area sizes.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Auditing.text2")
+      /// Auditing
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Auditing.title")
+    }
+    internal enum InspectTools {
+      /// When enabled, you can use your mouse to select which view to focus on the simulator..
+      internal static let focus = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.focus")
+      /// The inspector navigating tools. From left to right: Enable content read, previous element, navigate automatically, next element.
+      internal static let image = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.image")
+      /// When inspecting an element, the Inspector will simulate the VoiceOver focus, and it will only focus on accessible elements!
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text1")
+      /// You can simulate the navigation by using the chevron/arrow icons. The right will move to the next element, and the left to the previous one.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text2")
+      /// If you want, the content can be read out loud by enabling the speech option on the text baloon icon.
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text3")
+      /// There is also the focus tool.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text4")
+      /// Inspect Tools
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.title")
+    }
+    internal enum Inspecting {
+      /// Example of the Accessibility inspector while reading an element. On the inspector scene, the properties of the focused element are being displayed (accessibility label, value, traits, hints, identifier).
+      internal static let image = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.image")
+      /// When focused on an element, it will display a green cursor on top of it.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text1")
+      /// And the inspector will display all of it's accessibility properties.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text2")
+      /// You can also use the Inspector to perform actions on the focused view, such as activate, increment, decrement... It will display all the available actions for the view, so you can also test custom actions.
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text3")
+      /// I like adding screenshots of the Accessibility Inspector to my Pull Requests when fixing accessibility issues! It's a nice way to showcase the changes that were made.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text4")
+      /// Inspecting
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.title")
+    }
+    internal enum Options {
+      /// And the last tab provides a fast access to changing accessibility options on your simulator.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Options.text1")
+      /// It can be really useful if you are testing more than one accessibility option at once, and can quickly move between them.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Options.text2")
+      /// Change Options
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Options.title")
+    }
+    internal enum Process {
+      /// The accessibility inspector tabs. From left to right: Inspect tool, Audit tool, Accessibility override tool.
+      internal static let image = L10n.tr("Localizable", "AccessibilityInspector.Process.image")
+      /// The inspector can be used on any program running on your Mac, but, to test your app, you'll need to select the simulator process on the top left side of the inspector.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Process.text1")
+      /// And on the top right side, you'll find 3 tabs.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Process.text2")
+      /// Select Processes
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Process.title")
+    }
+  }
+
   internal enum AccessibilityShortcuts {
     /// This is more of an extra when talking about accessibility, but it's always good to have on top of your mind how to make these improvements!
     internal static let comment1 = L10n.tr("Localizable", "AccessibilityShortcuts.comment1")
@@ -2652,6 +2719,11 @@ internal enum L10n {
       /// Talk to your team
       internal static let title = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.title")
     }
+  }
+
+  internal enum TestingForAccessibility {
+    /// Testing for Accessibility
+    internal static let title = L10n.tr("Localizable", "TestingForAccessibility.title")
   }
 
   internal enum TheMagicPuzzle {

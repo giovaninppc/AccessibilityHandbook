@@ -25,6 +25,8 @@ internal enum Asset {
   internal static let neonHighlight = ColorAsset(name: "NeonHighlight")
   internal static let spookyBackground = ColorAsset(name: "SpookyBackground")
   internal static let unlimitedFire = ColorAsset(name: "UnlimitedFire")
+  internal static let accessibilityInspector = ImageAsset(name: "AccessibilityInspector")
+  internal static let insectorInspecting = ImageAsset(name: "insectorInspecting")
   internal static let xcAssetscolorScheme = ImageAsset(name: "XCAssetscolorScheme")
   internal static let bird = ImageAsset(name: "bird")
   internal static let cards = ImageAsset(name: "cards")

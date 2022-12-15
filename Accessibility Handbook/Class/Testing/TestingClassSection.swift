@@ -8,7 +8,8 @@
 import Foundation
 
 struct TestingClassSection: Section {
-  let title: String = "Testing for Accessibility"
+  let title: String = L10n.TestingForAccessibility.title
+
   let pages: [Page] = [
     AccessibilityInspectorPage(),
     RunTheAppInRealLifePage()
