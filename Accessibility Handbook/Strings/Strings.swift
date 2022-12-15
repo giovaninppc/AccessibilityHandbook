@@ -2749,6 +2749,8 @@ internal enum L10n {
     internal enum ShareTheKnowledge {
       /// And that goes for everything, not only accessibility!
       internal static let comment1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.comment1")
+      /// Discuss accessibility with your peers!
+      internal static let image = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.image")
       /// Show to your peers whenever you create something nice, when you use a new feature that you have never used before.
       internal static let text1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text1")
       /// Spreading knowledge will help more people to know about it, and give them and yourself more tools to work with in the future.

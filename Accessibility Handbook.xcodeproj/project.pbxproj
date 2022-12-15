@@ -166,6 +166,7 @@
 		3FCA3232290D661700551CD0 /* DeeplinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3231290D661700551CD0 /* DeeplinkHandler.swift */; };
 		3FCA3234290EADFE00551CD0 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3233290EADFE00551CD0 /* WhatsNewView.swift */; };
 		3FCA3236290EBAF900551CD0 /* LastSeenVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA3235290EBAF900551CD0 /* LastSeenVersion.swift */; };
+		3FCB1535294BD3A500870E10 /* CenteredSafeSizedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB1534294BD3A500870E10 /* CenteredSafeSizedImage.swift */; };
 		3FD00F6228E3B61A0007D604 /* ImplementDynamicFontsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */; };
 		3FD00F6928E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */; };
 		3FD533F328DE3DCF0058E585 /* EnableVoiceOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */; };
@@ -355,6 +356,7 @@
 		3FCA3231290D661700551CD0 /* DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkHandler.swift; sourceTree = "<group>"; };
 		3FCA3233290EADFE00551CD0 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 		3FCA3235290EBAF900551CD0 /* LastSeenVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSeenVersion.swift; sourceTree = "<group>"; };
+		3FCB1534294BD3A500870E10 /* CenteredSafeSizedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredSafeSizedImage.swift; sourceTree = "<group>"; };
 		3FD00F6128E3B61A0007D604 /* ImplementDynamicFontsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementDynamicFontsSection.swift; sourceTree = "<group>"; };
 		3FD00F6828E3B6700007D604 /* ScalingFontsAutomaticallyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingFontsAutomaticallyPage.swift; sourceTree = "<group>"; };
 		3FD533F228DE3DCF0058E585 /* EnableVoiceOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableVoiceOverPage.swift; sourceTree = "<group>"; };
@@ -697,6 +699,7 @@
 				3FF4A29A28DF93B1005D291A /* Icons.swift */,
 				3FF4A29C28DF93F3005D291A /* String+Extensions.swift */,
 				3F54B62C28EE1B6A00574932 /* UIContentSizeCategory+Extensions.swift */,
+				3FCB1534294BD3A500870E10 /* CenteredSafeSizedImage.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -1168,6 +1171,7 @@
 				3F6DBDF428F068C0001B9F88 /* DynamicColoredAssetsPage.swift in Sources */,
 				3FFB2CD62945F053007B879A /* TeamGamePage.swift in Sources */,
 				3FFB2CD42945ECCE007B879A /* ThinkingAccessibilityPage.swift in Sources */,
+				3FCB1535294BD3A500870E10 /* CenteredSafeSizedImage.swift in Sources */,
 				3FBF05FB28DB6F6200DA5BF5 /* HapticsPage.swift in Sources */,
 				3FFB2CE329460C26007B879A /* CreateUsefulAccessibiltyModifiersPage.swift in Sources */,
 				3FF4A29B28DF93B1005D291A /* Icons.swift in Sources */,

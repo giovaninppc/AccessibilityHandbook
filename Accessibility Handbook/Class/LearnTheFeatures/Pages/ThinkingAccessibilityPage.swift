@@ -17,7 +17,7 @@ struct ThinkingAccessibilityPage: View, Page {
         Text(L10n.ThinkingAccessibility.text2)
         Text(L10n.ThinkingAccessibility.text3)
         Text(L10n.ThinkingAccessibility.text4)
-        // Maybe add a nice image in here?
+        CenterSafesizedImage(image: Asset.classWelcomeThink.swiftUIImage)
         Text(L10n.ThinkingAccessibility.text5)
         Comment(L10n.ThinkingAccessibility.comment1)
         Text(L10n.ThinkingAccessibility.text6)
