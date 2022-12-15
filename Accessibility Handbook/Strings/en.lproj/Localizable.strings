@@ -1676,7 +1676,7 @@
 // UngroupedElements
 
 "UngroupedElements.title" = "VoiceOver Issues";
-"UngroupedElements.text1" = "VoiceOver issues are usually hard to find when looking at just the code. Ideally, youn should test it using a real device or the accessibility inspector to verify how it behaves.";
+"UngroupedElements.text1" = "VoiceOver issues are usually hard to find when looking at just the code. Ideally, you should test it using a real device or the accessibility inspector to verify how it behaves.";
 "UngroupedElements.text2" = "But we do have some tips to help you keep an eye for it!";
 
 "UngroupedElements.UngroupedElements.title" = "Ungrouped elements";
