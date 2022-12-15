@@ -34,7 +34,10 @@ private extension PadHomeView {
   @ViewBuilder
   var homeContent: some View {
     VStack(alignment: .center, spacing: .large) {
-      gameCell
+      HStack {
+        gameCell
+        classCell
+      }
       HStack {
         Title(L10n.Home.developmentGuides)
         Spacer()
@@ -88,17 +91,17 @@ private extension PadHomeView {
     homeElement(
       icon: Icon.paintpalete,
       title: L10n.ColorsGuide.title,
-      destination: IndexView(sections: ColorsSection()).toAny()
+      destination: IndexView.colors().toAny()
     )
     homeElement(
       icon: Icon.textformat,
       title: L10n.Home.dynamicFonts,
-      destination: IndexView(sections: DynamicFontSections()).toAny()
+      destination: IndexView.dynamicFonts().toAny()
     )
     homeElement(
       icon: Icon.circleHexagonpath,
       title: L10n.Home.otherFeatures,
-      destination: IndexView(sections: OthersSections()).toAny()
+      destination: IndexView.others().toAny()
     )
   }
 
@@ -112,17 +115,17 @@ private extension PadHomeView {
     shortcutElement(
       icon: Icon.eyeglasses,
       title: L10n.visualAid,
-      destination: ButtonShapesPage().page
+      destination: IndexView.visualAid().toAny()
     )
     shortcutElement(
       icon: Icon.lightSwitch,
       title: L10n.darkMode,
-      destination: WhatIsDarkModePage().page
+      destination: IndexView.darkMode().toAny()
     )
     shortcutElement(
       icon: Icon._3d,
       title: L10n.motion,
-      destination: ReduceMotionPage().page
+      destination: IndexView.motion().toAny()
     )
   }
 
@@ -131,7 +134,7 @@ private extension PadHomeView {
     shortcutElement(
       icon: Icon.tap,
       title: L10n.interactrion,
-      destination: ActivatePage().page
+      destination: IndexView.voiceOverInteraction().toAny()
     )
     shortcutElement(
       icon: Icon.paintbrush,
@@ -187,6 +190,34 @@ private extension PadHomeView {
           Text(L10n.Home.handbookGame)
             .font(.title3.bold())
           Comment(L10n.Home.handbookGameDescription)
+            .multilineTextAlignment(.leading)
+        }
+      }
+      .frame(maxWidth: .infinity)
+      .accessibilityElement(children: .combine)
+      .padding()
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
+      }
+    }
+  }
+
+  var classCell: some View {
+    NavigationLink {
+      IndexView.classes()
+    } label: {
+      HStack(spacing: .regular) {
+        Icon.bookshelf
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: Constants.largeIcon, height: Constants.largeIcon)
+        HorizontalSpace(.regular)
+        VStack(alignment: .leading, spacing: .small) {
+          Text(L10n.Home.classes)
+            .font(.title3.bold())
+          Comment(L10n.Home.classesDescription)
+            .multilineTextAlignment(.leading)
         }
       }
       .frame(maxWidth: .infinity)

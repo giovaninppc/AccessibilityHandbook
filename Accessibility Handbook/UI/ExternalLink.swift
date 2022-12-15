@@ -17,7 +17,7 @@ struct ExternalLink: View {
         Link(destination: url) {
           Text(title)
             .font(.callout.bold())
-            .foregroundColor(.pink)
+            .foregroundColor(.green)
             .multilineTextAlignment(.leading)
         }
       }

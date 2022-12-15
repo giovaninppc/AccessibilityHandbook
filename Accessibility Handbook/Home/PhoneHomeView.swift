@@ -33,6 +33,7 @@ private extension PhoneHomeView {
   var portraitHomeContent: some View {
     VStack(alignment: .center, spacing: .large) {
       portraitGameCell
+      portraitClassCell
       Title(L10n.Home.developmentGuides)
       HStack {
         voiceOverGuide
@@ -55,6 +56,7 @@ private extension PhoneHomeView {
   var landscapeHomeContent: some View {
     VStack(alignment: .center, spacing: .large) {
       landscapeGameCell
+      landscapeClassCell
       HStack {
         Title(L10n.Home.developmentGuides)
         Spacer()
@@ -86,19 +88,41 @@ private extension PhoneHomeView {
     NavigationLink {
       GameView()
     } label: {
-      VStack(spacing: .regular) {
-        Spacer()
-        HStack {
-          Spacer()
-          Icon.gameController
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .frame(width: 100.0, height: 100.0)
-          Spacer()
+      HStack {
+        Icon.gameController
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: 50.0, height: 50.0)
+        VStack {
+          Text(L10n.Home.handbookGame)
+            .font(.title3.bold())
+          Comment(L10n.Home.handbookGameDescription)
         }
-        Text(L10n.Home.handbookGame)
-          .font(.title3.bold())
-        Comment(L10n.Home.handbookGameDescription)
+      }
+      .frame(maxWidth: 350.0)
+      .accessibilityElement(children: .combine)
+      .padding()
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
+      }
+    }
+  }
+
+  var portraitClassCell: some View {
+    NavigationLink {
+      IndexView.classes()
+    } label: {
+      HStack {
+        Icon.bookshelf
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: 50.0, height: 50.0)
+        VStack {
+          Text("Classes")
+            .font(.title3.bold())
+          Comment("Learn how to plan and prepare accessibility on your apps!")
+        }
       }
       .frame(maxWidth: 350.0)
       .accessibilityElement(children: .combine)
@@ -135,6 +159,32 @@ private extension PhoneHomeView {
       }
     }
   }
+
+  var landscapeClassCell: some View {
+    NavigationLink {
+      IndexView.classes()
+    } label: {
+      HStack(spacing: .regular) {
+        Icon.gameController
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: 50.0, height: 50.0)
+        HorizontalSpace(.regular)
+        VStack(alignment: .leading, spacing: .small) {
+          Text(L10n.Home.classes)
+            .font(.title3.bold())
+          Comment(L10n.Home.classesDescription)
+        }
+      }
+      .frame(maxWidth: .infinity)
+      .accessibilityElement(children: .combine)
+      .padding()
+      .background {
+        RoundedRectangle(cornerRadius: 8.0)
+          .foregroundColor(.secondaryBackground)
+      }
+    }
+  }
 }
 
 // MARK: - Guide Cells
@@ -144,7 +194,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.book,
       title: L10n.voiceOverGuide,
-      destination: IndexView(sections: VoiceOverGuideSections())
+      destination: IndexView.voiceOverGuide()
         .toolbar {
           NavigationLink {
             GesturesPage()
@@ -161,7 +211,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.paintpalete,
       title: L10n.ColorsGuide.title,
-      destination: IndexView(sections: ColorsSection()).toAny()
+      destination: IndexView.colors().toAny()
     )
   }
 
@@ -169,7 +219,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.textformat,
       title: L10n.Home.dynamicFonts,
-      destination: IndexView(sections: DynamicFontSections()).toAny()
+      destination: IndexView.dynamicFonts().toAny()
     )
   }
 
@@ -177,7 +227,7 @@ private extension PhoneHomeView {
     homeElement(
       icon: Icon.circleHexagonpath,
       title: L10n.Home.otherFeatures,
-      destination: IndexView(sections: OthersSections()).toAny()
+      destination: IndexView.others().toAny()
     )
   }
 }

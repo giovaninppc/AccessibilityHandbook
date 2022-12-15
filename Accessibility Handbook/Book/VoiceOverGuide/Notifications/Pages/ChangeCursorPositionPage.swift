@@ -18,9 +18,7 @@ struct ChangeCursorPositionPage: View, Page {
     PageContent(next: nil, deeplink: deeplink) {
       Group {
         content
-        VerticalSpace(.regular)
         uiKit
-        VerticalSpace(.regular)
         swiftUI
         DocButton(link: link, title: title)
       }

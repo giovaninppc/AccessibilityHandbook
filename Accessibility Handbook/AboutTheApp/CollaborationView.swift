@@ -14,11 +14,8 @@ struct CollaborationView: View, Page {
     ScrollView {
       VStack(alignment: .leading, spacing: .regular) {
         openSource
-        VerticalSpace(.regular)
         foundAnIssue
-        VerticalSpace(.regular)
         helpUsTranslate
-        VerticalSpace(.regular)
         suggestions
       }.padding()
     }

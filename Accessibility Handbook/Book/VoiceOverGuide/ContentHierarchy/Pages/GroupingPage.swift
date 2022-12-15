@@ -14,13 +14,9 @@ struct GroupingPage: View, Page {
     PageContent(next: DismissPage(), deeplink: deeplink) {
       Group {
         content
-        VerticalSpace(.large)
         goodCarousel
-        VerticalSpace(.large)
         badCarousel
-        VerticalSpace(.large)
         uiKitExample
-        VerticalSpace(.regular)
         swiftUIExample
       }
       .toAny()
@@ -47,10 +43,11 @@ private extension GroupingPage {
   var goodCarousel: some View {
     VStack(alignment: .leading, spacing: .large) {
       Title(L10n.Grouping.goodCarousel)
-      ScrollView {
+      ScrollView(.horizontal, showsIndicators: false) {
         HStack(spacing: .large) {
-          goodCell
-          goodCell
+          ForEach(1...5, id: \.self) { _ in
+            goodCell
+          }
         }
       }
     }
@@ -58,7 +55,8 @@ private extension GroupingPage {
 
   var goodCell: some View {
     VStack(spacing: .regular) {
-      Title(L10n.Grouping.cellTitle)
+      Text(L10n.Grouping.cellTitle)
+        .font(.title)
       Text(L10n.Grouping.cellContent)
       Comment(L10n.Grouping.cellComment)
     }
@@ -77,10 +75,11 @@ private extension GroupingPage {
   var badCarousel: some View {
     VStack(alignment: .leading, spacing: .large) {
       Title(L10n.Grouping.badCarousel)
-      ScrollView {
+      ScrollView(.horizontal, showsIndicators: false) {
         HStack(spacing: .large) {
-          badCell
-          badCell
+          ForEach(1...5, id: \.self) { _ in
+            badCell
+          }
         }
       }
     }
@@ -88,7 +87,8 @@ private extension GroupingPage {
 
   var badCell: some View {
     VStack(spacing: .regular) {
-      Title(L10n.Grouping.cellTitle)
+      Text(L10n.Grouping.cellTitle)
+        .font(.title)
       Text(L10n.Grouping.cellContent)
       Comment(L10n.Grouping.cellComment)
     }

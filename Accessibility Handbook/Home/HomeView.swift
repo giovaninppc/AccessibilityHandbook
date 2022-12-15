@@ -9,18 +9,23 @@ import SwiftUI
 
 struct HomeView: View {
   @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
-  @State private var isIpad = UITraitCollection.current.userInterfaceIdiom == .pad
   @State private var text: String = ""
   @State private var searching: Bool = false
 
-  private var shouldUseLargeContent: Bool {
-    orientation.isLandscape || isIpad
+  @Environment(\.horizontalSizeClass)
+  var horizontalSizeClass: UserInterfaceSizeClass?
+
+  @Environment(\.verticalSizeClass)
+  var verticalSizeClass: UserInterfaceSizeClass?
+
+  private var isIPad: Bool {
+    horizontalSizeClass == .regular && verticalSizeClass == .regular
   }
 
   var body: some View {
     ScrollView(showsIndicators: false) {
       if text.isEmpty {
-        if isIpad {
+        if isIPad {
           PadHomeView()
         } else {
           PhoneHomeView()
@@ -40,6 +45,7 @@ struct HomeView: View {
       } label: {
         Icon.search
       }
+      .accessibilityLabel(L10n.search)
     }
   }
 }

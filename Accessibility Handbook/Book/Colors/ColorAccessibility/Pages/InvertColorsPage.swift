@@ -33,7 +33,6 @@ private extension InvertColorsPage {
       Comment(L10n.InvertColors.Intro.comment1)
       Text(L10n.InvertColors.Intro.text5)
       Text(L10n.InvertColors.Intro.text6)
-      VerticalSpace(.regular)
     }
   }
 

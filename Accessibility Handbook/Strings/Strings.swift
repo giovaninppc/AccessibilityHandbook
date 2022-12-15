@@ -434,6 +434,137 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "AccValue.title")
   }
 
+  internal enum AccessibilityInspector {
+    /// It's not the best tool ever made, but it's really helpful to check your accessibility implementation on the iOS simulator while developing, specially if you don't have or cannot build on a real device.
+    internal static let comment1 = L10n.tr("Localizable", "AccessibilityInspector.comment1")
+    /// The Accessibility Inspector is a developer tool that comes with Xcode and allows to simulate the VoiceOver by focusing on individual accessible elements and displaying it's accessibility information.
+    internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.text1")
+    /// You can find it on the Xcode menu, on the developer tools section.
+    internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.text2")
+    /// Accessibility Inspector
+    internal static let title = L10n.tr("Localizable", "AccessibilityInspector.title")
+    internal enum Auditing {
+      /// The Audit tab can be used to run an automatic audit on your app.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Auditing.text1")
+      /// The inspector will give feedback on several informations, from missing accessibility labels, to hit area sizes.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Auditing.text2")
+      /// Auditing
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Auditing.title")
+    }
+    internal enum InspectTools {
+      /// When enabled, you can use your mouse to select which view to focus on the simulator.
+      internal static let focus = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.focus")
+      /// The inspector navigating tools. From left to right: Enable content read, previous element, navigate automatically, next element.
+      internal static let image = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.image")
+      /// When inspecting an element, the Inspector will simulate the VoiceOver focus, and it will only focus on accessible elements!
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text1")
+      /// You can simulate the navigation by using the chevron/arrow icons. The right will move to the next element, and the left to the previous one.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text2")
+      /// If you want, the content can be read out loud by enabling the speech option on the text baloon icon.
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text3")
+      /// There is also the focus tool.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.text4")
+      /// Inspect Tools
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.title")
+    }
+    internal enum Inspecting {
+      /// Example of the Accessibility inspector while reading an element. On the inspector scene, the properties of the focused element are being displayed (accessibility label, value, traits, hints, identifier).
+      internal static let image = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.image")
+      /// When focused on an element, it will display a green cursor on top of it.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text1")
+      /// And the inspector will display all of it's accessibility properties.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text2")
+      /// You can also use the Inspector to perform actions on the focused view, such as activate, increment, decrement... It will display all the available actions for the view, so you can also test custom actions.
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text3")
+      /// I like adding screenshots of the Accessibility Inspector to my Pull Requests when fixing accessibility issues! It's a nice way to showcase the changes that were made.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.text4")
+      /// Inspecting
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Inspecting.title")
+    }
+    internal enum Options {
+      /// And the last tab provides a fast access to changing accessibility options on your simulator.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Options.text1")
+      /// It can be really useful if you are testing more than one accessibility option at once, and can quickly move between them.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Options.text2")
+      /// Change Options
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Options.title")
+    }
+    internal enum Process {
+      /// The accessibility inspector tabs. From left to right: Inspect tool, Audit tool, Accessibility override tool.
+      internal static let image = L10n.tr("Localizable", "AccessibilityInspector.Process.image")
+      /// The inspector can be used on any program running on your Mac, but, to test your app, you'll need to select the simulator process on the top left side of the inspector.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityInspector.Process.text1")
+      /// And on the top right side, you'll find 3 tabs.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityInspector.Process.text2")
+      /// Select Processes
+      internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Process.title")
+    }
+  }
+
+  internal enum AccessibilityShortcuts {
+    /// This is more of an extra when talking about accessibility, but it's always good to have on top of your mind how to make these improvements!
+    internal static let comment1 = L10n.tr("Localizable", "AccessibilityShortcuts.comment1")
+    /// Accessibility Shortcuts
+    internal static let title = L10n.tr("Localizable", "AccessibilityShortcuts.title")
+    internal enum Magic {
+      /// It can be done on the parent view! Which is easier to do specially when talking about UIKit views.
+      internal static let comment1 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.comment1")
+      /// Remember that VoiceOver navigation would normally need to go through all that content before reaching the purchase button.
+      internal static let comment2 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.comment2")
+      /// The Magic Tap is a custom gesture that can be used to perform any action on your app.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text1")
+      /// It is contextual, you the currently focused view should have the Magic Tap implemented on it in order for it to work.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text2")
+      /// But why would I use the MagicTap?
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text3")
+      /// Documentation says to perform the main action of your application, maybe playing or pausing a music, or taking a photo.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text4")
+      /// But if you look at your context, you may identify the main action for your page. For instance, if you are on a checkout (which usually presents a lot of information), and you have a 'Make Purchase' button at the bottom of your page, you may add the Magic Tap as a shortcut to perform that action.
+      internal static let text5 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text5")
+      /// I've also seen it being used in book apps to move to the next page, or games to play and pause the current match.
+      internal static let text6 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text6")
+      /// But, one important part is telling the user that this gesture exists. You may do so using accessibility hints or notifications whenever the user enters a page with a Magic Tap.
+      internal static let text7 = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.text7")
+      /// Magic Tap
+      internal static let title = L10n.tr("Localizable", "AccessibilityShortcuts.Magic.title")
+    }
+    internal enum Rotor {
+      /// it already works automatically with the header trait, so thats a nice reason to use it!
+      internal static let comment1 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.comment1")
+      /// Rotor is a neat tool when using VoiceOver. And it basically works as a filter, allowing the user to navigate only on the content selected by the Rotor.
+      internal static let text1 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text1")
+      /// While it may be a little complex to implement at first, it's really powerful.
+      internal static let text2 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text2")
+      /// If your app contains lot's of content, you can use it to help the user find elements.
+      internal static let text3 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text3")
+      /// And we have an example page with custom rotor entries that you can test for yourself.
+      internal static let text4 = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.text4")
+      /// Rotor
+      internal static let title = L10n.tr("Localizable", "AccessibilityShortcuts.Rotor.title")
+    }
+  }
+
+  internal enum AccessibilityWelcome {
+    /// Do you want to make your apps more accessible but you don't know how?
+    internal static let card1 = L10n.tr("Localizable", "AccessibilityWelcome.card1")
+    /// Do you think sometimes: "I know the accessibility features, but I just don't know where to use them"?
+    internal static let card2 = L10n.tr("Localizable", "AccessibilityWelcome.card2")
+    /// Do you want to be able to create and review code keeping accessibility in mind?
+    internal static let card3 = L10n.tr("Localizable", "AccessibilityWelcome.card3")
+    /// Introducing: Classes!\n\nOur new content focused to help you learn just that.\nWhat to think and what to expect when considering accessibility on your apps!
+    internal static let card4 = L10n.tr("Localizable", "AccessibilityWelcome.card4")
+    /// Close
+    internal static let close = L10n.tr("Localizable", "AccessibilityWelcome.close")
+    /// Let's go!
+    internal static let letsgo = L10n.tr("Localizable", "AccessibilityWelcome.letsgo")
+    /// Open classes onboarding
+    internal static let more = L10n.tr("Localizable", "AccessibilityWelcome.more")
+    /// Next
+    internal static let next = L10n.tr("Localizable", "AccessibilityWelcome.next")
+    /// Previous
+    internal static let previous = L10n.tr("Localizable", "AccessibilityWelcome.previous")
+  }
+
   internal enum Activate {
     /// Handle Action
     internal static let codeComment = L10n.tr("Localizable", "Activate.codeComment")
@@ -447,6 +578,57 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "Activate.text3")
     /// Activate element
     internal static let title = L10n.tr("Localizable", "Activate.title")
+  }
+
+  internal enum AddTraits {
+    /// As a general rule, make sure all the components have the expected trait: image, button, title, search field...
+    internal static let comment1 = L10n.tr("Localizable", "AddTraits.comment1")
+    /// Accessibility traits are useful ways to provide more information or give more action to accessible elements.
+    internal static let text1 = L10n.tr("Localizable", "AddTraits.text1")
+    /// Some components automatically set their traits, like Buttons or Images, but you need to manually set them on some views, specially when you group several elements together.
+    internal static let text2 = L10n.tr("Localizable", "AddTraits.text2")
+    /// And here we'll cover some common issues you may have while creating new UI components.
+    internal static let text3 = L10n.tr("Localizable", "AddTraits.text3")
+    /// Add the correct traits
+    internal static let title = L10n.tr("Localizable", "AddTraits.title")
+    internal enum Button {
+      /// The button trait indicates an element can be activated with a double tap on the VoiceOver.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Button.text1")
+      /// So, make sure to add it to components that are tappable, like cells, and handle it's activation.
+      internal static let text2 = L10n.tr("Localizable", "AddTraits.Button.text2")
+      /// Buttons
+      internal static let title = L10n.tr("Localizable", "AddTraits.Button.title")
+    }
+    internal enum Header {
+      /// This page use the header trait on it's subtitles, you can enable the VoiceOver and try using it.
+      internal static let comment1 = L10n.tr("Localizable", "AddTraits.Header.comment1")
+      /// This is an easy one to be overlooked, but adding the header trait will help navigate on your content using the Rotor tool.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Header.text1")
+      /// Make sure to add it on your headers to improve the user's navigation.
+      internal static let text2 = L10n.tr("Localizable", "AddTraits.Header.text2")
+      /// Header
+      internal static let title = L10n.tr("Localizable", "AddTraits.Header.title")
+    }
+    internal enum Link {
+      /// If you are using the Link view in SwiftUI, it will automatically have the link trait.
+      internal static let comment1 = L10n.tr("Localizable", "AddTraits.Link.comment1")
+      /// If you have a compnent that opens any external page, or a web URL, make sure to add the link trait to it.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Link.text1")
+      /// Links
+      internal static let title = L10n.tr("Localizable", "AddTraits.Link.title")
+    }
+    internal enum Outro {
+      /// Overall, take a look on the accessibility traits list, get to know them, and you get the idea of when and where to use them properly.
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Outro.text1")
+    }
+    internal enum Selected {
+      /// This trait is also very important when a component is not only a button, but something that can be selected (like radio buttons or checkboxes).
+      internal static let text1 = L10n.tr("Localizable", "AddTraits.Selected.text1")
+      /// It's also nice to add an accessibility hint telling the when activated, the item will be selected.
+      internal static let text2 = L10n.tr("Localizable", "AddTraits.Selected.text2")
+      /// Selected
+      internal static let title = L10n.tr("Localizable", "AddTraits.Selected.title")
+    }
   }
 
   internal enum AdjustLayoutToScaledFontPage {
@@ -845,6 +1027,117 @@ internal enum L10n {
     }
   }
 
+  internal enum CreateAColorFile {
+    /// Example of a blue color pallete.
+    internal static let colors = L10n.tr("Localizable", "CreateAColorFile.colors")
+    /// When creating a new app, you are most likely to decide with your team on a color pallet that represents your application.
+    internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.text1")
+    /// You'll put effort into it, and you'll most likely not use the iOS system colors. Which is completely fine.
+    internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.text2")
+    /// But colors are a very important part of accessibility, and you need to remember that not everybodey perceives color the same way.
+    internal static let text3 = L10n.tr("Localizable", "CreateAColorFile.text3")
+    /// So, if you prepare your colors to support accessibility options (even if you don't add support at first!), it'll be easier later to add them to your application.
+    internal static let text4 = L10n.tr("Localizable", "CreateAColorFile.text4")
+    /// Setup a Color file
+    internal static let title = L10n.tr("Localizable", "CreateAColorFile.title")
+    internal enum CentralizedColor {
+      /// Here's a initial color pallete. Very simple, and a few colors to use.
+      internal static let colors = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.colors")
+      /// Maybe you should also consider having an entire UI module for it! Depending on the size of your project.
+      internal static let comment1 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.comment1")
+      /// One suggestion is not name your colors their 'color name'.\n Avoid things like 'company blue'.\nTry using things like 'highlightColor', because the color itself may change depending on the user's context.
+      internal static let disclaimer = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.disclaimer")
+      /// First thing you should consider, is creating a color file.
+      internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text1")
+      /// But like this, you'll make sure to use your colors, and you will be able to make changes to them if necessary.
+      internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text2")
+      /// You can easily call your colors from the color file.
+      internal static let text3 = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.text3")
+      /// Centralized color file
+      internal static let title = L10n.tr("Localizable", "CreateAColorFile.CentralizedColor.title")
+    }
+    internal enum DarkMode {
+      /// Check our page on Dynamic Colors!
+      internal static let button1 = L10n.tr("Localizable", "CreateAColorFile.DarkMode.button1")
+      /// Adaptable color pallete
+      internal static let colors = L10n.tr("Localizable", "CreateAColorFile.DarkMode.colors")
+      /// Now that you have your color file, a nice next ste would be adding support to dark mode.
+      internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.DarkMode.text1")
+      /// Now, if you change between dark and light modes, your colors will adapt to it!
+      internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.DarkMode.text2")
+      /// Add Dark Mode support
+      internal static let title = L10n.tr("Localizable", "CreateAColorFile.DarkMode.title")
+    }
+    internal enum IncreaseContrast {
+      /// Check our increase contrast page!
+      internal static let button = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.button")
+      /// Now, with your color file, you can add support to any accessibility feature for visual aid based on colors!
+      internal static let text1 = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.text1")
+      /// For example, increased contrast!
+      internal static let text2 = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.text2")
+      /// Increase contrast
+      internal static let title = L10n.tr("Localizable", "CreateAColorFile.IncreaseContrast.title")
+    }
+  }
+
+  internal enum CreateAFontFile {
+    /// Just like it is going to make your life way easier if you create a Color file, you'll also be happy later if you have a Font file.
+    internal static let comment1 = L10n.tr("Localizable", "CreateAFontFile.comment1")
+    /// When creating a new project, it's also common to have a custom font that represents your brand. Or maybe you are sticking with the system font, and that's also good.
+    internal static let text1 = L10n.tr("Localizable", "CreateAFontFile.text1")
+    /// So, why should you have a Font file? Because this way, you can add support to dynamic font types to all of your fonts on a single place, and change the entire fonts of the project also from a single file!
+    internal static let text2 = L10n.tr("Localizable", "CreateAFontFile.text2")
+    /// Setup a Font file
+    internal static let title = L10n.tr("Localizable", "CreateAFontFile.title")
+    internal enum FontCategories {
+      /// When using fonts, try avoiding fixed font sizes and weights.
+      internal static let text1 = L10n.tr("Localizable", "CreateAFontFile.FontCategories.text1")
+      /// Instead, create your own relation of fonts that make sense to your project (title, body, fancy title, subtitle...)
+      internal static let text2 = L10n.tr("Localizable", "CreateAFontFile.FontCategories.text2")
+      /// And with that, you'll be able to make adjustments and changes to the font, the scales, and use them across all your application.
+      internal static let text3 = L10n.tr("Localizable", "CreateAFontFile.FontCategories.text3")
+      /// Create your font categories
+      internal static let title = L10n.tr("Localizable", "CreateAFontFile.FontCategories.title")
+    }
+  }
+
+  internal enum CreateAccessibilityModifiers {
+    /// And please, make them accessible from the start!
+    internal static let comment1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.comment1")
+    /// We usually have a UI library with lots of components. It's a natural step on a growing project, an easy and simple way to reuse components accross your entire application.
+    internal static let text1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.text1")
+    /// But, like we can reuse components, we can also consider reusing accessibility modifiers to our views!
+    internal static let text2 = L10n.tr("Localizable", "CreateAccessibilityModifiers.text2")
+    /// Create Accessibility Modifiers
+    internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.title")
+    internal enum ReusableModifiers {
+      /// That is a situation where you can benefit of reusing accessibility modifiers. Just like you reuse UI components!
+      internal static let text1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.text1")
+      /// Then, by creating a View extension, you can reuse this modifier on the counter and on the cell.
+      internal static let text2 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.text2")
+      /// You can do similar things for UIKit as well, and create your own library of accessibility helpers!
+      internal static let text3 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.text3")
+      /// Reusable Modifiers
+      internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusableModifiers.title")
+    }
+    internal enum ReusingAccessibility {
+      /// Consider the following scenario: You have a UI component library, and one of the components is a neat counter with a plus and minus button.
+      internal static let text1 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text1")
+      /// And you know about the VoiceOver adjustable trait, so you make this component using it, and when focused, the user can swipe up and down to change the quantities. Lovely!
+      internal static let text2 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text2")
+      /// But then, you get assigned to create a new component. A cell, that will be reused in several carousels, with an item image, title and description, but with the previously made counter inside it.
+      internal static let text3 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text3")
+      /// And now, you start to think, what would be the best option to make this cell accessible?
+      internal static let text4 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text4")
+      /// Since it will be displayed with several other cells, We would recomend each cell to be a single focusable item - so each one is an accessible element.
+      internal static let text5 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text5")
+      /// But what about the counter? Should the counter be focused individually? You have already made all the logic for the adjustable element, so you should duplicate all of it on the cell as well?
+      internal static let text6 = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.text6")
+      /// Reusing Accessibility
+      internal static let title = L10n.tr("Localizable", "CreateAccessibilityModifiers.ReusingAccessibility.title")
+    }
+  }
+
   internal enum CustomActions {
     /// Credit Card, ending in 1234
     internal static let accessible = L10n.tr("Localizable", "CustomActions.accessible")
@@ -1019,6 +1312,29 @@ internal enum L10n {
     internal static let text6 = L10n.tr("Localizable", "EnableVoiceOver.text6")
     /// Enable VoiceOver
     internal static let title = L10n.tr("Localizable", "EnableVoiceOver.title")
+  }
+
+  internal enum FigureDifferentFontScales {
+    /// This is also a very important step to talk with your design team! Different scenes and components may behave differently depending on your font size, so it's important to keep things aligned when implementing these behaviors.
+    internal static let comment1 = L10n.tr("Localizable", "FigureDifferentFontScales.comment1")
+    /// Supporting Dynamic fonts is tough. But larger text sizes is the most commonly used accessibility feature.
+    internal static let text1 = L10n.tr("Localizable", "FigureDifferentFontScales.text1")
+    /// So, when building a new view, but specially a new scene, you must check how it behaves when using different font sizes, and adjust it so no content is lost
+    internal static let text2 = L10n.tr("Localizable", "FigureDifferentFontScales.text2")
+    /// Figure different font scales
+    internal static let title = L10n.tr("Localizable", "FigureDifferentFontScales.title")
+    internal enum Test {
+      /// I strongly recommend you check our page on supporting different font scales, there you'll find different approaches for your code and layout, and you can change the font size on your device to .
+      internal static let comment1 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.comment1")
+      /// The most important part is: Test it.
+      internal static let text1 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.text1")
+      /// Run the app using different font scales, and make sure it does not impact negatively the user naviagtion.
+      internal static let text2 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.text2")
+      /// All content should be readable, and your scene layout does not break.
+      internal static let text3 = L10n.tr("Localizable", "FigureDifferentFontScales.Test.text3")
+      /// Test it
+      internal static let title = L10n.tr("Localizable", "FigureDifferentFontScales.Test.title")
+    }
   }
 
   internal enum FillTheCup {
@@ -1238,6 +1554,76 @@ internal enum L10n {
     }
   }
 
+  internal enum HandleAllActions {
+    /// The more complex a view is, the more difficult it gets to make it accessible. And maybe if your view is too crowded, you will need to rethink how to place your actions!
+    internal static let comment1 = L10n.tr("Localizable", "HandleAllActions.comment1")
+    /// It's possible for a single view to have multiple actions inside it.
+    internal static let text1 = L10n.tr("Localizable", "HandleAllActions.text1")
+    /// Maybe it has multiple buttons, or gestures that trigger specific actions on your app.
+    internal static let text2 = L10n.tr("Localizable", "HandleAllActions.text2")
+    /// Ideally, you need to make sure that all these actions are also supported when using accessibility options, specially screen readers.
+    internal static let text3 = L10n.tr("Localizable", "HandleAllActions.text3")
+    /// Handle all actions
+    internal static let title = L10n.tr("Localizable", "HandleAllActions.title")
+    internal enum Adjustable {
+      /// The adjustable trait and actions are a nice way to support counters and sliders on your app.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.Adjustable.text1")
+      /// This way, you can compact multiple increment and decrement buttons into a single element for the VoiceOver.
+      internal static let text2 = L10n.tr("Localizable", "HandleAllActions.Adjustable.text2")
+      /// Adjustable elements
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.Adjustable.title")
+    }
+    internal enum ButtonFocus {
+      /// If you have multiple buttons, and your view is not grouped into a single element, you must ensure that all buttons can be reached by the VoiceOver, and that they all execute the expected actions when activated.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.ButtonFocus.text1")
+      /// Multiple Button focus
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.ButtonFocus.title")
+    }
+    internal enum CompetingActions {
+      /// If you want to see more of this view and how it was built, you can check the source code of the project on GitHub!
+      internal static let comment1 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.comment1")
+      /// If your view needs multiple types of action handling on VoiceOver, like it has buttons but also an adjustable counter, you'll run into some issues.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text1")
+      /// You can't use adjustable actions with custom actions on a single element, their gestures are the same while using the VoiceOver.
+      internal static let text2 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text2")
+      /// You will need to breakdown your view hierarchy in order to support the actions you want, without compromising the usability of the component.
+      internal static let text3 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text3")
+      /// In the example above, let's consider it's going to be a reusable view that will be placed in a carousel. So we need to somehow group the element so the content won't be read multiple times while navigating.
+      internal static let text4 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text4")
+      /// But since it has multiple actions (The view can be tapped to open a new page, there is a button to favorite the item, and we have a counter to change it's quantity) we won't be able to group it all into a single element if we want to support all of it's actions.
+      internal static let text5 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text5")
+      /// So, we are breaking it into 2 accessible elements, the first will have a custom action to allow opening the item and favoriting it, and the second will be an adjustable element to handle the quantity changes.
+      internal static let text6 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text6")
+      /// And to make things even better, we'll update the accessibility label of the counter to add the title of the item, so you know which item you are changing the quantity.
+      internal static let text7 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text7")
+      /// This is a pretty challenging view to make accessible, we have to use a lot of knowledge and different ways to organize the content in order to make it all work.
+      internal static let text8 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text8")
+      /// The view hierarchy is also very important to allow our solution, and we even have to combine the elements using the '.contain' option in SwiftUI, or 'shouldGroupAccessibilityChildren' in UIKit.
+      internal static let text9 = L10n.tr("Localizable", "HandleAllActions.CompetingActions.text9")
+      /// Competing Actions
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.CompetingActions.title")
+    }
+    internal enum CustomActions {
+      /// Custom actions are a nice way to support multiple actions inside a view.
+      internal static let text1 = L10n.tr("Localizable", "HandleAllActions.CustomActions.text1")
+      /// It can even be used to add support to actions that usually cannot be performed while using VoiceOver, like custom gestures.
+      internal static let text2 = L10n.tr("Localizable", "HandleAllActions.CustomActions.text2")
+      /// Custom Actions
+      internal static let title = L10n.tr("Localizable", "HandleAllActions.CustomActions.title")
+    }
+  }
+
+  internal enum HandleAnimations {
+    /// Check the examples on the Reduce Motion page, change the state of the reduce motion on your device and notice how the behavior changes.
+    internal static let comment1 = L10n.tr("Localizable", "HandleAnimations.comment1")
+    /// More than making sure your animations work, you also need to consider the reduce motion accessibility option.
+    internal static let text1 = L10n.tr("Localizable", "HandleAnimations.text1")
+    /// As a general rule, whenever we have an animation, we should check if the reduce motion option is enabled, and if so, we skip the animation directly to it's end state.
+    internal static let text2 = L10n.tr("Localizable", "HandleAnimations.text2")
+    /// Handle Animations
+    internal static let title = L10n.tr("Localizable", "HandleAnimations.title")
+  }
+
   internal enum Haptic {
     /// But... why are we talking about haptics in an accessibility guide?
     internal static let comment1 = L10n.tr("Localizable", "Haptic.comment1")
@@ -1298,6 +1684,31 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "HeaderTrait.title")
   }
 
+  internal enum HiddenObjects {
+    /// When talking about hidden objects here, we are talking about views that are not accessible elements, views that are going to be ignored by the VoiceOver when navigating.
+    internal static let text1 = L10n.tr("Localizable", "HiddenObjects.text1")
+    /// But shouldn't all the content be read by the VoiceOver?
+    internal static let text2 = L10n.tr("Localizable", "HiddenObjects.text2")
+    /// Yes. But when building a scene, it's common to add elements as Separators, Dividers or Spacers in order to make the correct layout work.
+    internal static let text3 = L10n.tr("Localizable", "HiddenObjects.text3")
+    /// But these components don't have accessibility labels, nor add information to the page.
+    internal static let text4 = L10n.tr("Localizable", "HiddenObjects.text4")
+    /// So, they should not be focused by the screen reader.
+    internal static let text5 = L10n.tr("Localizable", "HiddenObjects.text5")
+    /// Hidden Objects
+    internal static let title = L10n.tr("Localizable", "HiddenObjects.title")
+    internal enum Hiding {
+      /// To hide an element, it's as easy as setting it not to be an accessible element.
+      internal static let text1 = L10n.tr("Localizable", "HiddenObjects.Hiding.text1")
+      /// If you are using SwiftUI, elements like Dividers and Spacers are not accessible by default.
+      internal static let text2 = L10n.tr("Localizable", "HiddenObjects.Hiding.text2")
+      /// In UIKit, we don't have the same luck. If you are using an additional view to make these kind of components, make sure to set them as non-accessible elements so the VoiceOver won't focus on them.
+      internal static let text3 = L10n.tr("Localizable", "HiddenObjects.Hiding.text3")
+      /// Hiding Elements
+      internal static let title = L10n.tr("Localizable", "HiddenObjects.Hiding.title")
+    }
+  }
+
   internal enum Hint {
     /// Close hint
     internal static let close = L10n.tr("Localizable", "Hint.close")
@@ -1314,6 +1725,10 @@ internal enum L10n {
   }
 
   internal enum Home {
+    /// Classes
+    internal static let classes = L10n.tr("Localizable", "Home.classes")
+    /// Learn how to plan and prepare accessibility on your apps!
+    internal static let classesDescription = L10n.tr("Localizable", "Home.classesDescription")
     /// Collaborate
     internal static let collaborate = L10n.tr("Localizable", "Home.collaborate")
     /// Colors
@@ -1367,6 +1782,11 @@ internal enum L10n {
     }
   }
 
+  internal enum IdentifyIssues {
+    /// Identify issues
+    internal static let title = L10n.tr("Localizable", "IdentifyIssues.title")
+  }
+
   internal enum ImageTrait {
     /// Image description
     internal static let description = L10n.tr("Localizable", "ImageTrait.description")
@@ -1378,6 +1798,57 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "ImageTrait.text3")
     /// Image Trait
     internal static let title = L10n.tr("Localizable", "ImageTrait.title")
+  }
+
+  internal enum ImagesAndIcons {
+    /// How to properly handle images and icons on screen reader accessibility?
+    internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.text1")
+    /// Handle Images and Icons
+    internal static let title = L10n.tr("Localizable", "ImagesAndIcons.title")
+    internal enum HideImage {
+      /// Example of a carousel where there are images on the cells, but they are hidden to the VoiceOver.
+      internal static let comment1 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.comment1")
+      /// Sometimes it does make sense to hide the image from the reader, specially if it's being grouped with other elements.
+      internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.text1")
+      /// A common example, is when you have a previews of an item (maybe on a collection of items), that you can open to see it's detail.
+      internal static let text2 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.text2")
+      /// In this situation, the image can be ommited on the preview, since it's going to be combined with other elements and won't add much to the screen reader navigation, and left as an accessible element on the details page, where it stands out for itself as an element.
+      internal static let text3 = L10n.tr("Localizable", "ImagesAndIcons.HideImage.text3")
+      /// Hiding Images
+      internal static let title = L10n.tr("Localizable", "ImagesAndIcons.HideImage.title")
+    }
+    internal enum Icons {
+      /// These types of icons are very common on navigation bars!
+      internal static let comment1 = L10n.tr("Localizable", "ImagesAndIcons.Icons.comment1")
+      /// Hints
+      internal static let icon = L10n.tr("Localizable", "ImagesAndIcons.Icons.icon")
+      /// Double tap to open a hint
+      internal static let iconHint = L10n.tr("Localizable", "ImagesAndIcons.Icons.iconHint")
+      /// Icons are a useful way to represent content and help users find and identify actions on applications.
+      internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text1")
+      /// Ideally, most icons should not be used without an accessory text that explains better it's context. Like in a tabbar.
+      internal static let text2 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text2")
+      /// The icon itself can be ommited for the screen reader, since it does not add any new information.
+      internal static let text3 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text3")
+      /// But if you do have an icon, that is not followed by a text, you need to provide an accessibility label to it, and maybe an accessibility hint to better explain what it does.
+      internal static let text4 = L10n.tr("Localizable", "ImagesAndIcons.Icons.text4")
+      /// Icons
+      internal static let title = L10n.tr("Localizable", "ImagesAndIcons.Icons.title")
+    }
+    internal enum Images {
+      /// The VoiceOver now can even read text inside images and give better descriptions of the content.
+      internal static let comment1 = L10n.tr("Localizable", "ImagesAndIcons.Images.comment1")
+      /// Different from the Icons, that most of the time are buttons, so they don't really need the image trait on them.
+      internal static let comment2 = L10n.tr("Localizable", "ImagesAndIcons.Images.comment2")
+      /// If we consider a screen reader, for a user that is visually impaired, we should always hide the images, right?
+      internal static let text1 = L10n.tr("Localizable", "ImagesAndIcons.Images.text1")
+      /// That may seem like the case, but it's actually wrong. The user may want to show the image to someone else, or maybe screenshot it to use it later.
+      internal static let text2 = L10n.tr("Localizable", "ImagesAndIcons.Images.text2")
+      /// So it's important that the image can be focused, ideally with an alternate text, and with the image trait!
+      internal static let text3 = L10n.tr("Localizable", "ImagesAndIcons.Images.text3")
+      /// Images
+      internal static let title = L10n.tr("Localizable", "ImagesAndIcons.Images.title")
+    }
   }
 
   internal enum ImplementingDynamicFonts {
@@ -1547,6 +2018,77 @@ internal enum L10n {
     internal static let transparent = L10n.tr("Localizable", "Invisibility.transparent")
   }
 
+  internal enum IsThisModal {
+    /// Here, we are considering modals any view that is presented on top of your current context.
+    internal static let text1 = L10n.tr("Localizable", "IsThisModal.text1")
+    /// Accessibility wise, modals are tricky, because we want the user to focus on the modal whenever it appears before they focus on the rest of the page's content.
+    internal static let text2 = L10n.tr("Localizable", "IsThisModal.text2")
+    /// So we need to make sure that it also happens when using VoiceOver.
+    internal static let text3 = L10n.tr("Localizable", "IsThisModal.text3")
+    /// Handle modal views
+    internal static let title = L10n.tr("Localizable", "IsThisModal.title")
+    internal enum ChangeFocus {
+      /// Enable the VoiceOver and check the example below.
+      internal static let comment1 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.comment1")
+      /// Presenting a modal may be the best example of forced focus change on iOS VoiceOver.
+      internal static let text1 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text1")
+      /// You can redirect the screen reader to the modal content when it's presented.
+      internal static let text2 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text2")
+      /// But we also need to make sure that the content is being focused individually by setting the view as an accessibility modal, so the content on the back isn't focused by the VoiceOver.
+      internal static let text3 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text3")
+      /// And, as a nice touch, add the support for the escape gesture to dismiss it.
+      internal static let text4 = L10n.tr("Localizable", "IsThisModal.ChangeFocus.text4")
+      /// Change focus
+      internal static let title = L10n.tr("Localizable", "IsThisModal.ChangeFocus.title")
+    }
+  }
+
+  internal enum LearnAccessibility {
+    /// Before you continue, make sure to read more about this content on: 
+    internal static let beforeYouReadThis = L10n.tr("Localizable", "LearnAccessibility.beforeYouReadThis")
+    /// Learn Accessibility
+    internal static let title = L10n.tr("Localizable", "LearnAccessibility.title")
+  }
+
+  internal enum LearnTheFeatures {
+    /// In order to make good questions, give better suggestions, integrate accessibility on your development...
+    internal static let text1 = L10n.tr("Localizable", "LearnTheFeatures.text1")
+    /// You need to learn what the accessibility features and options are, what difference they make on your app, how they impact your users, and most of all: How to use them.
+    internal static let text2 = L10n.tr("Localizable", "LearnTheFeatures.text2")
+    /// And this is your lucky day! Because this app not only contains guides on how to implement iOS accessibility options, but you can try them for yourself!
+    internal static let text3 = L10n.tr("Localizable", "LearnTheFeatures.text3")
+    /// Learn the Features
+    internal static let title = L10n.tr("Localizable", "LearnTheFeatures.title")
+    internal enum BeyondTheVoiceOver {
+      /// Sometimes when talking about accessibility on mobile devices, we focus only on screen readers (on iOS, the VoiceOver).
+      internal static let text1 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text1")
+      /// But that's not what accessibility is about! There is an entire world of features, options, issues, disabilities, devices... that are part of accessibility.
+      internal static let text2 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text2")
+      /// And we also have guides on those!
+      internal static let text3 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text3")
+      /// Learn more about colors, motion, visual aids, fonts, haptics, contrast... and much more, so you know what to think and ask about.
+      internal static let text4 = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.text4")
+      /// Beyond The VoiceOver
+      internal static let title = L10n.tr("Localizable", "LearnTheFeatures.BeyondTheVoiceOver.title")
+    }
+    internal enum VoiceOver {
+      /// But, do you know what you can do with VoiceOver?
+      internal static let comment1 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.comment1")
+      /// And make sure to try using the VoiceOver while reading the content so you can better understand what each element does.
+      internal static let comment2 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.comment2")
+      /// Supporting VoiceOver use on your apps is usually what needs the most implementation and thought.
+      internal static let text1 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text1")
+      /// It's not only setting an 'accessibility label' into everything. We have different ways to group content, different ways to interact with elements and different ways to navigate through the app.
+      internal static let text2 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text2")
+      /// If you are not familiar with the VoiceOver, the concepts, the names, the gestures, take a look into our VoiceOver section on the Development Guides!
+      internal static let text3 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text3")
+      /// And if you want a "hand" to learn how to navigate using the VoiceOver, we have a gesture guide!
+      internal static let text4 = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.text4")
+      /// VoiceOver
+      internal static let title = L10n.tr("Localizable", "LearnTheFeatures.VoiceOver.title")
+    }
+  }
+
   internal enum ListOfTraits {
     /// Allows gestures to update quantities. This is quite useful in some situations like quick-adds, sliders or counters!
     internal static let adjustable = L10n.tr("Localizable", "ListOfTraits.adjustable")
@@ -1644,6 +2186,21 @@ internal enum L10n {
     }
   }
 
+  internal enum MakingANewApp {
+    /// Making a new app
+    internal static let title = L10n.tr("Localizable", "MakingANewApp.title")
+  }
+
+  internal enum MakingANewScene {
+    /// Making a New Scene
+    internal static let title = L10n.tr("Localizable", "MakingANewScene.title")
+  }
+
+  internal enum MakingANewView {
+    /// Making a new view
+    internal static let title = L10n.tr("Localizable", "MakingANewView.title")
+  }
+
   internal enum Modal {
     /// Modal views
     internal static let title = L10n.tr("Localizable", "Modal.title")
@@ -1738,6 +2295,27 @@ internal enum L10n {
     }
   }
 
+  internal enum NavigationAndDismiss {
+    /// And in SwiftUI you'll gain the escape gesture automatically, so the user can perform the gesture to close the current view.
+    internal static let comment1 = L10n.tr("Localizable", "NavigationAndDismiss.comment1")
+    /// And if you are using a custom navigation on your project, make sure to implement these gestures as a default on your framework. This way, you won't need to worry about it when creating a new scene!
+    internal static let comment2 = L10n.tr("Localizable", "NavigationAndDismiss.comment2")
+    /// Navigation is an important part of applications. Being able to open new scenes and come back to previous ones.
+    internal static let text1 = L10n.tr("Localizable", "NavigationAndDismiss.text1")
+    /// So, we need to make sure the navigation is working properly when using screen readers, in our case, the VoiceOver.
+    internal static let text2 = L10n.tr("Localizable", "NavigationAndDismiss.text2")
+    /// If you are using the system's Navigation Controller, most of it will already be handled by it. You'll have a back button, so there is always a button that can be focused to pop back on the navigation.
+    internal static let text3 = L10n.tr("Localizable", "NavigationAndDismiss.text3")
+    /// What does not happen automatically, is supporting the escape gesture when presenting modal views, or modals having a close button.
+    internal static let text4 = L10n.tr("Localizable", "NavigationAndDismiss.text4")
+    /// If your modal depends on "clicking outside of it" to be closed, you need to handle it as well on the VoiceOver. If that content outside is not focusable, how will the user be able to close it?
+    internal static let text5 = L10n.tr("Localizable", "NavigationAndDismiss.text5")
+    /// So, always having a close button, and supporting the escape gesture, are nice ways to keep these view more accessible.
+    internal static let text6 = L10n.tr("Localizable", "NavigationAndDismiss.text6")
+    /// Navigation and dismiss
+    internal static let title = L10n.tr("Localizable", "NavigationAndDismiss.title")
+  }
+
   internal enum NotifyChanges {
     /// But what is the argument that is 'nil' on the code?
     internal static let comment1 = L10n.tr("Localizable", "NotifyChanges.comment1")
@@ -1757,6 +2335,59 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "NotifyChanges.title")
   }
 
+  internal enum PlanBeforeYouImplement {
+    /// Plan your view hierarchy before you implement it. Well... this is obvious, isn't it? You should always plan before you simply start implementing stuff.
+    internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.text1")
+    /// But what we want to discuss here, is planning the hierarchy of your UI components in order to simplify and implement accessibility alongside with the UI.
+    internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.text2")
+    /// As a developer, I've been asked before: "But how long does it take to add accessibility to a view?" And my reply always was: "As much as it takes to build the component."
+    internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.text3")
+    /// Accessibility really goes together with the UI, so, if you know what to look for while implementing it, things will become much easier.
+    internal static let text4 = L10n.tr("Localizable", "PlanBeforeYouImplement.text4")
+    /// Plan your hierarchy
+    internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.title")
+    internal enum Conclusion {
+      /// If you understand how you want your content to be read by the VoiceOver, and how you are building your view, you can account the accessibility in your hierarchy.
+      internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.text1")
+      /// And position the elements in the hierarchy in order to make the reader focus on them in a way that makes more sense to the user.
+      internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.text2")
+      /// And in the end our view hierarchy would look something like the following diagram, with only 2 accessibility elements.
+      internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.text3")
+      /// Concluding...
+      internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Conclusion.title")
+    }
+    internal enum Group {
+      /// On the diagram above, the background colors represent the hierarchy of the views, and the border represents and accessibility group.
+      internal static let imageExplanation = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.imageExplanation")
+      /// In the example above, imagine it's a header for a product page (It's important to know the context of your view!). Always wonder: How would it make sense for this content to be read?
+      internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text1")
+      /// And after giving it some thought, we decide to group the image and it's description as a single element, since the description exaplains the image itself, and group both labels into another element so they will be read together.
+      internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text2")
+      /// Grouping the image and it's description is easy! Since they are in the same hierarchy, we can take the parent view and group the elements together.
+      internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text3")
+      /// But grouping the labels together, to be read as a single element, will take some changes to our code.
+      internal static let text4 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text4")
+      /// Even though they are in the same hierarchy, their parent view also holds the other views on this header. In order to group the labels together, we need to embed them into another view, and group them into the parent.
+      internal static let text5 = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.text5")
+      /// Group your elements correctly
+      internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Group.title")
+    }
+    internal enum Hierarchy {
+      /// Example of a view hierarchy. This represents an UI component with a few views inside it. Different background colors represents a different level in the hierarchy.
+      internal static let example = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.example")
+      /// When building a view, we basically stack more views inside and on top of each other. We may have a base view, with a couple of labels inside it, or a complete mess of stacks with several components.
+      internal static let text1 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text1")
+      /// And why is it really important to understand your hierarchy? Most of it is not even visible in the final product. The user won't see if you used a single or multiple views on top of each other.
+      internal static let text2 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text2")
+      /// But it does matter for Accessibility.
+      internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text3")
+      /// Think beforehand how does it make sense for the screen reader to approach your component. Maybe it should be grouped into a single readable element, but maybe it has multiple buttons that should be focused individually.
+      internal static let text4 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text4")
+      /// Understading Hierarchy
+      internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.title")
+    }
+  }
+
   internal enum PreferCrossFadePage {
     /// This app uses a default navigation stack. Go to settings and change this accessibility option, then come back and try opening new scenes or going back to previous ones. The default slide transition should be replaced with cross-fades.
     internal static let comment1 = L10n.tr("Localizable", "PreferCrossFadePage.comment1")
@@ -1772,6 +2403,35 @@ internal enum L10n {
     internal static let text4 = L10n.tr("Localizable", "PreferCrossFadePage.text4")
     /// Prefers cross-fade transitions
     internal static let title = L10n.tr("Localizable", "PreferCrossFadePage.title")
+  }
+
+  internal enum PrepareTheGround {
+    /// So you are starting a new project? That's exciting!
+    internal static let text1 = L10n.tr("Localizable", "PrepareTheGround.text1")
+    /// That's the perfect time to think about what accessibility features you want to give support and prepare your project to support them.
+    internal static let text2 = L10n.tr("Localizable", "PrepareTheGround.text2")
+    /// But it's also the best time to create standards and code that will be easy to update and modified to support your project evolution.
+    internal static let text3 = L10n.tr("Localizable", "PrepareTheGround.text3")
+    /// And also the best part to keep accessibility in mind when creating these standards!
+    internal static let text4 = L10n.tr("Localizable", "PrepareTheGround.text4")
+    /// Prepare the Ground
+    internal static let title = L10n.tr("Localizable", "PrepareTheGround.title")
+    /// Xcode logo
+    internal static let xcodeLogo = L10n.tr("Localizable", "PrepareTheGround.xcodeLogo")
+    internal enum WhatToSupport {
+      /// But it's always better if you decide to support them right away!
+      internal static let comment1 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.comment1")
+      /// Well, ideally, we want to be able to support EVERYTHING!
+      internal static let text1 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text1")
+      /// But sometimes that's not feasible.
+      internal static let text2 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text2")
+      /// So, what we are going to discuss in this section, are ideas and tips to prepare your project to support accessibility features once you decide to support them!
+      internal static let text3 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text3")
+      /// Things like, having a Color file, preparing a custom Font file, are key to have a better transition when adding support to dark mode or dynamic fonts, for example.
+      internal static let text4 = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.text4")
+      /// What to support?
+      internal static let title = L10n.tr("Localizable", "PrepareTheGround.WhatToSupport.title")
+    }
   }
 
   internal enum ReduceMotion {
@@ -1832,6 +2492,27 @@ internal enum L10n {
       /// When enabled, the user want's to tell you they want to reduce the amount of blur and translucency on the app.
       internal static let text2 = L10n.tr("Localizable", "ReduceTransparency.Intro.text2")
     }
+  }
+
+  internal enum RepeatedViews {
+    /// In the example above, no subview has been grouped, so each one of them is going to be focused by the voice over individually.
+    internal static let example1 = L10n.tr("Localizable", "RepeatedViews.example1")
+    /// In this example, the views are grouped into a single accessible element.
+    internal static let example2 = L10n.tr("Localizable", "RepeatedViews.example2")
+    /// What do we mean by Repeated Views?
+    internal static let text1 = L10n.tr("Localizable", "RepeatedViews.text1")
+    /// Basically, tables or collections, which contains groups of views that are very similar.
+    internal static let text2 = L10n.tr("Localizable", "RepeatedViews.text2")
+    /// If you consider a screen reader going through this kind of content, you'd expect each element to be focused individually.
+    internal static let text3 = L10n.tr("Localizable", "RepeatedViews.text3")
+    /// And NOT focusing on each subviews of a single cell, to than move to the next cell.
+    internal static let text4 = L10n.tr("Localizable", "RepeatedViews.text4")
+    /// Check the following example describing the hierarchy of the views in different carousels, and notice how the VoiceOver navigates through them.
+    internal static let text5 = L10n.tr("Localizable", "RepeatedViews.text5")
+    /// You can make a huge difference with a single line of code!
+    internal static let text6 = L10n.tr("Localizable", "RepeatedViews.text6")
+    /// Repeated views
+    internal static let title = L10n.tr("Localizable", "RepeatedViews.title")
   }
 
   internal enum Rotor {
@@ -1931,6 +2612,37 @@ internal enum L10n {
     internal static let vanGoghImage = L10n.tr("Localizable", "RotorExample.vanGoghImage")
   }
 
+  internal enum RunIRL {
+    /// And the idea of this being an app is for you to be able to check how every option work on your own device!
+    internal static let comment1 = L10n.tr("Localizable", "RunIRL.comment1")
+    /// By real life, we mean on a real iOS device.
+    internal static let text1 = L10n.tr("Localizable", "RunIRL.text1")
+    /// This is the best way to test your accessibility, on a real device.
+    internal static let text2 = L10n.tr("Localizable", "RunIRL.text2")
+    /// All iOS devices have all the accessibility tools and options discussed in this app.
+    internal static let text3 = L10n.tr("Localizable", "RunIRL.text3")
+    /// By testing on a real device, you can validate many things that are not possible on the simulator: The gestures, notifications, speaking rates, rotors...
+    internal static let text4 = L10n.tr("Localizable", "RunIRL.text4")
+    /// But the most important part, is you getting comfortable with using the accessiblity tools, and understanding better their impact on code and on your users.
+    internal static let text5 = L10n.tr("Localizable", "RunIRL.text5")
+    /// Run the App in real life
+    internal static let title = L10n.tr("Localizable", "RunIRL.title")
+    internal enum Shortcuts {
+      /// Accessibility shortcuts on the iOS control center.
+      internal static let image = L10n.tr("Localizable", "RunIRL.Shortcuts.image")
+      /// Enabling and disabling accessibility options can be very slow and painful to do in order to test it.
+      internal static let text1 = L10n.tr("Localizable", "RunIRL.Shortcuts.text1")
+      /// So, iOS even comes with custom shortcuts that you can use to access these options faster.
+      internal static let text2 = L10n.tr("Localizable", "RunIRL.Shortcuts.text2")
+      /// You can add shortcuts to the control center for things like dynamic fonts and dark mode.
+      internal static let text3 = L10n.tr("Localizable", "RunIRL.Shortcuts.text3")
+      /// And there is even an accessibility shortcuts option on the Control Center!
+      internal static let text4 = L10n.tr("Localizable", "RunIRL.Shortcuts.text4")
+      /// Shortcuts
+      internal static let title = L10n.tr("Localizable", "RunIRL.Shortcuts.title")
+    }
+  }
+
   internal enum Search {
     internal enum Empty {
       /// Search all pages
@@ -2019,6 +2731,62 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "SuperFriend.title")
   }
 
+  internal enum TeamGame {
+    /// Bear with me! 🐻
+    internal static let comment1 = L10n.tr("Localizable", "TeamGame.comment1")
+    /// While learning accessibility by yourself feels good, it feels good to be able to reach people you could not before, it fells good to provide new services and content to a whole new group of people, you are most likely not going to handle it on your own.
+    internal static let text1 = L10n.tr("Localizable", "TeamGame.text1")
+    /// If you work on a company, on a startup, or you made a new app project with some friends, you know that creating a new app is not an easy task.
+    internal static let text2 = L10n.tr("Localizable", "TeamGame.text2")
+    /// And accessibility is not a developer or designer specific job. It's easy to think\n\n"Oh, our designer should have figured that!"\n\nOr even,\n\n"Accessibility? That's a job for our developers!"
+    internal static let text3 = L10n.tr("Localizable", "TeamGame.text3")
+    /// Think of it as part of your culture. Everybody should understand and question how accessibility should work.
+    internal static let text4 = L10n.tr("Localizable", "TeamGame.text4")
+    /// This way, we can make sure that we have the right questions and issues being tackled on every aspect of your application, on design, development, product... everything!
+    internal static let text5 = L10n.tr("Localizable", "TeamGame.text5")
+    /// Accessibility is a team game
+    internal static let title = L10n.tr("Localizable", "TeamGame.title")
+    internal enum ShareTheKnowledge {
+      /// And that goes for everything, not only accessibility!
+      internal static let comment1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.comment1")
+      /// Show to your peers whenever you create something nice, when you use a new feature that you have never used before.
+      internal static let text1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text1")
+      /// Spreading knowledge will help more people to know about it, and give them and yourself more tools to work with in the future.
+      internal static let text2 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text2")
+      /// And if you are using this app, you can even use the neat share tool on top of every page to bring people directly into an example of what you are talking about!
+      internal static let text3 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text3")
+      /// Share the knowledge
+      internal static let title = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.title")
+    }
+    internal enum TalkToYourTeam {
+      /// I know this sound a little like coaching, sorry about that, but it's important.
+      internal static let comment1 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.comment1")
+      /// I'm not a designer nor a specialist myself, I'm more of an enthusiast.
+      internal static let comment2 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.comment2")
+      /// What was the last time you asked your designer "Have you thought about how to interact with this element with a screen reader?"
+      internal static let text1 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text1")
+      /// Or what was the last time you asked your developer "How can we make this component have a better interaction when using accessibility features?"
+      internal static let text2 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text2")
+      /// By asking questions, you are bringing the discussion about accessibility into your daily work.
+      internal static let text3 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text3")
+      /// "This font seems small, do we have support for dynamic fonts?"
+      internal static let text4 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text4")
+      /// "The contrast does not seem good, have we checked for colorblindness? Do we have support for a increased contrast color pallet?"
+      internal static let text5 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text5")
+      /// Make questions. Usually, nobody is a specialist in accessibility, maybe someone knows more about a different platform than the one you are working with, and you can try connecting this knowledge with your current work.
+      internal static let text6 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text6")
+      /// But to make good questions, and give nice suggestions, you need to understand more what are you really working with.
+      internal static let text7 = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.text7")
+      /// Talk to your team
+      internal static let title = L10n.tr("Localizable", "TeamGame.TalkToYourTeam.title")
+    }
+  }
+
+  internal enum TestingForAccessibility {
+    /// Testing for Accessibility
+    internal static let title = L10n.tr("Localizable", "TestingForAccessibility.title")
+  }
+
   internal enum TheMagicPuzzle {
     /// I don't know what else to tell you...
     internal static let comment = L10n.tr("Localizable", "TheMagicPuzzle.comment")
@@ -2035,6 +2803,27 @@ internal enum L10n {
     internal static let text2 = L10n.tr("Localizable", "TheUpsideDown.text2")
     /// The Upside Down
     internal static let title = L10n.tr("Localizable", "TheUpsideDown.title")
+  }
+
+  internal enum ThinkingAccessibility {
+    /// The idea is to help you "think accessibility", understand common pitfalls and start a new project having a good idea of what you should expect when creating an iOS application.
+    internal static let comment1 = L10n.tr("Localizable", "ThinkingAccessibility.comment1")
+    /// So, sit tight! If you are new on the iOS accessibility world, this is going to be a wild ride!
+    internal static let comment2 = L10n.tr("Localizable", "ThinkingAccessibility.comment2")
+    /// This section is a different type of guide, where we want to show you how to think about accessibility while developing or creating new applications.
+    internal static let text1 = L10n.tr("Localizable", "ThinkingAccessibility.text1")
+    /// Accessibility is one of those things that if you say: "I want to improve accessibility on our app!", nobody is going to say no.
+    internal static let text2 = L10n.tr("Localizable", "ThinkingAccessibility.text2")
+    /// But it can get hard to start making these improvements and see a real impact to your users.
+    internal static let text3 = L10n.tr("Localizable", "ThinkingAccessibility.text3")
+    /// Or maybe you are starting a new app and you want to give support to accessibility features from the begining.
+    internal static let text4 = L10n.tr("Localizable", "ThinkingAccessibility.text4")
+    /// So, we are bringing a content based on real life experiences, alongside the common guide for all the accessibility options and features, to help you not only learn what they are, but the best scenarios to use them.
+    internal static let text5 = L10n.tr("Localizable", "ThinkingAccessibility.text5")
+    /// Welcome, to the Accessibility Handbook classes!
+    internal static let text6 = L10n.tr("Localizable", "ThinkingAccessibility.text6")
+    /// Thinking Accessibility
+    internal static let title = L10n.tr("Localizable", "ThinkingAccessibility.title")
   }
 
   internal enum TintableImages {
@@ -2060,6 +2849,29 @@ internal enum L10n {
       /// From Apple's documentation:
       internal static let text2 = L10n.tr("Localizable", "TintableImages.TintableImages.text2")
     }
+  }
+
+  internal enum TryItYourself {
+    /// What was the last time you ran your app with the VoiceOver running? Or that you tried to increase your fonts to see how your layout behaves?
+    internal static let comment1 = L10n.tr("Localizable", "TryItYourself.comment1")
+    /// Yep, thats it, try it for yourself!
+    internal static let text1 = L10n.tr("Localizable", "TryItYourself.text1")
+    /// Try not to keep wat you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...
+    internal static let text2 = L10n.tr("Localizable", "TryItYourself.text2")
+    /// Understand what they do, how they impact your code, and how to use them.
+    internal static let text3 = L10n.tr("Localizable", "TryItYourself.text3")
+    /// We even have hundreds of code examples to help you get started. But they are only examples.
+    internal static let text4 = L10n.tr("Localizable", "TryItYourself.text4")
+    /// You'll get it for yourself once you really start introducing these featuers on your code and your app.
+    internal static let text5 = L10n.tr("Localizable", "TryItYourself.text5")
+    /// And also, try running everything on a real device. Get the feel of how things work in the real life, out of Xcode.
+    internal static let text6 = L10n.tr("Localizable", "TryItYourself.text6")
+    /// The next sections, will introduce you to issues and common uses of accessibility. How to implement them, and how to plan to create more accessible apps.
+    internal static let text7 = L10n.tr("Localizable", "TryItYourself.text7")
+    /// Don't give up! We are just starting 😉
+    internal static let text8 = L10n.tr("Localizable", "TryItYourself.text8")
+    /// Try it yourself
+    internal static let title = L10n.tr("Localizable", "TryItYourself.title")
   }
 
   internal enum UIContentSizeCategory {
@@ -2099,6 +2911,99 @@ internal enum L10n {
       internal static let text1 = L10n.tr("Localizable", "UIFontMetrics.Intro.text1")
       /// Then, you load your custom font and scale it using the UIFontMetrics.
       internal static let text2 = L10n.tr("Localizable", "UIFontMetrics.Intro.text2")
+    }
+  }
+
+  internal enum UnderstandHowComponentsInteract {
+    /// On the last section, we discussed more about individual UI components, and how to handle their accessibility.
+    internal static let comment1 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.comment1")
+    /// Here, we'll be discussing about creating entire scenes, a composition of UI components.
+    internal static let text1 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text1")
+    /// When we bring more components together, the way they are placed on the screen, and more views that we may add to make the layout may change how we implement their accessibility.
+    internal static let text2 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text2")
+    /// Here, we have examples of individual components and their view hierarchy.
+    internal static let text3 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text3")
+    /// Individually, we should handle the accessibility for each component, but when we place them together on a veiw, we may add new components to make the correct layout, and it may change how we expect the accessibility navigation to work.
+    internal static let text4 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.text4")
+    /// Understand How Components Interact
+    internal static let title = L10n.tr("Localizable", "UnderstandHowComponentsInteract.title")
+    internal enum Scene {
+      /// And now, we can see how these components are used to build a whole new view.
+      internal static let text1 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text1")
+      /// On the diagram above, the new views necessary to build the scene are marked with a different background color.
+      internal static let text2 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text2")
+      /// Notice how we need more components and auxiliar views in order to make the scene to be built.
+      internal static let text3 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text3")
+      /// What we are going to investigate in this section, is what should we think and plan when building a new scene like this, and how it changes the accessibility of our components.
+      internal static let text4 = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.text4")
+      /// Place Components on a Scene
+      internal static let title = L10n.tr("Localizable", "UnderstandHowComponentsInteract.Scene.title")
+    }
+  }
+
+  internal enum UngroupedElements {
+    /// VoiceOver issues are usually hard to find when looking at just the code. Ideally, youn should test it using a real device or the accessibility inspector to verify how it behaves.
+    internal static let text1 = L10n.tr("Localizable", "UngroupedElements.text1")
+    /// But we do have some tips to help you keep an eye for it!
+    internal static let text2 = L10n.tr("Localizable", "UngroupedElements.text2")
+    /// VoiceOver Issues
+    internal static let title = L10n.tr("Localizable", "UngroupedElements.title")
+    internal enum UngroupedElements {
+      /// This is the most common issue on VoiceOver, but it's also the easiest to fix!
+      internal static let text1 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text1")
+      /// But to identify it on code, you need to first check what view this code is rendering and think: How should these elements be read by the VoiceOver?
+      internal static let text2 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text2")
+      /// Most times, we can figure how contents should be grouped by looking into the view hierarchy and noticing how the screen reader navigates on it.
+      internal static let text3 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text3")
+      /// And to identify a missing group, you just need to take a look on the parent view! And check if it's being grouped or not.
+      internal static let text4 = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.text4")
+      /// Ungrouped elements
+      internal static let title = L10n.tr("Localizable", "UngroupedElements.UngroupedElements.title")
+    }
+    internal enum UngroupedExamples {
+      /// And if the carousel contains mnore cells horizontally, the titles are all gonna be read before the descriptions.
+      internal static let comment1 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.comment1")
+      /// Why combine? We want it to become a single element, and that's exaclty what the combine does!
+      internal static let comment2 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.comment2")
+      /// The code above renders a cell that is being reused on a carousel.
+      internal static let text1 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text1")
+      /// If you check the parent view (the VStack), you can notice that it's not being grouped.
+      internal static let text2 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text2")
+      /// So the cells are not being read as a single element, but the title is being read separate from the content, on all cells!
+      internal static let text3 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text3")
+      /// To solve it, you just need to group the elements on the parent view using the combine strategy.
+      internal static let text4 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text4")
+      /// On UIKit it's a bit trickier. You will still need to check the parent view, but now you should verify if it is an accessible element, and if it has the correct accessibility label as a combination of it's childs.
+      internal static let text5 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text5")
+      /// If you don't notice ANY accessibility code being implemented, pay atention! I always suggest having a method that configures the accessibility of the views, so it's easy to find when reviewing.
+      internal static let text6 = L10n.tr("Localizable", "UngroupedElements.UngroupedExamples.text6")
+    }
+  }
+
+  internal enum ValidateColors {
+    /// If you have a centralized color file, make sure to use it!
+    internal static let comment1 = L10n.tr("Localizable", "ValidateColors.comment1")
+    /// This one is easy! Every time you build a new view, you should use the correct colors for everything.
+    internal static let text1 = L10n.tr("Localizable", "ValidateColors.text1")
+    /// And if you support multiple solor schemes (ligh, dark, increased contrast...), you should make sure all of them work as expected.
+    internal static let text2 = L10n.tr("Localizable", "ValidateColors.text2")
+    /// And careful with background colors. Don't set them to white or black, have an adaptable background color. Otherwise you may enconter bugs while changing the current scheme.
+    internal static let text3 = L10n.tr("Localizable", "ValidateColors.text3")
+    /// Validate Colors
+    internal static let title = L10n.tr("Localizable", "ValidateColors.title")
+    internal enum Design {
+      /// 
+      internal static let title = L10n.tr("Localizable", "ValidateColors.Design.title")
+    }
+    internal enum FixedBackground {
+      /// Here are some examples of using non adaptable colors, they may seem ok on your current color scheme, but try changing between light and dark mode and see how they behave.
+      internal static let text1 = L10n.tr("Localizable", "ValidateColors.FixedBackground.text1")
+      /// This kind of issue may also happen when using a mix of system colors for some things (which are adaptable), but using your own colors for other things.
+      internal static let text2 = L10n.tr("Localizable", "ValidateColors.FixedBackground.text2")
+      /// And this can be really bad, because if some of the colors change, part of your content may disappear after the transition.
+      internal static let text3 = L10n.tr("Localizable", "ValidateColors.FixedBackground.text3")
+      /// Non adaptable colors
+      internal static let title = L10n.tr("Localizable", "ValidateColors.FixedBackground.title")
     }
   }
 
@@ -2187,6 +3092,10 @@ internal enum L10n {
     internal enum _170 {
       /// New Home Screen layout for iPads and iPhones in landscape! Now we are using better the available size on the screen for both formats.\nAnd a brand new Rotor example page where you can try using custom rotors for yourself.
       internal static let description = L10n.tr("Localizable", "WhatsNew.1_7_0.description")
+    }
+    internal enum _180 {
+      /// Introducing: Classes!\nOur new update with content about how to think accessibility while implementing, with tools examples, code, diagrams... We're trying to give more content not only on what the accessibility features and options are, but also how to identify where to use them. It's really nice, take a look!
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_8_0.description")
     }
   }
 

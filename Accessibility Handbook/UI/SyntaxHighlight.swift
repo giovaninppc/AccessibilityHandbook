@@ -37,6 +37,8 @@ private extension SyntaxHighlight {
     highlight(match: "return", color: .systemPink, bolded: true)
     highlight(match: "class ", color: .systemPink, bolded: true)
     highlight(match: "struct ", color: .systemPink, bolded: true)
+    highlight(match: "public ", color: .systemPink, bolded: true)
+    highlight(match: "enum ", color: .systemPink, bolded: true)
     highlight(match: "let ", color: .systemPink, bolded: true)
     highlight(match: "var ", color: .systemPink, bolded: true)
     highlight(match: "switch ", color: .systemPink, bolded: true)
@@ -49,6 +51,7 @@ private extension SyntaxHighlight {
     highlight(match: "@[A-Za-z]*", color: .systemPink, bolded: true)
     highlight(match: "extension ", color: .systemPink, bolded: true)
     highlight(match: "static ", color: .systemPink, bolded: true)
+    highlight(match: " some ", color: .systemPink, bolded: true)
   }
 
   func types() {

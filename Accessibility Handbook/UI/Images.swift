@@ -25,10 +25,17 @@ internal enum Asset {
   internal static let neonHighlight = ColorAsset(name: "NeonHighlight")
   internal static let spookyBackground = ColorAsset(name: "SpookyBackground")
   internal static let unlimitedFire = ColorAsset(name: "UnlimitedFire")
+  internal static let accessibilityInspector = ImageAsset(name: "AccessibilityInspector")
+  internal static let insectorInspecting = ImageAsset(name: "insectorInspecting")
   internal static let xcAssetscolorScheme = ImageAsset(name: "XCAssetscolorScheme")
   internal static let bird = ImageAsset(name: "bird")
   internal static let cards = ImageAsset(name: "cards")
+  internal static let classWelcomeApp = ImageAsset(name: "classWelcomeApp")
+  internal static let classWelcomeCode = ImageAsset(name: "classWelcomeCode")
+  internal static let classWelcomeLogo = ImageAsset(name: "classWelcomeLogo")
+  internal static let classWelcomeThink = ImageAsset(name: "classWelcomeThink")
   internal static let coloblindWireGame = ImageAsset(name: "coloblindWireGame")
+  internal static let controlCenterAccessibilityShortcuts = ImageAsset(name: "controlCenterAccessibilityShortcuts")
   internal static let cursor = ImageAsset(name: "cursor")
   internal static let emptySearch = ImageAsset(name: "empty-search")
   internal static let empty = ImageAsset(name: "empty")
@@ -43,6 +50,7 @@ internal enum Asset {
   internal static let tintable = ImageAsset(name: "tintable")
   internal static let tortoise = ImageAsset(name: "tortoise")
   internal static let vanGogh = ImageAsset(name: "vanGogh")
+  internal static let xcode = ImageAsset(name: "xcode")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 

@@ -9,25 +9,39 @@ import SwiftUI
 
 struct Disclaimer: View {
   let icon: Image
-  let content: String
+  let content: String?
+  let attributedContent: AttributedString?
   let color: Color
 
-  init(icon: Image = Icon.exclamation, content: String, color: Color = .yellow) {
+  init(icon: Image = Icon.exclamation, content: String? = nil, attributedContent: AttributedString? = nil, color: Color = .yellow) {
     self.icon = icon
     self.content = content
     self.color = color
+    self.attributedContent = attributedContent
   }
 
   var body: some View {
     HStack(alignment: .center) {
       VStack {
         icon
+          .foregroundColor(.primary)
           .frame(width: 20.0, height: 20.0)
           .accessibilityHidden(true)
-        Spacer()
       }
-      .padding()
-      Text(content)
+      .padding(.vertical)
+      .padding(.horizontal, .compact)
+      if let content = content {
+        Text(content)
+          .font(.callout)
+          .fixedSize(horizontal: false, vertical: true)
+      }
+      if let attributedContent = attributedContent {
+        Text(attributedContent)
+          .font(.callout)
+          .foregroundColor(.primary)
+          .multilineTextAlignment(.leading)
+          .fixedSize(horizontal: false, vertical: true)
+      }
       Spacer()
     }
     .padding()
@@ -36,5 +50,26 @@ struct Disclaimer: View {
         .foregroundColor(color)
         .opacity(0.2)
     }
+  }
+}
+
+extension Disclaimer {
+  static func beforeYouReadThis(check page: String, destination: Deeplink) -> some View {
+    VStack(alignment: .leading, spacing: .regular) {
+      Button {
+        open(destination)
+      } label: {
+        Disclaimer(icon: Icon.bookshelf, attributedContent: beforeYouReadContent(page), color: .pink)
+      }
+      .accessibilityElement(children: .combine)
+    }
+  }
+
+  private static func beforeYouReadContent(_ page: String) -> AttributedString {
+    var attributedString = AttributedString(stringLiteral: L10n.LearnAccessibility.beforeYouReadThis)
+    var button = AttributedString(page)
+    button.underlineStyle = Text.LineStyle(pattern: .solid, color: .primary)
+    attributedString.append(button)
+    return attributedString
   }
 }

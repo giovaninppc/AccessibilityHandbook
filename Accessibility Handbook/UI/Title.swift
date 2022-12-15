@@ -19,5 +19,6 @@ struct Title: View {
       .font(.title2.bold())
       .foregroundColor(.primary)
       .accessibilityAddTraits(.isHeader)
+      .padding(.top)
   }
 }
