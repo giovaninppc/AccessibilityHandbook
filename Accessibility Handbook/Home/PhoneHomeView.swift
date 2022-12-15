@@ -128,9 +128,9 @@ private extension PhoneHomeView {
           .aspectRatio(contentMode: .fit)
           .frame(width: 50.0, height: 50.0)
         VStack {
-          Text("Classes")
+          Text(L10n.Home.classes)
             .font(.title3.bold())
-          Comment("Learn how to plan and prepare accessibility on your apps!")
+          Comment(L10n.Home.classesDescription)
         }
       }
       .frame(maxWidth: 350.0)

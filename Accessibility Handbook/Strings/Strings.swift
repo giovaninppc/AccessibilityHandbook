@@ -2201,6 +2201,72 @@ internal enum L10n {
     internal static let title = L10n.tr("Localizable", "MakingANewView.title")
   }
 
+  internal enum MissingAccessibilityActions {
+    /// We've already discussed the importance of handling all the actions you have on regular input also on VoiceOver.
+    internal static let text1 = L10n.tr("Localizable", "MissingAccessibilityActions.text1")
+    /// And here we'll talk a bit on how to identify this kind of issues by looking into the code.
+    internal static let text2 = L10n.tr("Localizable", "MissingAccessibilityActions.text2")
+    /// Missing Accessibility Actions
+    internal static let title = L10n.tr("Localizable", "MissingAccessibilityActions.title")
+    internal enum Gesture {
+      /// The long press gesture is an exception, when using it, the accessible component will gain the triple tap gesture, which simulates the long press. But in these cases, it's important to announce it using some other content, like an accessibility hint.
+      internal static let comment1 = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.comment1")
+      /// When using custom gestures, you need to provide a way to support that gesture with screen readers.
+      internal static let text1 = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.text1")
+      /// The example above uses a tap gesture (and it's even grouped!), very simple. But when using VoiceOver, and you activate the element, the gesture is not going to be triggered. SO you need to manually add it to the code.
+      internal static let text2 = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.text2")
+      /// Gestures
+      internal static let title = L10n.tr("Localizable", "MissingAccessibilityActions.Gesture.title")
+    }
+    internal enum Group {
+      /// And if you are grouping multiple buttons together, oh boy! That's a good example for a custom actions!
+      internal static let comment1 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.comment1")
+      /// When grouping elements, we may end up grouping a button together.
+      internal static let text1 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.text1")
+      /// When grouping elements, we may end up grouping a button together. And if we don't handle it correctly, we may end up losing the button's action.
+      internal static let text2 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.text2")
+      /// In this case, we need to make sure that the grouped element has the button trait, and it executes the same action of the button when activated.
+      internal static let text3 = L10n.tr("Localizable", "MissingAccessibilityActions.Group.text3")
+      /// Group elements with buttons
+      internal static let title = L10n.tr("Localizable", "MissingAccessibilityActions.Group.title")
+    }
+  }
+
+  internal enum MixOfColors {
+    /// What?
+    internal static let comment1 = L10n.tr("Localizable", "MixOfColors.comment1")
+    /// Here, mix of colors is mixing adaptable colors with non-adaptable colors.
+    internal static let text1 = L10n.tr("Localizable", "MixOfColors.text1")
+    /// And this may seem silly, but if you do support multiple color modes, you should be really careful to mix colors from different sources.
+    internal static let text2 = L10n.tr("Localizable", "MixOfColors.text2")
+    /// Mix of colors
+    internal static let title = L10n.tr("Localizable", "MixOfColors.title")
+    internal enum CounterExample {
+      /// Sometimes it does make sense to use fixed colors.
+      internal static let text1 = L10n.tr("Localizable", "MixOfColors.CounterExample.text1")
+      /// It usually comes when using a solid background color (that is not the default background color) to highlight a component, like a button.
+      internal static let text2 = L10n.tr("Localizable", "MixOfColors.CounterExample.text2")
+      /// In this case, we want the text color to always be white, because it sits on top of a colorful background, even if it changes the color scheme.
+      internal static let text3 = L10n.tr("Localizable", "MixOfColors.CounterExample.text3")
+      /// Counter Example
+      internal static let title = L10n.tr("Localizable", "MixOfColors.CounterExample.title")
+    }
+    internal enum Example {
+      /// It seems harmless, doesn't it?
+      internal static let comment1 = L10n.tr("Localizable", "MixOfColors.Example.comment1")
+      /// The text above renders the example on the code. Try changing your color scheme and see how it behaves.
+      internal static let comment2 = L10n.tr("Localizable", "MixOfColors.Example.comment2")
+      /// Take a look at the code below.
+      internal static let text1 = L10n.tr("Localizable", "MixOfColors.Example.text1")
+      /// By default, the text color is adaptable, so in thie example, we are placing an adaptable text on top of a solid color (that should be your background color).
+      internal static let text2 = L10n.tr("Localizable", "MixOfColors.Example.text2")
+      /// But if you switch the color scheme, the text will disappear.
+      internal static let text3 = L10n.tr("Localizable", "MixOfColors.Example.text3")
+      /// And this will also happen on UIKit, so you always need to test all the color schemes when implementing it, and finding fixed colors may be a flag that something may be wrong.
+      internal static let text4 = L10n.tr("Localizable", "MixOfColors.Example.text4")
+    }
+  }
+
   internal enum Modal {
     /// Modal views
     internal static let title = L10n.tr("Localizable", "Modal.title")
@@ -2749,6 +2815,8 @@ internal enum L10n {
     internal enum ShareTheKnowledge {
       /// And that goes for everything, not only accessibility!
       internal static let comment1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.comment1")
+      /// Discuss accessibility with your peers!
+      internal static let image = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.image")
       /// Show to your peers whenever you create something nice, when you use a new feature that you have never used before.
       internal static let text1 = L10n.tr("Localizable", "TeamGame.ShareTheKnowledge.text1")
       /// Spreading knowledge will help more people to know about it, and give them and yourself more tools to work with in the future.

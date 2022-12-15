@@ -28,6 +28,7 @@ private extension LearnTheFeaturesPage {
     Text(L10n.LearnTheFeatures.text1)
     Text(L10n.LearnTheFeatures.text2)
     Text(L10n.LearnTheFeatures.text3)
+    CenterSafesizedImage(image: Asset.classWelcomeApp.swiftUIImage)
   }
 
   @ViewBuilder

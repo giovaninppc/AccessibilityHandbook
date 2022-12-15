@@ -1250,6 +1250,7 @@
 "TeamGame.ShareTheKnowledge.text2" = "Spreading knowledge will help more people to know about it, and give them and yourself more tools to work with in the future.";
 "TeamGame.ShareTheKnowledge.comment1" = "And that goes for everything, not only accessibility!";
 "TeamGame.ShareTheKnowledge.text3" = "And if you are using this app, you can even use the neat share tool on top of every page to bring people directly into an example of what you are talking about!";
+"TeamGame.ShareTheKnowledge.image" = "Discuss accessibility with your peers!";
 
 // Learn the Features - Page
 
@@ -1707,3 +1708,39 @@
 "AccessibilityWelcome.close" = "Close";
 "AccessibilityWelcome.more" = "Open classes onboarding";
 "AccessibilityWelcome.letsgo" = "Let's go!";
+
+// Mix of colors
+
+"MixOfColors.title" = "Mix of colors";
+"MixOfColors.comment1" = "What?";
+"MixOfColors.text1" = "Here, mix of colors is mixing adaptable colors with non-adaptable colors.";
+"MixOfColors.text2" = "And this may seem silly, but if you do support multiple color modes, you should be really careful to mix colors from different sources.";
+
+"MixOfColors.Example.text1" = "Take a look at the code below.";
+"MixOfColors.Example.comment1" = "It seems harmless, doesn't it?";
+"MixOfColors.Example.text2" = "By default, the text color is adaptable, so in thie example, we are placing an adaptable text on top of a solid color (that should be your background color).";
+"MixOfColors.Example.text3" = "But if you switch the color scheme, the text will disappear.";
+"MixOfColors.Example.comment2" = "The text above renders the example on the code. Try changing your color scheme and see how it behaves.";
+"MixOfColors.Example.text4" = "And this will also happen on UIKit, so you always need to test all the color schemes when implementing it, and finding fixed colors may be a flag that something may be wrong.";
+
+"MixOfColors.CounterExample.title" = "Counter Example";
+"MixOfColors.CounterExample.text1" = "Sometimes it does make sense to use fixed colors.";
+"MixOfColors.CounterExample.text2" = "It usually comes when using a solid background color (that is not the default background color) to highlight a component, like a button.";
+"MixOfColors.CounterExample.text3" = "In this case, we want the text color to always be white, because it sits on top of a colorful background, even if it changes the color scheme.";
+
+// Missing Accessibility Actions
+
+"MissingAccessibilityActions.title" = "Missing Accessibility Actions";
+"MissingAccessibilityActions.text1" = "We've already discussed the importance of handling all the actions you have on regular input also on VoiceOver.";
+"MissingAccessibilityActions.text2" = "And here we'll talk a bit on how to identify this kind of issues by looking into the code.";
+
+"MissingAccessibilityActions.Gesture.title" = "Gestures";
+"MissingAccessibilityActions.Gesture.text1" = "When using custom gestures, you need to provide a way to support that gesture with screen readers.";
+"MissingAccessibilityActions.Gesture.comment1" = "The long press gesture is an exception, when using it, the accessible component will gain the triple tap gesture, which simulates the long press. But in these cases, it's important to announce it using some other content, like an accessibility hint.";
+"MissingAccessibilityActions.Gesture.text2" = "The example above uses a tap gesture (and it's even grouped!), very simple. But when using VoiceOver, and you activate the element, the gesture is not going to be triggered. SO you need to manually add it to the code.";
+
+"MissingAccessibilityActions.Group.title" = "Group elements with buttons";
+"MissingAccessibilityActions.Group.text1" = "When grouping elements, we may end up grouping a button together.";
+"MissingAccessibilityActions.Group.text2" = "When grouping elements, we may end up grouping a button together. And if we don't handle it correctly, we may end up losing the button's action.";
+"MissingAccessibilityActions.Group.text3" = "In this case, we need to make sure that the grouped element has the button trait, and it executes the same action of the button when activated.";
+"MissingAccessibilityActions.Group.comment1" = "And if you are grouping multiple buttons together, oh boy! That's a good example for a custom actions!";

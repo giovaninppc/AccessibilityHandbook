@@ -31,6 +31,10 @@ private extension TeamGamePage {
     Text(L10n.TeamGame.text3)
     Text(L10n.TeamGame.text4)
     Text(L10n.TeamGame.text5)
+    CenterSafesizedImage(
+      image: Asset.classWelcomeCode.swiftUIImage,
+      description: L10n.TeamGame.ShareTheKnowledge.image
+    )
   }
 
   @ViewBuilder
