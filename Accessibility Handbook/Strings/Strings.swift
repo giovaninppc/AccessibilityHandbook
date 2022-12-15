@@ -452,7 +452,7 @@ internal enum L10n {
       internal static let title = L10n.tr("Localizable", "AccessibilityInspector.Auditing.title")
     }
     internal enum InspectTools {
-      /// When enabled, you can use your mouse to select which view to focus on the simulator..
+      /// When enabled, you can use your mouse to select which view to focus on the simulator.
       internal static let focus = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.focus")
       /// The inspector navigating tools. From left to right: Enable content read, previous element, navigate automatically, next element.
       internal static let image = L10n.tr("Localizable", "AccessibilityInspector.InspectTools.image")
@@ -2580,6 +2580,37 @@ internal enum L10n {
     internal static let vanGogh = L10n.tr("Localizable", "RotorExample.vanGogh")
     /// Self portrait, by Vincent Van Gogh.
     internal static let vanGoghImage = L10n.tr("Localizable", "RotorExample.vanGoghImage")
+  }
+
+  internal enum RunIRL {
+    /// And the idea of this being an app is for you to be able to check how every option work on your own device!
+    internal static let comment1 = L10n.tr("Localizable", "RunIRL.comment1")
+    /// By real life, we mean on a real iOS device.
+    internal static let text1 = L10n.tr("Localizable", "RunIRL.text1")
+    /// This is the best way to test your accessibility, on a real device.
+    internal static let text2 = L10n.tr("Localizable", "RunIRL.text2")
+    /// All iOS devices have all the accessibility tools and options discussed in this app.
+    internal static let text3 = L10n.tr("Localizable", "RunIRL.text3")
+    /// By testing on a real device, you can validate many things that are not possible on the simulator: The gestures, notifications, speaking rates, rotors...
+    internal static let text4 = L10n.tr("Localizable", "RunIRL.text4")
+    /// But the most important part, is you getting comfortable with using the accessiblity tools, and understanding better their impact on code and on your users.
+    internal static let text5 = L10n.tr("Localizable", "RunIRL.text5")
+    /// Run the App in real life
+    internal static let title = L10n.tr("Localizable", "RunIRL.title")
+    internal enum Shortcuts {
+      /// Accessibility shortcuts on the iOS control center.
+      internal static let image = L10n.tr("Localizable", "RunIRL.Shortcuts.image")
+      /// Enabling and disabling accessibility options can be very slow and painful to do in order to test it.
+      internal static let text1 = L10n.tr("Localizable", "RunIRL.Shortcuts.text1")
+      /// So, iOS even comes with custom shortcuts that you can use to access these options faster.
+      internal static let text2 = L10n.tr("Localizable", "RunIRL.Shortcuts.text2")
+      /// You can add shortcuts to the control center for things like dynamic fonts and dark mode.
+      internal static let text3 = L10n.tr("Localizable", "RunIRL.Shortcuts.text3")
+      /// And there is even an accessibility shortcuts option on the Control Center!
+      internal static let text4 = L10n.tr("Localizable", "RunIRL.Shortcuts.text4")
+      /// Shortcuts
+      internal static let title = L10n.tr("Localizable", "RunIRL.Shortcuts.title")
+    }
   }
 
   internal enum Search {

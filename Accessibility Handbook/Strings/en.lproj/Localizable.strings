@@ -1646,3 +1646,20 @@
 "AccessibilityInspector.Options.title" = "Change Options";
 "AccessibilityInspector.Options.text1" = "And the last tab provides a fast access to changing accessibility options on your simulator.";
 "AccessibilityInspector.Options.text2" = "It can be really useful if you are testing more than one accessibility option at once, and can quickly move between them.";
+
+// RunIRL
+
+"RunIRL.title" = "Run the App in real life";
+"RunIRL.text1" = "By real life, we mean on a real iOS device.";
+"RunIRL.text2" = "This is the best way to test your accessibility, on a real device.";
+"RunIRL.text3" = "All iOS devices have all the accessibility tools and options discussed in this app.";
+"RunIRL.comment1" = "And the idea of this being an app is for you to be able to check how every option work on your own device!";
+"RunIRL.text4" = "By testing on a real device, you can validate many things that are not possible on the simulator: The gestures, notifications, speaking rates, rotors...";
+"RunIRL.text5" = "But the most important part, is you getting comfortable with using the accessiblity tools, and understanding better their impact on code and on your users.";
+
+"RunIRL.Shortcuts.title" = "Shortcuts";
+"RunIRL.Shortcuts.text1" = "Enabling and disabling accessibility options can be very slow and painful to do in order to test it.";
+"RunIRL.Shortcuts.text2" = "So, iOS even comes with custom shortcuts that you can use to access these options faster.";
+"RunIRL.Shortcuts.text3" = "You can add shortcuts to the control center for things like dynamic fonts and dark mode.";
+"RunIRL.Shortcuts.text4" = "And there is even an accessibility shortcuts option on the Control Center!";
+"RunIRL.Shortcuts.image" = "Accessibility shortcuts on the iOS control center.";
