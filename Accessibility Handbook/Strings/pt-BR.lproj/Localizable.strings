@@ -1669,3 +1669,41 @@
 "RunIRL.Shortcuts.text3" = "You can add shortcuts to the control center for things like dynamic fonts and dark mode.";
 "RunIRL.Shortcuts.text4" = "And there is even an accessibility shortcuts option on the Control Center!";
 "RunIRL.Shortcuts.image" = "Accessibility shortcuts on the iOS control center.";
+
+// Identify Issues
+
+"IdentifyIssues.title" = "Identify issues";
+
+// UngroupedElements
+
+"UngroupedElements.title" = "VoiceOver Issues";
+"UngroupedElements.text1" = "VoiceOver issues are usually hard to find when looking at just the code. Ideally, youn should test it using a real device or the accessibility inspector to verify how it behaves.";
+"UngroupedElements.text2" = "But we do have some tips to help you keep an eye for it!";
+
+"UngroupedElements.UngroupedElements.title" = "Ungrouped elements";
+"UngroupedElements.UngroupedElements.text1" = "This is the most common issue on VoiceOver, but it's also the easiest to fix!";
+"UngroupedElements.UngroupedElements.text2" = "But to identify it on code, you need to first check what view this code is rendering and think: How should these elements be read by the VoiceOver?";
+"UngroupedElements.UngroupedElements.text3" = "Most times, we can figure how contents should be grouped by looking into the view hierarchy and noticing how the screen reader navigates on it.";
+"UngroupedElements.UngroupedElements.text4" = "And to identify a missing group, you just need to take a look on the parent view! And check if it's being grouped or not.";
+
+"UngroupedElements.UngroupedExamples.text1" = "The code above renders a cell that is being reused on a carousel.";
+"UngroupedElements.UngroupedExamples.text2" = "If you check the parent view (the VStack), you can notice that it's not being grouped.";
+"UngroupedElements.UngroupedExamples.text3" = "So the cells are not being read as a single element, but the title is being read separate from the content, on all cells!";
+"UngroupedElements.UngroupedExamples.comment1" = "And if the carousel contains mnore cells horizontally, the titles are all gonna be read before the descriptions.";
+"UngroupedElements.UngroupedExamples.text4" = "To solve it, you just need to group the elements on the parent view using the combine strategy.";
+"UngroupedElements.UngroupedExamples.comment2" = "Why combine? We want it to become a single element, and that's exaclty what the combine does!";
+"UngroupedElements.UngroupedExamples.text5" = "On UIKit it's a bit trickier. You will still need to check the parent view, but now you should verify if it is an accessible element, and if it has the correct accessibility label as a combination of it's childs.";
+"UngroupedElements.UngroupedExamples.text6" = "If you don't notice ANY accessibility code being implemented, pay atention! I always suggest having a method that configures the accessibility of the views, so it's easy to find when reviewing.";
+
+// Accessibility Welcome
+
+"AccessibilityWelcome.card1" = "Do you want to make your apps more accessible but you don't know how?";
+"AccessibilityWelcome.card2" = "Do you think sometimes: \"I know the accessibility features, but I just don't know where to use them\"?";
+"AccessibilityWelcome.card3" = "Do you want to be able to create and review code keeping accessibility in mind?";
+"AccessibilityWelcome.card4" = "Introducing: Classes!\n\nOur new content focused to help you learn just that.\nWhat to think and what to expect when considering accessibility on your apps!";
+
+"AccessibilityWelcome.next" = "Next";
+"AccessibilityWelcome.previous" = "Previous";
+"AccessibilityWelcome.close" = "Close";
+"AccessibilityWelcome.more" = "Open classes onboarding";
+"AccessibilityWelcome.letsgo" = "Let's go!";
