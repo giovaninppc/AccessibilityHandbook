@@ -555,6 +555,8 @@ internal enum L10n {
     internal static let card4 = L10n.tr("Localizable", "AccessibilityWelcome.card4")
     /// Close
     internal static let close = L10n.tr("Localizable", "AccessibilityWelcome.close")
+    /// Double tap to move to next item
+    internal static let hint = L10n.tr("Localizable", "AccessibilityWelcome.hint")
     /// Let's go!
     internal static let letsgo = L10n.tr("Localizable", "AccessibilityWelcome.letsgo")
     /// Open classes onboarding
@@ -3010,7 +3012,7 @@ internal enum L10n {
   }
 
   internal enum UngroupedElements {
-    /// VoiceOver issues are usually hard to find when looking at just the code. Ideally, youn should test it using a real device or the accessibility inspector to verify how it behaves.
+    /// VoiceOver issues are usually hard to find when looking at just the code. Ideally, you should test it using a real device or the accessibility inspector to verify how it behaves.
     internal static let text1 = L10n.tr("Localizable", "UngroupedElements.text1")
     /// But we do have some tips to help you keep an eye for it!
     internal static let text2 = L10n.tr("Localizable", "UngroupedElements.text2")

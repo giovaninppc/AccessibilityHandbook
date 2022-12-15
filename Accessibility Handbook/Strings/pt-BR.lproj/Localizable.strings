@@ -1708,6 +1708,7 @@
 "AccessibilityWelcome.close" = "Close";
 "AccessibilityWelcome.more" = "Open classes onboarding";
 "AccessibilityWelcome.letsgo" = "Let's go!";
+"AccessibilityWelcome.hint" = "Double tap to move to next item";
 
 // Mix of colors
 

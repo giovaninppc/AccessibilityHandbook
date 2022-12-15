@@ -125,6 +125,17 @@ private extension ClassWelcome {
       guard index < content.count - 1 else { return }
       index += 1
     }
+    .accessibilityHint(L10n.AccessibilityWelcome.hint)
+    .gesture(DragGesture().onEnded({ value in
+      switch value.translation.width {
+      case let value where value < 0 && index > 0:
+        index -= 1
+      case let value where value > 0 && index < content.count - 1:
+        index += 1
+      default:
+        break
+      }
+    }))
   }
 
   @ViewBuilder
