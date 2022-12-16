@@ -22,6 +22,7 @@ struct CenterSafesizedImage: View {
         .resizable()
         .aspectRatio(contentMode: .fit)
         .frame(maxWidth: 350.0)
+        .accessibilityHidden(true)
       if let text = description {
         Comment(text)
           .multilineTextAlignment(.center)

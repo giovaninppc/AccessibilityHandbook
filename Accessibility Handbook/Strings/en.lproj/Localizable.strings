@@ -1275,10 +1275,10 @@
 
 "TryItYourself.title" = "Try it yourself";
 "TryItYourself.text1" = "Yep, thats it, try it for yourself!";
-"TryItYourself.text2" = "Try not to keep wat you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...";
+"TryItYourself.text2" = "Try not to keep what you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...";
 "TryItYourself.text3" = "Understand what they do, how they impact your code, and how to use them.";
 "TryItYourself.text4" = "We even have hundreds of code examples to help you get started. But they are only examples.";
-"TryItYourself.text5" = "You'll get it for yourself once you really start introducing these featuers on your code and your app.";
+"TryItYourself.text5" = "You'll get it for yourself once you really start introducing these features on your code and your app.";
 "TryItYourself.text6" = "And also, try running everything on a real device. Get the feel of how things work in the real life, out of Xcode.";
 "TryItYourself.comment1" = "What was the last time you ran your app with the VoiceOver running? Or that you tried to increase your fonts to see how your layout behaves?";
 "TryItYourself.text7" = "The next sections, will introduce you to issues and common uses of accessibility. How to implement them, and how to plan to create more accessible apps.";
