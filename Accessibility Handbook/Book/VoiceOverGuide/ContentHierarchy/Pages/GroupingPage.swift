@@ -18,6 +18,8 @@ struct GroupingPage: View, Page {
         badCarousel
         uiKitExample
         swiftUIExample
+        contain
+        containedCarousel
       }
       .toAny()
     }
@@ -34,6 +36,18 @@ private extension GroupingPage {
       Comment(L10n.Grouping.comment)
       Text(L10n.Grouping.text3)
     }
+  }
+
+  @ViewBuilder
+  var contain: some View {
+    Title(L10n.Grouping.Contain.title)
+    Text(L10n.Grouping.Contain.text1)
+    Text(L10n.Grouping.Contain.text2)
+    Comment(L10n.Grouping.Contain.comment1)
+    Text(L10n.Grouping.Contain.text3)
+    Text(L10n.Grouping.Contain.text4)
+    Comment(L10n.Grouping.Contain.comment2)
+    Text(L10n.Grouping.Contain.text5)
   }
 }
 
@@ -62,6 +76,38 @@ private extension GroupingPage {
     }
     .padding()
     .accessibilityElement(children: .combine)
+    .background {
+      RoundedRectangle(cornerRadius: 8.0)
+        .foregroundColor(.secondaryBackground)
+    }
+  }
+}
+
+// MARK: - Contained Carousel
+
+private extension GroupingPage {
+  var containedCarousel: some View {
+    VStack(alignment: .leading, spacing: .large) {
+      Title(L10n.Grouping.goodCarousel)
+      ScrollView(.horizontal, showsIndicators: false) {
+        HStack(spacing: .large) {
+          ForEach(1...5, id: \.self) { _ in
+            containedCell
+          }
+        }
+      }
+    }
+  }
+
+  var containedCell: some View {
+    VStack(spacing: .regular) {
+      Text(L10n.Grouping.cellTitle)
+        .font(.title)
+      Text(L10n.Grouping.cellContent)
+      Comment(L10n.Grouping.cellComment)
+    }
+    .padding()
+    .accessibilityElement(children: .contain)
     .background {
       RoundedRectangle(cornerRadius: 8.0)
         .foregroundColor(.secondaryBackground)
@@ -100,12 +146,9 @@ private extension GroupingPage {
   }
 }
 
-// MARK: - UIKit
-
 private extension GroupingPage {
   var uiKitExample: some View {
     Group {
-      Title(L10n.uikit)
       Text(L10n.Grouping.Uikit.text)
       Code.uikit(
         """
@@ -121,14 +164,9 @@ private extension GroupingPage {
       )
     }
   }
-}
 
-// MARK: - SwiftUI
-
-private extension GroupingPage {
   var swiftUIExample: some View {
     Group {
-      Title(L10n.swiftUI)
       Text(L10n.Grouping.Swiftui.text)
       Code.swiftUI(
         """
@@ -138,5 +176,18 @@ private extension GroupingPage {
         """
       )
     }
+  }
+
+  @ViewBuilder
+  var containedCellExample: some View {
+    Code.uikit("""
+    parentView.shouldGroupAccessibilityChildren = true
+    """)
+    Code.swiftUI("""
+    .accessibilityElement(
+      children: .contain
+    )
+    """)
+    Comment(L10n.Grouping.Contain.comment3)
   }
 }

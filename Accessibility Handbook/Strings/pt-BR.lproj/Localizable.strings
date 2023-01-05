@@ -698,6 +698,16 @@
 "Grouping.uikit.text" = "No UIKit, você precisa deixar a view pai como sendo um elemento acessível, e não as views filhas. Então, combiná-los para montar o conteúdo correto da 'accessibility label' do pai.";
 "Grouping.swiftui.text" = "SwiftUI tem um 'View Modifier' que simplifica bastante desse trabalho de agrupar as views filhas em um único 'accessible element'.";
 
+"Grouping.contain.title" = "Ler filhos primeiro";
+"Grouping.contain.text1" = "Existe outra forma de agrupar os elementos de uma view, de forma que suas subviews sejam lidas antes de outros conteúdos.";
+"Grouping.contain.text2" = "Se você pegar o exemplo do carrossel desagrupado acima, todos os títulos são lidos antes de começar a ler a descrição das células, pois o VoiceOver está tentando ler o conteúdo na ordem de leitura natural da linguagem.";
+"Grouping.contain.comment1" = "Você não disse pra ele ler uma célula antes de passar para outra!";
+"Grouping.contain.text3" = "Esse outro estilo de grupo, faz exatamente isso. Você diz para o leitor de tela que as subviews devem ser lidas antes de mover para outro elemento acessível.";
+"Grouping.contain.text4" = "Se agruparmos os elementos dessa forma, a célula vai ser lida por completo antes de passar para a próxima.";
+"Grouping.contain.comment2" = "O que já é muito melhor que nenhum tipo de agrupamento!";
+"Grouping.contain.text5" = "Mas isso faz sentido ser usado em algumas situações, por exemplo, se uma célula tem propositalmente 2 elements acessíveis, mas ainda faz sentido ler uma célula por completo antes de passar para outra.";
+"Grouping.contain.comment3" = "É quase mágica que apenas com uma linha você pode mudar tanto!";
+
 // Game Success
 
 "GameSuccess.title" = "Parabéns!";
@@ -1277,10 +1287,10 @@
 
 "TryItYourself.title" = "Try it yourself";
 "TryItYourself.text1" = "Yep, thats it, try it for yourself!";
-"TryItYourself.text2" = "Try not to keep wat you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...";
+"TryItYourself.text2" = "Try not to keep what you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...";
 "TryItYourself.text3" = "Understand what they do, how they impact your code, and how to use them.";
 "TryItYourself.text4" = "We even have hundreds of code examples to help you get started. But they are only examples.";
-"TryItYourself.text5" = "You'll get it for yourself once you really start introducing these featuers on your code and your app.";
+"TryItYourself.text5" = "You'll get it for yourself once you really start introducing these features on your code and your app.";
 "TryItYourself.text6" = "And also, try running everything on a real device. Get the feel of how things work in the real life, out of Xcode.";
 "TryItYourself.comment1" = "What was the last time you ran your app with the VoiceOver running? Or that you tried to increase your fonts to see how your layout behaves?";
 "TryItYourself.text7" = "The next sections, will introduce you to issues and common uses of accessibility. How to implement them, and how to plan to create more accessible apps.";

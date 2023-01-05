@@ -688,14 +688,24 @@
 "Grouping.comment" = "This may seem obvious, but can be easily forgotten on development.";
 "Grouping.text3" = "Turn VoiceOver on and check both carousels below, one has the content correctly grouped, and the other don't.";
 
-"Grouping.goodCarousel" = "Good Carousel";
-"Grouping.badCarousel" = "Bad Carousel";
+"Grouping.goodCarousel" = "Grouped Carousel";
+"Grouping.badCarousel" = "Ungrouped Carousel";
 "Grouping.cellTitle" = "Cell title";
 "Grouping.cellContent" = "Cell content";
 "Grouping.cellComment" = "Cell comment";
 
 "Grouping.uikit.text" = "On UIKit, you need to make the parent view an accessible element and not the children. Then, combine them to build the correct accessibility label for the parent.";
 "Grouping.swiftui.text" = "SwiftUI has a better wrapper to combine all children into a single accessible element.";
+
+"Grouping.contain.title" = "Read children first";
+"Grouping.contain.text1" = "There is another way to Group elements on a view, that is grouping them so it's subviews will be read before other content.";
+"Grouping.contain.text2" = "If you take the \"Ungrouped Carousel\" above, the titles will be read before all the content, because the VoiceOver is respecting the natural reading order of the elements.";
+"Grouping.contain.comment1" = "You didn't tell it to read the first cell before the other ones!";
+"Grouping.contain.text3" = "This other grouping style, does exactly that. You tell the VoiceOver to read the elements on your subviews, before going to the next accessible element.";
+"Grouping.contain.text4" = "If we do group it like that, the contents of the same cell will be read before moving to the next one.";
+"Grouping.contain.comment2" = "Which is already much better than no grouping at all!";
+"Grouping.contain.text5" = "But it does make sense to be used in some situations, for example, cells that have it's content split into different parts, but still make sense to read whats inside the cell before moving to the next element.";
+"Grouping.contain.comment3" = "Almost magic that with a single line you can make so much change!";
 
 // Game Success
 
@@ -1275,10 +1285,10 @@
 
 "TryItYourself.title" = "Try it yourself";
 "TryItYourself.text1" = "Yep, thats it, try it for yourself!";
-"TryItYourself.text2" = "Try not to keep wat you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...";
+"TryItYourself.text2" = "Try not to keep what you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...";
 "TryItYourself.text3" = "Understand what they do, how they impact your code, and how to use them.";
 "TryItYourself.text4" = "We even have hundreds of code examples to help you get started. But they are only examples.";
-"TryItYourself.text5" = "You'll get it for yourself once you really start introducing these featuers on your code and your app.";
+"TryItYourself.text5" = "You'll get it for yourself once you really start introducing these features on your code and your app.";
 "TryItYourself.text6" = "And also, try running everything on a real device. Get the feel of how things work in the real life, out of Xcode.";
 "TryItYourself.comment1" = "What was the last time you ran your app with the VoiceOver running? Or that you tried to increase your fonts to see how your layout behaves?";
 "TryItYourself.text7" = "The next sections, will introduce you to issues and common uses of accessibility. How to implement them, and how to plan to create more accessible apps.";

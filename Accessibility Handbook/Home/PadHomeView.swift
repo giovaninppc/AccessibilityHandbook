@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct PadHomeView: View {
-  @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
+  @State
+  private var orientation: UIDeviceOrientation = UIDevice.current.orientation
+
+  private var isOnMac: Bool {
+    UIDevice.current.userInterfaceIdiom == .mac
+  }
 
   var body: some View {
     homeContent
@@ -34,8 +39,13 @@ private extension PadHomeView {
   @ViewBuilder
   var homeContent: some View {
     VStack(alignment: .center, spacing: .large) {
+      if isOnMac {
+        macDisclaimer
+      }
       HStack {
-        gameCell
+        if !isOnMac {
+          gameCell
+        }
         classCell
       }
       HStack {
@@ -298,5 +308,22 @@ private extension PadHomeView {
     .frame(
       maxWidth: Constants.maxItemWidth
     )
+  }
+
+  @ViewBuilder
+  var macDisclaimer: some View {
+    NavigationLink {
+      AccessibilityInspectorPage().page
+    } label: {
+      Disclaimer(icon: Icon.exclamation, attributedContent: macDisclaimerContent, color: .pink)
+    }
+  }
+
+  var macDisclaimerContent: AttributedString {
+    var attributedString = AttributedString(stringLiteral: "It appears you are running this on a MacOS!\n\nThis app was designed to be used with VoiceOver and other iOS accessibility features, but you can still use it as a knowledge base on a Mac. You just cannot use the VoiceOver directly with gestures and commands to test the features.\nBut you can use the Xcode's ")
+    var button = AttributedString(L10n.AccessibilityInspector.title + String.period)
+    button.underlineStyle = Text.LineStyle(pattern: .solid, color: .primary)
+    attributedString.append(button)
+    return attributedString
   }
 }

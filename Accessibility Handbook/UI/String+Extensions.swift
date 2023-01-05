@@ -11,4 +11,5 @@ extension String {
   static let space = " "
   static let empty = ""
   static let commaSpace = ", "
+  static let period = "."
 }
