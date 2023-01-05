@@ -20,6 +20,7 @@ struct GroupingPage: View, Page {
         swiftUIExample
         contain
         containedCarousel
+        containedCellExample
       }
       .toAny()
     }
