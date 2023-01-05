@@ -88,7 +88,7 @@ private extension GroupingPage {
 private extension GroupingPage {
   var containedCarousel: some View {
     VStack(alignment: .leading, spacing: .large) {
-      Title(L10n.Grouping.goodCarousel)
+      Title(L10n.Grouping.containedCarousel)
       ScrollView(.horizontal, showsIndicators: false) {
         HStack(spacing: .large) {
           ForEach(1...5, id: \.self) { _ in

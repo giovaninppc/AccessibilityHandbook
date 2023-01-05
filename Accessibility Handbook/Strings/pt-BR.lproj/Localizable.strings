@@ -689,8 +689,9 @@
 "Grouping.comment" = "Pode parece óbvio, mas é fácil de esquecer desse ponto durante o desenvolvimento.";
 "Grouping.text3" = "Ligue o VoiceOver e foque nos dois carrosséis abaixo, um tem o conteúdo das células corretamente agrupado e o outro não.";
 
-"Grouping.goodCarousel" = "Carrossel Bom";
-"Grouping.badCarousel" = "Carrossel ruim";
+"Grouping.goodCarousel" = "Carrossel Agrupado";
+"Grouping.containedCarousel" = "Carrossel Agrupado (contain)";
+"Grouping.badCarousel" = "Carrossel Desagrupado";
 "Grouping.cellTitle" = "Título";
 "Grouping.cellContent" = "Conteúdo";
 "Grouping.cellComment" = "Comentário";

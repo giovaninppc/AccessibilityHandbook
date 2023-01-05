@@ -1536,6 +1536,8 @@ internal enum L10n {
     internal static let cellTitle = L10n.tr("Localizable", "Grouping.cellTitle")
     /// This may seem obvious, but can be easily forgotten on development.
     internal static let comment = L10n.tr("Localizable", "Grouping.comment")
+    /// Grouped (contain) Carousel
+    internal static let containedCarousel = L10n.tr("Localizable", "Grouping.containedCarousel")
     /// Grouped Carousel
     internal static let goodCarousel = L10n.tr("Localizable", "Grouping.goodCarousel")
     /// To me, Grouping elements correctly is one of the most important parts of building a good accessible view.
@@ -3186,6 +3188,10 @@ internal enum L10n {
     internal enum _180 {
       /// Introducing: Classes!\nOur new update with content about how to think accessibility while implementing, with tools examples, code, diagrams... We're trying to give more content not only on what the accessibility features and options are, but also how to identify where to use them. It's really nice, take a look!
       internal static let description = L10n.tr("Localizable", "WhatsNew.1_8_0.description")
+    }
+    internal enum _181 {
+      /// New content on Grouping elements, and some improvements to our classes!
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_8_1.description")
     }
   }
 

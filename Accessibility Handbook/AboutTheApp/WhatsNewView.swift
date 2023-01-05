@@ -15,6 +15,7 @@ struct WhatsNewView: View, Page {
     VStack(alignment: .leading, spacing: .regular) {
       ScrollView([.vertical], showsIndicators: false) {
         currentVersion
+        v1_8_1
         v1_8_0
         v1_7_0
         v1_6_0
@@ -25,6 +26,7 @@ struct WhatsNewView: View, Page {
         v1_1_0
       }
     }
+    .navigationTitle(title)
     .padding(.horizontal)
   }
 }
@@ -35,6 +37,17 @@ private extension WhatsNewView {
     if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
       Comment(L10n.WhatsNew.currentVersion(version))
     }
+  }
+
+  @ViewBuilder
+  private var v1_8_1: some View {
+    release(
+      version: "1.8.1",
+      description: L10n.WhatsNew._181.description,
+      pages: [
+        GroupingPage()
+      ]
+    )
   }
 
   @ViewBuilder

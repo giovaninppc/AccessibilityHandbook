@@ -54,6 +54,8 @@
 
 "WhatsNew.1_8_0.description" = "Introducing: Classes!\nOur new update with content about how to think accessibility while implementing, with tools examples, code, diagrams... We're trying to give more content not only on what the accessibility features and options are, but also how to identify where to use them. It's really nice, take a look!";
 
+"WhatsNew.1_8_1.description" = "New content on Grouping elements, and some improvements to our classes!";
+
 // Using
 
 "UsingTheVoiceOver" = "Using VoiceOver";
@@ -689,6 +691,7 @@
 "Grouping.text3" = "Turn VoiceOver on and check both carousels below, one has the content correctly grouped, and the other don't.";
 
 "Grouping.goodCarousel" = "Grouped Carousel";
+"Grouping.containedCarousel" = "Grouped (contain) Carousel";
 "Grouping.badCarousel" = "Ungrouped Carousel";
 "Grouping.cellTitle" = "Cell title";
 "Grouping.cellContent" = "Cell content";
