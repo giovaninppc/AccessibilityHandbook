@@ -25,6 +25,11 @@ struct UngroupedElementsPage: View, Page {
 
 private extension UngroupedElementsPage {
   @ViewBuilder
+  var disclaimer: some View {
+    Disclaimer.beforeYouReadThis(check: L10n.Grouping.title, destination: GroupingPage().deeplink)
+  }
+
+  @ViewBuilder
   var intro: some View {
     Text(L10n.UngroupedElements.text1)
     Comment(L10n.UngroupedElements.text2)

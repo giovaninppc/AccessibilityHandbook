@@ -1526,7 +1526,7 @@ internal enum L10n {
   }
 
   internal enum Grouping {
-    /// Bad Carousel
+    /// Ungrouped Carousel
     internal static let badCarousel = L10n.tr("Localizable", "Grouping.badCarousel")
     /// Cell comment
     internal static let cellComment = L10n.tr("Localizable", "Grouping.cellComment")
@@ -1536,7 +1536,7 @@ internal enum L10n {
     internal static let cellTitle = L10n.tr("Localizable", "Grouping.cellTitle")
     /// This may seem obvious, but can be easily forgotten on development.
     internal static let comment = L10n.tr("Localizable", "Grouping.comment")
-    /// Good Carousel
+    /// Grouped Carousel
     internal static let goodCarousel = L10n.tr("Localizable", "Grouping.goodCarousel")
     /// To me, Grouping elements correctly is one of the most important parts of building a good accessible view.
     internal static let text1 = L10n.tr("Localizable", "Grouping.text1")
@@ -1546,6 +1546,26 @@ internal enum L10n {
     internal static let text3 = L10n.tr("Localizable", "Grouping.text3")
     /// Grouping Elements
     internal static let title = L10n.tr("Localizable", "Grouping.title")
+    internal enum Contain {
+      /// You didn't tell it to read the first cell before the other ones!
+      internal static let comment1 = L10n.tr("Localizable", "Grouping.contain.comment1")
+      /// Which is already much better than no grouping at all!
+      internal static let comment2 = L10n.tr("Localizable", "Grouping.contain.comment2")
+      /// Almost magic that with a single line you can make so much change!
+      internal static let comment3 = L10n.tr("Localizable", "Grouping.contain.comment3")
+      /// There is another way to Group elements on a view, that is grouping them so it's subviews will be read before other content.
+      internal static let text1 = L10n.tr("Localizable", "Grouping.contain.text1")
+      /// If you take the "Ungrouped Carousel" above, the titles will be read before all the content, because the VoiceOver is respecting the natural reading order of the elements.
+      internal static let text2 = L10n.tr("Localizable", "Grouping.contain.text2")
+      /// This other grouping style, does exactly that. You tell the VoiceOver to read the elements on your subviews, before going to the next accessible element.
+      internal static let text3 = L10n.tr("Localizable", "Grouping.contain.text3")
+      /// If we do group it like that, the contents of the same cell will be read before moving to the next one.
+      internal static let text4 = L10n.tr("Localizable", "Grouping.contain.text4")
+      /// But it does make sense to be used in some situations, for example, cells that have it's content split into different parts, but still make sense to read whats inside the cell before moving to the next element.
+      internal static let text5 = L10n.tr("Localizable", "Grouping.contain.text5")
+      /// Read children first
+      internal static let title = L10n.tr("Localizable", "Grouping.contain.title")
+    }
     internal enum Swiftui {
       /// SwiftUI has a better wrapper to combine all children into a single accessible element.
       internal static let text = L10n.tr("Localizable", "Grouping.swiftui.text")
@@ -2926,13 +2946,13 @@ internal enum L10n {
     internal static let comment1 = L10n.tr("Localizable", "TryItYourself.comment1")
     /// Yep, thats it, try it for yourself!
     internal static let text1 = L10n.tr("Localizable", "TryItYourself.text1")
-    /// Try not to keep wat you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...
+    /// Try not to keep what you learn here only on this app. Start a new app, try implementing dynamic fonts, VoiceOver features, Dark mode, Rotor entries...
     internal static let text2 = L10n.tr("Localizable", "TryItYourself.text2")
     /// Understand what they do, how they impact your code, and how to use them.
     internal static let text3 = L10n.tr("Localizable", "TryItYourself.text3")
     /// We even have hundreds of code examples to help you get started. But they are only examples.
     internal static let text4 = L10n.tr("Localizable", "TryItYourself.text4")
-    /// You'll get it for yourself once you really start introducing these featuers on your code and your app.
+    /// You'll get it for yourself once you really start introducing these features on your code and your app.
     internal static let text5 = L10n.tr("Localizable", "TryItYourself.text5")
     /// And also, try running everything on a real device. Get the feel of how things work in the real life, out of Xcode.
     internal static let text6 = L10n.tr("Localizable", "TryItYourself.text6")
