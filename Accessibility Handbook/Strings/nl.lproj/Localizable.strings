@@ -41,7 +41,7 @@
 "WhatsNew.1_7_0.description" = "Nieuw lay-out voor het startscherm voor iPads en iPhones in liggende modus! We gebruiken nu beter de beschikbare ruimte op het scherm voor beide formaten.\nEn een gloednieuwe pagina met rotorvoorbeelden waar je kunt proberen aangepaste rotors zelf te gebruiken.";
 "WhatsNew.1_8_0.description" = "Nieuw: Classes!\nOnze nieuwe update met inhoud over hoe je toegankelijkheid kunt overwegen tijdens implementatie, met voorbeelden van tools, code, diagrammen... We proberen meer inhoud te geven niet alleen over wat de toegankelijkheidsfuncties en opties zijn, maar ook hoe je kunt identificeren waar je ze moet gebruiken. Het is echt leuk, neem een kijkje!";
 "WhatsNew.1_8_1.description" = "Nieuwe inhoud over het groeperen van elementen en enkele verbeteringen aan onze Classes!";
-
+"WhatsNew.1_8_2.description" = "Nieuwe Nederlandse gelokaliseerde inhoud 🇳🇱!\nEnkele verbeteringen aan de vertaling en onze zoekopdracht op de startpagina.";
 
 // Using
 "UsingTheVoiceOver" = "Gebruik VoiceOver";

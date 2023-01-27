@@ -33,7 +33,7 @@ struct HomeView: View {
         SearchView(text: $text)
       }
     }
-    .searchable(text: $text, placement: .navigationBarDrawer(displayMode: searching ? .always : .automatic))
+    .searchable(text: $text, placement: .navigationBarDrawer(displayMode: .always))
     .navigationTitle(L10n.handbook)
     .toolbar {
       Button {

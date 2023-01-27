@@ -56,6 +56,8 @@
 
 "WhatsNew.1_8_1.description" = "New content on Grouping elements, and some improvements to our classes!";
 
+"WhatsNew.1_8_2.description" = "New Dutch localized content 🇳🇱!\nSome fixes on translation and our search on the Home Page.";
+
 // Using
 
 "UsingTheVoiceOver" = "Using VoiceOver";
@@ -1391,7 +1393,7 @@
 "PlanBeforeYouImplement.text3" = "As a developer, I've been asked before: \"But how long does it take to add accessibility to a view?\" And my reply always was: \"As much as it takes to build the component.\"";
 "PlanBeforeYouImplement.text4" = "Accessibility really goes together with the UI, so, if you know what to look for while implementing it, things will become much easier.";
 
-"PlanBeforeYouImplement.Hierarchy.title" = "Understading Hierarchy";
+"PlanBeforeYouImplement.Hierarchy.title" = "Understanding Hierarchy";
 "PlanBeforeYouImplement.Hierarchy.text1" = "When building a view, we basically stack more views inside and on top of each other. We may have a base view, with a couple of labels inside it, or a complete mess of stacks with several components.";
 "PlanBeforeYouImplement.Hierarchy.text2" = "And why is it really important to understand your hierarchy? Most of it is not even visible in the final product. The user won't see if you used a single or multiple views on top of each other.";
 "PlanBeforeYouImplement.Hierarchy.text3" = "But it does matter for Accessibility.";

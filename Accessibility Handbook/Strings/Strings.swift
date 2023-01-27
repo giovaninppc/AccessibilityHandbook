@@ -2473,7 +2473,7 @@ internal enum L10n {
       internal static let text3 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text3")
       /// Think beforehand how does it make sense for the screen reader to approach your component. Maybe it should be grouped into a single readable element, but maybe it has multiple buttons that should be focused individually.
       internal static let text4 = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.text4")
-      /// Understading Hierarchy
+      /// Understanding Hierarchy
       internal static let title = L10n.tr("Localizable", "PlanBeforeYouImplement.Hierarchy.title")
     }
   }
@@ -3192,6 +3192,10 @@ internal enum L10n {
     internal enum _181 {
       /// New content on Grouping elements, and some improvements to our classes!
       internal static let description = L10n.tr("Localizable", "WhatsNew.1_8_1.description")
+    }
+    internal enum _182 {
+      /// Some fixes on translation and our search on the Home Page.
+      internal static let description = L10n.tr("Localizable", "WhatsNew.1_8_2.description")
     }
   }
 
