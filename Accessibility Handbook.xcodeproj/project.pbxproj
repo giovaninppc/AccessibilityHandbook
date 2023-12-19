@@ -384,6 +384,7 @@
 		3FFB2CE029460BBC007B879A /* CreateAFontFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAFontFile.swift; sourceTree = "<group>"; };
 		3FFB2CE229460C26007B879A /* CreateUsefulAccessibiltyModifiersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsefulAccessibiltyModifiersPage.swift; sourceTree = "<group>"; };
 		3FFB2CE429475BFC007B879A /* AdjustableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableModifier.swift; sourceTree = "<group>"; };
+		4703E6382B303F7E00869975 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9D7C0141290C6312004CCB40 /* SearchFieldTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldTraitPage.swift; sourceTree = "<group>"; };
 		9DD345BB290DA03600975E48 /* SummaryElementTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryElementTraitPage.swift; sourceTree = "<group>"; };
 		9DD4F901290B635300A00E51 /* ImageTraitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTraitPage.swift; sourceTree = "<group>"; };
@@ -1134,6 +1135,7 @@
 				en,
 				Base,
 				"pt-BR",
+				nl,
 			);
 			mainGroup = 3FB6C0F228DA6367000A5503;
 			productRefGroup = 3FB6C0FC28DA6367000A5503 /* Products */;
@@ -1358,6 +1360,7 @@
 			children = (
 				3FF4A29F28E10ED1005D291A /* en */,
 				3FF4A2A128E10EDD005D291A /* pt-BR */,
+				4703E6382B303F7E00869975 /* nl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

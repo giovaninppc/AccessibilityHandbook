@@ -1,0 +1,1481 @@
+// Localizable.strings
+//   Accessibility Handbook
+//
+//   Created by Giovani Nascimento Pereira on 20/09/22.
+"title" = "Toegankelijkheids handboek";
+"handbook" = "Handboek";
+"VoiceOver" = "VoiceOver";
+"Search" = "Zoeken";
+"sharePage" = "Pagina delen";
+
+// Search
+"Search.Empty.title" = "Geen resultaten gevonden";
+"Search.Empty.message" = "Probeer je zoekopdracht te wijzigen!";
+"Search.Empty.action" = "Doorzoek alle pagina's";
+
+// Home
+"Home.developmentGuides" = "Ontwikkelingshandleidingen";
+"Home.handbookGame" = "Het Handboekspel";
+"Home.handbookGameDescription" = "Test je kennis van toegankelijkheid met een reeks puzzels!";
+"Home.dynamicFonts" = "Dynamische Lettertypen";
+"Home.otherFeatures" = "Andere Functies";
+"Home.collaborate" = "Samenwerken";
+"Home.shortcuts" = "Sneltoetsen";
+"Home.colors" = "Kleuren";
+"Home.notifications" = "Meldingen";
+"Home.classes" = "Classes";
+"Home.classesDescription" = "Leer hoe je toegankelijkheid kunt plannen en voorbereiden voor je apps!";
+
+
+// WhatsNew
+"WhatsNew.title" = "Wat is nieuw in de app?";
+"WhatsNew.seeTheReleaseNotes" = "Bekijk de release-opmerkingen op GitHub voor versie %@";
+"WhatsNew.version" = "Versie %@";
+"WhatsNew.currentVersion" = "Huidige versie %@";
+"WhatsNew.1_1_0.description" = "Nieuwe vertaling naar het Braziliaans Portugees 🇧🇷!\nEn nieuwe syntax highlighting in de codevoorbeelden.";
+"WhatsNew.1_2_0.description" = "Nieuwe handleidingen voor gebaren en dynamische lettertypen.";
+"WhatsNew.1_3_0.description" = "Nieuwe puzzels!\nNieuwe handleiding voor het verminderen van beweging.\nEn een nieuwe pagina over dynamische lettertypen over hoe je de voorkeursgrootte van het lettertype kunt identificeren.";
+"WhatsNew.1_4_0.description" = "Nieuwe handleiding voor de donkere modus!";
+"WhatsNew.1_5_0.description" = "Nieuwe visuele hulpmiddelen in het gedeelte 'Andere functies'\nNieuwe pagina over toegankelijkheid van afbeeldingen.";
+"WhatsNew.1_6_0.description" = "Nieuwe pagina 'Wat is nieuw in de app' om gebruikers te helpen nieuwe inhoud te vinden die ze nog niet hebben gezien.\nZoekverbeteringen, nu is de zoekinhoud alfabetisch gesorteerd met het respectieve sectiepictogram op elke pagina.\nNieuwe mogelijkheden voor delen en deeplinken in de app - nu kun je elke pagina delen met iedereen en kunnen ze deze openen met de directe link!\nEn nieuwe pagina's over toegankelijkheidskenmerken.";
+"WhatsNew.1_7_0.description" = "Nieuw lay-out voor het startscherm voor iPads en iPhones in liggende modus! We gebruiken nu beter de beschikbare ruimte op het scherm voor beide formaten.\nEn een gloednieuwe pagina met rotorvoorbeelden waar je kunt proberen aangepaste rotors zelf te gebruiken.";
+"WhatsNew.1_8_0.description" = "Nieuw: Classes!\nOnze nieuwe update met inhoud over hoe je toegankelijkheid kunt overwegen tijdens implementatie, met voorbeelden van tools, code, diagrammen... We proberen meer inhoud te geven niet alleen over wat de toegankelijkheidsfuncties en opties zijn, maar ook hoe je kunt identificeren waar je ze moet gebruiken. Het is echt leuk, neem een kijkje!";
+"WhatsNew.1_8_1.description" = "Nieuwe inhoud over het groeperen van elementen en enkele verbeteringen aan onze Classes!";
+
+
+// Using
+"UsingTheVoiceOver" = "Gebruik VoiceOver";
+
+// Enable VoiceOver
+"EnableVoiceOver.title" = "VoiceOver inschakelen";
+"EnableVoiceOver.text1" = "VoiceOver is de naam van de ingebouwde schermlezer van iOS. Gebruikt om toegankelijkheid te bieden voor mensen met een visuele beperking.";
+"EnableVoiceOver.text2" = "Om VoiceOver in te schakelen, ga naar de instellingen van het apparaat, naar het gedeelte 'Toegankelijkheid'.";
+"EnableVoiceOver.text3" = "Navigeer vervolgens naar VoiceOver en schakel de schakelaar in.";
+"EnableVoiceOver.text4" = "Als alternatief voor het telkens inschakelen van VoiceOver, kun je opnieuw naar het gedeelte 'Toegankelijkheid' gaan en de sectie 'Toegankelijkheidssnelkoppeling' wijzigen.";
+"EnableVoiceOver.text5" = "Selecteer daar de functies waar je snel toegang toe wilt hebben (zorg ervoor dat je VoiceOver selecteert)";
+"EnableVoiceOver.text6" = "En nu kun je toegang krijgen tot een van die functies door driemaal op de zijknop van je apparaat te drukken (degene waarmee je het scherm vergrendelt).";
+"EnableVoiceOver.comment" = "Naast het bieden van snellere toegang tot het inschakelen van VoiceOver, helpt het ook om het uit te schakelen als je vastloopt tijdens het gebruik ervan.";
+
+
+// Element Reading Order
+"ElementReadingOrder.title" = "Element leesvolgorde";
+"ElementReadingOrder.text1" = "VoiceOver zal de inhoud op het scherm proberen voor te lezen volgens de 'natuurlijke leesrichting van de taal'";
+"ElementReadingOrder.comment1" = "Wat betekent dit?";
+"ElementReadingOrder.text2" = "Bijvoorbeeld, in het Engels is de natuurlijke leesrichting van links naar rechts en vervolgens van boven naar beneden";
+"ElementReadingOrder.text3" = "Dus VoiceOver zal dezelfde volgorde volgen bij het voorlezen van de inhoud.";
+"ElementReadingOrder.comment2" = "Je kunt de leesvolgorde van je elementen veranderen... als je dat wilt...";
+"ElementReadingOrder.link" = "Raadpleeg de pagina 'Toegankelijkheidsprioriteit' voor meer informatie";
+"ElementReadingOrder.text4" = "Maar als we het hebben over een enkel gefocust element (het element waar de cursor momenteel op staat)";
+"ElementReadingOrder.text5" = "Dan wordt de inhoud in de volgende volgorde voorgelezen:";
+
+
+// Rotor
+"Rotor" = "Rotor";
+"Rotor.comment1" = "De Rotor is een van die dingen waarvan ik denk dat niet iedereen er vanaf weet.";
+"Rotor.text1" = "Als je het gebaar van een cirkel maakt met 2 vingers op het scherm, schakel je de rotor in.";
+"Rotor.comment2" = "Zet VoiceOver aan en probeer het zelf!";
+"Rotor.text2" = "De rotor heeft enkele standaardacties, zoals het wijzigen van de spreeksnelheid of de taal van VoiceOver.";
+"Rotor.text3" = "Je kunt ook aangepaste acties aan de rotor toevoegen. Het idee is om het te gebruiken om gebruikers te helpen specifieke inhoud te vinden, zoals filteren op links of andere vergelijkbare elementen.";
+"Rotor.comment3" = "Gebruik de onderstaande pagina om het gebruik van aangepaste rotoritems te testen!";
+"Rotor.openExample" = "Open voorbeeldpagina met aangepaste rotors.";
+"Rotor.image" = "Voorbeeld van de rotor";
+"RotorExample.title" = "Voorbeeld van de rotor";
+"RotorExample.text1" = "Deze pagina bevat aangepaste rotoritems: Afbeeldingen, Notities, Geschiedenis en Links";
+"RotorExample.text2" = "Selecteer de gewenste optie op de rotor en veeg vervolgens omhoog en omlaag om alleen de gewenste inhoud te selecteren.";
+"RotorExample.text3" = "Dit is een mooi voorbeeld van hoe je rotors kunt gebruiken om gemakkelijker inhoud te filteren en te vinden.";
+"RotorExample.images" = "Afbeeldingen";
+"RotorExample.history" = "Geschiedenis";
+"RotorExample.notes" = "Notities";
+"RotorExample.links" = "Links";
+"RotorExample.vanGogh" = "Van Gogh";
+"RotorExample.history1" = "Vincent Van Gogh was een Nederlandse schilder geboren in maart 1853. Hij wordt beschouwd als een van de invloedrijkste schilders in de geschiedenis, hoewel deze erkenning pas na zijn dood kwam.";
+"RotorExample.history2" = "Hij begon zijn leven niet als schilder en begon pas rond 1880 te schilderen. Hij werd in Parijs geïntroduceerd in het 'Impressionisme'.";
+"RotorExample.vanGoghImage" = "Zelfportret, door Vincent Van Gogh.";
+"RotorExample.note1" = "Impressionisme is de naam van een artistieke beweging uit de 19e eeuw. In de schilderkunst wordt het gekenmerkt door relatief kleine, dunne, maar zichtbare penseelstreken, een open compositie, nadruk op een nauwkeurige weergave van licht in zijn veranderende kwaliteiten, alledaags onderwerp, ongebruikelijke visuele hoeken en de inclusie van beweging als een cruciaal element van menselijke waarneming en ervaring.";
+"RotorExample.link1" = "Impressionisme";
+"RotorExample.history3" = "Een van zijn schilderijen, 'De Sterrennacht', geschilderd rond 1889, is vandaag een van de beroemdste schilderijen ter wereld.";
+"RotorExample.starryNight" = "Sterrennacht, door Vincent Van Gogh.";
+"RotorExample.note2" = "Het toont het uitzicht vanuit het oostelijk gelegen raam van zijn asielkamer in Saint-Rémy-de-Provence, vlak voor zonsopgang, met de toevoeging van een denkbeeldig dorp.";
+"RotorExample.link2" = "De Sterrennacht";
+"RotorExample.history4" = "En een ander beroemd werk zijn de serie 'Zonnebloemen'. Twee collecties schilderijen met zonnebloemen, herkenbaar aan stijl en felle kleuren.";
+"RotorExample.sunflower" = "Zonnebloem, door Vincent Van Gogh.";
+"RotorExample.note3" = "De eerste serie, uitgevoerd in Parijs in 1887, toont de bloemen op de grond, terwijl de tweede serie, een jaar later gemaakt in Arles, een boeket zonnebloemen in een vaas laat zien.";
+"RotorExample.link3" = "Zonnebloemen";
+
+
+// Rotor and Headers
+"RotorAndHeaders.title" = "Rotor en Kopteksten";
+"RotorAndHeaders.Rotor.text" = "Als je het nog niet hebt gezien, bekijk dan onze Rotor-pagina om meer te weten te komen over dit onderdeel!";
+"RotorAndHeaders.Header.text1" = "Het toegankelijkheidskenmerk 'header' is belangrijk om het begin van een nieuwe inhoudssectie te markeren, maar het is ook belangrijk om op te merken hoe het de navigatie van de gebruiker met de Rotor beïnvloedt.";
+"RotorAndHeaders.Header.text2" = "Als je de pagina 'Header Kenmerk' nog niet hebt gezien, bekijk deze dan om er meer over te leren!";
+"RotorAndHeaders.Together.title" = "Wat als we ze samen gebruiken?";
+"RotorAndHeaders.Together.text1" = "Als je de rotor inschakelt, merk je misschien dat deze de 'Header'-opties heeft";
+"RotorAndHeaders.Together.text2" = "Wanneer geselecteerd, stelt deze optie je in staat om alleen op kopteksten te navigeren door omhoog en omlaag te vegen op je apparaat.";
+"RotorAndHeaders.Together.text3" = "Dit is buitengewoon handig om specifieke inhoud te vinden te midden van veel andere dingen.";
+"RotorAndHeaders.Example.text1" = "Als je het niet hebt opgemerkt, is deze pagina gebouwd met behulp van enkele kopteksten!";
+"RotorAndHeaders.Example.text2" = "Zet VoiceOver aan en probeer er alleen op te navigeren!";
+
+
+// Navigation
+"Navigation.title" = "Navigatie";
+"Navigation.gesturesLink" = "Open de gebarenhandleiding.";
+"Navigation.text1" = "Navigatie met VoiceOver is gebaseerd op gebaren. Elk gebaar kan overal op het scherm worden uitgevoerd en zal een bepaalde actie activeren.";
+"Navigation.text2" = "Eenmaal ingeschakeld, toont VoiceOver een kader bovenop het huidige weergavegebied dat wordt voorgelezen. Dit kader wordt 'Cursor' genoemd.";
+"Navigation.text3" = "Navigeren betekent in feite de positie van de cursor wijzigen, zodat een ander element wordt voorgelezen.";
+"Navigation.text4" = "De basisnavigatie kan worden uitgevoerd door horizontaal over het scherm te vegen om de cursor naar het volgende of vorige element te verplaatsen.";
+"Navigation.comment" = "Deze hele app is gebouwd om te worden gebruikt met VoiceOver ingeschakeld, het concept dat op de pagina's wordt beschreven, zal altijd worden gevolgd door een voorbeeld zodat je ze zelf kunt proberen!";
+"Navigation.image" = "Boven aan de afbeelding is een voorbeeld van de cursor. De titel 'Handboek' is momenteel gericht op de afbeelding.";
+"Navigation.imageSubtitle" = "Voorbeeldafbeelding van VoiceOver op een iOS-apparaat.";
+"Navigation.MoveAround.title" = "Bewegen";
+"Navigation.MoveAround.text1" = "Wanneer VoiceOver is ingeschakeld, veeg horizontaal van links naar rechts om de cursor te verplaatsen en te focussen op het volgende element.";
+"Navigation.MoveAround.text2" = "En veeg van rechts naar links om te focussen op het vorige element.";
+"Navigation.Activate.title" = "Activeer een element";
+"Navigation.Activate.text" = "Activeren is de VoiceOver-versie van tikken op een item. Tik tweemaal met één vinger om een element te activeren.";
+"Navigation.Activate.comment" = "Je kunt meer leren over manieren om met elementen om te gaan in de sectie 'Interactie'.";
+"Navigation.Footer.title" = "Leer meer gebaren";
+"Navigation.Footer.text1" = "Als je met 4 vingers twee keer tikt met VoiceOver ingeschakeld, activeer je de 'Gebarenhelper'.";
+"Navigation.Footer.text2" = "Nu wordt elk gebaar dat je maakt aangekondigd door VoiceOver, gevolgd door de functie ervan.";
+"Navigation.Footer.text3" = "En om de helper uit te schakelen, tik je nogmaals twee keer met 4 vingers!";
+"Navigation.Footer.comment" = "Dit zijn slechts een paar van de beschikbare gebaren. We zijn van plan om in de toekomst een volledige sectie met gebaren toe te voegen, maar voor nu raad ik je aan het zelf te proberen, zet VoiceOver aan en test de gebaren met de 'Gebarenhulp'.";
+
+// Accessibility Properties
+"AccElements.title" = "Toegankelijkheidseigenschappen";
+
+// Accessibility Element
+"AccElem.title" = "Toegankelijkheidselement";
+"AccElem.text1" = "Bij het gebruik van VoiceOver zal de cursor focussen op 'toegankelijke' elementen. Deze elementen worden geïdentificeerd door de eigenschap toegankelijkheidselement als 'True'.";
+"AccElem.text2" = "Elk element dat is gemarkeerd met deze eigenschap 'True' kan worden gefocust door VoiceOver, en de elementen met de eigenschap 'False' worden genegeerd.";
+"AccElem.text3" = "Zet VoiceOver aan en navigeer door de volgende elementen. Sommige zullen niet worden gefocust door VoiceOver.";
+"AccElem.comment" = "Het is belangrijk om elementen die niet moeten worden gefocust, zoals scheiders of andere elementen zonder toegankelijkheidslabels, niet te laten focussen.";
+"AccElem.comment2" = "Op deze manier voorkomen we dat lege inhoud, die de gebruiker zou kunnen verwarren, wordt gefocust.";
+"AccElem.example.isAccessibilityElement" = "Dit is een toegankelijkheidselement.";
+
+
+// Accessibility Label
+"AccLabel.title" = "Toegankelijkheidslabel";
+"AccLabel.text1" = "Toegankelijkheidslabels zijn de inhoud die door VoiceOver wordt voorgelezen wanneer het item wordt gefocust.";
+"AccLabel.text2" = "Elk element dat door VoiceOver wordt gefocust, moet een toegankelijkheidslabel hebben.";
+"AccLabel.text3" = "Zet VoiceOver aan en focus op het volgende element. De inhoud die wordt voorgelezen, is het toegankelijkheidslabel.";
+"AccLabel.image" = "Sterrennacht, door Vincent Van Gogh. Dit is een toegankelijkheidslabel!";
+"AccLabel.comment" = "Sommige componenten stellen automatisch hun toegankelijkheidslabel in bij het maken, zoals Tekst of Knoppen, maar je kunt het indien nodig ook handmatig instellen.";
+"AccLabel.text4" = "En soms kun je een ander toegankelijkheidslabel instellen voor een weergave, zodat het gemakkelijker is om de inhoud te begrijpen, zoals het beschrijven van meeteenheden of afkortingen.";
+"AccLabel.example" = "10 kg";
+"AccLabel.accessibilityLabelExample" = "10 Kilogram";
+
+
+// Accessibility Hint
+"AccHint.title" = "Toegankelijkheidstip";
+"AccHint.text1" = "Toegankelijkheidstips zijn aanvullende inhoud die aan het einde wordt voorgelezen. Ze zijn altijd de laatste inhoud die wordt voorgelezen.";
+"AccHint.text2" = "Ze worden gebruikt om aanvullende informatie te verstrekken over een gefocust item, zodat de gebruiker beter kan begrijpen hoe het werkt.";
+"AccHint.text3" = "Bijvoorbeeld: Je hebt een cel met een lang indrukken-gebaar (driemaal tikken met één vinger), je kunt een tip toevoegen om de gebruiker te informeren over deze aanvullende actie.";
+"AccHint.comment" = "Tips moeten optioneel zijn om te lezen. Ze staan als laatste element zodat ze kunnen worden overgeslagen als de gebruiker al weet wat te doen.";
+"AccHint.example.hint" = "Tik drie keer om de bestelcode te kopiëren.";
+"AccHint.example.title" = "Uw bestelling";
+"AccHint.example.message" = "Friet met kaas";
+"AccHint.example.footer" = "#123456";
+"AccHint.example.notification" = "Bestelcode gekopieerd naar klembord";
+
+
+// Accessibility Trait
+"AccTrait.title" = "Toegankelijkheidskenmerk";
+"AccTrait.text1" = "Toegankelijkheidskenmerken zijn modifiers die we aan een weergave kunnen toevoegen om wat aanvullende informatie te geven of wat gedrag toe te voegen.";
+"AccTrait.text2" = "Er zijn verschillende kenmerken, sommige daarvan hoef je misschien nooit te gebruiken, en sommige andere zijn echt krachtig waarvan je blij zult zijn om er meer over te weten.";
+"AccTrait.text3" = "Kenmerken zijn zo belangrijk dat we er een speciale sectie aan hebben gewijd!";
+"AccTrait.comment1" = "Zorg ervoor dat je die sectie controleert om meer te weten te komen over elk kenmerk.";
+"AccTrait.text4" = "En het toevoegen van een kenmerk aan een weergave is heel eenvoudig.";
+
+
+// Accessibility Value
+"AccValue.title" = "Toegankelijkheidswaarde";
+"AccValue.text1" = "Toegankelijkheidswaarden vertegenwoordigen de waarde (meestal numeriek) die is gekoppeld aan je weergave.";
+"AccValue.text2" = "Het wordt voornamelijk gebruikt in componenten die hoeveelheden vertegenwoordigen, zoals tellers, schuifregelaars of snelle toevoegingen.";
+"AccValue.text3" = "En wanneer deze verandert, als de weergave is gefocust, wordt de nieuwe waarde aan de gebruiker aangekondigd.";
+"AccValue.comment1" = "Bekijk het voorbeeld van de teller hieronder, verander de hoeveelheid en let op de 'Toegankelijkheidswaarde' die wordt voorgelezen.";
+"AccValue.comment2" = "Dit voorbeeld is gebouwd met het 'Aanpasbaar kenmerk'.";
+
+
+// Accessibility Priority
+"AccPriority.title" = "Toegankelijkheid Prioriteit";
+"AccPriority.text1" = "Toegankelijkheid Sorteer Prioriteit, in SwiftUI, is een manier om de volgorde van de elementen die door VoiceOver worden voorgelezen, te wijzigen.";
+"AccPriority.text2" = "Het is vergelijkbaar met het definiëren van de leesvolgorde van de elementen met UIKit, maar in UIKit definiëren we deze volgorde met behulp van een array.";
+"AccPriority.text3" = "Het kan nuttig zijn in sommige situaties, bekijk het onderstaande voorbeeld:";
+"AccPriority.comment1" = "Ja, je kunt de leesvolgorde van je elementen veranderen, maar meestal wil je dat niet doen.";
+"AccPriority.comment2" = "Als algemene richtlijn houden we de leesvolgorde hetzelfde als de natuurlijke leesvolgorde van de huidige taal";
+"AccPriority.comment3" = "Bijvoorbeeld, Engels leest van links naar rechts en vervolgens van boven naar beneden, en dat is de volgorde die VoiceOver zal proberen om de inhoud voor te lezen.";
+"AccPriority.notification" = "Zie hoe deze knop, ook al staat hij boven de elementen, de laatste was die werd gefocust?";
+"AccPriority.Code.uikitComment" = "De inhoud wordt voorgelezen in de volgorde van de array";
+"AccPriority.Code.swiftUIComment" = "De hoogste prioriteit wordt eerst voorgelezen";
+
+
+// Toegankelijkheidskenmerken
+"AccTraits.title" = "Toegankelijkheidskenmerken";
+
+// Lijst van kenmerken
+"ListOfTraits.title" = "Lijst van Toegankelijkheidskenmerken";
+"ListOfTraits.text1" = "Hier is een volledige lijst van toegankelijkheidskenmerken. Sommige ervan worden verder besproken in deze app";
+"ListOfTraits.comment1" = "Omdat ik denk dat ze de belangrijkste zijn en ik er eigenlijk iets over te zeggen heb. (Of ik heb gewoon nog geen tijd gehad om iets moois te schrijven over dit kenmerk)";
+"ListOfTraits.text2" = "Andere zijn duidelijker over hoe ze zouden moeten werken en waar ze zouden moeten worden gebruikt.";
+"ListOfTraits.comment2" = "Maar zorg ervoor dat je al hun documentatie controleert!";
+"ListOfTraits.button" = "Geeft aan dat het item een knop is - kan worden geactiveerd met een dubbele tik.";
+"ListOfTraits.adjustable" = "Maakt gebaren mogelijk om hoeveelheden bij te werken. Dit is behoorlijk nuttig in sommige situaties zoals snelle toevoegingen, schuifregelaars of tellers!";
+"ListOfTraits.header" = "Een koptekst die kan worden gefocust met een rotorfunctie. Geeft het begin van een nieuwe sectie aan.";
+"ListOfTraits.link" = "Een link naar een webpagina";
+"ListOfTraits.image" = "Een afbeelding. Het lijkt misschien niet zo, maar het is belangrijk om te gebruiken bij het daadwerkelijk focussen op een afbeelding. De gebruiker wil de afbeelding mogelijk delen met iemand, of er later meer over vragen...";
+"ListOfTraits.searchField" = "Maakt typen mogelijk en zoekt wanneer het is voltooid naar iets.";
+"ListOfTraits.keyboardKey" = "Een toets van het toetsenbord. (Waarschijnlijk niet erg relevant als je geen aangepast toetsenbord maakt)";
+"ListOfTraits.staticText" = "Een tekst die niet verandert";
+"ListOfTraits.tabbar" = "Een tabbladitem, eigenlijk erg belangrijk als je een aangepaste tabbalk hebt!";
+"ListOfTraits.summaryElement" = "\"Het toegankelijkheidselement geeft samenvattende informatie wanneer de app start.\"";
+"ListOfTraits.selected" = "Een geselecteerd item - wordt gebruikt wanneer er meer items op een lijst zijn die ook kunnen worden geselecteerd (segmentcontrollers, radioknoppen...)";
+"ListOfTraits.notEnabled" = "De inhoudsinteractie is uitgeschakeld - bijv. een uitgeschakelde knop";
+"ListOfTraits.allowsDirectInteraction" = "Het toegankelijkheidselement staat directe aanraakinteractie toe voor VoiceOver-gebruikers.";
+"ListOfTraits.updatesFrequently" = "De waarde of label verandert vaak.";
+"ListOfTraits.causesPageTurn" = "Veroorzaakt automatisch een paginawending wanneer het element klaar is met lezen.";
+"ListOfTraits.playsSound" = "Speelt geluid af wanneer geactiveerd";
+"ListOfTraits.startsMediaSession" = "Start met afspelen vanuit een mediasessie.";
+
+
+// Knop kenmerk
+"ButtonTrait.title" = "Knopkenmerk";
+"ButtonTrait.text1" = "Het knopkenmerk is voor mij HET belangrijkste kenmerk.";
+"ButtonTrait.text2" = "Het vertelt de gebruiker in feite dat ze het element kunnen activeren (met een dubbele tik) en dat er iets zal gebeuren";
+"ButtonTrait.text3" = "Als je een Button of een UIButton gebruikt, heeft het automatisch het 'knop'-kenmerk";
+"ButtonTrait.text4" = "Maar soms moeten we het handmatig toevoegen aan onze weergave, zoals bij het maken van een cel die kan worden getikt, of andere inhoud met een tikbeweging.";
+"ButtonTrait.myCell" = "Mijn Cel";
+"ButtonTrait.cellDescription" = "celbeschrijving";
+"ButtonTrait.additionalInformation" = "Extra informatie";
+"ButtonTrait.cellTapped" = "Deze cel is getikt";
+
+// Afbeelding kenmerk
+"ImageTrait.title" = "Afbeeldingkenmerk";
+"ImageTrait.text1" = "Het afbeeldingkenmerk is goed voor afbeeldingen of andere visuele elementen zonder tekst of actie.";
+"ImageTrait.text2" = "Als je een Image of een UIImage gebruikt, heeft het automatisch het afbeeldingkenmerk. U wilt echter dit kenmerk mogelijk ook toepassen op andere elementen, zoals grafische elementen of animaties.";
+"ImageTrait.text3" = "Hierdoor zal VoiceOver het element identificeren en lezen als een afbeelding.";
+"ImageTrait.description" = "Afbeeldingsbeschrijving";
+
+// Samenvattingselement kenmerk
+"SummaryElementTrait.title" = "Samenvattingselementkenmerk";
+"SummaryElementTrait.text1" = "Het samenvattingselementkenmerk geeft een samengevatte beschrijving van de belangrijkste informatie op het scherm.";
+"SummaryElementTrait.text2" = "Een voorbeeld is de Weather-app van Apple, waarin de weergave met de stad en het huidige weer wordt gebruikt als een samenvatting.";
+"SummaryElementTrait.text3" = "Dit kenmerk maakt VoiceOver om dit element te lezen zodra het scherm verschijnt, ongeacht de positie van dit element in de weergavehiërarchie. De focusvolgorde wordt niet beïnvloed.";
+"SummaryElementTrait.description" = "Dit scherm gaat over samenvattingselementkenmerken";
+
+// Zoekveld kenmerk
+"SearchFieldTrait.title" = "Zoekveldkenmerk";
+"SearchFieldTrait.text1" = "Het zoekveldkenmerk is goed voor velden die niet alleen gegevensinvoer zijn, maar ook enige visuele verandering op het scherm veroorzaken wanneer ze zijn ingevuld.";
+"SearchFieldTrait.text2" = "Wanneer we iets zoeken, worden deze zoekresultaten normaal gesproken ergens op het scherm weergegeven.";
+"SearchFieldTrait.text3" = "Dit kenmerk stelt VoiceOver in staat om de gebruiker te waarschuwen dat de UI ergens zal veranderen.";
+"SearchFieldTrait.button" = "Probeer hier!";
+"SearchFieldTrait.description" = "Typ waar je naar op zoek bent.";
+"SearchFieldTrait.AnimalsArray.Bee" = "🐝 Bij";
+"SearchFieldTrait.AnimalsArray.Bird" = "🦜 Vogel";
+"SearchFieldTrait.AnimalsArray.Cat" = "🐈 Kat";
+"SearchFieldTrait.AnimalsArray.Cow" = "🐄 Koe";
+"SearchFieldTrait.AnimalsArray.Dog" = "🐶 Hond";
+"SearchFieldTrait.AnimalsArray.Snake" = "🐍 Slang";
+
+
+// Aanpasbaar
+"Adjustable.title" = "Aanpasbaar kenmerk";
+"Adjustable.text1" = "Aanpasbare componenten maken eigenlijk gebruik van een toegankelijkheidskenmerk.";
+"Adjustable.text2" = "Het wordt gebruikt bij componenten met een soort wijziging van hoeveelheid of selectie, zoals schuifregelaars, tellers of snelle toevoegingen.";
+"Adjustable.text3" = "Het is zeer krachtig en een aanpasbare weergave krijgt, wanneer deze is gefocust, de veegbewegingen omhoog en omlaag";
+"Adjustable.text4" = "Die kunnen worden geïmplementeerd om de respectieve acties te behandelen, zonder dat u rechtstreeks op de knoppen hoeft te tikken.";
+"Adjustable.seeMore" = "Zie meer over toegankelijkheidskenmerken!";
+"Adjustable.Code.increment" = "Behandel verhoging";
+"Adjustable.Code.decrement" = "Behandel verlaging";
+
+// Kleuren
+"ColorsGuide.title" = "Kleurengids";
+"ColorsGuide.introduction" = "Inleiding";
+
+// Over kleuren
+"AboutColors.title" = "Over kleuren";
+"AboutColors.text1" = "Ik hou van kleuren.\nMaar niet iedereen ervaart ze op dezelfde manier.";
+"AboutColors.comment1" = "Sommige mensen ervaren ze helemaal niet!";
+"AboutColors.text2" = "Kleuren zijn hoe onze hersenen zin geven aan het licht dat onze ogen bereikt. We hebben cellen die reageren op verschillende frequenties van licht, en hun combinatie produceert wat we zien.";
+"AboutColors.comment2" = "Ik begeef me te veel in de fysica en biologie, maar houd vol.";
+"AboutColors.text3" = "En bij het bouwen van een app zijn kleuren meestal iets dat komt vóór het programmeren van iets, of tijdens wat ik graag 'de ontwerpstap' noem.";
+"AboutColors.text4" = "Dus, als je samenwerkt met een ontwerper, raad ik je ten zeerste aan om deze discussie met hen te voeren. Begrijp meer over kleuren, hoe ze van invloed zijn op de gebruikers en wat we kunnen overwegen met betrekking tot toegankelijkheid bij het omgaan met kleuren in onze app.";
+"AboutColors.comment3" = "Als je daar geen ontwerper hebt... Nou, ik hoop dat deze inhoud je ook helpt er een beetje meer over te begrijpen!";
+"AboutColors.higColors" = "Human Interface Guidelines - Kleuren";
+"AboutColors.image" = "Afbeelding van mooie kleuren";
+
+// Samenwerking
+"Collaboration.title" = "Samenwerking";
+"Collaboration.OpenSource.title" = "Open source";
+"Collaboration.OpenSource.text1" = "Ja, de Handleiding is een open source project!";
+"Collaboration.OpenSource.text2" = "Het idee is dat de code van de app als voorbeelden kan worden gebruikt. Bekijk de code, zie zelf hoe de functie werkt wanneer deze op een app wordt uitgevoerd.";
+"Collaboration.OpenSource.comment1" = "Het is niet perfect, en het is op sommige plaatsen een beetje vreemd... Dat weet ik, oké?";
+"Collaboration.OpenSource.text3" = "Maar voel je vrij om wijzigingen voor te stellen, wat bugs te repareren en problemen te identificeren op ons GitHub-project!";
+"Collaboration.githubPreoject" = "Bekijk ons GitHub-project!";
+"Collaboration.license" = "Licentie";
+"Collaboration.Issue.title" = "Een probleem gevonden?";
+"Collaboration.Issue.text1" = "Meld het ons op ons GitHub-project!";
+"Collaboration.Issue.text2" = "Het kan een probleem zijn met vertaling, een toegankelijkheidsprobleem (niemand is perfect, oké?), Of iets heel anders!";
+"Collaboration.submitIssue" = "Dien een probleemrapport in!";
+"Collaboration.Translate.title" = "Help ons vertalen";
+"Collaboration.Translate.text1" = "Als je een ontwikkelaar bent en de handleiding dichter bij je gemeenschap en je collega's wilt brengen, overweeg dan ons te helpen bij het vertalen van de app naar andere talen!";
+"Collaboration.Translate.text2" = "Je kunt het project op GitHub krijgen en een pull-verzoek openen om de inhoud te vertalen!";
+"Collaboration.Translate.comment" = "Het is veel spul... Ik weet het, maar hoe meer zielen, hoe meer vreugd!";
+"Collaboration.submitPR" = "Dien een Pull Request in met de wijzigingen!";
+"Collaboration.Suggestion.title" = "Wil je iets specifieks zien?";
+"Collaboration.Suggestion.text1" = "Misschien heb je iets dat je wilt weten dat niet aanwezig is in de app";
+"Collaboration.Suggestion.text2" = "Of je wilt een nieuwe puzzel voorstellen om aan de games toe te voegen.";
+"Collaboration.Suggestion.text3" = "Voel je vrij om ons alle ideeën te vertellen die je hebt!";
+"Collaboration.submitFeatureRequest" = "Dien een functieverzoek in!";
+
+// Over de app
+"AboutTheApp.title" = "Over de app";
+"AboutTheApp.History.text1" = "De Toegankelijkheidshandleiding begon als een idee met enkele collega's en vrienden, met als doel een gemakkelijke manier te bieden om meer te weten te komen over iOS-toegankelijkheidsfuncties.";
+"AboutTheApp.History.text2" = "Toen we eraan begonnen te werken, hebben we het nooit afgemaakt of gepubliceerd. Dus, een tijdje later nam ik wat ik had geleerd en besloot ik het naar buiten te brengen! De inhoud herschrijven, UIKit- en SwiftUI-versies toevoegen om iets echt fris en mooi te maken.";
+"AboutTheApp.History.text3" = "Ik dacht altijd dat de informatie over toegankelijkheid er altijd was, maar dat je moest weten waar je moest zoeken.";
+"AboutTheApp.History.text4" = "Daar komt deze handleiding om de hoek kijken, het is iets dat samenwerkend, gemakkelijk te gebruiken en snel te vinden moet zijn! Het is een app! Je kunt het altijd bij je dragen en op elk moment lezen.";
+"AboutTheApp.History.text5" = "Het is voornamelijk gebaseerd op mijn ervaringen als ontwikkelaar, met voorbeelden uit het echte leven die je hopelijk zullen helpen meer te begrijpen over toegankelijkheid en je ook zullen helpen het in je eigen projecten te gebruiken!";
+"AboutTheApp.Game.title" = "Wat dacht je van het spel?";
+"AboutTheApp.Game.text1" = "De Handleiding was best leuk en zo... maar het was een beetje saai.";
+"AboutTheApp.Game.text2" = "Dus probeerde ik iets te maken dat leuker zou zijn om te gebruiken en te leren,";
+"AboutTheApp.Game.text3" = "En wat is een betere manier om dat te doen dan met een spel?";
+"AboutTheApp.Game.comment" = "De puzzels moeten niet moeilijk zijn, ze zijn gewoon een leuke manier om je kennis van toegankelijkheid te oefenen!";
+"AboutTheApp.Disclaimer.title" = "Disclaimer";
+"AboutTheApp.Disclaimer.text1" = "Deze app en de inhoud ervan zijn bedoeld als een nuttige gids, gebaseerd op echte ontwikkelervaringen.";
+"AboutTheApp.Disclaimer.text2" = "Ik weet NIET ALLES over toegankelijkheid, en ik leer elke dag een beetje meer.";
+"AboutTheApp.Disclaimer.comment1" = "En ik heb zeker veel geleerd tijdens het ontwikkelen van deze app!";
+"AboutTheApp.Disclaimer.text3" = "Het kan wat fouten of misvattingen bevatten, dus meld het alsjeblieft als je er een vindt.";
+"AboutTheApp.Disclaimer.text4" = "Ik wil dat het een betrouwbare tool is die kan worden geraadpleegd tijdens de ontwikkeling van alledag.";
+"AboutTheApp.Disclaimer.openCollaborationPage" = "Bekijk de samenwerkingspagina voor meer manieren om problemen te melden en bij te dragen aan de ontwikkeling van de app!";
+"AboutTheApp.Review.text" = "Beoordeel de Handleiding op de AppStore!";
+"AboutTheApp.Review.button" = "Een beoordeling schrijven";
+"AboutTheApp.language" = "De Handleiding is beschikbaar in het Engels (VS) en Portugees (BR). Pas de taalvoorkeur voor de app aan in de instellingen van het apparaat.";
+
+
+// Color blindness
+"ColorBlind.title" = "Color Blindness";
+"ColorBlind.About.text1" = "Kleurblindheid is een verminderd vermogen om kleurverschillen waar te nemen.";
+"ColorBlind.About.text2" = "Wat je misschien niet weet, is dat er 'gradaties' van kleurenblindheid zijn. Iemand met groenkleurenblindheid ziet bijvoorbeeld de groene kleur helemaal niet, of iets minder dan een niet-kleurblinde persoon.";
+"ColorBlind.About.text3" = "Je kunt een Ishihara-test doen om te controleren of je kleurenblind bent. Ik heb een vriendin die ontdekte dat ze kleurenblind was toen we op de universiteit zaten! En daarvoor zou je verwachten dat je deze aandoening veel eerder in het leven zou identificeren.";
+"ColorBlind.About.ishihara" = "Voorbeeld van de Ishihara-kleuridentificatietest.";
+"ColorBlind.About.comment" = "Dit zijn voorbeelden van een Ishihara-test. Voor een persoon met 'normaal' zicht wordt verwacht dat hij respectievelijk '12', '6' en '74' ziet.";
+"ColorBlind.About.text4" = "Maar hoe beïnvloedt dit ons werk bij het bouwen van een app?";
+"ColorBlind.About.ishiharaTest" = "Ishihara-test";
+"ColorBlind.Handle.title" = "Inhoud behandelen rekening houdend met kleurenblindheid";
+"ColorBlind.Handle.text1" = "Zorg er eerst voor dat je inhoud niet alleen afhankelijk is van kleuren om acties te ondernemen of informatie te identificeren. Bekijk het onderstaande voorbeeld.";
+"ColorBlind.Handle.text2" = "Hier kleurcoderen we in de eerste kolom negatieve items in het rood en positieve in het groen. Maar dat is precies wat we willen vermijden. De tweede kolom biedt een veel betere 'universele' ervaring waarbij het identificeren van deze items als positief of negatief niet uitsluitend afhangt van kleur.";
+"ColorBlind.Handle.comment1" = "Het gebruik van + en - kan culturele connotaties hebben, dus het is misschien niet het beste voorbeeld hier. Maar het is slechts een voorbeeld.";
+"ColorBlind.Handle.comment2" = "Als je toch op sommige delen van je app alleen op kleuren vertrouwt, het niet wilt veranderen, maar het wel bruikbaar wilt maken voor kleurenblinde gebruikers, bekijk dan onze pagina 'Onderscheid maken zonder kleuren'.";
+"ColorBlind.Images.title" = "Let op met afbeeldingen";
+"ColorBlind.Images.text1" = "Soms renderen we inhoud met afbeeldingen. Banners geladen vanuit de backend, promotionele inhoud of gewoon iets dat er mooier uitziet op de afbeeldingsrendering.";
+"ColorBlind.Images.comment" = "Zorg er eerst voor dat je deze afbeelding een toegankelijkheidslabel geeft!";
+"ColorBlind.Images.text2" = "Wees ook voorzichtig dat de inhoud niet conflicteert met kleuren die kleurenblindheid veroorzaken.";
+
+// Contrast
+"Contrast.title" = "Contrast";
+"Contrast.text1" = "Contrast is het verschil in helderheid of kleur dat een object (of de representatie ervan in een afbeelding of weergave) onderscheidend maakt.";
+"Contrast.comment1" = "Maar waarom praten over contrast in een toegankelijkheidscontext?";
+"Contrast.text2" = "Contrast is belangrijk bij het gebruik van kleuren in je applicaties. Alles wat zichtbaar moet zijn, moet nou ja... zichtbaar zijn.";
+"Contrast.text3" = "Hiermee bedoel ik dat je voorzichtig moet zijn bij het toevoegen van gekleurde tekst bovenop gekleurde achtergronden. De basis voor goed contrast is zwarte tekst op een witte (of witte tekst op zwarte) achtergrond.";
+"Contrast.comment2" = "Maar het hangt ook af van het lettertype zelf, het gewicht van het lettertype...";
+"Contrast.Example.text1" = "Een mooie manier om contrast te testen is met de WCAG-contrastgids";
+"Contrast.Example.comment1" = "WCAG staat voor 'Web Content Accessibility Guidelines', en ik weet dat het meer gericht is op web, niet op mobiele omgevingen, maar het is ook goed om daar naar te kijken, vooral als je meer wilt leren over contrast in toegankelijkheid.";
+"Contrast.Example.example1" = "Dit voorbeeld hierboven slaagt niet voor de WCAG-contrasttest.";
+"Contrast.Example.example2" = "Deze doet het redelijk goed, dus je kunt deze kleurencombinatie gebruiken bij grotere lettertypen.";
+"Contrast.Example.example3" = "En deze is behoorlijk goed! De klassiekers.";
+"Contrast.Example.link" = "Je kunt zelf proberen met deze contrastcontrole-tool!";
+
+// Differentiate without colors
+"Differentiate.title" = "Onderscheiden zonder kleuren";
+"Differentiate.Intro.text1" = "De functie 'Onderscheiden zonder kleuren' is de manier waarop de gebruiker kan vragen om, nou ja, niet alleen kleuren te gebru
+
+iken om inhoud te onderscheiden.";
+"Differentiate.Intro.text2" = "In code wordt het in feite een booleaanse waarde die je kunt controleren om te zien of de gebruiker deze functie heeft ingeschakeld of niet.";
+"Differentiate.Intro.comment1" = "Hoewel het meestal een goede praktijk is om niet alleen kleuren te gebruiken om inhoud te onderscheiden. Dit is het soort probleem dat kan worden voorkomen tijdens de 'ontwerpfase', bij het plannen van je app of je functie, en voordat je het implementeert.";
+"Differentiate.Intro.text3" = "Deze functie kan worden ingeschakeld in de instellingen van het apparaat bij de toegankelijkheidssectie.";
+"Differentiate.Intro.text4" = "Hier is een klassiek voorbeeld, het draadspel! Waarbij je de draden met dezelfde kleur aan beide zijden van het scherm moet verbinden.";
+"Differentiate.Intro.text5" = "Door pictogrammen naast de draden toe te voegen, zorg je ervoor dat het spel niet alleen afhankelijk is van kleurcodering om te worden gespeeld.";
+"Differentiate.Intro.image" = "Afbeelding van het Among Us-spel draadspel met verschillende filters voor kleurenblindheid toegepast.";
+"Differentiate.Intro.comment2" = "Een mooi voorbeeld is het spel 'Among Us'. Op de afbeelding hierboven, van links naar rechts en dan van boven naar beneden: geen filter, deuteranopie-filter, protanopie-filter, tritanopie-filter. Dit zijn eigenaardige namen van enkele soorten kleurenblindheid.";
+"Differentiate.Handle.text1" = "Om te controleren of de functie is ingeschakeld, kun je 'UIAccessibility.shouldDifferentiateWithoutColor' controleren.";
+"Differentiate.Handle.text2" = "En je kunt je ook abonneren om te luisteren naar wijzigingen in deze eigenschap met het Notification Center.";
+"Differentiate.Handle.text3" = "En je kunt een Environment-eigenschap in SwiftUI gebruiken voor hetzelfde doel.";
+
+// Color acc feature
+"ColorAccessibilityFeatures" = "Kleurtoegankelijkheidsfuncties";
+
+// Reduce Transparency
+"ReduceTransparency.title" = "Verminder Transparantie";
+"ReduceTransparency.Intro.text1" = "Dit is een toegankelijkheidsoptie die moet worden ingeschakeld in de instellingen van het apparaat.";
+"ReduceTransparency.Intro.text2" = "Wanneer ingeschakeld, wil de gebruiker je vertellen dat ze de hoeveelheid vervaging en doorzichtigheid in de app willen verminderen.";
+"ReduceTransparency.Intro.comment" = "Sommige mensen kunnen moeite hebben om naar doorschijnende elementen te kijken!";
+"ReduceTransparency.Example.text1" = "Probeer deze optie in en uit te schakelen en controleer de inhoud hieronder.";
+"ReduceTransparency.Example.example" = "Transparante inhoud om te lezen\nbovenop een geblurde achtergrond";
+"ReduceTransparency.Code.text1" = "En het is vrij eenvoudig te hanteren!";
+"ReduceTransparency.Code.text2" = "Op UIKit moet je een booleaanse waarde controleren op UIAccessibility om te zien of de functie is ingeschakeld.";
+"ReduceTransparency.Code.text3" = "En je kunt je ook abonneren om te luisteren naar wijzigingen in deze eigenschap met het Notification Center.";
+"ReduceTransparency.Code.text4" = "En op SwiftUI kun je een Environment-variabele gebruiken!";
+
+// Invert Colors
+"InvertColors.title" = "Kleuren Inverteren";
+"InvertColors.Intro.text1" = "Kleurinversie is een andere toegankelijkheidsoptie die een gebruiker kan inschakelen in de instellingen van het apparaat.";
+"InvertColors.Intro.text2" = "Er zijn 2 soorten kleurinversie:";
+"InvertColors.Intro.text3" = "Klassiek - waar alles zal worden omgekeerd;";
+"InvertColors.Intro.text4" = "Slim - waar (bijna) alles in de lichte modus wordt omgekeerd, en jij (de ontwikkelaar) kunt ervoor kiezen dat niet te doen.";
+"InvertColors.Intro.comment1" = "Maar waarom zou iemand dit gebruiken?";
+"InvertColors.Intro.text5" = "Ik denk dat het neerkomt op moeite met het lezen van donkere tekst bovenop een witte achtergrond. Zelf vind ik het behoorlijk moeilijk om inhoud zoals dit te lezen als ik geen bril draag, dus ik geef de voorkeur aan de donkere modus, met witte tekst bovenop een donkere achtergrond.";
+"InvertColors.Intro.text6" = "De kleurinversie komt als een alternatief om je in deze situatie te helpen.";
+"InvertColors.WhatToDo.title" = "Wat te doen als ontwikkelaar?";
+"InvertColors.WhatToDo.text1" = "Je moet in feite markeren wat je niet wilt dat wordt omgekeerd. Zoals afbeeldingen, een foto van je hond, een lekkere hamburger die er vies uitziet als deze wordt omgekeerd...";
+"InvertColors.WhatToDo.text2" = "En om dat te doen, hoef je alleen maar een booleaanse waarde in te stellen die aangeeft dat je wilt dat deze weergave niet wordt omgekeerd.";
+"InvertColors.Example.text1" = "Wijzig de weergavestand van lichte/donkere modus en de kleurinversie-instelling en controleer de onderstaande afbeeldingen.";
+"InvertColors.Example.image1" = "Sterrennacht, door Van Gogh";
+"InvertColors.Example.image2" = "Sterrennacht, door Van Gogh. Afbeelding wordt niet omgekeerd.";
+"InvertColors.Example.comment" = "Alleen de tweede afbeelding is ingesteld om kleuren niet om te keren.";
+
+// Header Trait
+"HeaderTrait.title" = "Koptrekken";
+"HeaderTrait.text1" = "Het koptrekken wordt gebruikt om koppen te beschrijven (uiteraard), wat het begin van een nieuwe inhoudssectie aangeeft.";
+"HeaderTrait.comment1" = "Dus... is dat alles?";
+"HeaderTrait.text2" = "Het leuke is dat je alleen kunt navigeren op koppen door de rotorfunctie te gebruiken.";
+"HeaderTrait.link" = "Bekijk de Rotor en Header-pagina!";
+"HeaderTrait.text3" = "Op deze manier kun je elke inhoud overslaan die geen kop is en eenvoudig de sectie vinden waar je naar op zoek bent.";
+
+// Increase Contrast
+"IncreaseContrast.title" = "Verhoog het Contrast";
+"IncreaseContrast.Intro.text1" = "Een andere toegankelijkheidsoptie die de gebruiker kan inschakelen in de instellingen van het apparaat.";
+"IncreaseContrast.Intro.text2" = "Deze is ook vrij voor de hand liggend: de gebruiker vraagt om het contrast tussen voorgrond- en achtergrondkleuren te verbeteren, zodat het gemakkelijker wordt om ze van elkaar te onderscheiden.";
+"IncreaseContrast.Property.title" = "Omgaan met contrastveranderingen";
+"IncreaseContrast.Property.text1" = "Een eenvoudige manier om dit te ondersteunen is door 'System Colors' te gebruiken. Ze passen zich automatisch aan aan het verhoogde contrast.";
+"IncreaseContrast.Property.comment1" = "Deze app is gebouwd met behulp van systeemkleuren! Verander de contrastopties in de instellingen van je apparaat en bekijk de verschillen!";
+"IncreaseContrast.Property.text2" = "Of je kunt de boolean 'UIAccessibility.accessibilityDisplayShouldIncreaseContrast' gebruiken om de huidige contraststatus te controleren en dienovereenkomstig te handelen.";
+"IncreaseContrast.swiftUI.text1" = "En in SwiftUI is er een handige contrasttool die je kunt gebruiken om het contrast op je weergaven te wijzigen";
+"IncreaseContrast.swiftUI.comment1" = "Niet dat ik deze contrasttool echt heb gebruikt in een echt project.";
+"IncreaseContrast.example" = "Voorbeeld van het gebruik van de contrasttool. Er zijn 6 afbeeldingen met toenemend contrast.";
+
+// Haptics
+"Haptic.text1" = "Haptiek zijn kleine trillingen die het apparaat kan maken";
+"Haptic.text2" = "Er zijn verschillende soorten haptiek en elk wordt gebruikt om iets anders te vertegenwoordigen.";
+"Haptic.comment1" = "Maar... waarom praten we over haptiek in een toegankelijkheidsgids?";
+"Haptic.text3" = "Haptiek is een vorm van feedback. Wanneer je iets selecteert, wanneer iets slaagt...";
+"Haptic.text4" = "Het is een extra laag feedback. Stel je voor dat de meeste acties enige vorm van visuele feedback hebben, zoals wanneer je op een knop tikt en de kleur ervan licht verandert, zodat je weet dat de knop is ingedrukt.";
+"Haptic.text5" = "Aangezien we soms niet kunnen vertrouwen op visuele aanwijzingen, kunnen haptiek een zeer interessante en krachtige manier zijn om de toegankelijkheid te verbeteren.";
+"HapticList.title" = "Lijst van Haptieken";
+"HapticList.text1" = "Hier is een lijst van beschikbare haptieken:";
+"HapticList.comment" = "Ik raad je ook aan de broncode van dit project te bekijken. Het heeft een mooie Haptic-wrapper die kan worden gebruikt op UIKit of SwiftUI!";
+"HapticList.sourceCode" = "Broncode Haptic";
+"HapticList.iPadDisclaimer" = "Haptiek is niet beschikbaar op iPad, de knoppen hieronder werken mogelijk niet op je huidige apparaat.";
+"Haptics.selection" = "Selectie";
+"Haptics.success" = "Succes";
+"Haptics.error" = "Fout";
+"Haptics.warning" = "Waarschuwing";
+"Haptics.lighImpact" = "Lichte impact";
+"Haptics.mediumImpact" = "Gemiddelde impact";
+"Haptics.heavyImpact" = "Zware impact";
+
+// Activate
+"Activate.title" = "Element Activeren";
+"Activate.text1" = "Het activeren van een element (door erop te dubbeltikken met VoiceOver ingeschakeld) is hetzelfde als een enkele tik wanneer je VoiceOver niet gebruikt.";
+"Activate.comment1" = "Tik op een knop, klik op een cel...";
+"Activate.text2" = "Meestal gebeurt deze actie automatisch wanneer je cel een taptiksel heeft of een knop is.";
+"Activate.text3" = "Maar je kunt de activeringstiksel aanpassen of een specifieke actie toevoegen voor het activeringsgebaar.";
+"Activate.codeComment" = "Actie afhandelen";
+
+// Long Press
+"LongPress.title" = "Lang indrukken";
+"LongPress.comment1" = "Lang indrukken?";
+"LongPress.text1" = "Lang indrukken is geen specifiek toegankelijkheidsgebaar, maar ik voeg het hier toe omdat het een specifiek gebaar heeft dat moet worden afgehandeld bij gebruik van VoiceOver.";
+"LongPress.text2" = "Om een lang indrukken te simuleren, voer je een driedubbele tik uit wanneer je gefocust bent op het item.";
+"LongPress.text3" = "Zet VoiceOver aan en focus op het volgende element. Het heeft een lang indrukken-gebaar.";
+"LongPress.comment2" = "Als je een lang indrukken-gebaar gebruikt, raad ik altijd aan een toegankelijke hint toe te voegen om je gebruiker hierover te informeren!";
+"LongPress.text4" = "Het lang indrukken is vooral handig bij 'Terugknoppen', die op nieuwere iOS-versies de navigatiehiërarchie weergeven, zodat je eenvoudig terug kunt navigeren naar de pagina die je wilt.";
+"LongPress.Example.text" = "Enkele generieke weergave hier";
+"LongPress.Example.hint" = "Tik drie keer om de tekst te kopiëren";
+"LongPress.Example.notification" = "Tekst gekopieerd naar het klembord";
+"LongPress.Code.comment" = "Gebaar afhandelen";
+
+// Custom Actions
+"CustomActions.title" = "Aangepaste Acties";
+"CustomActions.text1" = "'Aangepaste Acties' is de naam van de mogelijkheid om meerdere acties toe te voegen die worden uitgevoerd op dezelfde weergave. Als je gefocust bent, zal VoiceOver 'beschikbare acties' aan het einde lezen, wat betekent dat je omhoog en omlaag kunt vegen om de actie te wijzigen die wordt uitgevoerd wanneer je het element activeert.";
+"CustomActions.comment1" = "Maar wanneer zou ik dat zelfs gebruiken?";
+"CustomActions.text2" = "Het is een goede tool om de toegankelijkheid van elementen die meerdere acties kunnen uitvoeren, te verbeteren.";
+"CustomActions.text3" = "Zoals een kaartcel, die de kaart kan selecteren, verwijderen, bewerken";
+"CustomActions.text4" = "Meestal zou je meerdere knoppen hebben voor elke actie, maar focussen op elke afzonderlijke knop zou geen erg goede VoiceOver-ervaring zijn.";
+"CustomActions.comment2" = "Ik vind aangepaste acties ook erg handig wanneer sommige van de acties verborgen zijn achter een animatie, zoals wanneer je op een pictogram moet tikken, er iets verandert en andere pictogrammen verschijnen.";
+"CustomActions.creditCard" = "Creditcard";
+"CustomActions.accessible" = "Creditcard, eindigend op 1234";
+
+// Magic Tap
+"MagicTap.title" = "Magische Tik";
+"MagicTap.text1" = "'Magische Tik' is een gebaar van dubbel tikken met twee vingers.";
+"MagicTap.text2" = "Je kunt de 'Magische Tik' configureren om zo ongeveer alles te doen.";
+"MagicTap.text3" = "De documentatie van Apple suggereert dat je het moet gebruiken als een snelkoppeling naar 'je belangrijkste actie', zoals bij een muziekspeler, zou het geschikt zijn voor afspelen en pauzeren, of bij een camera-app zou het geschikt zijn voor het nemen van een foto.";
+"MagicTap.text4" = "Test de Magische tik op de weergave hieronder!";
+"MagicTap.comment1" = "Bij het implementeren van de 'Magische Tik' zorg ervoor dat deze is ingeschakeld op de gefocuste weergave, anders concurreert deze met de mediaspeler van het apparaat, omdat het hetzelfde gebaar is om af te spelen/pauzeren op het apparaat.";
+"MagicTap.Example.thisContentIsMagic" = "Deze inhoud heeft een Magische Tik!";
+"MagicTap.Example.magicPerformed" = "Magische tik uitgevoerd";
+"VoiceOverGuide" = "VoiceOver Gids";
+
+// Accessibility Notifications
+"AccNotifications.title" = "Toegankelijkheidsmeldingen";
+
+// Announcement
+"Announcement.title" = "Aankondiging";
+"Announcement.textToBeRead" = "Tekst om te lezen";
+"Announcement.text1" = "Een aankondigingsmelding is een manier om VoiceOver iets te laten voorlezen dat momenteel niet is gefocust.";
+"Announcement.text2" = "Soms verandert er informatie op het scherm en tonen we dit aan de gebruiker met een animatie om hun aandacht te trekken.";
+"Announcement.text3" = "Maar we kunnen niet vertrouwen op visuele aanwijzingen om informatie te tonen als we het hebben over visuele toegankelijkheid.";
+"Announcement.comment1" = "Naar mijn mening komen aankondigingen hier goed van pas!";
+"Announcement.comment2" = "De codecellen hieronder zijn een ander voorbeeld van aankondigingen wanneer je de code kopieert!";
+"Announcement.Notifications.negative" = "Negatief gaan, nietwaar?";
+"Announcement.Notifications.small" = "Oh, de waarden nemen toe!";
+"Announcement.Notifications.medium" = "Je houdt van verhogen, hè?";
+"Announcement.Notifications.large" = "Ja, blijf maar verhogen...";
+"Announcement.Notifications.huge" = "Dicht bij het einde";
+"Announcement.Notifications.final" = "Dit is het laatste bericht";
+
+// Notify Screen changes
+"NotifyChanges.title" = "Meldingen van schermwijzigingen";
+"NotifyChanges.text1" = "Wanneer er iets op het scherm verandert, moeten we onthouden dat een VoiceOver-gebruiker het niet kan zien.";
+"NotifyChanges.text2" = "Dit geldt ook wanneer het scherm zelf verandert.";
+"NotifyChanges.text3" = "Maar we hebben enkele toegankelijkheidsmeldingen die zich gedragen als audiocues om de gebruiker te vertellen dat er iets is gebeurd.";
+"NotifyChanges.comment1" = "Maar wat is het argument dat 'nil' is in de code?";
+"NotifyChanges.comment2" = "Ontdek er meer over op de volgende pagina!";
+"NotifyChanges.screenChange" = "Melding van schermwijziging";
+"NotifyChanges.layoutChange" = "Melding van lay-outwijziging";
+
+// Change cursor position
+"ChangeCursor.title" = "Cursorpositie wijzigen";
+"ChangeCursor.Intro.text1" = "Meestal willen we dat de gebruiker controle heeft over waar de VoiceOver-cursor naartoe moet.";
+"ChangeCursor.Intro.text2" = "Soms, wanneer we iets op het scherm veranderen, zoals het presenteren van een modaal bovenop alles, willen we de gebruiker rechtstreeks naar de nieuwe inhoud leiden.";
+"ChangeCursor.Intro.comment" = "Maar hiervoor werkt het anders in UIKit en SwiftUI, dus we gaan voor elke sectie een aparte pagina hebben.";
+"ChangeCursor.uikit.text1" = "Om de cursorpositie in UIKit te wijzigen, gaan we de meldingen van schermwijzigingen gebruiken.";
+"ChangeCursor.uikit.text2" = "Bij het activeren van een van deze meldingen kunnen we de weergave die we willen dat VoiceOver zich op focust, als argument doorgeven.";
+"ChangeCursor.uikit.link" = "Meer over meldingen van schermwijzigingen.";
+"ChangeCursor.swiftui.text1" = "Bij SwiftUI gaan we geen gebruik maken van de toegankelijkheidsmeldingen, in plaats daarvan gebruiken we de @AccessibilityFocusState.";
+"ChangeCursor.swiftui.text2" = "Het stelt ons in staat om te controleren of de cursor is gefocust op een weergave en de navigatie daarnaartoe te verplaatsen.";
+"ChangeCursor.swiftui.text3" = "Maak eerst een nieuwe Boolean-eigenschap met deze wrapper";
+"ChangeCursor.swiftui.text4" = "Wijs het vervolgens toe aan de weergave die je wilt besturen met behulp van een weergavemodifier.";
+"ChangeCursor.swiftui.text5" = "Nu kun je de focus op de weergave wijzigen door de eigenschap op 'True' in te stellen.";
+"ChangeCursor.swiftui.comment" = "Je kunt zelfs deze eigenschap observeren om iets te behandelen wanneer het gefocust/ongefocust is.";
+
+// Content Hierarchy
+"ContentHiererachy" = "Inhoudshiërarchie";
+
+// Modal
+"Modal.title" = "Modale weergaven";
+"Modal.Intro.text1" = "Modale weergaven, in dit geval hebben we het over elke weergave die bovenop bestaande inhoud wordt weergegeven. Banners, toasts, zwevende knoppen...";
+"Modal.Intro.text2" = "Het probleem is: VoiceOver zal proberen de natuurlijke leesrichting van de taal te gebruiken om de inhoud voor te lezen, en zelfs als je weergave bovenop elke andere weergave staat, zal VoiceOver nog steeds focussen op de inhoud erachter.";
+"Modal.Intro.text3" = "Om dit probleem te voorkomen, kunnen we een weergave markeren als zijnde 'Modaal'. Dit zorgt ervoor dat VoiceOver alleen focust op die weergave terwijl deze wordt gepresenteerd.";
+"Modal.Intro.comment1" = "Maar het behandelen van modals heeft enkele verschillen in UIKit en SwiftUI, dus ik verdeel het hier in een sectie voor elk.";
+"Modal.Intro.link" = "Lees meer over leesvolgorde.";
+"Modal.uikit.text1" = "In UIKit heeft elke UIView de eigenschap 'accessibilityViewIsModal'. En we moeten het instellen op 'True' als we een weergave als modaal willen markeren.";
+"Modal.uikit.text2" = "Maar in mijn ervaring vind ik dat het eenvoudig instellen op 'True' soms niet het verwachte gedrag heeft.";
+"Modal.uikit.text3" = "Ik stel voor om deze eigenschap in de Class van de modale weergave te overschrijven en deze op de juiste waarde in te stellen.";
+"Modal.swiftui.text1" = "Bij SwiftUI kan de 'Modaal' worden ingesteld alsof het een toegankelijkheidstraits is.";
+"Modal.example.text1" = "Zet VoiceOver aan en test de modals hieronder.";
+"Modal.example.goodModal" = "Goede modale weergave";
+"Modal.example.thisGoodModal" = "Dit is een goede modale weergave";
+"Modal.example.badModal" = "Slechte modale weergave";
+"Modal.example.thisBadModal" = "Dit is een slechte modale weergave";
+"Modal.example.comment" = "Gemerkt dat bij het openen van de goede modale weergave de cursor er direct op werd gefocust? Dit is belangrijk bij het weergeven van een modale weergave bovenop bestaande inhoud.";
+"Modal.example.link" = "Lees er meer over in de sectie Meldingen.";
+
+
+// Grouping
+"Grouping.title" = "Elementen Groeperen";
+"Grouping.text1" = "Voor mij is het correct groeperen van elementen een van de belangrijkste onderdelen bij het bouwen van een goed toegankelijk weergave.";
+"Grouping.text2" = "Stel je een carrousel voor met een hoop cellen. Bij gebruik van VoiceOver willen we dat de cursor zich richt op elke afzonderlijke cel, niet op de inhoud van de cellen.";
+"Grouping.comment" = "Dit lijkt misschien voor de hand liggend, maar kan gemakkelijk worden vergeten tijdens de ontwikkeling.";
+"Grouping.text3" = "Zet VoiceOver aan en controleer beide carrousels hieronder. De een heeft de inhoud correct gegroepeerd en de ander niet.";
+"Grouping.goodCarousel" = "Gegroepeerde Carrousel";
+"Grouping.containedCarousel" = "Gegroepeerd (bevat) Carrousel";
+"Grouping.badCarousel" = "Ongroeperde Carrousel";
+"Grouping.cellTitle" = "Cel titel";
+"Grouping.cellContent" = "Cel inhoud";
+"Grouping.cellComment" = "Cel opmerking";
+"Grouping.uikit.text" = "Op UIKit moet je ervoor zorgen dat de bovenliggende weergave een toegankelijk element is en niet de kinderen. Combineer ze vervolgens om het juiste toegankelijkheidslabel voor de bovenliggende weergave te bouwen.";
+"Grouping.swiftui.text" = "SwiftUI heeft een betere wrapper om alle kinderen te combineren tot een enkel toegankelijk element.";
+"Grouping.contain.title" = "Lees eerst kinderen";
+"Grouping.contain.text1" = "Er is nog een andere manier om elementen op een weergave te groeperen, namelijk door ze zo te groeperen dat de subweergaven ervan eerst worden gelezen voordat andere inhoud.";
+"Grouping.contain.text2" = "Als je naar de \"Ongroeperde Carrousel\" hierboven kijkt, worden de titels eerst gelezen, gevolgd door alle inhoud. VoiceOver respecteert namelijk de natuurlijke leesvolgorde van de elementen.";
+"Grouping.contain.comment1" = "Je hebt niet gezegd dat het de eerste cel eerst moet lezen!";
+"Grouping.contain.text3" = "Deze andere groeperingsstijl doet precies dat. Je vertelt VoiceOver om de elementen op je subweergaven te lezen voordat het naar het volgende toegankelijke element gaat.";
+"Grouping.contain.text4" = "Als we het zo groeperen, worden de inhoud van dezelfde cel eerst gelezen voordat naar de volgende wordt gegaan.";
+"Grouping.contain.comment2" = "Dat is al veel beter dan helemaal geen groepering!";
+"Grouping.contain.text5" = "Maar het is zinvol om dit in sommige situaties te gebruiken, bijvoorbeeld cellen waarvan de inhoud in verschillende delen is verdeeld, maar het nog steeds zinvol is om te lezen wat er binnen de cel staat voordat je naar het volgende element gaat.";
+"Grouping.contain.comment3" = "Bijna magisch dat je met één regel zoveel kunt veranderen!";
+
+// Game Success
+"GameSuccess.title" = "Gefeliciteerd!";
+"GameSuccess.subtitle" = "Je hebt de puzzel opgelost!";
+"GameSuccess.text" = "Als je meer wilt weten over deze puzzel, bekijk dan onze documentatie";
+"GameSuccess.suggestedReading" = "Aanbevolen leesmateriaal";
+
+// Hint View
+"Hint" = "Hint";
+"Hint.hint" = "Activeer om een hint te krijgen over hoe je deze puzzel kunt oplossen.";
+"Hint.close" = "Sluit hint";
+"Hint.open" = "Open hint";
+"Hint.title" = "🤔 Heb je moeite?";
+"Hint.text1" = "De Handboek-puzzels zijn gemaakt om opgelost te worden met behulp van een soort toegankelijkheidstool (of een combinatie daarvan).";
+"Hint.text2" = "Als je er niet uitkomt, kan deze pagina je misschien helpen...";
+
+// Games
+"GameView.comment" = "Probeer deze puzzels op te lossen om meer te leren over toegankelijkheidsfuncties!";
+"GameCell.finishedHint" = "Je hebt deze puzzel al opgelost!";
+"GameCell.unfinishedHint" = "Je hebt deze puzzel nog niet voltooid";
+"WhereIsMyContent.title" = "Waar is mijn inhoud?";
+"WhereIsMyContent.text1" = "Deze puzzel is vrij eenvoudig.";
+"WhereIsMyContent.text2" = "Je moet de juiste knop vinden om de puzzel op te lossen met behulp van VoiceOver!";
+"FindThePassword.title" = "Vind het Wachtwoord";
+"FindThePassword.text1" = "Je moet het juiste wachtwoord typen!";
+"FindThePassword.text2" = "Zo eenvoudig is het";
+"FindThePassword.comment" = "Je hoeft alleen maar uit te vinden wat het wachtwoord is...";
+"BePatient.title" = "Wees Geduldig";
+"BePatient.text" = "Tik op de elementen in de juiste volgorde!";
+"BePatient.comment" = "Geduld is de sleutel...";
+"Impostor.title" = "Bedrieger";
+"Impostor.text" = "Vind de bedrieger en typ zijn naam!";
+"Impostor.comment" = "Vraag het ze, misschien vertellen ze het je.";
+"Impostor.field" = "Typ de naam van de bedrieger";
+"Impostor.hint" = "Ik ben niet de bedrieger";
+"Impostor.impostor" = "Ja, ik ben de bedrieger";
+"Invisibility.title" = "Onzichtbaarheid";
+"Invisibility.text" = "Alleen omdat je het niet kunt zien, betekent niet dat het er niet is.";
+"Invisibility.comment" = "Wacht... Is deze inhoud TRANSPARANT?";
+"Invisibility.transparent" = "Wacht... Is deze inhoud TRANSPARANT?";
+"Impostor2.title" = "Bedrieger 2.0";
+"Impostor2.text" = "Vind de bedrieger en typ zijn naam!";
+"Impostor2.comment" = "Vraag het ze, misschien vertellen ze het je.";
+"Impostor2.field" = "Typ de naam van de bedrieger";
+"TheMagicPuzzle.title" = "De 'Magische' Puzzel";
+"TheMagicPuzzle.text" = "Deze puzzel is Magisch!";
+"TheMagicPuzzle.comment" = "Ik weet niet wat ik je nog meer moet vertellen...";
+"SecretActions.title" = "Geheime Acties";
+"SecretActions.text" = "Voer voor elk dier het juiste voedsel!";
+"SecretActions.comment" = "Maak je geen zorgen, ze vertellen je wel wat ze lekker vinden.";
+"SecretActions.Action.apples" = "Geef Appels";
+"SecretActions.Action.grass" = "Geef Gras";
+"SecretActions.Action.bubbles" = "Geef Bubbels";
+"SecretActions.Action.nectar" = "Geef Nectar";
+"FillTheCup.title" = "Vul de Beker";
+"FillTheCup.text" = "Vul de cirkels helemaal!";
+"FillTheCup.comment" = "Je moet gewoon een manier vinden om het te doen";
+"AColorfulMessage.title" = "Een 'Kleurrijk' Bericht";
+"AColorfulMessage.text" = "Typ het juiste wachtwoord!";
+"AColorfulMessage.comment" = "Het is een wachtwoord van 6 cijfers";
+"TheUpsideDown.title" = "De Omgekeerde Wereld";
+"TheUpsideDown.text1" = "Misschien is er een manier om het te zien.";
+"TheUpsideDown.text2" = "Ik voel me zo omgekeerd";
+"SuperFriend.title" = "Super Vriend";
+"SuperFriend.text" = "Iedereen hier is zo vriendelijk,";
+"SuperFriend.comment" = "Vind de persoon met de meeste vrienden!";
+"SuperFriend.field" = "Naam Super Vriend";
+"IncreasingHints.title" = "Toenemende hints";
+"IncreasingHints.text" = "Kun je de hints lezen? Gebruik ze om het juiste wachtwoord te vinden.";
+"IncreasingHints.hint1" = "Het is zo klein... Ik herinner me niet wat ik moest zeggen.";
+"IncreasingHints.hint2" = "De eerste hint moet iets groter zijn.";
+"IncreasingHints.hint3" = "Het tweede getal is 3, maar misschien kun je nog andere hints vinden?";
+"IncreasingHints.hint4" = "Het eerste getal is 2 minder dan het tweede.";
+"IncreasingHints.hint5" = "Wordt groot, hè? Het laatste getal is 4.";
+"IncreasingHints.hint6" = "Het derde getal is hetzelfde als het eerste.";
+"IncreasingHints.hint7" = "Het vierde getal is twee keer het tweede.";
+"IncreasingHints.hint8" = "Het ontbrekende getal is hetzelfde als het laatste!";
+"IncreasingHints.unspecified" = "Ik ben helemaal de weg kwijt... Ik weet niet wat ik moet zeggen.";
+"AnAlternative.title" = "Een alternatief";
+"AnAlternative.text" = "Je moet afwisselen tussen... iets... en proberen items in de juiste volgorde in te schakelen.";
+
+// Actions
+"doubleTapToCopy" = "Tik twee keer om te kopiëren";
+"appleDoc" = " Zie meer in de documentatie van Apple voor \"%@\"";
+"nextPage" = "Volgende pagina %@";
+"backToIndex" = "Terug naar Index";
+"goPlay" = "Ga spelen!";
+"moreOnWikipedia" = "Meer op Wikipedia";
+"more" = "Meer";
+"moreOnTheWeb" = "Meer op het web";
+"dedicatedPage" = "Toegewijde pagina";
+"select" = "Selecteer";
+"delete" = "Verwijderen";
+"edit" = "Bewerken";
+"selected" = "Geselecteerd";
+"deleted" = "Verwijderd";
+"edited" = "Bewerkt";
+"handleAction" = "Handel Actie";
+"dismiss" = "Afwijzen";
+"goBack" = "Ga Terug";
+"tapToWin" = "Tik om te winnen";
+"tapToChange" = "Tik om te veranderen";
+
+// Code
+"codeCopied" = "Code gekopieerd!";
+"copyCode" = "Kopieer Code";
+"closeCodeView" = "Sluit de code-weergave";
+"codeExample" = "%@ code voorbeeld.";
+"codeHint" = "Tik twee keer om de code op volledig scherm te openen, en tik drie keer om te kopiëren.";
+
+// Some nouns
+"freeShipping" = "Gratis verzending";
+"additionalCost" = "Extra kosten";
+"earlyAccess" = "Vroege toegang";
+"extraBureaucracy" = "Extra bureaucratie";
+"regularText" = "Reguliere tekst";
+"boldText" = "Vette tekst";
+"openSettings" = "Open Instellingen";
+"haptic" = "Haptisch";
+"haptics" = "Haptiek";
+"moon" = "Maan";
+"cloud" = "Wolk";
+"sun" = "Zon";
+"sunrise" = "Zonsopgang";
+"snow" = "Sneeuw";
+"rain" = "Regen";
+"fog" = "Mist";
+"weatherIcons" = "Weer Iconen";
+"interactrion" = "Interactie";
+"uikit" = "UIKit";
+"swiftUI" = "SwiftUI";
+"modal" = "Modaal";
+"example" = "Voorbeeld";
+"examples" = "Voorbeelden";
+"lobster" = "Kreeft";
+"pumpkin" = "Pompoen";
+"iceCream" = "IJs";
+"flag" = "Vlag";
+"potato" = "Aardappel";
+"password" = "Wachtwoord";
+"puzzles" = "Puzzels";
+"unfinishedPuzzles" = "Onvoltooide Puzzels";
+"completedPuzzles" = "Voltooide Puzzels";
+"pencil" = "Potlood";
+"paper" = "Papier";
+"paperPlane" = "Papieren vliegtuig";
+"book" = "Boek";
+"bell" = "Bel";
+"minimum" = "Minimum";
+"maximum" = "Maximum";
+
+// Gebaren
+"Gestures.title" = "Gids voor Gebaren";
+"Gestures.text1" = "Hier is een eerste gids om te beginnen met het gebruik van VoiceOver-gebaren.";
+"Gestures.swipeRight.description" = "Verplaats de cursor naar het volgende element";
+"Gestures.swipeLeft.description" = "Verplaats de cursor naar het vorige element";
+"Gestures.swipeUp.description" = "Verander Rotor-filter / Verhoogbaar element vergroten / Geselecteerde aangepaste actie wijzigen";
+"Gestures.swipeDown.description" = "Verander Rotor-filter / Verlaagbaar element verlagen / Geselecteerde aangepaste actie wijzigen";
+"Gestures.singleTap.description" = "Lees gefocust element voor";
+"Gestures.doubleTap.description" = "Activeer element, hetzelfde als tikken wanneer VoiceOver is uitgeschakeld.";
+"Gestures.tripleTap.description" = "Lang indrukken";
+"Gestures.twoFingersSingleTap.description" = "Pauzeer/Afspelen lezen. U kunt VoiceOver de huidige lezing laten pauzeren, en door dezelfde beweging opnieuw te maken, gaat het verder vanaf waar het gestopt is.";
+"Gestures.twoFingersDoubleTap.description" = "Voer een Magische Tik uit.";
+"Gestures.twoFingersSwipeUp.description" = "Lees vanaf boven - verplaatst de cursor naar de bovenkant van de pagina.";
+"Gestures.twoFingersSwipeDown.description" = "Lees alles - begint de inhoud automatisch te lezen.";
+"Gestures.threeFingersSwipeUp.description" = "Scroll naar beneden.";
+"Gestures.threeFingersSwipeDown.description" = "Scroll omhoog.";
+"Gestures.threeFingersSwipeLeft.description" = "Scroll naar rechts.";
+"Gestures.threeFingersSwipeRight.description" = "Scroll naar links.";
+"Gestures.threeFingersSingleTap.description" = "Lees item samenvatting. Het zal ook de positie van de cursor op het scherm beschrijven.";
+"Gestures.threeFingersDoubleTap.description" = "Dempen/ongedempt maken van de schermlezer";
+"Gestures.threeFingersTripleTap.description" = "Schermgordijn in-/uitschakelen. Schakelt het scherm uit maar de inhoud blijft draaien.";
+"Gestures.fourFingersDoubleTap.description" = "Start/stop hulp bij gebaren. Wanneer ingeschakeld, vertelt het elke uitgevoerde beweging en wat het doet.";
+"Gestures.helper" = "Gebarenhelper";
+"Gestures.reading" = "Lezen";
+"Gestures.dismiss.description" = "Gebaar om modals te sluiten en terug te gaan naar de preview-weergave op de navigatiestapel.";
+"Gesture.swipeRight" = "Veeg naar rechts";
+"Gesture.swipeLeft" = "Veeg naar links";
+"Gesture.swipeUp" = "Veeg omhoog";
+"Gesture.swipeDown" = "Veeg omlaag";
+"Gesture.singleTap" = "Enkele tik";
+"Gesture.doubleTap" = "Dubbele tik";
+"Gesture.tripleTap" = "Drievoudige tik";
+"Gesture.twoFingersSingleTap" = "Twee vingers enkele tik";
+"Gesture.twoFingersDoubleTap" = "Twee vingers dubbele tik";
+"Gesture.twoFingersSwipeUp" = "Twee vingers omhoog vegen";
+"Gesture.twoFingersSwipeDown" = "Twee vingers omlaag vegen";
+"Gesture.threeFingersSwipeUp" = "Drie vingers omhoog vegen";
+"Gesture.threeFingersSwipeDown" = "Drie vingers omlaag vegen";
+"Gesture.threeFingersSwipeLeft" = "Drie vingers naar links vegen";
+"Gesture.threeFingersSwipeRight" = "Drie vingers naar rechts vegen";
+"Gesture.threeFingersSingleTap" = "Drie vingers enkele tik";
+"Gesture.threeFingersDoubleTap" = "Drie vingers dubbele tik";
+"Gesture.threeFingersTripleTap" = "Drie vingers drievoudige tik";
+"Gesture.fourFingersDoubleTap" = "Vier vingers dubbele tik.";
+"Gesture.dismiss" = "'Z' met 2 vingers.";
+"Gesture.accessible" = "Animatie die het gebaar voor %@ vertegenwoordigt";
+
+// Dynamische lettertypen
+"DynamicFonts.title" = "Dynamische Lettertypen";
+"DynamicFonts.implementing" = "Implementatie van Dynamische Lettertypen";
+
+// Lettertypen sectie
+"Fonts.title" = "Lettertypen";
+
+// Over Lettertypen
+"AboutFonts.title" = "Over Lettertypen";
+"AboutFonts.Intro.comment1" = "Lettertypen zijn gaaf.";
+"AboutFonts.Intro.text1" = "Een lettertype is een bepaalde grootte, gewicht en stijl van letters. Ik denk graag na over het 'tekenen' van de tekens die de tekst vormen.";
+"AboutFonts.Intro.text2" = "Je leest momenteel een tekst, geschreven in een specifiek lettertype.";
+"AboutFonts.Intro.comment2" = "Dit is het systeemlettertype van iOS en het heet SF Pro.";
+"AboutFonts.Intro.text3" = "Er zijn verschillende lettertypen. Honderden en honderdduizenden. En we kunnen besluiten om een aangepast lettertype voor onze app te gebruiken, misschien past het beter bij onze inhoud, misschien maakt het deel uit van onze wereldwijde identiteit met andere platforms, misschien willen we een specifiek gevoel oproepen vanuit het lettertype...";
+"AboutFonts.Intro.text4" = "Maar het lettertype is hoe we de inhoud rechtstreeks aan de gebruiker tonen. Het grootste deel van de tijd verwachten we dat de gebruiker de inhoud LEEST. Dus, het lettertype dat wordt gebruikt om het weer te geven, is uiterst belangrijk.";
+"AboutFonts.Intro.text5" = "De basisregel is: We willen dat het lettertype leesbaar is.";
+"AboutFonts.Intro.comment3" = "Maar aangezien we al hebben vastgesteld dat niet iedereen inhoud of kleuren op dezelfde manier waarneemt...";
+"AboutFonts.Intro.text6" = "Het tweede deel is: We willen dat iedereen die kan lezen, onze inhoud kan lezen.";
+"AboutFonts.Intro.comment4" = "En dat is waar toegankelijkheid binnenkomt en het interessant wordt.";
+"AboutFonts.link" = "Bekijk enkele verschillende lettertypen!";
+
+// UIContentSizeCategory
+"UIContentSizeCategory.title" = "UIContentSizeCategory";
+"UIContentSizeCategory.Intro.text1" = "De 'UIContentSizeCategory' is een systeem-enum dat de geselecteerde voorkeursinhoudsgrootte van de gebruiker vertegenwoordigt.";
+"UIContentSizeCategory.Intro.text2" = "Het heeft 12 verschillende grootteopties van extra klein tot extra extra extra groot, vervolgens de 'toegankelijkheidsgroottes' van toegankelijkheid medium tot toegankelijkheid extra extra extra groot. (Ja, 3 extra's)";
+"UIContentSizeCategory.Intro.comment1" = "De toegankelijkheidsgroottes zijn groter dan de andere, zelfs als hun naam begint bij 'toegankelijkheid medium', is het nog steeds groter dan de reguliere 'extra extra extra grote' grootte.";
+"UIContentSizeCategory.List.title" = "Lijst van UIContentSizeCategory";
+"UIContentSizeCategory.List.text1" = "Hier is een lijst van alle beschikbare inhoudsgroottes. U kunt de pagina 'Voorkeursinhoudsgrootte identificeren' bekijken voor meer informatie over hoe u deze correct kunt identificeren.";
+"UIContentSizeCategory.List.comment1" = "Hoewel, in code, moet je deze informatie meestal niet rechtstreeks controleren en gewoon de UIFontMetric of systeemlettertypen gebruiken om je lettertype naar de juiste grootte te schalen.";
+"UIContentSizeCategory.List.current" = "Dit is je huidige inhoudsgrootte.";
+"UIContentSizeCategory.Code.text1" = "Je kunt de lettergrootte van het systeem controleren met de volgende code.";
+"fontSize" = "Lettergrootte: %@";
+
+// Grootte en Gewicht
+"SizeAndWeight.title" = "Grootte en Gewicht";
+
+// Implementatie van dynamische lettertypen
+"ImplementingDynamicFonts.title" = "Lettertypen automatisch schalen";
+"ImplementingDynamicFonts.Intro.text1" = "Het automatisch schalen van lettertypen is de eigenschap van een label of tekst om automatisch de lettergrootte te vergroten volgens de toegankelijkheidsinstellingen van de gebruiker.";
+"ImplementingDynamicFonts.Intro.comment1" = "Dat noemen we 'Dynamische lettertypen'.";
+"ImplementingDynamicFonts.Intro.text2" = "Om dit te ondersteunen, stoppen we met het gebruik van 'vaste' lettergroottes en beginnen we te werken met 'tekststijlen'.";
+"ImplementingDynamicFonts.Intro.comment2" = "In het bovenstaande voorbeeld gebruiken we een vaste lettergrootte (36), wat niet voldoende zal zijn als we verwachten dat ons lettertype automatisch wordt geschaald.";
+"ImplementingDynamicFonts.TextStyles.title" = "Tekststijlen";
+"ImplementingDynamicFonts.TextStyles.text1" = "Tekststijlen vertegenwoordigen een context voor je lettertype (titel, body, bijschrift...), in plaats van een vaste lettergrootte.";
+"ImplementingDynamicFonts.TextStyles.text2" = "De lettergrootte wordt bepaald door wat de huidige configuratie is in de instellingen van het apparaat, en het zal elke tekststijl dienovereenkomstig schalen.";
+"ImplementingDynamicFonts.TextStyles.comment1" = "Dus maak je geen zorgen, je inhoud zal nog steeds verschillen tussen titels en lichamen en opmerkingen, en elke andere tekststijl die je gebruikt.";
+"ImplementingDynamicFonts.TextStyles.text3" = "Ook, als de eigenschap 'pastLettertypeAanVoorToegankelijkheid' is ingesteld op 'False', zal het lettertype aanvankelijk de juiste grootte hebben, maar het reageert niet op tekstgrootteveranderingen die de gebruiker aanbrengt in Instellingen of het Bedieningspaneel.";
+"ImplementingDynamicFonts.SystemFonts.title" = "Systeemlettertypen";
+"ImplementingDynamicFonts.SystemFonts.text1" = "De eenvoudigste manier om het schalen van je lettertypen automatisch te ondersteunen, is door de systeemgedefinieerde tekststijlen en lettertypen te gebruiken.";
+"ImplementingDynamicFonts.SystemFonts.text2" = "Ze werken naadloos samen met de wijzigingen die de gebruiker aanbrengt in de lettergroottes.";
+"ImplementingDynamicFonts.SystemFonts.comment1" = "Het moeilijke komt met aangepaste lettertypen, waar we het later op de volgende pagina's over zullen hebben.";
+
+// UIFontMetrics
+"UIFontMetrics.title" = "UIFontMetrics";
+"UIFontMetrics.Intro.text1" = "UIFontMetrics is de oplossing om het schalen van aangepaste lettertypen automatisch te ondersteunen. Je maakt een lettermetriekobject dat de letterstijl specificeert die je in je app wilt gebruiken.";
+"UIFontMetrics.Intro.text2" = "Vervolgens laad je je aangepaste lettertype en schaal je het met behulp van UIFontMetrics.";
+"UIFontMetrics.Intro.comment1" = "Zorg ervoor dat je lettertype er goed uitziet in grotere en kleinere maten! Leesbaarheid is de sleutel bij elke lettergrootte.";
+
+// AdjustLayoutToScaledFontPage
+"AdjustLayoutToScaledFontPage.title" = "Indeling Aanpassen aan Geschaalde Lettertypen";
+"AdjustLayoutToScaledFontPage.Intro.text1" = "Het moeilijkste deel van het ondersteunen van dynamische lettertypen is: \"Uw zorgvuldig ontworpen lay-out gaat waarschijnlijk kapot zodra de labels in grootte toenemen of afnemen.\"";
+"AdjustLayoutToScaledFontPage.Intro.text2" = "We moeten overwegen wat we willen dat er gebeurt zodra het lettertype groter wordt. \nZal het in een nieuwe regel breken?\nZal een deel van de inhoud gewoon worden afgesneden?\nZal de weergave zelf groter worden?";
+"AdjustLayoutToScaledFontPage.Intro.comment1" = "Inhoud verbergen is nooit een goede oplossing, dus we moeten benaderingen controleren om alles te laten werken met elk lettertype.";
+"AdjustLayoutToScaledFontPage.Intro.comment2" = "Dit is ook belangrijk om te bespreken met uw ontwerpteam!";
+"AdjustLayoutToScaledFontPage.Intro.text3" = "Controleer de volgende voorbeelden door de instellingen voor de lettergrootte op uw apparaat te wijzigen en te kijken hoe elk ervan zich gedraagt.";
+"AdjustLayoutToScaledFontPage.FixedSize.title" = "Vaste grootte";
+"AdjustLayoutToScaledFontPage.FixedSize.text1" = "De belangrijkste regel is: vermijd zoveel mogelijk vaste maten. Bij het vergroten van het lettertype breekt het waarschijnlijk niet de lay-out zelf, maar de inhoud die wordt weergegeven.";
+"AdjustLayoutToScaledFontPage.LineBreak.title" = "Toestaan van regelovergang";
+"AdjustLayoutToScaledFontPage.LineBreak.text1" = "Door de tekst toe te staan om over te gaan naar een nieuwe regel, kunt u de inhoud ondersteunen onafhankelijk van de grootte. Maar het probleem is: het vergroot waarschijnlijk de grootte van uw lay-out verticaal.";
+"AdjustLayoutToScaledFontPage.LineBreak.comment1" = "Zorg ervoor dat je dit verwacht! Soms willen we niet dat onze cellen of groepen te veel toenemen omdat het onze hele lay-out kan breken.";
+"AdjustLayoutToScaledFontPage.ScaleSize.title" = "Schaalgrootte tot een limiet";
+"AdjustLayoutToScaledFontPage.ScaleSize.text1" = "Een andere optie is om uw inhoud toe te staan de grootte te schalen tot een bepaalde limiet, zodat de lay-out niet (te veel) wordt verbroken.";
+"AdjustLayoutToScaledFontPage.ScaleSize.comment1" = "Ik vind het een mooie oplossing als het wordt gecombineerd met meerregelige tekst, maar u moet ervoor zorgen dat u het met verschillende tekstgroottes test.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.title" = "Tekst toestaan de grootte van de inhoud te regelen";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.text1" = "Soms bepaalt de tekst niet alleen de grootte van onze inhoud, maar wordt deze gecombineerd met een afbeelding of iets anders dat de afmetingen regelt.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.text2" = "Om dynamische lettertypen beter te ondersteunen, moet u uw lay-out uitbreiden buiten de grootte van de gekoppelde inhoud, maar alles nog steeds samenhangend houden.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment1" = "Dit is het ingewikkelde deel, u moet de lay-out maken met het oog op tekstveranderingen en visualiseren wat zou breken en het correct behandelen zodat het blijft werken met grotere lettertypen.";
+"AdjustLayoutToScaledFontPage.AllowTextToIncrease.comment2" = "In dit geval is het ook goed om een minimale grootte voor de inhoud in te stellen, voor het geval van kleinere lettertypen die ook de verwachte lay-out kunnen breken.";
+"AdjustLayoutToScaledFontPage.WhatOption.title" = "Welke optie moet ik gebruiken?";
+"AdjustLayoutToScaledFontPage.WhatOption.text1" = "Nou, dat is het moeilijke gedeelte. Het hangt af. Het hangt ervan af waar de tekst staat, het hangt ervan af hoe we onze inhoud willen schalen (kan onze cellen breder worden?\nMoeten we in plaats daarvan de regels breken?)";
+"AdjustLayoutToScaledFontPage.WhatOption.comment1" = "Daarom is het implementeren van dynamische lettertypen nadat een app klaar is en in productie is, zo moeilijk. Letterlijk alles kan breken.";
+"AdjustLayoutToScaledFontPage.WhatOption.text2" = "Maar net zoals het aanpassen van de inhoud om schermlezers te ondersteunen, is het implementeren van dynamische lettertypen een groepswerk. Praat met uw ontwerpers, stel hen de vraag \"Wat zou er moeten gebeuren als deze titel een vergroot lettertype had?\", en breng al deze discussiepunten naar voren wanneer u de lay-out bouwt.";
+"AdjustLayoutToScaledFontPage.Example.title" = "Inhoudstitel";
+"AdjustLayoutToScaledFontPage.Example.body" = "Inhoudsbody enkele inhoud";
+"AdjustLayoutToScaledFontPage.Example.description" = "Inhoudsbeschrijving";
+
+// IdentifyCurrentPreferredFontSize
+"IdentifyCurrentPreferredFontSizePage.title" = "Identificeer de voorkeursgrootte van de inhoud";
+"IdentifyCurrentPreferredFontSizePage.Intro.text1" = "Bij het selecteren van de voorkeursgrootte van het lettertype in de instellingen van het apparaat zijn meerdere maten en opties beschikbaar.";
+"IdentifyCurrentPreferredFontSizePage.Intro.text2" = "Zelfs zonder de toegankelijkheidsoptie in te schakelen, kan de gebruiker nog steeds verschillende lettergroottes kiezen.";
+"IdentifyCurrentPreferredFontSizePage.Intro.text3" = "U wilt mogelijk de momenteel geselecteerde lettergrootte identificeren om aanvullende acties op uw apparaat uit te voeren, u kunt dit doen door de voorkeursgroottecategorie van de inhoud te controleren in UIApplication.";
+"IdentifyCurrentPreferredFontSizePage.Variations.title" = "Variaties";
+"IdentifyCurrentPreferredFontSizePage.Variations.text1" = "Wanneer de toegankelijkheidsoptie is uitgeschakeld, varieert de grootte van extra klein tot extra extra extra groot.";
+"IdentifyCurrentPreferredFontSizePage.Variations.text2" = "En wanneer de toegankelijkheidsoptie is ingeschakeld, gaat het van toegankelijkheid medium tot toegankelijkheid extra extra extra groot.";
+"IdentifyCurrentPreferredFontSizePage.Variations.text3" = "Het ding is: de toegankelijkheid medium is groter dan de reguliere extra extra extra grote grootte.";
+"IdentifyCurrentPreferredFontSizePage.Variations.comment1" = "De inhoud hieronder is een nabootsing van de systeeminstellingen en het is slechts een voorbeeld. Schuif de indicator om te zien hoe de waarde verandert.";
+"IdentifyCurrentPreferredFontSizePage.Example.toggle" = "Grotere toegankelijkheidsmaten";
+"IdentifyCurrentPreferredFontSizePage.List.title" = "Voorbeeldlijst van maten";
+
+// Dismiss
+"DismissPage.title" = "Sluiten";
+"DismissPage.text1" = "VoiceOver heeft een speciale 'sluit-gesture', de Escape, die wordt gebruikt om modals te sluiten of de huidige weergave op de navigatiestapel terug te gaan.";
+"DismissPage.comment1" = "Probeer het uit! Schakel VoiceOver in en voer een 'Z' uit met 2 vingers.";
+"DismissPage.Handle.text1" = "Op UIKit kunt u aangepaste behandeling toevoegen aan deze gesture door de methode 'sluiten uitvoeren' te implementeren.";
+"DismissPage.Handle.text2" = "Op SwiftUI is het hetzelfde als het toevoegen van een 'Magic Tap'-actie, maar met gebruik van het escapetype.";
+
+// Reduce Motion
+"motion" = "Beweging";
+"ReduceMotion.title" = "Verminder Beweging";
+"ReduceMotion.Intro.text1" = "Soms voegen we bewegende items toe aan onze weergaven. Ze kunnen een leuke manier zijn om iets te visualiseren, een animatie om een item te presenteren, een mooie schermovergang, of iets anders heel anders.";
+"ReduceMotion.Intro.text2" = "Het probleem is: sommige mensen kunnen zich ongemakkelijk voelen bij het observeren van deze animaties, vanwege bewegingsziekte of soortgelijke problemen.";
+"ReduceMotion.Intro.text3" = "Daarom hebben iOS-systemen een ingebouwde functie waarmee gebruikers kunnen vragen om verminderde animaties tijdens het gebruik van applicaties.";
+"ReduceMotion.Disclaimer.text1" = "De documentatie van Apple suggereert dat als deze eigenschap 'Waar' is, UI grote animaties moet vermijden, vooral die de derde dimensie simuleren.";
+"ReduceMotion.Disclaimer.comment1" = "Maar als algemene richtlijn moeten we meestal alle aangepaste animaties op weergaven, parallax-effecten en aanvullende schermovergangen uitschakelen.";
+"ReduceMotion.Disclaimer.text2" = "Ga naar instellingen en wijzig de optie voor het verminderen van bewegingen, bekijk vervolgens de onderstaande voorbeelden.";
+"ReduceMotion.simpleAppearance" = "Kleine animaties kunnen ook worden uitgeschakeld, maar dit is niet vereist. Als algemene richtlijn willen we ze ook uitschakelen.";
+"ReduceMotion.simpleAppearance.text" = "Open meer acties";
+"ReduceMotion.cardFlip" = "Het bovenstaande voorbeeld gebruikte een 3D-animatie om de kaart om te draaien wanneer erop werd getikt. Dit is een prima voorbeeld van animaties die moeten worden uitgeschakeld.";
+"ReduceMotion.cardFlip2" = "Het is ook een mooi voorbeeld om aangepaste acties te gebruiken voor toegankelijkheid van schermlezers!";
+
+// PreferCrossFade
+"PreferCrossFadePage.title" = "Heeft voorkeur voor cross-fade-overgangen";
+"PreferCrossFadePage.text1" = "Dit is een aanvullende optie in de 'Verminder beweging' in de instellingen van het apparaat.";
+"PreferCrossFadePage.text2" = "Bij inschakeling moeten schermovergangen worden beperkt tot een cross-fade-animatie in plaats van schuifinvoer.";
+"PreferCrossFadePage.text3" = "Dit zal ook het standaardgedrag voor NavigationViews en NavigationStacks veranderen, zonder dat er extra code nodig is.";
+"PreferCrossFadePage.comment1" = "Deze app gebruikt een standaardnavigatiestapel. Ga naar instellingen en wijzig deze toegankelijkheidsoptie, kom dan terug en probeer nieuwe scènes te openen of terug te gaan naar eerdere.";
+"PreferCrossFadePage.text4" = "U kunt ook controleren of deze functie is ingeschakeld om handmatige aanpassingen te maken.";
+"PreferCrossFadePage.comment2" = "Bij inschakeling betekent dit ook dat 'Verminder beweging' is ingeschakeld.";
+
+// WhatIsDarkMode
+"darkMode" = "Donkere modus";
+"lighMode" = "Lichte modus";
+"youAreCurrentlyOn" = "U bevindt zich momenteel op: %@";
+"WhatIsDarkMode.title" = "Wat is de donkere modus?";
+"WhatIsDarkMode.Intro.text1" = "Donkere modus is de mogelijkheid om de interface naar een donker uiterlijk te veranderen. Hierbij bestaat de achtergrond doorgaans uit donkere kleuren en de geschreven inhoud uit lichtere kleuren.";
+"WhatIsDarkMode.Intro.comment1" = "Het bestaan van een donkere modus impliceert ook het bestaan van een lichte modus, die het tegenovergestelde gebruik van kleuren is - een lichte achtergrond en donkere inhoud.";
+"WhatIsDarkMode.Intro.text2" = "Het is soms een esthetische voorkeur van de gebruiker. In MacOS kan het zelfs automatisch worden ingesteld om te veranderen op specifieke omgevings- of lichtomstandigheden.";
+"WhatIsDarkMode.Intro.text3" = "Maar waar het hier om gaat, is dat het ondersteunen van de donkere modus een vorm van toegankelijkheid kan zijn. De gebruiker kan ervoor kiezen om het om welke reden dan ook te gebruiken; het lezen van lichte inhoud voelt misschien beter aan op een donkere achtergrond, vooral in omgevingen met weinig licht, of gewoon comfortabeler voelen met minder licht van het apparaat.";
+"WhatIsDarkMode.Intro.comment2" = "Lees meer op de pagina 'Kleuren omkeren' voor meer inzichten in verschillende kleuren voor inhoud.";
+"WhatIsDarkMode.DoINeedIt.title" = "Moet ik de donkere modus ondersteunen?";
+"WhatIsDarkMode.DoINeedIt.text1" = "Soms hoeft uw interface de donkere modus niet te ondersteunen. Misschien is het een spel en zijn de kleuren specifiek voor het spel gekozen, of de kleur van de inhoud speelt een grotere rol in wat uw app doet, dus het ondersteunen van de donkere modus is geen optie.";
+"WhatIsDarkMode.DoINeedIt.text2" = "Maar als we het hebben over apps die voornamelijk uit geschreven inhoud bestaan, zodat de gebruiker veel dingen moet lezen tijdens het gebruik van de applicatie, of gebruikmaken van een of andere schaduw van wit als de standaard achtergrondkleur, dan zijn dit goede voorbeelden van apps die de donkere modus moeten ondersteunen.";
+"WhatIsDarkMode.DoINeedIt.text3" = "Misschien om de esthetische keuze te geven, maar ook om degenen te ondersteunen die de voorkeur geven aan de donkere modus om de inhoud te lezen.";
+"WhatIsDarkMode.ThisAppSupports.title" = "Deze app ondersteunt de donkere modus!";
+"WhatIsDarkMode.ThisAppSupports.text1" = "De Accessibility Handbook ondersteunt volledig de donkere modus. Als u een iOS-apparaat gebruikt, kunt u uw uiterlijk wijzigen in de instellingen van het systeem.";
+"WhatIsDarkMode.ThisAppSupports.text2" = "Of gebruik het Control Center-menu (het uittrekbare menu van het systeem) als snelkoppeling, door lang op de optie voor de helderheid van het display te drukken, en er wordt een bediening weergegeven om te schakelen tussen lichte en donkere modi.";
+"WhatIsDarkMode.ThisAppSupports.text3" = "En als u dit op een iOS-simulator op een Mac gebruikt, kunt u de verschijningsinstelling snel wijzigen met het toetsenbordcommando.";
+"WhatIsDarkMode.ThisAppSupports.command" = "Commando + shift + A";
+"WhatIsDarkMode.ThisAppSupports.comment1" = "Ik raad ten zeerste aan de inhoud te lezen op de 'Human Interface Guidelines' van Apple over de donkere modus.";
+"WhatIsDarkMode.ThisAppSupports.image" = "Voorbeeld van het Control Center-menu na lang drukken op de helderheidsopties van het scherm.";
+
+// Appearances
+"Appearances.title" = "Wijzigingen in uiterlijk";
+"Appearances.Intro.text1" = "In deze context is uiterlijk de groep mogelijke kleurenschema's van de interface die gebruikers kunnen selecteren op hun iOS-apparaten. Momenteel: donkere of lichte modi.";
+"Appearances.Intro.text2" = "We kunnen identificeren welke hiervan de gebruiker momenteel heeft geselecteerd en onze inhoud dienovereenkomstig aanpassen.";
+"Appearances.Code.title" = "Huidig kleurenschema identificeren";
+"Appearances.Code.text1" = "In SwiftUI is het zo eenvoudig als een omgevingsvariabele. Het wordt dus automatisch op de hoogte gesteld wanneer de gebruiker deze instelling wijzigt, en uw app past zich automatisch aan.";
+"Appearances.Code.text2" = "En natuurlijk zijn dingen een beetje ingewikkelder in UIKit, je moet het object 'UITraitCollection' gebruiken.";
+"Appearances.Code.comment1" = "De belangrijkste complicatie is het bestaan van de `unspecified` case in het 'UIUserInterfaceStyle' enum (omdat het natuurlijk bestaat), maar in dit geval gooi je gewoon je standaardvariant van de inhoud.";
+"Appearances.Code.text3" = "En om dynamische wijzigingen in de gebruikersinterfacestijl te verwerken, moet je luisteren naar wijzigingen op het trait collection-object in een UIView of UIViewController, en je inhoud bijwerken telkens wanneer deze verandert.";
+"Appearances.supportingDarkMode" = "Ondersteuning van de donkere modus.";
+
+// Dynamic Content
+"DynamicContent.title" = "Dynamische assets";
+"DynamicContent.Intro.text1" = "Als we het hebben over het ondersteunen van de donkere modus, hoeven we het niet alleen te hebben over het veranderen van kleuren tussen de kleurenschema's, maar kunnen andere inhoudstypen ook worden aangepast aan verschillende modi.";
+"DynamicContent.Intro.text2" = "Hier zullen we het hebben over assets, met name afbeeldingen, maar hetzelfde geldt voor kleurassets.";
+"DynamicContent.XCTAssets.title" = "XCAssets";
+"DynamicContent.XCTAssets.text1" = "Bij het gebruik van XCAssets in Xcode bieden ze opties om verschillende assets te ondersteunen voor verschillende kleurenschema's, naast meerdere assets voor verschillende schermdimensies. Dit kan worden gebruikt voor zowel afbeeldingen als kleurassets.";
+"DynamicContent.XCTAssets.text2" = "Vooral wanneer afbeeldingen achtergrondkleuren hebben of moeilijk te zien zijn op een specifiek kleurenschema, kun je verschillende assets voor ze leveren.";
+"DynamicContent.XCTAssets.image1" = "Hierboven is een afbeelding van de asset-catalogus van Xcode. Bij het selecteren van een image asset, wordt aan de rechterkant het 'Appearance' optie weergegeven, die je kunt inschakelen om afbeeldingen toe te voegen voor lichte en donkere modi.";
+"DynamicContent.XCTAssets.text3" = "Bij het schakelen tussen donkere/lichte modus en als je XCTAssets gebruikt, veranderen de afbeeldingen automatisch naar de juiste versie.";
+"DynamicContent.XCTAssets.text4" = "De onderstaande voorbeelden zijn gebouwd met behulp van XCTAssets en hebben verschillende assets voor elk kleurenschema. Schakel tussen lichte en donkere modus en controleer hoe ze zich gedragen.";
+
+// Tintable images
+"TintableImages.title" = "Kleurbare afbeeldingen";
+"TintableImages.TintableImages.text1" = "Je hoeft niet per se verschillende assets te hebben voor verschillende kleurenschema's. Een ding dat je kunt gebruiken met XCAssets zijn kleurbare afbeeldingen. Dit betekent dat je de afbeelding als een sjabloon toevoegt en de kleur later definieert.";
+"TintableImages.TintableImages.text2" = "Uit de documentatie van Apple:";
+"TintableImages.TintableImages.citation1" = "Wanneer je een sjabloonafbeelding toevoegt aan een knop of image view, geef je ook een tintkleur op. De view past de tintkleur toe op elke pixel die geen alfa heeft van 0.0, waardoor de vorm van de afbeelding die kleur aanneemt. Om verschillende verschijningen te ondersteunen, verander je eenvoudig de tintkleur. Je zou bijvoorbeeld een donkere tintkleur kunnen toepassen in lichte omgevingen en een lichte tintkleur in donkere omgevingen.";
+"TintableImages.TintableImages.citation2" = "Bij het maken van je afbeelding gebruik je een transparante achtergrond en voeg je zwarte pixels toe waar je de afbeelding wilt laten verschijnen. De pixels kunnen volledig of gedeeltelijk ondoorzichtig zijn, afhankelijk van of je wilt dat delen van je sjabloonafbeelding mengen met de achtergrondkleuren. Bij het toevoegen van de afbeelding aan je asset-catalogus, stel je de Render As-optie voor de Image Set asset in op Template Image in de inspector.";
+"TintableImages.Example.text1" = "De bovenstaande afbeelding is gebouwd met behulp van een sjabloonafbeelding. Wanneer geen tintkleur wordt opgegeven, wordt de standaardkleur voor de afbeelding gebruikt. Dit is een goede aanpak voor pictogrammen die je mogelijk op je UI hebt.";
+"TintableImages.Example.text2" = "Maar je kunt aangepaste tintkleuren specificeren. Vergeet niet deze kleuren ook aan te passen aan elk beschikbaar kleurenschema.";
+"TintableImages.Example.text3" = "En als je de asset niet hebt ingesteld als een 'sjabloonafbeelding' op de XCTAssets, kun je het sjabloon ook in code afdwingen.";
+"TintableImages.doc" = "Het verstrekken van afbeeldingen voor verschillende verschijningen";
+
+// Dynamic colors
+"DynamicColors.title" = "Dynamische kleuren";
+"DynamicColors.Intro.text1" = "Bij het bespreken van ondersteuning voor de donkere modus, verwijst 'dynamische kleuren' naar het vermogen van kleuren om zich correct aan te passen aan het huidige kleurenschema.";
+"DynamicColors.SystemColors.title" = "Systeemkleuren";
+"DynamicColors.SystemColors.text1" = "Bij gebruik van systeemkleuren passen ze zich automatisch aan aan het huidige kleurenschema.";
+"DynamicColors.SystemColors.text2" = "Dit geldt met name voor achtergrond- en labelkleuren.";
+"DynamicColors.SystemColors.text3" = "UIColors hebben ook kleuren met het voorvoegsel 'system', wat betekent dat ze zich aanpassen aan het kleurenschema.";
+"DynamicColors.SystemColors.comment1" = "SwiftUI 'Color' heeft momenteel deze systeemkleuren niet, maar je kunt het 'UIColor'-object naar een 'Color' mappen als je dat wilt.";
+"DynamicColors.CustomColors.title" = "Aangepaste kleuren";
+"DynamicColors.CustomColors.text1" = "Bij gebruik van aangepaste kleuren moet je handmatig de juiste kleur selecteren voor het huidige uiterlijk.";
+"DynamicColors.CustomColors.comment1" = "Apple's documentatie suggereert het gebruik van Color Assets hiervoor, die we in de volgende pagina zullen behandelen.";
+"DynamicColors.CustomColors.text2" = "Maar meestal hebben we een aparte bibliotheek voor onze kleuren of een JSON-bestand met de hex-codes, en maken we handmatig onze kleurobjecten aan.";
+"DynamicColors.CustomColors.text3" = "We kunnen een specifieke initialisatie in het 'UIColor'-object gebruiken, dat het huidige 'UITraitCollection'-object geeft, om ons kleurenbestand in te pakken en ons te helpen de juiste kleur voor de context te definiëren.";
+"DynamicColors.CustomColors.text4" = "En in SwiftUI kunnen we de kleurenschema Environment property gebruiken om ons te helpen de juiste kleur te definiëren.";
+"DynamicColors.CustomColors.text5" = "Het probleem is meestal het ondersteunen van wijzigingen in het kleurenschema terwijl de app wordt uitgevoerd. Zorg ervoor dat je de kleuren opnieuw laadt op je UIView of gebruik de kleurenschema Environment property op je SwiftUI-views.";
+
+// Visual Aid
+"VisualAid" = "Visuele ondersteuning";
+
+// Button Shapes
+"ButtonShapes.title" = "Knopvormen";
+"ButtonShapes.Intro.text1" = "\"Knopvormen\" is een andere toegankelijkheidsoptie die kan worden ingeschakeld in de systeeminstellingen.";
+"ButtonShapes.Intro.text2" = "Het idee is om knoppen te benadrukken door contouren toe te voegen, om gebruikers te helpen identificeren welke inhoud interactief is bij het gebruik van jouw applicatie.";
+"ButtonShapes.Intro.comment1" = "Als je 'UIButton' of een 'Button' gebruikt, wordt deze markering automatisch weergegeven wanneer de functie is ingeschakeld.";
+"ButtonShapes.Example.text1" = "Bekijk de verschillende voorbeelden van knoppen hieronder en schakel vervolgens de functie 'Knopvormen' in de systeeminstellingen in om te zien hoe ze zich gedragen.";
+"ButtonShapes.Example.comment1" = "Het is goed om op te merken dat niet alle knoppen dezelfde markering hebben. De terugknop in de navigatiebalk wordt bijvoorbeeld onderstreept.";
+"ButtonShapes.Code.text1" = "Als je handmatige wijzigingen aan je inhoud moet aanbrengen, kun je een statische variabele in UIKit of een Environment-variabele in SwiftUI gebruiken.";
+"button" = "Knop";
+
+// Bolded Text
+"BoldedText.title" = "Vetgedrukte tekst";
+"BoldedText.Intro.text1" = "\"Vetgedrukte tekst\" is een andere toegankelijkheidsoptie die kan worden ingeschakeld in de systeeminstellingen.";
+"BoldedText.Intro.text2" = "Het wordt voornamelijk gebruikt door mensen met verminderd zicht om het lezen van inhoud in je app te vergemakkelijken door het gewicht van het lettertype te vergroten.";
+"BoldedText.Intro.text3" = "Bij gebruik van systeemlettertypen passen ze zich automatisch aan aan de door de gebruiker gedefinieerde instelling voor het gewicht.";
+"BoldedText.Intro.comment1" = "Bij gebruik van aangepaste lettertypen moet je mogelijk handmatig het gewicht ervan definiëren wanneer dat nodig is.";
+"BoldedText.Code.text1" = "Het is ook belangrijk op te merken dat lettertypen die al vet zijn, nog 'vetter' worden bij handmatige aanpassingen van deze wijzigingen.";
+"BoldedText.Code.comment1" = "Deze app ondersteunt volledig vetgedrukte lettertypen, wijzig de toegankelijkheidsoptie in de systeeminstellingen en controleer hoe de app zich gedraagt.";
+
+// Section: Learn the Features
+"LearnAccessibility.title" = "Leer toegankelijkheid";
+"LearnAccessibility.beforeYouReadThis" = "Voordat je doorgaat, zorg ervoor dat je meer leest over deze inhoud op: ";
+
+// Thinking Accessibility
+"ThinkingAccessibility.title" = "Denken aan toegankelijkheid";
+"ThinkingAccessibility.text1" = "Deze sectie is een ander type handleiding, waarbij we je willen laten zien hoe je moet nadenken over toegankelijkheid bij het ontwikkelen of maken van nieuwe applicaties.";
+"ThinkingAccessibility.text2" = "Toegankelijkheid is een van die dingen waarvan, als je zegt: \"Ik wil de toegankelijkheid van onze app verbeteren!\", niemand nee zal zeggen.";
+"ThinkingAccessibility.text3" = "Maar het kan moeilijk zijn om te beginnen met het aanbrengen van deze verbeteringen en een echt effect te zien bij je gebruikers.";
+"ThinkingAccessibility.text4" = "Of misschien begin je een nieuwe app en wil je vanaf het begin ondersteuning bieden voor toegankelijkheidsfuncties.";
+"ThinkingAccessibility.text5" = "Daarom brengen we content gebaseerd op echte ervaringen, samen met de gebruikelijke handleiding voor alle toegankelijkheidsopties en functies, om je niet alleen te leren wat ze zijn, maar ook de beste scenario's om ze te gebruiken.";
+"ThinkingAccessibility.comment1" = "Het idee is om je te helpen \"denken aan toegankelijkheid\", inzicht te krijgen in veelvoorkomende valkuilen en een nieuw project te starten met een goed idee van wat je kunt verwachten bij het maken van een iOS-applicatie.";
+"ThinkingAccessibility.text6" = "Welkom bij de lessen van het Handboek Toegankelijkheid!";
+"ThinkingAccessibility.comment2" = "Dus, zet je schrap! Als je nieuw bent in de wereld van iOS-toegankelijkheid, wordt dit een wilde rit!";
+
+// Accessibility is a team game
+"TeamGame.title" = "Toegankelijkheid is een teamsport";
+"TeamGame.text1" = "Hoewel het leren van toegankelijkheid door jezelf goed voelt, het is fijn om mensen te bereiken die je eerder niet kon bereiken, het is fijn om nieuwe diensten en inhoud te bieden aan een hele nieuwe groep mensen, ga je het waarschijnlijk niet alleen redden.";
+"TeamGame.comment1" = "Houd vol! 🐻";
+"TeamGame.text2" = "Als je bij een bedrijf werkt, bij een startup, of je hebt een nieuw app-project gemaakt met een paar vrienden, weet je dat het maken van een nieuwe app geen eenvoudige taak is.";
+"TeamGame.text3" = "En toegankelijkheid is geen specifieke taak van ontwikkelaars of ontwerpers. Het is gemakkelijk om te denken\n\n\"Oh, onze ontwerper had dat moeten bedenken!\"\n\nOf zelfs,\n\n\"Toegankelijkheid? Dat is een taak voor onze ontwikkelaars!\"";
+"TeamGame.text4" = "Zie het als onderdeel van je cultuur. Iedereen zou toegankelijkheid moeten begrijpen en zich moeten afvragen hoe toegankelijkheid zou moeten werken.";
+"TeamGame.text5" = "Op deze manier kunnen we ervoor zorgen dat we de juiste vragen en problemen aanpakken op elk aspect van je applicatie, bij design, ontwikkeling, product... alles!";
+"TeamGame.TalkToYourTeam.title" = "Praat met je team";
+"TeamGame.TalkToYourTeam.text1" = "Wanneer heb je voor het laatst aan je ontwerper gevraagd: \"Heb je nagedacht over hoe je met dit element kunt interageren met een schermlezer?\"";
+"TeamGame.TalkToYourTeam.text2" = "Of wanneer heb je voor het laatst aan je ontwikkelaar gevraagd: \"Hoe kunnen we ervoor zorgen dat deze component een betere interactie heeft bij het gebruik van toegankelijkheidsfuncties?\"";
+"TeamGame.TalkToYourTeam.comment1" = "Ik weet dat dit een beetje als coaching klinkt, sorry daarvoor, maar het is belangrijk.";
+"TeamGame.TalkToYourTeam.text3" = "Door vragen te stellen, breng je de discussie over toegankelijkheid in je dagelijkse werk.";
+"TeamGame.TalkToYourTeam.text4" = "\"Deze letter lijkt klein, hebben we ondersteuning voor dynamische lettertypen?\"";
+"TeamGame.TalkToYourTeam.text5" = "\"Het contrast lijkt niet goed, hebben we gecontroleerd op kleurenblindheid? Hebben we ondersteuning voor een kleurenpalet met verhoogd contrast?\"";
+"TeamGame.TalkToYourTeam.text6" = "Stel vragen. Meestal is niemand een specialist in toegankelijkheid, misschien weet iemand meer over een ander platform dan waaraan je werkt, en kun je proberen deze kennis te verbinden met je huidige werk.";
+"TeamGame.TalkToYourTeam.comment2" = "Ik ben zelf geen ontwerper of specialist, ik ben meer een enthousiasteling.";
+"TeamGame.TalkToYourTeam.text7" = "Maar om goede vragen te stellen en goede suggesties te doen, moet je meer begrijpen waar je echt aan werkt.";
+"TeamGame.ShareTheKnowledge.title" = "Deel de kennis";
+"TeamGame.ShareTheKnowledge.text1" = "Laat aan je collega's zien wanneer je iets moois hebt gemaakt, wanneer je een nieuwe functie hebt gebruikt die je nog nooit eerder hebt gebruikt.";
+"TeamGame.ShareTheKnowledge.text2" = "Kennis verspreiden helpt meer mensen erover te weten te komen en geeft jou en anderen meer tools om in de toekomst mee te werken.";
+"TeamGame.ShareTheKnowledge.comment1" = "En dat geldt voor alles, niet alleen voor toegankelijkheid!";
+"TeamGame.ShareTheKnowledge.text3" = "En als je deze app gebruikt, kun je zelfs de handige deeltool bovenaan elke pagina gebruiken om mensen rechtstreeks naar een voorbeeld van waar je het over hebt te brengen!";
+"TeamGame.ShareTheKnowledge.image" = "Bespreek toegankelijkheid met je collega's!";
+
+
+// Learn the Features - Page
+"LearnTheFeatures.title" = "Leer de functies";
+"LearnTheFeatures.text1" = "Om goede vragen te stellen, betere suggesties te doen, toegankelijkheid te integreren in je ontwikkeling...";
+"LearnTheFeatures.text2" = "Moet je leren wat de toegankelijkheidsfuncties en opties zijn, wat het verschil maakt in je app, hoe het je gebruikers beïnvloedt, en vooral: hoe je ze moet gebruiken.";
+"LearnTheFeatures.text3" = "En dit is jouw geluksdag! Want deze app bevat niet alleen handleidingen over hoe je iOS-toegankelijkheidsopties implementeert, maar je kunt ze zelf uitproberen!";
+"LearnTheFeatures.VoiceOver.title" = "VoiceOver";
+"LearnTheFeatures.VoiceOver.text1" = "Het ondersteunen van het gebruik van VoiceOver in je apps is meestal wat de meeste implementatie en overweging vereist.";
+"LearnTheFeatures.VoiceOver.comment1" = "Maar weet je wat je kunt doen met VoiceOver?";
+"LearnTheFeatures.VoiceOver.text2" = "Het gaat niet alleen om het instellen van een 'toegankelijkheidslabel' voor alles. We hebben verschillende manieren om inhoud te groeperen, verschillende manieren om met elementen te communiceren en verschillende manieren om door de app te navigeren.";
+"LearnTheFeatures.VoiceOver.text3" = "Als je niet bekend bent met VoiceOver, de concepten, de namen, de gebaren, kijk dan eens naar onze VoiceOver-sectie in de Ontwikkelingshandleidingen!";
+"LearnTheFeatures.VoiceOver.comment2" = "En zorg ervoor dat je VoiceOver probeert te gebruiken terwijl je de inhoud leest, zodat je beter begrijpt wat elk element doet.";
+"LearnTheFeatures.VoiceOver.text4" = "En als je een 'hand' wilt om te leren navigeren met behulp van VoiceOver, hebben we een gebarenhandleiding!";
+"LearnTheFeatures.BeyondTheVoiceOver.title" = "Voorbij VoiceOver";
+"LearnTheFeatures.BeyondTheVoiceOver.text1" = "Soms, als we het hebben over toegankelijkheid op mobiele apparaten, richten we ons alleen op screenreaders (op iOS, de VoiceOver).";
+"LearnTheFeatures.BeyondTheVoiceOver.text2" = "Maar dat is niet waar toegankelijkheid over gaat! Er is een hele wereld van functies, opties, problemen, beperkingen, apparaten... die deel uitmaken van toegankelijkheid.";
+"LearnTheFeatures.BeyondTheVoiceOver.text3" = "En daar hebben we ook handleidingen voor!";
+"LearnTheFeatures.BeyondTheVoiceOver.text4" = "Lees meer over kleuren, beweging, visuele ondersteuning, lettertypen, haptiek, contrast... en nog veel meer, zodat je weet waar je aan moet denken en waar je vragen over moet stellen.";
+
+// Probeer het zelf
+"TryItYourself.title" = "Probeer het zelf";
+"TryItYourself.text1" = "Ja, dat is het, probeer het zelf!";
+"TryItYourself.text2" = "Probeer niet alleen te houden wat je hier leert op deze app. Start een nieuwe app, probeer dynamische lettertypen te implementeren, VoiceOver-functies, Donkere modus, Rotor-items...";
+"TryItYourself.text3" = "Begrijp wat ze doen, hoe ze invloed hebben op je code, en hoe je ze moet gebruiken.";
+"TryItYourself.text4" = "We hebben zelfs honderden codevoorbeelden om je op weg te helpen. Maar het zijn slechts voorbeelden.";
+"TryItYourself.text5" = "Je zult het zelf begrijpen zodra je deze functies echt begint toe te passen op je code en je app.";
+"TryItYourself.text6" = "En probeer ook alles op een echt apparaat uit te voeren. Krijg het gevoel van hoe dingen werken in het echte leven, buiten Xcode.";
+"TryItYourself.comment1" = "Wanneer heb je voor het laatst je app uitgevoerd met VoiceOver? Of wanneer heb je geprobeerd je lettertypen te vergroten om te zien hoe je lay-out zich gedraagt?";
+"TryItYourself.text7" = "De volgende secties zullen je introduceren aan problemen en veelvoorkomend gebruik van toegankelijkheid. Hoe ze te implementeren en hoe je kunt plannen om meer toegankelijke apps te maken.";
+"TryItYourself.text8" = "Geef niet op! We zijn pas net begonnen 😉";
+
+// Een nieuwe app maken sectie
+"MakingANewApp.title" = "Een nieuwe app maken";
+
+// Bereid de grond voor
+"PrepareTheGround.title" = "Bereid de grond voor";
+"PrepareTheGround.text1" = "Dus je begint een nieuw project? Dat is opwindend!";
+"PrepareTheGround.xcodeLogo" = "Xcode-logo";
+"PrepareTheGround.text2" = "Dit is het perfecte moment om na te denken over welke toegankelijkheidsfuncties je wilt ondersteunen en je project voor te bereiden om ze te ondersteunen.";
+"PrepareTheGround.text3" = "Maar het is ook het beste moment om standaarden en code te maken die gemakkelijk kunnen worden bijgewerkt en aangepast om de evolutie van je project te ondersteunen.";
+"PrepareTheGround.text4" = "En ook het beste moment om toegankelijkheid in gedachten te houden bij het maken van deze standaarden!";
+"PrepareTheGround.WhatToSupport.title" = "Wat te ondersteunen?";
+"PrepareTheGround.WhatToSupport.text1" = "Nou, idealiter willen we in staat zijn om ALLES te ondersteunen!";
+"PrepareTheGround.WhatToSupport.text2" = "Maar soms is dat niet haalbaar.";
+"PrepareTheGround.WhatToSupport.text3" = "Dus waar we het in deze sectie over gaan hebben, zijn ideeën en tips om je project voor te bereiden om toegankelijkheidsfuncties te ondersteunen zodra je besluit ze te ondersteunen!";
+"PrepareTheGround.WhatToSupport.comment1" = "Maar het is altijd beter als je meteen besluit ze te ondersteunen!";
+"PrepareTheGround.WhatToSupport.text4" = "Dingen zoals het hebben van een kleurenbestand, het voorbereiden van een aangepast lettertypebestand, zijn essentieel om een betere overgang te hebben bij het toevoegen van ondersteuning voor donkere modus of dynamische lettertypen, bijvoorbeeld.";
+
+// Maak een kleurenbestand
+"CreateAColorFile.title" = "Stel een kleurenbestand in";
+"CreateAColorFile.text1" = "Bij het maken van een nieuwe app beslis je waarschijnlijk samen met je team over een kleurenpalet dat je app vertegenwoordigt.";
+"CreateAColorFile.text2" = "Je zult er moeite voor doen, en je zult waarschijnlijk de iOS-systeemkleuren niet gebruiken. Dat is helemaal prima.";
+"CreateAColorFile.text3" = "Maar kleuren zijn een zeer belangrijk onderdeel van toegankelijkheid, en je moet onthouden dat niet iedereen kleuren op dezelfde manier waarneemt.";
+"CreateAColorFile.text4" = "Dus, als je je kleuren voorbereidt om toegankelijkheidsopties te ondersteunen (zelfs als je ze eerst niet toevoegt!), zal het later gemakkelijker zijn om ze aan je applicatie toe te voegen.";
+"CreateAColorFile.colors" = "Voorbeeld van een blauw kleurenpalet.";
+"CreateAColorFile.CentralizedColor.title" = "Gecentraliseerd kleurenbestand";
+"CreateAColorFile.CentralizedColor.text1" = "Het eerste wat je moet overwegen, is het maken van een kleurenbestand.";
+"CreateAColorFile.CentralizedColor.comment1" = "Misschien moet je ook overwegen een hele UI-module ervoor te hebben! Afhankelijk van de omvang van je project.";
+"CreateAColorFile.CentralizedColor.text2" = "Maar zo zorg je ervoor dat je je kleuren gebruikt, en je kunt wijzigingen aanbrengen als dat nodig is.";
+"CreateAColorFile.CentralizedColor.colors" = "Dit is een initiële kleurenpalet. Heel eenvoudig, en een paar kleuren om te gebruiken.";
+"CreateAColorFile.CentralizedColor.text3" = "Je kunt je kleuren eenvoudig oproepen vanuit het kleurenbestand.";
+"CreateAColorFile.CentralizedColor.disclaimer" = "Een suggestie is om je kleuren niet hun 'kleurnaam' te noemen.\n Vermijd dingen als 'bedrijfsblauw'.\nProbeer dingen te gebruiken als 'highlightColor', omdat de kleur zelf kan veranderen afhankelijk van de context van de gebruiker.";
+"CreateAColorFile.DarkMode.title" = "Voeg ondersteuning voor donkere modus toe";
+"CreateAColorFile.DarkMode.text1" = "Nu je je kleurenbestand hebt, zou een goede volgende stap zijn om ondersteuning voor donkere modus toe te voegen.";
+"CreateAColorFile.DarkMode.button1" = "Bekijk onze pagina over Dynamische Kleuren!";
+"CreateAColorFile.DarkMode.text2" = "Nu, als je schakelt tussen donkere en lichte modus, passen je kleuren zich eraan aan!";
+"CreateAColorFile.DarkMode.colors" = "Aanpasbaar kleurenpalet";
+"CreateAColorFile.IncreaseContrast.title" = "Verhoog contrast";
+"CreateAColorFile.IncreaseContrast.text1" = "Nu, met je kleurenbestand, kun je ondersteuning toevoegen voor elke toegankelijkheidsfunctie voor visuele ondersteuning op basis van kleuren!";
+"CreateAColorFile.IncreaseContrast.text2" = "Bijvoorbeeld, verhoogd contrast!";
+"CreateAColorFile.IncreaseContrast.button" = "Bekijk onze pagina over verhoogd contrast!";
+
+
+// Maak een lettertypebestand
+"CreateAFontFile.title" = "Stel een lettertypebestand in";
+"CreateAFontFile.text1" = "Bij het maken van een nieuw project is het ook gebruikelijk om een aangepast lettertype te hebben dat je merk vertegenwoordigt. Of misschien houd je vast aan het systeemlettertype, en dat is ook goed.";
+"CreateAFontFile.text2" = "Waarom zou je dan een lettertypebestand moeten hebben? Omdat je zo ondersteuning kunt toevoegen aan dynamische lettertypen voor al je lettertypen op één plek, en het gehele lettertype van het project ook vanuit één bestand kunt wijzigen!";
+"CreateAFontFile.comment1" = "Net zoals het je leven veel gemakkelijker zal maken als je een kleurenbestand maakt, zul je ook later blij zijn als je een lettertypebestand hebt.";
+"CreateAFontFile.FontCategories.title" = "Maak je lettertypecategorieën";
+"CreateAFontFile.FontCategories.text1" = "Bij het gebruik van lettertypen, probeer vaste lettergroottes en gewichten te vermijden.";
+"CreateAFontFile.FontCategories.text2" = "Maak in plaats daarvan je eigen relatie van lettertypen die logisch zijn voor je project (titel, body, fancy titel, ondertitel...)";
+"CreateAFontFile.FontCategories.text3" = "En zo kun je aanpassingen en wijzigingen aan het lettertype, de schalen maken en ze in je hele applicatie gebruiken.";
+
+// Maak Toegankelijkheidsmodificatoren
+"CreateAccessibilityModifiers.title" = "Maak Toegankelijkheidsmodificatoren";
+"CreateAccessibilityModifiers.text1" = "We hebben meestal een UI-bibliotheek met veel componenten. Het is een natuurlijke stap in een groeiend project, een eenvoudige manier om componenten opnieuw te gebruiken in je hele applicatie.";
+"CreateAccessibilityModifiers.comment1" = "En alsjeblieft, maak ze meteen toegankelijk!";
+"CreateAccessibilityModifiers.text2" = "Maar, zoals we componenten kunnen hergebruiken, kunnen we ook overwegen om toegankelijkheidsmodificatoren opnieuw te gebruiken voor onze weergaven!";
+"CreateAccessibilityModifiers.ReusingAccessibility.title" = "Toegankelijkheid hergebruiken";
+"CreateAccessibilityModifiers.ReusingAccessibility.text1" = "Overweeg het volgende scenario: je hebt een UI-componentenbibliotheek, en een van de componenten is een nette teller met een plus- en minknop.";
+"CreateAccessibilityModifiers.ReusingAccessibility.text2" = "En je weet van de VoiceOver instelbare eigenschap, dus je maakt deze component met behulp daarvan, en wanneer deze is geselecteerd, kan de gebruiker omhoog en omlaag vegen om de hoeveelheden te wijzigen. Geweldig!";
+"CreateAccessibilityModifiers.ReusingAccessibility.text3" = "Maar dan krijg je de opdracht om een nieuwe component te maken. Een cel, die in verschillende carrousels zal worden hergebruikt, met een itemafbeelding, titel en beschrijving, maar met de eerder gemaakte teller erin.";
+"CreateAccessibilityModifiers.ReusingAccessibility.text4" = "En nu begin je na te denken, wat zou de beste optie zijn om deze cel toegankelijk te maken?";
+"CreateAccessibilityModifiers.ReusingAccessibility.text5" = "Aangezien het wordt weergegeven met verschillende andere cellen, raden we aan elke cel als een afzonderlijk focusbaar item te laten zijn - dus elk ervan is een toegankelijk element.";
+"CreateAccessibilityModifiers.ReusingAccessibility.text6" = "Maar wat dacht je van de teller? Moet de teller afzonderlijk worden gefocust? Je hebt al de hele logica voor het instelbare element gemaakt, dus je zou alles ervan ook moeten dupliceren naar de cel?";
+"CreateAccessibilityModifiers.ReusableModifiers.title" = "Herbruikbare modificatoren";
+"CreateAccessibilityModifiers.ReusableModifiers.text1" = "Dat is een situatie waarin je kunt profiteren van het hergebruiken van toegankelijkheidsmodificatoren. Net zoals je UI-componenten hergebruikt!";
+"CreateAccessibilityModifiers.ReusableModifiers.text2" = "Door bijvoorbeeld een View-extensie te maken, kun je deze modifier hergebruiken in de teller en in de cel.";
+"CreateAccessibilityModifiers.ReusableModifiers.text3" = "Je kunt vergelijkbare dingen doen voor UIKit en je eigen bibliotheek van toegankelijkheidshulpmiddelen maken!";
+
+// Een nieuwe weergave maken
+"MakingANewView.title" = "Een nieuwe weergave maken";
+
+// Plan voordat je implementeert
+"PlanBeforeYouImplement.title" = "Plan je hiërarchie";
+"PlanBeforeYouImplement.text1" = "Plan je weergavehiërarchie voordat je deze implementeert. Nou ja... dit is vanzelfsprekend, toch? Je moet altijd plannen voordat je eenvoudigweg dingen begint te implementeren.";
+"PlanBeforeYouImplement.text2" = "Maar waar we het hier over willen hebben, is het plannen van de hiërarchie van je UI-componenten om toegankelijkheid samen met de UI te vereenvoudigen en te implementeren.";
+"PlanBeforeYouImplement.text3" = "Als ontwikkelaar heb ik wel eens de vraag gekregen: \"Maar hoe lang duurt het om toegankelijkheid aan een weergave toe te voegen?\" En mijn antwoord was altijd: \"Zoveel als het kost om het component te bouwen.\"";
+"PlanBeforeYouImplement.text4" = "Toegankelijkheid gaat echt samen met de UI, dus als je weet waar je op moet letten tijdens de implementatie, worden dingen veel gemakkelijker.";
+"PlanBeforeYouImplement.Hierarchy.title" = "Begrijp hiërarchie";
+"PlanBeforeYouImplement.Hierarchy.text1" = "Bij het bouwen van een weergave stapelen we in feite meer weergaven binnen en op elkaar. We kunnen een basweergave hebben, met een paar labels erin, of een complete stapel met verschillende componenten.";
+"PlanBeforeYouImplement.Hierarchy.text2" = "En waarom is het echt belangrijk om je hiërarchie te begrijpen? Het grootste deel ervan is zelfs niet zichtbaar in het uiteindelijke product. De gebruiker ziet niet of je een enkele of meerdere weergaven op elkaar hebt gestapeld.";
+"PlanBeforeYouImplement.Hierarchy.text3" = "Maar het is wel belangrijk voor toegankelijkheid.";
+"PlanBeforeYouImplement.Hierarchy.text4" = "Denk van tevoren na over hoe het zinvol is voor de screenreader om je component te benaderen. Misschien moet het worden gegroepeerd in een enkel leesbaar element, maar misschien heeft het meerdere knoppen die afzonderlijk moeten worden gefocust.";
+"PlanBeforeYouImplement.Hierarchy.example" = "Voorbeeld van een hiërarchie van weergaven. Dit vertegenwoordigt een UI-component met een paar weergaven erin. Verschillende achtergrondkleuren stellen verschillende niveaus in de hiërarchie voor.";
+"PlanBeforeYouImplement.Group.title" = "Groepeer je elementen correct";
+"PlanBeforeYouImplement.Group.text1" = "Stel je voor dat het in het bovenstaande voorbeeld een kop is voor een productpagina (het is belangrijk om de context van je weergave te kennen!). Vraag je altijd af: Hoe zou het zinvol zijn voor deze inhoud om te worden voorgelezen?";
+"PlanBeforeYouImplement.Group.text2" = "En na er even over na te denken, besluiten we de afbeelding en de beschrijving als een enkel element te groeperen, aangezien de beschrijving de afbeelding zelf uitlegt, en beide labels in een ander element te groeperen zodat ze samen worden voorgelezen.";
+"PlanBeforeYouImplement.Group.text3" = "Het groeperen van de afbeelding en de beschrijving is eenvoudig! Aangezien ze zich in dezelfde hiërarchie bevinden, kunnen we de bovenliggende weergave nemen en de elementen samen groeperen.";
+"PlanBeforeYouImplement.Group.text4" = "Maar het groeperen van de labels, om als een enkel element te worden voorgelezen, vergt wat veranderingen in onze code.";
+"PlanBeforeYouImplement.Group.text5" = "Ondanks dat ze zich in dezelfde hiërarchie bevinden, bevat hun bovenliggende weergave ook de andere weergaven op deze kop. Om de labels samen te groeperen, moeten we ze in een andere weergave nestelen en ze in de bovenliggende weergave groeperen.";
+"PlanBeforeYouImplement.Group.imageExplanation" = "Op het bovenstaande diagram stellen de achtergrondkleuren de hiërarchie van de weergaven voor en de rand vertegenwoordigt een toegankelijke groep.";
+"PlanBeforeYouImplement.Conclusion.title" = "Concluderend...";
+"PlanBeforeYouImplement.Conclusion.text1" = "Als je begrijpt hoe je wilt dat je inhoud door VoiceOver wordt gelezen en hoe je je weergave opbouwt, kun je rekening houden met de toegankelijkheid in je hiërarchie.";
+"PlanBeforeYouImplement.Conclusion.text2" = "En positioneer de elementen in de hiërarchie om de lezer zich erop te laten concentreren op een manier die meer zin heeft voor de gebruiker.";
+"PlanBeforeYouImplement.Conclusion.text3" = "En uiteindelijk zou onze weergavehiërarchie er ongeveer zo uitzien als het volgende diagram, met slechts 2 toegankelijke elementen.";
+
+// Herhaalde weergaven
+"RepeatedViews.title" = "Herhaalde weergaven";
+"RepeatedViews.text1" = "Wat bedoelen we met herhaalde weergaven?";
+"RepeatedViews.text2" = "In feite tabellen of collecties, die groepen weergaven bevatten die zeer vergelijkbaar zijn.";
+"RepeatedViews.text3" = "Als je een screenreader voor deze soort inhoud overweegt, verwacht je dat elk element afzonderlijk wordt gefocust.";
+"RepeatedViews.text4" = "En NIET focussen op elk subonderdeel van een enkele cel, om vervolgens naar de volgende cel te gaan.";
+"RepeatedViews.text5" = "Bekijk het volgende voorbeeld dat de hiërarchie van de weergaven in verschillende carrousels beschrijft, en let op hoe de VoiceOver erdoorheen navigeert.";
+"RepeatedViews.example1" = "In het bovenstaande voorbeeld is geen subweergave gegroepeerd, dus elk ervan wordt afzonderlijk gefocust door de VoiceOver.";
+"RepeatedViews.example2" = "In dit voorbeeld zijn de weergaven gegroepeerd in een enkel toegankelijk element.";
+"RepeatedViews.text6" = "Je kunt een groot verschil maken met één regel code!";
+
+// Handling Images and Icons
+"ImagesAndIcons.title" = "Afbeeldingen en Pictogrammen Beheren";
+"ImagesAndIcons.text1" = "Hoe kun je afbeeldingen en pictogrammen op een juiste manier beheren voor toegankelijkheid met schermlezers?";
+"ImagesAndIcons.Icons.title" = "Pictogrammen";
+"ImagesAndIcons.Icons.text1" = "Pictogrammen zijn een handige manier om inhoud voor te stellen en gebruikers te helpen bij het vinden en identificeren van acties in applicaties.";
+"ImagesAndIcons.Icons.text2" = "Idealiter moeten de meeste pictogrammen niet zonder aanvullende tekst worden gebruikt om de context beter uit te leggen. Zoals bijvoorbeeld in een tabbalk.";
+"ImagesAndIcons.Icons.text3" = "Het pictogram zelf kan worden weggelaten voor de schermlezer, aangezien het geen nieuwe informatie toevoegt.";
+"ImagesAndIcons.Icons.text4" = "Maar als je wel een pictogram hebt dat niet wordt gevolgd door tekst, moet je een toegankelijkheidslabel toevoegen, en misschien een toegankelijkheidstip om beter uit te leggen wat het doet.";
+"ImagesAndIcons.Icons.icon" = "Tips";
+"ImagesAndIcons.Icons.iconHint" = "Dubbeltik om een tip te openen";
+"ImagesAndIcons.Icons.comment1" = "Dit soort pictogrammen komt vaak voor in navigatiebalken!";
+"ImagesAndIcons.Images.title" = "Afbeeldingen";
+"ImagesAndIcons.Images.text1" = "Als we kijken naar een schermlezer voor een gebruiker met een visuele beperking, moeten we dan niet altijd de afbeeldingen verbergen?";
+"ImagesAndIcons.Images.text2" = "Dat lijkt misschien het geval, maar dat is eigenlijk fout. De gebruiker wil de afbeelding misschien aan iemand anders laten zien, of er later een screenshot van maken.";
+"ImagesAndIcons.Images.comment1" = "De VoiceOver kan nu zelfs tekst binnen afbeeldingen lezen en betere beschrijvingen van de inhoud geven.";
+"ImagesAndIcons.Images.text3" = "Dus het is belangrijk dat de afbeelding kan worden gefocust, idealiter met een alternatieve tekst en met het beeldmerk.";
+"ImagesAndIcons.Images.comment2" = "In tegenstelling tot de pictogrammen, die meestal knoppen zijn en daarom het beeldmerk niet echt nodig hebben.";
+"ImagesAndIcons.HideImage.title" = "Afbeeldingen Verbergen";
+"ImagesAndIcons.HideImage.text1" = "Soms heeft het zin om de afbeelding voor de lezer te verbergen, vooral als deze wordt gegroepeerd met andere elementen.";
+"ImagesAndIcons.HideImage.text2" = "Een veelvoorkomend voorbeeld is wanneer je voorbeelden hebt van een item (misschien in een verzameling items) die je kunt openen om de details te bekijken.";
+"ImagesAndIcons.HideImage.text3" = "In deze situatie kan de afbeelding worden weggelaten in de voorvertoning, aangezien deze wordt gecombineerd met andere elementen en niet veel toevoegt aan de navigatie van de schermlezer, en als een toegankelijk element wordt achtergelaten op de detailpagina, waar het op zichzelf staat als een element.";
+"ImagesAndIcons.HideImage.comment1" = "Voorbeeld van een carrousel waarin afbeeldingen op de cellen staan, maar ze zijn verborgen voor de VoiceOver.";
+
+// Add the correct traits
+"AddTraits.title" = "De Juiste Eigenschappen Toevoegen";
+"AddTraits.text1" = "Toegankelijkheidseigenschappen zijn handige manieren om meer informatie te verstrekken of meer actie te geven aan toegankelijke elementen.";
+"AddTraits.text2" = "Sommige componenten stellen hun eigenschappen automatisch in, zoals knoppen of afbeeldingen, maar je moet ze handmatig instellen voor sommige weergaven, vooral wanneer je verschillende elementen groepeert.";
+"AddTraits.comment1" = "Als algemene regel moet je ervoor zorgen dat alle componenten de verwachte eigenschap hebben: afbeelding, knop, titel, zoekveld...";
+"AddTraits.text3" = "En hier zullen we enkele veelvoorkomende problemen behandelen die je kunt tegenkomen bij het maken van nieuwe UI-componenten.";
+"AddTraits.Button.title" = "Knoppen";
+"AddTraits.Button.text1" = "De knopeigenschap geeft aan dat een element kan worden geactiveerd met een dubbele tik op de VoiceOver.";
+"AddTraits.Button.text2" = "Zorg er dus voor dat je het toevoegt aan componenten die tikbaar zijn, zoals cellen, en behandeling van de activatie.";
+"AddTraits.Link.title" = "Koppelingen";
+"AddTraits.Link.text1" = "Als je een component hebt dat een externe pagina opent of een web-URL, zorg er dan voor dat je de koppelingseigenschap toevoegt.";
+"AddTraits.Link.comment1" = "Als je de Link-weergave in SwiftUI gebruikt, heeft deze automatisch de koppelingseigenschap.";
+"AddTraits.Header.title" = "Kop";
+"AddTraits.Header.text1" = "Dit is een gemakkelijke eigenschap die over het hoofd kan worden gezien, maar het toevoegen van de kop-eigenschap zal de navigatie op je inhoud verbeteren met de Rotor-tool.";
+"AddTraits.Header.text2" = "Zorg ervoor dat je het toevoegt aan je koppen om de navigatie van de gebruiker te verbeteren.";
+"AddTraits.Header.comment1" = "Deze pagina gebruikt de kop-eigenschap op zijn ondertitels, je kunt VoiceOver inschakelen en proberen het te gebruiken.";
+"AddTraits.Selected.title" = "Geselecteerd";
+"AddTraits.Selected.text1" = "Deze eigenschap is ook erg belangrijk wanneer een component niet alleen een knop is, maar iets dat kan worden geselecteerd (zoals radio-knoppen of selectievakjes).";
+"AddTraits.Selected.text2" = "Het is ook goed om een toegankelijkheidstip toe te voegen die vertelt wanneer geactiveerd, het item zal worden geselecteerd.";
+"AddTraits.Outro.text1" = "Over het algemeen, bekijk de lijst met toegankelijkheidseigenschappen, leer ze kennen, en je krijgt een idee wanneer en waar je ze op de juiste manier moet gebruiken.";
+
+/// Handle all Action
+"HandleAllActions.title" = "Alle Acties Beheren";
+"HandleAllActions.text1" = "Het is mogelijk dat een enkele weergave meerdere acties bevat.";
+"HandleAllActions.text2" = "Misschien heeft het meerdere knoppen of gebaren die specifieke acties in je app activeren.";
+"HandleAllActions.text3" = "Ideaal gezien moet je ervoor zorgen dat al deze acties ook worden ondersteund bij het gebruik van toegankelijkheidsopties, vooral schermlezers.";
+"HandleAllActions.comment1" = "Hoe complexer een weergave is, hoe moeilijker het wordt om deze toegankelijk te maken. En misschien moet je, als je weergave te druk is, nadenken over hoe je je acties plaatst!";
+"HandleAllActions.ButtonFocus.title" = "Focus op Meerdere Knoppen";
+"HandleAllActions.ButtonFocus.text1" = "Als je meerdere knoppen hebt en je weergave niet is gegroepeerd in een enkel element, moet je ervoor zorgen dat alle knoppen bereikbaar zijn voor de VoiceOver en dat ze allemaal de verwachte acties uitvoeren wanneer ze worden geactiveerd.";
+"HandleAllActions.CustomActions.title" = "Aangepaste Acties";
+"HandleAllActions.CustomActions.text1" = "Aangepaste acties zijn een mooie manier om meerdere acties in een weergave te ondersteunen.";
+"HandleAllActions.CustomActions.text2" = "Het kan zelfs worden gebruikt om ondersteuning toe te voegen aan acties die normaal gesproken niet kunnen worden uitgevoerd tijdens het gebruik van VoiceOver, zoals aangepaste gebaren.";
+"HandleAllActions.Adjustable.title" = "Aanpasbare Elementen";
+"HandleAllActions.Adjustable.text1" = "Het aanpasbare kenmerk en acties zijn een mooie manier om tellers en schuifregelaars in je app te ondersteunen.";
+"HandleAllActions.Adjustable.text2" = "Op deze manier kun je meerdere increment- en decrementknoppen samenvoegen tot een enkel element voor de VoiceOver.";
+"HandleAllActions.CompetingActions.title" = "Concurrerende Acties";
+"HandleAllActions.CompetingActions.text1" = "Als je weergave meerdere soorten actiebehandeling nodig heeft op VoiceOver, zoals knoppen maar ook een aanpasbare teller, loop je tegen enkele problemen aan.";
+"HandleAllActions.CompetingActions.text2" = "Je kunt geen aanpasbare acties gebruiken met aangepaste acties op een enkel element, hun gebaren zijn hetzelfde tijdens het gebruik van de VoiceOver.";
+"HandleAllActions.CompetingActions.text3" = "Je moet je weergavehiërarchie afbreken om de gewenste acties te ondersteunen zonder de bruikbaarheid van het onderdeel in gevaar te brengen.";
+"HandleAllActions.CompetingActions.text4" = "In het bovenstaande voorbeeld, laten we aannemen dat het een herbruikbare weergave wordt die in een carrousel wordt geplaatst. Dus we moeten de elementen op de een of andere manier groeperen zodat de inhoud niet meerdere keren wordt gelezen tijdens het navigeren.";
+"HandleAllActions.CompetingActions.text5" = "Maar omdat het meerdere acties heeft (de weergave kan worden getikt om een nieuwe pagina te openen, er is een knop om het item te markeren als favoriet, en we hebben een teller om de hoeveelheid te wijzigen), kunnen we het niet allemaal groeperen in een enkel element als we al zijn acties willen ondersteunen.";
+"HandleAllActions.CompetingActions.text6" = "Dus, we splitsen het in 2 toegankelijke elementen, de eerste heeft een aangepaste actie om het item te openen en als favoriet te markeren, en de tweede is een aanpasbaar element om de hoeveelheid wijzigingen te beheren.";
+"HandleAllActions.CompetingActions.text7" = "En om de zaken nog beter te maken, werken we het toegankelijkheidslabel van de teller bij om de titel van het item toe te voegen, zodat je weet welk item je hoeveelheid je aan het wijzigen bent.";
+"HandleAllActions.CompetingActions.text8" = "Dit is een behoorlijk uitdagende weergave om toegankelijk te maken, we moeten veel kennis en verschillende manieren gebruiken om de inhoud te organiseren om het allemaal te laten werken.";
+"HandleAllActions.CompetingActions.text9" = "De weergavehiërarchie is ook erg belangrijk om onze oplossing toe te staan, en we moeten zelfs de elementen combineren met de optie '.contain' in SwiftUI, of 'shouldGroupAccessibilityChildren' in UIKit.";
+"HandleAllActions.CompetingActions.comment1" = "Als je meer van deze weergave wilt zien en hoe deze is gemaakt, kun je de broncode van het project op GitHub bekijken!";
+
+// Validate Colors
+"ValidateColors.title" = "Kleuren Valideren";
+"ValidateColors.text1" = "Deze is eenvoudig! Elke keer dat je een nieuwe weergave maakt, moet je de juiste kleuren voor alles gebruiken.";
+"ValidateColors.text2" = "En als je meerdere kleurenschema's ondersteunt (licht, donker, verhoogd contrast...), moet je ervoor zorgen dat ze allemaal werken zoals verwacht.";
+"ValidateColors.comment1" = "Als je een centraal kleurbestand hebt, zorg er dan voor dat je het gebruikt!";
+"ValidateColors.text3" = "En let op achtergrondkleuren. Zet ze niet op wit of zwart, heb een aanpasbare achtergrondkleur. Anders kun je bugs tegenkomen bij het veranderen van het huidige schema.";
+"ValidateColors.FixedBackground.title" = "Niet-aanpasbare Kleuren";
+"ValidateColors.FixedBackground.text1" = "Hier zijn enkele voorbeelden van het gebruik van niet-aanpasbare kleuren, ze lijken misschien in orde op je huidige kleurenschema, maar probeer te schakelen tussen lichte en donkere modus en zie hoe ze zich gedragen.";
+"ValidateColors.FixedBackground.text2" = "Dit soort problemen kunnen ook optreden bij het gebruik van een mix van systeemkleuren voor sommige dingen (die aanpasbaar zijn), maar je eigen kleuren gebruiken voor andere dingen.";
+"ValidateColors.FixedBackground.text3" = "En dit kan echt slecht zijn, want als sommige kleuren veranderen, kan een deel van je inhoud verdwijnen na de overgang.";
+
+// Making a new scene
+"MakingANewScene.title" = "Het Maken van een Nieuwe Scene";
+
+// Understand how components interact
+"UnderstandHowComponentsInteract.title" = "Begrijp Hoe Componenten Interageren";
+"UnderstandHowComponentsInteract.text1" = "Hier bespreken we het maken van volledige scènes, een samenstelling van UI-componenten.";
+"UnderstandHowComponentsInteract.comment1" = "In het vorige gedeelte bespraken we meer over individuele UI-componenten en hoe je hun toegankelijkheid kunt behandelen.";
+"UnderstandHowComponentsInteract.text2" = "Wanneer we meer componenten samenbrengen, kan de manier waarop ze op het scherm zijn geplaatst en meer weergaven die we mogelijk toevoegen om de lay-out te maken, veranderen hoe we hun toegankelijkheid implementeren.";
+"UnderstandHowComponentsInteract.text3" = "Hier hebben we voorbeelden van individuele componenten en hun weergavehiërarchie.";
+"UnderstandHowComponentsInteract.text4" = "Individueel moeten we de toegankelijkheid van elke component behandelen, maar wanneer we ze samen op een weergave plaatsen, kunnen we nieuwe componenten toevoegen om de juiste lay-out te maken, en dat kan de verwachte toegankelijkheidsnavigatie veranderen.";
+"UnderstandHowComponentsInteract.Scene.title" = "Plaats Componenten op een Scene";
+"UnderstandHowComponentsInteract.Scene.text1" = "En nu kunnen we zien hoe deze componenten worden gebruikt om een geheel nieuwe weergave te bouwen.";
+"UnderstandHowComponentsInteract.Scene.text2" = "Op het bovenstaande diagram zijn de nieuwe weergaven die nodig zijn om de scène te bouwen gemarkeerd met een andere achtergrondkleur.";
+"UnderstandHowComponentsInteract.Scene.text3" = "Let op hoe we meer componenten en hulpweergaven nodig hebben om de scène te bouwen.";
+"UnderstandHowComponentsInteract.Scene.text4" = "Wat we in dit gedeelte gaan onderzoeken, is waar we aan moeten denken en plannen bij het bouwen van een nieuwe scène zoals deze, en hoe het de toegankelijkheid van onze componenten verandert.";
+
+// Hidden Objects
+"HiddenObjects.title" = "Verborgen Objecten";
+"HiddenObjects.text1" = "Wanneer we hier praten over verborgen objecten, bedoelen we weergaven die geen toegankelijke elementen zijn, weergaven die door VoiceOver worden genegeerd bij het navigeren.";
+"HiddenObjects.text2" = "Maar zou niet alle inhoud door VoiceOver moeten worden voorgelezen?";
+"HiddenObjects.text3" = "Ja. Maar bij het bouwen van een scene is het gebruikelijk om elementen toe te voegen als separators, dividers of spacers om de juiste lay-out te laten werken.";
+"HiddenObjects.text4" = "Maar deze componenten hebben geen toegankelijke labels, noch voegen ze informatie toe aan de pagina.";
+"HiddenObjects.text5" = "Dus, ze moeten niet worden gefocust door de screenreader.";
+"HiddenObjects.Hiding.title" = "Elementen Verbergen";
+"HiddenObjects.Hiding.text1" = "Om een element te verbergen, is het zo eenvoudig als het instellen dat het geen toegankelijk element is.";
+"HiddenObjects.Hiding.text2" = "Als je SwiftUI gebruikt, zijn elementen zoals dividers en spacers standaard niet toegankelijk.";
+"HiddenObjects.Hiding.text3" = "In UIKit hebben we niet zoveel geluk. Als je een aanvullende weergave gebruikt om dit soort componenten te maken, zorg er dan voor dat ze worden ingesteld als niet-toegankelijke elementen, zodat VoiceOver er niet op focust.";
+
+// Figure different font scales
+"FigureDifferentFontScales.title" = "Verschillende Lettergrootte Schalen Uitzoeken";
+"FigureDifferentFontScales.text1" = "Ondersteuning van dynamische lettertypen is lastig. Maar grotere tekstgroottes zijn de meest gebruikte toegankelijkheidsfunctie.";
+"FigureDifferentFontScales.text2" = "Dus, bij het bouwen van een nieuwe weergave, maar vooral een nieuwe scene, moet je controleren hoe het zich gedraagt bij verschillende lettergroottes en het aanpassen zodat er geen inhoud verloren gaat.";
+"FigureDifferentFontScales.comment1" = "Dit is ook een zeer belangrijke stap om te bespreken met je designteam! Verschillende scenes en componenten kunnen zich anders gedragen, afhankelijk van je lettergrootte, dus het is belangrijk om de dingen uitgelijnd te houden bij het implementeren van deze gedragingen.";
+"FigureDifferentFontScales.Test.title" = "Test het";
+"FigureDifferentFontScales.Test.text1" = "Het belangrijkste is: Test het.";
+"FigureDifferentFontScales.Test.text2" = "Voer de app uit met verschillende lettergroottes en zorg ervoor dat het de navigatie van de gebruiker niet negatief beïnvloedt.";
+"FigureDifferentFontScales.Test.text3" = "Alle inhoud moet leesbaar zijn en de lay-out van je scene mag niet breken.";
+"FigureDifferentFontScales.Test.comment1" = "Ik raad je ten zeerste aan om onze pagina over het ondersteunen van verschillende lettergroottes te bekijken, daar vind je verschillende benaderingen voor je code en lay-out, en je kunt de lettergrootte op je apparaat aanpassen naar .";
+
+// Is this modal
+"IsThisModal.title" = "Modale Weergaven Behandelen";
+"IsThisModal.text1" = "Hier beschouwen we modale weergaven als elke weergave die bovenop je huidige context wordt gepresenteerd.";
+"IsThisModal.text2" = "Wat toegankelijkheid betreft, zijn modale weergaven lastig, omdat we willen dat de gebruiker zich focust op de modale weergave wanneer deze verschijnt, voordat ze zich richten op de rest van de inhoud van de pagina.";
+"IsThisModal.text3" = "Dus moeten we ervoor zorgen dat dit ook gebeurt bij gebruik van VoiceOver.";
+"IsThisModal.ChangeFocus.title" = "Focus Wijzigen";
+"IsThisModal.ChangeFocus.text1" = "Het presenteren van een modale weergave is misschien het beste voorbeeld van gedwongen focuswijziging op iOS VoiceOver.";
+"IsThisModal.ChangeFocus.text2" = "Je kunt de screenreader doorverwijzen naar de modale inhoud wanneer deze wordt gepresenteerd.";
+"IsThisModal.ChangeFocus.text3" = "Maar we moeten er ook voor zorgen dat de inhoud individueel wordt gefocust door de weergave in te stellen als een toegankelijke modale weergave, zodat de inhoud op de achtergrond niet wordt gefocust door de VoiceOver.";
+"IsThisModal.ChangeFocus.text4" = "En, als een leuke touch, voeg de ondersteuning toe voor het escapegebaar om het te sluiten.";
+"IsThisModal.ChangeFocus.comment1" = "Schakel de VoiceOver in en bekijk het onderstaande voorbeeld.";
+
+// Handle animations
+"HandleAnimations.title" = "Animaties Behandelen";
+"HandleAnimations.text1" = "Meer dan ervoor zorgen dat je animaties werken, moet je ook rekening houden met de optie voor het verminderen van bewegingen toegankelijkheid.";
+"HandleAnimations.text2" = "Als algemene regel moeten we, wanneer we een animatie hebben, controleren of de optie voor het verminderen van bewegingen is ingeschakeld, en zo ja, de animatie direct naar de eindstand overslaan.";
+"HandleAnimations.comment1" = "Bekijk de voorbeelden op de pagina voor het verminderen van bewegingen, verander de status van de verminderde beweging op je apparaat en merk op hoe het gedrag verandert.";
+
+// Navigation and Dismiss
+"NavigationAndDismiss.title" = "Navigatie en Sluiten";
+"NavigationAndDismiss.text1" = "Navigatie is een belangrijk onderdeel van applicaties. Het vermogen om nieuwe scenes te openen en terug te keren naar vorige.";
+"NavigationAndDismiss.text2" = "Dus moeten we ervoor zorgen dat de navigatie goed werkt bij het gebruik van schermlezers, in ons geval, de VoiceOver.";
+"NavigationAndDismiss.text3" = "Als je de Navigation Controller van het systeem gebruikt, wordt het grootste deel ervan al door de controller afgehandeld. Je hebt een terugknop, dus er is altijd een knop die kan worden gefocust om terug te gaan in de navigatie.";
+"NavigationAndDismiss.comment1" = "En in SwiftUI krijg je automatisch de escape-gesture, zodat de gebruiker het gebaar kan uitvoeren om de huidige weergave te sluiten.";
+"NavigationAndDismiss.text4" = "Wat niet automatisch gebeurt, is het ondersteunen van het escapegebaar bij het presenteren van modale weergaven, of dat modals een sluitknop hebben.";
+"NavigationAndDismiss.text5" = "Als je modale weergave afhankelijk is van \"klikken buiten de weergave\" om te worden gesloten, moet je dit ook afhandelen bij de VoiceOver. Als die inhoud buiten niet focusbaar is, hoe kan de gebruiker het dan sluiten?";
+"NavigationAndDismiss.text6" = "Dus altijd een sluitknop hebben en het escapegebaar ondersteunen, zijn mooie manieren om deze weergaven toegankelijker te maken.";
+"NavigationAndDismiss.comment2" = "En als je een aangepaste navigatie gebruikt in je project, zorg er dan voor dat je deze gebaren als standaard implementeert in je framework. Op deze manier hoef je je er geen zorgen over te maken bij het maken van een nieuwe scene!";
+
+// Accessibility Shortcuts
+"AccessibilityShortcuts.title" = "Toegankelijkheids Snelkoppelingen";
+"AccessibilityShortcuts.comment1" = "Dit is meer een extraatje als het gaat om toegankelijkheid, maar het is altijd goed om in je achterhoofd te hebben hoe je deze verbeteringen kunt aanbrengen!";
+"AccessibilityShortcuts.Magic.title" = "Magische Tik";
+"AccessibilityShortcuts.Magic.text1" = "De Magische Tik is een aangepast gebaar dat kan worden gebruikt om elke actie in je app uit te voeren.";
+"AccessibilityShortcuts.Magic.text2" = "Het is contextueel, dus de momenteel gefocuste weergave moet de Magische Tik geïmplementeerd hebben om te werken.";
+"AccessibilityShortcuts.Magic.comment1" = "Het kan worden gedaan op de ouderweergave! Wat makkelijker is om te doen, vooral bij het praten over UIKit-weergaven.";
+"AccessibilityShortcuts.Magic.text3" = "Maar waarom zou ik de Magische Tik gebruiken?";
+"AccessibilityShortcuts.Magic.text4" = "Documentatie zegt om de belangrijkste actie van je applicatie uit te voeren, zoals het afspelen of pauzeren van muziek, of het nemen van een foto.";
+"AccessibilityShortcuts.Magic.text5" = "Maar als je naar je context kijkt, kun je de belangrijkste actie voor je pagina identificeren. Bijvoorbeeld, als je op een afrekenpagina bent (die meestal veel informatie bevat) en je hebt een 'Aankoop doen'-knop onderaan je pagina, dan kun je de Magische Tik toevoegen als een snelkoppeling om die actie uit te voeren.";
+"AccessibilityShortcuts.Magic.comment2" = "Onthoud dat VoiceOver-navigatie normaal gesproken door alle inhoud moet gaan voordat je de aankoopknop bereikt.";
+"AccessibilityShortcuts.Magic.text6" = "Ik heb het ook gezien in boek-apps om naar de volgende pagina te gaan, of in games om de huidige match te spelen en pauzeren.";
+"AccessibilityShortcuts.Magic.text7" = "Maar, een belangrijk onderdeel is de gebruiker vertellen dat dit gebaar bestaat. Je kunt dit doen met toegankelijkheidshints of meldingen wanneer de gebruiker een pagina met een Magische Tik betreedt.";
+"AccessibilityShortcuts.Rotor.title" = "Rotor";
+"AccessibilityShortcuts.Rotor.text1" = "Rotor is een handige tool bij het gebruik van VoiceOver. En het werkt eigenlijk als een filter, waardoor de gebruiker alleen kan navigeren op de inhoud geselecteerd door de Rotor.";
+"AccessibilityShortcuts.Rotor.text2" = "Hoewel het in het begin misschien een beetje complex is om te implementeren, is het echt krachtig.";
+"AccessibilityShortcuts.Rotor.text3" = "Als je app veel inhoud bevat, kun je het gebruiken om de gebruiker te helpen elementen te vinden.";
+"AccessibilityShortcuts.Rotor.comment1" = "het werkt al automatisch met de header trait, dus dat is een goede reden om het te gebruiken!";
+"AccessibilityShortcuts.Rotor.text4" = "En we hebben een voorbeeldpagina met aangepaste rotorvermeldingen die je zelf kunt testen.";
+
+// Testing for Accessibility
+"TestingForAccessibility.title" = "Testen voor Toegankelijkheid";
+
+
+// AccessibilityInspector
+"AccessibilityInspector.title" = "Toegankelijkheidsinspecteur";
+"AccessibilityInspector.text1" = "De Toegankelijkheidsinspecteur is een ontwikkelaarstool die wordt geleverd met Xcode en waarmee de VoiceOver kan worden gesimuleerd door te focussen op afzonderlijke toegankelijke elementen en de toegankelijkheidsinformatie weer te geven.";
+"AccessibilityInspector.text2" = "Je kunt het vinden in het Xcode-menu, in het gedeelte ontwikkelaarstools.";
+"AccessibilityInspector.comment1" = "Het is niet de beste tool ooit gemaakt, maar het is echt nuttig om je toegankelijkheidsimplementatie op de iOS-simulator te controleren tijdens het ontwikkelen, vooral als je geen echt apparaat hebt of er niet op kunt bouwen.";
+"AccessibilityInspector.Process.title" = "Selecteer Processen";
+"AccessibilityInspector.Process.text1" = "De inspecteur kan worden gebruikt voor elk programma dat op je Mac draait, maar, om je app te testen, moet je het simulatorproces aan de linkerbovenkant van de inspecteur selecteren.";
+"AccessibilityInspector.Process.text2" = "En aan de rechterbovenkant vind je 3 tabbladen.";
+"AccessibilityInspector.Process.image" = "De tabbladen van de toegankelijkheidsinspecteur. Van links naar rechts: Inspecteer tool, Audit tool, Toegankelijkheid overschrijven tool.";
+"AccessibilityInspector.InspectTools.title" = "Inspecteer Tools";
+"AccessibilityInspector.InspectTools.text1" = "Bij het inspecteren van een element zal de inspecteur de VoiceOver-focus simuleren en alleen focussen op toegankelijke elementen!";
+"AccessibilityInspector.InspectTools.text2" = "Je kunt de navigatie simuleren door de chevron/pijliconen te gebruiken. Rechts verplaatst naar het volgende element en links naar het vorige.";
+"AccessibilityInspector.InspectTools.text3" = "Als je wilt, kan de inhoud hardop worden voorgelezen door de spraakoptie in te schakelen op het tekstballonpictogram.";
+"AccessibilityInspector.InspectTools.image" = "De gereedschappen voor het navigeren van de inspecteur. Van links naar rechts: Schakel inhoudslezing in, vorig element, navigeer automatisch, volgend element.";
+"AccessibilityInspector.InspectTools.text4" = "Er is ook de focus tool.";
+"AccessibilityInspector.InspectTools.focus" = "Indien ingeschakeld, kun je je muis gebruiken om te selecteren op welke weergave je wilt focussen in de simulator.";
+"AccessibilityInspector.Inspecting.title" = "Inspecteren";
+"AccessibilityInspector.Inspecting.text1" = "Wanneer gefocust op een element, wordt er een groene cursor bovenop weergegeven.";
+"AccessibilityInspector.Inspecting.text2" = "En de inspecteur geeft al zijn toegankelijkheidseigenschappen weer.";
+"AccessibilityInspector.Inspecting.image" = "Voorbeeld van de toegankelijkheidsinspecteur tijdens het lezen van een element. Op de inspecteurscene worden de eigenschappen van het gefocuste element weergegeven (toegankelijkheidslabel, waarde, kenmerken, hints, identificatie).";
+"AccessibilityInspector.Inspecting.text3" = "Je kunt de inspecteur ook gebruiken om acties uit te voeren op de gefocuste weergave, zoals activeren, verhogen, verlagen... Het geeft alle beschikbare acties weer voor de weergave, zodat je ook aangepaste acties kunt testen.";
+"AccessibilityInspector.Inspecting.text4" = "Ik voeg graag screenshots van de Toegankelijkheidsinspecteur toe aan mijn Pull Requests bij het oplossen van toegankelijkheidsproblemen! Het is een mooie manier om de gemaakte wijzigingen te laten zien.";
+"AccessibilityInspector.Auditing.title" = "Auditeren";
+"AccessibilityInspector.Auditing.text1" = "Het tabblad Audit kan worden gebruikt om een automatische audit uit te voeren op je app.";
+"AccessibilityInspector.Auditing.text2" = "De inspecteur geeft feedback over verschillende informatie, van ontbrekende toegankelijkheidslabels tot grootte van raakgebieden.";
+"AccessibilityInspector.Options.title" = "Wijzig Opties";
+"AccessibilityInspector.Options.text1" = "En het laatste tabblad biedt snelle toegang tot het wijzigen van toegankelijkheidsopties op je simulator.";
+"AccessibilityInspector.Options.text2" = "Het kan echt handig zijn als je meer dan één toegankelijkheidsoptie tegelijk test en er snel tussen wilt schakelen.";
+
+// RunIRL
+"RunIRL.title" = "Voer de app in het echt uit";
+"RunIRL.text1" = "Met 'in het echt' bedoelen we op een echt iOS-apparaat.";
+"RunIRL.text2" = "Dit is de beste manier om je toegankelijkheid te testen, op een echt apparaat.";
+"RunIRL.text3" = "Alle iOS-apparaten hebben alle besproken toegankelijkheidstools en -opties in deze app.";
+"RunIRL.comment1" = "En het idee van dit als een app is dat je kunt controleren hoe elke optie werkt op je eigen apparaat!";
+"RunIRL.text4" = "Door te testen op een echt apparaat kun je veel dingen valideren die niet mogelijk zijn op de simulator: de gebaren, meldingen, spreeksnelheden, rotors...";
+"RunIRL.text5" = "Maar het belangrijkste is dat je comfortabel wordt met het gebruik van de toegankelijkheidstools en een beter begrip krijgt van hun impact op de code en op je gebruikers.";
+"RunIRL.Shortcuts.title" = "Snelkoppelingen";
+"RunIRL.Shortcuts.text1" = "Het in- en uitschakelen van toegankelijkheidsopties kan erg traag en pijnlijk zijn om te testen.";
+"RunIRL.Shortcuts.text2" = "Dus iOS wordt zelfs geleverd met aangepaste snelkoppelingen die je kunt gebruiken om sneller toegang te krijgen tot deze opties.";
+"RunIRL.Shortcuts.text3" = "Je kunt snelkoppelingen toevoegen aan het bedieningspaneel voor zaken als dynamische lettertypen en donkere modus.";
+"RunIRL.Shortcuts.text4" = "En er is zelfs een optie voor toegankelijkheidssnelkoppelingen in het Bedieningspaneel!";
+"RunIRL.Shortcuts.image" = "Toegankelijkheidssnelkoppelingen op het iOS-bedieningspaneel.";
+
+// Identify Issues
+"IdentifyIssues.title" = "Identificeer problemen";
+
+// UngroupedElements
+"UngroupedElements.title" = "VoiceOver-problemen";
+"UngroupedElements.text1" = "VoiceOver-problemen zijn meestal moeilijk te vinden wanneer je alleen naar de code kijkt. Idealiter zou je het moeten testen met een echt apparaat of de toegankelijkheidsinspecteur om te controleren hoe het zich gedraagt.";
+"UngroupedElements.text2" = "Maar we hebben wel wat tips om je te helpen erop te letten!";
+"UngroupedElements.UngroupedElements.title" = "Niet-gegroepeerde elementen";
+"UngroupedElements.UngroupedElements.text1" = "Dit is het meest voorkomende probleem bij VoiceOver, maar ook het gemakkelijkst op te lossen!";
+"UngroupedElements.UngroupedElements.text2" = "Maar om het te identificeren in de code, moet je eerst controleren welke weergave deze code rendert en nadenken: Hoe moeten deze elementen worden voorgelezen door de VoiceOver?";
+"UngroupedElements.UngroupedElements.text3" = "Meestal kunnen we bedenken hoe inhoud moet worden gegroepeerd door naar de weergavehiërarchie te kijken en op te merken hoe de screenreader erdoorheen navigeert.";
+"UngroupedElements.UngroupedElements.text4" = "En om een ontbrekende groep te identificeren, hoef je alleen maar naar de bovenliggende weergave te kijken! En controleren of het wordt gegroepeerd of niet.";
+"UngroupedElements.UngroupedExamples.text1" = "De bovenstaande code rendert een cel die opnieuw wordt gebruikt op een carrousel.";
+"UngroupedElements.UngroupedExamples.text2" = "Als je naar de bovenliggende weergave kijkt (de VStack), kun je zien dat het niet wordt gegroepeerd.";
+"UngroupedElements.UngroupedExamples.text3" = "Dus de cellen worden niet voorgelezen als een enkel element, maar de titel wordt apart voorgelezen van de inhoud, op alle cellen!";
+"UngroupedElements.UngroupedExamples.comment1" = "En als de carrousel meer cellen horizontaal bevat, worden de titels allemaal voorgelezen vóór de beschrijvingen.";
+"UngroupedElements.UngroupedExamples.text4" = "Om het op te lossen, hoef je alleen maar de elementen in de bovenliggende weergave te groeperen met de combine-strategie.";
+"UngroupedElements.UngroupedExamples.comment2" = "Waarom combineren? We willen dat het één element wordt, en dat is precies wat de combine doet!";
+"UngroupedElements.UngroupedExamples.text5" = "Bij UIKit is het iets ingewikkelder. Je moet nog steeds controleren of de bovenliggende weergave een toegankelijk element is, en of het de juiste toegankelijkheidslabel heeft als een combinatie van zijn kinderen.";
+"UngroupedElements.UngroupedExamples.text6" = "Als je GEEN toegankelijkheidscode opmerkt, let dan op! Ik raad altijd aan een methode te hebben die de toegankelijkheid van de weergaven configureert, zodat het gemakkelijk te vinden is bij het beoordelen.";
+
+// Accessibility Welcome
+"AccessibilityWelcome.card1" = "Wil je je apps toegankelijker maken, maar weet je niet hoe?";
+"AccessibilityWelcome.card2" = "Denk je soms: \"Ik ken de toegankelijkheidsfuncties, maar ik weet gewoon niet waar ik ze moet gebruiken\"?";
+"AccessibilityWelcome.card3" = "Wil je in staat zijn om code te maken en te beoordelen met toegankelijkheid in gedachten?";
+"AccessibilityWelcome.card4" = "Maak kennis met: Classes!\n\nOnze nieuwe inhoud is gericht op het helpen leren precies dat. Wat te overwegen en wat te verwachten bij het overwegen van toegankelijkheid in je apps!";
+"AccessibilityWelcome.next" = "Volgende";
+"AccessibilityWelcome.previous" = "Vorige";
+"AccessibilityWelcome.close" = "Sluiten";
+"AccessibilityWelcome.more" = "Open Classes onboarding";
+"AccessibilityWelcome.letsgo" = "Laten we gaan!";
+"AccessibilityWelcome.hint" = "Dubbeltik om naar het volgende item te gaan";
+
+// Mix of colors
+"MixOfColors.title" = "Mix van kleuren";
+"MixOfColors.comment1" = "Wat?";
+"MixOfColors.text1" = "Hier mixt een mix van kleuren aanpasbare kleuren met niet-aanpasbare kleuren.";
+"MixOfColors.text2" = "En dit lijkt misschien gek, maar als je meerdere kleurmodi ondersteunt, moet je echt voorzichtig zijn met het mengen van kleuren uit verschillende bronnen.";
+"MixOfColors.Example.text1" = "Bekijk de onderstaande code.";
+"MixOfColors.Example.comment1" = "Het lijkt onschadelijk, toch?";
+"MixOfColors.Example.text2" = "Standaard is de tekstkleur aanpasbaar, dus in dit voorbeeld plaatsen we een aanpasbare tekst op een effen kleur (dat zou je achtergrondkleur moeten zijn).";
+"MixOfColors.Example.text3" = "Maar als je het kleurenschema wijzigt, verdwijnt de tekst.";
+"MixOfColors.Example.comment2" = "De tekst hierboven rendert het voorbeeld op de code. Probeer je kleurenschema te wijzigen en zie hoe het zich gedraagt.";
+"MixOfColors.Example.text4" = "En dit zal ook gebeuren op UIKit, dus je moet altijd alle kleurenschema's testen bij het implementeren ervan, en het vinden van vaste kleuren kan een teken zijn dat er iets mis kan zijn.";
+"MixOfColors.CounterExample.title" = "Tegenvoorbeeld";
+"MixOfColors.CounterExample.text1" = "Soms is het zinvol om vaste kleuren te gebruiken.";
+"MixOfColors.CounterExample.text2" = "Dit gebeurt meestal bij het gebruik van een effen achtergrondkleur (die niet de standaard achtergrondkleur is) om een component te markeren, zoals een knop.";
+"MixOfColors.CounterExample.text3" = "In dit geval willen we dat de tekstkleur altijd wit is, omdat deze boven op een kleurrijke achtergrond staat, zelfs als het kleurenschema verandert.";
+
+// Missing Accessibility Actions
+"MissingAccessibilityActions.title" = "Ontbrekende Toegankelijkheidsacties";
+"MissingAccessibilityActions.text1" = "We hebben al besproken hoe belangrijk het is om alle acties die je hebt op reguliere invoer ook op VoiceOver te behandelen.";
+"MissingAccessibilityActions.text2" = "En hier zullen we een beetje bespreken hoe je dit soort problemen kunt identificeren door naar de code te kijken.";
+"MissingAccessibilityActions.Gesture.title" = "Bewegingen";
+"MissingAccessibilityActions.Gesture.text1" = "Bij het gebruik van aangepaste bewegingen moet je een manier bieden om die beweging te ondersteunen met screenreaders.";
+"MissingAccessibilityActions.Gesture.comment1" = "De longpress-beweging is een uitzondering, bij gebruik ervan krijgt het toegankelijke component de driedubbele tik-beweging, die de longpress simuleert. Maar in deze gevallen is het belangrijk om het aan te kondigen met behulp van andere inhoud, zoals een toegankelijkheidshint.";
+"MissingAccessibilityActions.Gesture.text2" = "Het bovenstaande voorbeeld gebruikt een tiktik-beweging (en het is zelfs gegroepeerd!), heel eenvoudig. Maar bij het gebruik van VoiceOver en het activeren van het element wordt de beweging niet geactiveerd. Dus je moet het handmatig aan de code toevoegen.";
+"MissingAccessibilityActions.Group.title" = "Groepeer elementen met knoppen";
+"MissingAccessibilityActions.Group.text1" = "Bij het groeperen van elementen kunnen we eindigen met het groeperen van een knop.";
+"MissingAccessibilityActions.Group.text2" = "Bij het groeperen van elementen kunnen we eindigen met het groeperen van een knop. En als we het niet correct behandelen, kunnen we de actie van de knop verliezen.";
+"MissingAccessibilityActions.Group.text3" = "In dit geval moeten we ervoor zorgen dat het gegroepeerde element de knopkenmerk heeft en dezelfde actie uitvoert als de knop wanneer het wordt geactiveerd.";
+"MissingAccessibilityActions.Group.comment1" = "En als je meerdere knoppen samen groepeert, oh boy! Dat is een goed voorbeeld voor aangepaste acties!";
