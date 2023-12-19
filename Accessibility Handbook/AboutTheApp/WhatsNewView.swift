@@ -17,18 +17,23 @@ struct WhatsNewView: View, Page {
         currentVersion
         v1_8_2
         v1_8_1
-        v1_8_0
-        v1_7_0
-        v1_6_0
-        v1_5_0
-        v1_4_0
-        v1_3_0
-        v1_2_0
-        v1_1_0
+        old
       }
     }
     .navigationTitle(title)
     .padding(.horizontal)
+  }
+
+  @ViewBuilder
+  var old: some View {
+    v1_8_0
+    v1_7_0
+    v1_6_0
+    v1_5_0
+    v1_4_0
+    v1_3_0
+    v1_2_0
+    v1_1_0
   }
 }
 
